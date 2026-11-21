@@ -1,4 +1,4 @@
-response_id,case,incumbent,date,sector_milestone,type,description,source_original,status,sector,milestone_year,year,lag_years,phase,export_year,export_year_type,phase_export,mss_coder2
+response_id,case,incumbent,date,sector_milestone,type,description,source_original,status,sector,milestone_year,year,lag_years,phase,export_year,export_year_type,phase_export,reach_coder2
 R-DE-01,DE,GB,1885-08,M-DE-DYE,investigation,Royal Commission on the Depression of Trade and Industry appointed,Hansard HL 10 Aug 1885,ungeprueft,synthetic dyes,1870,1885,15,post,1899.0,spaetestens,undetermined,
 R-DE-02,DE,GB,1887-08-23,M-DE-DYE,binding_narrow,Merchandise Marks Act 1887: country-of-origin marking,50 & 51 Vict. c. 28,im Material geprueft,synthetic dyes,1870,1887,17,post,1899.0,spaetestens,undetermined,
 R-DE-03,DE,GB,1896,M-DE-DYE,rhetoric,E. E. Williams: Made in Germany,Williams (1896),im Material geprueft,synthetic dyes,1870,1896,26,post,1899.0,spaetestens,undetermined,

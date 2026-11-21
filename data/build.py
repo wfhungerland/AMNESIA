@@ -128,7 +128,7 @@ def ds1_events():
 
     e["phase_export"] = e.apply(phase_export, axis=1)
     e.to_csv(D / "ds1_events.csv", index=False)
-    e.drop(columns=["mss_coder1"]).assign(mss_coder2="").to_csv(D / "ds1_coder2_blank.csv", index=False)
+    e.drop(columns=["reach_coder1"]).assign(reach_coder2="").to_csv(D / "ds1_coder2_blank.csv", index=False)
     return e
 
 

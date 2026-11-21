@@ -26,3 +26,10 @@ done
 curl -sSL -o TRADHIST_v4.dta "https://www.cepii.fr/DATA_DOWNLOAD/TRADHIST/TRADHIST_v4.dta"
 
 sha256sum TRADHIST_v4.dta pwt110.dta maddison2023_web.dta oecd_*.csv wb_*.json > SHA256SUMS.abruf
+
+# Gutachten: US-Einfuhren je Warengruppe (Comtrade) und Konkordanzen HS -> SITC (WITS)
+python3 data/population_fetch_usimports.py
+mkdir -p data/raw/wits && for c in S1 S3; do
+  curl -s -o data/raw/wits/H0_$c.zip https://wits.worldbank.org/data/public/concordance/Concordance_H0_to_$c.zip
+  (mkdir -p data/raw/wits/H0_$c && cd data/raw/wits/H0_$c && unzip -oq ../H0_$c.zip)
+done

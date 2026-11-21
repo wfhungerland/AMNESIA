@@ -1,6 +1,6 @@
-# DS1: Punkteskala für Reaktionen der Etablierten (MSS 1 bis 5)
+# DS1: Punkteskala für Reaktionen der Etablierten (IR 1 bis 5)
 
-MSS steht für Manifest Salience Score. Er misst, wie schwer eine Reaktion des Etablierten den Aufsteiger trifft. Gezählt wird die Maßnahme selbst, nicht die Lautstärke der Debatte.
+IR steht für Instrument Reach, die Reichweite der Maßnahme. Die Skala hieß früher Manifest Salience Score (MSS); umbenannt nach dem Gutachten, weil sie Reichweite und Bindung misst, nicht Aufmerksamkeit. Sie misst, wie weit und wie bindend eine Reaktion des Etablierten den Aufsteiger trifft. Gezählt wird die Maßnahme selbst, nicht die Lautstärke der Debatte.
 
 | Punkte | Stufe | Regel | Beispiel |
 |---|---|---|---|
@@ -19,4 +19,4 @@ Zweifelsfälle: Bei zwei möglichen Stufen gilt die niedrigere, mit kurzem Verme
 
 ## Zweitcodierung
 
-`ds1_coder2_blank.csv` enthält alle Reaktionen ohne meine Punkte. Trage in `mss_coder2` je eine Zahl von 1 bis 5 ein, ohne in `ds1_events.csv` nachzusehen. Danach rechne ich die Übereinstimmung (Krippendorffs Alpha, ordinal).
+`ds1_coder2_blank.csv` enthält alle Reaktionen ohne meine Punkte. Trage in `reach_coder2` je eine Zahl von 1 bis 5 ein, ohne in `ds1_events.csv` nachzusehen. Danach rechne ich die Übereinstimmung (Krippendorffs Alpha, ordinal).

@@ -1,4 +1,4 @@
-instrument_id,year,month,target,instrument,legal_basis,mss,codes_s1,codes_s3,codes_hs4,source,target_source_status
+instrument_id,year,month,target,instrument,legal_basis,reach,codes_s1,codes_s3,codes_hs4,source,target_source_status
 B-01,1957,1,JP,Five-year Japanese restraint on cotton textile exports,bilateral VER,4,652;841,,,FRUS 1955-57 IX; USITC Pub. 850,geprueft (Sekundaer)
 B-02,1962,10,JP;KR,Long-Term Arrangement on cotton textiles,multilateral (GATT LTA),4,652;841,,,USITC Pub. 850,Zielaender ungeprueft
 B-03,1969,1,JP,Voluntary restraint arrangement on steel,bilateral VRA,4,67,,,Michigan JIL; Urata (2020),geprueft (Sekundaer)

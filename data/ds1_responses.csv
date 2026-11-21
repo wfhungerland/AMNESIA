@@ -1,4 +1,4 @@
-response_id,case,incumbent,date,sector_milestone,type,description,mss_coder1,source_original,status
+response_id,case,incumbent,date,sector_milestone,type,description,reach_coder1,source_original,status
 R-DE-01,DE,GB,1885-08,M-DE-DYE,investigation,Royal Commission on the Depression of Trade and Industry appointed,2,Hansard HL 10 Aug 1885,ungeprueft
 R-DE-02,DE,GB,1887-08-23,M-DE-DYE,binding_narrow,Merchandise Marks Act 1887: country-of-origin marking,3,50 & 51 Vict. c. 28,im Material geprueft
 R-DE-03,DE,GB,1896,M-DE-DYE,rhetoric,E. E. Williams: Made in Germany,1,Williams (1896),im Material geprueft

@@ -10,7 +10,7 @@ INK, MUTED, GRID = "#1f2328", "#59636e", "#d8dee4"
 plt.rcParams.update({"font.family": "serif", "font.size": 9, "axes.edgecolor": MUTED,
                      "xtick.color": MUTED, "ytick.color": MUTED, "axes.labelcolor": INK})
 
-# Abbildung 1: Lag je Reaktion, nach Fall; Fuellung nach MSS
+# Abbildung 1: Lag je Reaktion, nach Fall; Fuellung nach Reichweite (IR)
 e = pd.read_csv(R / "data" / "ds1_events.csv")
 cases = [("DE", "Germany vs Britain"), ("JP", "Japan vs United States"), ("KR", "Korea vs United States, Japan"), ("CN", "China vs United States, EU")]
 shade = {1: "#c9d6e3", 2: "#9fb6cc", 3: "#6f93b4", 4: "#3f6f99", 5: "#1b3f63"}
@@ -18,7 +18,7 @@ fig, ax = plt.subplots(figsize=(6.3, 3.1))
 for i, (c, lab) in enumerate(cases):
     x = e[e.case == c]
     y = [i + (k % 5 - 2) * 0.08 for k in range(len(x))]
-    ax.scatter(x.lag_years, y, s=28, c=[shade[int(v)] for v in x.mss_coder1], edgecolors="white", linewidths=0.8, zorder=3)
+    ax.scatter(x.lag_years, y, s=28, c=[shade[int(v)] for v in x.reach_coder1], edgecolors="white", linewidths=0.8, zorder=3)
 ax.axvline(0, color=INK, lw=0.9)
 ax.axvspan(-30, 0, color="#eef1f4", lw=0, zorder=0)
 ax.set_yticks(range(len(cases)), [l for _, l in cases])
@@ -29,7 +29,7 @@ ax.text(-27, -0.45, "absorption phase", color=MUTED, fontsize=8, va="top")
 ax.grid(axis="x", color=GRID, lw=0.6)
 ax.spines[["top", "right"]].set_visible(False)
 for k in range(1, 6):
-    ax.scatter([], [], s=28, c=shade[k], edgecolors="white", label=f"MSS {k}")
+    ax.scatter([], [], s=28, c=shade[k], edgecolors="white", label=f"IR {k}")
 ax.legend(frameon=False, ncol=5, loc="upper center", bbox_to_anchor=(0.5, 1.16), fontsize=8, handletextpad=0.2, columnspacing=0.9)
 fig.savefig(R / "manuscript" / "figures" / "fig1_lags.pdf", bbox_inches="tight")
 fig.savefig(R / "manuscript" / "figures" / "fig1_lags.png", dpi=200, bbox_inches="tight")

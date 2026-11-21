@@ -10,7 +10,7 @@ Each section lists its key sentences. Every number has a source in `data/` or in
 
 - Late industrialisers face external constraint from incumbent powers: tariffs, quotas, export restraints, technology denial. Development economics treats this constraint as background.
 - Question: when does incumbent constraint arrive in the catch-up process: during technology absorption, or after the challenger has displaced the incumbent in contested markets?
-- Answer: across four episodes (Germany against Britain 1850–1914, Japan and Korea against the United States 1950–1997, China against the United States and the EU 1978–2024), binding constraint follows displacement in the markets where the incumbent sells. Of 41 coded incumbent responses, 5 precede the relevant milestone, and only 1 of these is a binding instrument scoring 4 or 5 on the salience scale.
+- Answer: across four episodes (Germany against Britain 1850–1914, Japan and Korea against the United States 1950–1997, China against the United States and the EU 1978–2024), binding constraint follows displacement in the markets where the incumbent sells. Of 41 coded incumbent responses, 5 precede the relevant milestone, and only 1 of these is a binding instrument scoring 4 or 5 on the instrument-reach scale.
 - Two refinements: (a) escalation tracks displacement in sectors with political voice in the incumbent (British sugar and steel, not dyes); (b) growth alone does not trigger escalation (the United States overtook Britain in income around 1900 without displacing it in third markets, and drew no comparable reaction).
 - Contribution: a dated, sector-level sequencing test across 175 years that endogenises the incumbent, which the developmental-state, convergence and trade-politics literatures treat as exogenous or static.
 - Claim discipline: sequencing, not causation.
@@ -30,14 +30,14 @@ Source: `research/projekt/... Literature Positioning Across Five Fields.md`.
 
 - Cases and incumbents; why these four (largest late industrialisers measured against a frontier incumbent).
 - **Displacement milestone:** first year the challenger leads in the market where the incumbent sells, by sector (18 milestones, Table 1). Robustness: uniform export rule (UN Comtrade; Tyszynski 1951 for Germany).
-- **Incumbent responses:** 41 events, each coded on the Manifest Salience Score 1–5 (rubric in Appendix E), two coders, Krippendorff's α reported.
+- **Incumbent responses:** 41 events, each coded on the instrument-reach scale 1–5 (rubric in Appendix E), two coders, Krippendorff's α reported.
 - **Phase and lag:** absorption = before the sector's milestone; lag = response year minus milestone year. Economy-wide measures are dated against the case's first milestone.
 - **Independent attention measure:** Historic Hansard 1850–1914, 15,126 economic debates; mentions of Germany and of the United States per 100,000 words; sector split.
-- **Falsification condition**, stated ex ante: the claim fails if binding instruments (MSS ≥ 4) systematically precede displacement, or if the lags are fully explained by administrative processing times.
+- **Falsification condition**, stated ex ante: the claim fails if binding instruments (IR ≥ 4) systematically precede displacement, or if the lags are fully explained by administrative processing times.
 
 ## 4. Results: the sequence in four cases (≈ 2,000 words)
 
-- **Germany and Britain.** Chemicals export lead by 1899 (1.43 times British exports), with almost no parliamentary voice; sugar (1880) the first sector where Germany becomes a political issue, ending in the Brussels Convention of 1902 (MSS 4); steel and machinery displaced in export markets only between 1899 and 1913 (0.35 to 0.91; 0.50 to 1.33), when attention to Germany in economic debates roughly triples and Tariff Reform starts (1903). Comprehensive protection never comes before 1932.
+- **Germany and Britain.** Chemicals export lead by 1899 (1.43 times British exports), with almost no parliamentary voice; sugar (1880) the first sector where Germany becomes a political issue, ending in the Brussels Convention of 1902 (IR 4); steel and machinery displaced in export markets only between 1899 and 1913 (0.35 to 0.91; 0.50 to 1.33), when attention to Germany in economic debates roughly triples and Tariff Reform starts (1903). Comprehensive protection never comes before 1932.
 - **Japan and the United States.** Textiles (1951 → restraint 1957), television (1970 → antidumping 1971, OMA 1977), steel (1969 → VRA 1969, trigger prices 1978), cars (1980 → VER 1981), semiconductors (1981/1987 → agreement 1986, tariffs 1987). All binding instruments after their sector milestone; lags 0 to 9 years.
 - **Korea.** Section 301 IP case (1985) and IP agreement (1986) precede DRAM leadership but score 2 and 3; antidumping 1993 one year after leadership. Shipbuilding: 18-year lag to Japan's WTO complaints, consistent with the weak political voice of the declining Japanese industry.
 - **China.** Binding responses follow manufacturing (2010), solar and telecoms (2012) by zero to eight years. The October 2022 export controls are the bounded exception: preventive denial in one sector before any market lead.

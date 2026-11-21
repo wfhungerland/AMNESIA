@@ -1,12 +1,12 @@
 nr,section,claim,source,checked
-1,Abstract/4,41 responses; 36 after the milestone; 5 before; 1 binding with MSS>=4 before,data/ds1_events.csv (build.py),ja (aus Daten gerechnet)
+1,Abstract/4,41 responses; 36 after the milestone; 5 before; 1 binding with IR>=4 before,data/ds1_events.csv (build.py),ja (aus Daten gerechnet)
 2,Abstract/4,18 sectoral milestones,data/ds1_milestones.csv,ja
 3,3.1,German manufactured exports 89% of British in 1913,Tyszynski (1951) Tables II/VIII; data/tyszynski_1951_selected.csv,ja (am Scan und an Table VIII)
 4,3.1/6,Japan TFP 0.80 in 1991; 0.64 in 2023,PWT 11.0 ctfp; data/ds3_tfp.csv,ja (0.796; 0.640)
 5,3.1,China GDP per head 33% of US in 2022,Maddison 2023; data/ds2_gdppc.csv,ja (0.329)
 6,3.4,Hansard: 281577 debates; 15126 economic,data/ds1_hansard_salience.csv,ja
 7,4.1,Chemical exports 43% above British in 1899,Tyszynski (1951) Table I,ja
-8,4.1,Brussels Sugar Convention 1902 lag 22 years; MSS 4,ds1_events.csv; Foreign Affairs (1926),Inhalt ja; Tagesdatum 5.3.1902 ungeprueft
+8,4.1,Brussels Sugar Convention 1902 lag 22 years; IR 4,ds1_events.csv; Foreign Affairs (1926),Inhalt ja; Tagesdatum 5.3.1902 ungeprueft
 9,4.1,Patents and Designs Act 1907 compulsory working,research/faelle (Incumbent Rhetoric 2026),ungeprueft
 10,4.1,Iron/steel 35->91%; equipment 50->133%; electrical 58->211% of British exports,Tyszynski (1951) Tables I-II,ja
 11,4.1,Tariff Reform launched 1903,Policy Amnesia Index v2.5 (15.5.1903 Birmingham),im Material geprueft
@@ -37,3 +37,6 @@ nr,section,claim,source,checked
 36,4.7,Window and placebo tests,data/tests_sequence.txt,ja (gerechnet)
 37,4.7,Broad register: 23 instruments; 31 pairs; 22 post; 4 pre; 5 not datable,data/broad_register_tested.csv,ja (gerechnet; Zielländer teils Sekundär)
 38,4.7,Population hazard: JP 22%; KR 20%; CN 1% (74% with 301 tariffs),data/population_hazard.csv,ja (gerechnet)
+39,4.7,Control group: broad start IRR 5.7 (2.3-14.0) JP+KR; CN 301 covered 813/813 groups,data/population_panel.txt,ja (gerechnet)
+40,4.7,AD/CVD: 3.4 vs 6.5 per 100 gy; IRR 1.10 with size control; JP 2.0,data/population_panel.txt,ja (gerechnet; HS-SITC ueber WITS-Konkordanz)
+41,4.7,Weight: AD within 5y by import third 1/11/30%; broad 27/14/23%,data/population_weight.csv,ja (gerechnet)

@@ -66,7 +66,7 @@ for _, r in reg.iterrows():
             status = "post (Kreuzung spaetestens im ersten Datenjahr)" if iy >= y else "unbestimmt (Daten beginnen nach Massnahme)"
         else:
             status = "post" if iy >= y else "absorption"
-        rows.append({"instrument_id": r.instrument_id, "year": iy, "target": tgt, "instrument": r.instrument, "mss": r.mss,
+        rows.append({"instrument_id": r.instrument_id, "year": iy, "target": tgt, "instrument": r.instrument, "reach": r.reach,
                      "data": name, "crossover_year": y, "left_censored": left, "first_data_year": first, "phase": status})
 t = pd.DataFrame(rows)
 t.to_csv(D / "broad_register_tested.csv", index=False)

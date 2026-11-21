@@ -1,4 +1,4 @@
-instrument_id,year,target,instrument,mss,data,crossover_year,left_censored,first_data_year,phase
+instrument_id,year,target,instrument,reach,data,crossover_year,left_censored,first_data_year,phase
 B-01,1957,JP,Five-year Japanese restraint on cotton textile exports,4,s1,1962.0,True,1962.0,unbestimmt (Daten beginnen nach Massnahme)
 B-02,1962,JP,Long-Term Arrangement on cotton textiles,4,s1,1962.0,True,1962.0,post (Kreuzung spaetestens im ersten Datenjahr)
 B-02,1962,KR,Long-Term Arrangement on cotton textiles,4,s1,1972.0,False,1962.0,absorption

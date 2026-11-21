@@ -1,0 +1,35 @@
+Kontrollgruppe: Panel Warengruppe x Jahr (Gruppen mit Ausfuhren des Aufsteigers >= 50 Mio. USD)
+CN_hs4: 819 Gruppen, davon verdraengt 678; Jahre 2008-2023
+CN_s3: 163 Gruppen, davon verdraengt 96; Jahre 1992-2009
+JP_s1: 90 Gruppen, davon verdraengt 51; Jahre 1962-1999
+KR_s1: 88 Gruppen, davon verdraengt 25; Jahre 1962-1999
+KR_s3: 156 Gruppen, davon verdraengt 32; Jahre 1992-2009
+
+(a) Beginn gezielter breiter Massnahmen, Gruppen bis zum ersten Treffer
+JP und KR, SITC Rev. 1, 1962-1999: je 100 Gruppenjahre vor 0.24 (11 Ereignisse, 4673 Gj.), nach 1.15 (16, 1395); IRR 5.69 (95 % KI 2.31-14.02), p=0.000
+CN ohne 301-Zoelle (s3 und hs4): je 100 Gruppenjahre vor 0.02 (1 Ereignisse, 5985 Gj.), nach 0.04 (4, 9941); IRR 1.13 (95 % KI 0.11-11.24), p=0.916
+CN hs4, 301-Zoelle 2018: erfasst 813 von 813 Gruppen; davon verdraengt 609 von 609, nicht verdraengt 204 von 204
+
+(b) Neue US-AD/CVD-Verfahren gegen den Aufsteiger, 1988-2015
+CN_hs4: je 100 Gruppenjahre vor 3.06 (77 Ereignisse, 2515 Gj.), nach 4.19 (167, 3981); IRR 0.71 (95 % KI 0.43-1.16), p=0.167
+CN_s3: je 100 Gruppenjahre vor 5.16 (103 Ereignisse, 1996 Gj.), nach 9.28 (87, 938); IRR 0.74 (95 % KI 0.45-1.21), p=0.231
+JP_s1: je 100 Gruppenjahre vor 3.62 (17 Ereignisse, 469 Gj.), nach 12.00 (72, 600); IRR 2.01 (95 % KI 1.10-3.68), p=0.023
+KR_s1: je 100 Gruppenjahre vor 4.06 (31 Ereignisse, 763 Gj.), nach 13.31 (39, 293); IRR 2.33 (95 % KI 0.82-6.59), p=0.111
+KR_s3: je 100 Gruppenjahre vor 1.96 (47 Ereignisse, 2401 Gj.), nach 9.34 (38, 407); IRR 2.92 (95 % KI 1.00-8.58), p=0.051
+alle zusammen (Jahr x Quelle, mit Groesse der Ausfuhren): je 100 Gruppenjahre vor 3.38 (275 Ereignisse, 8144 Gj.), nach 6.48 (403, 6219); IRR 1.10 (95 % KI 0.75-1.60), p=0.624
+alle zusammen, ohne Groessenkontrolle: je 100 Gruppenjahre vor 3.38 (275 Ereignisse, 8144 Gj.), nach 6.48 (403, 6219); IRR 1.97 (95 % KI 1.37-2.82), p=0.000
+Ereignisstudie (Jahre relativ zur Kreuzung):
+          gj  faelle  je100
+bin                        
+nie     5782   150.0   2.59
+<=-6    1259    65.0   5.16
+-5..-1  1103    60.0   5.44
+0..4    3251   206.0   6.34
+5..9    1797    93.0   5.18
+>=10    1171   104.0   8.88
+
+Gewicht: Logit unter verdraengten Gruppen; Regressoren in log Mio. USD im Kreuzungsjahr
+breite Massnahme binnen 10 J., JP und KR (s1): N=66, Anteil 0.21; l_m_us -0.06 (p=0.775); l_x_us -0.59 (p=0.466); l_x_ch +0.67 (p=0.480)
+   nach Terzil der US-Einfuhren aus dem Aufsteiger: niedrig 0.27, mittel 0.14, hoch 0.23
+AD/CVD-Verfahren binnen 5 J., alle Quellen: N=228, Anteil 0.14; l_m_us +0.20 (p=0.247); l_x_us +2.61 (p=0.027); l_x_ch -2.41 (p=0.038)
+   nach Terzil der US-Einfuhren aus dem Aufsteiger: niedrig 0.01, mittel 0.11, hoch 0.30
