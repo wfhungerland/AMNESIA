@@ -106,6 +106,21 @@ Brackets: 95 % Wilson intervals.
 
 The clearest break occurs in sugar, the sector with the most political voice: Germany is almost absent from British sugar debates before the rise of bounty-fed beet sugar and appears in about one sugar debate in six afterwards, ending in the Brussels Sugar Convention of 1902. Steel shows the same direction with overlapping intervals. Dyes, where German displacement came first, were almost never debated at all. This refines the primary claim: escalation follows displacement in sectors that have political voice in the incumbent. The long lag between the dye milestone and the Patents and Designs Act of 1907 is consistent with this reading.
 
+
+Export data by sector sharpen the timing. Tyszynski (1951, Tables I and II) reports manufactured exports of eleven countries in sixteen groups for 1899 and 1913 (Table E6). In chemicals, German exports already exceeded British exports by 43 per cent in 1899, consistent with an early dye milestone. In iron and steel, by contrast, German exports were only 35 per cent of British exports in 1899 and reached 91 per cent by 1913; in industrial equipment and electrical goods Germany overtook Britain between the two benchmarks. The production crossover in steel (1893) thus preceded displacement in export markets, which came in the 1900s. The rise of German steel and machinery exports between 1899 and 1913 coincides with the period in which German competition became a parliamentary theme and Tariff Reform was launched (1903). Crafts (1989, Table 1) confirms the pattern from the side of specialisation: chemicals ranked among Germany's top five sectors of revealed comparative advantage in both 1899 and 1913, iron and steel did not (ranks 11 and 8), while electrical goods rose from rank 10 to rank 1.
+
+**Table E6. German and American manufactured exports relative to British exports, by group (Britain = 1)**
+
+| Group | Germany 1899 | Germany 1913 | United States 1899 | United States 1913 |
+|---|---|---|---|---|
+| Iron and steel | 0.35 | 0.91 | 0.27 | 0.39 |
+| Chemicals | 1.43 | 1.70 | 0.52 | 0.44 |
+| Industrial equipment | 0.50 | 1.33 | 0.59 | 0.75 |
+| Electrical goods | 0.58 | 2.11 | 0.94 | 0.69 |
+| All manufactures | 0.68 | 0.89 | 0.34 | 0.42 |
+
+Source: Tyszynski (1951), Tables I and II, current £000; values transcribed from the scanned tables and checked against the text layer and against the country totals in Table VIII.
+
 ## E.7 Comparison: the United States
 
 The United States overtook Britain in GDP per capita around 1900 (Maddison Project 2023). If displacement alone triggered escalation, British attention to the United States should rise as well. It does not. Mentions of the United States per 100,000 words of economic debate stay between 41 and 56 across all four periods (Germany: 14 rising to 43–45), and the share of debates linking the United States to competition terms stays near one per cent. Bilateral trade data support reading this as a scope condition rather than a refutation. In a fixed panel of 17 third markets with data for all three suppliers in every benchmark year from 1880 to 1913 (CEPII TRADHIST v4; Fouquin and Hugot 2016), German exports rise from 47 to 85 per cent of British exports and exceed them in seven markets by 1913 (Austria-Hungary, Belgium, Denmark, Finland, Italy, Norway, Sweden). US exports rise from 46 to 75 per cent, but to only 51 per cent once Canada is excluded, and exceed British exports only in Canada and Austria-Hungary (Table E5). The United States outgrew Britain at home; Germany displaced Britain in its export markets. The primary claim locates the trigger in contested markets, and the British record is consistent with that.
@@ -131,6 +146,9 @@ For manufactures alone, Tyszynski's (1951, Table VIII) shares of world manufactu
 4. **Title filter.** Economic debates are identified by title. Debates on economic matters under other titles, for example within question time, are missed.
 
 ## References
+
+Crafts, N. F. R. (1989) 'Revealed comparative advantage in manufacturing, 1899–1950', *Journal of European Economic History*, 18(1), pp. 127–137.
+
 
 Fouquin, M. and Hugot, J. (2016) *Two Centuries of Bilateral Trade and Gravity Data: 1827–2014*. CEPII Working Paper No. 2016-14. Paris: CEPII.
 
