@@ -1,0 +1,305 @@
+year,date,house,url,title,econ,words,target_hits,mentions_target,fetched,filter_version
+1896,1896/feb/11,commons,https://api.parliament.uk/historic-hansard/commons/1896/feb/11/trade-and-navigation,TRADE AND NAVIGATION.,True,89,0,False,True,econ_v1
+1896,1896/feb/13,commons,https://api.parliament.uk/historic-hansard/commons/1896/feb/13/board-of-agriculture-and-industry-for,BOARD OF AGRICULTURE AND INDUSTRY FOR IRELAND.,True,151,0,False,True,econ_v1
+1896,1896/feb/14,commons,https://api.parliament.uk/historic-hansard/commons/1896/feb/14/british-trade-in-china,BRITISH TRADE IN CHINA.,True,206,0,False,True,econ_v1
+1896,1896/feb/14,commons,https://api.parliament.uk/historic-hansard/commons/1896/feb/14/prison-made-goods-importation,PRISON-MADE GOODS IMPORTATION.,True,102,0,False,True,econ_v1
+1896,1896/feb/14,commons,https://api.parliament.uk/historic-hansard/commons/1896/feb/14/merchandise-marks-act-1887-amendment,MERCHANDISE MARKS ACT (1887) AMENDMENT.,True,85,0,False,True,econ_v1
+1896,1896/feb/14,commons,https://api.parliament.uk/historic-hansard/commons/1896/feb/14/coal-mines-regulation-act-1887-amendment,COAL MINES REGULATION ACT (1887) AMENDMENT.,True,105,0,False,True,econ_v1
+1896,1896/feb/17,commons,https://api.parliament.uk/historic-hansard/commons/1896/feb/17/the-merchandise-marks-act,THE MERCHANDISE MARKS ACT.,True,113,0,False,True,econ_v1
+1896,1896/feb/17,commons,https://api.parliament.uk/historic-hansard/commons/1896/feb/17/fishng-industry-at-dooagh-ireland,FISHNG INDUSTRY AT DOOAGH (IRELAND).,True,308,0,False,True,econ_v1
+1896,1896/feb/17,commons,https://api.parliament.uk/historic-hansard/commons/1896/feb/17/agricultural-depression-in-ireland,AGRICULTURAL DEPRESSION IN IRELAND.,True,379,0,False,True,econ_v1
+1896,1896/feb/18,commons,https://api.parliament.uk/historic-hansard/commons/1896/feb/18/foreign-manufactured-tobacco,FOREIGN MANUFACTURED TOBACCO.,True,352,0,False,True,econ_v1
+1896,1896/feb/19,commons,https://api.parliament.uk/historic-hansard/commons/1896/feb/19/industrial-and-provident,INDUSTRIAL AND PROVIDENT SOCIETIES(PURCHASE OF FEE SIMPLE).,True,114,0,False,True,econ_v1
+1896,1896/feb/20,commons,https://api.parliament.uk/historic-hansard/commons/1896/feb/20/indian-cotton-duties,INDIAN COTTON DUTIES.,True,233,0,False,True,econ_v1
+1896,1896/feb/20,commons,https://api.parliament.uk/historic-hansard/commons/1896/feb/20/boyne-navigation-transfer-bill,BOYNE NAVIGATION (TRANSFER BILL.),True,653,0,False,True,econ_v1
+1896,1896/feb/20,commons,https://api.parliament.uk/historic-hansard/commons/1896/feb/20/conciliation-trade-disputes-bill,CONCILIATION (TRADE DISPUTES) BILL.,True,1451,0,False,True,econ_v1
+1896,1896/feb/21,commons,https://api.parliament.uk/historic-hansard/commons/1896/feb/21/coal-mines-inspection,COAL MINES INSPECTION.,True,218,0,False,True,econ_v1
+1896,1896/feb/21,commons,https://api.parliament.uk/historic-hansard/commons/1896/feb/21/married-persons-small-industrial-income,MARRIED PERSONS' SMALL INDUSTRIAL INCOME TAX RELIEF.,True,105,0,False,True,econ_v1
+1896,1896/feb/21,commons,https://api.parliament.uk/historic-hansard/commons/1896/feb/21/prison-made-goods-importation-bill,PRISON-MADE GOODS IMPORTATION BILL.,True,72,0,False,True,econ_v1
+1896,1896/feb/24,commons,https://api.parliament.uk/historic-hansard/commons/1896/feb/24/cotton-weaving-factories,COTTON WEAVING FACTORIES.,True,205,0,False,True,econ_v1
+1896,1896/feb/24,commons,https://api.parliament.uk/historic-hansard/commons/1896/feb/24/irish-cattle-trade,IRISH CATTLE TRADE.,True,168,0,False,True,econ_v1
+1896,1896/feb/24,commons,https://api.parliament.uk/historic-hansard/commons/1896/feb/24/solicitors-licence-duty,SOLICITORS (LICENCE DUTY).,True,174,0,False,True,econ_v1
+1896,1896/feb/24,commons,https://api.parliament.uk/historic-hansard/commons/1896/feb/24/conciliation-trades-disputesbill,CONCILIATION (TRADES DISPUTES)BILL.,True,62,0,False,True,econ_v1
+1896,1896/feb/25,commons,https://api.parliament.uk/historic-hansard/commons/1896/feb/25/death-duties,DEATH DUTIES.,True,234,0,False,True,econ_v1
+1896,1896/feb/27,commons,https://api.parliament.uk/historic-hansard/commons/1896/feb/27/importation-of-drink-into-africa,IMPORTATION OF DRINK INTO AFRICA.,True,301,0,False,True,econ_v1
+1896,1896/feb/27,commons,https://api.parliament.uk/historic-hansard/commons/1896/feb/27/printing-and-allied-trades,PRINTING AND ALLIED TRADES.,True,392,0,False,True,econ_v1
+1896,1896/feb/27,commons,https://api.parliament.uk/historic-hansard/commons/1896/feb/27/conciliation-trade-disputes-bill,CONCILIATION (TRADE DISPUTES) BILL.,True,64,0,False,True,econ_v1
+1896,1896/feb/28,commons,https://api.parliament.uk/historic-hansard/commons/1896/feb/28/death-duties,DEATH DUTIES.,True,73,0,False,True,econ_v1
+1896,1896/feb/28,commons,https://api.parliament.uk/historic-hansard/commons/1896/feb/28/probate-duties-grant-ireland,PROBATE DUTIES GRANT (IRELAND).,True,176,0,False,True,econ_v1
+1896,1896/feb/28,commons,https://api.parliament.uk/historic-hansard/commons/1896/feb/28/conciliation-trade-disputes-bill,CONCILIATION (TRADE DISPUTES) BILL.,True,69,0,False,True,econ_v1
+1896,1896/feb/28,lords,https://api.parliament.uk/historic-hansard/lords/1896/feb/28/infant-life-protection-bill-hl,INFANT LIFE PROTECTION BILL [H.L.],True,95,0,False,True,econ_v1
+1896,1896/mar/10,commons,https://api.parliament.uk/historic-hansard/commons/1896/mar/10/police-protection-ireland,POLICE PROTECTION (IRELAND).,True,392,0,False,True,econ_v1
+1896,1896/mar/10,commons,https://api.parliament.uk/historic-hansard/commons/1896/mar/10/liquor-duty-gold-coast,LIQUOR DUTY (GOLD COAST).,True,153,1,True,True,econ_v1
+1896,1896/mar/10,commons,https://api.parliament.uk/historic-hansard/commons/1896/mar/10/prison-made-goods-importation-bill,PRISON-MADE GOODS IMPORTATION BILL.,True,66,0,False,True,econ_v1
+1896,1896/mar/10,commons,https://api.parliament.uk/historic-hansard/commons/1896/mar/10/boyne-navigation-transfer-bill,BOYNE NAVIGATION TRANSFER BILL.,True,63,0,False,True,econ_v1
+1896,1896/mar/10,commons,https://api.parliament.uk/historic-hansard/commons/1896/mar/10/conciliation-trade-disputes-bill,CONCILIATION (TRADE DISPUTES) BILL.,True,66,0,False,True,econ_v1
+1896,1896/mar/11,commons,https://api.parliament.uk/historic-hansard/commons/1896/mar/11/industrial-and-provident-societies,INDUSTRIAL AND PROVIDENT SOCIETIES (PURCHASE OF FEE SIMPLE) BILL.,True,80,0,False,True,econ_v1
+1896,1896/mar/11,commons,https://api.parliament.uk/historic-hansard/commons/1896/mar/11/prison-made-goods-importation-bill,PRISON-MADE GOODS IMPORTATION BILL.,True,65,0,False,True,econ_v1
+1896,1896/mar/12,commons,https://api.parliament.uk/historic-hansard/commons/1896/mar/12/customs-statistical-department,CUSTOMS STATISTICAL DEPARTMENT.,True,168,0,False,True,econ_v1
+1896,1896/mar/12,commons,https://api.parliament.uk/historic-hansard/commons/1896/mar/12/customs-statistical-office,CUSTOMS (STATISTICAL OFFICE).,True,245,0,False,True,econ_v1
+1896,1896/mar/12,commons,https://api.parliament.uk/historic-hansard/commons/1896/mar/12/imported-cattle,IMPORTED CATTLE.,True,291,0,False,True,econ_v1
+1896,1896/mar/12,commons,https://api.parliament.uk/historic-hansard/commons/1896/mar/12/police-fixed-point-duty,POLICE (FIXED POINT DUTY).,True,192,0,False,True,econ_v1
+1896,1896/mar/12,commons,https://api.parliament.uk/historic-hansard/commons/1896/mar/12/customs-officers,CUSTOMS OFFICERS.,True,349,0,False,True,econ_v1
+1896,1896/mar/12,commons,https://api.parliament.uk/historic-hansard/commons/1896/mar/12/baltimore-industrial-school-ireland,BALTIMORE INDUSTRIAL SCHOOL (IRELAND.),True,257,0,False,True,econ_v1
+1896,1896/mar/12,commons,https://api.parliament.uk/historic-hansard/commons/1896/mar/12/customs-extra-men-liverpool,CUSTOMS EXTRA MEN (LIVERPOOL).,True,258,0,False,True,econ_v1
+1896,1896/mar/12,commons,https://api.parliament.uk/historic-hansard/commons/1896/mar/12/prison-made-goods-importation-bill,PRISON-MADE GOODS IMPORTATION BILL.,True,258,0,False,True,econ_v1
+1896,1896/mar/12,commons,https://api.parliament.uk/historic-hansard/commons/1896/mar/12/boyne-navigation-transfer-bill,BOYNE NAVIGATION TRANSFER BILL.,True,64,0,False,True,econ_v1
+1896,1896/mar/12,commons,https://api.parliament.uk/historic-hansard/commons/1896/mar/12/conciliation-trade-disputes-bill,CONCILIATION (TRADE DISPUTES) BILL.,True,66,0,False,True,econ_v1
+1896,1896/mar/12,commons,https://api.parliament.uk/historic-hansard/commons/1896/mar/12/prison-made-goods-importation-bill-1,PRISON-MADE GOODS IMPORTATION BILL.,True,67,0,False,True,econ_v1
+1896,1896/mar/12,lords,https://api.parliament.uk/historic-hansard/lords/1896/mar/12/wild-birds-protection-acts-amendment,WILD BIRDS PROTECTION ACTS AMENDMENT BILL [H.L.],True,86,0,False,True,econ_v1
+1896,1896/mar/13,commons,https://api.parliament.uk/historic-hansard/commons/1896/mar/13/trade-disputes,TRADE DISPUTES.,True,167,0,False,True,econ_v1
+1896,1896/mar/16,commons,https://api.parliament.uk/historic-hansard/commons/1896/mar/16/indian-cotton-duties,INDIAN COTTON DUTIES.,True,193,0,False,True,econ_v1
+1896,1896/mar/16,commons,https://api.parliament.uk/historic-hansard/commons/1896/mar/16/baltimore-industrial-school,BALTIMORE INDUSTRIAL SCHOOL.,True,167,0,False,True,econ_v1
+1896,1896/mar/16,commons,https://api.parliament.uk/historic-hansard/commons/1896/mar/16/boyne-navigation-transfer-bill,BOYNE NAVIGATION TRANSFER BILL.,True,62,0,False,True,econ_v1
+1896,1896/mar/16,commons,https://api.parliament.uk/historic-hansard/commons/1896/mar/16/conciliation-trade-disputesbill,CONCILIATION (TRADE DISPUTES)BILL.,True,63,0,False,True,econ_v1
+1896,1896/mar/16,commons,https://api.parliament.uk/historic-hansard/commons/1896/mar/16/prison-made-goods-importation-bill,PRISON-MADE GOODS IMPORTATION BILL.,True,69,0,False,True,econ_v1
+1896,1896/mar/17,commons,https://api.parliament.uk/historic-hansard/commons/1896/mar/17/importation,IMPORTATION.,True,74,0,False,True,econ_v1
+1896,1896/mar/17,commons,https://api.parliament.uk/historic-hansard/commons/1896/mar/17/customs-clerks,CUSTOMS CLERKS.,True,177,0,False,True,econ_v1
+1896,1896/mar/17,commons,https://api.parliament.uk/historic-hansard/commons/1896/mar/17/local-taxation-customs-and-excise-act,LOCAL TAXATION (CUSTOMS AND EXCISE) ACT (1899) AMENDMENT.,True,114,0,False,True,econ_v1
+1896,1896/mar/18,commons,https://api.parliament.uk/historic-hansard/commons/1896/mar/18/prison-made-goods-importation-bill,PRISON-MADE GOODS IMPORTATION BILL.,True,64,0,False,True,econ_v1
+1896,1896/mar/19,commons,https://api.parliament.uk/historic-hansard/commons/1896/mar/19/cabul-treaty,CABUL TREATY.,True,162,0,False,True,econ_v1
+1896,1896/mar/19,commons,https://api.parliament.uk/historic-hansard/commons/1896/mar/19/trade-with-madagascar,TRADE WITH MADAGASCAR.,True,133,0,False,True,econ_v1
+1896,1896/mar/19,commons,https://api.parliament.uk/historic-hansard/commons/1896/mar/19/trade-with-japan,TRADE WITH JAPAN.,True,328,0,False,True,econ_v1
+1896,1896/mar/19,commons,https://api.parliament.uk/historic-hansard/commons/1896/mar/19/bacon-trade-ireland,BACON TRADE (IRELAND).,True,284,0,False,True,econ_v1
+1896,1896/mar/19,commons,https://api.parliament.uk/historic-hansard/commons/1896/mar/19/boyne-navigation-transfer-bill,"BOYNE NAVIGATION TRANSFER, BILL.",True,64,0,False,True,econ_v1
+1896,1896/mar/19,commons,https://api.parliament.uk/historic-hansard/commons/1896/mar/19/conciliation-trade-disputes-bill,CONCILIATION (TRADE DISPUTES) BILL.,True,63,0,False,True,econ_v1
+1896,1896/mar/19,lords,https://api.parliament.uk/historic-hansard/lords/1896/mar/19/infant-life-protection-bill-hl,INFANT LIFE PROTECTION BILL [H.L.],True,101,0,False,True,econ_v1
+1896,1896/mar/20,commons,https://api.parliament.uk/historic-hansard/commons/1896/mar/20/navy-victualling-yard-manufacturing,"NAVY (VICTUALLING YARD MANUFACTURING ACCOUNTS, 1894&#x2013;5).",True,100,0,False,True,econ_v1
+1896,1896/mar/20,commons,https://api.parliament.uk/historic-hansard/commons/1896/mar/20/merchandise-marks-act,MERCHANDISE MARKS ACT.,True,208,0,False,True,econ_v1
+1896,1896/mar/20,commons,https://api.parliament.uk/historic-hansard/commons/1896/mar/20/industrial-schools,INDUSTRIAL SCHOOLS.,True,267,0,False,True,econ_v1
+1896,1896/mar/20,commons,https://api.parliament.uk/historic-hansard/commons/1896/mar/20/trade-with-china,TRADE WITH CHINA.,True,504,0,False,True,econ_v1
+1896,1896/mar/20,commons,https://api.parliament.uk/historic-hansard/commons/1896/mar/20/niger-company-and-native-traders,NIGER COMPANY AND NATIVE TRADERS.,True,238,0,False,True,econ_v1
+1896,1896/mar/20,commons,https://api.parliament.uk/historic-hansard/commons/1896/mar/20/customs-statistical-department,CUSTOMS (STATISTICAL DEPARTMENT).,True,155,0,False,True,econ_v1
+1896,1896/mar/23,commons,https://api.parliament.uk/historic-hansard/commons/1896/mar/23/standing-committee-on-trade-etc,"STANDING COMMITTEE ON TRADE, ETC.",True,85,0,False,True,econ_v1
+1896,1896/mar/23,commons,https://api.parliament.uk/historic-hansard/commons/1896/mar/23/coal-trimmers,COAL TRIMMERS.,True,223,0,False,True,econ_v1
+1896,1896/mar/23,commons,https://api.parliament.uk/historic-hansard/commons/1896/mar/23/customs-surveyors,CUSTOMS SURVEYORS.,True,154,0,False,True,econ_v1
+1896,1896/mar/23,commons,https://api.parliament.uk/historic-hansard/commons/1896/mar/23/estate-duty,ESTATE DUTY.,True,234,0,False,True,econ_v1
+1896,1896/mar/23,commons,https://api.parliament.uk/historic-hansard/commons/1896/mar/23/conciliation-trade-disputes-bill,CONCILIATION (TRADE DISPUTES) BILL.,True,65,0,False,True,econ_v1
+1896,1896/mar/24,commons,https://api.parliament.uk/historic-hansard/commons/1896/mar/24/coal-mines-regulation-act-1887-amendment,COAL MINES REGULATION ACT (1887) AMENDMENT BILL.,True,74,0,False,True,econ_v1
+1896,1896/mar/24,commons,https://api.parliament.uk/historic-hansard/commons/1896/mar/24/foreign-trade-competition,FOREIGN TRADE COMPETITION.,True,287,1,True,True,econ_v1
+1896,1896/mar/24,commons,https://api.parliament.uk/historic-hansard/commons/1896/mar/24/collector-of-customs,COLLECTOR OF CUSTOMS.,True,452,0,False,True,econ_v1
+1896,1896/mar/24,lords,https://api.parliament.uk/historic-hansard/lords/1896/mar/24/infant-life-protection-bill-hl,INFANT LIFE PROTECTION BILL [H.L.],True,116,0,False,True,econ_v1
+1896,1896/mar/25,commons,https://api.parliament.uk/historic-hansard/commons/1896/mar/25/merchant-shipping-acts-amendment-bill,MERCHANT SHIPPING ACTS AMENDMENT BILL.,True,68,0,False,True,econ_v1
+1896,1896/mar/25,commons,https://api.parliament.uk/historic-hansard/commons/1896/mar/25/industrial-and-provident-societies,INDUSTRIAL AND PROVIDENT SOCIETIES (PURCHASE OF FEE SIMPLE) BILL.,True,75,0,False,True,econ_v1
+1896,1896/mar/25,commons,https://api.parliament.uk/historic-hansard/commons/1896/mar/25/prison-made-goods-importation-bill,PRISON-MADE GOODS IMPORTATION BILL.,True,66,0,False,True,econ_v1
+1896,1896/mar/26,commons,https://api.parliament.uk/historic-hansard/commons/1896/mar/26/fishing-industry-waterford,FISHING INDUSTRY (WATERFORD).,True,267,0,False,True,econ_v1
+1896,1896/mar/26,commons,https://api.parliament.uk/historic-hansard/commons/1896/mar/26/boyne-navigation-transfer-bill,BOYNE NAVIGATION TRANSFER BILL.,True,66,0,False,True,econ_v1
+1896,1896/mar/26,commons,https://api.parliament.uk/historic-hansard/commons/1896/mar/26/conciliation-trade-disputes-bill,CONCILIATION (TRADE DISPUTES) BILL.,True,71,0,False,True,econ_v1
+1896,1896/mar/26,lords,https://api.parliament.uk/historic-hansard/lords/1896/mar/26/the-wild-birds-protection-acts-amendment,THE WILD BIRDS PROTECTION ACTS AMENDMENT BILL [H.L.],True,1387,0,False,True,econ_v1
+1896,1896/mar/27,commons,https://api.parliament.uk/historic-hansard/commons/1896/mar/27/imported-butter,IMPORTED BUTTER.,True,136,0,False,True,econ_v1
+1896,1896/mar/27,commons,https://api.parliament.uk/historic-hansard/commons/1896/mar/27/coal-trade-export,COAL TRADE (EXPORT).,True,232,2,True,True,econ_v1
+1896,1896/mar/27,commons,https://api.parliament.uk/historic-hansard/commons/1896/mar/27/industrial-and-provident-and,INDUSTRIAL AND PROVIDENT AND INCORPORATED BUILDING SOCIETIES (PURCHASE OF FEE SIMPLE).,True,130,0,False,True,econ_v1
+1896,1896/mar/30,commons,https://api.parliament.uk/historic-hansard/commons/1896/mar/30/industrial-accidents,INDUSTRIAL ACCIDENTS.,True,237,0,False,True,econ_v1
+1896,1896/mar/30,commons,https://api.parliament.uk/historic-hansard/commons/1896/mar/30/cockling-industry-lancashire,COCKLING INDUSTRY (LANCASHIRE).,True,203,0,False,True,econ_v1
+1896,1896/mar/30,commons,https://api.parliament.uk/historic-hansard/commons/1896/mar/30/linen-and-jute-industries,LINEN AND JUTE INDUSTRIES.,True,273,0,False,True,econ_v1
+1896,1896/mar/30,commons,https://api.parliament.uk/historic-hansard/commons/1896/mar/30/flax-industry-ulster,FLAX INDUSTRY (ULSTER).,True,313,0,False,True,econ_v1
+1896,1896/mar/30,commons,https://api.parliament.uk/historic-hansard/commons/1896/mar/30/treaty-engagements-ottoman-empire,TREATY ENGAGEMENTS (OTTOMAN EMPIRE).,True,11713,0,False,True,econ_v1
+1896,1896/mar/30,commons,https://api.parliament.uk/historic-hansard/commons/1896/mar/30/boyne-navigation-transfer-bill,BOYNE NAVIGATION TRANSFER BILL.,True,68,0,False,True,econ_v1
+1896,1896/mar/30,commons,https://api.parliament.uk/historic-hansard/commons/1896/mar/30/conciliation-trade-disputes-bill,CONCILIATION (TRADE DISPUTES) BILL.,True,70,0,False,True,econ_v1
+1896,1896/apr/13,commons,https://api.parliament.uk/historic-hansard/commons/1896/apr/13/coal-mines-regulation-act-1887-amendment,COAL MINES REGULATION ACT (1887) AMENDMENT BILL.,True,63,0,False,True,econ_v1
+1896,1896/apr/13,commons,https://api.parliament.uk/historic-hansard/commons/1896/apr/13/conciliation-trade-disputes-bill,CONCILIATION (TRADE DISPUTES) BILL.,True,63,0,False,True,econ_v1
+1896,1896/apr/13,commons,https://api.parliament.uk/historic-hansard/commons/1896/apr/13/married-persons-small-industrial-income,MARRIED PERSONS' SMALL INDUSTRIAL INCOME TAX RELIEF BILL.,True,72,0,False,True,econ_v1
+1896,1896/apr/15,commons,https://api.parliament.uk/historic-hansard/commons/1896/apr/15/prison-made-goods-importation-bill,PRISON-MADE GOODS IMPORTATION BILL.,True,67,0,False,True,econ_v1
+1896,1896/apr/15,commons,https://api.parliament.uk/historic-hansard/commons/1896/apr/15/industrial-and-provident-and,INDUSTRIAL AND PROVIDENT AND INCORPORATED BUILDING SOCIETIES (PURCHASE OF FEE SIMPLE) BILL.,True,77,0,False,True,econ_v1
+1896,1896/apr/15,commons,https://api.parliament.uk/historic-hansard/commons/1896/apr/15/married-persons-small-industrial-income,MARRIED PERSONS' SMALL INDUSTRIAL INCOME TAX RELIEF BILL.,True,70,0,False,True,econ_v1
+1896,1896/apr/16,commons,https://api.parliament.uk/historic-hansard/commons/1896/apr/16/shirt-trade-derry,SHIRT TRADE (DERRY).,True,280,0,False,True,econ_v1
+1896,1896/apr/16,commons,https://api.parliament.uk/historic-hansard/commons/1896/apr/16/ardmore-fishing-industry-county-waterford,ARDMORE FISHING INDUSTRY (COUNTY WATERFORD).,True,291,0,False,True,econ_v1
+1896,1896/apr/16,commons,https://api.parliament.uk/historic-hansard/commons/1896/apr/16/customs-revenue,CUSTOMS REVENUE.,True,1316,0,False,True,econ_v1
+1896,1896/apr/16,commons,https://api.parliament.uk/historic-hansard/commons/1896/apr/16/death-duties,DEATH DUTIES.,True,1334,0,False,True,econ_v1
+1896,1896/apr/16,commons,https://api.parliament.uk/historic-hansard/commons/1896/apr/16/estate-duty-changes,ESTATE DUTY CHANGES.,True,616,0,False,True,econ_v1
+1896,1896/apr/16,commons,https://api.parliament.uk/historic-hansard/commons/1896/apr/16/customs-duty-on-beer,CUSTOMS DUTY ON BEER.,True,230,0,False,True,econ_v1
+1896,1896/apr/16,commons,https://api.parliament.uk/historic-hansard/commons/1896/apr/16/excise-duty-on-beer,EXCISE DUTY ON BEER.,True,174,0,False,True,econ_v1
+1896,1896/apr/16,commons,https://api.parliament.uk/historic-hansard/commons/1896/apr/16/conciliation-trade-disputes-bill,CONCILIATION (TRADE DISPUTES) BILL.,True,64,0,False,True,econ_v1
+1896,1896/apr/16,commons,https://api.parliament.uk/historic-hansard/commons/1896/apr/16/prison-made-goods-importation-bill,PRISON-MADE GOODS IMPORTATION BILL.,True,77,0,False,True,econ_v1
+1896,1896/apr/16,commons,https://api.parliament.uk/historic-hansard/commons/1896/apr/16/industrial-and-provident-and,INDUSTRIAL AND PROVIDENT AND INCORPORATED BUILDING SOCIETIES (PURCHASE OF FEE SIMPLE) BILL.,True,79,0,False,True,econ_v1
+1896,1896/apr/17,commons,https://api.parliament.uk/historic-hansard/commons/1896/apr/17/prison-made-goods-importation-bill,PRISON-MADE GOODS IMPORTATION BILL.,True,73,0,False,True,econ_v1
+1896,1896/apr/20,commons,https://api.parliament.uk/historic-hansard/commons/1896/apr/20/westphalian-coal,WESTPHALIAN COAL.,True,191,2,True,True,econ_v1
+1896,1896/apr/20,commons,https://api.parliament.uk/historic-hansard/commons/1896/apr/20/patent-agents,PATENT AGENTS.,True,395,0,False,True,econ_v1
+1896,1896/apr/20,commons,https://api.parliament.uk/historic-hansard/commons/1896/apr/20/cowes-harbour-shipping-dues,COWES HARBOUR (SHIPPING DUES).,True,261,0,False,True,econ_v1
+1896,1896/apr/20,commons,https://api.parliament.uk/historic-hansard/commons/1896/apr/20/stamp-duties-exemptions,STAMP DUTIES (EXEMPTIONS).,True,455,0,False,True,econ_v1
+1896,1896/apr/20,commons,https://api.parliament.uk/historic-hansard/commons/1896/apr/20/treaty-between-germany-and-japan,TREATY BETWEEN GERMANY AND JAPAN.,True,196,6,True,True,econ_v1
+1896,1896/apr/20,commons,https://api.parliament.uk/historic-hansard/commons/1896/apr/20/national-collections-estate-duty,NATIONAL COLLECTIONS (ESTATE DUTY).,True,135,0,False,True,econ_v1
+1896,1896/apr/20,commons,https://api.parliament.uk/historic-hansard/commons/1896/apr/20/gin-importation-sierra-leone,GIN IMPORTATION (SIERRA LEONE).,True,219,0,False,True,econ_v1
+1896,1896/apr/20,commons,https://api.parliament.uk/historic-hansard/commons/1896/apr/20/coal-mines-regulation-act-1887-amendment,COAL MINES REGULATION ACT (1887) AMENDMENT.,True,348,0,False,True,econ_v1
+1896,1896/apr/20,commons,https://api.parliament.uk/historic-hansard/commons/1896/apr/20/customs-duty-on-beer,CUSTOMS DUTY ON BEER.,True,225,0,False,True,econ_v1
+1896,1896/apr/20,commons,https://api.parliament.uk/historic-hansard/commons/1896/apr/20/excise-duty-on-beer,EXCISE DUTY ON BEER.,True,161,0,False,True,econ_v1
+1896,1896/apr/20,commons,https://api.parliament.uk/historic-hansard/commons/1896/apr/20/conciliation-trade-disputes-bill,CONCILIATION (TRADE DISPUTES) BILL.,True,72,0,False,True,econ_v1
+1896,1896/apr/21,commons,https://api.parliament.uk/historic-hansard/commons/1896/apr/21/railway-tariffs-ireland,RAILWAY TARIFFS (IRELAND).,True,240,0,False,True,econ_v1
+1896,1896/apr/21,commons,https://api.parliament.uk/historic-hansard/commons/1896/apr/21/conciliation-trade-disputes-bill,CONCILIATION (TRADE DISPUTES) BILL.,True,78,0,False,True,econ_v1
+1896,1896/apr/22,commons,https://api.parliament.uk/historic-hansard/commons/1896/apr/22/local-taxation-customs-and-excise-act,LOCAL TAXATION (CUSTOMS AND EXCISE) ACT (1890) AMENDMENT BILL.,True,72,0,False,True,econ_v1
+1896,1896/apr/22,commons,https://api.parliament.uk/historic-hansard/commons/1896/apr/22/merchant-shipping-acts-amendment-bill,MERCHANT SHIPPING ACTS AMENDMENT BILL.,True,72,0,False,True,econ_v1
+1896,1896/apr/23,commons,https://api.parliament.uk/historic-hansard/commons/1896/apr/23/alleged-treaty-between-russia-and-china,ALLEGED TREATY BETWEEN RUSSIA AND CHINA.,True,205,0,False,True,econ_v1
+1896,1896/apr/23,commons,https://api.parliament.uk/historic-hansard/commons/1896/apr/23/boyne-navigation-bill,BOYNE NAVIGATION BILL.,True,193,0,False,True,econ_v1
+1896,1896/apr/23,commons,https://api.parliament.uk/historic-hansard/commons/1896/apr/23/conciliation-trade-disputes-bill,CONCILIATION (TRADE DISPUTES) BILL.,True,64,0,False,True,econ_v1
+1896,1896/apr/23,commons,https://api.parliament.uk/historic-hansard/commons/1896/apr/23/industrial-and-provident-and-in,INDUSTRIAL AND PROVIDENT AND IN- CORPORATED BUILDING SOCIETIES (PURCHASE OF FEE SIMPLE) BILL.,True,78,0,False,True,econ_v1
+1896,1896/apr/23,lords,https://api.parliament.uk/historic-hansard/lords/1896/apr/23/wild-birds-protection-acts-amendment-no,WILD BIRDS PROTECTION ACTS AMENDMENT (No. 2) BILL [H.L.],True,86,0,False,True,econ_v1
+1896,1896/apr/23,lords,https://api.parliament.uk/historic-hansard/lords/1896/apr/23/infant-life-protection-bill-hl-lord,INFANT LIFE PROTECTION BILL [H.L.] LORD KENSINGTON moved:&#x2014;,True,93,0,False,True,econ_v1
+1896,1896/apr/24,commons,https://api.parliament.uk/historic-hansard/commons/1896/apr/24/trade-marks-in-egypt,TRADE MARKS IN EGYPT.,True,406,8,True,True,econ_v1
+1896,1896/apr/24,commons,https://api.parliament.uk/historic-hansard/commons/1896/apr/24/false-trade-descriptions,FALSE TRADE DESCRIPTIONS.,True,378,0,False,True,econ_v1
+1896,1896/apr/24,commons,https://api.parliament.uk/historic-hansard/commons/1896/apr/24/customs-outdoor-officers,CUSTOMS OUTDOOR OFFICERS.,True,272,0,False,True,econ_v1
+1896,1896/apr/27,commons,https://api.parliament.uk/historic-hansard/commons/1896/apr/27/shannon-navigation,SHANNON NAVIGATION.,True,276,0,False,True,econ_v1
+1896,1896/apr/27,commons,https://api.parliament.uk/historic-hansard/commons/1896/apr/27/estate-duties,ESTATE DUTIES.,True,309,0,False,True,econ_v1
+1896,1896/apr/27,commons,https://api.parliament.uk/historic-hansard/commons/1896/apr/27/registration-duties-on-grain,REGISTRATION DUTIES ON GRAIN.,True,151,0,False,True,econ_v1
+1896,1896/apr/27,commons,https://api.parliament.uk/historic-hansard/commons/1896/apr/27/trade-marks-in-egypt,TRADE MARKS IN EGYPT.,True,193,0,False,True,econ_v1
+1896,1896/apr/27,commons,https://api.parliament.uk/historic-hansard/commons/1896/apr/27/railway-commission-traders-complaints,RAILWAY COMMISSION (TRADERS' COMPLAINTS).,True,140,0,False,True,econ_v1
+1896,1896/apr/27,commons,https://api.parliament.uk/historic-hansard/commons/1896/apr/27/conciliation-trade-disputes-bill,CONCILIATION (TRADE DISPUTES) BILL.,True,64,0,False,True,econ_v1
+1896,1896/apr/27,commons,https://api.parliament.uk/historic-hansard/commons/1896/apr/27/prison-made-goods-importation-bill,PRISON-MADE GOODS IMPORTATION BILL.,True,65,0,False,True,econ_v1
+1896,1896/apr/28,commons,https://api.parliament.uk/historic-hansard/commons/1896/apr/28/assam-coal-mines,ASSAM COAL MINES.,True,332,0,False,True,econ_v1
+1896,1896/apr/29,commons,https://api.parliament.uk/historic-hansard/commons/1896/apr/29/coal-mines-regulation-act-1887-amendment,COAL MINES REGULATION ACT (1887) AMENDMENT BILL.,True,73,0,False,True,econ_v1
+1896,1896/apr/29,commons,https://api.parliament.uk/historic-hansard/commons/1896/apr/29/married-persons-small-industrial-income,MARRIED PERSONS' SMALL INDUSTRIAL INCOME TAX RELIEF BILL.,True,74,0,False,True,econ_v1
+1896,1896/apr/29,commons,https://api.parliament.uk/historic-hansard/commons/1896/apr/29/prison-made-goods-importation-bill,PRISON-MADE GOODS IMPORTATION BILL.,True,69,0,False,True,econ_v1
+1896,1896/apr/30,commons,https://api.parliament.uk/historic-hansard/commons/1896/apr/30/jamaica-succession-duty,JAMAICA SUCCESSION DUTY.,True,185,0,False,True,econ_v1
+1896,1896/apr/30,commons,https://api.parliament.uk/historic-hansard/commons/1896/apr/30/customs-extra-officers,CUSTOMS (EXTRA OFFICERS).,True,277,0,False,True,econ_v1
+1896,1896/apr/30,commons,https://api.parliament.uk/historic-hansard/commons/1896/apr/30/conciliation-trade-disputes-bill,CONCILIATION (TRADE DISPUTES) BILL.,True,63,0,False,True,econ_v1
+1896,1896/may/11,commons,https://api.parliament.uk/historic-hansard/commons/1896/may/11/industrial-schools-act,INDUSTRIAL SCHOOLS ACT.,True,427,0,False,True,econ_v1
+1896,1896/may/11,commons,https://api.parliament.uk/historic-hansard/commons/1896/may/11/assistant-customs-officers-examination,ASSISTANT CUSTOMS OFFICERS' EXAMINATION.,True,174,0,False,True,econ_v1
+1896,1896/may/11,commons,https://api.parliament.uk/historic-hansard/commons/1896/may/11/beer-duty-farmers,BEER DUTY (FARMERS).,True,232,0,False,True,econ_v1
+1896,1896/may/11,commons,https://api.parliament.uk/historic-hansard/commons/1896/may/11/castlecomer-coal-fields,CASTLECOMER COAL FIELDS.,True,201,0,False,True,econ_v1
+1896,1896/may/11,commons,https://api.parliament.uk/historic-hansard/commons/1896/may/11/coal-mines-bill,COAL MINES BILL.,True,224,0,False,True,econ_v1
+1896,1896/may/11,commons,https://api.parliament.uk/historic-hansard/commons/1896/may/11/customs-duty-on-tea,CUSTOMS. [DUTY ON TEA.],True,854,2,True,True,econ_v1
+1896,1896/may/11,commons,https://api.parliament.uk/historic-hansard/commons/1896/may/11/merchant-shipping-acts-amendment-bill,MERCHANT SHIPPING ACTS AMENDMENT BILL.,True,64,0,False,True,econ_v1
+1896,1896/may/11,commons,https://api.parliament.uk/historic-hansard/commons/1896/may/11/boyne-navigation-transfer-bill,BOYNE NAVIGATION TRANSFER BILL.,True,100,0,False,True,econ_v1
+1896,1896/may/12,commons,https://api.parliament.uk/historic-hansard/commons/1896/may/12/army-coal-transport,ARMY COAL TRANSPORT.,True,237,1,True,True,econ_v1
+1896,1896/may/12,commons,https://api.parliament.uk/historic-hansard/commons/1896/may/12/income-tax-foreign-traders,INCOME TAX (FOREIGN TRADERS).,True,269,0,False,True,econ_v1
+1896,1896/may/12,commons,https://api.parliament.uk/historic-hansard/commons/1896/may/12/trade-marks-in-turkey,TRADE MARKS IN TURKEY.,True,219,1,True,True,econ_v1
+1896,1896/may/12,commons,https://api.parliament.uk/historic-hansard/commons/1896/may/12/conciliation-trade-disputes-bill,CONCILIATION (TRADE DISPUTES) BILL.,True,66,0,False,True,econ_v1
+1896,1896/may/14,commons,https://api.parliament.uk/historic-hansard/commons/1896/may/14/small-pox-imported-rags,SMALL-POX (IMPORTED RAGS).,True,276,0,False,True,econ_v1
+1896,1896/may/14,commons,https://api.parliament.uk/historic-hansard/commons/1896/may/14/coal-mines-regulation-act-1887-amendment,COAL MINES REGULATION ACT (1887) AMENDMENT (No. 2) BILL.,True,69,0,False,True,econ_v1
+1896,1896/may/14,commons,https://api.parliament.uk/historic-hansard/commons/1896/may/14/merchant-shipping-acts-amendment-bill,MERCHANT SHIPPING ACTS AMENDMENT BILL.,True,76,0,False,True,econ_v1
+1896,1896/may/14,commons,https://api.parliament.uk/historic-hansard/commons/1896/may/14/merchandise-marks-acts-1887-amendment,MERCHANDISE MARKS ACTS (1887) AMENDMENT BILL.,True,67,0,False,True,econ_v1
+1896,1896/may/14,commons,https://api.parliament.uk/historic-hansard/commons/1896/may/14/local-taxation-customs-and-excise-act,LOCAL TAXATION (CUSTOMS AND EXCISE) ACT (1890) AMENDMENT BILL.,True,69,0,False,True,econ_v1
+1896,1896/may/14,commons,https://api.parliament.uk/historic-hansard/commons/1896/may/14/prison-made-goods-importation-bill,PRISON-MADE GOODS IMPORTATION BILL.,True,66,0,False,True,econ_v1
+1896,1896/may/15,commons,https://api.parliament.uk/historic-hansard/commons/1896/may/15/customs-officers,CUSTOMS OFFICERS.,True,289,0,False,True,econ_v1
+1896,1896/may/15,commons,https://api.parliament.uk/historic-hansard/commons/1896/may/15/comptroller-of-prison-industries,COMPTROLLER OF PRISON INDUSTRIES.,True,269,0,False,True,econ_v1
+1896,1896/may/15,commons,https://api.parliament.uk/historic-hansard/commons/1896/may/15/chinese-shipping-in-formosa,CHINESE SHIPPING IN FORMOSA.,True,131,1,True,True,econ_v1
+1896,1896/may/15,lords,https://api.parliament.uk/historic-hansard/lords/1896/may/15/wild-birds-protection-acts-amendment-bill,WILD BIRDS PROTECTION ACTS AMENDMENT BILL.,True,74,0,False,True,econ_v1
+1896,1896/may/18,commons,https://api.parliament.uk/historic-hansard/commons/1896/may/18/westphalian-coal,WESTPHALIAN COAL.,True,374,5,True,True,econ_v1
+1896,1896/may/18,commons,https://api.parliament.uk/historic-hansard/commons/1896/may/18/indian-cotton-duties,INDIAN COTTON DUTIES.,True,502,0,False,True,econ_v1
+1896,1896/may/18,commons,https://api.parliament.uk/historic-hansard/commons/1896/may/18/exports-from-ireland,EXPORTS FROM IRELAND.,True,200,0,False,True,econ_v1
+1896,1896/may/18,commons,https://api.parliament.uk/historic-hansard/commons/1896/may/18/indian-cotton-duties-1,INDIAN COTTON DUTIES.,True,10008,0,False,True,econ_v1
+1896,1896/may/18,commons,https://api.parliament.uk/historic-hansard/commons/1896/may/18/conciliation-trade-disputes-bill,CONCILIATION (TRADE DISPUTES) BILL.,True,63,0,False,True,econ_v1
+1896,1896/may/18,lords,https://api.parliament.uk/historic-hansard/lords/1896/may/18/wild-birds-protection-acts-amendment-no,WILD BIRDS PROTECTION ACTS AMENDMENT (No. 2) BILL [H.L.],True,308,0,False,True,econ_v1
+1896,1896/may/18,lords,https://api.parliament.uk/historic-hansard/lords/1896/may/18/saving-clauses-act-not-to-affect,"SAVING CLAUSES. [ACT NOT TO AFFECT NAVIGATION OF RIVERS OR CANALS, OR IRRIGATION OF LANDS.]",True,662,0,False,True,econ_v1
+1896,1896/may/19,commons,https://api.parliament.uk/historic-hansard/commons/1896/may/19/estate-duty-personal-property,ESTATE DUTY (PERSONAL PROPERTY.),True,142,0,False,True,econ_v1
+1896,1896/may/19,commons,https://api.parliament.uk/historic-hansard/commons/1896/may/19/power-to-grant-superannuation-allowance,POWER TO GRANT SUPERANNUATION ALLOWANCE IN RESPECT OF DUTIES UNDER PUBLIC HEALTH ACTS.,True,211,0,False,True,econ_v1
+1896,1896/may/19,commons,https://api.parliament.uk/historic-hansard/commons/1896/may/19/industrial-and-provident-and-in,INDUSTRIAL AND PROVIDENT AND IN CORPORATED BUILDING SOCIETIES (PURCHASE OF FEE SIMPLE) BILL.,True,78,0,False,True,econ_v1
+1896,1896/may/21,commons,https://api.parliament.uk/historic-hansard/commons/1896/may/21/exports-from-ireland,EXPORTS FROM IRELAND.,True,166,0,False,True,econ_v1
+1896,1896/may/21,commons,https://api.parliament.uk/historic-hansard/commons/1896/may/21/sugar-bounties-in-germany,SUGAR BOUNTIES IN GERMANY.,True,120,3,True,True,econ_v1
+1896,1896/may/21,commons,https://api.parliament.uk/historic-hansard/commons/1896/may/21/coal-mines-regulation-act-1887-amendment,COAL MINES REGULATION ACT (1887) AMENDMENT (No. 2) BILL.,True,70,0,False,True,econ_v1
+1896,1896/jun/10,commons,https://api.parliament.uk/historic-hansard/commons/1896/jun/10/prison-made-goods-importation-bill,PRISON-MADE GOODS IMPORTATION BILL.,True,69,0,False,True,econ_v1
+1896,1896/jun/10,commons,https://api.parliament.uk/historic-hansard/commons/1896/jun/10/merchant-shipping-acts-amendment-bill,MERCHANT SHIPPING ACTS AMENDMENT BILL.,True,71,0,False,True,econ_v1
+1896,1896/jun/11,commons,https://api.parliament.uk/historic-hansard/commons/1896/jun/11/brass-trade-inspection,BRASS TRADE (INSPECTION).,True,179,0,False,True,econ_v1
+1896,1896/jun/11,commons,https://api.parliament.uk/historic-hansard/commons/1896/jun/11/rinderpest-importation-of-hides,RINDERPEST (IMPORTATION OF HIDES).,True,384,0,False,True,econ_v1
+1896,1896/jun/11,commons,https://api.parliament.uk/historic-hansard/commons/1896/jun/11/income-tax-and-house-duty-farmers,INCOME TAX AND HOUSE DUTY (FARMERS).,True,229,0,False,True,econ_v1
+1896,1896/jun/11,commons,https://api.parliament.uk/historic-hansard/commons/1896/jun/11/police-protection-county-clare,POLICE PROTECTION (COUNTY CLARE).,True,386,0,False,True,econ_v1
+1896,1896/jun/11,commons,https://api.parliament.uk/historic-hansard/commons/1896/jun/11/coal-mines-regulation-amendment-bill,COAL MINES REGULATION AMENDMENT BILL.,True,331,0,False,True,econ_v1
+1896,1896/jun/11,commons,https://api.parliament.uk/historic-hansard/commons/1896/jun/11/coal-mines-regulation-act-1887-amendment,COAL MINES REGULATION ACT (1887) AMENDMENT (No. 2) BILL.,True,70,0,False,True,econ_v1
+1896,1896/jun/11,commons,https://api.parliament.uk/historic-hansard/commons/1896/jun/11/conciliation-trade-disputes-bill,CONCILIATION (TRADE DISPUTES) BILL.,True,67,0,False,True,econ_v1
+1896,1896/jun/11,commons,https://api.parliament.uk/historic-hansard/commons/1896/jun/11/coal-mines-regulation-act-1887-amendment-1,COAL MINES REGULATION ACT (1887) AMENDMENT BILL.,True,71,0,False,True,econ_v1
+1896,1896/jun/11,lords,https://api.parliament.uk/historic-hansard/lords/1896/jun/11/boyne-navigation-transfer-bill,BOYNE NAVIGATION TRANSFER BILL.,True,70,0,False,True,econ_v1
+1896,1896/jun/11,lords,https://api.parliament.uk/historic-hansard/lords/1896/jun/11/wild-birds-protection-acts-amendment-no,WILD BIRDS PROTECTION ACTS AMENDMENT (No. 2) BILL [H.L.],True,81,0,False,True,econ_v1
+1896,1896/jun/12,commons,https://api.parliament.uk/historic-hansard/commons/1896/jun/12/east-india-indian-tariff-act-and-the,EAST INDIA (INDIAN TARIFF ACT AND THE COTTON DUTIES).,True,65,0,False,True,econ_v1
+1896,1896/jun/12,commons,https://api.parliament.uk/historic-hansard/commons/1896/jun/12/customs-extra-officers,CUSTOMS (EXTRA OFFICERS).,True,137,0,False,True,econ_v1
+1896,1896/jun/12,commons,https://api.parliament.uk/historic-hansard/commons/1896/jun/12/merchant-shipping-acts-amendment-bill,MERCHANT SHIPPING ACTS AMENDMENT BILL.,True,79,0,False,True,econ_v1
+1896,1896/jun/12,lords,https://api.parliament.uk/historic-hansard/lords/1896/jun/12/wild-birds-protection-acts-amendment-no,WILD BIRDS PROTECTION ACTS AMENDMENT (No. 2.) BILL [H.L.],True,78,0,False,True,econ_v1
+1896,1896/jun/15,commons,https://api.parliament.uk/historic-hansard/commons/1896/jun/15/industrial-and-provident-and-in,INDUSTRIAL AND PROVIDENT AND IN- CORPORATED BUILDING SOCIETIES (PURCHASE OF FEE SIMPLE) BILL.,True,76,0,False,True,econ_v1
+1896,1896/jun/16,commons,https://api.parliament.uk/historic-hansard/commons/1896/jun/16/siam-anglo-french-treaty,SIAM (ANGLO-FRENCH TREATY).,True,169,0,False,True,econ_v1
+1896,1896/jun/17,commons,https://api.parliament.uk/historic-hansard/commons/1896/jun/17/merchant-shipping-vessels-transferred-to,MERCHANT SHIPPING (VESSELS TRANSFERRED TO FOREIGN FLAGS).,True,79,0,False,True,econ_v1
+1896,1896/jun/17,commons,https://api.parliament.uk/historic-hansard/commons/1896/jun/17/prison-made-goods-importation-bill,PRISON-MADE GOODS IMPORTATION BILL.,True,65,0,False,True,econ_v1
+1896,1896/jun/18,commons,https://api.parliament.uk/historic-hansard/commons/1896/jun/18/wild-bird-protection-acts-amendment-no-2,WILD BIRD PROTECTION ACTS AMENDMENT (No. 2) BILL [H.L.],True,79,0,False,True,econ_v1
+1896,1896/jun/18,commons,https://api.parliament.uk/historic-hansard/commons/1896/jun/18/coal-mines-regulation-act-1887-amendment,COAL MINES REGULATION ACT (1887) AMENDMENT (No. 2) BILL.,True,73,0,False,True,econ_v1
+1896,1896/jun/18,commons,https://api.parliament.uk/historic-hansard/commons/1896/jun/18/conciliation-trade-disputes-bill,CONCILIATION (TRADE DISPUTES) BILL.,True,69,0,False,True,econ_v1
+1896,1896/jun/18,commons,https://api.parliament.uk/historic-hansard/commons/1896/jun/18/industrial-and-provident-and,INDUSTRIAL AND PROVIDENT AND INCORPORATED BUILDING SOCIETIES (PURCHASE OF FEE SIMPLE) BILL.,True,76,0,False,True,econ_v1
+1896,1896/jun/18,lords,https://api.parliament.uk/historic-hansard/lords/1896/jun/18/naval-protection-in-the-bristol-channel,NAVAL PROTECTION IN THE BRISTOL CHANNEL.,True,943,0,False,True,econ_v1
+1896,1896/jun/19,commons,https://api.parliament.uk/historic-hansard/commons/1896/jun/19/rolled-steel-sleepers-indian-state,ROLLED STEEL SLEEPERS (INDIAN STATE RAILWAYS).,True,200,0,False,True,econ_v1
+1896,1896/jun/22,commons,https://api.parliament.uk/historic-hansard/commons/1896/jun/22/coal-mines-regulation-act-1887,"COAL MINES REGULATION ACT, 1887.",True,281,0,False,True,econ_v1
+1896,1896/jun/22,commons,https://api.parliament.uk/historic-hansard/commons/1896/jun/22/conciliation-trade-disputes-bill,CONCILIATION (TRADE DISPUTES) BILL.,True,64,0,False,True,econ_v1
+1896,1896/jun/22,commons,https://api.parliament.uk/historic-hansard/commons/1896/jun/22/wild-birds-protection-acts-amendment-no,"WILD BIRDS PROTECTION ACTS AMENDMENT (No. 2) BILL [H.I,.].",True,71,0,False,True,econ_v1
+1896,1896/jun/23,commons,https://api.parliament.uk/historic-hansard/commons/1896/jun/23/postal-regulations-trade-orders,POSTAL REGULATIONS (TRADE ORDERS).,True,414,0,False,True,econ_v1
+1896,1896/jun/23,commons,https://api.parliament.uk/historic-hansard/commons/1896/jun/23/conciliation-trade-disputes-bill,CONCILIATION (TRADE DISPUTES) BILL.,True,73,0,False,True,econ_v1
+1896,1896/jun/23,commons,https://api.parliament.uk/historic-hansard/commons/1896/jun/23/wild-birds-protection-acts-amendment-no,WILD BIRDS PROTECTION ACTS AMENDMENT (No. 2) BILL [H.L.],True,73,0,False,True,econ_v1
+1896,1896/jun/23,lords,https://api.parliament.uk/historic-hansard/lords/1896/jun/23/boyne-navigation-transfer-bill,BOYNE NAVIGATION TRANSFER BILL.,True,329,0,False,True,econ_v1
+1896,1896/jun/25,commons,https://api.parliament.uk/historic-hansard/commons/1896/jun/25/foreign-import-returns,FOREIGN IMPORT RETURNS.,True,196,0,False,True,econ_v1
+1896,1896/jun/25,commons,https://api.parliament.uk/historic-hansard/commons/1896/jun/25/police-protection-clanricarde-estate,"POLICE PROTECTION (CLANRICARDE ESTATE, COUNTY GALWAY).",True,307,0,False,True,econ_v1
+1896,1896/jun/25,commons,https://api.parliament.uk/historic-hansard/commons/1896/jun/25/prison-made-goods-importation-bill,PRISON-MADE GOODS IMPORTATION BILL.,True,197,0,False,True,econ_v1
+1896,1896/jun/25,commons,https://api.parliament.uk/historic-hansard/commons/1896/jun/25/conciliation-trade-disputes-bill,CONCILIATION (TRADE DISPUTES) BILL.,True,68,0,False,True,econ_v1
+1896,1896/jun/25,commons,https://api.parliament.uk/historic-hansard/commons/1896/jun/25/coal-mines-regulation-act-1887-amendment,COAL MINES REGULATION ACT (1887) AMENDMENT (No. 2) BILL.,True,304,0,False,True,econ_v1
+1896,1896/jun/25,commons,https://api.parliament.uk/historic-hansard/commons/1896/jun/25/prison-made-goods-importation-bill-1,PRISON-MADE GOODS IMPORTATION BILL.,True,69,0,False,True,econ_v1
+1896,1896/jun/25,commons,https://api.parliament.uk/historic-hansard/commons/1896/jun/25/wild-birds-protection-acts-amendment-no,WILD BIRDS PROTECTION ACTS AMENDMENT (No. 2) BILL [H.L.],True,76,0,False,True,econ_v1
+1896,1896/jun/29,commons,https://api.parliament.uk/historic-hansard/commons/1896/jun/29/irish-lights-coal-supply,IRISH LIGHTS (COAL SUPPLY).,True,195,0,False,True,econ_v1
+1896,1896/jun/29,lords,https://api.parliament.uk/historic-hansard/lords/1896/jun/29/boyne-navigation-transfer-bill,BOYNE NAVIGATION TRANSFER BILL.,True,81,0,False,True,econ_v1
+1896,1896/jun/30,commons,https://api.parliament.uk/historic-hansard/commons/1896/jun/30/consular-court-at-constantinople,CONSULAR COURT AT CONSTANTINOPLE.,True,247,0,False,True,econ_v1
+1896,1896/jun/30,commons,https://api.parliament.uk/historic-hansard/commons/1896/jun/30/free-insurance-of-seamen-shipping,FREE INSURANCE OF SEAMEN (SHIPPING FEDERATION).,True,171,0,False,True,econ_v1
+1896,1896/jun/30,commons,https://api.parliament.uk/historic-hansard/commons/1896/jun/30/conciliation-trades-dispute-bill,CONCILIATION (TRADES DISPUTE) BILL.,True,7231,0,False,True,econ_v1
+1896,1896/jul/10,commons,https://api.parliament.uk/historic-hansard/commons/1896/jul/10/merchant-shipping-regulattons,MERCHANT SHIPPING REGULATTONS.,True,479,0,False,True,econ_v1
+1896,1896/jul/10,commons,https://api.parliament.uk/historic-hansard/commons/1896/jul/10/customs-statistical-department,CUSTOMS (STATISTICAL DEPARTMENT).,True,235,0,False,True,econ_v1
+1896,1896/jul/13,commons,https://api.parliament.uk/historic-hansard/commons/1896/jul/13/industrial-school-inmates,INDUSTRIAL SCHOOL INMATES.,True,312,0,False,True,econ_v1
+1896,1896/jul/13,commons,https://api.parliament.uk/historic-hansard/commons/1896/jul/13/conciliation-trade-disputes-bill,CONCILIATION (TRADE DISPUTES) BILL.,True,64,0,False,True,econ_v1
+1896,1896/jul/14,commons,https://api.parliament.uk/historic-hansard/commons/1896/jul/14/coal-mines-regulation-act-1887-amendment,COAL MINES REGULATION ACT (1887) AMENDMENT (No. 2) BILL.,True,105,0,False,True,econ_v1
+1896,1896/jul/14,commons,https://api.parliament.uk/historic-hansard/commons/1896/jul/14/prohibition-against-possession-of-sugar,PROHIBITION AGAINST POSSESSION OF SUGAR AND OTHER SUBSTANCES BY DEALERS IN AND RETAILERS OF BEER.,True,270,0,False,True,econ_v1
+1896,1896/jul/14,commons,https://api.parliament.uk/historic-hansard/commons/1896/jul/14/interest-upon-estate-duty-and-other,INTEREST UPON ESTATE DUTY AND OTHER DEATH DUTIES.,True,283,0,False,True,econ_v1
+1896,1896/jul/15,commons,https://api.parliament.uk/historic-hansard/commons/1896/jul/15/conciliation-trade-disputes-bill,CONCILIATION (TRADE DISPUTES) BILL.,True,71,0,False,True,econ_v1
+1896,1896/jul/15,commons,https://api.parliament.uk/historic-hansard/commons/1896/jul/15/coal-mines-regulation-act-1887-amendment,COAL MINES REGULATION ACT (1887) AMENDMENT (No. 2) BILL.,True,75,0,False,True,econ_v1
+1896,1896/jul/15,commons,https://api.parliament.uk/historic-hansard/commons/1896/jul/15/prison-made-goods-importation-bill,PRISON-MADE GOODS IMPORTATION BILL.,True,65,0,False,True,econ_v1
+1896,1896/jul/15,commons,https://api.parliament.uk/historic-hansard/commons/1896/jul/15/wild-birds-protection-acts-amendment-no,WILD BIRDS PROTECTION ACTS AMENDMENT (No. 2) BILL [H.L.],True,74,0,False,True,econ_v1
+1896,1896/jul/15,commons,https://api.parliament.uk/historic-hansard/commons/1896/jul/15/coal-mines-regulation-act-1887-amendment-1,COAL MINES REGULATION ACT (1887) AMENDMENT BILL.,True,71,0,False,True,econ_v1
+1896,1896/jul/16,commons,https://api.parliament.uk/historic-hansard/commons/1896/jul/16/merchant-shipping-regulations,MERCHANT SHIPPING REGULATIONS.,True,423,0,False,True,econ_v1
+1896,1896/jul/16,commons,https://api.parliament.uk/historic-hansard/commons/1896/jul/16/conciliation-trade-disputes-bill,CONCILIATION (TRADE DISPUTES) BILL.,True,72,0,False,True,econ_v1
+1896,1896/jul/16,commons,https://api.parliament.uk/historic-hansard/commons/1896/jul/16/coal-mines-regulation-act-1887-amendment,COAL MINES REGULATION ACT (1887) AMENDMENT (No. 2) BILL.,True,80,0,False,True,econ_v1
+1896,1896/jul/17,commons,https://api.parliament.uk/historic-hansard/commons/1896/jul/17/license-duties-dublin,LICENSE DUTIES (DUBLIN).,True,345,0,False,True,econ_v1
+1896,1896/jul/17,commons,https://api.parliament.uk/historic-hansard/commons/1896/jul/17/customs-office-dublin,CUSTOMS OFFICE (DUBLIN).,True,436,0,False,True,econ_v1
+1896,1896/jul/17,lords,https://api.parliament.uk/historic-hansard/lords/1896/jul/17/infant-life-protection-bill-hl,INFANT LIFE PROTECTION BILL [H.L.],True,81,0,False,True,econ_v1
+1896,1896/jul/20,commons,https://api.parliament.uk/historic-hansard/commons/1896/jul/20/conciliation-trade-disputes-bill,CONCILIATION (TRADE DISPUTES) BILL.,True,71,0,False,True,econ_v1
+1896,1896/jul/21,commons,https://api.parliament.uk/historic-hansard/commons/1896/jul/21/castlecomer-coal-mines-county-kilkenny,CASTLECOMER COAL MINES (COUNTY KILKENNY).,True,189,0,False,True,econ_v1
+1896,1896/jul/21,commons,https://api.parliament.uk/historic-hansard/commons/1896/jul/21/customs,CUSTOMS.,True,452,0,False,True,econ_v1
+1896,1896/jul/21,commons,https://api.parliament.uk/historic-hansard/commons/1896/jul/21/land-commission-and-land-judge,LAND COMMISSION AND LAND JUDGE.&#x2014;REGULATIONS AS TO INTERCHANGE OF DUTIES OF THE LAND JUDGE AND THE JUDICIAL COMMISSIONER OF THE IRISH LAND COMMISSION.,True,6829,0,False,True,econ_v1
+1896,1896/jul/21,commons,https://api.parliament.uk/historic-hansard/commons/1896/jul/21/coal-mines-regulation-act-1887-amendment,COAL MINES REGULATION ACT (1887) AMENDMENT (No. 2) BILL.,True,151,0,False,True,econ_v1
+1896,1896/jul/21,commons,https://api.parliament.uk/historic-hansard/commons/1896/jul/21/conciliation-trade-disputes-bill,CONCILIATION (TRADE DISPUTES) BILL.,True,76,0,False,True,econ_v1
+1896,1896/jul/22,commons,https://api.parliament.uk/historic-hansard/commons/1896/jul/22/locomotives-on-highways-excise-duty,LOCOMOTIVES ON HIGHWAYS [EXCISE DUTY].,True,65,0,False,True,econ_v1
+1896,1896/jul/23,commons,https://api.parliament.uk/historic-hansard/commons/1896/jul/23/locomotives-on-highways-excise-duty,LOCOMOTIVES ON HIGHWAYS (EXCISE DUTY).,True,63,0,False,True,econ_v1
+1896,1896/jul/23,commons,https://api.parliament.uk/historic-hansard/commons/1896/jul/23/conciliation-trade-disputes-bill,CONCILIATION (TRADE DISPUTES) BILL.,True,70,0,False,True,econ_v1
+1896,1896/jul/23,lords,https://api.parliament.uk/historic-hansard/lords/1896/jul/23/infant-life-protection-bill-hl,INFANT LIFE PROTECTION BILL [H.L.],True,4249,0,False,True,econ_v1
+1896,1896/jul/24,commons,https://api.parliament.uk/historic-hansard/commons/1896/jul/24/industrial-school-queenstown,INDUSTRIAL SCHOOL (QUEENSTOWN).,True,278,0,False,True,econ_v1
+1896,1896/jul/27,commons,https://api.parliament.uk/historic-hansard/commons/1896/jul/27/british-trade-abroad-commercia-attaches,BRITISH TRADE ABROAD (COMMERCIA ATTACH&#x00C9;S).,True,674,1,True,True,econ_v1
+1896,1896/jul/27,commons,https://api.parliament.uk/historic-hansard/commons/1896/jul/27/parcel-post-customs-duty,PARCEL POST (CUSTOMS DUTY).,True,294,0,False,True,econ_v1
+1896,1896/jul/27,commons,https://api.parliament.uk/historic-hansard/commons/1896/jul/27/industrial-schools-boys-for-navy,INDUSTRIAL SCHOOLS (BOYS FOR NAVY).,True,188,0,False,True,econ_v1
+1896,1896/jul/27,commons,https://api.parliament.uk/historic-hansard/commons/1896/jul/27/conciliation-trade-disputes-bill,CONCILIATION (TRADE DISPUTES) BILL.,True,76,0,False,True,econ_v1
+1896,1896/jul/27,commons,https://api.parliament.uk/historic-hansard/commons/1896/jul/27/powers-of-board-of-trade-as-to-trade,POWERS OF BOARD OF TRADE AS TO TRADE DISPUTES.,True,2693,0,False,True,econ_v1
+1896,1896/jul/27,commons,https://api.parliament.uk/historic-hansard/commons/1896/jul/27/power-for-board-of-trade-to-aid-in,POWER FOR BOARD OF TRADE TO AID IN ESTABLISHMENT OF CONCILIATION BOARDS.,True,314,0,False,True,econ_v1
+1896,1896/jul/27,commons,https://api.parliament.uk/historic-hansard/commons/1896/jul/27/coal-mines-regulation-act-1887-amendment,COAL MINES REGULATION ACT (1887) AMENDMENT (No. 2) BILL.,True,94,0,False,True,econ_v1
+1896,1896/jul/27,commons,https://api.parliament.uk/historic-hansard/commons/1896/jul/27/duties-of-inspectors,DUTIES OF INSPECTORS.,True,130,0,False,True,econ_v1
+1896,1896/jul/27,commons,https://api.parliament.uk/historic-hansard/commons/1896/jul/27/locomotives-on-highways-excise-duty,LOCOMOTIVES ON HIGHWAYS [EXCISE DUTY].,True,556,0,False,True,econ_v1
+1896,1896/jul/28,commons,https://api.parliament.uk/historic-hansard/commons/1896/jul/28/statistical-office-customs,"STATISTICAL OFFICE, CUSTOMS.",True,265,0,False,True,econ_v1
+1896,1896/jul/28,commons,https://api.parliament.uk/historic-hansard/commons/1896/jul/28/customs-offices-dublin,"CUSTOMS OFFICES, DUBLIN.",True,399,0,False,True,econ_v1
+1896,1896/jul/28,commons,https://api.parliament.uk/historic-hansard/commons/1896/jul/28/land-commission-and-land-judge,LAND COMMISSION AND LAND JUDGE.&#x2014; REGULATIONS AS TO INTERCHANGE OF DUTIES OF THE LAND JUDGE AND THE JUDICIAL COMMISSIONER OF THE IRISH LAND COMMISSION.,True,1183,0,False,True,econ_v1
+1896,1896/jul/28,lords,https://api.parliament.uk/historic-hansard/lords/1896/jul/28/coal-mines-regulation-act-1887-amendment,COAL MINES REGULATION ACT (1887) AMENDMENT (No. 2) BILL.,True,86,0,False,True,econ_v1
+1896,1896/jul/28,lords,https://api.parliament.uk/historic-hansard/lords/1896/jul/28/concilation-trade-disputes-bill,CONCILATION (TRADE DISPUTES) BILL.,True,74,0,False,True,econ_v1
+1896,1896/jul/29,commons,https://api.parliament.uk/historic-hansard/commons/1896/jul/29/locomotives-on-highways-excise-duty,LOCOMOTIVES ON HIGHWAYS [EXCISE DUTY].,True,166,0,False,True,econ_v1
+1896,1896/jul/30,commons,https://api.parliament.uk/historic-hansard/commons/1896/jul/30/statistics-of-cotton-woollen-and-iron,"STATISTICS OF COTTON, WOOLLEN, AND IRON TRADES.",True,150,1,True,True,econ_v1
+1896,1896/jul/30,commons,https://api.parliament.uk/historic-hansard/commons/1896/jul/30/bombay-and-madras-cotton-trade,BOMBAY AND MADRAS COTTON TRADE.,True,167,0,False,True,econ_v1
+1896,1896/jul/30,commons,https://api.parliament.uk/historic-hansard/commons/1896/jul/30/exemption-of-contract-from-stamp-duty,EXEMPTION OF CONTRACT FROM STAMP DUTY.,True,293,0,False,True,econ_v1
+1896,1896/jul/30,commons,https://api.parliament.uk/historic-hansard/commons/1896/jul/30/excise-duty-on-certain-locomotives,EXCISE DUTY ON CERTAIN LOCOMOTIVES.,True,795,0,False,True,econ_v1
+1896,1896/jul/30,lords,https://api.parliament.uk/historic-hansard/lords/1896/jul/30/powers-and-duties-of-commissioners,POWERS AND DUTIES OF COMMISSIONERS.,True,2900,0,False,True,econ_v1
+1896,1896/jul/30,lords,https://api.parliament.uk/historic-hansard/lords/1896/jul/30/coal-mines-regulation-act-1887-amendment,COAL MINES REGULATION ACT (1887) AMENDMENT (No. 2) BILL.,True,522,0,False,True,econ_v1
+1896,1896/jul/30,lords,https://api.parliament.uk/historic-hansard/lords/1896/jul/30/conciliation-trade-disputes-bill,CONCILIATION (TRADE DISPUTES) BILL.,True,73,0,False,True,econ_v1
+1896,1896/jul/31,lords,https://api.parliament.uk/historic-hansard/lords/1896/jul/31/powers-and-duties-of-commissioners,POWERS AND DUTIES OF COMMISSIONERS.,True,238,0,False,True,econ_v1
+1896,1896/jul/31,lords,https://api.parliament.uk/historic-hansard/lords/1896/jul/31/coal-mines-regulation-act-1887-amendment,COAL MINES REGULATION ACT (1887) AMENDMENT (No. 2) BILL.,True,77,0,False,True,econ_v1
+1896,1896/jul/31,lords,https://api.parliament.uk/historic-hansard/lords/1896/jul/31/conciliation-trade-disputes-bill,CONCILIATION (TRADE DISPUTES) BILL.,True,77,0,False,True,econ_v1
+1896,1896/aug/10,commons,https://api.parliament.uk/historic-hansard/commons/1896/aug/10/customs-landing-and-shipping-branch,CUSTOMS (LANDING AND SHIPPING BRANCH).,True,212,0,False,True,econ_v1
+1896,1896/aug/10,commons,https://api.parliament.uk/historic-hansard/commons/1896/aug/10/wild-birds-protection-acts-amendaient-no,WILD BIRDS PROTECTION ACTS AMENDAIENT (No. 2) BILL [H.L.],True,68,0,False,True,econ_v1
+1896,1896/aug/10,lords,https://api.parliament.uk/historic-hansard/lords/1896/aug/10/confirmation-of-order-by-board-of-trade,CONFIRMATION OF ORDER BY BOARD OF TRADE.,True,1884,0,False,True,econ_v1
+1896,1896/aug/10,lords,https://api.parliament.uk/historic-hansard/lords/1896/aug/10/provisions-as-to-board-of-trade,PROVISIONS AS TO BOARD OF TRADE.,True,523,0,False,True,econ_v1
+1896,1896/aug/10,lords,https://api.parliament.uk/historic-hansard/lords/1896/aug/10/local-taxation-ireland-estate-duty-bill,LOCAL TAXATION (IRELAND) ESTATE DUTY BILL.,True,85,0,False,True,econ_v1
+1896,1896/aug/11,commons,https://api.parliament.uk/historic-hansard/commons/1896/aug/11/infant-life-protection-bill-and-safety,INFANT LIFE PROTECTION BILL AND SAFETY OF NURSE CHILDREN BILL.,True,70,0,False,True,econ_v1
+1896,1896/aug/11,commons,https://api.parliament.uk/historic-hansard/commons/1896/aug/11/coal-mines-regulations-act-1887,COAL MINES REGULATIONS ACT (1887) AMENDMENT (No. 2) BILL.,True,123,0,False,True,econ_v1
+1896,1896/aug/11,commons,https://api.parliament.uk/historic-hansard/commons/1896/aug/11/barrack-room-coal-supply,BARRACK ROOM COAL SUPPLY.,True,238,0,False,True,econ_v1
+1896,1896/aug/11,commons,https://api.parliament.uk/historic-hansard/commons/1896/aug/11/prison-industries,PRISON INDUSTRIES.,True,186,0,False,True,econ_v1
+1896,1896/aug/11,commons,https://api.parliament.uk/historic-hansard/commons/1896/aug/11/wild-birds-protection-acts-amendment-no,WILD BIRDS PROTECTION ACTS AMENDMENT (No. 2) BILL.,True,172,0,False,True,econ_v1
+1896,1896/aug/11,lords,https://api.parliament.uk/historic-hansard/lords/1896/aug/11/local-taxation-ireland-estate-duty-bill,LOCAL TAXATION (IRELAND) ESTATE DUTY BILL.,True,128,0,False,True,econ_v1
+1896,1896/aug/12,commons,https://api.parliament.uk/historic-hansard/commons/1896/aug/12/wild-birds-protection-acts-amendment-no,WILD BIRDS PROTECTION ACTS AMENDMENT (No. 2) BILL [H.L.],True,101,0,False,True,econ_v1
+1896,1896/aug/13,commons,https://api.parliament.uk/historic-hansard/commons/1896/aug/13/estate-duty,ESTATE DUTY.,True,306,0,False,True,econ_v1
+1896,1896/aug/13,commons,https://api.parliament.uk/historic-hansard/commons/1896/aug/13/shipping-federation-bill,SHIPPING FEDERATION BILL.,True,82,0,False,True,econ_v1
+1896,1896/aug/13,lords,https://api.parliament.uk/historic-hansard/lords/1896/aug/13/wild-birds-protection-acts-amendment-no,WILD BIRDS PROTECTION ACTS AMENDMENT (No. 2) BILL [H.L.],True,78,0,False,True,econ_v1
+1896,1896/aug/13,lords,https://api.parliament.uk/historic-hansard/lords/1896/aug/13/local-taxation-ireland-estate-duty-bill,LOCAL TAXATION (IRELAND) ESTATE DUTY BILL.,True,65,0,False,True,econ_v1
+1896,1896/aug/14,commons,https://api.parliament.uk/historic-hansard/commons/1896/aug/14/house-of-commons-police-duty,HOUSE OF COMMONS (POLICE DUTY).,True,219,0,False,True,econ_v1
+1896,1896/aug/14,lords,https://api.parliament.uk/historic-hansard/lords/1896/aug/14/wild-birds-protection-acts-amendment-no,WILD BIRDS PROTECTION ACTS AMENDMENT (No. 2) BILL [H.L.],True,70,0,False,True,econ_v1
