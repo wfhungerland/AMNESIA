@@ -1,0 +1,24 @@
+instrument_id,year,month,target,instrument,legal_basis,mss,codes_s1,codes_s3,codes_hs4,source,target_source_status
+B-01,1957,1,JP,Five-year Japanese restraint on cotton textile exports,bilateral VER,4,652;841,,,FRUS 1955-57 IX; USITC Pub. 850,geprueft (Sekundaer)
+B-02,1962,10,JP;KR,Long-Term Arrangement on cotton textiles,multilateral (GATT LTA),4,652;841,,,USITC Pub. 850,Zielaender ungeprueft
+B-03,1969,1,JP,Voluntary restraint arrangement on steel,bilateral VRA,4,67,,,Michigan JIL; Urata (2020),geprueft (Sekundaer)
+B-04,1971,10,JP;KR,Bilateral agreements on wool and man-made fibre textiles,bilateral,4,651;653;841,,,Literatur; nicht einzeln geprueft,ungeprueft
+B-05,1976,6,JP,Specialty steel import relief (quota; OMA with Japan),Section 201 (201-005),4,67,,,USITC Centennial History Table 10.1,Ziel Japan laut Liebman-Reynolds/PIIE; Tabelle nennt kein Zielland
+B-06,1977,7,KR,Footwear orderly marketing agreement (Korea and Taiwan),Section 201 (201-018),4,851,,,USITC Centennial History Table 10.1,Ziel Korea/Taiwan aus Literatur; ungeprueft
+B-07,1977,7,JP,Colour television OMA with Japan,Section 201 (201-019),4,724,,,USITC Table 10.1; Proclamation 4511,geprueft
+B-08,1979,2,KR,Colour television OMA extended to Korea and Taiwan,Section 201 (201-019),4,724,,,Literatur,ungeprueft
+B-09,1978,1,JP,Trigger price mechanism for steel,administrative,4,67,,,Urata (2020),geprueft (Sekundaer)
+B-10,1981,5,JP,Voluntary export restraint on cars,bilateral VER,4,732,,,Berry et al. (1999); Toyota history,geprueft
+B-11,1983,4,JP,Heavyweight motorcycles tariff-rate quota,Section 201 (201-047),4,732,,,USITC Table 10.1,Ziel Japan aus Literatur; ungeprueft
+B-12,1983,7,JP,Specialty steel TRQ and OMA,Section 201 (201-048),4,67,,,USITC Table 10.1,Ziel Japan aus Literatur; ungeprueft
+B-13,1984,10,JP;KR,Steel voluntary restraint agreements,Section 201 (201-051) and VRAs,4,67,,,USITC Table 10.1,Zielaender aus Literatur; ungeprueft
+B-14,1986,9,JP,US-Japan Semiconductor Trade Agreement,bilateral,4,729,,,Reagan Library,geprueft
+B-15,1986,12,JP,Machine tool voluntary restraint agreement,bilateral VRA (Section 232 case),4,715,,,Literatur,ungeprueft
+B-16,1987,4,JP,100 per cent tariffs on Japanese electronics,Section 301,4,714;724;729,,,Reagan Library,geprueft
+B-17,2002,3,JP;KR;CN,Steel safeguard,Section 201 (201-073),4,67,67,7208;7209;7210;7213;7304;7306,USITC Table 10.1,Zielaender alle Lieferlaender
+B-18,2018,1,CN;KR,Safeguards on solar cells and large washing machines,Section 201,4,,,8541;8450,PIIE; USTR,ungeprueft
+B-19,2018,3,CN;KR;JP,Steel and aluminium tariffs,Section 232,5,,,7208;7209;7210;7213;7304;7306;7601;7606,USTR; Federal Register,ungeprueft
+B-20,2018,7,CN,Section 301 tariffs (about 370bn USD of imports),Section 301,5,,ALL,ALL,USTR (2018),geprueft
+B-21,2019,5,CN,Huawei added to Entity List,Export Administration Regulations,5,,764,8517,84 FR 22961,ungeprueft
+B-22,2022,10,CN,Advanced computing and semiconductor export controls,Export Administration Regulations,5,,776,8542;8486,87 FR 62186,ungeprueft
+B-23,2024,5,CN,Tariff on Chinese EVs raised to 100 per cent,Section 301 review,4,,,8703,USTR (2024),ungeprueft
