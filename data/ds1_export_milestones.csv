@@ -1,0 +1,12 @@
+sector,description,first_year,crossover_year,ratio_first_year,ratio_last_year,note
+JP-STEEL,"Iron and steel (SITC 67), Japan vs US",1962,1962.0,1.128,4.096,bereits im ersten Datenjahr vorn
+JP-TV,"Television receivers (SITC 7241), Japan vs US",1962,1963.0,0.611,3.524,
+JP-AUTO,"Passenger cars (SITC 7321), Japan vs US",1962,1970.0,0.112,4.818,
+JP-SEMI,"Valves, transistors, microcircuits (SITC 776), Japan vs US",1978,1984.0,0.549,1.106,
+KR-SEMI,"Valves, transistors, microcircuits (SITC 776), Korea vs US",1978,,0.161,0.393,
+KR-SHIP,"Ships and boats (SITC 793), Korea vs Japan",1976,,0.039,0.801,
+CN-MFG,"Manufactures (SITC 5-8, incl. 68), China vs US",1992,2005.0,0.193,1.535,
+CN-SOLAR,"Photosensitive devices incl. PV cells (HS 854140), China vs Germany",2002,2006.0,0.424,5.865,
+CN-TEL,"Telephone and telecom apparatus (HS 8517), China vs US",2002,2006.0,0.461,5.952,
+CN-EV,"Electric passenger cars (HS 870380), China vs Germany",2017,,0.071,0.779,
+CN-CHIP,"Integrated circuits (HS 8542), China vs US",2017,2017.0,1.769,3.155,bereits im ersten Datenjahr vorn
