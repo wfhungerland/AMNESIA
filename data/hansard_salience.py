@@ -23,14 +23,14 @@ D = Path(__file__).resolve().parent
 CACHE = D / "raw" / "hansard"
 CACHE.mkdir(parents=True, exist_ok=True)
 MONTHS = ["jan", "feb", "mar", "apr", "may", "jun", "jul", "aug", "sep", "oct", "nov", "dec"]
-FILTER_VERSION = "econ_v1"
+FILTER_VERSION = "econ_v2"  # v1 enthielt "treaty" und zog Diplomatiedebatten herein
 
 # Wirtschaftsdebatte, wenn der Titel einen dieser Wortstaemme enthaelt (Kleinschreibung).
 ECON = ["trade", "tariff", "commerc", "import", "export", "duty", "duties", "customs", "manufactur",
         "industr", "merchandise", "bount", "shipping", "navigation", "patent", "depression",
         "dumping", "free trade", "fair trade", "protection", "sugar", "iron", "steel", "coal",
         "cotton", "woollen", "textile", "chemical", "dye", "cutlery", "competition", "fiscal",
-        "preference", "most favoured", "treaty", "consular"]
+        "preference", "most favoured", "consular"]
 # Nennung des Ziellands im Volltext. Vor 1871 auch Preussen und Zollverein.
 TARGET = re.compile(r"\b(german|germany|germans|prussia|prussian|zollverein)\b", re.I)
 
