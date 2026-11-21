@@ -1,0 +1,760 @@
+kind,incumbent,case,case_id,product,init_year,final_measure,milestone,sector_matched,milestone_year,lag,phase
+AD,US,JP,USA-AD-1,Spun Acrylic Yarn,1979,True,M-JP-TEXT,False,1951,28,post
+AD,US,JP,USA-AD-4,Microwave Ovens,1979,False,M-JP-TEXT,False,1951,28,post
+AD,US,JP,USA-AD-6,Rail Passenger Cars,1979,False,M-JP-TEXT,False,1951,28,post
+AD,US,JP,USA-AD-7,Large Electric Motors,1979,True,M-JP-TEXT,False,1951,28,post
+AD,US,JP,USA-AD-12,Portable Electric Typewriters,1979,True,M-JP-TEXT,False,1951,28,post
+AD,US,JP,USA-AD-15,Iron or Steel Pipe,1980,False,M-JP-TEXT,False,1951,29,post
+AD,US,KR,USA-AD-26,Steel Wire Nails,1979,False,M-KR-DRAM,False,1992,-13,absorption
+AD,US,JP,USA-AD-27,Menthol,1980,False,M-JP-TEXT,False,1951,29,post
+AD,US,CN,USA-AD-28,Menthol,1980,False,M-CN-MFG,False,2010,-30,absorption
+AD,US,JP,USA-AD-45,Steel Wire Nails,1981,False,M-JP-TEXT,False,1951,30,post
+AD,US,KR,USA-AD-46,Steel Wire Nails,1981,True,M-KR-DRAM,False,1992,-11,absorption
+AD,US,JP,USA-AD-48a,Twt Amplifier Assemblies and Parts,1981,True,M-JP-TEXT,False,1951,30,post
+AD,US,JP,USA-AD-48b,Klystrom Amplifier Assemblies and Parts,1981,True,M-JP-TEXT,False,1951,30,post
+AD,US,JP,USA-AD-50,Stainless Clad Plate,1981,True,M-JP-TEXT,False,1951,30,post
+AD,US,JP,USA-AD-87a,Stainless Steel Pipes,1982,True,M-JP-TEXT,False,1951,31,post
+AD,US,JP,USA-AD-87b,Heat Resistent Steel Pipes,1982,True,M-JP-TEXT,False,1951,31,post
+AD,US,CN,USA-AD-101,Greige Polyester Cotton Cloth,1982,True,M-CN-MFG,False,2010,-28,absorption
+AD,US,JP,USA-AD-102,Radio Pagers,1982,True,M-JP-TEXT,False,1951,31,post
+AD,US,CN,USA-AD-103,Cotton Shop Towels,1982,True,M-CN-MFG,False,2010,-28,absorption
+AD,US,JP,USA-AD-109,Portland Cement,1982,False,M-JP-TEXT,False,1951,31,post
+AD,US,KR,USA-AD-110,Bicycles,1982,False,M-KR-DRAM,False,1992,-10,absorption
+AD,US,KR,USA-AD-112,Steel Wire Rope,1982,False,M-KR-DRAM,False,1992,-10,absorption
+AD,US,CN,USA-AD-115,Canned Mushrooms,1982,False,M-CN-MFG,False,2010,-28,absorption
+AD,US,JP,USA-AD-118,Polyester Filament Fabric,1983,False,M-JP-TEXT,False,1951,32,post
+AD,US,KR,USA-AD-119,Polyester Filament Fabric,1983,False,M-KR-DRAM,False,1992,-9,absorption
+AD,US,JP,USA-AD-120,Certain Tapered Roller Bearings,1983,False,M-JP-TEXT,False,1951,32,post
+AD,US,CN,USA-AD-125,Potassium Permanganate,1983,True,M-CN-MFG,False,2010,-27,absorption
+AD,US,CN,USA-AD-130,Chloropicrin,1983,True,M-CN-MFG,False,2010,-27,absorption
+AD,US,KR,USA-AD-131,Carbon Steel Pipes/Tubes,1983,True,M-KR-DRAM,False,1992,-9,absorption
+AD,US,KR,USA-AD-134,Color Tv Receivers,1983,True,M-KR-DRAM,False,1992,-9,absorption
+AD,US,JP,USA-AD-136a,Cyanuric Acid,1983,True,M-JP-TEXT,False,1951,32,post
+AD,US,JP,USA-AD-136b,Dichloro Isocyanurates,1983,True,M-JP-TEXT,False,1951,32,post
+AD,US,JP,USA-AD-136c,Thrichloro Isocyanuric Acid,1983,True,M-JP-TEXT,False,1951,32,post
+AD,US,KR,USA-AD-137,Tire Tubes,1983,False,M-KR-DRAM,False,1992,-9,absorption
+AD,US,KR,USA-AD-138,Rectangular Welded Pipes,1983,True,M-KR-DRAM,False,1992,-9,absorption
+AD,US,JP,USA-AD-142,Spindle Belting,1983,False,M-JP-TEXT,False,1951,32,post
+AD,US,JP,USA-AD-145,Certain Steel Valves,1983,False,M-JP-TEXT,False,1951,32,post
+AD,US,CN,USA-AD-149,Barium Chloride,1983,True,M-CN-MFG,False,2010,-27,absorption
+AD,US,CN,USA-AD-150,Barium Carbonate,1983,False,M-CN-MFG,False,2010,-27,absorption
+AD,US,KR,USA-AD-151,Hot-Rolled Carbon Steel Plate,1983,False,M-KR-DRAM,False,1992,-9,absorption
+AD,US,JP,USA-AD-161,Titanium Sponge,1983,True,M-JP-TEXT,False,1951,32,post
+AD,US,JP,USA-AD-163,Certain Cell Cite Transceivers,1984,True,M-JP-TEXT,False,1951,33,post
+AD,US,JP,USA-AD-189,Calcium Hypochlorite,1984,False,M-JP-TEXT,False,1951,33,post
+AD,US,JP,USA-AD-190,Stainless Steel Wire Cloth,1984,False,M-JP-TEXT,False,1951,33,post
+AD,US,KR,USA-AD-193,Oil Country Tubular Goods,1984,False,M-KR-DRAM,False,1992,-8,absorption
+AD,US,KR,USA-AD-200,Radial-Ply Tires for  Cars,1984,False,M-KR-DRAM,False,1992,-8,absorption
+AD,US,KR,USA-AD-204,Grand and Upright Pianos,1984,False,M-KR-DRAM,False,1992,-8,absorption
+AD,US,JP,USA-AD-206,Neoprene Laminate,1984,True,M-JP-TEXT,False,1951,33,post
+AD,US,JP,USA-AD-207,Cellular Telephones,1984,True,M-JP-TEXT,False,1951,33,post
+AD,US,KR,USA-AD-241,Photo Albums/Pages,1985,True,M-KR-DRAM,False,1992,-7,absorption
+AD,US,KR,USA-AD-242,Steel Transmission Structures,1985,False,M-KR-DRAM,False,1992,-7,absorption
+AD,US,CN,USA-AD-244,Paint Brushes,1985,True,M-CN-MFG,False,2010,-25,absorption
+AD,US,KR,USA-AD-259,Offshore Platform Jackets,1985,True,M-KR-DRAM,False,1992,-7,absorption
+AD,US,JP,USA-AD-260,Offshore Platform Jackets,1985,True,M-JP-TEXT,False,1951,34,post
+AD,US,KR,USA-AD-261,12-Volt Storage Batteries,1985,False,M-KR-DRAM,False,1992,-7,absorption
+AD,US,CN,USA-AD-265,Iron Construction Castings,1985,True,M-CN-MFG,False,2010,-25,absorption
+AD,US,CN,USA-AD-266,Steel Wire Nails,1985,True,M-CN-MFG,False,2010,-25,absorption
+AD,US,JP,USA-AD-269,Nylon Impression Fabric,1985,False,M-JP-TEXT,False,1951,34,post
+AD,US,JP,USA-AD-270,64K Drams,1985,True,M-JP-TEXT,False,1951,34,post
+AD,US,KR,USA-AD-279,Malleable Iron Pipe Fittings,1985,True,M-KR-DRAM,False,1992,-7,absorption
+AD,US,CN,USA-AD-282,Petroleum Wax Candles,1985,True,M-CN-MFG,False,2010,-25,absorption
+AD,US,JP,USA-AD-288,Eproms,1985,True,M-JP-TEXT,False,1951,34,post
+AD,US,CN,USA-AD-292,Carbon Steel Standard Pipe,1985,False,M-CN-MFG,False,2010,-25,absorption
+AD,US,CN,USA-AD-298,Porcelain-On-Steel Cookware,1985,True,M-CN-MFG,False,2010,-25,absorption
+AD,US,JP,USA-AD-300,256K and Above Drams,1985,True,M-JP-DRAM,True,1981,4,post
+AD,US,JP,USA-AD-302,Butt-Weld Pipe Fittings,1986,False,M-JP-TEXT,False,1951,35,post
+AD,US,KR,USA-AD-304,Stainless Steel Cookware,1986,True,M-KR-DRAM,False,1992,-6,absorption
+AD,US,JP,USA-AD-309,Butt-Weld Pipe Fittings,1986,True,M-JP-TEXT,False,1951,35,post
+AD,US,KR,USA-AD-315,Brass Sheet/Strip,1986,True,M-KR-DRAM,False,1992,-6,absorption
+AD,US,JP,USA-AD-323,Unfinished Mirrors,1986,False,M-JP-TEXT,False,1951,35,post
+AD,US,JP,USA-AD-343,Tapered Roller Bearings,1986,True,M-JP-TEXT,False,1951,35,post
+AD,US,CN,USA-AD-344,Tapered Roller Bearings,1986,True,M-CN-MFG,False,2010,-24,absorption
+AD,US,JP,USA-AD-347,Malleable Iron Pipe Fittings,1986,True,M-JP-TEXT,False,1951,35,post
+AD,US,JP,USA-AD-352,Forged Steel Crankshafts,1986,False,M-JP-TEXT,False,1951,35,post
+AD,US,JP,USA-AD-355,Silica Filament Fabric,1986,True,M-JP-TEXT,False,1951,35,post
+AD,US,JP,USA-AD-359,Portland Cement,1986,False,M-JP-TEXT,False,1951,35,post
+AD,US,KR,USA-AD-361,Portland Cement,1986,False,M-KR-DRAM,False,1992,-6,absorption
+AD,US,JP,USA-AD-368,Color Picture Tubes,1986,True,M-JP-TEXT,False,1951,35,post
+AD,US,KR,USA-AD-369,Color Picture Tubes,1986,True,M-KR-DRAM,False,1992,-6,absorption
+AD,US,JP,USA-AD-373,Copier Toner,1987,False,M-JP-TEXT,False,1951,36,post
+AD,US,JP,USA-AD-376,Stainless Buttweld Pipe Fittings,1987,True,M-JP-STEEL,True,1969,18,post
+AD,US,JP,USA-AD-377,Forklift Trucks,1987,True,M-JP-TEXT,False,1951,36,post
+AD,US,JP,USA-AD-379,Brass Sheet/Strip,1987,True,M-JP-TEXT,False,1951,36,post
+AD,US,JP,USA-AD-383,Bimetallic Cylinders,1987,False,M-JP-TEXT,False,1951,36,post
+AD,US,JP,USA-AD-384,Nitrile Rubber,1987,True,M-JP-TEXT,False,1951,36,post
+AD,US,JP,USA-AD-386,Granular Polytetrafluoroethylene Resin,1987,True,M-JP-TEXT,False,1951,36,post
+AD,US,JP,USA-AD-388,All-Terrain Vehicles,1988,False,M-JP-AUTO,True,1980,8,post
+AD,US,JP,USA-AD-389,Microdisks,1988,True,M-JP-TEXT,False,1951,37,post
+AD,US,JP,USA-AD-390,Digital Readout Systems,1988,False,M-JP-TEXT,False,1951,37,post
+AD,US,JP,USA-AD-394a,Ball Bearings,1988,True,M-JP-TEXT,False,1951,37,post
+AD,US,JP,USA-AD-394b,Spherical Roller Bearings,1988,False,M-JP-TEXT,False,1951,37,post
+AD,US,JP,USA-AD-394c,Cylindrical Roller Bearings,1988,True,M-JP-TEXT,False,1951,37,post
+AD,US,JP,USA-AD-394d,Needle Roller Bearings,1988,False,M-JP-TEXT,False,1951,37,post
+AD,US,JP,USA-AD-394e,Spherical Plain Ball Bearings,1988,True,M-JP-TEXT,False,1951,37,post
+AD,US,JP,USA-AD-402,Thermostatic Plugs & Probes,1988,False,M-JP-TEXT,False,1951,37,post
+AD,US,CN,USA-AD-405,Sewn Cloth Headware,1988,False,M-CN-MFG,False,2010,-22,absorption
+AD,US,JP,USA-AD-408,Electrolytic Manganese Dioxide,1988,True,M-JP-TEXT,False,1951,37,post
+AD,US,JP,USA-AD-414,Industrial Belts,1988,True,M-JP-STEEL,True,1969,19,post
+AD,US,KR,USA-AD-416,Industrial Belts,1988,False,M-KR-DRAM,False,1992,-4,absorption
+AD,US,JP,USA-AD-425,Hydrotstatic Transmissions,1988,False,M-JP-TEXT,False,1951,37,post
+AD,US,JP,USA-AD-426,Small Business Telephones,1989,True,M-JP-TEXT,False,1951,38,post
+AD,US,KR,USA-AD-427,Small Business Telephones,1989,True,M-KR-DRAM,False,1992,-3,absorption
+AD,US,JP,USA-AD-429,Mechanical Transfer Presses,1989,True,M-JP-TEXT,False,1951,38,post
+AD,US,JP,USA-AD-432,Drafting Machines,1989,True,M-JP-TEXT,False,1951,38,post
+AD,US,KR,USA-AD-434,12-Volt Motorcycle Batteries,1989,False,M-KR-DRAM,False,1992,-3,absorption
+AD,US,JP,USA-AD-440,Industrial Nitrocellulose,1989,True,M-JP-TEXT,False,1951,38,post
+AD,US,CN,USA-AD-441,Industrial Nitrocellulose,1989,True,M-CN-MFG,False,2010,-21,absorption
+AD,US,KR,USA-AD-442,Industrial Nitrocellulose,1989,True,M-KR-DRAM,False,1992,-3,absorption
+AD,US,KR,USA-AD-449,Sweaters,1989,True,M-KR-DRAM,False,1992,-3,absorption
+AD,US,JP,USA-AD-455,Light Scattering Instruments,1990,True,M-JP-TEXT,False,1951,39,post
+AD,US,CN,USA-AD-457-A,Heavy Forged Handtools - Axes and Adzes,1990,True,M-CN-MFG,False,2010,-20,absorption
+AD,US,CN,USA-AD-457-B,Heavy Forged Handtools - Bars and Wedges,1990,True,M-CN-MFG,False,2010,-20,absorption
+AD,US,CN,USA-AD-457-C,Heavy Forged Handtools - Hammers and Sledges,1990,True,M-CN-MFG,False,2010,-20,absorption
+AD,US,CN,USA-AD-457-D,Heavy Forged Handtools - Picks and Mattocks,1990,True,M-CN-MFG,False,2010,-20,absorption
+AD,US,JP,USA-AD-458,Polyethylene Teraphthalate (Pet) Film,1990,True,M-JP-TEXT,False,1951,39,post
+AD,US,KR,USA-AD-459,Polyethylene Teraphthalate (Pet) Film,1990,True,M-KR-DRAM,False,1992,-2,absorption
+AD,US,JP,USA-AD-461,Portland Hydraulic Cement,1990,True,M-JP-TEXT,False,1951,39,post
+AD,US,JP,USA-AD-462,Benzyl Paraben,1990,True,M-JP-TEXT,False,1951,39,post
+AD,US,CN,USA-AD-464,Sparklers,1990,True,M-CN-MFG,False,2010,-20,absorption
+AD,US,CN,USA-AD-466,Sodium Thiosulfate,1990,True,M-CN-MFG,False,2010,-20,absorption
+AD,US,JP,USA-AD-469a,Active Matrix Flat Panel Displays,1990,True,M-JP-TEXT,False,1951,39,post
+AD,US,JP,USA-AD-469b,Electrolum. Flat Panel Displays,1990,True,M-JP-TEXT,False,1951,39,post
+AD,US,CN,USA-AD-472,Silicon Metal,1990,True,M-CN-MFG,False,2010,-20,absorption
+AD,US,CN,USA-AD-473a,Electric Oscillating Fans,1990,True,M-CN-MFG,False,2010,-20,absorption
+AD,US,CN,USA-AD-473b,Electric Ceiling Fans,1990,True,M-CN-MFG,False,2010,-20,absorption
+AD,US,CN,USA-AD-474,Lug Nuts,1990,True,M-CN-MFG,False,2010,-20,absorption
+AD,US,CN,USA-AD-480,Steel Wire Rope,1990,False,M-CN-MFG,False,2010,-20,absorption
+AD,US,JP,USA-AD-483,Word Processors,1990,True,M-JP-TEXT,False,1951,39,post
+AD,US,CN,USA-AD-495,Shopping Carts,1991,False,M-CN-MFG,False,2010,-19,absorption
+AD,US,CN,USA-AD-497,Tungsten Ore,1991,True,M-CN-MFG,False,2010,-19,absorption
+AD,US,CN,USA-AD-505,Ball Bearings,1991,False,M-CN-MFG,False,2010,-19,absorption
+AD,US,KR,USA-AD-507,Ball Bearings,1991,False,M-KR-DRAM,False,1992,-1,absorption
+AD,US,CN,USA-AD-517,Antimony Trioxide,1991,False,M-CN-MFG,False,2010,-19,absorption
+AD,US,JP,USA-AD-518,Aspheric Opthalmoscopy Lenses,1991,True,M-JP-TEXT,False,1951,40,post
+AD,US,CN,USA-AD-520,Carbon Steel Butt-Weld Pipe Fittings,1991,True,M-CN-MFG,False,2010,-19,absorption
+AD,US,JP,USA-AD-522,Minivans,1991,False,M-JP-AUTO,True,1980,11,post
+AD,US,JP,USA-AD-523,Microwave Ovens,1991,False,M-JP-TEXT,False,1951,40,post
+AD,US,KR,USA-AD-533,Circular Welded Non-Alloy Steel Pipe,1991,True,M-KR-DRAM,False,1992,-1,absorption
+AD,US,CN,USA-AD-538,Sulfanilic Acid,1991,True,M-CN-MFG,False,2010,-19,absorption
+AD,US,KR,USA-AD-540,Welded Stainless Steel Pipe,1991,True,M-KR-DRAM,False,1992,-1,absorption
+AD,US,KR,USA-AD-546,Steel Wire Rope,1992,True,M-KR-DRAM,False,1992,0,post
+AD,US,CN,USA-AD-548,Sulfur Dyes,1992,False,M-CN-MFG,False,2010,-18,absorption
+AD,US,KR,USA-AD-556,Drams,1992,True,M-KR-DRAM,True,1992,0,post
+AD,US,JP,USA-AD-557,Steel Rails,1992,False,M-JP-STEEL,True,1969,23,post
+AD,US,KR,USA-AD-563,Stainless Steel Butt-Weld Pipe Fittings,1992,True,M-KR-DRAM,False,1992,0,post
+AD,US,CN,USA-AD-567,Ferrosilicon,1992,True,M-CN-MFG,False,2010,-18,absorption
+AD,US,JP,USA-AD-571,Professional Cutting Sanding and Grinding Tools,1992,True,M-JP-TEXT,False,1951,41,post
+AD,US,JP,USA-AD-580,Cut-To-Length Carbon Steel Plate,1992,False,M-JP-STEEL,True,1969,23,post
+AD,US,KR,USA-AD-581,Cut-To-Length Carbon Steel Plate,1992,False,M-KR-DRAM,False,1992,0,post
+AD,US,JP,USA-AD-594,Hot-Rolled Carbon Steel Sheet,1992,False,M-JP-STEEL,True,1969,23,post
+AD,US,KR,USA-AD-595,Hot-Rolled Carbon Steel Sheet,1992,False,M-KR-DRAM,False,1992,0,post
+AD,US,JP,USA-AD-606,Cold-Rolled Carbon Steel Sheet ,1992,False,M-JP-STEEL,True,1969,23,post
+AD,US,KR,USA-AD-607,Cold-Rolled Carbon Steel Sheet ,1992,True,M-KR-DRAM,False,1992,0,post
+AD,US,JP,USA-AD-617,Corrosion-Resistant Carbon Steel Sheet,1992,True,M-JP-STEEL,True,1969,23,post
+AD,US,KR,USA-AD-618,Corrosion-Resistant Carbon Steel Sheet,1992,True,M-KR-DRAM,False,1992,0,post
+AD,US,CN,USA-AD-621,Iron Waterworks Fittings,1992,True,M-CN-MFG,False,2010,-18,absorption
+AD,US,JP,USA-AD-622,Dry Film Photoresist,1992,False,M-JP-TEXT,False,1951,41,post
+AD,US,CN,USA-AD-623,Hairbrushes,1992,False,M-CN-MFG,False,2010,-18,absorption
+AD,US,CN,USA-AD-624,Helical Spring Lockwashers,1992,True,M-CN-MFG,False,2010,-18,absorption
+AD,US,KR,USA-AD-629,Cordage,1992,False,M-KR-DRAM,False,1992,0,post
+AD,US,KR,USA-AD-633,Cordage,1992,False,M-KR-DRAM,False,1992,0,post
+AD,US,JP,USA-AD-643,Defrost Timers,1993,True,M-JP-TEXT,False,1951,42,post
+AD,US,JP,USA-AD-648,Carbon Steel Wire Rod,1993,False,M-JP-STEEL,True,1969,24,post
+AD,US,CN,USA-AD-650,Nitromethane,1993,False,M-CN-MFG,False,2010,-17,absorption
+AD,US,CN,USA-AD-651,Silicon Carbide,1993,False,M-CN-MFG,False,2010,-17,absorption
+AD,US,CN,USA-AD-653,Sebacic Acid,1993,True,M-CN-MFG,False,2010,-17,absorption
+AD,US,KR,USA-AD-655,Cordage,1993,False,M-KR-DRAM,False,1992,1,post
+AD,US,JP,USA-AD-660,Grain-Oriented Electrical Steel,1993,True,M-JP-STEEL,True,1969,24,post
+AD,US,JP,USA-AD-661,Photo Paper and Chemicals,1993,True,M-JP-TEXT,False,1951,42,post
+AD,US,CN,USA-AD-663,Paper Clips,1993,True,M-CN-MFG,False,2010,-17,absorption
+AD,US,CN,USA-AD-669,Cased Pencils,1993,True,M-CN-MFG,False,2010,-17,absorption
+AD,US,CN,USA-AD-672,Silicomanganese,1993,True,M-CN-MFG,False,2010,-17,absorption
+AD,US,CN,USA-AD-675,Saccharin,1993,False,M-CN-MFG,False,2010,-17,absorption
+AD,US,KR,USA-AD-676,Saccharin,1993,False,M-KR-DRAM,False,1992,1,post
+AD,US,CN,USA-AD-677,Coumarin,1994,True,M-CN-MFG,False,2010,-16,absorption
+AD,US,JP,USA-AD-681,Stainless Steel Bar,1994,True,M-JP-STEEL,True,1969,25,post
+AD,US,CN,USA-AD-683,Fresh Garlic,1994,True,M-CN-MFG,False,2010,-16,absorption
+AD,US,KR,USA-AD-692,Certain Carbon Steel Butt-Weld Pipe Fittings,1994,False,M-KR-DRAM,False,1992,2,post
+AD,US,CN,USA-AD-696a,Pure Magnesium,1994,True,M-CN-MFG,False,2010,-16,absorption
+AD,US,CN,USA-AD-696b,Alloy Magnesium,1994,False,M-CN-MFG,False,2010,-16,absorption
+AD,US,JP,USA-AD-699,Stainless Steel Angles,1994,False,M-JP-STEEL,True,1969,25,post
+AD,US,CN,USA-AD-700,Disposable Lighters,1994,False,M-CN-MFG,False,2010,-16,absorption
+AD,US,CN,USA-AD-703,Furfuryl Alcohol,1994,True,M-CN-MFG,False,2010,-16,absorption
+AD,US,JP,USA-AD-714,Oil Country Tubular Goods,1994,True,M-JP-STEEL,True,1969,25,post
+AD,US,KR,USA-AD-715,Oil Country Tubular Goods,1994,True,M-KR-DRAM,False,1992,2,post
+AD,US,CN,USA-AD-718,Glycine,1994,True,M-CN-MFG,False,2010,-16,absorption
+AD,US,CN,USA-AD-720,Wheel Inserts,1994,False,M-CN-MFG,False,2010,-16,absorption
+AD,US,CN,USA-AD-722,Honey,1994,True,M-CN-MFG,False,2010,-16,absorption
+AD,US,CN,USA-AD-723,Drawer Slides,1994,False,M-CN-MFG,False,2010,-16,absorption
+AD,US,CN,USA-AD-724,Manganese Metal,1994,True,M-CN-MFG,False,2010,-16,absorption
+AD,US,CN,USA-AD-725,Manganese Sulfate,1994,False,M-CN-MFG,False,2010,-16,absorption
+AD,US,CN,USA-AD-726,Polyvinyl Alcohol ,1995,True,M-CN-MFG,False,2010,-15,absorption
+AD,US,JP,USA-AD-727,Polyvinyl Alcohol ,1995,True,M-JP-TEXT,False,1951,44,post
+AD,US,KR,USA-AD-728,Polyvinyl Alcohol ,1995,False,M-KR-DRAM,False,1992,3,post
+AD,US,CN,USA-AD-731,Bicycles,1995,False,M-CN-MFG,False,2010,-15,absorption
+AD,US,JP,USA-AD-737,Large Newspaper Printing Presses and Components,1995,True,M-JP-TEXT,False,1951,44,post
+AD,US,JP,USA-AD-739,Clad Steel Plate,1995,True,M-JP-STEEL,True,1969,26,post
+AD,US,JP,USA-AD-740,Sodium Azide,1996,True,M-JP-TEXT,False,1951,45,post
+AD,US,CN,USA-AD-741,Melamine Institutional/Non-Institutional Dinnerware,1996,True,M-CN-MFG,False,2010,-14,absorption
+AD,US,CN,USA-AD-744,Certain Brake Drums and Rotors,1996,True,M-CN-MFG,False,2010,-14,absorption
+AD,US,JP,USA-AD-748,Engineered Process Gas Turbo Compressor Systems,1996,True,M-JP-TEXT,False,1951,45,post
+AD,US,CN,USA-AD-749,Persulfates,1996,True,M-CN-MFG,False,2010,-14,absorption
+AD,US,JP,USA-AD-750,Vector Supercomputers,1996,True,M-JP-TEXT,False,1951,45,post
+AD,US,CN,USA-AD-752,Crawfish Tail Meat,1996,True,M-CN-MFG,False,2010,-14,absorption
+AD,US,CN,USA-AD-753,Cut To Length Carbon Steel Plate ,1996,True,M-CN-MFG,False,2010,-14,absorption
+AD,US,CN,USA-AD-757,Collated Roofing Nails,1996,True,M-CN-MFG,False,2010,-14,absorption
+AD,US,KR,USA-AD-758,Collated Roofing Nails,1996,False,M-KR-DRAM,False,1992,4,post
+AD,US,JP,USA-AD-760,Needle Bearing Wire,1997,False,M-JP-STEEL,True,1969,28,post
+AD,US,KR,USA-AD-761,Static Random Access Memory Semiconductors,1997,False,M-KR-DRAM,True,1992,5,post
+AD,US,JP,USA-AD-771,Stainless Steel Wire Rod,1997,True,M-JP-STEEL,True,1969,28,post
+AD,US,KR,USA-AD-772,Stainless Steel Wire Rod,1997,True,M-KR-DRAM,False,1992,5,post
+AD,US,CN,USA-AD-777,Certain Preserved Mushrooms,1998,True,M-CN-MFG,False,2010,-12,absorption
+AD,US,JP,USA-AD-783,Stainless Steel Round Wire,1998,False,M-JP-STEEL,True,1969,29,post
+AD,US,KR,USA-AD-784,Stainless Steel Round Wire,1998,False,M-KR-DRAM,False,1992,6,post
+AD,US,KR,USA-AD-791,Stainless Steel Plate in Coils,1998,True,M-KR-DRAM,False,1992,6,post
+AD,US,KR,USA-AD-795,Emulsion Styrene-Butadiene Rubber,1998,False,M-KR-DRAM,False,1992,6,post
+AD,US,JP,USA-AD-800,Stainless Steel Sheet and Strip,1998,True,M-JP-STEEL,True,1969,29,post
+AD,US,KR,USA-AD-801,Stainless Steel Sheet and Strip,1998,True,M-KR-DRAM,False,1992,6,post
+AD,US,JP,USA-AD-807,Hot Rolled Carbon Steel Flat Products,1998,True,M-JP-STEEL,True,1969,29,post
+AD,US,CN,USA-AD-814,Creatine Monohydrate,1999,True,M-CN-MFG,False,2010,-11,absorption
+AD,US,JP,USA-AD-820,Cut-To-Length Carbon Steel Plate,1999,True,M-JP-STEEL,True,1969,30,post
+AD,US,KR,USA-AD-821,Cut-To-Length Carbon Steel Plate,1999,True,M-KR-DRAM,False,1992,7,post
+AD,US,JP,USA-AD-823,Aperture Masks,1999,False,M-JP-TEXT,False,1951,48,post
+AD,US,KR,USA-AD-824,Aperture Masks,1999,False,M-KR-DRAM,False,1992,7,post
+AD,US,KR,USA-AD-825,Polyester Staple Fiber,1999,True,M-KR-DRAM,False,1992,7,post
+AD,US,KR,USA-AD-827,Nitrile Rubber,1999,False,M-KR-DRAM,False,1992,7,post
+AD,US,CN,USA-AD-828,Aspirin,1999,True,M-CN-MFG,False,2010,-11,absorption
+AD,US,CN,USA-AD-831,Cold-Rolled Carbon Steel Products,1999,False,M-CN-MFG,False,2010,-11,absorption
+AD,US,JP,USA-AD-833,Cold-Rolled Carbon Steel Products,1999,False,M-JP-STEEL,True,1969,30,post
+AD,US,CN,USA-AD-841,Non-Frozen Apple Juice Concentrate,1999,True,M-CN-MFG,False,2010,-11,absorption
+AD,US,JP,USA-AD-847a,Large Diameter Pressure Pipe,1999,True,M-JP-STEEL,True,1969,30,post
+AD,US,JP,USA-AD-847b,Small Diameter Pressure Pipe,1999,True,M-JP-STEEL,True,1969,30,post
+AD,US,CN,USA-AD-851,Synthetic Indigo,1999,True,M-CN-MFG,False,2010,-11,absorption
+AD,US,JP,USA-AD-853,Structural Steel Beams,1999,True,M-JP-STEEL,True,1969,30,post
+AD,US,KR,USA-AD-854,Structural Steel Beams,1999,True,M-KR-DRAM,False,1992,7,post
+AD,US,CN,USA-AD-857,Paintbrushes,1999,False,M-CN-MFG,False,2010,-11,absorption
+AD,US,JP,USA-AD-859,Seamless Stainless Steel Hollow Products,1999,False,M-JP-STEEL,True,1969,30,post
+AD,US,JP,USA-AD-860,Tin Mill Products,1999,True,M-JP-STEEL,True,1969,30,post
+AD,US,KR,USA-AD-862,Expandable Polystyrene Resins,1999,False,M-KR-DRAM,False,1992,7,post
+AD,US,CN,USA-AD-863,Citric Acid and Sodium Citrate,1999,False,M-CN-MFG,False,2010,-11,absorption
+AD,US,CN,USA-AD-868,Steel Wire Rope,2000,False,M-CN-MFG,False,2010,-10,absorption
+AD,US,CN,USA-AD-874,Steel Concrete Rebar,2000,True,M-CN-MFG,False,2010,-10,absorption
+AD,US,JP,USA-AD-876,Steel Concrete Reinforcing Bars,2000,False,M-JP-STEEL,True,1969,31,post
+AD,US,KR,USA-AD-877,Steel Concrete Rebar,2000,True,M-KR-DRAM,False,1992,8,post
+AD,US,CN,USA-AD-885,Desktop Note Counters and Scanners,2000,False,M-CN-MFG,False,2010,-10,absorption
+AD,US,KR,USA-AD-886,Desktop Note Counters and Scanners,2000,False,M-KR-DRAM,False,1992,8,post
+AD,US,JP,USA-AD-888,Stainless Steel Angles,2000,True,M-JP-STEEL,True,1969,31,post
+AD,US,KR,USA-AD-889,Stainless Steel Angles,2000,True,M-KR-DRAM,False,1992,8,post
+AD,US,CN,USA-AD-891,Foundry Coke,2000,True,M-CN-MFG,False,2010,-10,absorption
+AD,US,CN,USA-AD-893,Honey,2000,True,M-CN-MFG,False,2010,-10,absorption
+AD,US,CN,USA-AD-895,Pure Magnesium,2000,True,M-CN-MFG,False,2010,-10,absorption
+AD,US,CN,USA-AD-899,Hot-Rolled Carbon Steel Products,2000,True,M-CN-MFG,False,2010,-10,absorption
+AD,US,KR,USA-AD-916,Stainless Steel Bar,2001,True,M-KR-DRAM,False,1992,9,post
+AD,US,JP,USA-AD-919,Welded Large Diameter Line Pipe,2001,True,M-JP-STEEL,True,1969,32,post
+AD,US,CN,USA-AD-921,Folding Gift Boxes,2001,True,M-CN-MFG,False,2010,-9,absorption
+AD,US,CN,USA-AD-922,Automotive Replacement Glass Windshields,2001,True,M-CN-MFG,False,2010,-9,absorption
+AD,US,CN,USA-AD-932,Folding Metal Tables and Chairs,2001,True,M-CN-MFG,False,2010,-9,absorption
+AD,US,CN,USA-AD-935,Structural Steel Beams,2001,False,M-CN-MFG,False,2010,-9,absorption
+AD,US,CN,USA-AD-943,Circular-Welded Non-Alloy Steel Pipe,2001,False,M-CN-MFG,False,2010,-9,absorption
+AD,US,CN,USA-AD-951,Blast Furnace Coke,2001,False,M-CN-MFG,False,2010,-9,absorption
+AD,US,JP,USA-AD-952,Blast Furnace Coke,2001,False,M-JP-TEXT,False,1951,50,post
+AD,US,CN,USA-AD-968,Cold-Rolled Steel Products,2001,False,M-CN-MFG,False,2010,-9,absorption
+AD,US,JP,USA-AD-972,Cold-Rolled Steel Products,2001,False,M-JP-STEEL,True,1969,32,post
+AD,US,KR,USA-AD-973,Cold-Rolled Steel Products,2001,False,M-KR-DRAM,False,1992,9,post
+AD,US,CN,USA-AD-986,Ferrovanadium,2001,True,M-CN-MFG,False,2010,-9,absorption
+AD,US,JP,USA-AD-988,Pneumatic Directional Control Valves,2002,False,M-JP-TEXT,False,1951,51,post
+AD,US,CN,USA-AD-989,Ball Bearings,2002,False,M-CN-MFG,False,2010,-8,absorption
+AD,US,CN,USA-AD-990,Non-Malleable Cast Iron Pipe Fittings,2002,True,M-CN-MFG,False,2010,-8,absorption
+AD,US,CN,USA-AD-994,Oil Country Tubular Goods,2002,False,M-CN-MFG,False,2010,-8,absorption
+AD,US,CN,USA-AD-1010,Lawn and Garden Steel Fence Posts,2002,True,M-CN-MFG,False,2010,-8,absorption
+AD,US,CN,USA-AD-1013,Saccharin,2002,True,M-CN-MFG,False,2010,-8,absorption
+AD,US,CN,USA-AD-1014,Polyvinyl Alcohol,2002,True,M-CN-MFG,False,2010,-8,absorption
+AD,US,JP,USA-AD-1016,Polyvinyl Alcohol,2002,True,M-JP-TEXT,False,1951,51,post
+AD,US,KR,USA-AD-1017,Polyvinyl Alcohol,2002,True,M-KR-DRAM,False,1992,10,post
+AD,US,CN,USA-AD-1020,Barium Carbonate,2002,True,M-CN-MFG,False,2010,-8,absorption
+AD,US,CN,USA-AD-1021,Malleable Iron Pipe Fittings,2002,True,M-CN-MFG,False,2010,-8,absorption
+AD,US,CN,USA-AD-1022,Refined Brown Aluminum Oxide,2002,True,M-CN-MFG,False,2010,-8,absorption
+AD,US,JP,USA-AD-1023,Certain Ceramic Station Post Insulators,2003,True,M-JP-TEXT,False,1951,52,post
+AD,US,KR,USA-AD-1026,Prestressed Concrete Steel Wire Strand,2003,True,M-KR-DRAM,False,1992,11,post
+AD,US,CN,USA-AD-1030,44'-Diamino-22'-Stilbenedisulfonic Acid and Stilbenic Fluorescent Whitening Agents,2003,False,M-CN-MFG,False,2010,-7,absorption
+AD,US,CN,USA-AD-1034,Color Television Receivers,2003,True,M-CN-MFG,False,2010,-7,absorption
+AD,US,CN,USA-AD-1036,44'-Diamino-22'-Stilbenedisulfonic Acid Chemistry,2003,False,M-CN-MFG,False,2010,-7,absorption
+AD,US,JP,USA-AD-1040,Certain Wax and Wax/Resin Thermal Transfer Ribbons,2003,False,M-JP-TEXT,False,1951,52,post
+AD,US,KR,USA-AD-1041,Certain Wax and Wax/Resin Thermal Transfer Ribbons,2003,False,M-KR-DRAM,False,1992,11,post
+AD,US,CN,USA-AD-1043,Polyethylene Retail Carrier Bags,2003,True,M-CN-MFG,False,2010,-7,absorption
+AD,US,CN,USA-AD-1046,Tetrahydrofurfuryl Alcohol,2003,True,M-CN-MFG,False,2010,-7,absorption
+AD,US,CN,USA-AD-1047,Ironing Tables and Certain Parts Thereof,2003,True,M-CN-MFG,False,2010,-7,absorption
+AD,US,CN,USA-AD-1049,Electrolytic Manganese Dioxide,2003,False,M-CN-MFG,False,2010,-7,absorption
+AD,US,JP,USA-AD-1052,Electrolytic Manganese Dioxide,2003,False,M-JP-TEXT,False,1951,52,post
+AD,US,CN,USA-AD-1058,Wooden Bedroom Furniture,2003,True,M-CN-MFG,False,2010,-7,absorption
+AD,US,CN,USA-AD-1059,Hand Trucks,2003,True,M-CN-MFG,False,2010,-7,absorption
+AD,US,CN,USA-AD-1060,Carbazole Violet Pigment 23,2003,True,M-CN-MFG,False,2010,-7,absorption
+AD,US,CN,USA-AD-1064,Certain Frozen and Canned Warmwater Shrimp and Prawns,2004,True,M-CN-MFG,False,2010,-6,absorption
+AD,US,JP,USA-AD-1069,Outboard Engines,2004,False,M-JP-TEXT,False,1951,53,post
+AD,US,CN,USA-AD-1070a,Crepe Paper Products,2004,True,M-CN-MFG,False,2010,-6,absorption
+AD,US,CN,USA-AD-1070b,Certain Tissue Paper Products ,2004,True,M-CN-MFG,False,2010,-6,absorption
+AD,US,CN,USA-AD-1071,Magnesium,2004,True,M-CN-MFG,False,2010,-6,absorption
+AD,US,CN,USA-AD-1073,Certain Circular Welded Carbon Quality Line Pipe,2004,False,M-CN-MFG,False,2010,-6,absorption
+AD,US,KR,USA-AD-1074,Certain Circular Welded Carbon Quality Line Pipe,2004,False,M-KR-DRAM,False,1992,12,post
+AD,US,CN,USA-AD-1082,Chlorinated Isocyanurates,2004,True,M-CN-MFG,False,2010,-6,absorption
+AD,US,JP,USA-AD-1090,Superalloy Degassed Chromium,2005,True,M-JP-TEXT,False,1951,54,post
+AD,US,CN,USA-AD-1091,Artists' Canvas,2005,True,M-CN-MFG,False,2010,-5,absorption
+AD,US,CN,USA-AD-1092,Diamond Sawblades and Parts Thereof,2005,True,M-CN-MFG,False,2010,-5,absorption
+AD,US,KR,USA-AD-1093,Diamond Sawblades and Parts Thereof,2005,True,M-KR-DRAM,False,1992,13,post
+AD,US,JP,USA-AD-1094,Metal Calendar Slides,2005,False,M-JP-STEEL,True,1969,36,post
+AD,US,CN,USA-AD-1095,Certain Lined Paper Products,2005,True,M-CN-MFG,False,2010,-5,absorption
+AD,US,CN,USA-AD-1099,Carbon and Certain Alloy Steel Wire Rod,2005,False,M-CN-MFG,False,2010,-5,absorption
+AD,US,CN,USA-AD-1102,Activated Carbon,2006,False,M-CN-MFG,False,2010,-4,absorption
+AD,US,CN,USA-AD-1103,Certain Activated Carbon,2006,True,M-CN-MFG,False,2010,-4,absorption
+AD,US,CN,USA-AD-1104,Certain Polyester Staple Fiber,2006,True,M-CN-MFG,False,2010,-4,absorption
+AD,US,CN,USA-AD-1107,Coated Free Sheet Paper,2006,False,M-CN-MFG,False,2010,-4,absorption
+AD,US,KR,USA-AD-1109,Coated Free Sheet Paper,2006,False,M-KR-DRAM,False,1992,14,post
+AD,US,CN,USA-AD-1110,Sodium Hexametaphosphate,2007,True,M-CN-MFG,False,2010,-3,absorption
+AD,US,JP,USA-AD-1112,Glycine ,2007,False,M-JP-TEXT,False,1951,56,post
+AD,US,KR,USA-AD-1113,Glycine ,2007,False,M-KR-DRAM,False,1992,15,post
+AD,US,CN,USA-AD-1114,Certain Steel Nails,2007,True,M-CN-MFG,False,2010,-3,absorption
+AD,US,CN,USA-AD-1116,Circular Welded Carbon Quality Steel Pipe,2007,True,M-CN-MFG,False,2010,-3,absorption
+AD,US,CN,USA-AD-1117,Certain New Pneumatic Off-The-Road Tires,2007,True,M-CN-MFG,False,2010,-3,absorption
+AD,US,CN,USA-AD-1118,Light-Walled Rectangular Pipe and Tube,2007,True,M-CN-MFG,False,2010,-3,absorption
+AD,US,KR,USA-AD-1119,Light-Walled Rectangular Pipe and Tube,2007,True,M-KR-DRAM,False,1992,15,post
+AD,US,CN,USA-AD-1122,Laminated Woven Sacks,2007,True,M-CN-MFG,False,2010,-3,absorption
+AD,US,CN,USA-AD-1123,Steel Wire Garment Hangers,2007,True,M-CN-MFG,False,2010,-3,absorption
+AD,US,CN,USA-AD-1125,Electrolytic Manganese Dioxide,2007,True,M-CN-MFG,False,2010,-3,absorption
+AD,US,CN,USA-AD-1126,Lightweight Thermal Paper,2007,True,M-CN-MFG,False,2010,-3,absorption
+AD,US,KR,USA-AD-1128,Lightweight Thermal Paper,2007,False,M-KR-DRAM,False,1992,15,post
+AD,US,CN,USA-AD-1129,Raw Flexible Magnets,2007,True,M-CN-MFG,False,2010,-3,absorption
+AD,US,CN,USA-AD-1132,Polyethylene Terephthalate Film/Sheet/Strip (PET Film),2007,True,M-CN-MFG,False,2010,-3,absorption
+AD,US,CN,USA-AD-1136,Sodium Nitrite,2007,True,M-CN-MFG,False,2010,-3,absorption
+AD,US,CN,USA-AD-1138,Aminotrimethylenephosphonic Acid and 1-Hydroxyethylidene-1/1-Diphosphonic Acid,2008,False,M-CN-MFG,False,2010,-2,absorption
+AD,US,CN,USA-AD-1140,Uncovered Innerspring Units,2008,True,M-CN-MFG,False,2010,-2,absorption
+AD,US,CN,USA-AD-1143,Small Diameter Graphite Electrodes,2008,True,M-CN-MFG,False,2010,-2,absorption
+AD,US,CN,USA-AD-1144,Circular Welded Austenitic Stainless Pressure Pipe,2008,True,M-CN-MFG,False,2010,-2,absorption
+AD,US,CN,USA-AD-1145,Steel Threaded Rod,2008,True,M-CN-MFG,False,2010,-2,absorption
+AD,US,CN,USA-AD-1146,1-Hydroxyethylidene-1/1-Diphosphonic Acid,2008,True,M-CN-MFG,False,2010,-2,absorption
+AD,US,CN,USA-AD-1148,Frontseating Service Valves,2008,True,M-CN-MFG,False,2010,-2,absorption
+AD,US,CN,USA-AD-1149,Certain Circular Welded Carbon Quality Steel Line Pipe,2008,True,M-CN-MFG,False,2010,-2,absorption
+AD,US,KR,USA-AD-1150,Certain Circular Welded Carbon Quality Steel Line Pipe,2008,False,M-KR-DRAM,False,1992,16,post
+AD,US,CN,USA-AD-1152,Citric Acid and Certain Citrate Salts,2008,True,M-CN-MFG,False,2010,-2,absorption
+AD,US,CN,USA-AD-1153,Certain Tow Behind Lawn Groomers and Certain Parts Thereof,2008,True,M-CN-MFG,False,2010,-2,absorption
+AD,US,CN,USA-AD-1154,Certain Kitchen Appliance Shelving and Racks,2008,True,M-CN-MFG,False,2010,-2,absorption
+AD,US,CN,USA-AD-1159,Oil Country Tubular Goods,2009,True,M-CN-MFG,False,2010,-1,absorption
+AD,US,CN,USA-AD-1160,Prestressed Concrete Steel Wire Strand,2009,True,M-CN-MFG,False,2010,-1,absorption
+AD,US,CN,USA-AD-1161,Certain Steel Grating,2009,True,M-CN-MFG,False,2010,-1,absorption
+AD,US,CN,USA-AD-1162,Wire Decking,2009,False,M-CN-MFG,False,2010,-1,absorption
+AD,US,CN,USA-AD-1163,Woven Electric Blankets,2009,True,M-CN-MFG,False,2010,-1,absorption
+AD,US,CN,USA-AD-1164,Narrow Woven Ribbons with Woven Selvedge,2009,True,M-CN-MFG,False,2010,-1,absorption
+AD,US,CN,USA-AD-1166,Certain Magnesia Carbon Bricks,2009,True,M-CN-MFG,False,2010,-1,absorption
+AD,US,CN,USA-AD-1168,Certain Seamless Carbon and Alloy Steel Standard and Line and Pressure Pipe,2009,True,M-CN-MFG,False,2010,-1,absorption
+AD,US,CN,USA-AD-1169,Certain Coated Paper Suitable for High-Quality Print Graphics Using Sheet-Fed Presses,2009,True,M-CN-MFG,False,2010,-1,absorption
+AD,US,CN,USA-AD-1171,Certain Standard Steel Fasteners,2009,False,M-CN-MFG,False,2010,-1,absorption
+AD,US,CN,USA-AD-1173,Certain Sodium and Potassium Phosphate Salts,2009,True,M-CN-MFG,False,2010,-1,absorption
+AD,US,CN,USA-AD-1174,Seamless Refined Copper Pipe and Tube,2009,True,M-CN-MFG,False,2010,-1,absorption
+AD,US,CN,USA-AD-1176,Drill Pipe,2010,True,M-CN-MFG,False,2010,0,post
+AD,US,CN,USA-AD-1177,Certain Aluminum Extrusions,2010,True,M-CN-MFG,False,2010,0,post
+AD,US,CN,USA-AD-1178,Glyphosate,2010,False,M-CN-MFG,False,2010,0,post
+AD,US,CN,USA-AD-1179,Multilayered Wood Flooring,2010,True,M-CN-MFG,False,2010,0,post
+AD,US,KR,USA-AD-1180,Bottom Mount Combination Refrigerator-Freezers,2011,False,M-KR-DRAM,False,1992,19,post
+AD,US,CN,USA-AD-1182,Certain Steel Wheels,2011,False,M-CN-MFG,False,2010,1,post
+AD,US,CN,USA-AD-1183,Galvanized Steel Wire,2011,False,M-CN-MFG,False,2010,1,post
+AD,US,CN,USA-AD-1186,Certain Stilbenic Optical Brightening Agents,2011,True,M-CN-MFG,False,2010,1,post
+AD,US,CN,USA-AD-1188,High Pressure Steel Cylinders,2011,True,M-CN-MFG,False,2010,1,post
+AD,US,KR,USA-AD-1189,Large Power Transformers,2011,True,M-KR-DRAM,False,1992,19,post
+AD,US,CN,USA-AD-1190,Crystalline Silicon Photovoltaic Cells and Modules,2011,True,M-CN-SOLAR,True,2012,-1,absorption
+AD,US,CN,USA-AD-1195,Utility Scale Wind Towers,2012,True,M-CN-MFG,False,2010,2,post
+AD,US,KR,USA-AD-1199,Large Residential Washers,2012,True,M-KR-DRAM,False,1992,20,post
+AD,US,CN,USA-AD-1201,Drawn Stainless Steel Sinks,2012,True,M-CN-MFG,False,2010,2,post
+AD,US,CN,USA-AD-1203,Xantham Gum,2012,True,M-CN-MFG,False,2010,2,post
+AD,US,CN,USA-AD-1204,Hardwood Plywood,2012,False,M-CN-MFG,False,2010,2,post
+AD,US,CN,USA-AD-1205,Silica Bricks and Shapes,2012,False,M-CN-MFG,False,2010,2,post
+AD,US,JP,USA-AD-1206,Diffusion-Annealed/Nickel-Plated Steel Flat-Rolled Products,2013,True,M-JP-STEEL,True,1969,44,post
+AD,US,CN,USA-AD-1207,Prestressed Concrete Steel Rail Tie Wire,2013,True,M-CN-MFG,False,2010,3,post
+AD,US,KR,USA-AD-1216,Certain Oil Country Tubular Goods,2013,True,M-KR-DRAM,False,1992,21,post
+AD,US,JP,USA-AD-1226,Chlorinated Isocyanurates,2013,False,M-JP-TEXT,False,1951,62,post
+AD,US,CN,USA-AD-1229,Monosodium Glutamate,2013,True,M-CN-MFG,False,2010,3,post
+AD,US,CN,USA-AD-1231,Grain-Oriented Electrical Steel,2013,False,M-CN-MFG,False,2010,3,post
+AD,US,JP,USA-AD-1234,Grain-Oriented Electrical Steel,2013,False,M-JP-STEEL,True,1969,44,post
+AD,US,KR,USA-AD-1235,Grain-Oriented Electrical Steel,2013,False,M-KR-DRAM,False,1992,21,post
+AD,US,CN,USA-AD-1238,Non-Oriented Electrical Steel,2013,True,M-CN-MFG,False,2010,3,post
+AD,US,JP,USA-AD-1240,Non-Oriented Electrical Steel,2013,True,M-JP-STEEL,True,1969,44,post
+AD,US,KR,USA-AD-1241,Non-Oriented Electrical Steel,2013,True,M-KR-DRAM,False,1992,21,post
+AD,US,CN,USA-AD-1244,"1,1,1,2-Tetrafluoroethane",2013,False,M-CN-MFG,False,2010,3,post
+AD,US,CN,USA-AD-1245,Calcium Hypochlorite,2013,True,M-CN-MFG,False,2010,3,post
+AD,US,CN,USA-AD-1246,Certain Crystalline Silicon Photovoltaic Products,2014,True,M-CN-SOLAR,True,2012,2,post
+AD,US,CN,USA-AD-1248,Carbon and Certain Alloy Steel Wire Rod,2014,True,M-CN-MFG,False,2010,4,post
+AD,US,CN,USA-AD-1250,53-Foot Domestic Dry Containers,2014,False,M-CN-MFG,False,2010,4,post
+AD,US,KR,USA-AD-1252,Certain Steel Nails,2014,True,M-KR-DRAM,False,1992,22,post
+AD,US,CN,USA-AD-1258,Certain Passenger Vehicle and Light Truck Tires,2014,True,M-CN-MFG,False,2010,4,post
+AD,US,CN,USA-AD-1259,Boltless Steel Shelving Units Prepackaged for Sale,2014,True,M-CN-MFG,False,2010,4,post
+AD,US,KR,USA-AD-1260,Certain Welded Line Pipe,2014,True,M-KR-DRAM,False,1992,22,post
+AD,US,CN,USA-AD-1262,Melamine,2014,True,M-CN-MFG,False,2010,4,post
+AD,US,CN,USA-AD-1266,Certain Uncoated Paper,2015,False,M-CN-MFG,False,2010,5,post
+AD,US,CN,USA-AD-1271,Certain Polyethylene Terephthalate Resin,2015,False,M-CN-MFG,False,2010,5,post
+AD,US,CN,USA-AD-1274,Certain Corrosion-Resistant Steel Products,2015,False,M-CN-MFG,False,2010,5,post
+AD,US,KR,USA-AD-1277,Certain Corrosion-Resistant Steel Products,2015,False,M-KR-DRAM,False,1992,23,post
+AD,US,CN,USA-AD-1279,Hydrofluorocarbon Blends and Components,2015,False,M-CN-MFG,False,2010,5,post
+AD,US,KR,USA-AD-1280,Heavy Walled Rectangular Welded Carbon Steel Pipes and Tubes,2015,False,M-KR-DRAM,False,1992,23,post
+AD,US,CN,USA-AD-1284,Cold-Rolled Steel Flat Products,2015,False,M-CN-MFG,False,2010,5,post
+AD,US,JP,USA-AD-1286,Cold-Rolled Steel Flat Products,2015,False,M-JP-STEEL,True,1969,46,post
+AD,US,KR,USA-AD-1287,Cold-Rolled Steel Flat Products,2015,False,M-KR-DRAM,False,1992,23,post
+AD,US,JP,USA-AD-1293,Certain Hot-Rolled Steel Flat Products,2015,False,M-JP-STEEL,True,1969,46,post
+AD,US,KR,USA-AD-1294,Certain Hot-Rolled Steel Flat Products,2015,False,M-KR-DRAM,False,1992,23,post
+AD,US,CN,USA-AD-1305,Certain Iron Mechanical Transfer Drive Components,2015,False,M-CN-MFG,False,2010,5,post
+AD,US,CN,USA-AD-1306,Large Residential Washers,2015,False,M-CN-MFG,False,2010,5,post
+AD,EU,CN,EUN-AD-3,Oxalic Acid,1981,True,M-CN-MFG,False,2010,-29,absorption
+AD,EU,CN,EUN-AD-5,Paint/Distemper/Varnish and Similar Brushes,1986,True,M-CN-MFG,False,2010,-24,absorption
+AD,EU,JP,EUN-AD-16,Eproms (Erasable Programmable Read Only Memories),1987,True,M-JP-DRAM,True,1981,6,post
+AD,EU,JP,EUN-AD-17,Serial Impact Dot Matrix Printers,1987,True,M-JP-TEXT,False,1951,36,post
+AD,EU,JP,EUN-AD-20,Daisy Wheel Printers (aka Serial Impact Fully Formed (SIFF) Character Printers),1987,True,M-JP-TEXT,False,1951,36,post
+AD,EU,KR,EUN-AD-24,Oxalic Acid,1987,True,M-KR-DRAM,False,1992,-5,absorption
+AD,EU,KR,EUN-AD-34,Polyester Yarn (Man Made Staple Fibres),1987,True,M-KR-DRAM,False,1992,-5,absorption
+AD,EU,CN,EUN-AD-37,Calcium Metal,1987,True,M-CN-MFG,False,2010,-23,absorption
+AD,EU,JP,EUN-AD-38,Compact Disc Players,1987,True,M-JP-TEXT,False,1951,36,post
+AD,EU,KR,EUN-AD-39,Compact Disc Players,1987,True,M-KR-DRAM,False,1992,-5,absorption
+AD,EU,JP,EUN-AD-40,DRAMs (Dynamic Random Access Memories),1987,True,M-JP-DRAM,True,1981,6,post
+AD,EU,JP,EUN-AD-42,Cellular Mobile Telephones,1987,False,M-JP-TEXT,False,1951,36,post
+AD,EU,KR,EUN-AD-45,Video Cassette Recorders,1987,True,M-KR-DRAM,False,1992,-5,absorption
+AD,EU,JP,EUN-AD-46,Video Cassette Recorders,1987,True,M-JP-TEXT,False,1951,36,post
+AD,EU,KR,EUN-AD-54,Video Cassette Tapes,1987,True,M-KR-DRAM,False,1992,-5,absorption
+AD,EU,KR,EUN-AD-55,Polyester Film,1988,False,M-KR-DRAM,False,1992,-4,absorption
+AD,EU,CN,EUN-AD-57,Calcium Metal ,1988,True,M-CN-MFG,False,2010,-22,absorption
+AD,EU,KR,EUN-AD-60,Small Screen Colour Television Receivers,1988,True,M-KR-DRAM,False,1992,-4,absorption
+AD,EU,JP,EUN-AD-62,Wheeled Loaders,1988,False,M-JP-TEXT,False,1951,37,post
+AD,EU,JP,EUN-AD-63,Small Hydraulic Excavators,1988,False,M-JP-TEXT,False,1951,37,post
+AD,EU,KR,EUN-AD-65,Glutamic Acid (Monosodium Glutamate),1988,False,M-KR-DRAM,False,1992,-4,absorption
+AD,EU,CN,EUN-AD-74,Small Screen Colour Television Receivers,1988,True,M-CN-MFG,False,2010,-22,absorption
+AD,EU,JP,EUN-AD-75,Ferroboron,1988,True,M-JP-STEEL,True,1969,19,post
+AD,EU,CN,EUN-AD-76,Barium Chloride,1988,True,M-CN-MFG,False,2010,-22,absorption
+AD,EU,CN,EUN-AD-78,Tungsten Carbide and Fused Tungsten Carbide,1988,True,M-CN-MFG,False,2010,-22,absorption
+AD,EU,KR,EUN-AD-79,Ammonium Paratungstate,1988,False,M-KR-DRAM,False,1992,-4,absorption
+AD,EU,CN,EUN-AD-80,Ammonium Paratungstate,1988,False,M-CN-MFG,False,2010,-22,absorption
+AD,EU,KR,EUN-AD-81,Tungsten Metal Powder ,1988,False,M-KR-DRAM,False,1992,-4,absorption
+AD,EU,CN,EUN-AD-82,Tungsten Metal Powder ,1988,False,M-CN-MFG,False,2010,-22,absorption
+AD,EU,KR,EUN-AD-83,Tungsten Carbide and Fused Tungsten Carbide,1988,False,M-KR-DRAM,False,1992,-4,absorption
+AD,EU,CN,EUN-AD-84,Tungstic Oxide and Tungstic Acid,1988,True,M-CN-MFG,False,2010,-22,absorption
+AD,EU,KR,EUN-AD-92,Photo Albums,1988,True,M-KR-DRAM,False,1992,-4,absorption
+AD,EU,JP,EUN-AD-93,Mica,1988,False,M-JP-TEXT,False,1951,37,post
+AD,EU,CN,EUN-AD-94,Tungsten Ores and Concentrates,1989,True,M-CN-MFG,False,2010,-21,absorption
+AD,EU,JP,EUN-AD-97,Audio Cassettes and Audio Cassette Tapes,1989,True,M-JP-TEXT,False,1951,38,post
+AD,EU,KR,EUN-AD-98,Audio Cassettes and Audio Cassette Tapes,1989,True,M-KR-DRAM,False,1992,-3,absorption
+AD,EU,JP,EUN-AD-99,Audio Tapes on Reels,1989,False,M-JP-TEXT,False,1951,38,post
+AD,EU,KR,EUN-AD-101,Audio Tapes on Reels,1989,False,M-KR-DRAM,False,1992,-3,absorption
+AD,EU,CN,EUN-AD-102,Woven Polyolefin Sacks,1989,True,M-CN-MFG,False,2010,-21,absorption
+AD,EU,CN,EUN-AD-103,Silicon Metal,1989,True,M-CN-MFG,False,2010,-21,absorption
+AD,EU,JP,EUN-AD-114,Linear Tungsten Halogen Lamps,1989,True,M-JP-TEXT,False,1951,38,post
+AD,EU,CN,EUN-AD-121,Pure Silk Typewriter Ribbon Fabrics,1989,True,M-CN-MFG,False,2010,-21,absorption
+AD,EU,CN,EUN-AD-122,Beach Slippers (Espadrilles),1989,True,M-CN-MFG,False,2010,-21,absorption
+AD,EU,KR,EUN-AD-123,Thin Polyester Film,1990,False,M-KR-DRAM,False,1992,-2,absorption
+AD,EU,JP,EUN-AD-127,Aspartame,1990,True,M-JP-TEXT,False,1951,39,post
+AD,EU,KR,EUN-AD-134,Polyester Yarn (Man Made Staple Fibres),1990,False,M-KR-DRAM,False,1992,-2,absorption
+AD,EU,CN,EUN-AD-139,Polyester Yarn (Man Made Staple Fibres),1990,False,M-CN-MFG,False,2010,-20,absorption
+AD,EU,JP,EUN-AD-140,Disposable Lighters,1990,True,M-JP-TEXT,False,1951,39,post
+AD,EU,KR,EUN-AD-141,Disposable Lighters,1990,True,M-KR-DRAM,False,1992,-2,absorption
+AD,EU,CN,EUN-AD-143,Disposable Lighters,1990,True,M-CN-MFG,False,2010,-20,absorption
+AD,EU,CN,EUN-AD-144,Video Tape in Cassettes,1990,False,M-CN-MFG,False,2010,-20,absorption
+AD,EU,KR,EUN-AD-145,Radio-Broadcast Receivers in Motor Vehicles,1990,True,M-KR-DRAM,False,1992,-2,absorption
+AD,EU,CN,EUN-AD-152,Dihydrostreptamycin (Dihydrostreptomycin),1990,True,M-CN-MFG,False,2010,-20,absorption
+AD,EU,JP,EUN-AD-153,Dihydrostreptamycin (Dihydrostreptomycin),1990,False,M-JP-TEXT,False,1951,39,post
+AD,EU,KR,EUN-AD-162,Synthetic Fibres of Polyester,1990,True,M-KR-DRAM,False,1992,-2,absorption
+AD,EU,JP,EUN-AD-174,Electronic Typewriters,1990,False,M-JP-TEXT,False,1951,39,post
+AD,EU,JP,EUN-AD-175,Outer Rings of Tapered Roller Bearings,1991,True,M-JP-TEXT,False,1951,40,post
+AD,EU,JP,EUN-AD-176,Telefax Paper,1991,True,M-JP-TEXT,False,1951,40,post
+AD,EU,KR,EUN-AD-177,DRAMs (Dynamic Random Access Memories),1991,True,M-KR-DRAM,True,1992,-1,absorption
+AD,EU,JP,EUN-AD-178,Certain Large Aluminium Electrolytic Capacitors,1991,True,M-JP-TEXT,False,1951,40,post
+AD,EU,JP,EUN-AD-181,Certain Magnetic Disks (3.5 Microdisks),1991,True,M-JP-TEXT,False,1951,40,post
+AD,EU,CN,EUN-AD-183,Certain Magnetic Disks (3.5 Microdisks),1991,True,M-CN-MFG,False,2010,-19,absorption
+AD,EU,JP,EUN-AD-184,Parts of Gas-Fuelled/Non-Refillable Pocket Lighters,1991,False,M-JP-TEXT,False,1951,40,post
+AD,EU,CN,EUN-AD-190,Bicycles,1991,True,M-CN-MFG,False,2010,-19,absorption
+AD,EU,CN,EUN-AD-192,Deadburned (Sintered) Magnesia,1991,True,M-CN-MFG,False,2010,-19,absorption
+AD,EU,CN,EUN-AD-193,Magnesium Oxide,1991,True,M-CN-MFG,False,2010,-19,absorption
+AD,EU,CN,EUN-AD-205,Unwrought Manganese,1992,False,M-CN-MFG,False,2010,-18,absorption
+AD,EU,CN,EUN-AD-206,Refined Antimony Trioxide,1992,False,M-CN-MFG,False,2010,-18,absorption
+AD,EU,KR,EUN-AD-207,Electronic Weighing Scales,1992,True,M-KR-DRAM,False,1992,0,post
+AD,EU,CN,EUN-AD-211,Fluorspar,1992,True,M-CN-MFG,False,2010,-18,absorption
+AD,EU,CN,EUN-AD-212,Photo Albums,1992,False,M-CN-MFG,False,2010,-18,absorption
+AD,EU,CN,EUN-AD-217,Ferrosilicon,1992,True,M-CN-MFG,False,2010,-18,absorption
+AD,EU,CN,EUN-AD-222,Gum Rosin,1992,False,M-CN-MFG,False,2010,-18,absorption
+AD,EU,KR,EUN-AD-226,Certain Magnetic Disks (3.5 Microdisks),1992,True,M-KR-DRAM,False,1992,0,post
+AD,EU,KR,EUN-AD-234,Colour Television Receivers,1992,True,M-KR-DRAM,False,1992,0,post
+AD,EU,CN,EUN-AD-238,Colour Television Receivers,1992,True,M-CN-MFG,False,2010,-18,absorption
+AD,EU,JP,EUN-AD-244,Television Camera Systems,1993,True,M-JP-TV,True,1970,23,post
+AD,EU,KR,EUN-AD-245,Large Aluminium Electrolytic Capacitors,1993,False,M-KR-DRAM,False,1992,1,post
+AD,EU,CN,EUN-AD-247,Refractory Chamottes,1993,True,M-CN-MFG,False,2010,-17,absorption
+AD,EU,CN,EUN-AD-252,Furfuraldehyde,1993,True,M-CN-MFG,False,2010,-17,absorption
+AD,EU,CN,EUN-AD-260,Furazolidone,1993,True,M-CN-MFG,False,2010,-17,absorption
+AD,EU,KR,EUN-AD-261,Microwave Ovens,1993,True,M-KR-DRAM,False,1992,1,post
+AD,EU,CN,EUN-AD-264,Microwave Ovens,1993,True,M-CN-MFG,False,2010,-17,absorption
+AD,EU,CN,EUN-AD-272,Cotton Fabrics,1994,False,M-CN-MFG,False,2010,-16,absorption
+AD,EU,CN,EUN-AD-285,Certain Tube or Pipe Fittings of Iron or Steel,1994,True,M-CN-MFG,False,2010,-16,absorption
+AD,EU,CN,EUN-AD-289,Peroxo-Disulphate (Persulphates),1994,True,M-CN-MFG,False,2010,-16,absorption
+AD,EU,CN,EUN-AD-290,Powdered Activated Carbon,1994,True,M-CN-MFG,False,2010,-16,absorption
+AD,EU,CN,EUN-AD-294,Coumarin,1994,True,M-CN-MFG,False,2010,-16,absorption
+AD,EU,JP,EUN-AD-299,Tapered Roller Bearings,1994,False,M-JP-TEXT,False,1951,43,post
+AD,EU,JP,EUN-AD-304,Advertising Matches,1994,True,M-JP-TEXT,False,1951,43,post
+AD,EU,CN,EUN-AD-309,Certain Footwear (Textile Uppers),1995,True,M-CN-MFG,False,2010,-15,absorption
+AD,EU,CN,EUN-AD-312,Certain Footwear (Leather Uppers),1995,False,M-CN-MFG,False,2010,-15,absorption
+AD,EU,CN,EUN-AD-323,Furfuryl Alcohol,1995,False,M-CN-MFG,False,2010,-15,absorption
+AD,EU,KR,EUN-AD-325,Video Cassette Recorders ,1995,False,M-KR-DRAM,False,1992,3,post
+AD,EU,KR,EUN-AD-327,Hydraulic Excavators weighing more than 6 tonnes,1995,False,M-KR-DRAM,False,1992,3,post
+AD,EU,KR,EUN-AD-333,PET Video Film,1995,False,M-KR-DRAM,False,1992,3,post
+AD,EU,CN,EUN-AD-337,Glyphosate,1995,True,M-CN-MFG,False,2010,-15,absorption
+AD,EU,CN,EUN-AD-338,Certain Ring Binder Mechanisms,1995,True,M-CN-MFG,False,2010,-15,absorption
+AD,EU,CN,EUN-AD-345,Unbleached Cotton Fabrics,1996,False,M-CN-MFG,False,2010,-14,absorption
+AD,EU,CN,EUN-AD-347,Briefcases and Schoolbags,1996,False,M-CN-MFG,False,2010,-14,absorption
+AD,EU,CN,EUN-AD-348,Luggage and Travel Goods,1996,False,M-CN-MFG,False,2010,-14,absorption
+AD,EU,CN,EUN-AD-349,Handbags,1996,True,M-CN-MFG,False,2010,-14,absorption
+AD,EU,KR,EUN-AD-359,Stainless Steel Fasteners and Parts,1996,True,M-KR-DRAM,False,1992,4,post
+AD,EU,CN,EUN-AD-362,Stainless Steel Fasteners and Parts,1996,True,M-CN-MFG,False,2010,-14,absorption
+AD,EU,CN,EUN-AD-363,Ferro-Silico Manganese,1996,True,M-CN-MFG,False,2010,-14,absorption
+AD,EU,JP,EUN-AD-365,Fax Machines,1997,True,M-JP-TEXT,False,1951,46,post
+AD,EU,KR,EUN-AD-366,Fax Machines,1997,True,M-KR-DRAM,False,1992,5,post
+AD,EU,CN,EUN-AD-371,Fax Machines,1997,True,M-CN-TEL,True,2012,-15,absorption
+AD,EU,CN,EUN-AD-384,Cotton Fabrics,1997,False,M-CN-MFG,False,2010,-13,absorption
+AD,EU,KR,EUN-AD-386,Synthetic Fibre Ropes,1997,False,M-KR-DRAM,False,1992,5,post
+AD,EU,CN,EUN-AD-387,Unwrought Magnesium,1997,True,M-CN-MFG,False,2010,-13,absorption
+AD,EU,CN,EUN-AD-389,Thiourea Dioxide,1997,False,M-CN-MFG,False,2010,-13,absorption
+AD,EU,JP,EUN-AD-390,Laser Optical Reading Systems,1997,False,M-JP-TEXT,False,1951,46,post
+AD,EU,KR,EUN-AD-391,Laser Optical Reading Systems,1997,False,M-KR-DRAM,False,1992,5,post
+AD,EU,CN,EUN-AD-394,Laser Optical Reading Systems,1997,False,M-CN-MFG,False,2010,-13,absorption
+AD,EU,CN,EUN-AD-413,Steel Wire Rope,1998,True,M-CN-MFG,False,2010,-12,absorption
+AD,EU,KR,EUN-AD-414,Steel Wire Rope,1998,False,M-KR-DRAM,False,1992,6,post
+AD,EU,KR,EUN-AD-415,Stainless Steel Fine Wire,1998,False,M-KR-DRAM,False,1992,6,post
+AD,EU,KR,EUN-AD-417,Stainless Steel Big Wire,1998,False,M-KR-DRAM,False,1992,6,post
+AD,EU,KR,EUN-AD-422,Polyester Textured Filament Yarn (PTY),1998,False,M-KR-DRAM,False,1992,6,post
+AD,EU,CN,EUN-AD-433,Yellow Phosphorous,1999,False,M-CN-MFG,False,2010,-11,absorption
+AD,EU,JP,EUN-AD-435,Television Camera Systems and Parts Thereof,1999,True,M-JP-TV,True,1970,29,post
+AD,EU,CN,EUN-AD-436,Compact Disc Boxes,1999,False,M-CN-MFG,False,2010,-11,absorption
+AD,EU,KR,EUN-AD-437,Video Tapes on Reels,1999,False,M-KR-DRAM,False,1992,7,post
+AD,EU,CN,EUN-AD-443,Non-Alloy Steel Hot Rolled Flat Products,1999,True,M-CN-MFG,False,2010,-11,absorption
+AD,EU,KR,EUN-AD-445,Malleable Cast Iron Pipe Fittings,1999,True,M-KR-DRAM,False,1992,7,post
+AD,EU,JP,EUN-AD-447,Malleable Cast Iron Pipe Fittings,1999,True,M-JP-STEEL,True,1969,30,post
+AD,EU,CN,EUN-AD-449,Malleable Cast Iron Pipe Fittings,1999,True,M-CN-MFG,False,2010,-11,absorption
+AD,EU,JP,EUN-AD-459,One Dye Black 1,1999,True,M-JP-TEXT,False,1951,48,post
+AD,EU,JP,EUN-AD-460,One Dye Black 2,1999,True,M-JP-TEXT,False,1951,48,post
+AD,EU,CN,EUN-AD-462,Certain Cathode-Ray Colour Television Picture Tubes,1999,False,M-CN-MFG,False,2010,-11,absorption
+AD,EU,KR,EUN-AD-464,Certain Cathode-Ray Colour Television Picture Tubes,1999,True,M-KR-DRAM,False,1992,7,post
+AD,EU,KR,EUN-AD-467,Hair Brushes,1999,False,M-KR-DRAM,False,1992,7,post
+AD,EU,CN,EUN-AD-470,Hair Brushes,1999,False,M-CN-MFG,False,2010,-11,absorption
+AD,EU,CN,EUN-AD-471,Glycine,1999,False,M-CN-MFG,False,2010,-11,absorption
+AD,EU,CN,EUN-AD-473,Coke of Coal in Pieces,1999,True,M-CN-MFG,False,2010,-11,absorption
+AD,EU,KR,EUN-AD-474,Certain Electronic Weighing Scales,1999,True,M-KR-DRAM,False,1992,7,post
+AD,EU,CN,EUN-AD-476,Certain Electronic Weighing Scales,1999,True,M-CN-MFG,False,2010,-11,absorption
+AD,EU,KR,EUN-AD-477,Polyester Staple Fibres,1999,True,M-KR-DRAM,False,1992,7,post
+AD,EU,CN,EUN-AD-483,Bicycle Forks,1999,False,M-CN-MFG,False,2010,-11,absorption
+AD,EU,CN,EUN-AD-484,Bicycle Frames,1999,False,M-CN-MFG,False,2010,-11,absorption
+AD,EU,CN,EUN-AD-485,Complete Wheels of Bicycles,1999,False,M-CN-MFG,False,2010,-11,absorption
+AD,EU,KR,EUN-AD-488,Certain Polyethylene Terephthalate (PET) ,1999,True,M-KR-DRAM,False,1992,7,post
+AD,EU,CN,EUN-AD-493,Aluminium Foil,2000,True,M-CN-MFG,False,2010,-10,absorption
+AD,EU,KR,EUN-AD-499,Certain Iron or Steel Ropes and Cables,2000,False,M-KR-DRAM,False,1992,8,post
+AD,EU,CN,EUN-AD-504,Paracetamol,2000,False,M-CN-MFG,False,2010,-10,absorption
+AD,EU,CN,EUN-AD-505,Integrated Electronic Compact Fluorescent Lamps,2000,True,M-CN-MFG,False,2010,-10,absorption
+AD,EU,KR,EUN-AD-507,Polyethylene Terephthalate (PET) Film,2000,True,M-KR-DRAM,False,1992,8,post
+AD,EU,JP,EUN-AD-509,Internal Gear Hubs for Bicycles,2000,True,M-JP-TEXT,False,1951,49,post
+AD,EU,CN,EUN-AD-520,Ferro Molybdenum,2000,True,M-CN-MFG,False,2010,-10,absorption
+AD,EU,CN,EUN-AD-522,Certain Worked Monumental or Building Granite Stones,2000,False,M-CN-MFG,False,2010,-10,absorption
+AD,EU,CN,EUN-AD-523,Certain Zinc Oxides,2000,True,M-CN-MFG,False,2010,-10,absorption
+AD,EU,KR,EUN-AD-527,Certain Tube and Pipe-Fittings of Iron or Steel ,2001,True,M-KR-DRAM,False,1992,9,post
+AD,EU,CN,EUN-AD-538,Sulphanilic Acid,2001,True,M-CN-MFG,False,2010,-9,absorption
+AD,EU,CN,EUN-AD-554,Para-Cresol,2002,True,M-CN-MFG,False,2010,-8,absorption
+AD,EU,CN,EUN-AD-557,Disposable Gas-Fuelled Pocket Lighters,2002,False,M-CN-MFG,False,2010,-8,absorption
+AD,EU,CN,EUN-AD-561,Furfuryl Alcohol,2002,True,M-CN-MFG,False,2010,-8,absorption
+AD,EU,CN,EUN-AD-568,Sodium Cyclamate,2002,True,M-CN-MFG,False,2010,-8,absorption
+AD,EU,CN,EUN-AD-572,Polyethylene Terephthalate (PET) ,2003,True,M-CN-MFG,False,2010,-7,absorption
+AD,EU,CN,EUN-AD-574,Okoumé Plywood,2003,True,M-CN-MFG,False,2010,-7,absorption
+AD,EU,CN,EUN-AD-576,Polyester Staple Fibres,2003,True,M-CN-MFG,False,2010,-7,absorption
+AD,EU,KR,EUN-AD-579,Polyester High Tenacity Filament Yarn,2004,False,M-KR-DRAM,False,1992,12,post
+AD,EU,CN,EUN-AD-582,Hand Pallet Trucks and Their Essential Parts,2004,True,M-CN-MFG,False,2010,-6,absorption
+AD,EU,CN,EUN-AD-583,Barium Carbonate,2004,True,M-CN-MFG,False,2010,-6,absorption
+AD,EU,CN,EUN-AD-584,Certain Castings,2004,True,M-CN-MFG,False,2010,-6,absorption
+AD,EU,KR,EUN-AD-587,Styrene-Butadiene-Styrene Thermoplastic Rubber,2004,False,M-KR-DRAM,False,1992,12,post
+AD,EU,CN,EUN-AD-589,Certain Finished Polyester Filament Apparel Fabrics,2004,True,M-CN-MFG,False,2010,-6,absorption
+AD,EU,CN,EUN-AD-590,Trichloroisocyanuric Acid (TCCA),2004,True,M-CN-MFG,False,2010,-6,absorption
+AD,EU,CN,EUN-AD-591,Certain Magnesia Bricks,2004,True,M-CN-MFG,False,2010,-6,absorption
+AD,EU,CN,EUN-AD-594,Stainless Steel Fasteners and Parts Thereof,2004,True,M-CN-MFG,False,2010,-6,absorption
+AD,EU,CN,EUN-AD-601,Granular Polytetrafluoroethylene (PTFE) Resin,2004,True,M-CN-MFG,False,2010,-6,absorption
+AD,EU,CN,EUN-AD-605,Tartaric Acid,2004,True,M-CN-MFG,False,2010,-6,absorption
+AD,EU,KR,EUN-AD-606,Certain Iron or Steel Ropes and Cables,2004,False,M-KR-DRAM,False,1992,12,post
+AD,EU,CN,EUN-AD-611,Lever Arch Mechanisms,2005,True,M-CN-MFG,False,2010,-5,absorption
+AD,EU,KR,EUN-AD-614,Side-by-Side Refrigerators,2005,True,M-KR-DRAM,False,1992,13,post
+AD,EU,CN,EUN-AD-615,Chamois Leather,2005,True,M-CN-MFG,False,2010,-5,absorption
+AD,EU,CN,EUN-AD-617,Certain Footwear with Protective Toecap,2005,False,M-CN-MFG,False,2010,-5,absorption
+AD,EU,CN,EUN-AD-619,Certain Plastic Sacks and Bags,2005,True,M-CN-MFG,False,2010,-5,absorption
+AD,EU,CN,EUN-AD-622,Certain Footwear with Uppers of Leather ,2005,True,M-CN-MFG,False,2010,-5,absorption
+AD,EU,CN,EUN-AD-624,Recordable Digital Versatile Discs (DVD+/-R),2005,False,M-CN-MFG,False,2010,-5,absorption
+AD,EU,CN,EUN-AD-627,Recordable Compact Discs (CD-Rs),2005,False,M-CN-MFG,False,2010,-5,absorption
+AD,EU,CN,EUN-AD-630,Certain Tungsten Electrodes,2005,True,M-CN-MFG,False,2010,-5,absorption
+AD,EU,CN,EUN-AD-631,Cathode-Ray Colour Television Picture Tubes,2006,False,M-CN-MFG,False,2010,-4,absorption
+AD,EU,KR,EUN-AD-632,Cathode-Ray Colour Television Picture Tubes,2006,False,M-KR-DRAM,False,1992,14,post
+AD,EU,CN,EUN-AD-636,Pentaerythritol ,2006,False,M-CN-MFG,False,2010,-4,absorption
+AD,EU,CN,EUN-AD-640,Frozen Strawberries,2006,True,M-CN-MFG,False,2010,-4,absorption
+AD,EU,CN,EUN-AD-641,Ironing Boards,2006,True,M-CN-MFG,False,2010,-4,absorption
+AD,EU,CN,EUN-AD-644,Certain Saddles,2006,True,M-CN-MFG,False,2010,-4,absorption
+AD,EU,JP,EUN-AD-647,Certain Camera Systems,2006,False,M-JP-TV,True,1970,36,post
+AD,EU,CN,EUN-AD-649,Peroxosulphates ,2006,True,M-CN-MFG,False,2010,-4,absorption
+AD,EU,CN,EUN-AD-651,Dicyandiamide ,2006,True,M-CN-MFG,False,2010,-4,absorption
+AD,EU,CN,EUN-AD-652,Silico-Manganese,2006,True,M-CN-MFG,False,2010,-4,absorption
+AD,EU,CN,EUN-AD-656,Ferro-Silicon,2006,True,M-CN-MFG,False,2010,-4,absorption
+AD,EU,CN,EUN-AD-661,Polyvinyl Alcohol (PVA) ,2006,False,M-CN-MFG,False,2010,-4,absorption
+AD,EU,CN,EUN-AD-663,Coke of Coal in Pieces,2006,True,M-CN-MFG,False,2010,-4,absorption
+AD,EU,CN,EUN-AD-664,Certain Compressors,2006,True,M-CN-MFG,False,2010,-4,absorption
+AD,EU,CN,EUN-AD-666,Citric Acid,2007,True,M-CN-MFG,False,2010,-3,absorption
+AD,EU,CN,EUN-AD-667,Monosodium Glutamate,2007,True,M-CN-MFG,False,2010,-3,absorption
+AD,EU,CN,EUN-AD-670,Certain Welded Tubes and Pipes of Iron or Non-Alloy Steel,2007,True,M-CN-MFG,False,2010,-3,absorption
+AD,EU,CN,EUN-AD-672,Certain Prepared or Preserved Citrus Fruits,2007,True,M-CN-MFG,False,2010,-3,absorption
+AD,EU,CN,EUN-AD-673,Certain Iron or Steel Fasteners,2007,True,M-CN-MFG,False,2010,-3,absorption
+AD,EU,CN,EUN-AD-674,Certain Hot-Dipped Metallic-Coated Iron or Steel Flat-Rolled Products ,2007,False,M-CN-MFG,False,2010,-3,absorption
+AD,EU,CN,EUN-AD-675,Stainless Steel Cold Rolled Flat Products,2008,False,M-CN-MFG,False,2010,-2,absorption
+AD,EU,KR,EUN-AD-676,Stainless Steel Cold Rolled Flat Products,2008,False,M-KR-DRAM,False,1992,16,post
+AD,EU,CN,EUN-AD-678,Certain Pre- and Post-Stressing Wires and Wire Strands of Non-Alloy Steel (PSC Wires and Strands),2008,True,M-CN-MFG,False,2010,-2,absorption
+AD,EU,CN,EUN-AD-679,Certain Candles/Tapers and the like,2008,True,M-CN-MFG,False,2010,-2,absorption
+AD,EU,CN,EUN-AD-680,Wire Rod,2008,True,M-CN-MFG,False,2010,-2,absorption
+AD,EU,CN,EUN-AD-684,Certain Seamless Pipes and Tubes (of Iron or Steel),2008,True,M-CN-MFG,False,2010,-2,absorption
+AD,EU,CN,EUN-AD-687,Certain Aluminium Foil,2008,True,M-CN-MFG,False,2010,-2,absorption
+AD,EU,CN,EUN-AD-693,Certain Cargo Scanning Systems,2009,True,M-CN-MFG,False,2010,-1,absorption
+AD,EU,CN,EUN-AD-694,Certain Molybdenum Wires,2009,True,M-CN-MFG,False,2010,-1,absorption
+AD,EU,CN,EUN-AD-695,Sodium Gluconate,2009,True,M-CN-MFG,False,2010,-1,absorption
+AD,EU,CN,EUN-AD-696,Certain Aluminium Road Wheels,2009,True,M-CN-MFG,False,2010,-1,absorption
+AD,EU,CN,EUN-AD-702,High Tenacity Yarn of Polyesters,2009,True,M-CN-MFG,False,2010,-1,absorption
+AD,EU,KR,EUN-AD-703,High Tenacity Yarn of Polyesters,2009,False,M-KR-DRAM,False,1992,17,post
+AD,EU,CN,EUN-AD-705,Continuous Filament Glass Fibre Products,2009,True,M-CN-MFG,False,2010,-1,absorption
+AD,EU,CN,EUN-AD-707,Melamine,2010,True,M-CN-MFG,False,2010,0,post
+AD,EU,CN,EUN-AD-709,Coated Fine Paper,2010,True,M-CN-MFG,False,2010,0,post
+AD,EU,CN,EUN-AD-712,Certain Open Mesh Fabrics of Glass Fibres,2010,True,M-CN-MFG,False,2010,0,post
+AD,EU,CN,EUN-AD-713,Ceramic Tiles,2010,True,M-CN-MFG,False,2010,0,post
+AD,EU,CN,EUN-AD-714,Wireless Wide Area Networking (WWAN) Modems,2010,False,M-CN-TEL,True,2012,-2,absorption
+AD,EU,CN,EUN-AD-715,Tris (2-chloro-1-methylethyl) Phosphate,2010,False,M-CN-MFG,False,2010,0,post
+AD,EU,CN,EUN-AD-719,Certain Seamless Pipes and Tubes of Stainless Steel,2010,True,M-CN-MFG,False,2010,0,post
+AD,EU,CN,EUN-AD-721,Certain Graphite Electrode Systems,2010,False,M-CN-MFG,False,2010,0,post
+AD,EU,CN,EUN-AD-723,Oxalic Acid,2011,True,M-CN-MFG,False,2010,1,post
+AD,EU,CN,EUN-AD-726,Certain Concentrated Soy Protein Products,2011,False,M-CN-MFG,False,2010,1,post
+AD,EU,CN,EUN-AD-729,Certain Woven and/or Stitched Glass Fibre Fabrics,2011,False,M-CN-MFG,False,2010,1,post
+AD,EU,CN,EUN-AD-730,Certain Aluminium Radiators,2011,True,M-CN-MFG,False,2010,1,post
+AD,EU,CN,EUN-AD-735,Certain Aluminium Foil in Rolls,2011,True,M-CN-MFG,False,2010,1,post
+AD,EU,CN,EUN-AD-736,Certain Organic Coated Steel Products,2011,True,M-CN-MFG,False,2010,1,post
+AD,EU,CN,EUN-AD-737,Ceramic Tableware and Kitchenware,2012,True,M-CN-MFG,False,2010,2,post
+AD,EU,CN,EUN-AD-738,Threaded Tube or Pipe Cast Fittings (of malleable cast iron),2012,True,M-CN-MFG,False,2010,2,post
+AD,EU,CN,EUN-AD-747,Crystalline Silicon Photovoltaic Modules and Key Components,2012,True,M-CN-SOLAR,True,2012,0,post
+AD,EU,CN,EUN-AD-748,Stainless Steel Tube and Pipe Butt-welding Fittings (whether or not finished),2012,False,M-CN-MFG,False,2010,2,post
+AD,EU,CN,EUN-AD-750,Certain Seamless Pipes and Tubes of Iron or Steel,2013,False,M-CN-MFG,False,2010,3,post
+AD,EU,CN,EUN-AD-751,Solar Glass,2013,True,M-CN-MFG,False,2010,3,post
+AD,EU,CN,EUN-AD-752,Agglomerated Stone,2013,False,M-CN-MFG,False,2010,3,post
+AD,EU,CN,EUN-AD-755,Stainless Steel Cold-rolled Flat Products,2014,True,M-CN-MFG,False,2010,4,post
+AD,EU,CN,EUN-AD-757,Grain-oriented Flat-rolled Products of Silicon-electrical Steel,2014,True,M-CN-MFG,False,2010,4,post
+AD,EU,JP,EUN-AD-758,Grain-oriented Flat-rolled Products of Silicon-electrical Steel,2014,True,M-JP-STEEL,True,1969,45,post
+AD,EU,KR,EUN-AD-759,Grain-oriented Flat-rolled Products of Silicon-electrical Steel,2014,True,M-KR-DRAM,False,1992,22,post
+AD,EU,CN,EUN-AD-762,Acesulfame Potassium,2014,True,M-CN-MFG,False,2010,4,post
+AD,EU,CN,EUN-AD-764,Tartaric Acid,2014,False,M-CN-MFG,False,2010,4,post
+AD,EU,CN,EUN-AD-765,Certain Aluminium Foil,2014,False,M-CN-MFG,False,2010,4,post
+AD,EU,CN,EUN-AD-768,High Fatigue Performance Steel Concrete Reinforcement Bars,2015,False,M-CN-MFG,False,2010,5,post
+AD,EU,CN,EUN-AD-769,Certain Cold-Rolled Flat Steel Products,2015,False,M-CN-MFG,False,2010,5,post
+AD,EU,CN,EUN-AD-771,Aspartame,2015,False,M-CN-MFG,False,2010,5,post
+AD,EU,CN,EUN-AD-772,Sodium Cyclamate,2015,False,M-CN-MFG,False,2010,5,post
+AD,EU,CN,EUN-AD-773,Certain Ceramic Foam Filters,2015,False,M-CN-MFG,False,2010,5,post
+AD,EU,CN,EUN-AD-774,Certain Stainless Steel Tube and Pipe Butt-welding Fittings (whether or not finished),2015,False,M-CN-MFG,False,2010,5,post
+CVD,US,KR,USA-CVD-9,Leather Wearing Apparel,1980,False,M-KR-DRAM,False,1992,-12,absorption
+CVD,US,KR,USA-CVD-114,Certain Steel Wire Nails ,1982,False,M-KR-DRAM,False,1992,-10,absorption
+CVD,US,JP,USA-CVD-120,Certain Nuts Bolts and Screws,1982,False,M-JP-TEXT,False,1951,31,post
+CVD,US,KR,USA-CVD-131,Welded Carbon Steel Pipes and Tubes,1982,True,M-KR-DRAM,False,1992,-10,absorption
+CVD,US,KR,USA-CVD-133,Hot-Rolled Carbon Steel Plate,1982,True,M-KR-DRAM,False,1992,-10,absorption
+CVD,US,KR,USA-CVD-134,Hot-Rolled Carbon Steel Sheet,1982,True,M-KR-DRAM,False,1992,-10,absorption
+CVD,US,KR,USA-CVD-135,Cold-Rolled Carbon Steel Sheet,1982,False,M-KR-DRAM,False,1992,-10,absorption
+CVD,US,KR,USA-CVD-136,Galvanized Carbon Steel Sheet,1982,True,M-KR-DRAM,False,1992,-10,absorption
+CVD,US,KR,USA-CVD-208,Oil Country Tubular Goods,1984,False,M-KR-DRAM,False,1992,-8,absorption
+CVD,US,KR,USA-CVD-212,Cold-Rolled Carbon Steel Sheet,1984,True,M-KR-DRAM,False,1992,-8,absorption
+CVD,US,KR,USA-CVD-213,Certain Carbon Steel Structural Shapes,1984,False,M-KR-DRAM,False,1992,-8,absorption
+CVD,US,CN,USA-CVD-230,Textiles and Textile Products,1984,False,M-CN-MFG,False,2010,-26,absorption
+CVD,US,KR,USA-CVD-250,Tapered Tubular Steel Transmission Structures,1985,False,M-KR-DRAM,False,1992,-7,absorption
+CVD,US,KR,USA-CVD-264,Offshore Platform Jackets and Piles,1985,True,M-KR-DRAM,False,1992,-7,absorption
+CVD,US,KR,USA-CVD-286,Welded Steel Wire Fabric,1985,False,M-KR-DRAM,False,1992,-7,absorption
+CVD,US,KR,USA-CVD-294,Top-Of-The-Stove Stainless Steel Cooking Ware,1986,True,M-KR-DRAM,False,1992,-6,absorption
+CVD,US,KR,USA-CVD-320,Bicycle Tires and Tubes,1986,False,M-KR-DRAM,False,1992,-6,absorption
+CVD,US,KR,USA-CVD-344,Industrial Belts,1988,False,M-KR-DRAM,False,1992,-4,absorption
+CVD,US,CN,USA-CVD-375,Oscillating Fans and Ceiling Fans  ,1991,False,M-CN-MFG,False,2010,-19,absorption
+CVD,US,CN,USA-CVD-376,Chrome-Plated Lug Nuts and Wheel Locks ,1992,False,M-CN-MFG,False,2010,-18,absorption
+CVD,US,KR,USA-CVD-390,Certain Carbon Steel Flat Products,1992,False,M-KR-DRAM,False,1992,0,post
+CVD,US,KR,USA-CVD-400,Hot-Rolled Steel Products,1992,False,M-KR-DRAM,False,1992,0,post
+CVD,US,KR,USA-CVD-408,Cold-Rolled Carbon Steel Flat Products,1992,True,M-KR-DRAM,False,1992,0,post
+CVD,US,KR,USA-CVD-416,Corrosion-Resistant Carbon Steel Flat Products,1992,True,M-KR-DRAM,False,1992,0,post
+CVD,US,KR,USA-CVD-447,Stainless Steel Plate in Coils,1998,False,M-KR-DRAM,False,1992,6,post
+CVD,US,KR,USA-CVD-451,Stainless Steel Sheet and Strip,1998,True,M-KR-DRAM,False,1992,6,post
+CVD,US,KR,USA-CVD-460,Carbon Steel Plate,1999,True,M-KR-DRAM,False,1992,7,post
+CVD,US,KR,USA-CVD-470,Structural Steel Beams,1999,True,M-KR-DRAM,False,1992,7,post
+CVD,US,KR,USA-CVD-494,Cold-Rolled Steel Products,2001,False,M-KR-DRAM,False,1992,9,post
+CVD,US,KR,USA-CVD-501,Dram and Dram Modules,2002,True,M-KR-DRAM,True,1992,10,post
+CVD,US,CN,USA-CVD-514,Coated Free Sheet Paper,2006,False,M-CN-MFG,False,2010,-4,absorption
+CVD,US,KR,USA-CVD-516,Coated Free Sheet Paper,2006,False,M-KR-DRAM,False,1992,14,post
+CVD,US,CN,USA-CVD-517,Circular Welded Carbon Quality Steel Pipe,2007,True,M-CN-MFG,False,2010,-3,absorption
+CVD,US,CN,USA-CVD-518,Certain New Pneumatic Off-The-Road Tires,2007,True,M-CN-MFG,False,2010,-3,absorption
+CVD,US,CN,USA-CVD-519,Light-Walled Rectangular Pipe and Tube,2007,True,M-CN-MFG,False,2010,-3,absorption
+CVD,US,CN,USA-CVD-520,Laminated Woven Sacks,2007,True,M-CN-MFG,False,2010,-3,absorption
+CVD,US,CN,USA-CVD-521,Lightweight Thermal Paper,2007,True,M-CN-MFG,False,2010,-3,absorption
+CVD,US,CN,USA-CVD-522,Raw Flexible Magnets,2007,True,M-CN-MFG,False,2010,-3,absorption
+CVD,US,CN,USA-CVD-523,Sodium Nitrite,2007,True,M-CN-MFG,False,2010,-3,absorption
+CVD,US,CN,USA-CVD-524,Circular Welded Austenitic Stainless Pressure Pipe,2008,True,M-CN-MFG,False,2010,-2,absorption
+CVD,US,CN,USA-CVD-525,Circular Welded Carbon Quality Steel Line Pipe,2008,True,M-CN-MFG,False,2010,-2,absorption
+CVD,US,CN,USA-CVD-526,Citric Acid and Certain Citrate Salts,2008,True,M-CN-MFG,False,2010,-2,absorption
+CVD,US,CN,USA-CVD-527,Certain Tow-Behind Lawn Groomers and Certain Parts Thereof,2008,True,M-CN-MFG,False,2010,-2,absorption
+CVD,US,CN,USA-CVD-528,Certain Kitchen Appliance Shelving and Racks,2008,True,M-CN-MFG,False,2010,-2,absorption
+CVD,US,KR,USA-CVD-531,Ni-Resist Piston Inserts,2009,False,M-KR-DRAM,False,1992,17,post
+CVD,US,CN,USA-CVD-533,Oil Country Tubular Goods,2009,True,M-CN-MFG,False,2010,-1,absorption
+CVD,US,CN,USA-CVD-534,Prestressed Concrete Steel Wire Strand,2009,True,M-CN-MFG,False,2010,-1,absorption
+CVD,US,CN,USA-CVD-535,Certain Steel Grating,2009,True,M-CN-MFG,False,2010,-1,absorption
+CVD,US,CN,USA-CVD-536,Wire Decking,2009,False,M-CN-MFG,False,2010,-1,absorption
+CVD,US,CN,USA-CVD-537,Narrow Woven Ribbons with Woven Selvedge,2009,True,M-CN-MFG,False,2010,-1,absorption
+CVD,US,CN,USA-CVD-538,Certain Magnesia Carbon Bricks,2009,True,M-CN-MFG,False,2010,-1,absorption
+CVD,US,CN,USA-CVD-539,Certain Seamless Carbon and Alloy Steel Standard and Line and Pressure Pipe,2009,True,M-CN-MFG,False,2010,-1,absorption
+CVD,US,CN,USA-CVD-540,Certain Coated Paper Suitable for High-Quality Print Graphics Using Sheet-Fed Presses,2009,True,M-CN-MFG,False,2010,-1,absorption
+CVD,US,CN,USA-CVD-542,Certain Standard Steel Fasteners,2009,False,M-CN-MFG,False,2010,-1,absorption
+CVD,US,CN,USA-CVD-543,Certain Sodium and Potassium Phosphate Salts,2009,True,M-CN-MFG,False,2010,-1,absorption
+CVD,US,CN,USA-CVD-544,Drill Pipe,2010,True,M-CN-MFG,False,2010,0,post
+CVD,US,CN,USA-CVD-545,Certain Aluminum Extrusions,2010,True,M-CN-MFG,False,2010,0,post
+CVD,US,CN,USA-CVD-546,Multilayered Wood Flooring,2010,True,M-CN-MFG,False,2010,0,post
+CVD,US,KR,USA-CVD-547,Bottom Mount Combination Refrigerator-Freezers,2011,False,M-KR-DRAM,False,1992,19,post
+CVD,US,CN,USA-CVD-548,Certain Steel Wheels,2011,False,M-CN-MFG,False,2010,1,post
+CVD,US,CN,USA-CVD-549,Galvanized Steel Wire,2011,False,M-CN-MFG,False,2010,1,post
+CVD,US,CN,USA-CVD-550,High Pressure Steel Cylinders,2011,True,M-CN-MFG,False,2010,1,post
+CVD,US,CN,USA-CVD-551,Crystalline Silicon Photovoltaic Cells and Modules,2011,True,M-CN-SOLAR,True,2012,-1,absorption
+CVD,US,CN,USA-CVD-556,Utility Scale Wind Towers,2012,True,M-CN-MFG,False,2010,2,post
+CVD,US,KR,USA-CVD-558,Large Residential Washers,2012,True,M-KR-DRAM,False,1992,20,post
+CVD,US,CN,USA-CVD-559,Drawn Stainless Steel Sinks,2012,True,M-CN-MFG,False,2010,2,post
+CVD,US,CN,USA-CVD-560,Hardwood Plywood,2012,False,M-CN-MFG,False,2010,2,post
+CVD,US,CN,USA-CVD-561,Frozen Warmwater Shrimp,2013,False,M-CN-MFG,False,2010,3,post
+CVD,US,CN,USA-CVD-571,Chlorinated Isocyanurates,2013,True,M-CN-MFG,False,2010,3,post
+CVD,US,CN,USA-CVD-573,Monosodium Glutamate,2013,False,M-CN-MFG,False,2010,3,post
+CVD,US,CN,USA-CVD-575,Grain-Oriented Electrical Steel,2013,False,M-CN-MFG,False,2010,3,post
+CVD,US,CN,USA-CVD-576,Non-Oriented Electrical Steel,2013,True,M-CN-MFG,False,2010,3,post
+CVD,US,KR,USA-CVD-577,Non-Oriented Electrical Steel,2013,False,M-KR-DRAM,False,1992,21,post
+CVD,US,CN,USA-CVD-579,"1,1,1,2-Tetrafluoroethane",2013,False,M-CN-MFG,False,2010,3,post
+CVD,US,CN,USA-CVD-580,Calcium Hypochlorite,2013,True,M-CN-MFG,False,2010,3,post
+CVD,US,CN,USA-CVD-581,Certain Crystalline Silicon Photovoltaic Products,2014,True,M-CN-SOLAR,True,2012,2,post
+CVD,US,CN,USA-CVD-582,Carbon and Certain Alloy Steel Wire Rod,2014,True,M-CN-MFG,False,2010,4,post
+CVD,US,CN,USA-CVD-584,53-Foot Domestic Dry Containers,2014,False,M-CN-MFG,False,2010,4,post
+CVD,US,KR,USA-CVD-586,Certain Steel Nails,2014,False,M-KR-DRAM,False,1992,22,post
+CVD,US,CN,USA-CVD-592,Certain Passenger Vehicle and Light Truck Tires,2014,True,M-CN-MFG,False,2010,4,post
+CVD,US,CN,USA-CVD-593,Boltless Steel Shelving Units Prepackaged for Sale,2014,True,M-CN-MFG,False,2010,4,post
+CVD,US,KR,USA-CVD-594,Certain Welded Line Pipe,2014,False,M-KR-DRAM,False,1992,22,post
+CVD,US,CN,USA-CVD-596,Melamine,2014,True,M-CN-MFG,False,2010,4,post
+CVD,US,CN,USA-CVD-598,Certain Uncoated Paper,2015,False,M-CN-MFG,False,2010,5,post
+CVD,US,CN,USA-CVD-601,Certain Polyethylene Terephthalate Resin,2015,False,M-CN-MFG,False,2010,5,post
+CVD,US,CN,USA-CVD-604,Certain Corrosion-Resistant Steel Products,2015,False,M-CN-MFG,False,2010,5,post
+CVD,US,KR,USA-CVD-607,Certain Corrosion-Resistant Steel Products,2015,False,M-KR-DRAM,False,1992,23,post
+CVD,US,CN,USA-CVD-611,Cold-Rolled Steel Flat Products,2015,False,M-CN-MFG,False,2010,5,post
+CVD,US,KR,USA-CVD-613,Cold-Rolled Steel Flat Products,2015,False,M-KR-DRAM,False,1992,23,post
+CVD,US,KR,USA-CVD-616,Certain Hot-Rolled Steel Flat Products,2015,False,M-KR-DRAM,False,1992,23,post
+CVD,US,CN,USA-CVD-620,Certain Iron Mechanical Transfer Drive Components,2015,False,M-CN-MFG,False,2010,5,post
+CVD,EU,KR,EUN-CVD-21,Stainless Steel Wire having a Diameter of less than 1 mm,1998,False,M-KR-DRAM,False,1992,6,post
+CVD,EU,KR,EUN-CVD-23,Stainless Steel Wire having a Diameter of 1 mm or more ,1998,False,M-KR-DRAM,False,1992,6,post
+CVD,EU,KR,EUN-CVD-26,Polyester Textured Filament Yarn,1998,False,M-KR-DRAM,False,1992,6,post
+CVD,EU,KR,EUN-CVD-33,Synthetic Polyester Fibres,1999,False,M-KR-DRAM,False,1992,7,post
+CVD,EU,KR,EUN-CVD-44,Polyethylene Terephthalate,1999,False,M-KR-DRAM,False,1992,7,post
+CVD,EU,KR,EUN-CVD-55,Certain Electronic Microcircuits known as DRAMs (Dynamic Random Access Memories),2002,True,M-KR-DRAM,True,1992,10,post
+CVD,EU,CN,EUN-CVD-70,Coated Fine Paper,2010,True,M-CN-MFG,False,2010,0,post
+CVD,EU,CN,EUN-CVD-71,Wireless Wide Area Networking (WWAN) Modems,2010,False,M-CN-TEL,True,2012,-2,absorption
+CVD,EU,CN,EUN-CVD-76,Certain Organic Coated Steel Products,2012,True,M-CN-MFG,False,2010,2,post
+CVD,EU,CN,EUN-CVD-77,Bicycles,2012,False,M-CN-MFG,False,2010,2,post
+CVD,EU,CN,EUN-CVD-79,Crystalline Silicon Photovoltaic Modules and Key Components,2012,True,M-CN-SOLAR,True,2012,0,post
+CVD,EU,CN,EUN-CVD-82,Solar Glass,2013,True,M-CN-MFG,False,2010,3,post
+CVD,EU,CN,EUN-CVD-83,Certain Filament Glass Fibre Products,2013,True,M-CN-MFG,False,2010,3,post
+CVD,EU,CN,EUN-CVD-84,Polyester Staple Fibres,2013,False,M-CN-MFG,False,2010,3,post
+CVD,EU,CN,EUN-CVD-88,Stainless Steel Cold-rolled Flat Products,2014,False,M-CN-MFG,False,2010,4,post
