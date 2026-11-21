@@ -8,7 +8,7 @@ The primary claim holds that binding incumbent escalation follows measurable sec
 
 ## E.2 Definitions
 
-**Displacement milestone.** For each contested sector we date the first year in which the challenger reaches world leadership or a measurable lead over the incumbent in that sector: production, export or market-share leadership (Table E1). A case has several sectoral milestones; responses aimed at the challenger's economy as a whole are dated against the case's first milestone.
+**Displacement milestone.** For each contested sector we date the first year in which the challenger leads in the market where the incumbent sells: export markets for Britain, the world market or the American home market for the United States, the world market for Japan and the European Union (Table E1). A case has several sectoral milestones; responses aimed at the challenger's economy as a whole are dated against the case's first milestone. As a robustness check we apply a uniform export rule: the first year in which the challenger's exports to the world reach those of the incumbent (Table E1b, Section E.4).
 
 **Absorption phase.** The years before a sector's displacement milestone. A response falls in the absorption phase if it precedes the milestone of its sector; the lag is the response year minus the milestone year.
 
@@ -26,7 +26,7 @@ In borderline cases the lower score applies. Measures that only strengthen the i
 
 ## E.3 Data
 
-DS1 contains 17 sectoral milestones and 41 incumbent responses across the four cases (files `ds1_milestones.csv`, `ds1_responses.csv`, `ds1_events.csv`). Each row cites its source. For Japan, three sectors with disputes before 1980 were added to avoid an artificially empty absorption phase: cotton textiles (milestone 1951), colour television (1970) and steel (1969). For Germany, beet sugar (milestone 1880) was added after the parliamentary record showed it to be the first sector in which Germany became a political issue (Section E.6).
+DS1 contains 18 sectoral milestones (the electric-vehicle milestone is split by incumbent) and 41 incumbent responses across the four cases (files `ds1_milestones.csv`, `ds1_responses.csv`, `ds1_events.csv`). Each row cites its source. For Japan, three sectors with disputes before 1980 were added to avoid an artificially empty absorption phase: cotton textiles (milestone 1951), colour television (1970) and steel (1969). For Germany, beet sugar (milestone 1880) was added after the parliamentary record showed it to be the first sector in which Germany became a political issue (Section E.6).
 
 **Table E1. Sectoral displacement milestones**
 
@@ -50,6 +50,31 @@ DS1 contains 17 sectoral milestones and 41 incumbent responses across the four c
 | Korea | DRAM | 1992 | Samsung becomes largest DRAM maker (about 13.5 vs 12.8 percent for Toshiba) | Harvard Business School (2003); Samsung Semiconductor |
 | Korea | shipbuilding | 2000 | Korea overtakes Japan in shipbuilding market share | ORF (2025); GlobalSecurity.org |
 
+**Table E1b. Contested market and export-rule check**
+
+| Case | Sector | Main milestone | Contested market | Export rule | Basis |
+|---|---|---|---|---|---|
+| China | manufacturing overall | 2010 | world output | 2005 | Comtrade SITC 5-8 |
+| China | solar PV | 2012 | world market | 2006 | Comtrade HS 854140 gegen Deutschland |
+| China | telecom equipment | 2012 | world market | 2006 | Comtrade HS 8517 |
+| China | electric vehicles | 2023 | world market (BEV sales) | 2021 | Comtrade HS 870380 gegen USA: China 8.6, USA 4.6 Mrd. USD (2021) |
+| China | advanced logic chips | 2023 | capability, not market lead | not meaningful | HS 8542: Chinas Ausfuhren schon 2017 hoeher, ueberwiegend Montage fremder Chips |
+| China | electric vehicles | 2023 | world market (BEV sales) | not reached by 2024 | Comtrade HS 870380 gegen Deutschland: 32.0 zu 41.1 Mrd. USD (2024) |
+| Germany | synthetic dyes | 1870 | world market (output share) | by 1899 | Tyszynski 1951: Chemie DEU/GBR 1.43 im ersten Benchmarkjahr |
+| Germany | beet sugar | 1880 | British home market | no series |  |
+| Germany | steel | 1893 | world output; export markets near parity only by 1913 | not reached by 1913 | Tyszynski 1951: DEU/GBR 0.35 (1899), 0.91 (1913) |
+| Germany | electrical engineering | 1900 | world market | by 1913 | Tyszynski 1951: DEU/GBR 0.58 (1899), 2.11 (1913) |
+| Japan | cotton textiles | 1951 | world export market | 1951 | Meilenstein selbst exportbasiert |
+| Japan | steel | 1969 | world export market | by 1962 | Comtrade SITC 67, erstes Datenjahr |
+| Japan | colour television | 1970 | US home market | 1963 | Comtrade SITC 7241 |
+| Japan | automobiles | 1980 | world output and US home market | 1970 | Comtrade SITC 7321 |
+| Japan | DRAM | 1981 | world market | 1984 | Comtrade SITC 776 (alle Halbleiter) |
+| Japan | semiconductors overall | 1987 | world market | 1984 | Comtrade SITC 776 |
+| Korea | DRAM | 1992 | world market | not measurable | SITC 776 trennt DRAM nicht von Logikchips; Korea/USA 0.39 im Jahr 2004 |
+| Korea | shipbuilding | 2000 | world market | 2001 | Comtrade HS 89 (SITC-2-Reihe 793 endet 2000 bei 0.80); Korea/Japan 1.15 im Jahr 2001 |
+
+Export-rule data: UN Comtrade (SITC Rev. 1 and 2, HS), exports to the world as reported by the exporter, current US dollars; Germany before 1914: Tyszynski (1951) benchmarks.
+
 ## E.4 Results
 
 **Table E2. Incumbent responses by case and phase**
@@ -70,6 +95,9 @@ DS1 contains 17 sectoral milestones and 41 incumbent responses across the four c
 Five of 41 responses precede the milestone of their sector. Four of the five score 3 or lower: a dumping complaint on Japanese television receivers (1968, MSS 2), the Section 301 investigation of Korea's intellectual-property regime (1985, MSS 2) and the resulting US–Korea agreement (1986, MSS 3), and a speech by the US National Security Adviser (2022, MSS 1).
 
 **The bounded exception.** The US export controls on advanced computing and semiconductor manufacturing of 7 October 2022 score MSS 5 and precede the confirmation of SMIC's 7 nm production in September 2023 by one year. They are the only binding instrument in the dataset designed to prevent rather than answer displacement. We report them as the limiting case of the pattern rather than redefine the milestone: one instrument in one sector, embedded in a campaign of tariffs and entity listings that followed China's manufacturing and telecommunications milestones by one to eight years.
+
+
+**Robustness: the export rule.** Under the uniform export rule 28 of the 41 responses follow the export crossover, 3 cannot be placed because only an upper bound exists for the crossover (British responses of 1885–1896 against an export lead in chemicals documented first in 1899), and 9 cannot be classified because the export data do not measure the contested product: DRAM is not separable from logic chips in SITC 776, and China's integrated-circuit exports consist largely of assembled foreign chips. One response precedes the export crossover: the EU's countervailing duties on Chinese battery-electric vehicles of October 2024 (MSS 4), imposed while Chinese electric-car exports were still below German exports (32.0 against 41.1 billion US dollars in 2024). Against the United States, Chinese exports had passed American ones in 2021, three years before the American tariff increase. The two rules thus produce one bounded exception each, in different sectors: export controls on advanced chips under the main rule, EU duties on electric cars under the export rule. Neither rule produces a systematic pattern of binding escalation before displacement.
 
 ## E.5 Parliamentary attention, Britain and Germany 1850–1914
 
