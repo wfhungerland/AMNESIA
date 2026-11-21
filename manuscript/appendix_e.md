@@ -57,7 +57,7 @@ DS1 contains 17 sectoral milestones and 41 incumbent responses across the four c
 | Case | Phase | Responses | Binding | MSS ≥ 4 | Max MSS |
 |---|---|---|---|---|---|
 | Germany | absorption | 0 | 0 | 0 | – |
-| Germany | post | 6 | 3 | 1 | 5 |
+| Germany | post | 8 | 4 | 2 | 5 |
 | Japan | absorption | 1 | 0 | 0 | 2 |
 | Japan | post | 14 | 11 | 8 | 4 |
 | Korea | absorption | 2 | 1 | 0 | 3 |
@@ -65,9 +65,9 @@ DS1 contains 17 sectoral milestones and 41 incumbent responses across the four c
 | China | absorption | 2 | 1 | 1 | 5 |
 | China | post | 9 | 6 | 4 | 5 |
 | **All** | **absorption** | **5** | **2** | **1** | **5** |
-| **All** | **post** | **34** | **22** | **13** | **5** |
+| **All** | **post** | **36** | **23** | **14** | **5** |
 
-Five of 39 responses precede the milestone of their sector. Four of the five score 3 or lower: a dumping complaint on Japanese television receivers (1968, MSS 2), the Section 301 investigation of Korea's intellectual-property regime (1985, MSS 2) and the resulting US–Korea agreement (1986, MSS 3), and a speech by the US National Security Adviser (2022, MSS 1).
+Five of 41 responses precede the milestone of their sector. Four of the five score 3 or lower: a dumping complaint on Japanese television receivers (1968, MSS 2), the Section 301 investigation of Korea's intellectual-property regime (1985, MSS 2) and the resulting US–Korea agreement (1986, MSS 3), and a speech by the US National Security Adviser (2022, MSS 1).
 
 **The bounded exception.** The US export controls on advanced computing and semiconductor manufacturing of 7 October 2022 score MSS 5 and precede the confirmation of SMIC's 7 nm production in September 2023 by one year. They are the only binding instrument in the dataset designed to prevent rather than answer displacement. We report them as the limiting case of the pattern rather than redefine the milestone: one instrument in one sector, embedded in a campaign of tariffs and entity listings that followed China's manufacturing and telecommunications milestones by one to eight years.
 
