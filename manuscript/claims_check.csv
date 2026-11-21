@@ -40,3 +40,4 @@ nr,section,claim,source,checked
 39,4.7,Control group: broad start IRR 5.7 (2.3-14.0) JP+KR; CN 301 covered 813/813 groups,data/population_panel.txt,ja (gerechnet)
 40,4.7,AD/CVD: 3.4 vs 6.5 per 100 gy; IRR 1.10 with size control; JP 2.0,data/population_panel.txt,ja (gerechnet; HS-SITC ueber WITS-Konkordanz)
 41,4.7,Weight: AD within 5y by import third 1/11/30%; broad 27/14/23%,data/population_weight.csv,ja (gerechnet)
+42,4.7,Employment: AD by third 1/16/25%; n.s. with imports; broad 19/14/29% logit 0.24 p=0.43,data/population_employment.txt,ja (gerechnet; Zuordnung naeherungsweise)

@@ -33,3 +33,7 @@ mkdir -p data/raw/wits && for c in S1 S3; do
   curl -s -o data/raw/wits/H0_$c.zip https://wits.worldbank.org/data/public/concordance/Concordance_H0_to_$c.zip
   (mkdir -p data/raw/wits/H0_$c && cd data/raw/wits/H0_$c && unzip -oq ../H0_$c.zip)
 done
+# Gutachten: Beschaeftigung (NBER-CES, NAICS 1997) und Census-Konkordanz der Einfuhrwaren 2002
+mkdir -p data/raw/nberces data/raw/census
+curl -s -o data/raw/nberces/n1997.csv https://data.nber.org/nberces/nberces5818v1/nberces5818v1_n1997.csv
+curl -s -o data/raw/census/impconcord02.xls https://www.census.gov/foreign-trade/reference/codes/concordance/impconcord02.xls
