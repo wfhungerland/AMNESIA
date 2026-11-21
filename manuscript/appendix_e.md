@@ -26,7 +26,7 @@ In borderline cases the lower score applies. Measures that only strengthen the i
 
 ## E.3 Data
 
-DS1 contains 16 sectoral milestones and 39 incumbent responses across the four cases (files `ds1_milestones.csv`, `ds1_responses.csv`, `ds1_events.csv`). Each row cites its source. For Japan, three sectors with disputes before 1980 were added to avoid an artificially empty absorption phase: cotton textiles (milestone 1951), colour television (1970) and steel (1969).
+DS1 contains 17 sectoral milestones and 41 incumbent responses across the four cases (files `ds1_milestones.csv`, `ds1_responses.csv`, `ds1_events.csv`). Each row cites its source. For Japan, three sectors with disputes before 1980 were added to avoid an artificially empty absorption phase: cotton textiles (milestone 1951), colour television (1970) and steel (1969). For Germany, beet sugar (milestone 1880) was added after the parliamentary record showed it to be the first sector in which Germany became a political issue (Section E.6).
 
 **Table E1. Sectoral displacement milestones**
 
@@ -38,6 +38,7 @@ DS1 contains 16 sectoral milestones and 39 incumbent responses across the four c
 | China | electric vehicles | 2023 | BYD overtakes Tesla in quarterly BEV sales (Q4 2023: 526409 vs 484507) | InsideEVs (2024) |
 | China | advanced logic chips | 2023 | TechInsights confirms SMIC 7nm in Huawei Mate 60 Pro (September 2023) | TechInsights (2023) |
 | Germany | synthetic dyes | 1870 | Germany holds about half of world dye output (primary German milestone; corroborated by Royal Commission 1885-86 per handover) | Murmann and Homburg (2001) |
+| Germany | beet sugar | 1880 | Continental (chiefly German) beet sugar overtakes cane in the British market in the 1880s; Germany about one third of British unrefined sugar imports by 1890 | Oxford Companion to Sugar and Sweets; Estudos Economicos (SciELO) on European sugar policy and Brazilian exports; Hansard HL 26 May 1884 |
 | Germany | steel | 1893 | German steel output exceeds British | Encyclopaedia Britannica: Germany - The economy 1890-1914 |
 | Germany | electrical engineering | 1900 | AEG and Siemens among world leaders; Germany about half of world electrical exports by 1913 | Kocka (1999); Reindl (1997) |
 | Japan | cotton textiles | 1951 | Japan again the world's largest exporter of cotton textiles | USDA FAS ATO Tokyo (2010) The History of U.S. Cotton in Japan; Osaka University Discussion Paper 99-06 |
@@ -89,7 +90,27 @@ Figure E1 (`figures/fig_e1_hansard.pdf`) shows the annual series. Parliamentary 
 
 Two qualifications follow. First, attention does not rise after the dye milestone of 1870 itself; it rises after steel. Second, the competition indicator differs little between the absorption phase and the 1870s and 1880s, and the early annual values rest on very few debates. The parliamentary record therefore supports the ordering (attention follows displacement) but dates the escalation to the second, broader milestone.
 
-## E.6 Limitations
+## E.6 Sector-level check
+
+Aggregate attention mixes sectors with very different political weight. We therefore split the economic debates by sector: a debate belongs to a sector if it uses at least three sector terms, and it links Germany to that sector if Germany appears within 30 words of a sector term. The number of debates on a sector over the whole period serves as a first measure of its political weight; census employment will replace it as a robustness check once the census tables are obtained.
+
+**Table E4. Germany in British sector debates before and after the sector milestone**
+
+| Sector | Milestone | Debates on the sector, 1850–1914 | Germany linked, before | Germany linked, after |
+|---|---|---|---|---|
+| Beet sugar | 1880 | 574 | 2.7 % of 75 [0.7–9.2] | 17.2 % of 499 [14.2–20.8] |
+| Iron and steel | 1893 | 172 | 14.6 % of 48 [7.2–27.2] | 24.2 % of 124 [17.5–32.4] |
+| Dyes and chemicals | 1870 | 18 | 0 of 1 | 29.4 % of 17 [13.3–53.1] |
+
+Brackets: 95 % Wilson intervals.
+
+The clearest break occurs in sugar, the sector with the most political voice: Germany is almost absent from British sugar debates before the rise of bounty-fed beet sugar and appears in about one sugar debate in six afterwards, ending in the Brussels Sugar Convention of 1902. Steel shows the same direction with overlapping intervals. Dyes, where German displacement came first, were almost never debated at all. This refines the primary claim: escalation follows displacement in sectors that have political voice in the incumbent. The long lag between the dye milestone and the Patents and Designs Act of 1907 is consistent with this reading.
+
+## E.7 Comparison: the United States
+
+The United States overtook Britain in GDP per capita around 1900 (Maddison Project 2023). If displacement alone triggered escalation, British attention to the United States should rise as well. It does not. Mentions of the United States per 100,000 words of economic debate stay between 41 and 56 across all four periods (Germany: 14 rising to 43–45), and the share of debates linking the United States to competition terms stays near one per cent. We read this as a scope condition rather than a refutation: American growth before 1914 displaced Britain mainly in the American home market and in output, not in Britain's contested export markets, which is where the primary claim locates the trigger. This reading is not yet tested and is flagged as such.
+
+## E.8 Limitations
 
 1. **Second coder.** All MSS scores currently come from one coder. Inter-coder agreement (Krippendorff's α, ordinal) will be reported here.
 2. **Parliamentary check only for Britain.** Machine-readable full text of the US Congressional Record before 1994 is not openly available; the Japanese and Korean cases rest on the coded instruments alone.
