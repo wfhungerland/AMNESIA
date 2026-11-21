@@ -111,6 +111,22 @@ def ds1_events():
     e["year"] = e.date.str[:4].astype(int)
     e["lag_years"] = e.year - e.milestone_year
     e["phase"] = e.lag_years.apply(lambda x: "absorption" if x < 0 else "post")
+    # Gegenprobe Exportregel
+    x = m.set_index("milestone_id")[["export_year", "export_year_type"]]
+    e = e.join(x, on="sector_milestone")
+
+    def phase_export(r):
+        t = r.export_year_type
+        if t in ("nicht messbar", "nicht aussagekraeftig", "keine Reihe"):
+            return "not measurable"
+        if t.startswith("nicht erreicht"):
+            return "absorption"
+        y = int(r.export_year)
+        if r.year >= y:
+            return "post"
+        return "absorption" if t == "genau" else "undetermined"
+
+    e["phase_export"] = e.apply(phase_export, axis=1)
     e.to_csv(D / "ds1_events.csv", index=False)
     e.drop(columns=["mss_coder1"]).assign(mss_coder2="").to_csv(D / "ds1_coder2_blank.csv", index=False)
     return e
