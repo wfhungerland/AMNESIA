@@ -119,7 +119,9 @@ The United States overtook Britain in GDP per capita around 1900 (Maddison Proje
 | 1900 | 0.56 | 0.46 | 0.70 |
 | 1913 | 0.75 | 0.51 | 0.85 |
 
-Markets: Argentina, Austria-Hungary, Belgium, Canada, Chile, Denmark, Finland, France, British India, Italy, Japan, Norway, Ottoman Empire, Portugal, Spain, Sweden, Uruguay. Flows are total goods in current pounds and do not separate manufactures from primary goods; a manufactures-only comparison (Tyszynski 1951 benchmarks) is pending.
+Markets: Argentina, Austria-Hungary, Belgium, Canada, Chile, Denmark, Finland, France, British India, Italy, Japan, Norway, Ottoman Empire, Portugal, Spain, Sweden, Uruguay. Flows are total goods in current pounds and do not separate manufactures from primary goods.
+
+For manufactures alone, Tyszynski's (1951, Table VIII) shares of world manufactured exports point the same way. Between 1899 and 1913 the British share fell from 32.5 to 29.9 per cent, the German share rose from 22.2 to 26.4 per cent, and the American share rose only from 11.2 to 12.6 per cent. Relative to Britain, Germany moved from 0.68 to 0.88, the United States from 0.34 to 0.42. In manufactured exports before 1914, Germany was closing on Britain; the United States was not.
 
 ## E.8 Limitations
 
@@ -127,3 +129,9 @@ Markets: Argentina, Austria-Hungary, Belgium, Canada, Chile, Denmark, Finland, F
 2. **Parliamentary check only for Britain.** Machine-readable full text of the US Congressional Record before 1994 is not openly available; the Japanese and Korean cases rest on the coded instruments alone.
 3. **Milestone sources.** The Japanese steel milestone (1969, largest exporter) rests on a single secondary source; the voluntary restraint arrangement took effect in the same year (lag 0). Several Chinese milestones depend on the chosen measure (telecom equipment: revenue 2012 or equipment sales 2017).
 4. **Title filter.** Economic debates are identified by title. Debates on economic matters under other titles, for example within question time, are missed.
+
+## References
+
+Fouquin, M. and Hugot, J. (2016) *Two Centuries of Bilateral Trade and Gravity Data: 1827–2014*. CEPII Working Paper No. 2016-14. Paris: CEPII.
+
+Tyszynski, H. (1951) 'World trade in manufactured commodities, 1899–1950', *The Manchester School*, 19(3), pp. 272–304. doi:10.1111/j.1467-9957.1951.tb00012.x
