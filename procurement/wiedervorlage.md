@@ -15,5 +15,6 @@ Stand 21.11.2026. Jeder Posten nennt, wofür er gebraucht wird, woran er scheite
 | 9 | International Iron and Steel Institute, Exportstatistik | Japans Stahl-Meilenstein 1969 an zweiter Quelle prüfen | nicht online gefunden | Bibliothek | offen |
 | 10 | Bank of Japan, Zahlungsbilanz; NISTEP-Technologiehandel | Japans Lizenzbilanz vor 1996 (DS5) | nicht geprüft | Hosts prüfen und freigeben | offen |
 | 11 | Bundesbericht Forschung und Innovation; Budgets von MPG und DFG | Grundlagenforschung der Hochschulen in Deutschland (DS4) | OECD meldet sie nicht | Hosts prüfen | offen |
+| 12 | Hungerland und Wolf (2022), deutscher Außenhandel 1880–1913 nach Ware und Partner (liegt bei Fabian) | deutsche Meilensteine jahresgenau und je Zielmarkt datieren (Panel-Revision 5) | noch nicht hochgeladen; britische Gegenreihe nach Ware und Land fehlt | Dateien nach Dropbox `Pr_AMNESIA`; britische Reihe aus dem Annual Statement of Trade | offen |
 
 Zwischenlösung für 1 bis 3: Das politische Gewicht eines Sektors misst vorerst, wie oft das Parlament überhaupt über ihn debattiert hat (Hansard 1850–1914: Farbstoffe 18 Debatten, Stahl 172, Textil 260, Zucker 574). Die Beschäftigtenzahlen folgen als Gegenprobe.
