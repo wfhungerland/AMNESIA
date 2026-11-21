@@ -18,7 +18,7 @@ Rohdaten liegen in `data/raw/` und sind nicht eingecheckt. Ihre Prüfsummen vom 
 
 | ID | Datei | Inhalt | Quelle | Abdeckung | Lizenz |
 |---|---|---|---|---|---|
-| DS1 | – | Verdrängungsmeilensteine, Reaktionen der Etablierten, Salienz MSS 1–5 | handcodiert | offen | – |
+| DS1 | `ds1_milestones.csv`, `ds1_responses.csv` → `ds1_events.csv` | 16 Verdrängungsmeilensteine, 39 Reaktionen der Etablierten, Punkte MSS 1–5 (Regel: `ds1_mss_rubric.md`), Phase und Lag | Material im Repo, für Japan 1950–1980 Webrecherche vom 21.11.2026 | Entwurf, Zweitcodierung offen | – |
 | DS2 | `ds2_gdppc.csv` | BIP pro Kopf (2011-PPP-Dollar), Verhältnis zu USA und GBR | Maddison Project Database 2023 (Bolt und van Zanden 2024), doi:10.34894/INZBF2 | bis 2022; jährlich lückenlos: DEU ab 1500, JPN ab 1885, KOR ab 1946, CHN ab 1950 | CC BY 4.0 |
 | DS3 | `ds3_tfp.csv` | TFP-Niveau relativ zu den USA (`ctfp`, USA = 1 je Jahr); zusätzlich `rtfpna` (eigene Entwicklung, 2017 = 1) | Penn World Table 11.0 (Feenstra, Inklaar und Timmer 2015; Version 11.0, 2025), doi:10.34894/FABVLR | DEU, JPN 1954–2023; CHN 1956–2023; KOR 1957–2023 | CC BY 4.0 |
 | DS4 | `ds4_basic_research.csv` | Grundlagenforschung: Anteil an GERD, in % des BIP, Sektoren Staat + Hochschulen in % des BIP | OECD, GERD by sector of performance and type of R&D (DF_GERD_TORD); OECD MSTI, GERD in % des BIP | JPN, USA 1981–2024; CHN 1991–2024; KOR 1995–2024; **DEU fehlt** | OECD-Nutzungsbedingungen |
