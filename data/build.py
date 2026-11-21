@@ -102,7 +102,21 @@ def ds5_tbp():
     return out
 
 
+def ds1_events():
+    """Verbindet Reaktionen mit Meilensteinen: Phase (absorption/post) und Lag in Jahren."""
+    m = pd.read_csv(D / "ds1_milestones.csv")
+    r = pd.read_csv(D / "ds1_responses.csv")
+    e = r.merge(m[["milestone_id", "sector", "year"]].rename(columns={"year": "milestone_year"}),
+                left_on="sector_milestone", right_on="milestone_id", how="left").drop(columns="milestone_id")
+    e["year"] = e.date.str[:4].astype(int)
+    e["lag_years"] = e.year - e.milestone_year
+    e["phase"] = e.lag_years.apply(lambda x: "absorption" if x < 0 else "post")
+    e.to_csv(D / "ds1_events.csv", index=False)
+    e.drop(columns=["mss_coder1"]).assign(mss_coder2="").to_csv(D / "ds1_coder2_blank.csv", index=False)
+    return e
+
+
 if __name__ == "__main__":
-    for f in (ds2_gdppc, ds3_tfp, ds4_basic_research, ds5_tbp):
+    for f in (ds1_events, ds2_gdppc, ds3_tfp, ds4_basic_research, ds5_tbp):
         o = f()
         print(f.__name__, len(o), "Zeilen")

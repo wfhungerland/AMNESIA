@@ -1,0 +1,33 @@
+response_id,case,incumbent,date,sector_milestone,type,description,mss_coder1,source_original,status,sector,milestone_year,year,lag_years,phase
+R-DE-01,DE,GB,1885-08,M-DE-DYE,investigation,Royal Commission on the Depression of Trade and Industry appointed,2,Hansard HL 10 Aug 1885,ungeprueft,synthetic dyes,1870,1885,15,post
+R-DE-02,DE,GB,1887-08-23,M-DE-DYE,binding_narrow,Merchandise Marks Act 1887: country-of-origin marking,3,50 & 51 Vict. c. 28,im Material geprueft,synthetic dyes,1870,1887,17,post
+R-DE-03,DE,GB,1896,M-DE-DYE,rhetoric,E. E. Williams: Made in Germany,1,Williams (1896),im Material geprueft,synthetic dyes,1870,1896,26,post
+R-DE-04,DE,GB,1903-05-15,M-DE-DYE,rhetoric,Chamberlain launches Tariff Reform campaign (rejected at 1906 election),1,Birmingham speech; Policy Amnesia Index v2.5,im Material geprueft,synthetic dyes,1870,1903,33,post
+R-DE-05,DE,GB,1907,M-DE-DYE,binding_narrow,Patents and Designs Act 1907: compulsory working in Britain,3,Patents and Designs Act 1907,ungeprueft,synthetic dyes,1870,1907,37,post
+R-DE-06,DE,GB,1932,M-DE-DYE,binding_broad,Import Duties Act 1932: general protective tariff,5,22 & 23 Geo. 5 c. 8,im Material geprueft; ausserhalb Fallfenster,synthetic dyes,1870,1932,62,post
+R-JP-01,JP,GB+FR,1955-09-10,M-JP-AUTO,binding_narrow,Japan joins GATT; UK and France invoke Article XXXV (no GATT treatment),3,GATT records; Policy Amnesia Index v2.5,im Material geprueft,automobiles,1980,1955,-25,absorption
+R-JP-02,JP,US,1981-05-01,M-JP-AUTO,binding_sector,Voluntary export restraint on cars (1.68m units),4,Toyota 75-year history; Berry et al. (1999),im Material geprueft,automobiles,1980,1981,1,post
+R-JP-03,JP,US,1985-06-14,M-JP-DRAM,investigation,SIA Section 301 petition on semiconductors,2,Flamm (1996); Irwin (1996),ungeprueft,DRAM,1981,1985,4,post
+R-JP-04,JP,US,1986-09-02,M-JP-DRAM,binding_sector,US-Japan Semiconductor Trade Agreement,4,Reagan Library,im Material geprueft,DRAM,1981,1986,5,post
+R-JP-05,JP,US,1987-02-13,M-JP-SEMI,investigation,Defense Science Board report on semiconductor dependency,2,DSB (1987),ungeprueft,semiconductors overall,1987,1987,0,post
+R-JP-06,JP,US,1987-04-17,M-JP-DRAM,binding_sector,100 percent tariffs on 300m USD of Japanese electronics,4,Reagan Library memorandum,im Material geprueft,DRAM,1981,1987,6,post
+R-JP-07,JP,US,1988-08-23,M-JP-SEMI,binding_broad,Omnibus Trade and Competitiveness Act (Super 301),4,P.L. 100-418,ungeprueft,semiconductors overall,1987,1988,1,post
+R-JP-08,JP,US,1989-05-25,M-JP-SEMI,investigation,Japan designated Super 301 priority country,2,USTR,ungeprueft,semiconductors overall,1987,1989,2,post
+R-KR-01,KR,US,1985-11-04,M-KR-DRAM,investigation,Section 301 investigation of Korean IP regime,2,Reagan Library (1986),im Material geprueft,DRAM,1992,1985,-7,absorption
+R-KR-02,KR,US,1986-07,M-KR-DRAM,binding_narrow,US-Korea IP agreement (patent and copyright reform),3,Reagan Library memorandum,ungeprueft,DRAM,1992,1986,-6,absorption
+R-KR-03,KR,US,1992-04,M-KR-DRAM,investigation,Micron antidumping petition on Korean DRAMs,2,58 Fed. Reg. 27520,ungeprueft,DRAM,1992,1992,0,post
+R-KR-04,KR,US,1993-05-10,M-KR-DRAM,binding_narrow,Antidumping duty order on Korean DRAMs (7.61 to 12.64 percent),3,58 Fed. Reg. 27520,ungeprueft,DRAM,1992,1993,1,post
+R-KR-05,KR,US,2003-08,M-KR-DRAM,binding_narrow,Countervailing duty order on Korean DRAMs,3,USITC Pub. 3616,ungeprueft,DRAM,1992,2003,11,post
+R-KR-06,KR,JP,2018-11-06,M-KR-SHIP,investigation,Japan WTO complaint DS571 (shipbuilding subsidies),2,WTO DS571,im Material geprueft,shipbuilding,2000,2018,18,post
+R-KR-07,KR,JP,2020-01-31,M-KR-SHIP,investigation,Japan WTO complaint DS594,2,WTO DS594,im Material geprueft,shipbuilding,2000,2020,20,post
+R-CN-01,CN,US,2012-07-09,M-CN-MFG,rhetoric,NSA director Alexander: greatest transfer of wealth in history,1,Foreign Policy (2012),ungeprueft,manufacturing overall,2010,2012,2,post
+R-CN-02,CN,US,2012-10,M-CN-SOLAR,binding_narrow,US AD and CVD duties on Chinese solar cells,3,US Commerce; PIIE (2012),ungeprueft,solar PV,2012,2012,0,post
+R-CN-03,CN,EU,2013-06,M-CN-SOLAR,binding_narrow,EU provisional antidumping duties on Chinese solar panels,3,European Commission,ungeprueft,solar PV,2012,2013,1,post
+R-CN-04,CN,US,2017-08-18,M-CN-MFG,investigation,USTR initiates Section 301 investigation,2,USTR; 82 FR 40213,im Material geprueft,manufacturing overall,2010,2017,7,post
+R-CN-05,CN,US,2018-07-06,M-CN-MFG,binding_broad,Section 301 tariffs List 1 (later about 370bn USD of imports),5,USTR,im Material geprueft,manufacturing overall,2010,2018,8,post
+R-CN-06,CN,EU,2019-03-12,M-CN-MFG,rhetoric,EU Strategic Outlook: China a systemic rival,1,JOIN(2019) 5 final,im Material geprueft,manufacturing overall,2010,2019,9,post
+R-CN-07,CN,US,2019-05-16,M-CN-TEL,denial,Huawei added to Entity List,5,84 FR 22961,ungeprueft,telecom equipment,2012,2019,7,post
+R-CN-08,CN,US,2022-09-16,M-CN-CHIP,rhetoric,Sullivan: as large a lead as possible,1,White House (2022),ungeprueft,advanced logic chips,2023,2022,-1,absorption
+R-CN-09,CN,US,2022-10-07,M-CN-CHIP,denial,BIS advanced computing and semiconductor export controls,5,87 FR 62186,ungeprueft,advanced logic chips,2023,2022,-1,absorption
+R-CN-10,CN,US,2024-05,M-CN-EV,binding_sector,US tariff on Chinese EVs raised to 100 percent,4,USTR (2024),ungeprueft,electric vehicles,2023,2024,1,post
+R-CN-11,CN,EU,2024-10-30,M-CN-EV,binding_sector,EU definitive countervailing duties on Chinese BEVs,4,European Commission (2024),ungeprueft,electric vehicles,2023,2024,1,post
