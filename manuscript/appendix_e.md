@@ -28,6 +28,27 @@ In borderline cases the lower score applies. Measures that only strengthen the i
 
 DS1 contains 16 sectoral milestones and 39 incumbent responses across the four cases (files `ds1_milestones.csv`, `ds1_responses.csv`, `ds1_events.csv`). Each row cites its source. For Japan, three sectors with disputes before 1980 were added to avoid an artificially empty absorption phase: cotton textiles (milestone 1951), colour television (1970) and steel (1969).
 
+**Table E1. Sectoral displacement milestones**
+
+| Case | Sector | Year | Milestone | Source |
+|---|---|---|---|---|
+| China | manufacturing overall | 2010 | China overtakes US in manufacturing value added (19.8 vs 19.4 percent) | IHS Global Insight via AEI (2011) |
+| China | solar PV | 2012 | China dominant in solar manufacturing (dating ranges 2008 to 2012 across files) | IEA (2022) |
+| China | telecom equipment | 2012 | Huawei overtakes Ericsson in total revenue (equipment-only measure: 2017) | China.org.cn (2012); Caixin (2018) |
+| China | electric vehicles | 2023 | BYD overtakes Tesla in quarterly BEV sales (Q4 2023: 526409 vs 484507) | InsideEVs (2024) |
+| China | advanced logic chips | 2023 | TechInsights confirms SMIC 7nm in Huawei Mate 60 Pro (September 2023) | TechInsights (2023) |
+| Germany | synthetic dyes | 1870 | Germany holds about half of world dye output (primary German milestone; corroborated by Royal Commission 1885-86 per handover) | Murmann and Homburg (2001) |
+| Germany | steel | 1893 | German steel output exceeds British | Encyclopaedia Britannica: Germany - The economy 1890-1914 |
+| Germany | electrical engineering | 1900 | AEG and Siemens among world leaders; Germany about half of world electrical exports by 1913 | Kocka (1999); Reindl (1997) |
+| Japan | cotton textiles | 1951 | Japan again the world's largest exporter of cotton textiles | USDA FAS ATO Tokyo (2010) The History of U.S. Cotton in Japan; Osaka University Discussion Paper 99-06 |
+| Japan | steel | 1969 | Japan becomes the world's largest steel exporter | Ohashi (2005) Journal of International Economics: Learning by doing export subsidies and industry growth (Japanese steel 1950s-60s) |
+| Japan | colour television | 1970 | Japanese share of US market for middle-sized colour receivers about 30 percent (Japan led world colour TV production from the late 1960s) | US Tariff Commission (1971) TC Publication 367; UQ RSMG Working Paper 26 |
+| Japan | automobiles | 1980 | Japan overtakes US as largest car producer (about 7.0m vs 6.4m) | Sobel (1984); Toyota 75-year history |
+| Japan | DRAM | 1981 | Japanese 64K generation overtakes US producers | Semiconductor History Museum of Japan |
+| Japan | semiconductors overall | 1987 | Japan overtakes US in overall semiconductor share (48 vs 39 percent) | Okada (2005); AMRO (2025) |
+| Korea | DRAM | 1992 | Samsung becomes largest DRAM maker (about 13.5 vs 12.8 percent for Toshiba) | Harvard Business School (2003); Samsung Semiconductor |
+| Korea | shipbuilding | 2000 | Korea overtakes Japan in shipbuilding market share | ORF (2025); GlobalSecurity.org |
+
 ## E.4 Results
 
 **Table E2. Incumbent responses by case and phase**
