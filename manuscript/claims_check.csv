@@ -31,3 +31,7 @@ nr,section,claim,source,checked
 30,5,Electrical goods Germany's top RCA sector 1913,Crafts (1989) Table 1,ja (am Scan)
 31,6,Korea peak 0.71 (2002); 0.62-0.70 since 2010; Germany >=1 most years since 2000; China 0.47 (2023); pause 2007-2015 at 0.40-0.42,ds3_tfp.csv,ja
 32,3.3,Inter-coder agreement,offen,nein (Zweitcodierung ausstehend)
+33,4.6,Registers: 759 AD/CVD cases; KR 67 of 181 before 1992 (35 final); CN 316 of 414 before 2010 (231 final),data/ds1_registers.csv (TTBD),ja (gerechnet)
+34,4.6,Product displacement: 127 cases; share 15 -> 23%; rising in 82%,data/ds1_product_displacement.csv (Comtrade),ja (gerechnet)
+35,4.7,Cycle: 38% of responses in negative output gap years vs 45% base,data/tests_cycle.txt,ja (gerechnet)
+36,4.7,Window and placebo tests,data/tests_sequence.txt,ja (gerechnet)
