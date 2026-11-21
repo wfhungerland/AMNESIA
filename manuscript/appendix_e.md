@@ -108,7 +108,18 @@ The clearest break occurs in sugar, the sector with the most political voice: Ge
 
 ## E.7 Comparison: the United States
 
-The United States overtook Britain in GDP per capita around 1900 (Maddison Project 2023). If displacement alone triggered escalation, British attention to the United States should rise as well. It does not. Mentions of the United States per 100,000 words of economic debate stay between 41 and 56 across all four periods (Germany: 14 rising to 43–45), and the share of debates linking the United States to competition terms stays near one per cent. We read this as a scope condition rather than a refutation: American growth before 1914 displaced Britain mainly in the American home market and in output, not in Britain's contested export markets, which is where the primary claim locates the trigger. This reading is not yet tested and is flagged as such.
+The United States overtook Britain in GDP per capita around 1900 (Maddison Project 2023). If displacement alone triggered escalation, British attention to the United States should rise as well. It does not. Mentions of the United States per 100,000 words of economic debate stay between 41 and 56 across all four periods (Germany: 14 rising to 43–45), and the share of debates linking the United States to competition terms stays near one per cent. Bilateral trade data support reading this as a scope condition rather than a refutation. In a fixed panel of 17 third markets with data for all three suppliers in every benchmark year from 1880 to 1913 (CEPII TRADHIST v4; Fouquin and Hugot 2016), German exports rise from 47 to 85 per cent of British exports and exceed them in seven markets by 1913 (Austria-Hungary, Belgium, Denmark, Finland, Italy, Norway, Sweden). US exports rise from 46 to 75 per cent, but to only 51 per cent once Canada is excluded, and exceed British exports only in Canada and Austria-Hungary (Table E5). The United States outgrew Britain at home; Germany displaced Britain in its export markets. The primary claim locates the trigger in contested markets, and the British record is consistent with that.
+
+**Table E5. Exports to 17 third markets relative to British exports (Britain = 1)**
+
+| Year | United States | United States, without Canada | Germany |
+|---|---|---|---|
+| 1880 | 0.46 | 0.44 | 0.47 |
+| 1890 | 0.30 | 0.25 | 0.50 |
+| 1900 | 0.56 | 0.46 | 0.70 |
+| 1913 | 0.75 | 0.51 | 0.85 |
+
+Markets: Argentina, Austria-Hungary, Belgium, Canada, Chile, Denmark, Finland, France, British India, Italy, Japan, Norway, Ottoman Empire, Portugal, Spain, Sweden, Uruguay. Flows are total goods in current pounds and do not separate manufactures from primary goods; a manufactures-only comparison (Tyszynski 1951 benchmarks) is pending.
 
 ## E.8 Limitations
 

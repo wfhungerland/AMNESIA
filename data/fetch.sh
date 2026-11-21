@@ -22,4 +22,7 @@ for s in BX.GSR.ROYL.CD BM.GSR.ROYL.CD NY.GDP.MKTP.CD; do
   curl -sS -o "wb_$s.json" "https://api.worldbank.org/v2/country/DEU;JPN;KOR;CHN;USA;GBR/indicator/$s?format=json&per_page=2000"
 done
 
-sha256sum pwt110.dta maddison2023_web.dta oecd_*.csv wb_*.json > SHA256SUMS.abruf
+# Drittmaerkte: CEPII TRADHIST v4 (Fouquin und Hugot 2016), ca. 1,1 GB
+curl -sSL -o TRADHIST_v4.dta "https://www.cepii.fr/DATA_DOWNLOAD/TRADHIST/TRADHIST_v4.dta"
+
+sha256sum TRADHIST_v4.dta pwt110.dta maddison2023_web.dta oecd_*.csv wb_*.json > SHA256SUMS.abruf
