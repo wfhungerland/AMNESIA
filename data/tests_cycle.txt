@@ -1,0 +1,6 @@
+alle: 39 Reaktionen mit Luecke; Anteil in Jahren negativer Luecke 0.38; erwartet bei Zufall 0.45; mittlere Luecke +0.003
+   absorption: n=5, Anteil negative Luecke 0.00
+   post: n=34, Anteil negative Luecke 0.44
+bindend: 23 Reaktionen mit Luecke; Anteil in Jahren negativer Luecke 0.39; erwartet bei Zufall 0.45; mittlere Luecke +0.004
+   absorption: n=2, Anteil negative Luecke 0.00
+   post: n=21, Anteil negative Luecke 0.43
