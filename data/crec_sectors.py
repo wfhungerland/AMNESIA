@@ -37,6 +37,7 @@ for yr, gid in zip(g.year, g.granule):
     t = text(gid)
     if t is None:
         continue
+    t = re.sub(r"\belectric\s+vehicle", "electric-vehicle", t, flags=re.I)
     w = [re.sub(r"[^\w'-]", "", x) for x in t.split()]
     ti = [i for i, x in enumerate(w) if TWORD.match(x)]
     for k, rx in FINE_RX.items():

@@ -4,3 +4,13 @@ Hansard, 1 Bruch/Brueche: Bruchjahre [1871], BIC 13.3
 Hansard, 2 Bruch/Brueche: Bruchjahre [1871, 1894], BIC 15.2
 Hansard, 3 Bruch/Brueche: Bruchjahre [1871, 1878, 1883], BIC 17.8
 Hansard, BIC ohne Bruch 27.5; beste Zahl der Brueche: 1
+Congressional Record, China je 100.000 Woerter, 1 Bruch/Brueche: Bruchjahre [2020], BIC -14.3
+Congressional Record, China je 100.000 Woerter, 2 Bruch/Brueche: Bruchjahre [2013, 2018], BIC -16.1
+Congressional Record, China je 100.000 Woerter, 3 Bruch/Brueche: Bruchjahre [2002, 2013, 2018], BIC -11.0
+Congressional Record, China je 100.000 Woerter, BIC ohne Bruch -17.9; beste Zahl der Brueche: 0
+Congressional Record, Anteil Debatten mit China (log), 1 Bruch/Brueche: Bruchjahre [2008], BIC -51.8
+Congressional Record, Anteil Debatten mit China (log), 2 Bruch/Brueche: Bruchjahre [2013, 2018], BIC -59.2
+Congressional Record, Anteil Debatten mit China (log), 3 Bruch/Brueche: Bruchjahre [2001, 2013, 2018], BIC -53.6
+Congressional Record, Anteil Debatten mit China (log), BIC ohne Bruch -58.2; beste Zahl der Brueche: 2
+Kreuzungsjahre China s3 (ohne zensierte): n = 70, Median 2004, Quartile 2001-2006
+Kreuzungsjahre China hs4 (ohne zensierte): n = 242, Median 2015, Quartile 2012-2019
