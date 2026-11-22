@@ -5,9 +5,11 @@ Quelle: Federal Register ueber govinfo (Collection FR), amtliche Fassung der UST
   Liste 2: 83 FR 40823, FR Doc. 2018-17709 (16.8.2018), Annex A; 25 % ab 23.8.2018
   Liste 3: 83 FR 47974, FR Doc. 2018-20610 (21.9.2018), Annex A; 10 % ab 24.9.2018 (spaeter 25 %)
   Liste 4A und 4B: 84 FR 43304, FR Doc. 2019-17865 (20.8.2019), Annex A, U.S. note 20(s) (4A, Heading
-    9903.88.15) und note 20(u) (4B, Heading 9903.88.16); Satz in der Bekanntmachung 10 %
-  Ueberpruefung 2024: FR Doc. 2024-21217 (18.9.2024), Annex A, Tabelle der Erhoehungen nach Produktgruppe
-Seitenangaben (FR-Zitate) und Saetze bitte an den Texten in data/raw/fr/ pruefen; das Skript liest nur Codes.
+    9903.88.15) und Heading 9903.88.16 (4B); 10 % ab 1.9.2019 (4A) bzw. 15.12.2019 (4B, spaeter ausgesetzt)
+  Ueberpruefung 2024: 89 FR 76581, FR Doc. 2024-21217 (18.9.2024), Annex A, Tabelle der Erhoehungen nach Produktgruppe
+Fundstellen, Saetze und Daten am 22.11.2026 an den Texten in data/raw/fr/ geprueft (erste Seite, "additional
+NN percent ad valorem", Datum des Inkrafttretens). Spaetere Aenderungen der Saetze (Liste 3 auf 25 %, 4A auf
+7,5 %) stehen in anderen Bekanntmachungen und werden hier nicht verwendet.
 Die Anhaenge der Listen 1 bis 4 stehen nur in der PDF-Fassung (Textschicht, pdftotext -layout).
 
 Ergebnis: data/ds1_301_hts8.csv (Position x Liste), data/ds1_301_hs4.csv (HS4: Anteil der Positionen je Liste,
@@ -67,9 +69,9 @@ b4 = first(L, r"^\s+ANNEX B\s*$")
 a4b = first(L, r"Products of China that are provided for in heading 9903\.88\.16")
 b4b = first(L, r"^\s+ANNEX D\s*$")
 for c in codes(L, a4, b4):
-    rows.append({"hts8": c, "list": "4A", "effective": "2019-09-01", "rate_initial": 15})
+    rows.append({"hts8": c, "list": "4A", "effective": "2019-09-01", "rate_initial": 10})
 for c in codes(L, a4b, b4b):
-    rows.append({"hts8": c, "list": "4B", "effective": "", "rate_initial": 15})
+    rows.append({"hts8": c, "list": "4B", "effective": "2019-12-15", "rate_initial": 10})
 H = pd.DataFrame(rows)
 
 # Ueberpruefung 2024, Annex A: "Code....  Beschreibung   Satz   Jahr"

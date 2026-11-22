@@ -62,7 +62,7 @@ def day_measure(w):
 
 
 def docs():
-    for y in range(1955, 1995):  # 1955-1959 nur, wenn nachgeladen
+    for y in range(1955, 1995):  
         lp = B.C / "lists" / f"{y}.json"
         if not lp.exists():
             continue

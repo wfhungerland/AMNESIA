@@ -1,4 +1,4 @@
-"""Stichprobe aus dem gebundenen Congressional Record (govinfo, Collection CRECB) 1960-1994 fuer den Fall Japan.
+"""Stichprobe aus dem gebundenen Congressional Record (govinfo, Collection CRECB) 1955-1994 fuer den Fall Japan.
 
 Der gebundene Record liegt je Band (package) und je Sitzungstag und Kammer (granule) nur als PDF mit
 Textschicht vor, ohne Debattentitel. Deshalb: je Jahr 20 zufaellige Sitzungstage (Saat 1960), alle

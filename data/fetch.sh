@@ -40,3 +40,9 @@ done
 mkdir -p data/raw/nberces data/raw/census
 curl -s -o data/raw/nberces/n1997.csv https://data.nber.org/nberces/nberces5818v1/nberces5818v1_n1997.csv
 curl -s -o data/raw/census/impconcord02.xls https://www.census.gov/foreign-trade/reference/codes/concordance/impconcord02.xls
+# Kongressmessung (govinfo-API, Schluessel api.data.gov im Header X-Api-Key; setzt der Netzwerk-Proxy ein):
+# taeglicher Congressional Record 1995-2025, gebundener Record 1955-1994 (Stichprobe), 301-Listen (Federal Register)
+python3 data/crec_fetch.py all
+python3 data/crecb_fetch.py 1955 1994
+python3 data/fr301_lists.py
+(cd data/raw && sha256sum fr/*.pdf fr/*.htm >> SHA256SUMS.abruf)
