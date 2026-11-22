@@ -5,9 +5,9 @@ eine Wirtschaftsdebatte gehoert zu einem Feinsektor (data/crec_filter.py, FINE),
 3 Sektorwoerter enthaelt; sie verbindet China mit dem Sektor, wenn ein China-Wort hoechstens 30 Woerter
 von einem Sektorwort entfernt steht.
 
-Kreuzungsjahr des Sektors: fruehestes nicht linkszensiertes Kreuzungsjahr seiner Warengruppen in
-data/population_crossovers.csv (China, SITC Rev. 3 und HS4); sind alle zensiert, gilt "spaetestens" das
-frueheste Jahr. Breite Massnahme: sektorspezifisches Instrument gegen China in data/broad_register.csv
+Kreuzungsjahr des Sektors: fruehestes Kreuzungsjahr seiner Warengruppen in data/population_crossovers.csv
+(China, SITC Rev. 3 und HS4); ist es linkszensiert (Kreuzung spaetestens im ersten Datenjahr), gilt es als
+"spaetestens". Breite Massnahme: sektorspezifisches Instrument gegen China in data/broad_register.csv
 (ohne B-20, die Section-301-Zoelle auf alle Warengruppen), zugeordnet ueber die HS4- und SITC-Codes.
 Aufmerksamkeit (voice): mit China verbundene Sektordebatten je 1.000 Wirtschaftsdebatten,
 in den 5 Jahren vor dem Kreuzungsjahr (vor) und ab dem Kreuzungsjahr (5 Jahre, nach); dazu ein festes
@@ -85,11 +85,9 @@ def measures(sector):
 T = []
 for k in FINE:
     z = cr[cr.sector == k]
-    unc = z[~z.left_censored]
-    if len(unc):
-        cy, cens = int(unc.crossover_year.min()), False
-    elif len(z):
-        cy, cens = int(z.crossover_year.min()), True
+    if len(z):
+        cy = int(z.crossover_year.min())
+        cens = bool(z[z.crossover_year == cy].left_censored.any())
     else:
         cy, cens = None, False
     m = measures(k)
