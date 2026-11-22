@@ -78,3 +78,6 @@ nr,section,claim,source,checked
 77,10/E.11,Title filter captures 48 of 259 granules (19%) with China near a competition term (310 check days),data/ds1_crec_salience.txt,ja (gerechnet)
 78,E.11,301 lists: 83 FR 28710; 83 FR 40823; 83 FR 47974; 84 FR 43304; 89 FR 76581; rates 25/25/10/10/10 per cent at entry,data/raw/fr/ (Texte); data/fr301_lists.py,ja (an den FR-Texten geprueft)
 79,Abstract/1,About ten times as often (2.65 vs 0.25 per million words = 10.6); 800 sitting days 1955-1994,data/ds1_crecb_test.txt,ja (gerechnet)
+80,5/E.11,Korea voice from crossover 0.35 vs 0.04 per million words (5 vs 9 sectors) p=0.016; before p=0.047; 1965-1990 p=0.004,data/ds1_kr_test.txt,ja (gerechnet)
+81,E.11,Korea near competition 0.7 (1955-64) to 2.6 (1985-94) and 6.8 (2005-14) per million words; no break preferred,data/ds1_kr_test.txt; data/tests_sequence.txt,ja (gerechnet)
+82,Abstract,Roughly ten times: JP 2.65/0.25=10.6; KR 0.35/0.04=8.8,data/ds1_crecb_test.txt; data/ds1_kr_test.txt,ja (gerechnet)

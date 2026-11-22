@@ -27,3 +27,7 @@ Kongress-Stichprobe, China nahe Wettbewerb 1995-2025, 1 Bruch/Brueche: Bruchjahr
 Kongress-Stichprobe, China nahe Wettbewerb 1995-2025, 2 Bruch/Brueche: Bruchjahre [2013, 2019], BIC 3.5
 Kongress-Stichprobe, China nahe Wettbewerb 1995-2025, 3 Bruch/Brueche: Bruchjahre [2000, 2013, 2019], BIC 5.5
 Kongress-Stichprobe, China nahe Wettbewerb 1995-2025, BIC ohne Bruch -2.9; beste Zahl der Brueche: 0
+Kongress-Stichprobe, Korea nahe Wettbewerb 1955-2025, 1 Bruch/Brueche: Bruchjahre [2019], BIC -49.2
+Kongress-Stichprobe, Korea nahe Wettbewerb 1955-2025, 2 Bruch/Brueche: Bruchjahre [1974, 2019], BIC -46.2
+Kongress-Stichprobe, Korea nahe Wettbewerb 1955-2025, 3 Bruch/Brueche: Bruchjahre [1985, 1990, 2019], BIC -42.5
+Kongress-Stichprobe, Korea nahe Wettbewerb 1955-2025, BIC ohne Bruch -55.6; beste Zahl der Brueche: 0
