@@ -83,6 +83,7 @@ Weitere Auffälligkeit: Die Weltbank-Reihe für Korea zeigt 1976–1979 winzige 
 | `third_markets_tradhist.csv`, `third_markets_summary.csv`, `tyszynski_1951_selected.csv` | Drittmärkte 1871–1913; Tyszynski (1951) Tabellen I, II, VIII | `third_markets.py` |
 | `third_markets_1930s.csv`, `third_markets_1930s_summary.csv` | Japan gegen Großbritannien: Drittmärkte 1920–1938 (TRADHIST) | `third_markets_1930s.py` |
 | `ds1_hansard_japan.csv`, `ds1_hansard_japan_sections.csv` | Nennungen Japans in britischen Wirtschaftsdebatten 1920–1939 | `hansard_japan.py` |
+| `conditionality.txt`, `conditionality_challengers.csv` | IWF-Auflagen nach Politikfeld 1989–2014, US-Hilfe 1980–2011, Sicherheitsrat und UN-Nähe (Stubbs et al. 2020, 2016) | `conditionality.py` |
 | `geopolitics_instruments.csv`, `geopolitics_dyads.csv`, `geopolitics.txt`, `geo_instrument_mode.csv` | Bündnis (ATOP 5.1), UN-Abstand (Bailey/Strezhnev/Voeten), Machtverhältnis (COW CINC v7) je Instrument und Meilenstein; Art der Maßnahme | `geopolitics.py` |
 | `cases_crossovers.csv`, `cases_breadth.csv`, `cases_hazard.csv`, `cases_register_tested.csv`, `cases_panel.csv`, `cases_panel.txt` | Weitere Fälle TH, VN, MY, MX, BR, HK, TW (mit JP, KR, CN zum Vergleich der Reichweite) | `cases_fetch.py`, `cases_test.py` |
 | `ds1_hansard_sectors.csv`, `ds1_hansard_usa.csv`, `ds1_hansard_phrases.csv` | Hansard nach Sektor, Nennung der USA, Wendungen | `hansard_*.py` |

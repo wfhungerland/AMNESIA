@@ -65,3 +65,9 @@ mkdir -p data/raw/geo/unga && (cd data/raw/geo && curl -sSL -O https://correlate
   && curl -sSL -o atop51csv.zip "http://www.atopdata.org/uploads/6/9/1/3/69134503/atop_5.1__.csv_.zip" && unzip -oq atop51csv.zip -d atop \
   && curl -sSL -o unga/IdealpointsJuly2025.tab "https://dataverse.harvard.edu/api/access/datafile/11824371")
 python3 data/geopolitics.py
+# IWF-Auflagen, US-Hilfe, Sicherheitsrat (Harvard Dataverse; Stubbs et al. 2020 und 2016)
+mkdir -p data/raw/imf && (cd data/raw/imf && curl -sSL -o IMFMETH_Data.dta "https://dataverse.harvard.edu/api/access/datafile/4576459?format=original" \
+  && curl -sSL -o IMFAIDData.dta "https://dataverse.harvard.edu/api/access/datafile/4572529?format=original" \
+  && curl -sSL -o IMFAIDCodebook.xlsx "https://dataverse.harvard.edu/api/access/datafile/4572527" \
+  && curl -sSL -o IMFMETH_Code_Main.do "https://dataverse.harvard.edu/api/access/datafile/4576461")
+python3 data/conditionality.py

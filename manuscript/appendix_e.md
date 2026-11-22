@@ -286,6 +286,22 @@ UN distance to the United States, mean 2009–2023: Japan 1.73, Korea 1.64, Mexi
 
 Sources: WTO, Agreement on Safeguards (legal text 25-safeg.pdf); WTO, "Textiles: back in the mainstream" (texintro_e.htm); WTO, completed accessions (completeacc_e.htm); WTO, Viet Nam accession page. The entry into force of the MFA (signed 20 December 1973; 1 January or 1 April 1974 depending on the source) is not yet checked at a primary source.
 
+## E.11 Multilateral finance: IMF conditions, aid and the Security Council
+
+Code: `data/conditionality.py` (output `data/conditionality.txt`, `data/conditionality_challengers.csv`). Data: replication files of Stubbs, Reinsberg, Kentikelenis and King (2020; Harvard Dataverse doi:10.7910/DVN/YSZ79K), country-years 1989–2014, binding IMF conditions (quantitative and structural performance criteria plus prior actions) coded by policy area as in Kentikelenis, Stubbs and King (2016), temporary Security Council membership and voting similarity with the United States; and of Stubbs, Kentikelenis and King (2016; doi:10.7910/DVN/TE8TXZ), US ODA commitments 1980–2011 (OECD DAC) with the Security Council data of Dreher, Sturm and Vreeland. Programme years without coded conditions (for example Thailand 1997–2000) are treated as missing.
+
+**Table E13. Binding IMF conditions per programme year (Poisson, year effects, errors clustered by country; 1,173 programme years, 116 countries)**
+
+| Outcome (mean) | Security Council seat | Voting similarity with the US (0–1) | Same, with country effects: seat / similarity |
+|---|---|---|---|
+| All binding conditions (26.0) | 1.00 (p = 0.98) | 1.83 (p = 0.009) | 1.00 / 0.59 (p = 0.97 / 0.20) |
+| External sector (2.8) | 1.08 (p = 0.67) | 2.05 (p = 0.12) | 1.13 / 1.05 |
+| Financial sector (6.3) | 0.76 (p = 0.009) | 1.61 (p = 0.23) | 0.85 / 0.58 |
+
+Rate ratios; controls: log GDP per head, growth, trade openness. Programme participation (logit, 4,001 country-years): similarity +3.14 (p = 0.001), seat +0.27 (p = 0.17). US aid commitments, log(1 + USD million), country and year effects, 3,257 country-years: seat −0.02 (p = 0.82), similarity +1.07 (p = 0.045), defence pact −0.58 (p = 0.43).
+
+The challengers of this paper (Mexico, Korea, Brazil, Vietnam; Thailand without coded conditions; Malaysia and China without programmes) had 0.99 times as many binding conditions as other programme countries but 2.16 times as many on the external sector (p = 0.009). Their programmes began after financial crises, when the groups they had overtaken held at most 2.3 per cent of American manufactured exports.
+
 ## E.8 Limitations
 
 1. **Second coder.** All IR scores currently come from one coder. Inter-coder agreement (Krippendorff's α, ordinal) will be reported here.
