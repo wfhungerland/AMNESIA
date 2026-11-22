@@ -388,7 +388,7 @@ Japan as a competitor stays at a low, steady level through the 1960s and 1970s, 
 
 Voice: places where Japan stands within 30 words of a sector term, per million words of the sampled days. Crossover: earliest year in which Japanese world exports in a group of the sector reached American exports (≤: in the first data year, 1962). Instruments from data/broad_register.csv.
 
-**Tests, Japan.** The six sectors that drew a broad instrument against Japan had more congressional attention to Japan than the eight displaced sectors that did not: in the five years from the crossover 2.65 against 0.25 per million words (exact one-sided permutation test, p = 0.004), in the fixed window 1960–1975 1.58 against 0.30 (p = 0.022). In the five years before the crossover the difference is smaller and not significant (3.89 against 1.72, p = 0.17), and it rests on textiles and plywood, both debated in the late 1950s; in textiles the first restraint (1957) preceded the crossover. Voice rises after the crossover in four of the seven sectors with an uncensored crossover. Attention in Congress thus separates the displaced Japanese sectors that met broad constraint from those that did not, and it does so mainly after displacement. With six and eight sectors, and sector terms that capture some unrelated uses (*glass*, *chips*), the test is coarse.
+**Tests, Japan.** The six sectors that drew a broad instrument against Japan had more congressional attention to Japan than the eight displaced sectors that did not: in the five years from the crossover 2.65 against 0.25 per million words (exact one-sided permutation test, p = 0.004), in the fixed window 1960–1975 1.58 against 0.30 (p = 0.022). In the five years before the crossover the difference is smaller and not significant (3.89 against 1.72, p = 0.17), and it rests on textiles and plywood, both debated in the late 1950s; in textiles the first restraint (1957) preceded the crossover. Voice rises after the crossover in four of the seven sectors with an uncensored crossover. These counts do not adjust for sector size; Table E18 does, and the difference then rests on how much Congress debates a sector, not on how often it names Japan.
 
 **Korea: data and tests.** The same 1,110 sampled sitting days are read for Korea (`data/crecb_korea.py`). Mentions that do not refer to the South Korean economy are removed first: *North Korea(n)*, *Democratic People's Republic of Korea*, *Korean War*, *Korean conflict*, *Korean peninsula*. Korea counts at *Korea*, *Korean(s)*, *Korea's* and *Seoul*. Korea near a competition term rises from 0.7 per million words in 1955–1964 to 1.2 in 1975–1984 and 2.6 in 1985–1994, about a tenth of the level for Japan, and peaks at 6.8 in 2005–2014, the years of the bilateral free trade agreement; a break search prefers no break.
 
@@ -411,7 +411,44 @@ Voice: places where Japan stands within 30 words of a sector term, per million w
 | Copper, zinc, nickel | 1988 | – | 0.00 | 0.00 | 0.03 |
 | Optical goods | 1991 | – | 0.07 | 0.04 | 0.04 |
 
-The five displaced sectors that drew a broad instrument against Korea had more congressional attention to Korea than the nine that did not, in every window: 0.34 against 0.05 per million words in 1965–1990 (exact one-sided permutation test, p = 0.004), 0.19 against 0.04 before the crossover (p = 0.047) and 0.35 against 0.04 from the crossover (p = 0.016). Unlike Japan, the difference already appears before displacement, consistent with the instruments against Korea in textiles and television sets that preceded or extended restraints aimed at Japan (E.9). The counts are small, and the measure does not adjust for how often a sector is debated at all: large sectors such as textiles and steel offer more occasions for any country to be named near a sector term. The same caveat applies to Table E16.
+The five displaced sectors that drew a broad instrument against Korea had more congressional attention to Korea than the nine that did not, in every window: 0.34 against 0.05 per million words in 1965–1990 (exact one-sided permutation test, p = 0.004), 0.19 against 0.04 before the crossover (p = 0.047) and 0.35 against 0.04 from the crossover (p = 0.016). Unlike Japan, the difference already appears before displacement, consistent with the instruments against Korea in textiles and television sets that preceded or extended restraints aimed at Japan (E.9). These counts, too, do not adjust for sector size (Table E18).
+
+**Table E18. Size-adjusted congressional measures: sector volume and the challenger's share of it (sampled days)**
+
+| Challenger | Sector | Broad instrument | Sector volume, five years before crossover | Sector volume, five years from crossover | Challenger share, before (%) | Challenger share, from (%) |
+|---|---|---|---|---|---|---|
+| Japan | Textiles and apparel | yes | 309.9 | 203.9 | 5.5 | 1.2 |
+| Japan | Steel | yes | 91.9 | 66.2 | 2.4 | 5.2 |
+| Japan | Television sets | yes | 92.3 | 104.9 | 0.4 | 0.5 |
+| Japan | Cars and motorcycles | yes | 131.0 | 88.8 | 0.9 | 5.6 |
+| Japan | Semiconductors | yes | 34.1 | 18.0 | 17.2 | 18.9 |
+| Japan | Machine tools | yes | 4.2 | 2.3 | 3.9 | 6.3 |
+| Japan | Ships | no | 22.0 | 20.8 | 2.4 | 0.7 |
+| Japan | Footwear | no | 10.2 | 18.3 | 2.0 | 3.1 |
+| Japan | Cameras and optics | no | 11.0 | 8.0 | 0.2 | 3.1 |
+| Japan | Toys | no | 2.3 | 1.9 | 7.0 | 5.1 |
+| Japan | Glass and ceramics | no | 31.0 | 20.5 | 2.2 | 1.9 |
+| Japan | Ball bearings | no | 1.1 | 1.0 | 0.0 | 7.4 |
+| Japan | Tyres | no | 28.6 | 34.3 | 0.3 | 0.4 |
+| Japan | Plywood | no | 33.4 | 5.1 | 43.4 | 0.9 |
+| Korea | Textiles and apparel | yes | 132.0 | 121.9 | 0.1 | 1.5 |
+| Korea | Footwear | yes | 22.4 | 17.5 | 0.0 | 0.8 |
+| Korea | Television sets | yes | 99.8 | 135.9 | 0.4 | 0.1 |
+| Korea | Steel | yes | 51.4 | 76.5 | 0.5 | 0.3 |
+| Korea | Washing machines | yes | 6.0 | 7.5 | 0.0 | 0.0 |
+| Korea | Ships | no | 11.4 | 18.7 | 0.7 | 1.0 |
+| Korea | Telecom equipment | no | 62.0 | 34.2 | 0.1 | 0.4 |
+| Korea | Plywood | no | 6.2 | 3.8 | 0.0 | 0.0 |
+| Korea | Leather | no | 3.2 | 2.2 | 0.0 | 0.0 |
+| Korea | Travel goods | no | 1.7 | 1.1 | 0.0 | 5.1 |
+| Korea | Glass and ceramics | no | 18.9 | 13.3 | 0.6 | 0.6 |
+| Korea | Toys | no | 4.3 | 7.3 | 0.0 | 0.0 |
+| Korea | Copper, zinc, nickel | no | 12.8 | 9.0 | 0.0 | 0.0 |
+| Korea | Optical goods | no | 11.2 | 14.6 | 0.6 | 0.3 |
+
+Sector volume: mentions of the sector terms per million words of all sampled days. Challenger share: per cent of those mentions with Japan (Korea) within 30 words (`data/crecb_share.py`, `data/ds1_share_test.txt`).
+
+**Size adjustment.** The counts in Tables E16 and E17 mix two things: how much Congress talks about a sector, and how much of that talk names the challenger. Table E18 separates them. The challenger's share of sector talk does not separate the sectors that drew a broad instrument from those that did not, neither for Japan (from the crossover 6.3 against 2.8 per cent, exact one-sided permutation test p = 0.11; before 5.0 against 7.2 per cent, p = 0.51) nor for Korea (p = 0.48 and 0.59). Sector volume does, and already before displacement: in the five years before the crossover, Congress mentioned the Japanese sectors that later drew a broad instrument 111 times per million words, the others 17 times (p = 0.006); for Korea 62 against 15 (p = 0.020); from the crossover p = 0.010 for both. The differences in Tables E16 and E17 therefore reflect sector volume. What selects displaced sectors for broad constraint is the political weight of the sector at home, measured by how much Congress debates it before displacement, not attention to the particular challenger. This is the Hansard definition of voice (E.6: the number of debates on a sector). The sector terms differ in breadth (*television* also covers broadcasting, *cars* also railway cars), which inflates the volume of some large sectors; the ordering does not rest on them alone, since textiles and steel lead in both cases. For China, the number of economic debates on a sector (Table E14) does not separate significantly (237 against 148 debates, p = 0.15), nor does the share linking China (25 against 20 per cent from the crossover, p = 0.22).
 
 **Limits of the congressional measures.** The sample of days is small for sector counts in single years; the text layer of the bound Record contains OCR errors and runs adjacent columns together, which blurs the 30-word window, though the share of common function words is similar in 1958, 1970 and 1985 (0.30, 0.29 and 0.28 of all tokens in five days each), so the noise does not appear to change over time; the daily Record's title filter misses most economic discussion of China (above); and the voice measures count attention to the challenger in a sector, not lobbying or votes.
 

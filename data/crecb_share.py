@@ -5,6 +5,8 @@ dem Aufsteiger" zaehlt das Skript daher je Sektor alle Nennungen eines Sektorwor
 (Nenner, misst, wie viel ueber den Sektor gesprochen wird) und davon jene, bei denen Japan (Korea) hoechstens
 30 Woerter entfernt steht (Zaehler). Der Anteil ist unabhaengig davon, wie gross oder wie oft debattiert ein
 Sektor ist. Gleiche Tage, Woerter und Sektoren wie crecb_salience.py (Japan) und crecb_korea.py (Korea).
+Zusaetzlich das Sektorvolumen selbst (Nennungen der Sektorwoerter je 1 Mio. Woerter), vor und ab der Kreuzung.
+Mit vorhandenem data/ds1_share_sector_years.csv rechnet das Skript nur die Tests neu (--rebuild liest alle Tage).
 Ergebnis: data/ds1_share_sector_years.csv, data/ds1_share_test.csv, data/ds1_share_test.txt
 Aufruf: python3 data/crecb_share.py
 """
@@ -32,17 +34,28 @@ def share_counts(w, cword, sect_rx):
     return r
 
 
+SYF = D / "ds1_share_sector_years.csv"
 rows = []
-for y, d, s, t in docs():
+for y, d, s, t in (docs() if (not SYF.exists() or "--rebuild" in sys.argv) else []):
     rj = share_counts(tokens(t), JWORD, JP_FINE_RX)
     rk = share_counts(tokens(K.DROP.sub(" ", t)), K.KWORD, K.KR_RX)
     rows += [{"challenger": "JP", "year": y, "sector": k[2:], "sector_words": rj[k], "near": rj["c_" + k[2:]]}
              for k in rj if k.startswith("n_")]
     rows += [{"challenger": "KR", "year": y, "sector": k[2:], "sector_words": rk[k], "near": rk["c_" + k[2:]]}
              for k in rk if k.startswith("n_")]
-SY = pd.DataFrame(rows).groupby(["challenger", "sector", "year"], as_index=False)[["sector_words", "near"]].sum()
-SY["share_pct"] = (100 * SY.near / SY.sector_words.replace(0, np.nan)).round(3)
-SY.to_csv(D / "ds1_share_sector_years.csv", index=False)
+if rows:
+    SY = pd.DataFrame(rows).groupby(["challenger", "sector", "year"], as_index=False)[["sector_words", "near"]].sum()
+    SY["share_pct"] = (100 * SY.near / SY.sector_words.replace(0, np.nan)).round(3)
+    SY.to_csv(SYF, index=False)
+SY = pd.read_csv(SYF)
+WORDS = pd.read_csv(D / "ds1_crecb_years.csv").groupby("year").words.sum()
+
+
+def vol(s, a, b):
+    """Sektorvolumen: Nennungen der Sektorwoerter je 1 Mio. Woerter aller Stichprobentage im Fenster."""
+    w = WORDS[(WORDS.index >= a) & (WORDS.index <= b)].sum()
+    z = s[(s.index >= a) & (s.index <= b)]
+    return round(1e6 * z.sector_words.sum() / w, 1) if w else np.nan
 
 
 def win(s, a, b):
@@ -61,7 +74,9 @@ for ch, tab, win0 in (("JP", pd.read_csv(D / "ds1_crecb_test.csv"), (1960, 1975)
                   "measure": r.measure, "measure_ids": r.measure_ids,
                   "sector_words_1955_1994": int(s[s.index <= 1994].sector_words.sum()),
                   "share_pre": win(s, cy - 5, cy - 1) if len(pre) >= 3 else np.nan,
-                  "share_post": win(s, cy, cy + 4), f"share_window": win(s, *win0)})
+                  "share_post": win(s, cy, cy + 4), "share_window": win(s, *win0),
+                  "volume_pre": vol(s, cy - 5, cy - 1) if cy - 5 >= 1955 else np.nan,
+                  "volume_post": vol(s, cy, cy + 4), "volume_window": vol(s, *win0)})
 T = pd.DataFrame(T)
 T.to_csv(D / "ds1_share_test.csv", index=False)
 out.append("Anteil der Sektorwort-Nennungen mit dem Aufsteiger im Umkreis von 30 Woertern, in Prozent "
@@ -69,7 +84,7 @@ out.append("Anteil der Sektorwort-Nennungen mit dem Aufsteiger im Umkreis von 30
 out.append(T.to_string(index=False))
 for ch in ("JP", "KR"):
     z = T[T.challenger == ch]
-    for col in ("share_window", "share_pre", "share_post", "sector_words_1955_1994"):
+    for col in ("share_window", "share_pre", "share_post", "volume_pre", "volume_post", "volume_window"):
         obs, p, k, n0 = perm_p(z[col], z.measure)
         out.append(f"{ch} {col}: mit Massnahme {z[z.measure][col].mean():.2f} (n={k}), ohne {z[~z.measure][col].mean():.2f} "
                    f"(n={n0}); Differenz {obs:+.2f}, exakter Permutationstest einseitig p = {p:.3f}")
