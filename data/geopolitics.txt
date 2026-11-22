@@ -1,0 +1,54 @@
+Art der Massnahme nach Buendnis und Epoche (ohne 'mixed')
+
+register: 55 Instrument-Ziel-Paare
+mode                                 negotiated  unilateral
+era           defense_pact                                 
+ab 1995 (WTO) Verteidigungsbuendnis           0          10
+              kein Buendnis                   1          10
+vor 1995      Verteidigungsbuendnis          22           4
+              kein Buendnis                   3           1
+
+response: 19 Instrument-Ziel-Paare
+mode                                 negotiated  unilateral
+era           defense_pact                                 
+ab 1995 (WTO) kein Buendnis                   0           5
+vor 1995      Verteidigungsbuendnis           5           4
+              kein Buendnis                   2           3
+
+register, nur gezielte und handelspolitisch begruendete Instrumente (ohne global, politisch, undatiert)
+mode                                 negotiated  unilateral
+era           defense_pact                                 
+ab 1995 (WTO) kein Buendnis                   1           4
+vor 1995      Verteidigungsbuendnis          17           4
+              kein Buendnis                   1           1
+Ziele ab 1995: B-20 CN, B-21 CN, B-22 CN, B-23 CN, B-30 VN
+
+Technologieverweigerung (denial) und Massnahmen vor der Verdraengung, mit Lage der Dyade
+    unit      id challenger incumbent  year  reach       mode      phase  defense_pact  unga_distance  cinc_ratio
+response R-CN-07         CN        US  2019      5 unilateral       post           0.0          3.206       1.817
+response R-CN-09         CN        US  2022      5 unilateral absorption           0.0          3.523       1.895
+register    B-02         KR        US  1962      4 negotiated absorption           1.0            NaN       0.043
+register    B-04         KR        US  1971      4 negotiated absorption           1.0            NaN       0.055
+register    B-14         JP        US  1986      4 negotiated absorption           1.0          1.492       0.368
+register    B-17         CN        US  2002      4 unilateral absorption           0.0          3.601       0.999
+register    B-30         VN        US  2003      4 negotiated absorption           0.0          4.341       0.053
+
+UNGA-Abstand und CINC-Verhaeltnis im Meilensteinjahr (Median je Fall)
+                      cinc_ratio  unga_distance  defense_pact
+challenger incumbent                                         
+CN         EU            15.5760          2.388           0.0
+           US             1.5830          3.489           0.0
+DE         GB             0.6120            NaN           0.0
+JP         GB             0.5910            NaN           0.0
+           US             0.3670          1.149           1.0
+KR         US             0.1555          2.209           1.0
+
+UNGA-Abstand der neuen Faelle zu den USA, Mittel 2009-2023 (Taiwan nicht UN-Mitglied ab 1971)
+JP: UNGA-Abstand 1.73; Verteidigungsbuendnis 2009-2018 1
+KR: UNGA-Abstand 1.64; Verteidigungsbuendnis 2009-2018 1
+MX: UNGA-Abstand 2.53; Verteidigungsbuendnis 2009-2018 1
+BR: UNGA-Abstand 2.74; Verteidigungsbuendnis 2009-2018 1
+TH: UNGA-Abstand 2.90; Verteidigungsbuendnis 2009-2018 1
+MY: UNGA-Abstand 3.12; Verteidigungsbuendnis 2009-2018 0
+VN: UNGA-Abstand 3.40; Verteidigungsbuendnis 2009-2018 0
+CN: UNGA-Abstand 3.30; Verteidigungsbuendnis 2009-2018 0

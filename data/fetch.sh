@@ -57,3 +57,9 @@ python3 data/cases_fetch.py usimports
 python3 data/cases_fetch.py hkrx
 # Japan gegen Grossbritannien 1920-1939: TRADHIST (oben), Hansard
 python3 data/hansard_japan.py 1920 1939
+# Politisch-militaerische Lage: COW NMC v7, ATOP 5.1, UNGA-Idealpunkte (Bailey, Strezhnev, Voeten; Juli 2025)
+mkdir -p data/raw/geo/unga && (cd data/raw/geo && curl -sSL -O https://correlatesofwar.org/wp-content/uploads/NMCv7.zip \
+  && unzip -oq NMCv7.zip -d nmc && (cd nmc/NMCv7 && unzip -oq NMC-v7-abridged.zip) \
+  && curl -sSL -o atop51csv.zip "http://www.atopdata.org/uploads/6/9/1/3/69134503/atop_5.1__.csv_.zip" && unzip -oq atop51csv.zip -d atop \
+  && curl -sSL -o unga/IdealpointsJuly2025.tab "https://dataverse.harvard.edu/api/access/datafile/11824371")
+python3 data/geopolitics.py

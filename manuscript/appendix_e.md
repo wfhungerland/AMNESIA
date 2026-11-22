@@ -244,6 +244,48 @@ The same rules as in E.4 are applied to eight further dyads. Code: `data/cases_f
 
 The best single break in log(1 + mentions) is 1932 (BIC −11.2 against −0.1 without a break). In Ceylon, a colony that adopted quotas in 1934, the Japanese–British ratio fell from 0.50 in 1934 to 0.28 in 1935. Total exports include goods other than cotton; the annual world crossover in cotton piece goods (1933 by contemporary accounts) awaits confirmation from Robson (1957) or League of Nations statistics. The British–Japanese tables of Tyszynski (1951) for 1929 and 1937 are not yet transcribed (the Dropbox copy could not be downloaded in the session).
 
+## E.10 Alignment, rivalry and the instruments available
+
+Code: `data/geopolitics.py` (output `data/geopolitics.txt`, `data/geopolitics_instruments.csv`, `data/geopolitics_dyads.csv`); mode of each instrument in `data/geo_instrument_mode.csv`. Sources: ATOP 5.1 dyad-years 1815–2018 (Leeds et al. 2002), UN General Assembly ideal points 1946–2025, all votes (Bailey, Strezhnev and Voeten 2017; file of July 2025), Correlates of War National Material Capabilities v7, CINC 1816–2022. ATOP values after 2018 and CINC values after 2022 are carried forward. Taiwan has no UN votes after 1971; Hong Kong is not a state in these data. For the European Union, Germany stands in.
+
+**Table E10. Form of targeted, trade-motivated broad US instruments by alliance and period (register, instrument–target pairs; global, politically motivated and undated instruments excluded; B-12 mixed and excluded)**
+
+| Period | Defence pact with the US | Negotiated | Unilateral |
+|---|---|---|---|
+| before 1995 | yes (Japan, Korea, Taiwan to 1980, Brazil, Mexico) | 17 | 4 (B-09, B-11, B-16, B-28) |
+| before 1995 | no (Taiwan after 1980) | 1 | 1 |
+| from 1995 | yes | 0 | 0 |
+| from 1995 | no (China, Vietnam) | 1 (B-30) | 4 (B-20 to B-23) |
+
+**Table E11. State of the dyad in the milestone years**
+
+| Dyad | Capability ratio (CINC, challenger/incumbent) | UN ideal-point distance | Defence pact |
+|---|---|---|---|
+| Germany–Britain (1870–1900) | 0.44–0.79 | – | no |
+| Japan–Britain (1932) | 0.59 | – | no |
+| Japan–United States (1969–1987) | 0.26–0.40 | 1.1–1.6 | yes |
+| Korea–United States (1992, 2000) | 0.15–0.16 | 2.0–2.4 | yes |
+| China–United States (2010–2023) | 1.4–1.9 | 3.2–3.5 | no |
+
+The only broad instrument before displacement, the export controls of October 2022 (IR 5), falls in the one dyad in which the challenger's composite capabilities exceeded the incumbent's (1.9) and the UN distance was largest (3.5). CINC weights population, energy and steel and thus overstates China's military weight relative to spending-based measures.
+
+UN distance to the United States, mean 2009–2023: Japan 1.73, Korea 1.64, Mexico 2.53, Brazil 2.74, Thailand 2.90, Malaysia 3.12, China 3.30, Vietnam 3.40. Mexico (ally) and Vietnam (no ally) both displaced the United States in many HS groups and drew no targeted broad instrument before 2025.
+
+**Table E12. Rules on the instruments available to the incumbent (WTO legal texts and accession records)**
+
+| Date | Rule | Effect on the instruments |
+|---|---|---|
+| 1947 | GATT: Article VI (antidumping, countervailing duties), Article XIX (safeguards) | product remedies and safeguards legal; quantity limits only as exceptions |
+| 1961–1962 | Short-Term and Long-Term Arrangements on cotton textiles | negotiated quotas on low-wage suppliers before displacement |
+| early 1970s–1994 | Multifibre Arrangement (bilateral quotas, outside non-discrimination) | same, for all fibres |
+| 1 Jan 1995 | WTO; Agreement on Safeguards, Article 11.1(b): no voluntary export restraints or orderly marketing arrangements | negotiated sectoral restraints outlawed; sectoral responses become AD/CVD and global safeguards |
+| 1 Jan 1995 | TRIPS, TRIMs, Agreement on Subsidies | rules constrain the challenger's industrial policy (Wade 2003) |
+| 1995–1 Jan 2005 | Agreement on Textiles and Clothing | MFA quotas phased out; ended 1 Jan 2005 |
+| 11 Dec 2001 | China joins WTO (Chinese Taipei 1 Jan 2002) | China and Taiwan under WTO rules on safeguards |
+| 11 Jan 2007 | Viet Nam joins WTO | Vietnam under WTO rules (end of the 2003 quotas not checked) |
+
+Sources: WTO, Agreement on Safeguards (legal text 25-safeg.pdf); WTO, "Textiles: back in the mainstream" (texintro_e.htm); WTO, completed accessions (completeacc_e.htm); WTO, Viet Nam accession page. The start year of the MFA (1974 in the literature) and the exact end of the US–Vietnam quotas are not yet checked at a primary source.
+
 ## E.8 Limitations
 
 1. **Second coder.** All IR scores currently come from one coder. Inter-coder agreement (Krippendorff's α, ordinal) will be reported here.
