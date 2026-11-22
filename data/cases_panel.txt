@@ -80,9 +80,15 @@ instrument_id  year target reach data  crossover_year  first_data_year          
          B-34  2025     MX     5  hs4             NaN             2008 keine Kreuzung in den Daten
          B-35  2025     BR     5  hs4             NaN             2008 keine Kreuzung in den Daten
          B-36  2025     HK     5  hs4             NaN             2008 keine Kreuzung in den Daten
+         B-37  1963     HK     4   s1          1965.0             1962                  absorption
+         B-38  1963     TW     4   s1          1971.0             1962                  absorption
+         B-39  1967     MX     4   s1             NaN             1962 keine Kreuzung in den Daten
+         B-40  1970     BR     4   s1             NaN             1962 keine Kreuzung in den Daten
+         B-41  1970     MY     4   s1             NaN             1964 keine Kreuzung in den Daten
+         B-42  1972     TH     4   s1             NaN             1962 keine Kreuzung in den Daten
 
 Verdraengte Industriewaren-Gruppen (Kreuzung nicht im ersten Datenjahr) und Gefahrenrate gezielter breiter Massnahmen (10 Jahre)
-TH s1: 7 von 102 Gruppen verdraengt; Jahre 1966-1997; breit binnen 10 J. 0.00, ohne politisch begruendete 0.00, ohne GSP-Graduierung 0.00; breit schon vorher 0
+TH s1: 7 von 102 Gruppen verdraengt; Jahre 1966-1997; breit binnen 10 J. 0.00, ohne politisch begruendete 0.00, ohne GSP-Graduierung 0.00; breit schon vorher 1
 TH s3: 7 von 166 Gruppen verdraengt; Jahre 1993-2009; breit binnen 10 J. 0.00, ohne politisch begruendete 0.00, ohne GSP-Graduierung 0.00; breit schon vorher 0
 TH hs4: 42 von 962 Gruppen verdraengt; Jahre 2009-2023; breit binnen 10 J. 0.00, ohne politisch begruendete 0.00, ohne GSP-Graduierung 0.00; breit schon vorher 0
 VN s1: 0 von 101 Gruppen verdraengt
@@ -91,16 +97,16 @@ VN hs4: 94 von 962 Gruppen verdraengt; Jahre 2009-2023; breit binnen 10 J. 0.00,
 MY s1: 1 von 102 Gruppen verdraengt; Jahre 1993-1993; breit binnen 10 J. 0.00, ohne politisch begruendete 0.00, ohne GSP-Graduierung 0.00; breit schon vorher 0
 MY s3: 3 von 166 Gruppen verdraengt; Jahre 1993-2009; breit binnen 10 J. 0.00, ohne politisch begruendete 0.00, ohne GSP-Graduierung 0.00; breit schon vorher 0
 MY hs4: 36 von 977 Gruppen verdraengt; Jahre 2009-2023; breit binnen 10 J. 0.00, ohne politisch begruendete 0.00, ohne GSP-Graduierung 0.00; breit schon vorher 0
-MX s1: 6 von 102 Gruppen verdraengt; Jahre 1974-1999; breit binnen 10 J. 0.00, ohne politisch begruendete 0.00, ohne GSP-Graduierung 0.00; breit schon vorher 1
+MX s1: 6 von 102 Gruppen verdraengt; Jahre 1974-1999; breit binnen 10 J. 0.00, ohne politisch begruendete 0.00, ohne GSP-Graduierung 0.00; breit schon vorher 2
 MX s3: 14 von 166 Gruppen verdraengt; Jahre 1993-2009; breit binnen 10 J. 0.00, ohne politisch begruendete 0.00, ohne GSP-Graduierung 0.00; breit schon vorher 0
 MX hs4: 47 von 962 Gruppen verdraengt; Jahre 2009-2023; breit binnen 10 J. 0.70, ohne politisch begruendete 0.00, ohne GSP-Graduierung 0.00; breit schon vorher 0
 BR s1: 9 von 102 Gruppen verdraengt; Jahre 1972-1998; breit binnen 10 J. 0.44, ohne politisch begruendete 0.44, ohne GSP-Graduierung 0.44; breit schon vorher 0
 BR s3: 4 von 166 Gruppen verdraengt; Jahre 2000-2009; breit binnen 10 J. 0.00, ohne politisch begruendete 0.00, ohne GSP-Graduierung 0.00; breit schon vorher 0
 BR hs4: 24 von 962 Gruppen verdraengt; Jahre 2009-2023; breit binnen 10 J. 0.62, ohne politisch begruendete 0.00, ohne GSP-Graduierung 0.00; breit schon vorher 0
-HK s1: 9 von 102 Gruppen verdraengt; Jahre 1965-1984; breit binnen 10 J. 0.44, ohne politisch begruendete 0.44, ohne GSP-Graduierung 0.00; breit schon vorher 0
+HK s1: 9 von 102 Gruppen verdraengt; Jahre 1965-1984; breit binnen 10 J. 0.44, ohne politisch begruendete 0.44, ohne GSP-Graduierung 0.00; breit schon vorher 1
 HK s3: 0 von 166 Gruppen verdraengt
 HK hs4: 1 von 955 Gruppen verdraengt; Jahre 2016-2016; breit binnen 10 J. 1.00, ohne politisch begruendete 0.00, ohne GSP-Graduierung 0.00; breit schon vorher 1
-TW s1: 24 von 102 Gruppen verdraengt; Jahre 1970-1999; breit binnen 10 J. 0.62, ohne politisch begruendete 0.62, ohne GSP-Graduierung 0.04; breit schon vorher 4
+TW s1: 24 von 102 Gruppen verdraengt; Jahre 1970-1999; breit binnen 10 J. 0.62, ohne politisch begruendete 0.62, ohne GSP-Graduierung 0.04; breit schon vorher 8
 TW s3: 11 von 166 Gruppen verdraengt; Jahre 1997-2009; breit binnen 10 J. 0.00, ohne politisch begruendete 0.00, ohne GSP-Graduierung 0.00; breit schon vorher 11
 TW hs4: 40 von 982 Gruppen verdraengt; Jahre 2009-2023; breit binnen 10 J. 0.00, ohne politisch begruendete 0.00, ohne GSP-Graduierung 0.00; breit schon vorher 40
 
@@ -120,31 +126,31 @@ VN                     0             0             5            11
 
 Kontrollgruppe: Panel Warengruppe x Jahr
 BR_hs4: 315 Gruppen, davon verdraengt 45; Jahre 2008-2023; breite Massnahmen 0; AD/CVD 22
-BR_s1: 81 Gruppen, davon verdraengt 9; Jahre 1962-1999; breite Massnahmen 10; AD/CVD 45
+BR_s1: 81 Gruppen, davon verdraengt 9; Jahre 1962-1999; breite Massnahmen 14; AD/CVD 45
 BR_s3: 138 Gruppen, davon verdraengt 8; Jahre 1992-2009; breite Massnahmen 0; AD/CVD 56
 HK_hs4: 44 Gruppen, davon verdraengt 1; Jahre 2008-2016; breite Massnahmen 0; AD/CVD 0
-HK_s1: 51 Gruppen, davon verdraengt 10; Jahre 1962-1999; breite Massnahmen 51; AD/CVD 3
+HK_s1: 51 Gruppen, davon verdraengt 10; Jahre 1962-1999; breite Massnahmen 55; AD/CVD 3
 HK_s3: 73 Gruppen, davon verdraengt 6; Jahre 1992-2009; breite Massnahmen 0; AD/CVD 0
 MX_hs4: 416 Gruppen, davon verdraengt 75; Jahre 2008-2023; breite Massnahmen 0; AD/CVD 16
-MX_s1: 84 Gruppen, davon verdraengt 7; Jahre 1962-1999; breite Massnahmen 6; AD/CVD 29
+MX_s1: 84 Gruppen, davon verdraengt 7; Jahre 1962-1999; breite Massnahmen 10; AD/CVD 29
 MX_s3: 150 Gruppen, davon verdraengt 17; Jahre 1992-2009; breite Massnahmen 0; AD/CVD 35
 MY_hs4: 382 Gruppen, davon verdraengt 63; Jahre 2008-2023; breite Massnahmen 0; AD/CVD 3
-MY_s1: 69 Gruppen, davon verdraengt 2; Jahre 1964-1999; breite Massnahmen 0; AD/CVD 9
+MY_s1: 69 Gruppen, davon verdraengt 2; Jahre 1964-1999; breite Massnahmen 4; AD/CVD 9
 MY_s3: 135 Gruppen, davon verdraengt 8; Jahre 1992-2009; breite Massnahmen 0; AD/CVD 7
 TH_hs4: 432 Gruppen, davon verdraengt 82; Jahre 2008-2023; breite Massnahmen 0; AD/CVD 7
-TH_s1: 74 Gruppen, davon verdraengt 7; Jahre 1962-1999; breite Massnahmen 0; AD/CVD 11
+TH_s1: 74 Gruppen, davon verdraengt 7; Jahre 1962-1999; breite Massnahmen 4; AD/CVD 11
 TH_s3: 142 Gruppen, davon verdraengt 11; Jahre 1992-2009; breite Massnahmen 0; AD/CVD 26
 TW_hs4: 430 Gruppen, davon verdraengt 99; Jahre 2008-2023; breite Massnahmen 0; AD/CVD 40
-TW_s1: 78 Gruppen, davon verdraengt 24; Jahre 1962-1999; breite Massnahmen 81; AD/CVD 48
+TW_s1: 78 Gruppen, davon verdraengt 24; Jahre 1962-1999; breite Massnahmen 85; AD/CVD 48
 TW_s3: 150 Gruppen, davon verdraengt 27; Jahre 1992-2009; breite Massnahmen 0; AD/CVD 47
 VN_hs4: 359 Gruppen, davon verdraengt 123; Jahre 2008-2023; breite Massnahmen 0; AD/CVD 17
 VN_s1: 17 Gruppen, davon verdraengt 1; Jahre 1997-1999; breite Massnahmen 0; AD/CVD 0
 VN_s3: 82 Gruppen, davon verdraengt 6; Jahre 1997-2009; breite Massnahmen 7; AD/CVD 4
 
 (a) Beginn gezielter breiter Massnahmen (Gruppen bis zum ersten Treffer), Jahr x Quelle
-alle neuen Faelle: je 100 Gruppenjahre vor 0.23 (116 Ereignisse, 50879 Gj.), nach 0.74 (36, 4857); IRR 1.24 (95 % KI 1.04-1.49), p=0.018
-TW, HK, BR: je 100 Gruppenjahre vor 0.81 (105 Ereignisse, 12918 Gj.), nach 3.46 (34, 984); IRR 1.18 (95 % KI 1.01-1.38), p=0.042
-alle neuen Faelle, ohne GSP-Graduierung (sektorale Massnahmen): je 100 Gruppenjahre vor 0.03 (19 Ereignisse, 61399 Gj.), nach 0.10 (7, 6964); IRR 6.25 (95 % KI 2.76-14.18), p=0.000
+alle neuen Faelle: je 100 Gruppenjahre vor 0.27 (137 Ereignisse, 50294 Gj.), nach 0.65 (31, 4778); IRR 1.33 (95 % KI 1.07-1.65), p=0.010
+TW, HK, BR: je 100 Gruppenjahre vor 0.90 (114 Ereignisse, 12668 Gj.), nach 3.16 (29, 918); IRR 1.27 (95 % KI 1.04-1.54), p=0.020
+alle neuen Faelle, ohne GSP-Graduierung (sektorale Massnahmen): je 100 Gruppenjahre vor 0.07 (42 Ereignisse, 60792 Gj.), nach 0.12 (8, 6819); IRR 5.83 (95 % KI 2.84-11.95), p=0.000
 
 (b) Neue US-AD/CVD-Verfahren, 1988-2015, Jahr x Quelle
 BR: je 100 Gruppenjahre vor 1.40 (78 Ereignisse, 5559 Gj.), nach 11.22 (45, 401); IRR 3.15 (95 % KI 1.11-8.91), p=0.031
