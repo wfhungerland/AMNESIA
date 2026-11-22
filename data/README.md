@@ -1,6 +1,6 @@
 # data
 
-DS1 bis DS5 für „Displacement Before Escalation“. DS2 bis DS5 stehen (Neubau vom 20.11.2026), DS1 und Anhang E folgen nach Freigabe des Messvorschlags.
+DS1 bis DS5 und die Prüfungen für „Displacement Before Escalation“. Neubau vom 20. bis 22.11.2026. Alle fünf Datensätze und Anhang E stehen; offen ist die Zweitcodierung von DS1.
 
 Reproduzieren aus dem Repo-Wurzelordner:
 
@@ -10,6 +10,20 @@ bash data/fetch.sh
 
 ```bash
 python3 data/build.py
+```
+
+Danach die Auswertungen, in dieser Reihenfolge (Hansard-Skripte laufen lange):
+
+```bash
+python3 data/hansard_salience.py && python3 data/hansard_competition.py && python3 data/hansard_sectors.py && python3 data/hansard_usa.py && python3 data/hansard_phrases.py
+```
+
+```bash
+python3 data/third_markets.py && python3 data/comtrade_milestones.py && python3 data/registers_ttbd.py && python3 data/registers_product_displacement.py
+```
+
+```bash
+python3 data/tests_sequence.py && python3 data/tests_cycle.py && python3 data/population_test.py && python3 data/population_panel.py && python3 data/population_employment.py
 ```
 
 Rohdaten liegen in `data/raw/` und sind nicht eingecheckt. Ihre Prüfsummen vom Abruf am 20.11.2026 stehen in `data/raw/SHA256SUMS.abruf`. Keine Interpolation, keine Glättung.
@@ -57,11 +71,24 @@ Weitere Auffälligkeit: Die Weltbank-Reihe für Korea zeigt 1976–1979 winzige 
 
 ## Offen
 
-- DS1 und Anhang E: Messvorschlag folgt.
+- DS1: Zweitcodierung (`ds1_coder2_blank.csv`), danach Krippendorffs α.
 - DS4 für Deutschland: Grundlagenforschung der Hochschulen aus Bundesbericht Forschung und Innovation oder Institutsbudgets (Max Planck, DFG).
 - DS5 für Japan vor 1996: Bank of Japan, Zahlungsbilanz; NISTEP-Technologiehandel.
 
+## Prüfungen
+
+| Datei | Inhalt | Skript |
+|---|---|---|
+| `ds1_export_milestones.csv`, `ds1_export_series.csv` | Meilensteine nach der Exportregel (Gegenprobe) | `comtrade_milestones.py` |
+| `third_markets_tradhist.csv`, `third_markets_summary.csv`, `tyszynski_1951_selected.csv` | Drittmärkte 1871–1913; Tyszynski (1951) Tabellen I, II, VIII | `third_markets.py` |
+| `ds1_hansard_sectors.csv`, `ds1_hansard_usa.csv`, `ds1_hansard_phrases.csv` | Hansard nach Sektor, Nennung der USA, Wendungen | `hansard_*.py` |
+| `ds1_registers.csv`, `ds1_registers_summary.txt` | 759 AD/CVD-Verfahren von USA und EU gegen JP, KR, CN (TTBD, Bown) | `registers_ttbd.py` |
+| `ds1_product_displacement.csv` | 127 US-AD-Fälle gegen China, Importanteil vor dem Fall | `registers_product_displacement.py` |
+| `tests_sequence.txt`, `tests_cycle.txt`, `tests_cycle_events.csv` | Binomial- und Placebotest, Bruchtest; Konjunktur (HP-Filter) | `tests_sequence.py`, `tests_cycle.py` |
+
 ## Gutachten: Register, Population, Kontrollgruppe, Gewicht
+
+Rohdaten dazu: Comtrade AG3/AG4 (`population_fetch*.py`), WITS-Konkordanzen HS–SITC, Census-Konkordanz der Einfuhrwaren 2002, NBER-CES (NAICS 1997). Alle über `fetch.sh`.
 
 | Datei | Inhalt |
 |---|---|

@@ -1,4 +1,4 @@
-# Displacement Before Escalation: outline for approval
+# Displacement Before Escalation: outline (updated 22.11.2026 to the full draft)
 
 Working title: **Displacement Before Escalation: Late Industrialisation and the Timing of Incumbent Constraint, 1850–2024**
 
@@ -41,13 +41,15 @@ Source: `research/projekt/... Literature Positioning Across Five Fields.md`.
 - **Japan and the United States.** Textiles (1951 → restraint 1957), television (1970 → antidumping 1971, OMA 1977), steel (1969 → VRA 1969, trigger prices 1978), cars (1980 → VER 1981), semiconductors (1981/1987 → agreement 1986, tariffs 1987). All binding instruments after their sector milestone; lags 0 to 9 years.
 - **Korea.** Section 301 IP case (1985) and IP agreement (1986) precede DRAM leadership but score 2 and 3; antidumping 1993 one year after leadership. Shipbuilding: 18-year lag to Japan's WTO complaints, consistent with the weak political voice of the declining Japanese industry.
 - **China.** Binding responses follow manufacturing (2010), solar and telecoms (2012) by zero to eight years. The October 2022 export controls are the bounded exception: preventive denial in one sector before any market lead.
+- **Complete register and population (Section 4.7).** 23 broad US instruments, 31 instrument–target pairs: 22 after the export crossover, 4 before (2 artefacts: semiconductor group too coarse, global steel safeguard; 2 substantive: textile LTA 1962 and agreements 1971 against Korea), 5 not datable. Population: broad instrument within 10 years after displacement in 22 % (Japan), 20 % (Korea), 1 % (China without the 2018 Section 301 tariffs).
+- **Control group and weight.** Panel of 1,316 group series: start of targeted broad instruments 0.24 → 1.15 per 100 group-years (IRR 5.7, Japan and Korea); Section 301 tariffs covered all 813 Chinese groups. AD/CVD cases track US imports from the challenger (1 / 11 / 30 % by third), not displacement once export size is held constant (IRR 1.10). Employment (NBER-CES) adds nothing beyond imports and does not predict broad instruments.
 - Table 2: responses by case and phase. Figure 1: timeline of milestones and responses by case (lags).
 
 ## 5. Political voice and the American non-case (≈ 900 words)
 
 - Sector split of the Hansard record (Table E4): sugar 2.7 → 17.2 per cent of sector debates linking Germany; steel 15 → 24 per cent; dyes almost never debated.
 - The United States as a placebo: income overtaking around 1900, but in 17 fixed third markets US exports reach only 0.51 of British exports outside Canada by 1913 (Germany 0.85); in manufactures 0.42 against Germany's 0.88 (Tyszynski 1951); no rise in parliamentary attention.
-- Interpretation: the trigger is displacement in contested export markets in sectors with voice.
+- Interpretation: the trigger is displacement in contested export markets in sectors with voice. In the US population, neither import volume nor employment explains which displaced sectors draw broad instruments; what creates voice stays open.
 
 ## 6. Convergence after displacement (≈ 700 words)
 
@@ -58,15 +60,15 @@ Source: `research/projekt/... Literature Positioning Across Five Fields.md`.
 ## 7. Limits and conclusion (≈ 600 words)
 
 - Small N; non-independence of cases treated as a feature; selection on successful catch-ups (negative controls Thailand and Vietnam as future work).
-- Measurement: title-filtered debates; parliamentary check only for Britain; several milestones rest on one or two secondary sources (listed in Appendix E).
+- Measurement: population check by world exports understates home-market displacement; AD cases matched to SITC through HS 1988/92 concordances; employment allocated by tariff lines. Title-filtered debates; parliamentary check only for Britain; several milestones rest on one or two secondary sources (listed in Appendix E).
 - Policy reading for late industrialisers: constraint arrives when they win contested markets in politically weighty sectors; the 2022 controls show the window can close earlier.
 
 ## Appendices
 
-- A: DS1 milestones and responses with sources. B: data sources and reproduction. E: absorption-phase salience (existing draft).
+- A: DS1 milestones and responses with sources. B: data sources and reproduction. E: absorption-phase evidence, Hansard, registers, population, control group and weight.
 
 ## Open before full text
 
 1. Official word limit and format rules of *World Development*.
 2. Second coding (inter-coder reliability).
-3. References: rebuilt from the cited works, each checked against the original; the old refs.bib is lost.
+3. References: rebuilt; journal articles checked via Crossref, books still marked unchecked in `refs.bib`.
