@@ -77,3 +77,4 @@ nr,section,claim,source,checked
 76,5/E.11,China sector voice with vs without instrument: p 0.17-0.25 (7 vs 10 sectors); Spearman with 301 lists 1-2 rho=0.06; 2024 review p=0.056,data/ds1_crec_voice_test.txt,ja (gerechnet)
 77,10/E.11,Title filter captures 48 of 259 granules (19%) with China near a competition term (310 check days),data/ds1_crec_salience.txt,ja (gerechnet)
 78,E.11,301 lists: 83 FR 28710; 83 FR 40823; 83 FR 47974; 84 FR 43304; 89 FR 76581; rates 25/25/10/10/10 per cent at entry,data/raw/fr/ (Texte); data/fr301_lists.py,ja (an den FR-Texten geprueft)
+79,Abstract/1,About ten times as often (2.65 vs 0.25 per million words = 10.6); 800 sitting days 1955-1994,data/ds1_crecb_test.txt,ja (gerechnet)
