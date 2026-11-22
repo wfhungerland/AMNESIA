@@ -99,5 +99,18 @@ j = e_all[e_all.case == "JPGB"]
 out.append(f"Japan gegen Grossbritannien: {len(j)} Reaktionen; vor dem Meilenstein {int((j.lag_years < 0).sum())} "
            f"(IR {', '.join(map(str, j[j.lag_years < 0].reach_coder1))}); ab dem Meilenstein {int((j.lag_years >= 0).sum())}; "
            f"bindend mit IR >= 4 vor/ab: {int(((j.lag_years < 0) & (j.reach_coder1 >= 4)).sum())}/{int(((j.lag_years >= 0) & (j.reach_coder1 >= 4)).sum())}")
+# 5. Stichprobentage des Congressional Record (data/ds1_crecb_years.csv): Japan nahe Wettbewerbswort 1955-1994,
+#    China nahe Wettbewerbswort 1995-2025, je 1 Mio. Woerter des gesamten Textes
+if (D / "ds1_crecb_years.csv").exists():
+    b = pd.read_csv(D / "ds1_crecb_years.csv").sort_values("year")
+    j = b[b.source == "CRECB"]
+    breaks(np.log1p(j.japan_comp_per_1m.values), j.year.values, "Kongress-Stichprobe, Japan nahe Wettbewerb 1955-1994")
+    c = b[b.source == "CREC"]
+    breaks(np.log1p(c.china_comp_per_1m.values), c.year.values, "Kongress-Stichprobe, China nahe Wettbewerb 1995-2025")
+
+if (D / "ds1_kr_years.csv").exists():
+    k = pd.read_csv(D / "ds1_kr_years.csv").sort_values("year")
+    breaks(np.log1p(k.korea_comp_per_1m.values), k.year.values, "Kongress-Stichprobe, Korea nahe Wettbewerb 1955-2025")
+
 (D / "tests_sequence.txt").write_text("\n".join(out) + "\n", encoding="utf-8")
 print("\n".join(out))

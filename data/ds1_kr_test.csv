@@ -1,0 +1,15 @@
+sector,crossover_year,crossover_censored,n_groups,measure,measure_first_year,measure_ids,voice_pre,voice_post,voice_1965_1990
+textiles,1970,False,11,True,1962.0,B-02;B-04,0.15,1.26,0.83
+footwear,1972,False,2,True,1977.0,B-06,0.0,0.17,0.23
+televisions,1992,True,1,True,1979.0,B-08,0.51,0.12,0.25
+steel,1977,False,10,True,1984.0,B-13;B-17;B-19,0.3,0.18,0.38
+washers,2002,False,1,True,2018.0,B-18,0.0,0.0,0.01
+ships,1977,False,2,False,,,0.11,0.14,0.1
+telecom,2003,False,1,False,,,0.06,0.07,0.12
+plywood,1968,False,1,False,,,0.0,0.0,0.0
+leather,1992,True,2,False,,,0.0,0.0,0.05
+travel_goods,1974,False,2,False,,,0.0,0.06,0.01
+glass_ceramics,1979,False,1,False,,,0.11,0.08,0.08
+toys,1985,False,1,False,,,0.0,0.0,0.01
+metals,1988,False,4,False,,,0.0,0.0,0.03
+optics,1991,False,2,False,,,0.07,0.04,0.04

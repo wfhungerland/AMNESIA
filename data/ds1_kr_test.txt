@@ -1,0 +1,28 @@
+Stichprobentage 1110; Woerter 278,817,400
+Periode | Korea je 100.000 W. | Korea nahe Wettbewerbswort je 1 Mio. W.
+(1954, 1964] | 5.3 | 0.68
+(1964, 1974] | 5.7 | 1.03
+(1974, 1984] | 8.0 | 1.22
+(1984, 1994] | 5.3 | 2.61
+(1994, 2004] | 3.0 | 2.24
+(2004, 2014] | 10.2 | 6.80
+(2014, 2025] | 4.2 | 0.44
+        sector  crossover_year  crossover_censored  n_groups  measure  measure_first_year    measure_ids  voice_pre  voice_post  voice_1965_1990
+      textiles            1970               False        11     True              1962.0      B-02;B-04       0.15        1.26             0.83
+      footwear            1972               False         2     True              1977.0           B-06       0.00        0.17             0.23
+   televisions            1992                True         1     True              1979.0           B-08       0.51        0.12             0.25
+         steel            1977               False        10     True              1984.0 B-13;B-17;B-19       0.30        0.18             0.38
+       washers            2002               False         1     True              2018.0           B-18       0.00        0.00             0.01
+         ships            1977               False         2    False                 NaN                      0.11        0.14             0.10
+       telecom            2003               False         1    False                 NaN                      0.06        0.07             0.12
+       plywood            1968               False         1    False                 NaN                      0.00        0.00             0.00
+       leather            1992                True         2    False                 NaN                      0.00        0.00             0.05
+  travel_goods            1974               False         2    False                 NaN                      0.00        0.06             0.01
+glass_ceramics            1979               False         1    False                 NaN                      0.11        0.08             0.08
+          toys            1985               False         1    False                 NaN                      0.00        0.00             0.01
+        metals            1988               False         4    False                 NaN                      0.00        0.00             0.03
+        optics            1991               False         2    False                 NaN                      0.07        0.04             0.04
+Zeitfolge Korea: voice nach > vor in 5 von 12 Sektoren
+Auswahl Korea voice_1965_1990: mit Massnahme 0.34 (n=5), ohne 0.05 (n=9); Differenz +0.29, p = 0.004
+Auswahl Korea voice_pre: mit Massnahme 0.19 (n=5), ohne 0.04 (n=9); Differenz +0.15, p = 0.047
+Auswahl Korea voice_post: mit Massnahme 0.35 (n=5), ohne 0.04 (n=9); Differenz +0.30, p = 0.016
