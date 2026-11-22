@@ -91,5 +91,13 @@ if (D / "ds1_crec_salience.csv").exists():
         z = cr[cr.data == d].crossover_year
         out.append(f"Kreuzungsjahre China {d} (ohne zensierte): n = {len(z)}, Median {z.median():.0f}, "
                    f"Quartile {z.quantile(.25):.0f}-{z.quantile(.75):.0f}")
+
+# Weiterer Fall: Japan gegen Grossbritannien (Meilenstein 1932), getrennt von der Kernstichprobe
+hj = pd.read_csv(D / "ds1_hansard_japan.csv").sort_values("year")
+breaks(np.log1p(hj.japan_hits_per_100k_words.values), hj.year.values, "Hansard Japan 1920-1939", minseg=3)
+j = e_all[e_all.case == "JPGB"]
+out.append(f"Japan gegen Grossbritannien: {len(j)} Reaktionen; vor dem Meilenstein {int((j.lag_years < 0).sum())} "
+           f"(IR {', '.join(map(str, j[j.lag_years < 0].reach_coder1))}); ab dem Meilenstein {int((j.lag_years >= 0).sum())}; "
+           f"bindend mit IR >= 4 vor/ab: {int(((j.lag_years < 0) & (j.reach_coder1 >= 4)).sum())}/{int(((j.lag_years >= 0) & (j.reach_coder1 >= 4)).sum())}")
 (D / "tests_sequence.txt").write_text("\n".join(out) + "\n", encoding="utf-8")
 print("\n".join(out))
