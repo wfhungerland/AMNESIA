@@ -244,7 +244,21 @@ The same rules as in E.4 are applied to eight further dyads. Code: `data/cases_f
 | 1936 | 0.33 | 0.86 | 3.39 | 0.44 | 29.4 |
 | 1938 | 0.27 | 0.71 | 1.88 | 0.33 | 16.5 |
 
-The best single break in log(1 + mentions) is 1932 (BIC −11.2 against −0.1 without a break). In Ceylon, a colony that adopted quotas in 1934, the Japanese–British ratio fell from 0.50 in 1934 to 0.28 in 1935. Total exports include goods other than cotton; the annual world crossover in cotton piece goods (1933 by contemporary accounts) awaits confirmation from Robson (1957) or League of Nations statistics. The British–Japanese tables of Tyszynski (1951) for 1929 and 1937 are not yet transcribed (the Dropbox copy could not be downloaded in the session).
+The best single break in log(1 + mentions) is 1932 (BIC −11.2 against −0.1 without a break). In Ceylon, a colony that adopted quotas in 1934, the Japanese–British ratio fell from 0.50 in 1934 to 0.28 in 1935.
+
+**Table E9b. Cotton piece goods and textile groups, Japan relative to Britain**
+
+| Year | UK exports, million sq. yd (Robson 1957, p. 11) | UK exports, million linear yd (Robson, p. 333) | Japanese exports, million sq. yd (Sandberg 1974, Table 25, after Seki) | Japan / UK (square yards) |
+|---|---|---|---|---|
+| 1929 | 3,672 | 3,764.9 | 1,791 | 0.49 |
+| 1931 | 1,716 | 1,790.2 | 1,414 | 0.82 |
+| 1932 | – | 2,302.7 | 2,032 | (0.88 against linear yards) |
+| 1933 | 2,031 | 2,116.7 | 2,090 | 1.03 |
+| 1935 | 1,949 | 2,013.4 | 2,725 | 1.40 |
+| 1937 | 1,922 | 2,023.1 | 2,644 | 1.38 |
+| 1938 | 1,387 | 1,448.0 | 2,181 | 1.57 |
+
+Imports into British India, million linear yards (Robson, p. 10): 1929 UK 1,276 / Japan 521; 1931 356 / 336; 1935 489 / 526; 1937 323 / 337; 1938 258 / 441. By value, Japanese exports of piece goods were 3 per cent of British exports in 1913, 31 per cent in 1928 and 73 per cent in 1935 (League of Nations 1945, p. 111). Tyszynski (1951), Tables III and IV (pp. 279–280), £000: textiles (group 12) UK 213,152 and Japan 60,446 in 1929, 121,782 and 65,888 in 1937 (ratio 0.28 and 0.54); apparel (group 13) 27,053 and 9,379 in 1929, 12,889 and 12,921 in 1937 (0.35 and 1.00). Japan's shares of the eleven-country totals (3.9 and 7.2 per cent) match Table VIII. Under the export rule (world crossover 1933), India's 50 per cent duty of August 1932 precedes the world crossover but follows the crossover in the Indian market (1932), the market it regulated. Data: `data/cotton_piece_goods_1913_1938.csv`, `data/tyszynski_1951_japan.csv`.
 
 ## E.10 Alignment, rivalry and the instruments available
 

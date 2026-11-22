@@ -81,6 +81,7 @@ Weitere Auffälligkeit: Die Weltbank-Reihe für Korea zeigt 1976–1979 winzige 
 |---|---|---|
 | `ds1_export_milestones.csv`, `ds1_export_series.csv` | Meilensteine nach der Exportregel (Gegenprobe) | `comtrade_milestones.py` |
 | `third_markets_tradhist.csv`, `third_markets_summary.csv`, `tyszynski_1951_selected.csv` | Drittmärkte 1871–1913; Tyszynski (1951) Tabellen I, II, VIII | `third_markets.py` |
+| `cotton_piece_goods_1913_1938.csv`, `tyszynski_1951_japan.csv` | Baumwollstoffe GB und Japan 1913–1938 (Robson 1957, Sandberg 1974); Tyszynski Tab. III und IV (1929, 1937) | abgeschrieben (Zahlenauszug der Bibliothek) |
 | `third_markets_1930s.csv`, `third_markets_1930s_summary.csv` | Japan gegen Großbritannien: Drittmärkte 1920–1938 (TRADHIST) | `third_markets_1930s.py` |
 | `ds1_hansard_japan.csv`, `ds1_hansard_japan_sections.csv` | Nennungen Japans in britischen Wirtschaftsdebatten 1920–1939 | `hansard_japan.py` |
 | `conditionality.txt`, `conditionality_challengers.csv` | IWF-Auflagen nach Politikfeld 1989–2014, US-Hilfe 1980–2011, Sicherheitsrat und UN-Nähe (Stubbs et al. 2020, 2016) | `conditionality.py` |
