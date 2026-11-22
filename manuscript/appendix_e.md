@@ -286,6 +286,57 @@ UN distance to the United States, mean 2009–2023: Japan 1.73, Korea 1.64, Mexi
 
 Sources: WTO, Agreement on Safeguards (legal text 25-safeg.pdf); WTO, "Textiles: back in the mainstream" (texintro_e.htm); WTO, completed accessions (completeacc_e.htm); WTO, Viet Nam accession page. The start year of the MFA (1974 in the literature) and the exact end of the US–Vietnam quotas are not yet checked at a primary source.
 
+## E.11 Congressional attention: China 1995–2025 and Japan 1955–1994
+
+The Hansard measure (E.5, E.6) is repeated for the American incumbent with the Congressional Record, retrieved from the govinfo API of the US Government Publishing Office. Code: `data/crec_fetch.py`, `data/crec_filter.py`, `data/crec_salience.py`, `data/crec_sectors.py` (China); `data/crecb_fetch.py`, `data/crecb_salience.py` (Japan); `data/fr301_lists.py` (Section 301 lists); break tests in `data/tests_sequence.py`.
+
+**China: data and filter.** The daily Congressional Record (collection CREC) is divided into granules, one per speech, debate or insertion, each with its own title. Of 829,186 granules from 1995 to 2025 (without the Daily Digest and front matter), 10,901 carry an economic title under a fixed filter (version `crec_econ_v1`: trade, tariff, import, export, duties, customs, manufacturing, industry, dumping, subsidy, competitiveness, currency, outsourcing, WTO, NAFTA, normal trade relations, supply chain, intellectual property and the sector terms of Table E14). China counts when *China*, *Chinese*, *PRC* or *Beijing* occurs; *Republic of China* (Taiwan) is removed first. The competition indicator uses the Hansard list plus *manipulation*, *overcapacity*, *outsourcing*, *offshoring* and *counterfeit*.
+
+**Table E13. China in economic debates of the US Congress, pooled by period**
+
+| Period | Economic granules | Mentioning China | China near a competition term | Mentions per 100,000 words: China / Japan / Mexico |
+|---|---|---|---|---|
+| 1995–2000 | 2,837 | 20.1 % [18.6–21.6] | 5.2 % [4.4–6.1] | 130 / 34 / 35 |
+| 2001–2009 | 3,616 | 16.4 % [15.2–17.6] | 6.8 % [6.1–7.7] | 77 / 16 / 27 |
+| 2010–2017 | 2,600 | 13.8 % [12.5–15.2] | 6.6 % [5.7–7.6] | 80 / 9 / 21 |
+| 2018–2025 | 1,848 | 17.9 % [16.2–19.7] | 7.5 % [6.4–8.8] | 113 / 6 / 35 |
+
+Brackets: 95 % Wilson intervals. Source: Congressional Record (govinfo, CREC). Figure E2 (`figures/fig_e2_crec.pdf`) shows the annual series.
+
+Unlike Germany in the British record, China was a parliamentary subject before it displaced anyone. Its trade status was itself legislation: the annual renewal of most-favoured-nation treatment in the 1990s and permanent normal trade relations in 2000 (the peak of the series, 399 mentions per 100,000 words). Attention then falls back, with peaks in the currency debates of 2005 and 2011, and rises again after 2018. The competition indicator rises only slowly, from 5.2 to 7.5 per cent of economic granules. A break search on log(1 + mentions per 100,000 words) prefers no break (BIC); on the share of economic granules mentioning China it places two breaks in 2013 and 2018, a trough before the tariffs of 2018 rather than a rise after the crossovers, whose median falls in 2004 (SITC Rev. 3, 70 groups) and 2015 (HS, 242 groups). The aggregate record of Congress therefore does not show the British pattern of attention following displacement.
+
+**Coverage of the title filter.** A check sample of ten random sitting days per year (310 days, 46,357 granules, all retrieved in full) measures what the filter misses. Of 259 granules in which China appears within 30 words of a competition term, 48 (19 per cent) carry an economic title; the others are bill introductions, appropriations and defence authorisations, nominations and amendment texts. Much of the economic discussion of China in Congress happens under non-economic titles, more than in the Victorian Parliament. The sample-day measure below therefore uses the full text of sampled days for both China and Japan.
+
+**Table E14. China in congressional sector debates and broad American instruments, by sector**
+
+| Sector | Crossover | Broad instrument (register) | China linked, before crossover | China linked, from crossover | Voice 2001–2017 | Share on 301 lists 1–2 | 301 increase 2024 |
+|---|---|---|---|---|---|---|---|
+| Steel | ≤1992 | B-17, B-19 | – | 17.4 % of 430 | 8.04 | 0.00 | yes |
+| Aluminium | 2004 | B-19 | 11.1 % of 9 | 20.6 % of 34 | 0.32 | 0.03 | yes |
+| Solar cells | ≤2008 | B-18 | 0.0 % of 19 | 25.9 % of 108 | 2.41 | 1.00 | yes |
+| Washing machines | 1999 | B-18 | 0.0 % of 1 | 0.0 % of 4 | 0.00 | 0.00 | no |
+| Telecom equipment | 2003 | B-21 | 5.4 % of 240 | 27.5 % of 160 | 1.61 | 0.00 | no |
+| Semiconductors | 2009 | B-22 | 16.7 % of 60 | 42.2 % of 64 | 1.29 | 1.00 | yes |
+| Cars | 2023 | B-23 | 20.6 % of 490 | 40.0 % of 40 | 11.26 | 0.87 | yes |
+| Furniture | 2001 | – | 0.0 % of 17 | 34.1 % of 41 | 2.09 | 0.00 | no |
+| Textiles and apparel | ≤1992 | – | – | 21.1 % of 294 | 7.72 | 0.00 | yes |
+| Footwear | ≤1992 | – | – | 21.5 % of 93 | 2.25 | 0.00 | no |
+| Toys | ≤1992 | – | – | 19.1 % of 89 | 2.25 | 0.00 | no |
+| Tyres | 2005 | – | 12.0 % of 25 | 32.0 % of 25 | 1.29 | 0.07 | no |
+| Paper | ≤2008 | – | 33.3 % of 3 | 20.0 % of 5 | 0.32 | 0.00 | no |
+| Chemicals | 2004 | – | 12.6 % of 190 | 4.9 % of 144 | 1.93 | 0.01 | yes |
+| Computers | 2003 | – | 11.4 % of 229 | 11.8 % of 153 | 4.50 | 0.20 | no |
+| Glass and ceramics | ≤1992 | – | – | 4.6 % of 87 | 0.64 | 0.00 | no |
+| Batteries | 2004 | – | 0.0 % of 15 | 32.4 % of 71 | 0.80 | 0.39 | yes |
+
+Sector debate: economic granule with at least three sector terms; China linked: China within 30 words of a sector term. Crossover: earliest year in which Chinese world exports of a group in the sector reached American exports (data/population_crossovers.csv; ≤ marks a crossover in the first data year). Voice: China-linked sector debates per 1,000 economic granules, 2001–2017. Share on lists 1–2: mean share of the sector's HTS8 lines on Section 301 lists 1 and 2 (25 per cent from July and August 2018). Instruments from data/broad_register.csv without the economy-wide Section 301 tariffs (B-20). The 2024 increases for textiles and chemicals concern face masks and critical minerals.
+
+**Tests, China.** (a) *Timing.* In the nine sectors with an uncensored crossover after 1999, China is linked to 14.0 per cent of 1,275 sector debates before the crossover [12.2–16.0] and 22.4 per cent of 732 debates from the crossover [19.5–25.6]; voice is higher after the crossover in four of nine sectors. Because attention to China in all debates also rises over time, this comparison does not separate displacement from trend. (b) *Selection.* Sectors that later received a sector-specific broad instrument had more China-linked debates than displaced sectors without one, but none of the differences is significant (exact one-sided permutation tests: voice 2001–2017 3.6 against 2.4, p = 0.25; five years before the crossover p = 0.43; five years from the crossover 4.8 against 1.4, p = 0.17). Import volume and employment do not separate the two groups either (p = 0.36 and 0.32). Counting the Section 421 tyre safeguard of 2009 and the textile safeguards of 2005 as broad instruments, which the register does not because they fall outside its Section 201 rule, changes little (p = 0.11 for voice 2001–2017). (c) *Graded tariffs.* The Section 301 tariffs of 2018 covered all groups, but not equally. Lists 1 and 2, the first to take effect at 25 per cent, concentrated on machinery, electronics, vehicles and plastics (Made in China 2025). Congressional voice does not predict a sector's share on lists 1 and 2 (Spearman ρ = 0.06, 17 sectors; among 229 displaced HS4 groups, OLS with 13 clustered sector groups, coefficient 0.06, p = 0.50 with import volume and employment held constant). It is weakly associated with the sector increases of the 2024 review (voice 4.2 against 1.7, p = 0.056).
+
+The Section 301 lists come from the Federal Register: list 1, 83 FR 28710 (Annex A, 817 lines read); list 2, 83 FR 40823 (283); list 3, 83 FR 47974 (5,748); lists 4A and 4B, 84 FR 43304 (3,233 and 550); four-year review, 89 FR 76581 (Annex A, 387 of 389 lines; 11 of 14 product groups identified because three share lines with others). The counts differ by a few lines from USTR's totals because some codes also occur in the notes.
+
+%JAPAN%
+
 ## E.8 Limitations
 
 1. **Second coder.** All IR scores currently come from one coder. Inter-coder agreement (Krippendorff's α, ordinal) will be reported here.
