@@ -1,0 +1,33 @@
+(1) Sektorebene: 22 Sektoren mit Kontrollen (JP 9, KR 13); davon mit Massnahme 10
+challenger         sector  measure  volume_pre  volume_window    emp    imp  groups
+        JP       textiles     True       309.9          153.1  177.8   12.5       2
+        JP          steel     True        91.9           64.6  312.0  116.5       6
+        JP    televisions     True        92.3          101.5  360.4  210.2       1
+        JP           cars     True       131.0          113.3  752.3 5411.9       1
+        JP semiconductors     True        34.1            5.8  568.2 7445.7       1
+        JP  machine_tools     True         4.2            4.0  176.8  113.9       1
+        JP        cameras    False        11.0           10.1  521.4  691.1       1
+        JP       bearings    False         1.1            1.7  843.1 3430.9       1
+        JP          tires    False        28.6           24.4  133.3   20.4       1
+        KR       textiles     True       132.0          107.3 1190.4  177.8       5
+        KR       footwear     True        22.4           18.4  207.7   43.6       1
+        KR          steel     True        51.4           67.3  223.5  440.5       6
+        KR        washers     True         6.0            7.9   59.2  820.8       1
+        KR          ships    False        11.4           16.0  228.3    0.6       1
+        KR        telecom    False        62.0           15.8  237.6 6357.3       1
+        KR        plywood    False         6.2            3.4   79.8   53.4       1
+        KR        leather    False         3.2            8.1    0.0    4.5       1
+        KR   travel_goods    False         1.7            1.5   48.3   27.8       1
+        KR glass_ceramics    False        18.9           17.7   21.9   23.4       1
+        KR           toys    False         4.3            4.6   80.0  572.9       1
+        KR         metals    False        12.8           20.0   36.7  176.7       4
+        KR         optics    False        11.2           11.9   13.0   43.8       2
+   y ~ l_vol + C(challenger): l_vol +0.195 (HC1 p=0.001; Permutation einseitig p=0.009)
+   y ~ l_emp + C(challenger): l_emp +0.120 (HC1 p=0.033; Permutation einseitig p=0.049)
+   y ~ l_m_us + C(challenger): l_m_us +0.035 (HC1 p=0.429; Permutation einseitig p=0.240)
+   y ~ l_vol + l_emp + l_m_us + C(challenger): l_vol +0.176 (HC1 p=0.013; Permutation einseitig p=0.025); l_emp +0.047 (HC1 p=0.418; Permutation einseitig p=0.318); l_m_us +0.017 (HC1 p=0.751; Permutation einseitig p=0.400)
+   Spearman: l_vol/l_emp +0.47; l_vol/l_m_us +0.12; l_emp/l_m_us +0.57
+(2) Gruppenebene: 38 verdraengte Gruppen in 19 Sektoren; broad10 = 1 in 13
+   broad10 ~ l_vol + C(src): l_vol +0.51 (p=0.199)
+   broad10 ~ l_emp + l_m_us + C(src): l_emp +0.17 (p=0.570); l_m_us -0.23 (p=0.197)
+   broad10 ~ l_vol + l_emp + l_m_us + C(src): l_vol +0.48 (p=0.209); l_emp +0.19 (p=0.432); l_m_us -0.13 (p=0.475)
