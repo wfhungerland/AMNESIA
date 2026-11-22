@@ -108,5 +108,9 @@ if (D / "ds1_crecb_years.csv").exists():
     c = b[b.source == "CREC"]
     breaks(np.log1p(c.china_comp_per_1m.values), c.year.values, "Kongress-Stichprobe, China nahe Wettbewerb 1995-2025")
 
+if (D / "ds1_kr_years.csv").exists():
+    k = pd.read_csv(D / "ds1_kr_years.csv").sort_values("year")
+    breaks(np.log1p(k.korea_comp_per_1m.values), k.year.values, "Kongress-Stichprobe, Korea nahe Wettbewerb 1955-2025")
+
 (D / "tests_sequence.txt").write_text("\n".join(out) + "\n", encoding="utf-8")
 print("\n".join(out))
