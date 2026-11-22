@@ -1,6 +1,6 @@
 # data
 
-DS1 bis DS5 und die Prüfungen für „Displacement Before Escalation“. Neubau vom 20. bis 22.11.2026. Alle fünf Datensätze und Anhang E stehen; offen ist die Zweitcodierung von DS1.
+DS1 bis DS5 und die Prüfungen für „Displacement Before Escalation“. Neubau vom 20. bis 22.11.2026. Alle fünf Datensätze und der Online-Anhang (manuscript/online_appendix.md, früher Anhang E) stehen; offen ist die Zweitcodierung von DS1.
 
 Reproduzieren aus dem Repo-Wurzelordner:
 

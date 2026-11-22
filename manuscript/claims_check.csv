@@ -1,91 +1,99 @@
 nr,section,claim,source,checked
-1,Abstract/4,41 responses; 36 after the milestone; 5 before; 1 binding with IR>=4 before,data/ds1_events.csv (build.py),ja (aus Daten gerechnet)
-2,Abstract/4,18 sectoral milestones,data/ds1_milestones.csv,ja
-3,3.1,German manufactured exports 89% of British in 1913,Tyszynski (1951) Tables II/VIII; data/tyszynski_1951_selected.csv,ja (am Scan und an Table VIII)
-4,3.1/6,Japan TFP 0.80 in 1991; 0.64 in 2023,PWT 11.0 ctfp; data/ds3_tfp.csv,ja (0.796; 0.640)
-5,3.1,China GDP per head 33% of US in 2022,Maddison 2023; data/ds2_gdppc.csv,ja (0.329)
-6,3.4,Hansard: 281577 debates; 15126 economic,data/ds1_hansard_salience.csv,ja
-7,4.1,Chemical exports 43% above British in 1899,Tyszynski (1951) Table I,ja
-8,4.1,Brussels Sugar Convention 1902 lag 22 years; IR 4,ds1_events.csv; Foreign Affairs (1926),Inhalt ja; Tagesdatum 5.3.1902 ungeprueft
-9,4.1,Patents and Designs Act 1907 compulsory working,research/faelle (Incumbent Rhetoric 2026),ungeprueft
-10,4.1,Iron/steel 35->91%; equipment 50->133%; electrical 58->211% of British exports,Tyszynski (1951) Tables I-II,ja
-11,4.1,Tariff Reform launched 1903,Policy Amnesia Index v2.5 (15.5.1903 Birmingham),im Material geprueft
-12,4.1,Import Duties Act 1932,Policy Amnesia Index v2.5,im Material geprueft
-13,4.2,Japan largest cotton textile exporter by 1951,USDA FAS ATO (2010); Osaka DP 99-06,Sekundaerquellen
-14,4.2,Cotton ceilings Dec 1955; five-year restraint 16.1.1957,Time (1957); FRUS 1955-57 IX,Sekundaerquellen
-15,4.2,Japan largest steel exporter 1969; VRA 1.1.1969; TPM 1978,Ohashi (2005); Michigan JIL; Urata (2020),eine Quelle fuer 1969
-16,4.2,TV: ~30% of US mid-size colour market 1970; AD 1971; OMA 1977 1.75m,TC Pub. 367 (1971); Proclamation 4511,ja (Sekundaer/Primaer)
-17,4.2,Car VER May 1981 1.68m,Toyota history; Berry et al. (1999),im Material geprueft
-18,4.2,64K DRAM 1981; SIA petition 1985; agreement 1986; tariffs 1987 300m USD,Germany Shock note; Reagan Library,im Material geprueft
-19,4.2,Binding lags Japan 0 to 9 years,ds1_events.csv,ja
-20,4.3,Section 301 Korea 1985; IP agreement 1986; AD 1993; CVD 2003; WTO 2018/2020,Reagan Library; 58 FR 27520; USITC 3616; WTO,teils im Material geprueft
-21,4.4,China manufacturing above US 2010,AEI (2011) / IHS,ungeprueft
-22,4.4,BIS controls 7.10.2022; SMIC 7nm 2023,87 FR 62186; TechInsights (2023),ungeprueft
-23,4.5,Export rule: 28 post; 3 undetermined; 9 not measurable; 1 before,ds1_events.csv,ja
-24,4.5,China EV exports 32.0 vs Germany 41.1 bn USD (2024),UN Comtrade HS 870380,ja (Abruf 21.11.2026)
-25,5,Germany mentions 14/20/44 per 100k words; share 3.3%->8.8%,ds1_hansard_salience.csv,ja
-26,5,Sector table: sugar 2.7->17.2%; steel 14.6->24.2%; dyes 18 debates,ds1_hansard_sectors.csv,ja
-27,5,US mentions 41-56 per 100k words; competition share ~1%,ds1_hansard_usa.csv,ja
-28,5,US exports 75% (51% excl. Canada) of British in 17 markets 1913; Germany 85%,TRADHIST v4; third_markets_summary.csv,ja
-29,5,Manufactures shares 1899-1913: US 11.2->12.6; Germany 22.2->26.4,Tyszynski (1951) Table VIII,ja (am Scan)
-30,5,Electrical goods Germany's top RCA sector 1913,Crafts (1989) Table 1,ja (am Scan)
-31,6,Korea peak 0.71 (2002); 0.62-0.70 since 2010; Germany >=1 most years since 2000; China 0.47 (2023); pause 2007-2015 at 0.40-0.42,ds3_tfp.csv,ja
-32,3.3,Inter-coder agreement,offen,nein (Zweitcodierung ausstehend)
-33,4.6,Registers: 759 AD/CVD cases; KR 67 of 181 before 1992 (35 final); CN 316 of 414 before 2010 (231 final),data/ds1_registers.csv (TTBD),ja (gerechnet)
-34,4.6,Product displacement: 127 cases; share 15 -> 23%; rising in 82%,data/ds1_product_displacement.csv (Comtrade),ja (gerechnet)
-35,4.7,Cycle: 38% of responses in negative output gap years vs 45% base,data/tests_cycle.txt,ja (gerechnet)
-36,4.7,Window and placebo tests,data/tests_sequence.txt,ja (gerechnet)
-37,4.7,Broad register: 23 instruments; 31 pairs; 22 post; 4 pre; 5 not datable,data/broad_register_tested.csv,ja (gerechnet; Zielländer teils Sekundär)
-38,4.7,Population hazard: JP 22%; KR 20%; CN 1% (74% with 301 tariffs),data/population_hazard.csv,ja (gerechnet)
-39,4.7,Control group: broad start IRR 5.7 (2.3-14.0) JP+KR; CN 301 covered 813/813 groups,data/population_panel.txt,ja (gerechnet)
-40,4.7,AD/CVD: 3.4 vs 6.5 per 100 gy; IRR 1.10 with size control; JP 2.0,data/population_panel.txt,ja (gerechnet; HS-SITC ueber WITS-Konkordanz)
-41,4.7,Weight: AD within 5y by import third 1/11/30%; broad 27/14/23%,data/population_weight.csv,ja (gerechnet)
-42,4.7,Employment: AD by third 1/16/25%; n.s. with imports; broad 19/14/29% logit 0.24 p=0.43,data/population_employment.txt,ja (gerechnet; Zuordnung naeherungsweise)
-43,4.7/Abstract,JP-GB milestone 1932: British India imports Japan 551.9 vs UK 541.9m yards,Hansard HC Deb 4 Jul 1934 vol 291 cc1890-1,ja (an der Quelle)
-44,4.7,India 50% on non-British piece goods 27 Aug 1932; 75% 7 Jun 1933; preference 15/20% 4 Apr 1930,Hansard written answers 19 Dec 1934 cc1162-4W; HC Deb 20 Feb 1933,ja (an der Quelle)
-45,4.7,Indo-Japanese quota from 8 Jan 1934; colonial quotas 7 May 1934 (1927-31 average),Hansard written answers 16 Jul 1934; HC Deb 7 May 1934 vol 289 cc715-9,ja (an der Quelle)
-46,4.7,Japan/UK exports 35 markets 0.23 (1924) to 0.33 (1935); 7 Asian markets 0.42 to 0.86 (1936); NEI >1 from 1930,data/third_markets_1930s_summary.csv (TRADHIST),ja (gerechnet)
-47,4.7,Hansard mentions of Japan 1-10 per 100k (1920-31); 12 (1932); 102 (1933); break 1932,data/ds1_hansard_japan.csv; data/tests_sequence.txt,ja (gerechnet)
-48,4.7,Share of US manuf. exports overtaken: JP 0.31-0.35 (1977-87); CN 0.45 (2018); KR/TW 0.01-0.03 (1977-86); VN 0.064; MX 0.066 (2023); TH 0.016; MY 0.060 peak,data/cases_breadth.csv,ja (gerechnet)
-49,4.7,TW footwear crossover 1970 -> OMA June 1977; BR steel crossover 1983 -> VRA 1984,data/cases_register_tested.csv; Proclamation 4510; Moore (1996),ja
-50,4.7,CTV 1979 and machine tools 1986 (TW) and steel 1984 (MX) without crossover,data/cases_register_tested.csv; Proclamation 4634; Dinopoulos/Kreinin (1991),ja
-51,4.7,Sectoral broad start IRR 6.25 [ersetzt durch Nr. 70] (2.76-14.18) for the seven economies,data/cases_panel.txt,ja (gerechnet)
-52,4.7,VN textile agreement May 2003; VN apparel (SITC 84) crossover 2006,FR Doc. 03-12314; data/cases_register_tested.csv,ja
-53,4.7,WTO Safeguards Art. 11.1(b) bans VERs and OMAs,WTO legal text 25-safeg.pdf,ja (an der Quelle)
-54,4.7,2025 IEEPA: Mexico (migration/drugs) EO 14194; Brazil 40% (Bolsonaro) EO 14323; reciprocal EO 14257 (deficits),Federal Register 2025-02407; 2025-14896; 2025-06063,ja (an der Quelle)
-55,4.7,Annual world crossover Japanese vs British cotton piece goods 1933,Hansard 29 Nov 1933 (MPs); Statistik fehlt,nein (zu pruefen: Robson 1957; League of Nations)
-56,4.8,Before 1995: 17 of 21 [ersetzt durch Nr. 71] targeted broad US instruments against treaty allies negotiated; 4 unilateral (B-09 B-11 B-16 B-28),data/geopolitics.txt (ATOP 5.1; geo_instrument_mode.csv),ja (gerechnet; Codierung der Art eigene)
-57,4.8,From 1995: all 5 targeted trade-motivated broad instruments hit non-allies (CN 4; VN 1),data/geopolitics.txt,ja (gerechnet)
-58,4.8,2022 controls: UNGA distance CN-US 3.5; CINC ratio 1.9; Japan 1.1-1.6 and 0.26-0.40; Germany/GB 0.44-0.79; Korea 0.15-0.16,data/geopolitics_dyads.csv; geopolitics_instruments.csv,ja (gerechnet)
-59,4.8,UNGA distance 2009-2023: MX 2.53; VN 3.40,data/geopolitics.txt,ja (gerechnet)
+1,Abstract/1/5/C,41 responses; 36 after the milestone; 5 before; 1 binding with IR>=4 before,data/ds1_events.csv (build.py),ja (aus Daten gerechnet)
+2,Abstract/4/B,18 sectoral milestones,data/ds1_milestones.csv,ja
+3,4.1,German manufactured exports 89% of British in 1913,Tyszynski (1951) Tables II/VIII; data/tyszynski_1951_selected.csv,ja (am Scan und an Table VIII)
+4,4.1/12/K,Japan TFP 0.80 in 1991; 0.64 in 2023,PWT 11.0 ctfp; data/ds3_tfp.csv,ja (0.796; 0.640)
+5,4.1,China GDP per head 33% of US in 2022,Maddison 2023; data/ds2_gdppc.csv,ja (0.329)
+6,4.5/E,Hansard: 281577 debates; 15126 economic,data/ds1_hansard_salience.csv,ja
+7,5,Chemical exports 43% above British in 1899,Tyszynski (1951) Table I,ja
+8,5,Brussels Sugar Convention 1902 lag 22 years; IR 4,ds1_events.csv; Foreign Affairs (1926),Inhalt ja; Tagesdatum 5.3.1902 ungeprueft
+9,5,Patents and Designs Act 1907 compulsory working,research/faelle (Incumbent Rhetoric 2026),ungeprueft
+10,5,Iron/steel 35->91%; equipment 50->133%; electrical 58->211% of British exports,Tyszynski (1951) Tables I-II,ja
+11,5,Tariff Reform launched 1903,Policy Amnesia Index v2.5 (15.5.1903 Birmingham),im Material geprueft
+12,5,Import Duties Act 1932,Policy Amnesia Index v2.5,im Material geprueft
+13,5,Japan largest cotton textile exporter by 1951,USDA FAS ATO (2010); Osaka DP 99-06,Sekundaerquellen
+14,5,Cotton ceilings Dec 1955; five-year restraint 16.1.1957,Time (1957); FRUS 1955-57 IX,Sekundaerquellen
+15,5/11,Japan largest steel exporter 1969; VRA 1.1.1969; TPM 1978,Ohashi (2005); Michigan JIL; Urata (2020),eine Quelle fuer 1969
+16,5,TV: ~30% of US mid-size colour market 1970; AD 1971; OMA 1977 1.75m,TC Pub. 367 (1971); Proclamation 4511,ja (Sekundaer/Primaer)
+17,5,Car VER May 1981 1.68m,Toyota history; Berry et al. (1999),im Material geprueft
+18,5,64K DRAM 1981; SIA petition 1985; agreement 1986; tariffs 1987 300m USD,Germany Shock note; Reagan Library,im Material geprueft
+19,5/12,Binding lags Japan 0 to 9 years,ds1_events.csv,ja
+20,5,Section 301 Korea 1985; IP agreement 1986; AD 1993; CVD 2003; WTO 2018/2020,Reagan Library; 58 FR 27520; USITC 3616; WTO,teils im Material geprueft
+21,5,China manufacturing above US 2010,AEI (2011) / IHS,ungeprueft
+22,5/10,BIS controls 7.10.2022; SMIC 7nm 2023,87 FR 62186; TechInsights (2023),ungeprueft
+23,5/C,Export rule: 28 post; 3 undetermined; 9 not measurable; 1 before,ds1_events.csv,ja
+24,5/C,China EV exports 32.0 vs Germany 41.1 bn USD (2024),UN Comtrade HS 870380,ja (Abruf 21.11.2026)
+25,7.1/E,Germany mentions 14/20/44 per 100k words; share 3.3%->8.8%,ds1_hansard_salience.csv,ja
+26,7/Tab.4/E,Sector table: sugar 2.7->17.2%; steel 14.6->24.2%; dyes 18 debates,ds1_hansard_sectors.csv,ja
+27,7.1/F,US mentions 41-56 per 100k words; competition share ~1%,ds1_hansard_usa.csv,ja
+28,7.1/F,US exports 75% (51% excl. Canada) of British in 17 markets 1913; Germany 85%,TRADHIST v4; third_markets_summary.csv,ja
+29,7.1/F,Manufactures shares 1899-1913: US 11.2->12.6; Germany 22.2->26.4,Tyszynski (1951) Table VIII,ja (am Scan)
+30,E,Electrical goods Germany's top RCA sector 1913,Crafts (1989) Table 1,ja (am Scan)
+31,12/K,Korea peak 0.71 (2002); 0.62-0.70 since 2010; Germany >=1 most years since 2000; China 0.47 (2023); pause 2007-2015 at 0.40-0.42,ds3_tfp.csv,ja
+32,4.3/11/A,Inter-coder agreement,offen,nein (Zweitcodierung ausstehend)
+33,1/4.4/6.1/D,Registers: 759 AD/CVD cases 1979-2015; KR 67 of 181 before 1992 (35 final); CN 316 of 414 before 2010 (231 final),data/ds1_registers.csv (TTBD),ja (gerechnet); korrigiert 22.11.2026
+34,6.1/D,Product displacement: 127 cases; share 15 -> 23%; rising in 82%,data/ds1_product_displacement.csv (Comtrade),ja (gerechnet)
+35,5/C,Cycle: 38% of responses in negative output gap years vs 45% base,data/tests_cycle.txt,ja (gerechnet)
+36,5/C,Window and placebo tests,data/tests_sequence.txt,ja (gerechnet)
+37,6.2/D,Broad register: 23 instruments; 31 pairs; 22 post; 4 pre; 5 not datable,data/broad_register_tested.csv,ja (gerechnet; Zielländer teils Sekundär)
+38,Abstract/1/6.2/D,"Population hazard: JP 22% (9 of 41 groups, SITC 1); KR 20% of 25 groups (SITC 1), 0 of 13 (SITC 3); CN 1% without 301 tariffs (312 groups); 74% of 242 HS groups with them",data/population_hazard.csv,ja (gerechnet); korrigiert 22.11.2026
+39,Abstract/1/6.3/D,Control group: broad start IRR 5.7 (2.3-14.0) JP+KR; CN 301 covered 813/813 groups,data/population_panel.txt,ja (gerechnet)
+40,6.1/D,AD/CVD: 3.4 vs 6.5 per 100 gy; IRR 1.10 with size control; JP 2.0,data/population_panel.txt,ja (gerechnet; HS-SITC ueber WITS-Konkordanz)
+41,6.1/7/D,Weight: AD within 5y by import third 1/11/30%; broad 27/14/23%,data/population_weight.csv,ja (gerechnet)
+42,6.1/7/D,Employment: AD by third 1/16/25%; n.s. with imports; broad 19/14/29% logit 0.24 p=0.43,data/population_employment.txt,ja (gerechnet; Zuordnung naeherungsweise)
+43,8/G,JP-GB milestone 1932: British India imports Japan 551.9 vs UK 541.9m yards,Hansard HC Deb 4 Jul 1934 vol 291 cc1890-1,ja (an der Quelle)
+44,8/G,India 50% on non-British piece goods 27 Aug 1932; 75% 7 Jun 1933; preference 15/20% 4 Apr 1930,Hansard written answers 19 Dec 1934 cc1162-4W; HC Deb 20 Feb 1933,ja (an der Quelle)
+45,8/G,Indo-Japanese quota from 8 Jan 1934; colonial quotas 7 May 1934 (1927-31 average),Hansard written answers 16 Jul 1934; HC Deb 7 May 1934 vol 289 cc715-9,ja (an der Quelle)
+46,8/G,Japan/UK exports 35 markets 0.23 (1924) to 0.33 (1935 and 1936); 7 Asian markets 0.42 to 0.86 (1936); NEI >1 from 1930,data/third_markets_1930s_summary.csv (TRADHIST),ja (gerechnet); korrigiert 22.11.2026
+47,8/G,Hansard mentions of Japan 1-10 per 100k (1920-31); 12 (1932); 102 (1933); break 1932,data/ds1_hansard_japan.csv; data/tests_sequence.txt,ja (gerechnet)
+48,Tab.3/6.3/8/G,"Share of US manuf. exports overtaken: JP 0.31 (1977) 0.27 (1981) 0.35 (1987), text 27-35%; CN 0.45 (2018); KR and TW below 0.06 before 1990 (KR peak 0.054 1988, TW 0.045 1987, SITC 1); VN 0.064; MX 0.066 (2023); TH 0.016 and MY 0.060 peak",data/cases_breadth.csv; data/cases_panel.txt,ja (gerechnet); korrigiert 22.11.2026
+49,8/G,TW footwear crossover 1970 -> OMA June 1977; BR steel crossover 1983 -> VRA 1984,data/cases_register_tested.csv; Proclamation 4510; Moore (1996),ja
+50,8/G,CTV 1979 and machine tools 1986 (TW) and steel 1984 (MX) without crossover,data/cases_register_tested.csv; Proclamation 4634; Dinopoulos/Kreinin (1991),ja
+51,8/G,Sectoral broad start IRR 6.25 [ersetzt durch Nr. 70] (2.76-14.18) for the seven economies,data/cases_panel.txt,ja (gerechnet)
+52,10/G,VN textile agreement May 2003; VN apparel (SITC 84) crossover 2006,FR Doc. 03-12314; data/cases_register_tested.csv,ja
+53,8/9/H,WTO Safeguards Art. 11.1(b) bans VERs and OMAs,WTO legal text 25-safeg.pdf,ja (an der Quelle)
+54,8/G,2025 IEEPA: Mexico (migration/drugs) EO 14194; Brazil 40% (Bolsonaro) EO 14323; reciprocal EO 14257 (deficits),Federal Register 2025-02407; 2025-14896; 2025-06063,ja (an der Quelle)
+55,8/G,Annual world crossover Japanese vs British cotton piece goods 1933,Hansard 29 Nov 1933 (MPs); Statistik fehlt,nein (zu pruefen: Robson 1957; League of Nations)
+56,9/H,Before 1995: 17 of 21 [ersetzt durch Nr. 71] targeted broad US instruments against treaty allies negotiated; 4 unilateral (B-09 B-11 B-16 B-28),data/geopolitics.txt (ATOP 5.1; geo_instrument_mode.csv),ja (gerechnet; Codierung der Art eigene)
+57,1/9/H,From 1995: all 5 targeted trade-motivated broad instruments hit non-allies (CN 4; VN 1),data/geopolitics.txt,ja (gerechnet)
+58,10/H,2022 controls: UNGA distance CN-US 3.5; CINC ratio 1.9; Japan 1.1-1.6 and 0.26-0.40; Germany/GB 0.44-0.79; Korea 0.15-0.16,data/geopolitics_dyads.csv; geopolitics_instruments.csv,ja (gerechnet)
+59,9/H,UNGA distance 2009-2023: MX 2.53; VN 3.40,data/geopolitics.txt,ja (gerechnet)
 60,2,Gowa & Mansfield 1993 APSR 87(2); Krasner 1976 WP 28(3); Wade 2003 RIPE 10(4); Rodrik 2006 JEL 44(4),Crossref,ja (bibliographische Angaben)
-61,E.10,ATC end 1 Jan 2005; WTO 1 Jan 1995; China 11 Dec 2001; Taipei 1 Jan 2002; Viet Nam 11 Jan 2007,wto.org,ja (an der Quelle); MFA-Beginn 1974 nein (zu pruefen)
-62,E.10,US quotas on Vietnam eliminated effective 11 Jan 2007,FR Doc. 07-65 (10 Jan 2007),ja (an der Quelle)
-63,2,Kuziemko & Werker 2006 JPE; Dreher Sturm Vreeland 2009 EER and JDE; Thacker 1999 WP; Barro & Lee 2005 JME; Kentikelenis et al. 2016 RIPE; Stubbs et al. 2020 RIO,Crossref,ja (bibliographische Angaben); Inhalte aus Kenntnis der Literatur (zu pruefen am Text)
-64,4.8,IMF conditions 1989-2014: 1173 programme years 116 countries; UNGA alignment -> participation (+3.14) and conditions (IRR 1.83); UNSC -> financial conditions IRR 0.76; none with country FE,data/conditionality.txt (Stubbs et al. 2020 data),ja (gerechnet)
-65,4.8,US aid 1980-2011: UNSC seat no effect with country and year FE,data/conditionality.txt (Stubbs et al. 2016 data),ja (gerechnet)
-66,4.8,Challenger programmes: MX 1989/1995; KR 1997 (1998-2000 in data); BR 1998-2004; VN 1994-96 and 2001-02; reach <= 0.023 (KR 1999); MX FCL 2009-14 no conditions 0.02-0.05,data/conditionality_challengers.csv,ja (gerechnet)
-67,4.8,Challengers: external-sector conditions IRR 2.16 vs other programmes; total IRR 0.99,data/conditionality.txt,ja (gerechnet)
-68,4.7,First comprehensive US cotton agreements: HK 1 Oct 1963 (35 cat.); TW 19 Oct 1963; MX 2 Jun 1967; BR 23 Oct 1970; MY 1 Sep 1970 (Pub. 850); TH 16 Mar 1972; first category embargoes HK 3 Mar 1962; TW 23 Jun 1962; MX 10 Aug 1962,Federal Register 1962-1972 (govinfo); USITC Pub. 850,ja (an der Quelle; MY 1970 sekundaer)
-69,4.7,HK and TW agreements 2 and 8 years before crossover (1965; 1971); MX BR MY TH no crossover,data/cases_register_tested.csv,ja (gerechnet)
-70,4.7,Sectoral broad start IRR 5.8 (2.8-12.0) for the seven economies (with textile agreements),data/cases_panel.txt,ja (gerechnet)
-71,4.8,Before 1995: 21 of 25 targeted broad instruments against allies negotiated,data/geopolitics.txt,ja (gerechnet)
-72,E.10,MFA done 20 Dec 1973; in force 1 Jan 1974 (Art. 14(1)); Art. 2(2)-(4) from 1 Apr 1974,USITC Pub. 850 Appendix A (Abdruck),ja (Abdruck; GATT-Original nicht erreichbar)
-73,5/E.11,Japan near competition term: best single break 1980 (BIC -33.8 vs -23.3 none); sample 20 days/yr 1955-1994,data/tests_sequence.txt; data/ds1_crecb_years.csv,ja (gerechnet)
-74,5/E.11,Japan voice from crossover: 2.65 vs 0.25 per million words (6 vs 8 sectors); permutation p=0.004; before crossover p=0.17,data/ds1_crecb_test.txt,ersetzt durch 83-85 (nicht nach Sektorgroesse bereinigt; Text geaendert)
-75,5/E.11,China: 10901 of 829186 granules with economic title; peak 399 per 100k words in 2000; no break preferred (BIC),data/ds1_crec_salience.txt; data/tests_sequence.txt,ja (gerechnet)
-76,5/E.11,China sector voice with vs without instrument: p 0.17-0.25 (7 vs 10 sectors); Spearman with 301 lists 1-2 rho=0.06; 2024 review p=0.056,data/ds1_crec_voice_test.txt,ja (gerechnet)
-77,10/E.11,Title filter captures 48 of 259 granules (19%) with China near a competition term (310 check days),data/ds1_crec_salience.txt,ja (gerechnet)
-78,E.11,301 lists: 83 FR 28710; 83 FR 40823; 83 FR 47974; 84 FR 43304; 89 FR 76581; rates 25/25/10/10/10 per cent at entry,data/raw/fr/ (Texte); data/fr301_lists.py,ja (an den FR-Texten geprueft)
-79,Abstract/1,About ten times as often (2.65 vs 0.25 per million words = 10.6); 800 sitting days 1955-1994,data/ds1_crecb_test.txt,ersetzt durch 83-85 (nicht nach Sektorgroesse bereinigt; Text geaendert)
-80,5/E.11,Korea voice from crossover 0.35 vs 0.04 per million words (5 vs 9 sectors) p=0.016; before p=0.047; 1965-1990 p=0.004,data/ds1_kr_test.txt,ersetzt durch 83-85 (nicht nach Sektorgroesse bereinigt; Text geaendert)
-81,E.11,Korea near competition 0.7 (1955-64) to 2.6 (1985-94) and 6.8 (2005-14) per million words; no break preferred,data/ds1_kr_test.txt; data/tests_sequence.txt,ja (gerechnet)
-82,Abstract,Roughly ten times: JP 2.65/0.25=10.6; KR 0.35/0.04=8.8,data/ds1_crecb_test.txt; data/ds1_kr_test.txt,ersetzt durch 83-85 (nicht nach Sektorgroesse bereinigt; Text geaendert)
-83,4.7,By value Japanese piece goods exports 73% of British in 1935,League of Nations (1945) p. 111,ja (Zahlenauszug)
-84,4.7,Tyszynski textiles JP/UK 0.28 (1929) 0.54 (1937); apparel 0.35 and 1.00,Tyszynski (1951) Tables III and IV pp. 279-280,ja (Zahlenauszug; Anteile gegen Tab. VIII geprueft)
-83,Abstract/1/5/E.11,Sector volume before crossover JP 111 vs 17 per million words p=0.006; KR 62 vs 15 p=0.020 (four to six times),data/ds1_share_test.txt,ja (gerechnet)
-84,5/E.11,Challenger share of sector talk does not separate: JP p=0.11 and 0.51; KR p=0.48 and 0.59,data/ds1_share_test.txt,ja (gerechnet)
-85,5/E.11,China: sector debates 237 vs 148 p=0.15; linked share from crossover 25 vs 20 p=0.22,data/ds1_crec_voice_test.csv (perm_p nachgerechnet),ja (gerechnet)
-86,5/E.11,Volume with controls (22 sectors): l_vol +0.18 perm p=0.025; l_emp p=0.32; l_m_us p=0.40; alone l_vol p=0.009 l_emp p=0.049; group level n=38 n.s.,data/ds1_share_controls.txt,ersetzt durch 87 (nur 22 Sektoren)
-87,5/E.11,All 28 sectors: l_vol +0.18 perm p=0.011; l_emp p=0.33; l_m_us +0.08 p=0.084; alone vol p=0.002 emp p=0.009 imp p=0.007; 63 groups vol p=0.021,data/ds1_share_controls.txt,ja (gerechnet; Kontrollen gegen population_weight.csv abgeglichen)
-88,5/E.11,China 17 sectors: l_vol +0.04 perm p=0.39; with controls l_vol p=0.16; l_m_us -0.24 HC1 p=0.025; groups (330) l_emp +0.61 p=0.010,data/ds1_crec_controls.txt,ja (gerechnet; Kontrollen gegen population_weight.csv abgeglichen)
+61,H,ATC end 1 Jan 2005; WTO 1 Jan 1995; China 11 Dec 2001; Taipei 1 Jan 2002; Viet Nam 11 Jan 2007,wto.org,ja (an der Quelle); MFA-Beginn 1974 nein (zu pruefen)
+62,H,US quotas on Vietnam eliminated effective 11 Jan 2007,FR Doc. 07-65 (10 Jan 2007),ja (an der Quelle)
+63,2/9,Kuziemko & Werker 2006 JPE; Dreher Sturm Vreeland 2009 EER and JDE; Thacker 1999 WP; Barro & Lee 2005 JME; Kentikelenis et al. 2016 RIPE; Stubbs et al. 2020 RIO,Crossref,ja (bibliographische Angaben); Inhalte aus Kenntnis der Literatur (zu pruefen am Text)
+64,9/J,IMF conditions 1989-2014: 1173 programme years 116 countries; UNGA alignment -> participation (+3.14) and conditions (IRR 1.83); UNSC -> financial conditions IRR 0.76; none with country FE,data/conditionality.txt (Stubbs et al. 2020 data),ja (gerechnet)
+65,J,US aid 1980-2011: UNSC seat no effect with country and year FE,data/conditionality.txt (Stubbs et al. 2016 data),ja (gerechnet)
+66,9/J,Challenger programmes: MX 1989/1995; KR 1997 (1998-2000 in data); BR 1998-2004; VN 1994-96 and 2001-02; reach <= 0.023 (KR 1999); MX FCL 2009-14 no conditions 0.02-0.05,data/conditionality_challengers.csv,ja (gerechnet)
+67,9/J,Challengers: external-sector conditions IRR 2.16 vs other programmes; total IRR 0.99,data/conditionality.txt,ja (gerechnet)
+68,10/G,First comprehensive US cotton agreements: HK 1 Oct 1963 (35 cat.); TW 19 Oct 1963; MX 2 Jun 1967; BR 23 Oct 1970; MY 1 Sep 1970 (Pub. 850); TH 16 Mar 1972; first category embargoes HK 3 Mar 1962; TW 23 Jun 1962; MX 10 Aug 1962,Federal Register 1962-1972 (govinfo); USITC Pub. 850,ja (an der Quelle; MY 1970 sekundaer)
+69,10/G,HK and TW agreements 2 and 8 years before crossover (1965; 1971); MX BR MY TH no crossover,data/cases_register_tested.csv,ja (gerechnet)
+70,Tab.3/6.2/8/G,Sectoral broad start IRR 5.8 (2.8-12.0) for the seven economies (with textile agreements),data/cases_panel.txt,ja (gerechnet)
+71,1/9/H,Before 1995: 21 of 25 targeted broad instruments against allies negotiated,data/geopolitics.txt,ja (gerechnet)
+72,G/H,MFA done 20 Dec 1973; in force 1 Jan 1974 (Art. 14(1)); Art. 2(2)-(4) from 1 Apr 1974,USITC Pub. 850 Appendix A (Abdruck),ja (Abdruck; GATT-Original nicht erreichbar)
+73,7.2/I,Japan near competition term: best single break 1980 (BIC -33.8 vs -23.3 none); sample 20 days/yr 1955-1994,data/tests_sequence.txt; data/ds1_crecb_years.csv,ja (gerechnet)
+74,(entfernt),Japan voice from crossover: 2.65 vs 0.25 per million words (6 vs 8 sectors); permutation p=0.004; before crossover p=0.17,data/ds1_crecb_test.txt,ersetzt durch 83-85 und 87; Zahl aus Text und Anhang entfernt (22.11.2026)
+75,7.3/I,China: 10901 of 829186 granules with economic title; peak 399 per 100k words in 2000; no break preferred (BIC),data/ds1_crec_salience.txt; data/tests_sequence.txt,ja (gerechnet)
+76,7.3/I,China sector voice with vs without instrument: p 0.17-0.25 (7 vs 10 sectors); Spearman with 301 lists 1-2 rho=0.06; 2024 review p=0.056,data/ds1_crec_voice_test.txt,ja (gerechnet)
+77,11/I,Title filter captures 48 of 259 granules (19%) with China near a competition term (310 check days),data/ds1_crec_salience.txt,ja (gerechnet)
+78,I,301 lists: 83 FR 28710; 83 FR 40823; 83 FR 47974; 84 FR 43304; 89 FR 76581; rates 25/25/10/10/10 per cent at entry,data/raw/fr/ (Texte); data/fr301_lists.py,ja (an den FR-Texten geprueft)
+79,(entfernt),About ten times as often (2.65 vs 0.25 per million words = 10.6); 800 sitting days 1955-1994,data/ds1_crecb_test.txt,ersetzt durch 83-85 und 87; Zahl aus Text und Anhang entfernt (22.11.2026)
+80,(entfernt),Korea voice from crossover 0.35 vs 0.04 per million words (5 vs 9 sectors) p=0.016; before p=0.047; 1965-1990 p=0.004,data/ds1_kr_test.txt,ersetzt durch 83-85 und 87; Zahl aus Text und Anhang entfernt (22.11.2026)
+81,7.2/I,Korea near competition 0.7 (1955-64) to 2.6 (1985-94) and 6.8 (2005-14) per million words; no break preferred,data/ds1_kr_test.txt; data/tests_sequence.txt,ja (gerechnet)
+82,(entfernt),Roughly ten times: JP 2.65/0.25=10.6; KR 0.35/0.04=8.8,data/ds1_crecb_test.txt; data/ds1_kr_test.txt,ersetzt durch 83-85 und 87; Zahl aus Text und Anhang entfernt (22.11.2026)
+83,Abstract/1/7.2/Tab.4/I,Sector volume before crossover JP 111 vs 17 per million words p=0.006; KR 62 vs 15 p=0.020 (four to six times),data/ds1_share_test.txt,ja (gerechnet)
+84,7.2/Tab.4/I,Challenger share of sector talk does not separate: JP p=0.11 and 0.51; KR p=0.48 and 0.59,data/ds1_share_test.txt,ja (gerechnet)
+85,7.3/Tab.4/I,China: sector debates 237 vs 148 p=0.15; linked share from crossover 25 vs 20 p=0.22,data/ds1_crec_voice_test.csv (perm_p nachgerechnet),ja (gerechnet)
+86,(entfernt),Volume with controls (22 sectors): l_vol +0.18 perm p=0.025; l_emp p=0.32; l_m_us p=0.40; alone l_vol p=0.009 l_emp p=0.049; group level n=38 n.s.,data/ds1_share_controls.txt,ersetzt durch 83-85 und 87; Zahl aus Text und Anhang entfernt (22.11.2026)
+87,7.2/I,All 28 sectors: l_vol +0.18 perm p=0.011; l_emp p=0.33; l_m_us +0.08 p=0.084; alone vol p=0.002 emp p=0.009 imp p=0.007; 63 groups vol p=0.021,data/ds1_share_controls.txt,ja (gerechnet; Kontrollen gegen population_weight.csv abgeglichen)
+88,7.3/I,China 17 sectors: l_vol +0.04 perm p=0.39; with controls l_vol p=0.16; l_m_us -0.24 HC1 p=0.025; groups (330) l_emp +0.61 p=0.010,data/ds1_crec_controls.txt,ja (gerechnet; Kontrollen gegen population_weight.csv abgeglichen)
+89,8/G,By value Japanese piece goods exports 73% of British in 1935,League of Nations (1945) p. 111,ja (Zahlenauszug)
+90,G,Tyszynski textiles JP/UK 0.28 (1929) 0.54 (1937); apparel 0.35 and 1.00,Tyszynski (1951) Tables III and IV pp. 279-280,ja (Zahlenauszug; Anteile gegen Tab. VIII geprueft)
+91,6.3,"Section 301 tariffs 2018 covered 813 of 813 HS groups: 609 displaced, 204 not",data/population_panel.txt,ja (gerechnet)
+92,8,Vietnam overtook US exports in 101 HS groups worth 0.064 of US manuf. exports (2023); Mexico 0.066 (52 groups),data/cases_breadth.csv,ja (gerechnet)
+93,8,None of 283 HS groups overtaken 2009-2023 by TH MY MX VN TW BR drew a targeted sectoral broad instrument (42+36+47+94+40+24),data/cases_panel.txt,ja (gerechnet)
+94,8/G,Register extended by 19 entries B-24 to B-42 (13 + 6 textile agreements),data/broad_register.csv,ja (gezaehlt)
+95,6.3,"Japan: broad instruments in six sectors 1957-1987 (textiles, steel, TV, cars, machine tools, semiconductors)",data/ds1_share_test.txt (measure_ids); data/broad_register.csv,ja (aus Register)
+96,7.3/I,"China: instrument sectors had lower US imports from China at crossover (l_m_us -0.24, HC1 p=0.025); lists 1-2 concentrated on machinery, electronics, vehicles",data/ds1_crec_controls.txt; data/fr301_lists.py,ja (gerechnet)
+97,5,Lags of binding measures: GB before 1914 17-37 years; JP 0-9; CN 0-8,data/ds1_events.csv,ja (gerechnet)
+98,5/C,"Five absorption-phase responses: TV complaint 1968 (IR 2), KR 301 1985 (2), KR agreement 1986 (3), Sullivan speech 2022 (1), BIS controls 2022 (5)",data/ds1_events.csv,ja
