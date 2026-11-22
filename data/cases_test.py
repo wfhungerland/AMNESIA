@@ -25,7 +25,8 @@ OLD = {"JP": 392, "KR": 410, "CN": 156}
 TTBD = {"THA": "TH", "VNM": "VN", "MYS": "MY", "MEX": "MX", "BRA": "BR", "HKG": "HK", "TWN": "TW",
         "JPN": "JP", "KOR": "KR", "CHN": "CN"}
 DATA = {"S1": "s1", "S3": "s3", "HS": "hs4"}
-GLOBAL = {"B-02", "B-17", "B-19"}  # multilateral oder gegen alle Lieferlaender (siehe population_test.py)
+GLOBAL = {"B-02", "B-17", "B-19", "B-34"}  # multilateral oder gegen alle Lieferlaender (siehe population_test.py); B-34 Zoelle gegen alle Partner
+GLOBAL |= {"B-31"}  # Beginn ungeprueft, nicht in der Gefahrenrate
 
 
 def manuf(data, c):

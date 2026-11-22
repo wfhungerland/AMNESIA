@@ -44,6 +44,8 @@ reg = pd.read_csv(D / "broad_register.csv", dtype=str)
 rows = []
 for _, r in reg.iterrows():
     for tgt in r.target.split(";"):
+        if tgt not in SRC:  # weitere Faelle: data/cases_test.py
+            continue
         best = None
         for name, df, col in SRC[tgt]:
             key = {"s1": "codes_s1", "s3": "codes_s3", "hs4": "codes_hs4"}[name]
