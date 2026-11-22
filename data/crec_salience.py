@@ -89,6 +89,8 @@ def main():
 
     S = keep[keep["sample"] & keep.loaded].copy()
     S["china_econ"] = S.mentions_china & S.econ
+    S["china_competition"] = S.china_competition.fillna(False).astype(bool)
+    S["china_comp_econ"] = S.china_competition & S.econ
     a = G.groupby("year").size().rename("granules_all")
     y = E[E.loaded].groupby("year").agg(econ_granules=("granule", "size"), econ_words=("words", "sum"),
                                         econ_china=("mentions_china", "sum"), econ_china_competition=("china_competition", "sum"),
@@ -96,12 +98,15 @@ def main():
                                         mexico_hits=("mexico_hits", "sum"))
     y = y.join(a).join(E.groupby("year").size().rename("econ_titles"))
     y = y.join(S.groupby("year").agg(sample_granules=("granule", "size"), sample_china=("mentions_china", "sum"),
-                                     sample_china_econ=("china_econ", "sum")))
+                                     sample_china_econ=("china_econ", "sum"),
+                                     sample_china_comp=("china_competition", "sum"),
+                                     sample_china_comp_econ=("china_comp_econ", "sum")))
     y["salience_share"] = (y.econ_china / y.econ_granules).round(4)
     y["competition_share"] = (y.econ_china_competition / y.econ_granules).round(4)
     for k in ("china", "japan", "mexico"):
         y[f"{k}_hits_per_100k_words"] = (1e5 * y[f"{k}_hits"] / y.econ_words).round(2)
     y["sample_filter_recall"] = (y.sample_china_econ / y.sample_china).round(3)
+    y["sample_filter_recall_comp"] = (y.sample_china_comp_econ / y.sample_china_comp).round(3)
     y = y.reset_index()
     y.to_csv(D / "ds1_crec_salience.csv", index=False)
 
@@ -123,6 +128,13 @@ def main():
                f"{ke} davon mit Wirtschaftstitel ({100*ke/max(k,1):.0f} %). China-Treffer in der Stichprobe: "
                f"{int(s.china_hits.sum())}, davon in Wirtschaftsdebatten {int(s[s.econ].china_hits.sum())} "
                f"({100*s[s.econ].china_hits.sum()/max(s.china_hits.sum(),1):.0f} %)")
+    kc = int(s.china_competition.sum())
+    kce = int((s.china_competition & s.econ).sum())
+    out.append(f"Pruefstichprobe, China nahe Wettbewerbswort (wirtschaftliche China-Nennung): {kc} Granules, davon "
+               f"{kce} mit Wirtschaftstitel ({100*kce/max(kc,1):.0f} %)")
+    nc = s[s.china_competition & ~s.econ]
+    out.append("Haeufigste Titel verfehlter Granules mit China nahe Wettbewerbswort: " +
+               "; ".join(nc.title.str.upper().str[:50].value_counts().head(12).index))
     nc = s[s.mentions_china & ~s.econ]
     out.append("Haeufigste Titel der verfehlten China-Granules: " +
                "; ".join(nc.title.str.upper().str[:50].value_counts().head(12).index))

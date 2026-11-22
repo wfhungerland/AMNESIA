@@ -16,7 +16,6 @@ Kalenderfenster 2001-2017 (nach dem WTO-Beitritt, vor den Massnahmen von 2018-20
 Ergebnis: data/ds1_crec_sectors.csv (Debatte x Sektor), data/ds1_crec_sector_years.csv (Sektor x Jahr),
 data/ds1_crec_voice_test.csv (Sektor), data/ds1_crec_voice_test.txt
 """
-import itertools
 import re
 import sys
 from pathlib import Path
@@ -26,13 +25,14 @@ import pandas as pd
 
 D = Path(__file__).resolve().parent
 sys.path.insert(0, str(D))
-from crec_filter import FINE, FINE_RX, TWORD, fine_of  # noqa: E402
+from crec_filter import FINE, FINE_RX, SECT_RX, TWORD, fine_of, sector_of  # noqa: E402
 from crec_salience import text, wilson  # noqa: E402
+from crec_stats import perm_p  # noqa: E402
 
 # 1. Debatte x Sektor
 g = pd.read_csv(D / "ds1_crec_granules.csv", usecols=["year", "granule", "loaded"])
 g = g[g.loaded]
-rows = []
+rows, rows_c = [], []
 for yr, gid in zip(g.year, g.granule):
     t = text(gid)
     if t is None:
@@ -44,6 +44,10 @@ for yr, gid in zip(g.year, g.granule):
         if len(si) >= 3:
             near = bool(ti) and any(abs(a - b) <= 30 for a in ti for b in si)
             rows.append({"year": yr, "granule": gid, "sector": k, "sector_words": len(si), "china_near": near})
+    for k, rx in SECT_RX.items():
+        si = [i for i, x in enumerate(w) if rx.match(x)]
+        if len(si) >= 3:
+            rows_c.append({"year": yr, "group": k, "china_near": bool(ti) and any(abs(a - b) <= 30 for a in ti for b in si)})
 S = pd.DataFrame(rows)
 S.to_csv(D / "ds1_crec_sectors.csv", index=False)
 econ = g.groupby("year").size()
@@ -118,22 +122,6 @@ T = pd.DataFrame(T)
 T.to_csv(D / "ds1_crec_voice_test.csv", index=False)
 
 
-def perm_p(x, grp, reps=None):
-    """Exakter Permutationstest (einseitig): Mittelwert der Gruppe True groesser als der Rest."""
-    x, grp = np.asarray(x, float), np.asarray(grp, bool)
-    ok = ~np.isnan(x)
-    x, grp = x[ok], grp[ok]
-    obs = x[grp].mean() - x[~grp].mean()
-    n, k = len(x), grp.sum()
-    cnt = tot = 0
-    for idx in itertools.combinations(range(n), k):
-        m = np.zeros(n, bool)
-        m[list(idx)] = True
-        tot += 1
-        cnt += (x[m].mean() - x[~m].mean()) >= obs - 1e-12
-    return obs, cnt / tot, int(k), int(n - k)
-
-
 out = ["Sektoren (Kreuzung China ueber USA im Welthandel; Massnahme = sektorspezifisches breites Instrument ohne 301-Zoelle 2018)"]
 show = ["sector", "crossover_year", "crossover_censored", "measure_ids", "debates_1995_2025", "china_linked_1995_2025",
         "linked_share_before", "debates_before", "linked_share_after", "debates_after", "voice_pre", "voice_post",
@@ -158,5 +146,50 @@ for col in ["voice_2001_2017", "voice_pre", "voice_post", "china_linked_1995_202
     obs, p, k, n0 = perm_p(T[col], T.measure)
     out.append(f"Test B {col}: Mittel mit Massnahme {T[T.measure][col].mean():.2f} (n={k}), ohne {T[~T.measure][col].mean():.2f} "
                f"(n={n0}); Differenz {obs:+.2f}, exakter Permutationstest einseitig p = {p:.3f}")
+# Robustheit: Reifen (Section 421, 2009) und Textil (Schutzmassnahmen 2005) als Sektoren mit Massnahme.
+# Nicht im Register (Auswahlregel: Section 201 mit Mengengrenzen); das Register bleibt unveraendert.
+T["measure_robust"] = T.measure | T.sector.isin(["tires", "textiles_apparel"])
+for col in ["voice_2001_2017", "voice_pre", "voice_post"]:
+    obs, p, k, n0 = perm_p(T[col], T.measure_robust)
+    out.append(f"Robustheit (Reifen und Textil mit Massnahme) {col}: Differenz {obs:+.2f}, p = {p:.3f} (n={k} gegen {n0})")
+
+# Test C: Abstufung der 301-Zoelle (data/ds1_301_hs4.csv). Anteil der HTS8-Positionen einer HS4-Gruppe auf
+# den Listen 1 und 2 (25 % ab Juli/August 2018) und Erhoehung in der Ueberpruefung 2024.
+from scipy.stats import spearmanr  # noqa: E402
+import statsmodels.formula.api as smf  # noqa: E402
+L = pd.read_csv(D / "ds1_301_hs4.csv", dtype={"hs4": str})
+L = L[L.lines > 0]
+fs = []
+for k in FINE:
+    z = L[[fine_of("hs4", c) == k for c in L.hs4]]
+    fs.append({"sector": k, "share_12": z.share_12.mean() if len(z) else np.nan,
+               "review2024": bool(z.review2024.any()) if len(z) else np.nan})
+T = T.merge(pd.DataFrame(fs), on="sector", how="left")
+T.to_csv(D / "ds1_crec_voice_test.csv", index=False)
+for col in ["voice_2001_2017", "voice_pre"]:
+    z = T[[col, "share_12"]].dropna()
+    r, p = spearmanr(z[col], z.share_12)
+    out.append(f"Test C Feinsektoren: Spearman {col} mit Anteil Listen 1+2: rho = {r:+.2f}, p = {p:.3f}, n = {len(z)}")
+obs, p, k, n0 = perm_p(T.voice_2001_2017, T.review2024.fillna(False).astype(bool))
+out.append(f"Test C Feinsektoren: voice_2001_2017 mit Erhoehung 2024 {T[T.review2024==True].voice_2001_2017.mean():.2f} "
+           f"(n={k}), ohne {T[T.review2024!=True].voice_2001_2017.mean():.2f} (n={n0}); p = {p:.3f}")
+
+# Gleiches auf Ebene der Warengruppen (verdraengte HS4-Gruppen aus population_weight.csv), Aufmerksamkeit der
+# groben Sektorgruppe (crec_filter.SECT) 2001-2017; Standardfehler nach Gruppe geclustert.
+CS = pd.DataFrame(rows_c)
+w0 = CS[(CS.year >= 2001) & (CS.year <= 2017)].groupby("group").china_near.sum()
+v = (1000 * w0 / econ[(econ.index >= 2001) & (econ.index <= 2017)].sum()).rename("voice_group")
+H = pw[pw.data == "hs4"].copy()
+H["group"] = [sector_of("hs4", c) for c in H.code]
+H = H.merge(L[["hs4", "share_12", "review2024"]], left_on="code", right_on="hs4", how="left").merge(
+    v, left_on="group", right_index=True, how="left").dropna(subset=["group", "share_12", "voice_group"])
+H["review2024"] = H.review2024.fillna(False).astype(int)
+H["l_voice"] = np.log1p(H.voice_group)
+for f in ["share_12 ~ l_voice", "share_12 ~ l_voice + l_m_us + l_emp"]:
+    m = smf.ols(f, H.dropna(subset=["l_m_us", "l_emp"])).fit(cov_type="cluster", cov_kwds={"groups": H.dropna(subset=["l_m_us", "l_emp"]).group})
+    out.append(f"Test C HS4 (verdraengt, n={int(m.nobs)}, {H.group.nunique()} Gruppen): {f}: l_voice {m.params.l_voice:+.3f} "
+               f"(p={m.pvalues.l_voice:.3f})" + (f"; l_m_us {m.params.l_m_us:+.3f} (p={m.pvalues.l_m_us:.3f})" if "l_m_us" in f else ""))
+out.append("   Gruppenmittel: " + "; ".join(f"{gk} voice {gv.voice_group.iloc[0]:.1f}, Listen 1+2 {gv.share_12.mean():.2f}, 2024 {gv.review2024.mean():.2f}"
+                                       for gk, gv in H.groupby("group")))
 (D / "ds1_crec_voice_test.txt").write_text("\n".join(out) + "\n", encoding="utf-8")
 print("\n".join(out))

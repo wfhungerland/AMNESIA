@@ -108,3 +108,34 @@ def fine_of(data, code):
         if any(code.startswith(p) for p in (hs if data == "hs4" else s3)):
             return k
     return None
+
+
+# Fall Japan im gebundenen Record (crecb_salience.py): Zielland, Vergleichslaender, Sektoren mit SITC Rev. 1.
+JWORD = re.compile(r"^(japan|japanese|japan's)$", re.I)
+GWORD = re.compile(r"^(germany|german|germany's)$", re.I)
+CWORD = TWORD
+JP_FINE = {
+    "textiles": (r"^(textile|textiles|apparel|cotton|wool|woolen|yarn|fabric|fabrics|garment|garments|clothing)$", ["65", "841"]),
+    "steel": (r"^(steel|steelworkers|steelmakers|steelmaking)$", ["67"]),
+    "televisions": (r"^(television|televisions|tv|tvs)$", ["724"]),
+    "cars": (r"^(automobile|automobiles|automaker|automakers|cars|autos|motorcycles)$", ["732"]),
+    "semiconductors": (r"^(semiconductor|semiconductors|chip|chips|microchip|microchips)$", ["729"]),
+    "machine_tools": (r"^(machine-tool|machine-tools)$", ["715"]),
+    "ships": (r"^(shipbuilding|shipyard|shipyards|shipbuilders)$", ["735"]),
+    "footwear": (r"^(footwear|shoe|shoes)$", ["851"]),
+    "cameras": (r"^(camera|cameras|optical)$", ["861"]),
+    "toys": (r"^(toy|toys)$", ["894"]),
+    "glass_ceramics": (r"^(glass|glassware|ceramic|ceramics|pottery|chinaware|tile|tiles)$", ["664", "665", "666"]),
+    "bearings": (r"^(bearings|ball-bearings)$", ["719"]),
+    "tires": (r"^(tire|tires|tyre|tyres)$", ["629"]),
+    "plywood": (r"^(plywood|veneer)$", ["631"]),
+}
+JP_FINE_RX = {k: re.compile(v[0], re.I) for k, v in JP_FINE.items()}
+
+
+def jp_fine_of(code):
+    code = str(code)
+    for k, (_, pre) in JP_FINE.items():
+        if any(code.startswith(p) for p in pre):
+            return k
+    return None
