@@ -15,7 +15,7 @@ a.plot(y.year, y.china_hits_per_100k_words, color=LINE, lw=1.6, label="China")
 a.plot(y.year, y.japan_hits_per_100k_words, color=LINE2, lw=1.2, label="Japan")
 a.plot(y.year, y.mexico_hits_per_100k_words, color=LINE2, lw=1.2, ls="--", label="Mexico")
 top = a.get_ylim()[1]
-for x, lab in [(2001, "WTO accession"), (2010, "manufacturing milestone"), (2018, "Section 301 tariffs")]:
+for x, lab in [(2001, "WTO\naccession"), (2010, "manufacturing\nmilestone"), (2018, "Section 301\ntariffs")]:
     a.axvline(x, color=MUTED, lw=0.8, ls=":")
     a.text(x + 0.3, top * 0.97, lab, va="top", color=MUTED, fontsize=7.5)
 a.set_title("Mentions per 100,000 words of economic debate, US Congress", loc="left", fontsize=9, color=INK)

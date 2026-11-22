@@ -114,7 +114,7 @@ def main(a=1960, b=1994):
         if n[0] % 100 == 0:
             print("  geladen", n[0], flush=True)
 
-    with ThreadPoolExecutor(4) as ex:
+    with ThreadPoolExecutor(12) as ex:
         list(ex.map(job, todo))
     print("fertig", flush=True)
 

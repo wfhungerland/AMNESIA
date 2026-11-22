@@ -86,7 +86,8 @@ FINE = {
     "washers": (r"^(washers|washing)$", ["8450"], ["775"]),
     "telecom": (r"^(huawei|zte|telecommunications|telecom|5g|routers)$", ["8517"], ["764"]),
     "semiconductors": (r"^(semiconductor|semiconductors|chip|chips|microchip|microchips|chipmakers)$", ["8542", "8486"], ["776"]),
-    "cars": (r"^(automobile|automobiles|automaker|automakers|cars|autos|vehicle|vehicles|ev|evs)$", ["8703"], ["781"]),
+    # "vehicle" faellt weg ("legislative vehicle"); "electric vehicle(s)" wird vorher zu einem Wort verbunden.
+    "cars": (r"^(automobile|automobiles|automaker|automakers|automotive|cars|autos|ev|evs|electric-vehicle|electric-vehicles)$", ["8703"], ["781"]),
     "furniture": (r"^(furniture|bedroom|mattress|mattresses)$", ["9401", "9403", "9404"], ["821"]),
     "textiles_apparel": (r"^(textile|textiles|apparel|garment|garments|clothing|yarn|fabric|fabrics)$",
                          [str(i) for i in range(50, 64)], ["65", "84"]),

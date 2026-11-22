@@ -108,9 +108,8 @@ def main():
     T = []
     for k in JP_FINE:
         z = cr[cr.sector == k]
-        unc = z[~z.left_censored]
-        cy = int(unc.crossover_year.min()) if len(unc) else (int(z.crossover_year.min()) if len(z) else None)
-        cens = not len(unc) and bool(len(z))
+        cy = int(z.crossover_year.min()) if len(z) else None
+        cens = bool(len(z)) and bool(z[z.crossover_year == cy].left_censored.any())
         ms = sorted((int(r.year), r.instrument_id) for _, r in reg.iterrows()
                     if any(jp_fine_of(c) == k for c in str(r.codes_s1).split(";")))
         s = SY[SY.sector == k].set_index("year")
