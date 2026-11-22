@@ -19,8 +19,8 @@ nr,section,claim,source,checked
 18,5,64K DRAM 1981; SIA petition 1985; agreement 1986; tariffs 1987 300m USD,Germany Shock note; Reagan Library,im Material geprueft
 19,5/12,Binding lags Japan 0 to 9 years,ds1_events.csv,ja
 20,5,Section 301 Korea 1985; IP agreement 1986; AD 1993; CVD 2003; WTO 2018/2020,Reagan Library; 58 FR 27520; USITC 3616; WTO,"ja an der Quelle 23.11.2026 (51 FR 29445; 58 FR 15467, 27520; 68 FR 47546; USITC Pub. 3616); AD-Saetze im Datensatz korrigiert (0.82-11.16 %)"
-21,5,China manufacturing above US 2010,AEI (2011) / IHS,ungeprueft
-22,5/10,BIS controls 7.10.2022; SMIC 7nm 2023,87 FR 62186; TechInsights (2023),BIS 87 FR 62186 an der Quelle (wirksam 7.10.2022); SMIC 7nm (TechInsights) ungeprueft
+21,5,China manufacturing above US 2010,AEI (2011) / IHS; World Bank WDI NV.IND.MANF.CD,"ja an der Quelle 23.11.2026 (WDI: 2010 China 1.92 Bio. USD, USA 1.79 Bio. USD; 2009 China darunter)"
+22,5/10,BIS controls 7.10.2022; SMIC 7nm 2023,87 FR 62186; USCC 2023 Annual Report; CHRG-118hhrg59483,"ja an der Quelle 23.11.2026 (BIS wirksam 7.10.2022; USCC 2023: Kirin 9000s von SMIC, 7 nm, Sep 2023); N+2 und TechInsights-Seite ungeprueft"
 23,5/C,Export rule: 28 post; 3 undetermined; 9 not measurable; 1 before,ds1_events.csv,ja
 24,5/C,China EV exports 32.0 vs Germany 41.1 bn USD (2024),UN Comtrade HS 870380,ja (Abruf 21.11.2026)
 25,7.1/E,Germany mentions 14/20/44 per 100k words; share 3.3%->8.8%,ds1_hansard_salience.csv,ja
