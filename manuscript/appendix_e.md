@@ -335,14 +335,55 @@ Sector debate: economic granule with at least three sector terms; China linked: 
 
 The Section 301 lists come from the Federal Register: list 1, 83 FR 28710 (Annex A, 817 lines read); list 2, 83 FR 40823 (283); list 3, 83 FR 47974 (5,748); lists 4A and 4B, 84 FR 43304 (3,233 and 550); four-year review, 89 FR 76581 (Annex A, 387 of 389 lines; 11 of 14 product groups identified because three share lines with others). The counts differ by a few lines from USTR's totals because some codes also occur in the notes.
 
-%JAPAN%
+**Japan: data.** Before 1995 the Record exists in machine-readable form only as the bound edition (collection CRECB), one PDF with a text layer per sitting day and chamber, without debate titles. We draw 20 random sitting days per year from 1955 to 1994 (seed fixed in the code; 800 days, House, Senate and Extensions of Remarks) and read the full text (pdftotext). Without titles there is no economic filter: the measure counts the places where *Japan* or *Japanese* stands within 30 words of a competition term or a sector term, per million words of the whole day. For comparison the same measure is computed for China on the 310 check days of the daily Record (1995–2025). In all, 279 million words.
+
+**Table E15. Japan and China near a competition term on sampled sitting days of Congress, per million words**
+
+| Period | Japan, mentions per 100,000 words | Japan near a competition term | China near a competition term |
+|---|---|---|---|
+| 1955–1964 | 11.2 | 8.2 | 2.6 |
+| 1965–1974 | 12.1 | 6.1 | 1.8 |
+| 1975–1984 | 13.1 | 8.9 | 2.4 |
+| 1985–1994 | 21.0 | 21.9 | 3.4 |
+| 1995–2004 | 6.3 | 4.9 | 19.9 |
+| 2005–2014 | 4.3 | 1.4 | 14.8 |
+| 2015–2025 | 5.4 | 1.8 | 16.5 |
+
+Japan as a competitor stays at a low, steady level through the 1960s and 1970s, when Japanese textiles, steel and television sets overtook American exports, and rises in the 1980s. A break search on log(1 + Japan near a competition term) places the single best break in 1980, the year of the car milestone (BIC −33.8 against −23.3 without a break); with two breaks, 1964 and 1980. The sample-day series for China prefers no break. On this common measure, congressional attention to China as a competitor after 1995 was of the same order as attention to Japan in the late 1980s, and it was already high in the first years of the series (PNTR, 2000), before most Chinese crossovers.
+
+**Table E16. Japan in congressional sector debates and broad American instruments against Japan, by sector (sampled days, per million words)**
+
+| Sector | Crossover (SITC Rev. 1) | Broad instrument (register) | Voice, five years before crossover | Voice, five years from crossover | Voice 1960–1975 |
+|---|---|---|---|---|---|
+| Textiles and apparel | ≤1962 | B-01, B-02, B-04 (from 1957) | 13.65 | 1.95 | 4.39 |
+| Steel | ≤1962 | B-03, B-05, B-09, B-12, B-13, B-17 (from 1969) | 2.20 | 3.66 | 2.80 |
+| Television sets | 1965 | B-07, B-16 (from 1977) | 0.63 | 0.41 | 0.88 |
+| Cars and motorcycles | 1977 | B-10, B-11 (from 1981) | 1.16 | 5.69 | 1.26 |
+| Semiconductors | 1989 | B-14, B-16 (from 1986) | 5.55 | 3.85 | 0.06 |
+| Machine tools | 1977 | B-15 (from 1986) | 0.17 | 0.32 | 0.11 |
+| Ships | ≤1962 | – | 0.47 | 0.24 | 0.48 |
+| Footwear | ≤1962 | – | 0.21 | 0.62 | 0.71 |
+| Cameras and optics | 1977 | – | 0.03 | 0.25 | 0.20 |
+| Toys | ≤1962 | – | 0.21 | 0.10 | 0.09 |
+| Glass and ceramics | ≤1962 | – | 0.63 | 0.43 | 0.55 |
+| Ball bearings | 1986 | – | 0.00 | 0.11 | 0.01 |
+| Tyres | 1969 | – | 0.16 | 0.12 | 0.13 |
+| Plywood | ≤1962 | – | 12.07 | 0.14 | 0.22 |
+
+Voice: places where Japan stands within 30 words of a sector term, per million words of the sampled days. Crossover: earliest year in which Japanese world exports in a group of the sector reached American exports (≤: in the first data year, 1962). Instruments from data/broad_register.csv.
+
+**Tests, Japan.** The six sectors that drew a broad instrument against Japan had more congressional attention to Japan than the eight displaced sectors that did not: in the five years from the crossover 2.65 against 0.25 per million words (exact one-sided permutation test, p = 0.004), in the fixed window 1960–1975 1.58 against 0.30 (p = 0.022). In the five years before the crossover the difference is smaller and not significant (3.89 against 1.72, p = 0.17), and it rests on textiles and plywood, both debated in the late 1950s; in textiles the first restraint (1957) preceded the crossover. Voice rises after the crossover in four of the seven sectors with an uncensored crossover. Attention in Congress thus separates the displaced Japanese sectors that met broad constraint from those that did not, and it does so mainly after displacement. With six and eight sectors, and sector terms that capture some unrelated uses (*glass*, *chips*), the test is coarse.
+
+**Limits of the congressional measures.** The sample of days is small for sector counts in single years; the text layer of the bound Record contains OCR errors and runs adjacent columns together, which blurs the 30-word window, though the share of common function words is similar in 1958, 1970 and 1985 (0.30, 0.29 and 0.28 of all tokens in five days each), so the noise does not appear to change over time; the daily Record's title filter misses most economic discussion of China (above); and the voice measures count attention to the challenger in a sector, not lobbying or votes.
+
 
 ## E.8 Limitations
 
 1. **Second coder.** All IR scores currently come from one coder. Inter-coder agreement (Krippendorff's α, ordinal) will be reported here.
-2. **Parliamentary check only for Britain.** Machine-readable full text of the US Congressional Record before 1994 is not openly available; the Japanese and Korean cases rest on the coded instruments alone.
+2. **Congressional check.** The daily Congressional Record (1995–2025) is measured in full under a title filter; before 1995 only a sample of 20 sitting days per year of the bound Record (1955–1994) is used (E.11). Korea has no congressional measure yet.
 3. **Milestone sources.** The Japanese steel milestone (1969, largest exporter) rests on a single secondary source; the voluntary restraint arrangement took effect in the same year (lag 0). Several Chinese milestones depend on the chosen measure (telecom equipment: revenue 2012 or equipment sales 2017).
-4. **Title filter.** Economic debates are identified by title. Debates on economic matters under other titles, for example within question time, are missed.
+4. **Title filter.** Economic debates are identified by title. Debates on economic matters under other titles, for example within question time, are missed. In the Congressional Record the filter captures only 19 per cent of granules in which China appears near a competition term (E.11).
+5. **Register rule.** The register includes Section 201 safeguards only if they ended in quantity limits or orderly marketing agreements. The China-specific Section 421 tyre safeguard of 2009 and the textile safeguards of 2005 are therefore not in it; counting them changes the congressional sector test little (E.11).
 
 ## References
 
