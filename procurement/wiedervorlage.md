@@ -9,7 +9,7 @@ Stand 21.11.2026. Jeder Posten nennt, wofür er gebraucht wird, woran er scheite
 | 3 | UK Data Service ReShare (reshare.ukdataservice.ac.uk) | CAMPOP-Datensätze, sobald dort abgelegt | Host nicht freigegeben | Host freigeben, Registrierung nötig | offen |
 | 4 | hansard.parliament.uk (neues Hansard) | nur nötig für Debatten nach 2005 | Seite antwortet 403 | entfällt für 1850–1914; altes Archiv api.parliament.uk reicht | ruht |
 | 5 | US Congressional Record vor 1994 im Volltext | Parlamentsmessung für Japan und Korea | govinfo hat ältere Bände nur als Scan | ProQuest Congressional (Bibliothek, Abo) | offen |
-| 6 | US Congressional Record ab 1995 (api.govinfo.gov) | Parlamentsmessung für China | erreichbar; für viele Abrufe Schlüssel von api.data.gov nötig | kostenlosen Schlüssel beantragen, über das Formular in der Sitzung hinterlegen | bereit |
+| 6 | US Congressional Record ab 1995 (api.govinfo.gov) | Parlamentsmessung für China | erreichbar; für viele Abrufe Schlüssel von api.data.gov nötig | kostenlosen Schlüssel beantragen, über das Formular in der Sitzung hinterlegen | erledigt (22.11.2026: Schlüssel als Network secret, Header X-Api-Key; Test erfolgreich) |
 | 7 | Total Economy Database (Conference Board) | TFP China ab 2020 | Host gesperrt | entfällt, PWT 11.0 reicht bis 2023 | erledigt |
 | 8 | Board of Trade, Annual Statement of Trade (UK) | genaues Jahr, in dem Rübenzucker den Rohrzucker in britischen Einfuhren überholt | nicht online gefunden | Bibliothek; oder Hungerland/Wolf (2022) für deutsche Zuckerausfuhren ab 1880 | offen |
 | 9 | International Iron and Steel Institute, Exportstatistik | Japans Stahl-Meilenstein 1969 an zweiter Quelle prüfen | nicht online gefunden | Bibliothek | offen |
