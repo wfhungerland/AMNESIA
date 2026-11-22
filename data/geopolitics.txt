@@ -1,12 +1,12 @@
 Art der Massnahme nach Buendnis und Epoche (ohne 'mixed')
 
-register: 55 Instrument-Ziel-Paare
+register: 61 Instrument-Ziel-Paare
 mode                                 negotiated  unilateral
 era           defense_pact                                 
 ab 1995 (WTO) Verteidigungsbuendnis           0          10
               kein Buendnis                   1          10
-vor 1995      Verteidigungsbuendnis          22           4
-              kein Buendnis                   3           1
+vor 1995      Verteidigungsbuendnis          26           4
+              kein Buendnis                   4           1
 
 response: 19 Instrument-Ziel-Paare
 mode                                 negotiated  unilateral
@@ -19,8 +19,8 @@ register, nur gezielte und handelspolitisch begruendete Instrumente (ohne global
 mode                                 negotiated  unilateral
 era           defense_pact                                 
 ab 1995 (WTO) kein Buendnis                   1           4
-vor 1995      Verteidigungsbuendnis          17           4
-              kein Buendnis                   1           1
+vor 1995      Verteidigungsbuendnis          21           4
+              kein Buendnis                   2           1
 Ziele ab 1995: B-20 CN, B-21 CN, B-22 CN, B-23 CN, B-30 VN
 
 Technologieverweigerung (denial) und Massnahmen vor der Verdraengung, mit Lage der Dyade
@@ -32,6 +32,8 @@ register    B-04         KR        US  1971      4 negotiated absorption        
 register    B-14         JP        US  1986      4 negotiated absorption           1.0          1.492       0.368
 register    B-17         CN        US  2002      4 unilateral absorption           0.0          3.601       0.999
 register    B-30         VN        US  2003      4 negotiated absorption           0.0          4.341       0.053
+register    B-37         HK        US  1963      4 negotiated absorption           NaN            NaN         NaN
+register    B-38         TW        US  1963      4 negotiated absorption           1.0          0.987       0.032
 
 UNGA-Abstand und CINC-Verhaeltnis im Meilensteinjahr (Median je Fall)
                       cinc_ratio  unga_distance  defense_pact

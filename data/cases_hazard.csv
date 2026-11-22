@@ -3,7 +3,7 @@ TH,s1,661,1997,False,False,False,False,False
 TH,s1,666,1993,False,False,False,False,False
 TH,s1,687,1966,False,False,False,False,False
 TH,s1,831,1987,False,False,False,False,False
-TH,s1,841,1987,False,False,False,False,False
+TH,s1,841,1987,False,False,False,False,True
 TH,s1,851,1989,False,False,False,False,False
 TH,s1,864,1992,False,False,False,False,False
 TH,s3,661,1997,False,False,False,False,False
@@ -194,7 +194,7 @@ MY,hs4,9108,2019,False,False,False,False,False
 MY,hs4,9110,2021,False,False,False,False,False
 MY,hs4,9507,2019,False,False,False,False,False
 MY,hs4,9617,2013,False,False,False,False,False
-MX,s1,656,1999,False,False,False,False,False
+MX,s1,656,1999,False,False,False,False,True
 MX,s1,661,1984,False,False,False,False,False
 MX,s1,672,1994,False,False,False,False,True
 MX,s1,685,1974,False,False,False,False,False
@@ -298,7 +298,7 @@ BR,hs4,8802,2009,False,False,False,False,False
 BR,hs4,8902,2023,False,True,False,False,False
 BR,hs4,8905,2023,False,True,False,False,False
 BR,hs4,9303,2017,False,True,False,False,False
-HK,s1,652,1981,False,True,False,True,False
+HK,s1,652,1981,False,True,False,True,True
 HK,s1,725,1984,False,True,False,True,False
 HK,s1,831,1972,False,False,False,False,False
 HK,s1,842,1978,False,True,False,True,False
@@ -311,12 +311,12 @@ HK,hs4,7108,2016,False,True,False,False,True
 TW,s1,611,1992,False,False,False,False,True
 TW,s1,612,1981,False,True,False,True,False
 TW,s1,632,1977,False,False,False,False,False
-TW,s1,651,1986,False,True,False,True,False
-TW,s1,652,1982,False,True,False,True,False
+TW,s1,651,1986,False,True,False,True,True
+TW,s1,652,1982,False,True,False,True,True
 TW,s1,653,1983,False,True,False,True,False
 TW,s1,654,1987,False,True,False,True,False
 TW,s1,655,1991,False,False,False,False,True
-TW,s1,656,1985,False,True,False,True,False
+TW,s1,656,1985,False,True,False,True,True
 TW,s1,661,1982,False,True,False,True,False
 TW,s1,666,1977,False,False,False,False,False
 TW,s1,672,1983,False,True,False,True,False
@@ -328,7 +328,7 @@ TW,s1,733,1984,False,True,False,True,False
 TW,s1,812,1985,False,True,False,True,False
 TW,s1,821,1983,False,True,False,True,False
 TW,s1,831,1973,False,False,False,False,False
-TW,s1,841,1970,False,False,False,False,False
+TW,s1,841,1970,False,False,False,False,True
 TW,s1,851,1970,False,True,True,True,False
 TW,s1,864,1977,False,False,False,False,False
 TW,s1,894,1981,False,True,False,True,False

@@ -207,7 +207,7 @@ The same rules as in E.4 are applied to eight further dyads. Code: `data/cases_f
 | Thailand | HS | 0.014 (2023) | 0.016 (2022) |
 | Brazil | SITC 1 / HS | 0.007 (1984), 0.008 (2023) | 0.011 (2013) |
 
-**Register.** Thirteen entries (B-24 to B-36 in `data/broad_register.csv`), each with its primary source: footwear OMA with Taiwan, June 1977 (Proclamation 4510); colour-television OMA with Taiwan, 1979 (Proclamation 4634); steel VRAs with Brazil and Mexico, 1984 (Moore 1996, Table 2.8); machine-tool VRA with Taiwan, 1987 (Dinopoulos and Kreinin 1991); 100 per cent tariffs on Brazilian goods, October 1988 (Proclamation 5885); GSP graduation of Hong Kong and Taiwan, 1989 (Proclamation 5805); US–Vietnam textile agreement, May 2003 (FR Doc. 03-12314); MFA/ATC quotas on Taiwan, Hong Kong, Thailand, Malaysia, Brazil and Mexico (in force 1994–2004 by Federal Register notices; start dates not verified, so excluded from the hazard); end of Hong Kong's differential treatment, 2020 (EO 13936); IEEPA tariffs on Mexico (EO 14194), all partners (EO 14257, 14326), Brazil (EO 14323) and Hong Kong (EO 14257), 2025. Instruments against these economies before 1990 in textiles (Short-Term and Long-Term Arrangements, early MFA bilaterals) could not be verified at a primary source and are not coded.
+**Register.** Thirteen entries (B-24 to B-36 in `data/broad_register.csv`), each with its primary source: footwear OMA with Taiwan, June 1977 (Proclamation 4510); colour-television OMA with Taiwan, 1979 (Proclamation 4634); steel VRAs with Brazil and Mexico, 1984 (Moore 1996, Table 2.8); machine-tool VRA with Taiwan, 1987 (Dinopoulos and Kreinin 1991); 100 per cent tariffs on Brazilian goods, October 1988 (Proclamation 5885); GSP graduation of Hong Kong and Taiwan, 1989 (Proclamation 5805); US–Vietnam textile agreement, May 2003 (FR Doc. 03-12314); MFA/ATC quotas on Taiwan, Hong Kong, Thailand, Malaysia, Brazil and Mexico (in force 1994–2004 by Federal Register notices; start dates not verified, so excluded from the hazard); end of Hong Kong's differential treatment, 2020 (EO 13936); IEEPA tariffs on Mexico (EO 14194), all partners (EO 14257, 14326), Brazil (EO 14323) and Hong Kong (EO 14257), 2025. Six further entries (B-37 to B-42) date the first comprehensive US cotton textile agreement with each economy from Federal Register notices: Hong Kong (35 categories, from 1 October 1963), Taiwan (19 October 1963), Mexico (2 June 1967), Brazil (23 October 1970), Malaysia (1 September 1970; USITC Pub. 850, p. 50) and Thailand (16 March 1972). Earlier restraints on single categories (Hong Kong from 3 March 1962, Taiwan from 23 June 1962, Mexico from 10 August 1962, Brazil from October 1963, Malaysia from August 1966, Thailand requested April 1971) are recorded in the notes and scored IR 3. The MFA itself was done at Geneva on 20 December 1973 and entered into force on 1 January 1974 (Article 14(1); text reproduced in USITC Pub. 850, Appendix A).
 
 **Table E8. Broad instruments against the further cases and the crossover of the groups they covered**
 
@@ -220,12 +220,14 @@ The same rules as in E.4 are applied to eight further dyads. Code: `data/cases_f
 | Machine-tool VRA 1986 | Taiwan | 4 | none | extension of instrument against Japan |
 | Section 301 tariffs 1988 | Brazil | 4 | none | retaliation over patents |
 | GSP graduation 1989 | Hong Kong, Taiwan | 4 (doubtful) | none (economy-wide) | rule-based |
+| Cotton textile agreements 1963 | Hong Kong; Taiwan | 4 | 1965; 1971 | absorption (2 and 8 years) |
+| Cotton textile agreements 1967–1972 | Mexico; Brazil; Malaysia; Thailand | 4 | none | restraint without displacement |
 | Textile agreement 2003 | Vietnam | 4 | 2006 (apparel, SITC 84) | absorption (3 years) |
 | HK differential treatment 2020 | Hong Kong | 5 | none | political |
 | IEEPA tariffs 2025 | Mexico; Brazil; Hong Kong | 5 | none (economy-wide) | political |
 | Reciprocal tariffs 2025 | all partners | 5 | none (economy-wide) | global, deficit-based |
 
-**Hazard and control group.** Groups whose crossover is not in the first data year, and the share followed within ten years by a targeted sectoral broad instrument (without GSP graduation and without politically motivated measures): Taiwan SITC 1, 1 of 24; Brazil SITC 1, 4 of 9 (steel); Hong Kong SITC 1, 0 of 9; Vietnam SITC 3, 2 of 5 (apparel, quota of 2003 one year after the two groups crossed); Thailand, Malaysia, Mexico, Vietnam, Taiwan and Brazil in HS (2009–2023): 0 of 283. Panel of 3,702 group series: targeted sectoral broad instruments begin at 0.03 per 100 group-years before and 0.10 after the crossover (rate ratio 6.25, 95 % interval 2.76–14.18; year × source effects, clustered by group). With GSP graduation the ratio falls to 1.24 (1.04–1.49), because graduation covered all groups at once. AD/CVD cases (TTBD, 1988–2015) per 100 group-years rise from 0.97 to 1.98 after the crossover, but not once export size is held constant (rate ratio 1.29, 0.70–2.40), the same result as for Japan, Korea and China (E.4).
+**Hazard and control group.** Groups whose crossover is not in the first data year, and the share followed within ten years by a targeted sectoral broad instrument (without GSP graduation and without politically motivated measures): Taiwan SITC 1, 1 of 24; Brazil SITC 1, 4 of 9 (steel); Hong Kong SITC 1, 0 of 9; Vietnam SITC 3, 2 of 5 (apparel, quota of 2003 one year after the two groups crossed); Thailand, Malaysia, Mexico, Vietnam, Taiwan and Brazil in HS (2009–2023): 0 of 283. Panel of 3,702 group series: targeted sectoral broad instruments begin at 0.07 per 100 group-years before and 0.12 after the crossover (rate ratio 5.83, 95 % interval 2.84–11.95; year × source effects, clustered by group). With GSP graduation the ratio falls to 1.33 (1.07–1.65), because graduation covered all groups at once. AD/CVD cases (TTBD, 1988–2015) per 100 group-years rise from 0.97 to 1.98 after the crossover, but not once export size is held constant (rate ratio 1.29, 0.70–2.40), the same result as for Japan, Korea and China (E.4).
 
 **Japan against Britain.** Milestone 1932 (British India import market, Hansard 4 July 1934: Japan 551.9, UK 541.9 million yards). Seven responses (`data/ds1_responses.csv`, R-JPGB-01 to 07), all checked at Historic Hansard; two before the milestone (economic mission 1930, IR 2; Indian differential duty 1930, IR 3), five from the milestone onwards, including all four with IR 4. These are reported separately and do not enter the core counts of 41 responses.
 
@@ -252,8 +254,8 @@ Code: `data/geopolitics.py` (output `data/geopolitics.txt`, `data/geopolitics_in
 
 | Period | Defence pact with the US | Negotiated | Unilateral |
 |---|---|---|---|
-| before 1995 | yes (Japan, Korea, Taiwan to 1980, Brazil, Mexico) | 17 | 4 (B-09, B-11, B-16, B-28) |
-| before 1995 | no (Taiwan after 1980) | 1 | 1 |
+| before 1995 | yes (Japan, Korea, Taiwan to 1980, Brazil, Mexico, Thailand) | 21 | 4 (B-09, B-11, B-16, B-28) |
+| before 1995 | no (Taiwan after 1980, Malaysia) | 2 | 1 |
 | from 1995 | yes | 0 | 0 |
 | from 1995 | no (China, Vietnam) | 1 (B-30) | 4 (B-20 to B-23) |
 
@@ -277,14 +279,14 @@ UN distance to the United States, mean 2009–2023: Japan 1.73, Korea 1.64, Mexi
 |---|---|---|
 | 1947 | GATT: Article VI (antidumping, countervailing duties), Article XIX (safeguards) | product remedies and safeguards legal; quantity limits only as exceptions |
 | 1961–1962 | Short-Term and Long-Term Arrangements on cotton textiles | negotiated quotas on low-wage suppliers before displacement |
-| early 1970s–1994 | Multifibre Arrangement (bilateral quotas, outside non-discrimination) | same, for all fibres |
+| 1 Jan 1974–1994 | Multifibre Arrangement (bilateral quotas, outside non-discrimination) | same, for all fibres |
 | 1 Jan 1995 | WTO; Agreement on Safeguards, Article 11.1(b): no voluntary export restraints or orderly marketing arrangements | negotiated sectoral restraints outlawed; sectoral responses become AD/CVD and global safeguards |
 | 1 Jan 1995 | TRIPS, TRIMs, Agreement on Subsidies | rules constrain the challenger's industrial policy (Wade 2003) |
 | 1995–1 Jan 2005 | Agreement on Textiles and Clothing | MFA quotas phased out; ended 1 Jan 2005 |
 | 11 Dec 2001 | China joins WTO (Chinese Taipei 1 Jan 2002) | China and Taiwan under WTO rules on safeguards |
 | 11 Jan 2007 | Viet Nam joins WTO | US quotas on Vietnamese textiles and apparel eliminated with effect from 11 Jan 2007 (FR Doc. 07-65) |
 
-Sources: WTO, Agreement on Safeguards (legal text 25-safeg.pdf); WTO, "Textiles: back in the mainstream" (texintro_e.htm); WTO, completed accessions (completeacc_e.htm); WTO, Viet Nam accession page. The entry into force of the MFA (signed 20 December 1973; 1 January or 1 April 1974 depending on the source) is not yet checked at a primary source.
+Sources: WTO, Agreement on Safeguards (legal text 25-safeg.pdf); WTO, "Textiles: back in the mainstream" (texintro_e.htm); WTO, completed accessions (completeacc_e.htm); WTO, Viet Nam accession page. MFA: done at Geneva 20 December 1973, in force 1 January 1974 (Article 14(1)), Article 2(2)–(4) from 1 April 1974 (Article 14(2)); text as reproduced in USITC Pub. 850, Appendix A.
 
 ## E.11 Congressional attention: China 1995–2025 and Japan 1955–1994
 
