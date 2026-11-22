@@ -46,3 +46,14 @@ python3 data/crec_fetch.py all
 python3 data/crecb_fetch.py 1955 1994
 python3 data/fr301_lists.py
 (cd data/raw && sha256sum fr/*.pdf fr/*.htm >> SHA256SUMS.abruf)
+# Register AD/CVD/Safeguards: TTBD (Bown; Weltbank-Datenkatalog 0039583)
+mkdir -p data/raw/ttbd && (cd data/raw/ttbd && for f in DR0049162/ttbd-gad.zip DR0049163/ttbd-gcvd.zip; do
+  curl -sSL -O "https://datacatalogfiles.worldbank.org/ddh-published/0039583/1/$f"; done
+  for z in gad gcvd; do mkdir -p $z && (cd $z && unzip -oq ../ttbd-$z.zip); done)
+# Weitere Faelle (TH, VN, MY, MX, BR, HK, TW): Comtrade-Ausfuhren, Spiegeldaten Taiwan, US-Einfuhren, HK-Wiederausfuhren
+python3 data/cases_fetch.py exports
+python3 data/cases_fetch.py mirror
+python3 data/cases_fetch.py usimports
+python3 data/cases_fetch.py hkrx
+# Japan gegen Grossbritannien 1920-1939: TRADHIST (oben), Hansard
+python3 data/hansard_japan.py 1920 1939

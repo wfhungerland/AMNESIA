@@ -186,6 +186,64 @@ Markets: Argentina, Austria-Hungary, Belgium, Canada, Chile, Denmark, Finland, F
 
 For manufactures alone, Tyszynski's (1951, Table VIII) shares of world manufactured exports point the same way. Between 1899 and 1913 the British share fell from 32.5 to 29.9 per cent, the German share rose from 22.2 to 26.4 per cent, and the American share rose only from 11.2 to 12.6 per cent. Relative to Britain, Germany moved from 0.68 to 0.88, the United States from 0.34 to 0.42. In manufactured exports before 1914, Germany was closing on Britain; the United States was not.
 
+## E.9 Further cases
+
+The same rules as in E.4 are applied to eight further dyads. Code: `data/cases_fetch.py`, `data/cases_test.py` (output `data/cases_panel.txt`, `data/cases_breadth.csv`, `data/cases_crossovers.csv`, `data/cases_hazard.csv`, `data/cases_register_tested.csv`), `data/third_markets_1930s.py`, `data/hansard_japan.py`, `data/tests_sequence.py`.
+
+**Data.** UN Comtrade, SITC Rev. 1 (1962–1999), SITC Rev. 3 (1992–2009), HS four-digit (2008–2023), world exports by reporter. Taiwan reports only in HS; for SITC its exports are the imports of all reporters from partner 490 ("Other Asia, nes"), compared with the same reporters' imports from the United States (both valued c.i.f.). Hong Kong: exports minus re-exports (re-exports by product only to 2016). Japan against Britain: CEPII TRADHIST v4, total bilateral exports, 35 markets with values for both suppliers in every year 1924–1938, without Japan's colonies.
+
+**Table E7. Reach of displacement: share of American manufactured exports in groups the challenger had overtaken (challenger exports ≥ US exports and ≥ USD 50 million)**
+
+| Challenger | Data | Selected years | Peak |
+|---|---|---|---|
+| Japan | SITC 1 | 0.31 (1977), 0.27 (1981), 0.35 (1987) | 0.48 (1995) |
+| China | HS | 0.45 (2018) | 0.55 (2023) |
+| Korea | SITC 1 / 3 | 0.024 (1977), 0.027 (1984), 0.024 (2002) | 0.074 (2009) |
+| Taiwan | SITC 1 / 3 / HS | 0.011 (1977), 0.031 (1986), 0.087 (2023) | 0.095 (2005) |
+| Vietnam | HS | 0.048 (2018), 0.064 (2023) | 0.064 (2023) |
+| Mexico | HS | 0.066 (2023) | 0.083 (2022) |
+| Malaysia | HS | 0.045 (2023) | 0.060 (2021) |
+| Hong Kong | SITC 1 | 0.020 (1988) | 0.022 (1987) |
+| Thailand | HS | 0.014 (2023) | 0.016 (2022) |
+| Brazil | SITC 1 / HS | 0.007 (1984), 0.008 (2023) | 0.011 (2013) |
+
+**Register.** Thirteen entries (B-24 to B-36 in `data/broad_register.csv`), each with its primary source: footwear OMA with Taiwan, June 1977 (Proclamation 4510); colour-television OMA with Taiwan, 1979 (Proclamation 4634); steel VRAs with Brazil and Mexico, 1984 (Moore 1996, Table 2.8); machine-tool VRA with Taiwan, 1987 (Dinopoulos and Kreinin 1991); 100 per cent tariffs on Brazilian goods, October 1988 (Proclamation 5885); GSP graduation of Hong Kong and Taiwan, 1989 (Proclamation 5805); US–Vietnam textile agreement, May 2003 (FR Doc. 03-12314); MFA/ATC quotas on Taiwan, Hong Kong, Thailand, Malaysia, Brazil and Mexico (in force 1994–2004 by Federal Register notices; start dates not verified, so excluded from the hazard); end of Hong Kong's differential treatment, 2020 (EO 13936); IEEPA tariffs on Mexico (EO 14194), all partners (EO 14257, 14326), Brazil (EO 14323) and Hong Kong (EO 14257), 2025. Instruments against these economies before 1990 in textiles (Short-Term and Long-Term Arrangements, early MFA bilaterals) could not be verified at a primary source and are not coded.
+
+**Table E8. Broad instruments against the further cases and the crossover of the groups they covered**
+
+| Instrument | Target | IR | Crossover of covered groups | Phase |
+|---|---|---|---|---|
+| Footwear OMA 1977 | Taiwan | 4 | 1970 | post |
+| Colour-TV OMA 1979 | Taiwan | 4 | none | extension of instrument against Japan |
+| Steel VRAs 1984 | Brazil | 4 | 1983 | post |
+| Steel VRAs 1984 | Mexico | 4 | none | extension |
+| Machine-tool VRA 1986 | Taiwan | 4 | none | extension of instrument against Japan |
+| Section 301 tariffs 1988 | Brazil | 4 | none | retaliation over patents |
+| GSP graduation 1989 | Hong Kong, Taiwan | 4 (doubtful) | none (economy-wide) | rule-based |
+| Textile agreement 2003 | Vietnam | 4 | 2006 (apparel, SITC 84) | absorption (3 years) |
+| HK differential treatment 2020 | Hong Kong | 5 | none | political |
+| IEEPA tariffs 2025 | Mexico; Brazil; Hong Kong | 5 | none (economy-wide) | political |
+| Reciprocal tariffs 2025 | all partners | 5 | none (economy-wide) | global, deficit-based |
+
+**Hazard and control group.** Groups whose crossover is not in the first data year, and the share followed within ten years by a targeted sectoral broad instrument (without GSP graduation and without politically motivated measures): Taiwan SITC 1, 1 of 24; Brazil SITC 1, 4 of 9 (steel); Hong Kong SITC 1, 0 of 9; Vietnam SITC 3, 2 of 5 (apparel, quota of 2003 one year after the two groups crossed); Thailand, Malaysia, Mexico, Vietnam, Taiwan and Brazil in HS (2009–2023): 0 of 283. Panel of 3,702 group series: targeted sectoral broad instruments begin at 0.03 per 100 group-years before and 0.10 after the crossover (rate ratio 6.25, 95 % interval 2.76–14.18; year × source effects, clustered by group). With GSP graduation the ratio falls to 1.24 (1.04–1.49), because graduation covered all groups at once. AD/CVD cases (TTBD, 1988–2015) per 100 group-years rise from 0.97 to 1.98 after the crossover, but not once export size is held constant (rate ratio 1.29, 0.70–2.40), the same result as for Japan, Korea and China (E.4).
+
+**Japan against Britain.** Milestone 1932 (British India import market, Hansard 4 July 1934: Japan 551.9, UK 541.9 million yards). Seven responses (`data/ds1_responses.csv`, R-JPGB-01 to 07), all checked at Historic Hansard; two before the milestone (economic mission 1930, IR 2; Indian differential duty 1930, IR 3), five from the milestone onwards, including all four with IR 4. These are reported separately and do not enter the core counts of 41 responses.
+
+**Table E9. Japan against Britain: exports to third markets relative to Britain (TRADHIST) and parliamentary attention (Hansard)**
+
+| Year | All 35 markets | Seven Asian markets | Netherlands Indies | British India | Mentions of Japan per 100,000 words |
+|---|---|---|---|---|---|
+| 1924 | 0.23 | 0.42 | 0.68 | 0.13 | 2.9 |
+| 1929 | 0.30 | 0.58 | 0.99 | 0.23 | 1.7 |
+| 1930 | 0.29 | 0.67 | 1.14 | 0.24 | 8.5 |
+| 1932 | 0.32 | 0.67 | 2.12 | 0.42 | 12.4 |
+| 1933 | 0.30 | 0.67 | 3.17 | 0.34 | 102.1 |
+| 1934 | 0.31 | 0.75 | 3.88 | 0.39 | 44.0 |
+| 1936 | 0.33 | 0.86 | 3.39 | 0.44 | 29.4 |
+| 1938 | 0.27 | 0.71 | 1.88 | 0.33 | 16.5 |
+
+The best single break in log(1 + mentions) is 1932 (BIC −11.2 against −0.1 without a break). In Ceylon, a colony that adopted quotas in 1934, the Japanese–British ratio fell from 0.50 in 1934 to 0.28 in 1935. Total exports include goods other than cotton; the annual world crossover in cotton piece goods (1933 by contemporary accounts) awaits confirmation from Robson (1957) or League of Nations statistics. The British–Japanese tables of Tyszynski (1951) for 1929 and 1937 are not yet transcribed (the Dropbox copy could not be downloaded in the session).
+
 ## E.8 Limitations
 
 1. **Second coder.** All IR scores currently come from one coder. Inter-coder agreement (Krippendorff's α, ordinal) will be reported here.

@@ -1,0 +1,26 @@
+instrument_id,year,target,reach,data,crossover_year,first_data_year,phase
+B-24,1977,TW,4,s1,1970.0,1962,post
+B-25,1979,TW,4,s1,,1962,keine Kreuzung in den Daten
+B-26,1984,BR,4,s1,1983.0,1962,post
+B-26,1984,MX,4,s1,,1962,keine Kreuzung in den Daten
+B-27,1986,TW,4,s1,,1962,keine Kreuzung in den Daten
+B-28,1988,BR,4,s1,,1962,keine Kreuzung in den Daten
+B-29,1988,HK,4,s1,,1962,keine Kreuzung in den Daten
+B-29,1988,TW,4,s1,,1962,keine Kreuzung in den Daten
+B-30,2003,VN,4,s3,2006.0,1997,absorption
+B-31,1994,TW,4,s1,1981.0,1962,post
+B-31,1994,HK,4,s1,1969.0,1962,post
+B-31,1994,TH,4,s3,,1992,keine Kreuzung in den Daten
+B-31,1994,MY,4,s3,,1992,keine Kreuzung in den Daten
+B-31,1994,BR,4,s3,,1992,keine Kreuzung in den Daten
+B-31,1994,MX,4,s3,,1992,keine Kreuzung in den Daten
+B-32,2020,HK,5,hs4,,2008,keine Kreuzung in den Daten
+B-33,2025,MX,5,hs4,,2008,keine Kreuzung in den Daten
+B-34,2025,VN,5,hs4,,2008,keine Kreuzung in den Daten
+B-34,2025,TH,5,hs4,,2008,keine Kreuzung in den Daten
+B-34,2025,MY,5,hs4,,2008,keine Kreuzung in den Daten
+B-34,2025,TW,5,hs4,,2008,keine Kreuzung in den Daten
+B-34,2025,BR,5,hs4,,2008,keine Kreuzung in den Daten
+B-34,2025,MX,5,hs4,,2008,keine Kreuzung in den Daten
+B-35,2025,BR,5,hs4,,2008,keine Kreuzung in den Daten
+B-36,2025,HK,5,hs4,,2008,keine Kreuzung in den Daten

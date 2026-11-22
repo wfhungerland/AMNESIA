@@ -4,9 +4,9 @@ B-02,1962,10,JP;KR,Long-Term Arrangement on cotton textiles,multilateral (GATT L
 B-03,1969,1,JP,Voluntary restraint arrangement on steel,bilateral VRA,4,67,,,Michigan JIL; Urata (2020),geprueft (Sekundaer)
 B-04,1971,10,JP;KR,Bilateral agreements on wool and man-made fibre textiles,bilateral,4,651;653;841,,,Literatur; nicht einzeln geprueft,ungeprueft
 B-05,1976,6,JP,Specialty steel import relief (quota; OMA with Japan),Section 201 (201-005),4,67,,,USITC Centennial History Table 10.1,Ziel Japan laut Liebman-Reynolds/PIIE; Tabelle nennt kein Zielland
-B-06,1977,7,KR,Footwear orderly marketing agreement (Korea and Taiwan),Section 201 (201-018),4,851,,,USITC Centennial History Table 10.1,Ziel Korea/Taiwan aus Literatur; ungeprueft
+B-06,1977,7,KR,Footwear orderly marketing agreement (Korea and Taiwan),Section 201 (201-018),4,851,,,USITC Centennial History Table 10.1; Proclamation 4510 (91 Stat. 1743),geprueft (Primaerquelle: OMA mit Korea 21 June 1977)
 B-07,1977,7,JP,Colour television OMA with Japan,Section 201 (201-019),4,724,,,USITC Table 10.1; Proclamation 4511,geprueft
-B-08,1979,2,KR,Colour television OMA extended to Korea and Taiwan,Section 201 (201-019),4,724,,,Literatur,ungeprueft
+B-08,1979,2,KR,Colour television OMA extended to Korea and Taiwan,Section 201 (201-019),4,724,,,Proclamation 4634 (93 Stat. 1484),geprueft (Primaerquelle)
 B-09,1978,1,JP,Trigger price mechanism for steel,administrative,4,67,,,Urata (2020),geprueft (Sekundaer)
 B-10,1981,5,JP,Voluntary export restraint on cars,bilateral VER,4,732,,,Berry et al. (1999); Toyota history,geprueft
 B-11,1983,4,JP,Heavyweight motorcycles tariff-rate quota,Section 201 (201-047),4,732,,,USITC Table 10.1,Ziel Japan aus Literatur; ungeprueft
@@ -22,3 +22,16 @@ B-20,2018,7,CN,Section 301 tariffs (about 370bn USD of imports),Section 301,5,,A
 B-21,2019,5,CN,Huawei added to Entity List,Export Administration Regulations,5,,764,8517,84 FR 22961,ungeprueft
 B-22,2022,10,CN,Advanced computing and semiconductor export controls,Export Administration Regulations,5,,776,8542;8486,87 FR 62186,ungeprueft
 B-23,2024,5,CN,Tariff on Chinese EVs raised to 100 per cent,Section 301 review,4,,,8703,USTR (2024),ungeprueft
+B-24,1977,6,TW,Footwear orderly marketing agreement with Taiwan (concluded 14 June 1977),Section 201 (TA-201-18); Proclamation 4510,4,851,,,Proclamation 4510 (91 Stat. 1743),geprueft (Primaerquelle)
+B-25,1979,2,TW,Colour television OMA with Taiwan (concluded 14 and 29 Dec 1978; in force 1 Feb 1979; extended to June 1982),Section 201 (201-019); Proclamations 4634 and 4769,4,724,,,Proclamation 4634 (93 Stat. 1484); Proclamation 4769 (94 Stat. 3768),geprueft (Primaerquelle)
+B-26,1984,10,BR;MX,Steel voluntary restraint agreements with Brazil and Mexico (10/1984-3/1992),Section 201 (201-051) and VRAs,4,67,,,NBER c8704 (Table 2.8: fill rates by country),geprueft (Sekundaer)
+B-27,1986,12,TW,Machine tool voluntary restraint agreement with Taiwan (five years from 1 Jan 1987),bilateral VRA (Section 232 case),4,715,,,NBER c6710,geprueft (Sekundaer)
+B-28,1988,10,BR,100 per cent tariffs on Brazilian goods over pharmaceutical patents (paper; drugs; menthol; consumer electronics),Section 301; Proclamation 5885,4,641;541;512;725;724;891,,,Proclamation 5885 (102 Stat. 5086),geprueft (Primaerquelle); SITC-Zuordnung genaehert
+B-29,1988,4,HK;TW,Graduation of Hong Kong and Taiwan (with Korea and Singapore) from GSP from 1 Jan 1989,Trade Act 1974 s.504; Proclamation 5805,4,ALL,ALL,ALL,Proclamation 5805 (102 Stat. 4998),geprueft (Primaerquelle); Stufe zweifelhaft (Rueckkehr zum Meistbeguenstigungszoll)
+B-30,2003,5,VN,US-Vietnam bilateral textile agreement: quotas on apparel from 1 May 2003 (until WTO accession 2007),bilateral textile agreement,4,,84,61;62,68 FR (16 May 2003) 03-12314,"geprueft (Primaerquelle); Quoten fast nur Bekleidung (Kategorien 332-659; dazu Garn 200/301 und Gewebe 620, nicht zugeordnet); Ende 2007 ungeprueft"
+B-31,1994,1,TW;HK;TH;MY;BR;MX,Bilateral MFA/ATC textile and apparel quotas (in force in 1994-2004; start dates before 1990 unverified),MFA and ATC bilateral agreements,4,65;84,65;84,50;51;52;53;54;55;56;57;58;59;60;61;62;63,FR 1994-03-21; 1994-11-17; 1994-12-23; 1997-03-13; 2003-10-20; 2003-10-24,in Kraft belegt; Beginn ungeprueft (nicht in der Gefahrenrate)
+B-32,2020,7,HK,End of differential treatment of Hong Kong (export controls and other preferences),Hong Kong Autonomy Act; Executive Order 13936,5,ALL,ALL,ALL,85 FR (17 Jul 2020) 2020-15646,geprueft (Primaerquelle); politisch begruendet
+B-33,2025,2,MX,IEEPA tariff of 25 per cent on products of Mexico,IEEPA; Executive Order 14194,5,ALL,ALL,ALL,90 FR (7 Feb 2025) 2025-02407,geprueft (Primaerquelle); Begruendung Migration und Fentanyl
+B-34,2025,4,VN;TH;MY;TW;BR;MX,Reciprocal tariffs with country rates (VN 46; TH 36; TW 32; MY 24; BR 10 per cent; revised Aug 2025),IEEPA; Executive Orders 14257 and 14326,5,ALL,ALL,ALL,90 FR 2025-06063; 90 FR 2025-15010,geprueft (Primaerquelle); gegen alle Handelspartner (global); Mexiko ungeprueft
+B-35,2025,8,BR,Additional 40 per cent tariff on products of Brazil,IEEPA; Executive Order 14323,5,ALL,ALL,ALL,90 FR (5 Aug 2025) 2025-14896,geprueft (Primaerquelle); politisch begruendet
+B-36,2025,4,HK,China IEEPA tariff rates applied to Hong Kong,IEEPA; Executive Order 14257,5,ALL,ALL,ALL,90 FR 2025-06063,geprueft (Primaerquelle)

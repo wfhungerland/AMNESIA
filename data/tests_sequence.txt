@@ -14,3 +14,8 @@ Congressional Record, Anteil Debatten mit China (log), 3 Bruch/Brueche: Bruchjah
 Congressional Record, Anteil Debatten mit China (log), BIC ohne Bruch -58.2; beste Zahl der Brueche: 2
 Kreuzungsjahre China s3 (ohne zensierte): n = 70, Median 2004, Quartile 2001-2006
 Kreuzungsjahre China hs4 (ohne zensierte): n = 242, Median 2015, Quartile 2012-2019
+Hansard Japan 1920-1939, 1 Bruch/Brueche: Bruchjahre [1932], BIC -11.2
+Hansard Japan 1920-1939, 2 Bruch/Brueche: Bruchjahre [1933, 1937], BIC -8.4
+Hansard Japan 1920-1939, 3 Bruch/Brueche: Bruchjahre [1927, 1933, 1937], BIC -8.0
+Hansard Japan 1920-1939, BIC ohne Bruch -0.1; beste Zahl der Brueche: 1
+Japan gegen Grossbritannien: 7 Reaktionen; vor dem Meilenstein 2 (IR 2, 3); ab dem Meilenstein 5; bindend mit IR >= 4 vor/ab: 0/4
