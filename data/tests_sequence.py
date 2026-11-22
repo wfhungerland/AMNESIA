@@ -15,7 +15,9 @@ import numpy as np
 import pandas as pd
 
 D = Path(__file__).resolve().parent
-e = pd.read_csv(D / "ds1_events.csv")
+e_all = pd.read_csv(D / "ds1_events.csv")
+# Kernstichprobe: die vier Faelle; Japan gegen Grossbritannien (case JPGB) wird getrennt berichtet
+e = e_all[e_all.case != "JPGB"].copy()
 e["binding"] = e.type.str.startswith("binding") | (e.type == "denial")
 out = []
 

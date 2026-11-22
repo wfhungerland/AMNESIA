@@ -22,7 +22,9 @@ for c in ["GBR", "USA", "JPN", "DEU"]:
         Dm[i, i:i + 3] = [1, -2, 1]
     trend = np.linalg.solve(np.eye(n) + lam * Dm.T @ Dm, y)
     gaps[c] = pd.Series(y - trend, index=x.year.astype(int).values)
-e = pd.read_csv(D / "ds1_events.csv")
+e_all = pd.read_csv(D / "ds1_events.csv")
+# Kernstichprobe: die vier Faelle; Japan gegen Grossbritannien (case JPGB) wird getrennt berichtet
+e = e_all[e_all.case != "JPGB"].copy()
 e["binding"] = e.type.str.startswith("binding") | (e.type == "denial")
 inc = {"GB": "GBR", "GB+FR": "GBR", "US": "USA", "JP": "JPN", "EU": "DEU"}
 e["inc_iso"] = e.incumbent.map(inc)
