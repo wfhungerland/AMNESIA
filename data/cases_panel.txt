@@ -1,0 +1,148 @@
+Breite der Verdraengung: Anteil der Industriewaren-Ausfuhren in Gruppen mit Ausfuhren >= USA
+(Spitzenwert, Jahr; letzte Beobachtung; Anzahl Gruppen >= 50 Mio. USD ueber den USA im Spitzenjahr)
+BR hs4: Anteil der US-Industrieausfuhren in ueberholten Gruppen: Spitze 0.011 (2013), zuletzt 0.008
+BR hs4: Spitze 0.33 (2018, 27 Gruppen); zuletzt 0.30 (2023); Ausfuhren/US-Ausfuhren zuletzt 0.08
+BR s1: Anteil der US-Industrieausfuhren in ueberholten Gruppen: Spitze 0.007 (1984), zuletzt 0.002
+BR s1: Spitze 0.29 (1985, 8 Gruppen); zuletzt 0.12 (1999); Ausfuhren/US-Ausfuhren zuletzt 0.05
+BR s3: Anteil der US-Industrieausfuhren in ueberholten Gruppen: Spitze 0.007 (1992), zuletzt 0.004
+BR s3: Spitze 0.24 (1992, 7 Gruppen); zuletzt 0.13 (2009); Ausfuhren/US-Ausfuhren zuletzt 0.08
+HK hs4: Anteil der US-Industrieausfuhren in ueberholten Gruppen: Spitze 0.017 (2016), zuletzt 0.017
+HK hs4: Spitze 0.83 (2016, 1 Gruppen); zuletzt 0.83 (2016); Ausfuhren/US-Ausfuhren zuletzt 0.02
+HK s1: Anteil der US-Industrieausfuhren in ueberholten Gruppen: Spitze 0.022 (1987), zuletzt 0.015
+HK s1: Spitze 0.70 (1969, 4 Gruppen); zuletzt 0.48 (1999); Ausfuhren/US-Ausfuhren zuletzt 0.04
+HK s3: Anteil der US-Industrieausfuhren in ueberholten Gruppen: Spitze 0.015 (1993), zuletzt 0.000
+HK s3: Spitze 0.51 (2003, 4 Gruppen); zuletzt 0.00 (2009); Ausfuhren/US-Ausfuhren zuletzt 0.01
+MX hs4: Anteil der US-Industrieausfuhren in ueberholten Gruppen: Spitze 0.083 (2022), zuletzt 0.066
+MX hs4: Spitze 0.41 (2022, 56 Gruppen); zuletzt 0.32 (2023); Ausfuhren/US-Ausfuhren zuletzt 0.36
+MX s1: Anteil der US-Industrieausfuhren in ueberholten Gruppen: Spitze 0.011 (1999), zuletzt 0.011
+MX s1: Spitze 0.26 (1981, 1 Gruppen); zuletzt 0.07 (1999); Ausfuhren/US-Ausfuhren zuletzt 0.20
+MX s3: Anteil der US-Industrieausfuhren in ueberholten Gruppen: Spitze 0.028 (2001), zuletzt 0.013
+MX s3: Spitze 0.19 (2001, 11 Gruppen); zuletzt 0.16 (2009); Ausfuhren/US-Ausfuhren zuletzt 0.24
+MY hs4: Anteil der US-Industrieausfuhren in ueberholten Gruppen: Spitze 0.060 (2021), zuletzt 0.045
+MY hs4: Spitze 0.49 (2022, 44 Gruppen); zuletzt 0.47 (2023); Ausfuhren/US-Ausfuhren zuletzt 0.17
+MY s1: Anteil der US-Industrieausfuhren in ueberholten Gruppen: Spitze 0.004 (1993), zuletzt 0.002
+MY s1: Spitze 0.65 (1972, 1 Gruppen); zuletzt 0.02 (1999); Ausfuhren/US-Ausfuhren zuletzt 0.12
+MY s3: Anteil der US-Industrieausfuhren in ueberholten Gruppen: Spitze 0.010 (1993), zuletzt 0.003
+MY s3: Spitze 0.22 (1993, 6 Gruppen); zuletzt 0.05 (2009); Ausfuhren/US-Ausfuhren zuletzt 0.15
+TH hs4: Anteil der US-Industrieausfuhren in ueberholten Gruppen: Spitze 0.016 (2022), zuletzt 0.014
+TH hs4: Spitze 0.22 (2011, 61 Gruppen); zuletzt 0.17 (2023); Ausfuhren/US-Ausfuhren zuletzt 0.17
+TH s1: Anteil der US-Industrieausfuhren in ueberholten Gruppen: Spitze 0.012 (1991), zuletzt 0.002
+TH s1: Spitze 0.30 (1974, 1 Gruppen); zuletzt 0.04 (1999); Ausfuhren/US-Ausfuhren zuletzt 0.07
+TH s3: Anteil der US-Industrieausfuhren in ueberholten Gruppen: Spitze 0.010 (1993), zuletzt 0.004
+TH s3: Spitze 0.17 (1994, 7 Gruppen); zuletzt 0.04 (2009); Ausfuhren/US-Ausfuhren zuletzt 0.15
+TW hs4: Anteil der US-Industrieausfuhren in ueberholten Gruppen: Spitze 0.094 (2021), zuletzt 0.087
+TW hs4: Spitze 0.66 (2023, 53 Gruppen); zuletzt 0.66 (2023); Ausfuhren/US-Ausfuhren zuletzt 0.31
+TW s1: Anteil der US-Industrieausfuhren in ueberholten Gruppen: Spitze 0.045 (1987), zuletzt 0.014
+TW s1: Spitze 0.50 (1987, 22 Gruppen); zuletzt 0.10 (1999); Ausfuhren/US-Ausfuhren zuletzt 0.21
+TW s3: Anteil der US-Industrieausfuhren in ueberholten Gruppen: Spitze 0.095 (2005), zuletzt 0.071
+TW s3: Spitze 0.49 (2007, 16 Gruppen); zuletzt 0.47 (2009); Ausfuhren/US-Ausfuhren zuletzt 0.30
+VN hs4: Anteil der US-Industrieausfuhren in ueberholten Gruppen: Spitze 0.064 (2023), zuletzt 0.064
+VN hs4: Spitze 0.65 (2020, 98 Gruppen); zuletzt 0.62 (2023); Ausfuhren/US-Ausfuhren zuletzt 0.23
+VN s1: Anteil der US-Industrieausfuhren in ueberholten Gruppen: Spitze 0.001 (1997), zuletzt 0.001
+VN s1: Spitze 0.26 (1999, 1 Gruppen); zuletzt 0.26 (1999); Ausfuhren/US-Ausfuhren zuletzt 0.01
+VN s3: Anteil der US-Industrieausfuhren in ueberholten Gruppen: Spitze 0.005 (2009), zuletzt 0.005
+VN s3: Spitze 0.43 (2004, 5 Gruppen); zuletzt 0.37 (2009); Ausfuhren/US-Ausfuhren zuletzt 0.05
+
+Breite Massnahmen gegen die neuen Ziele: Phase gegen die Kreuzung der erfassten Gruppen
+instrument_id  year target reach data  crossover_year  first_data_year                       phase
+         B-24  1977     TW     4   s1          1970.0             1962                        post
+         B-25  1979     TW     4   s1             NaN             1962 keine Kreuzung in den Daten
+         B-26  1984     BR     4   s1          1983.0             1962                        post
+         B-26  1984     MX     4   s1             NaN             1962 keine Kreuzung in den Daten
+         B-27  1986     TW     4   s1             NaN             1962 keine Kreuzung in den Daten
+         B-28  1988     BR     4   s1             NaN             1962 keine Kreuzung in den Daten
+         B-29  1988     HK     4   s1             NaN             1962 keine Kreuzung in den Daten
+         B-29  1988     TW     4   s1             NaN             1962 keine Kreuzung in den Daten
+         B-30  2003     VN     4   s3          2006.0             1997                  absorption
+         B-31  1994     TW     4   s1          1981.0             1962                        post
+         B-31  1994     HK     4   s1          1969.0             1962                        post
+         B-31  1994     TH     4   s3             NaN             1992 keine Kreuzung in den Daten
+         B-31  1994     MY     4   s3             NaN             1992 keine Kreuzung in den Daten
+         B-31  1994     BR     4   s3             NaN             1992 keine Kreuzung in den Daten
+         B-31  1994     MX     4   s3             NaN             1992 keine Kreuzung in den Daten
+         B-32  2020     HK     5  hs4             NaN             2008 keine Kreuzung in den Daten
+         B-33  2025     MX     5  hs4             NaN             2008 keine Kreuzung in den Daten
+         B-34  2025     VN     5  hs4             NaN             2008 keine Kreuzung in den Daten
+         B-34  2025     TH     5  hs4             NaN             2008 keine Kreuzung in den Daten
+         B-34  2025     MY     5  hs4             NaN             2008 keine Kreuzung in den Daten
+         B-34  2025     TW     5  hs4             NaN             2008 keine Kreuzung in den Daten
+         B-34  2025     BR     5  hs4             NaN             2008 keine Kreuzung in den Daten
+         B-34  2025     MX     5  hs4             NaN             2008 keine Kreuzung in den Daten
+         B-35  2025     BR     5  hs4             NaN             2008 keine Kreuzung in den Daten
+         B-36  2025     HK     5  hs4             NaN             2008 keine Kreuzung in den Daten
+
+Verdraengte Industriewaren-Gruppen (Kreuzung nicht im ersten Datenjahr) und Gefahrenrate gezielter breiter Massnahmen (10 Jahre)
+TH s1: 7 von 102 Gruppen verdraengt; Jahre 1966-1997; breit binnen 10 J. 0.00, ohne politisch begruendete 0.00, ohne GSP-Graduierung 0.00; breit schon vorher 0
+TH s3: 7 von 166 Gruppen verdraengt; Jahre 1993-2009; breit binnen 10 J. 0.00, ohne politisch begruendete 0.00, ohne GSP-Graduierung 0.00; breit schon vorher 0
+TH hs4: 42 von 962 Gruppen verdraengt; Jahre 2009-2023; breit binnen 10 J. 0.00, ohne politisch begruendete 0.00, ohne GSP-Graduierung 0.00; breit schon vorher 0
+VN s1: 0 von 101 Gruppen verdraengt
+VN s3: 5 von 166 Gruppen verdraengt; Jahre 2002-2007; breit binnen 10 J. 0.40, ohne politisch begruendete 0.40, ohne GSP-Graduierung 0.40; breit schon vorher 3
+VN hs4: 94 von 962 Gruppen verdraengt; Jahre 2009-2023; breit binnen 10 J. 0.00, ohne politisch begruendete 0.00, ohne GSP-Graduierung 0.00; breit schon vorher 10
+MY s1: 1 von 102 Gruppen verdraengt; Jahre 1993-1993; breit binnen 10 J. 0.00, ohne politisch begruendete 0.00, ohne GSP-Graduierung 0.00; breit schon vorher 0
+MY s3: 3 von 166 Gruppen verdraengt; Jahre 1993-2009; breit binnen 10 J. 0.00, ohne politisch begruendete 0.00, ohne GSP-Graduierung 0.00; breit schon vorher 0
+MY hs4: 36 von 977 Gruppen verdraengt; Jahre 2009-2023; breit binnen 10 J. 0.00, ohne politisch begruendete 0.00, ohne GSP-Graduierung 0.00; breit schon vorher 0
+MX s1: 6 von 102 Gruppen verdraengt; Jahre 1974-1999; breit binnen 10 J. 0.00, ohne politisch begruendete 0.00, ohne GSP-Graduierung 0.00; breit schon vorher 1
+MX s3: 14 von 166 Gruppen verdraengt; Jahre 1993-2009; breit binnen 10 J. 0.00, ohne politisch begruendete 0.00, ohne GSP-Graduierung 0.00; breit schon vorher 0
+MX hs4: 47 von 962 Gruppen verdraengt; Jahre 2009-2023; breit binnen 10 J. 0.70, ohne politisch begruendete 0.00, ohne GSP-Graduierung 0.00; breit schon vorher 0
+BR s1: 9 von 102 Gruppen verdraengt; Jahre 1972-1998; breit binnen 10 J. 0.44, ohne politisch begruendete 0.44, ohne GSP-Graduierung 0.44; breit schon vorher 0
+BR s3: 4 von 166 Gruppen verdraengt; Jahre 2000-2009; breit binnen 10 J. 0.00, ohne politisch begruendete 0.00, ohne GSP-Graduierung 0.00; breit schon vorher 0
+BR hs4: 24 von 962 Gruppen verdraengt; Jahre 2009-2023; breit binnen 10 J. 0.62, ohne politisch begruendete 0.00, ohne GSP-Graduierung 0.00; breit schon vorher 0
+HK s1: 9 von 102 Gruppen verdraengt; Jahre 1965-1984; breit binnen 10 J. 0.44, ohne politisch begruendete 0.44, ohne GSP-Graduierung 0.00; breit schon vorher 0
+HK s3: 0 von 166 Gruppen verdraengt
+HK hs4: 1 von 955 Gruppen verdraengt; Jahre 2016-2016; breit binnen 10 J. 1.00, ohne politisch begruendete 0.00, ohne GSP-Graduierung 0.00; breit schon vorher 1
+TW s1: 24 von 102 Gruppen verdraengt; Jahre 1970-1999; breit binnen 10 J. 0.62, ohne politisch begruendete 0.62, ohne GSP-Graduierung 0.04; breit schon vorher 4
+TW s3: 11 von 166 Gruppen verdraengt; Jahre 1997-2009; breit binnen 10 J. 0.00, ohne politisch begruendete 0.00, ohne GSP-Graduierung 0.00; breit schon vorher 11
+TW hs4: 40 von 982 Gruppen verdraengt; Jahre 2009-2023; breit binnen 10 J. 0.00, ohne politisch begruendete 0.00, ohne GSP-Graduierung 0.00; breit schon vorher 40
+
+US-AD/CVD-Verfahren gegen die Faelle (TTBD, Einleitungsjahr; alle Verfahren, mit und ohne HS-Codes)
+year        (1977, 1989]  (1989, 1999]  (1999, 2009]  (2009, 2015]
+challenger                                                        
+BR                    58            30            10             5
+CN                    18            59           106            61
+HK                     3             2             0             0
+JP                    66            43            14             6
+KR                    43            39            19            20
+MX                    36            25            11             8
+MY                     8             5             5             4
+TH                    10            12            10             5
+TW                    36            27            11            10
+VN                     0             0             5            11
+
+Kontrollgruppe: Panel Warengruppe x Jahr
+BR_hs4: 315 Gruppen, davon verdraengt 45; Jahre 2008-2023; breite Massnahmen 0; AD/CVD 22
+BR_s1: 81 Gruppen, davon verdraengt 9; Jahre 1962-1999; breite Massnahmen 10; AD/CVD 45
+BR_s3: 138 Gruppen, davon verdraengt 8; Jahre 1992-2009; breite Massnahmen 0; AD/CVD 56
+HK_hs4: 44 Gruppen, davon verdraengt 1; Jahre 2008-2016; breite Massnahmen 0; AD/CVD 0
+HK_s1: 51 Gruppen, davon verdraengt 10; Jahre 1962-1999; breite Massnahmen 51; AD/CVD 3
+HK_s3: 73 Gruppen, davon verdraengt 6; Jahre 1992-2009; breite Massnahmen 0; AD/CVD 0
+MX_hs4: 416 Gruppen, davon verdraengt 75; Jahre 2008-2023; breite Massnahmen 0; AD/CVD 16
+MX_s1: 84 Gruppen, davon verdraengt 7; Jahre 1962-1999; breite Massnahmen 6; AD/CVD 29
+MX_s3: 150 Gruppen, davon verdraengt 17; Jahre 1992-2009; breite Massnahmen 0; AD/CVD 35
+MY_hs4: 382 Gruppen, davon verdraengt 63; Jahre 2008-2023; breite Massnahmen 0; AD/CVD 3
+MY_s1: 69 Gruppen, davon verdraengt 2; Jahre 1964-1999; breite Massnahmen 0; AD/CVD 9
+MY_s3: 135 Gruppen, davon verdraengt 8; Jahre 1992-2009; breite Massnahmen 0; AD/CVD 7
+TH_hs4: 432 Gruppen, davon verdraengt 82; Jahre 2008-2023; breite Massnahmen 0; AD/CVD 7
+TH_s1: 74 Gruppen, davon verdraengt 7; Jahre 1962-1999; breite Massnahmen 0; AD/CVD 11
+TH_s3: 142 Gruppen, davon verdraengt 11; Jahre 1992-2009; breite Massnahmen 0; AD/CVD 26
+TW_hs4: 430 Gruppen, davon verdraengt 99; Jahre 2008-2023; breite Massnahmen 0; AD/CVD 40
+TW_s1: 78 Gruppen, davon verdraengt 24; Jahre 1962-1999; breite Massnahmen 81; AD/CVD 48
+TW_s3: 150 Gruppen, davon verdraengt 27; Jahre 1992-2009; breite Massnahmen 0; AD/CVD 47
+VN_hs4: 359 Gruppen, davon verdraengt 123; Jahre 2008-2023; breite Massnahmen 0; AD/CVD 17
+VN_s1: 17 Gruppen, davon verdraengt 1; Jahre 1997-1999; breite Massnahmen 0; AD/CVD 0
+VN_s3: 82 Gruppen, davon verdraengt 6; Jahre 1997-2009; breite Massnahmen 7; AD/CVD 4
+
+(a) Beginn gezielter breiter Massnahmen (Gruppen bis zum ersten Treffer), Jahr x Quelle
+alle neuen Faelle: je 100 Gruppenjahre vor 0.23 (116 Ereignisse, 50879 Gj.), nach 0.74 (36, 4857); IRR 1.24 (95 % KI 1.04-1.49), p=0.018
+TW, HK, BR: je 100 Gruppenjahre vor 0.81 (105 Ereignisse, 12918 Gj.), nach 3.46 (34, 984); IRR 1.18 (95 % KI 1.01-1.38), p=0.042
+alle neuen Faelle, ohne GSP-Graduierung (sektorale Massnahmen): je 100 Gruppenjahre vor 0.03 (19 Ereignisse, 61399 Gj.), nach 0.10 (7, 6964); IRR 6.25 (95 % KI 2.76-14.18), p=0.000
+
+(b) Neue US-AD/CVD-Verfahren, 1988-2015, Jahr x Quelle
+BR: je 100 Gruppenjahre vor 1.40 (78 Ereignisse, 5559 Gj.), nach 11.22 (45, 401); IRR 3.15 (95 % KI 1.11-8.91), p=0.031
+HK: je 100 Gruppenjahre vor 0.10 (2 Ereignisse, 2050 Gj.), nach 0.44 (1, 228); IRR 0.27 (95 % KI 0.06-1.23), p=0.090
+MX: je 100 Gruppenjahre vor 1.16 (75 Ereignisse, 6492 Gj.), nach 0.95 (5, 524); IRR 1.06 (95 % KI 0.42-2.68), p=0.898
+MY: je 100 Gruppenjahre vor 0.31 (18 Ereignisse, 5865 Gj.), nach 0.24 (1, 419); IRR 0.94 (95 % KI 0.12-7.36), p=0.955
+TH: je 100 Gruppenjahre vor 0.68 (42 Ereignisse, 6186 Gj.), nach 0.00 (0, 616); IRR 0.00 (95 % KI 0.00-0.00), p=0.000
+TW: je 100 Gruppenjahre vor 1.88 (110 Ereignisse, 5843 Gj.), nach 2.00 (24, 1203); IRR 0.67 (95 % KI 0.37-1.20), p=0.178
+VN: je 100 Gruppenjahre vor 0.60 (21 Ereignisse, 3512 Gj.), nach 0.00 (0, 449); IRR 0.00 (95 % KI 0.00-0.00), p=0.000
+alle neuen Faelle, mit Groesse der Ausfuhren: je 100 Gruppenjahre vor 0.97 (346 Ereignisse, 35507 Gj.), nach 1.98 (76, 3840); IRR 1.29 (95 % KI 0.70-2.40), p=0.412
+alle neuen Faelle, ohne Groessenkontrolle: je 100 Gruppenjahre vor 0.97 (346 Ereignisse, 35507 Gj.), nach 1.98 (76, 3840); IRR 1.88 (95 % KI 0.97-3.63), p=0.062

@@ -27,6 +27,7 @@ TTBD = {"THA": "TH", "VNM": "VN", "MYS": "MY", "MEX": "MX", "BRA": "BR", "HKG": 
 DATA = {"S1": "s1", "S3": "s3", "HS": "hs4"}
 GLOBAL = {"B-02", "B-17", "B-19", "B-34"}  # multilateral oder gegen alle Lieferlaender (siehe population_test.py); B-34 Zoelle gegen alle Partner
 GLOBAL |= {"B-31"}  # Beginn ungeprueft, nicht in der Gefahrenrate
+POLITICAL = {"B-32", "B-33", "B-35", "B-36"}  # nicht handelspolitisch begruendet (Autonomie HK, Migration/Fentanyl, Bolsonaro)
 
 
 def manuf(data, c):
@@ -100,9 +101,11 @@ for (tgt, data), g in SER.items():
         breadth.append({"challenger": tgt, "data": data, "year": y, "manuf_exports_musd": round(tot / 1e6),
                         "us_manuf_exports_musd": round(s.x_us.sum() / 1e6),
                         "share_in_groups_above_us": round(s[s.x_ch >= s.x_us].x_ch.sum() / tot, 3) if tot else np.nan,
-                        "groups_above_us_50m": int(((s.x_ch >= s.x_us) & (s.x_ch >= 5e7)).sum())})
-C = pd.DataFrame(cross)
-C.to_csv(D / "cases_crossovers.csv", index=False)
+                        "groups_above_us_50m": int(((s.x_ch >= s.x_us) & (s.x_ch >= 5e7)).sum()),
+                        # Reichweite aus Sicht des Etablierten: Anteil der US-Industrieausfuhren in Gruppen, die der Aufsteiger erreicht
+                        "us_exports_share_overtaken": round(s[(s.x_ch >= s.x_us) & (s.x_ch >= 5e7)].x_us.sum() / s.x_us.sum(), 3) if s.x_us.sum() else np.nan})
+CR = pd.DataFrame(cross)
+CR.to_csv(D / "cases_crossovers.csv", index=False)
 B = pd.DataFrame(breadth)
 B.to_csv(D / "cases_breadth.csv", index=False)
 
@@ -114,6 +117,8 @@ for (tgt, data), b in B.groupby(["challenger", "data"]):
         continue
     pk = b.loc[b.share_in_groups_above_us.idxmax()]
     last = b.iloc[-1]
+    pu = b.loc[b.us_exports_share_overtaken.idxmax()]
+    out.append(f"{tgt} {data}: Anteil der US-Industrieausfuhren in ueberholten Gruppen: Spitze {pu.us_exports_share_overtaken:.3f} ({int(pu.year)}), zuletzt {last.us_exports_share_overtaken:.3f}")
     out.append(f"{tgt} {data}: Spitze {pk.share_in_groups_above_us:.2f} ({int(pk.year)}, {int(pk.groups_above_us_50m)} Gruppen); "
                f"zuletzt {last.share_in_groups_above_us:.2f} ({int(last.year)}); Ausfuhren/US-Ausfuhren zuletzt "
                f"{last.manuf_exports_musd / last.us_manuf_exports_musd:.2f}")
@@ -133,11 +138,51 @@ def hits(tgt, data, code, excl=frozenset()):
                   if tgt in r.target.split(";") and r.instrument_id not in GLOBAL | excl and covers(r, data, code))
 
 
-q = C[~C.left_censored & C.challenger.isin(NEW)].copy() if len(C) else C
+# Befund 2 fuer die neuen Ziele: Kreuzungsjahr der von jeder Massnahme erfassten Gruppen (wie population_test.py)
+SERX = {k: v.groupby("year")[["x_ch", "x_us"]] for k, v in SER.items()}
+rows = []
+for _, r in reg.iterrows():
+    for tgt in r.target.split(";"):
+        if tgt not in NEW:
+            continue
+        best = None
+        for data in ("s1", "s3", "hs4"):
+            cs = r[{"s1": "codes_s1", "s3": "codes_s3", "hs4": "codes_hs4"}[data]]
+            if not isinstance(cs, str) or (tgt, data) not in SER:
+                continue
+            g = SER[(tgt, data)]
+            g = g if cs == "ALL" else g[g.code.apply(lambda c: any(c.startswith(k) for k in cs.split(";")))]
+            t = g.groupby("year")[["x_ch", "x_us"]].sum()
+            y, left = crossover(t.x_ch, t.x_us)
+            first = int(t.index.min()) if len(t) else None
+            if y is not None or best is None or (best[1] is None and first <= int(r.year)):
+                best = (data, y, left, first)
+            if y is not None:
+                break
+        data, y, left, first = best if best else (None, None, False, None)
+        iy = int(r.year)
+        if y is None:
+            ph = "keine Kreuzung in den Daten" if (first is not None and first <= iy) else "vor Datenbeginn"
+        elif left:
+            ph = "post (Kreuzung spaetestens im ersten Datenjahr)" if iy >= y else "unbestimmt"
+        else:
+            ph = "post" if iy >= y else "absorption"
+        rows.append({"instrument_id": r.instrument_id, "year": iy, "target": tgt, "reach": r.reach, "data": data,
+                     "crossover_year": y, "first_data_year": first, "phase": ph})
+T = pd.DataFrame(rows)
+T.to_csv(D / "cases_register_tested.csv", index=False)
+out += ["", "Breite Massnahmen gegen die neuen Ziele: Phase gegen die Kreuzung der erfassten Gruppen"]
+out += [T.to_string(index=False)]
+
+q = CR[~CR.left_censored & CR.challenger.isin(NEW)].copy() if len(CR) else CR
 H = []
 for _, g in q.iterrows():
     ys = hits(g.challenger, g.data, g.code)
+    ys_t = hits(g.challenger, g.data, g.code, frozenset(POLITICAL))
+    ys_s = hits(g.challenger, g.data, g.code, frozenset(POLITICAL | {"B-29"}))
     H.append({**g.to_dict(), "broad_within10": any(g.crossover_year <= y <= g.crossover_year + 10 for y in ys),
+              "broad_within10_sector": any(g.crossover_year <= y <= g.crossover_year + 10 for y in ys_s),
+              "broad_within10_trade": any(g.crossover_year <= y <= g.crossover_year + 10 for y in ys_t),
               "broad_before": any(y < g.crossover_year for y in ys)})
 H = pd.DataFrame(H)
 H.to_csv(D / "cases_hazard.csv", index=False)
@@ -150,7 +195,7 @@ for tgt in NEW:
             continue
         if len(g):
             yrs = f"Jahre {int(g.crossover_year.min())}-{int(g.crossover_year.max())}; "
-            out.append(f"{tgt} {data}: {len(g)} von {n_all} Gruppen verdraengt; {yrs}breit binnen 10 J. {g.broad_within10.mean():.2f}; breit schon vorher {int(g.broad_before.sum())}")
+            out.append(f"{tgt} {data}: {len(g)} von {n_all} Gruppen verdraengt; {yrs}breit binnen 10 J. {g.broad_within10.mean():.2f}, ohne politisch begruendete {g.broad_within10_trade.mean():.2f}, ohne GSP-Graduierung {g.broad_within10_sector.mean():.2f}; breit schon vorher {int(g.broad_before.sum())}")
         else:
             out.append(f"{tgt} {data}: 0 von {n_all} Gruppen verdraengt")
 
@@ -173,7 +218,7 @@ for f in ("ttbd/gad/GAD/GAD-USA.xls", "ttbd/gcvd/GCVD/GCVD-USA.xls"):
     allcases.append(info)
     pr = pr[pr.HS_CODE.astype(str).str.len() >= 4].assign(hs=lambda z: z.HS_CODE.astype(str).str.split(".").str[0])
     cases.append(pr[["CASE_ID", "hs"]].merge(info, on="CASE_ID"))
-allc = pd.concat(allcases).dropna(subset=["year"])
+allc = pd.concat(allcases, ignore_index=True).dropna(subset=["year"])
 cases = pd.concat(cases).dropna(subset=["year"])
 cases["year"] = cases.year.astype(int)
 maps = []
@@ -193,7 +238,7 @@ for (tgt, data), g in SER.items():
     g = g.copy()
     rel = g.groupby("code").x_ch.max()
     g = g[g.code.isin(rel[rel >= 5e7].index)]
-    cr = C[(C.challenger == tgt) & (C.data == data)].set_index("code").crossover_year if len(C) else pd.Series(dtype=float)
+    cr = CR[(CR.challenger == tgt) & (CR.data == data)].set_index("code").crossover_year if len(CR) else pd.Series(dtype=float)
     g["crossover_year"] = g.code.map(cr)
     g["post"] = (g.year >= g.crossover_year).astype(int)
     hh = {c: hits(tgt, data, c) for c in g.code.unique()}
@@ -212,6 +257,9 @@ for s, g in P.groupby("src"):
 
 
 def poisson(df, y, label, extra=""):
+    df = df.copy()
+    for c in ("year", "src", "code"):
+        df[c] = df[c].astype(object)  # patsy kennt den neuen pandas-Stringtyp nicht
     if df[y].sum() < 3 or df.post.nunique() < 2:
         out.append(f"{label}: zu wenige Ereignisse ({int(df[y].sum())}) oder keine Variation in post"); return
     pre, post = df[df.post == 0], df[df.post == 1]
@@ -222,7 +270,7 @@ def poisson(df, y, label, extra=""):
         b, se = m.params["post"], m.bse["post"]
         res = f"IRR {np.exp(b):.2f} (95 % KI {np.exp(b-1.96*se):.2f}-{np.exp(b+1.96*se):.2f}), p={m.pvalues['post']:.3f}"
     except Exception as e:
-        res = f"Schaetzung nicht moeglich ({type(e).__name__})"
+        res = f"Schaetzung nicht moeglich ({type(e).__name__}: {str(e)[:200]})"
     out.append(f"{label}: je 100 Gruppenjahre vor {r0:.2f} ({int(pre[y].sum())} Ereignisse, {len(pre)} Gj.), nach {r1:.2f} ({int(post[y].sum())}, {len(post)}); {res}")
 
 
@@ -231,6 +279,12 @@ A = P[P.at_risk == 1].copy()
 A["year"] = A.year.astype(str) + A.src
 poisson(A, "broad", "alle neuen Faelle")
 poisson(A[A.challenger.isin(["TW", "HK", "BR"])], "broad", "TW, HK, BR")
+hs = {(t, d, c): hits(t, d, c, frozenset({"B-29"})) for t, d, c in P[["challenger", "data", "code"]].drop_duplicates().itertuples(index=False)}
+P["broad_s"] = [int(y in hs[(t, d, c)]) for t, d, c, y in zip(P.challenger, P.data, P.code, P.year)]
+P["at_risk_s"] = [int(not any(h < y for h in hs[(t, d, c)])) for t, d, c, y in zip(P.challenger, P.data, P.code, P.year)]
+A = P[P.at_risk_s == 1].copy()
+A["year"] = A.year.astype(str) + A.src
+poisson(A, "broad_s", "alle neuen Faelle, ohne GSP-Graduierung (sektorale Massnahmen)")
 out += ["", "(b) Neue US-AD/CVD-Verfahren, 1988-2015, Jahr x Quelle"]
 Q = P[(P.year >= 1988) & (P.year <= 2015)].copy()
 Q["year"] = Q.year.astype(str) + Q.src
