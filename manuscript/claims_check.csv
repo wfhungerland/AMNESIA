@@ -41,3 +41,16 @@ nr,section,claim,source,checked
 40,4.7,AD/CVD: 3.4 vs 6.5 per 100 gy; IRR 1.10 with size control; JP 2.0,data/population_panel.txt,ja (gerechnet; HS-SITC ueber WITS-Konkordanz)
 41,4.7,Weight: AD within 5y by import third 1/11/30%; broad 27/14/23%,data/population_weight.csv,ja (gerechnet)
 42,4.7,Employment: AD by third 1/16/25%; n.s. with imports; broad 19/14/29% logit 0.24 p=0.43,data/population_employment.txt,ja (gerechnet; Zuordnung naeherungsweise)
+43,4.7/Abstract,JP-GB milestone 1932: British India imports Japan 551.9 vs UK 541.9m yards,Hansard HC Deb 4 Jul 1934 vol 291 cc1890-1,ja (an der Quelle)
+44,4.7,India 50% on non-British piece goods 27 Aug 1932; 75% 7 Jun 1933; preference 15/20% 4 Apr 1930,Hansard written answers 19 Dec 1934 cc1162-4W; HC Deb 20 Feb 1933,ja (an der Quelle)
+45,4.7,Indo-Japanese quota from 8 Jan 1934; colonial quotas 7 May 1934 (1927-31 average),Hansard written answers 16 Jul 1934; HC Deb 7 May 1934 vol 289 cc715-9,ja (an der Quelle)
+46,4.7,Japan/UK exports 35 markets 0.23 (1924) to 0.33 (1935); 7 Asian markets 0.42 to 0.86 (1936); NEI >1 from 1930,data/third_markets_1930s_summary.csv (TRADHIST),ja (gerechnet)
+47,4.7,Hansard mentions of Japan 1-10 per 100k (1920-31); 12 (1932); 102 (1933); break 1932,data/ds1_hansard_japan.csv; data/tests_sequence.txt,ja (gerechnet)
+48,4.7,Share of US manuf. exports overtaken: JP 0.31-0.35 (1977-87); CN 0.45 (2018); KR/TW 0.01-0.03 (1977-86); VN 0.064; MX 0.066 (2023); TH 0.016; MY 0.060 peak,data/cases_breadth.csv,ja (gerechnet)
+49,4.7,TW footwear crossover 1970 -> OMA June 1977; BR steel crossover 1983 -> VRA 1984,data/cases_register_tested.csv; Proclamation 4510; Moore (1996),ja
+50,4.7,CTV 1979 and machine tools 1986 (TW) and steel 1984 (MX) without crossover,data/cases_register_tested.csv; Proclamation 4634; Dinopoulos/Kreinin (1991),ja
+51,4.7,Sectoral broad start IRR 6.25 (2.76-14.18) for the seven economies,data/cases_panel.txt,ja (gerechnet)
+52,4.7,VN textile agreement May 2003; VN apparel (SITC 84) crossover 2006,FR Doc. 03-12314; data/cases_register_tested.csv,ja
+53,4.7,WTO Safeguards Art. 11.1(b) bans VERs and OMAs,WTO legal text 25-safeg.pdf,ja (an der Quelle)
+54,4.7,2025 IEEPA: Mexico (migration/drugs) EO 14194; Brazil 40% (Bolsonaro) EO 14323; reciprocal EO 14257 (deficits),Federal Register 2025-02407; 2025-14896; 2025-06063,ja (an der Quelle)
+55,4.7,Annual world crossover Japanese vs British cotton piece goods 1933,Hansard 29 Nov 1933 (MPs); Statistik fehlt,nein (zu pruefen: Robson 1957; League of Nations)

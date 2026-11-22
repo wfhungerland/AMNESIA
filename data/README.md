@@ -81,6 +81,9 @@ Weitere Auffälligkeit: Die Weltbank-Reihe für Korea zeigt 1976–1979 winzige 
 |---|---|---|
 | `ds1_export_milestones.csv`, `ds1_export_series.csv` | Meilensteine nach der Exportregel (Gegenprobe) | `comtrade_milestones.py` |
 | `third_markets_tradhist.csv`, `third_markets_summary.csv`, `tyszynski_1951_selected.csv` | Drittmärkte 1871–1913; Tyszynski (1951) Tabellen I, II, VIII | `third_markets.py` |
+| `third_markets_1930s.csv`, `third_markets_1930s_summary.csv` | Japan gegen Großbritannien: Drittmärkte 1920–1938 (TRADHIST) | `third_markets_1930s.py` |
+| `ds1_hansard_japan.csv`, `ds1_hansard_japan_sections.csv` | Nennungen Japans in britischen Wirtschaftsdebatten 1920–1939 | `hansard_japan.py` |
+| `cases_crossovers.csv`, `cases_breadth.csv`, `cases_hazard.csv`, `cases_register_tested.csv`, `cases_panel.csv`, `cases_panel.txt` | Weitere Fälle TH, VN, MY, MX, BR, HK, TW (mit JP, KR, CN zum Vergleich der Reichweite) | `cases_fetch.py`, `cases_test.py` |
 | `ds1_hansard_sectors.csv`, `ds1_hansard_usa.csv`, `ds1_hansard_phrases.csv` | Hansard nach Sektor, Nennung der USA, Wendungen | `hansard_*.py` |
 | `ds1_registers.csv`, `ds1_registers_summary.txt` | 759 AD/CVD-Verfahren von USA und EU gegen JP, KR, CN (TTBD, Bown) | `registers_ttbd.py` |
 | `ds1_product_displacement.csv` | 127 US-AD-Fälle gegen China, Importanteil vor dem Fall | `registers_product_displacement.py` |
