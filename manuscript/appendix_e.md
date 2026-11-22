@@ -282,9 +282,9 @@ UN distance to the United States, mean 2009–2023: Japan 1.73, Korea 1.64, Mexi
 | 1 Jan 1995 | TRIPS, TRIMs, Agreement on Subsidies | rules constrain the challenger's industrial policy (Wade 2003) |
 | 1995–1 Jan 2005 | Agreement on Textiles and Clothing | MFA quotas phased out; ended 1 Jan 2005 |
 | 11 Dec 2001 | China joins WTO (Chinese Taipei 1 Jan 2002) | China and Taiwan under WTO rules on safeguards |
-| 11 Jan 2007 | Viet Nam joins WTO | Vietnam under WTO rules (end of the 2003 quotas not checked) |
+| 11 Jan 2007 | Viet Nam joins WTO | US quotas on Vietnamese textiles and apparel eliminated with effect from 11 Jan 2007 (FR Doc. 07-65) |
 
-Sources: WTO, Agreement on Safeguards (legal text 25-safeg.pdf); WTO, "Textiles: back in the mainstream" (texintro_e.htm); WTO, completed accessions (completeacc_e.htm); WTO, Viet Nam accession page. The start year of the MFA (1974 in the literature) and the exact end of the US–Vietnam quotas are not yet checked at a primary source.
+Sources: WTO, Agreement on Safeguards (legal text 25-safeg.pdf); WTO, "Textiles: back in the mainstream" (texintro_e.htm); WTO, completed accessions (completeacc_e.htm); WTO, Viet Nam accession page. The entry into force of the MFA (signed 20 December 1973; 1 January or 1 April 1974 depending on the source) is not yet checked at a primary source.
 
 ## E.8 Limitations
 
