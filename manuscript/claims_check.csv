@@ -88,3 +88,4 @@ nr,section,claim,source,checked
 85,5/E.11,China: sector debates 237 vs 148 p=0.15; linked share from crossover 25 vs 20 p=0.22,data/ds1_crec_voice_test.csv (perm_p nachgerechnet),ja (gerechnet)
 86,5/E.11,Volume with controls (22 sectors): l_vol +0.18 perm p=0.025; l_emp p=0.32; l_m_us p=0.40; alone l_vol p=0.009 l_emp p=0.049; group level n=38 n.s.,data/ds1_share_controls.txt,ersetzt durch 87 (nur 22 Sektoren)
 87,5/E.11,All 28 sectors: l_vol +0.18 perm p=0.011; l_emp p=0.33; l_m_us +0.08 p=0.084; alone vol p=0.002 emp p=0.009 imp p=0.007; 63 groups vol p=0.021,data/ds1_share_controls.txt,ja (gerechnet; Kontrollen gegen population_weight.csv abgeglichen)
+88,5/E.11,China 17 sectors: l_vol +0.04 perm p=0.39; with controls l_vol p=0.16; l_m_us -0.24 HC1 p=0.025; groups (330) l_emp +0.61 p=0.010,data/ds1_crec_controls.txt,ja (gerechnet; Kontrollen gegen population_weight.csv abgeglichen)

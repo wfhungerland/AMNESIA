@@ -1,0 +1,29 @@
+Abgleich mit data/population_weight.csv (116 gemeinsame Gruppen): groesste Abweichung l_m_us 0.000, emp_k 0.000
+(1) Sektorebene: 17 Sektoren, davon mit Massnahme 7
+          sector  measure  crossover_year  volume_pre  volume_2001_2017 class  groups     emp      imp
+           steel     True            1992         NaN             39.58    s3       9  152.43  3079.65
+       aluminium     True            2004        2.17              3.38    s3       1   64.65   180.80
+           solar     True            2008        6.14             15.44   hs4       1   64.86   977.01
+         washers     True            1999         NaN              0.00    s3       1   66.71  1970.57
+         telecom     True            2003       57.85             19.31    s3       1  237.55  8145.97
+  semiconductors     True            2009        6.15              6.60    s3       1  121.32  2106.66
+            cars     True            2023       42.27             50.03   hs4       1  111.02  2539.39
+       furniture    False            2001        5.93              4.83    s3       1  476.06  5018.99
+textiles_apparel    False            1992         NaN             30.89    s3      16 1085.10  7113.64
+        footwear    False            1992         NaN              8.37    s3       1   75.82  3600.77
+            toys    False            1992         NaN              9.17    s3       1   92.90  4173.51
+           tires    False            2005        7.76              4.34    s3       1   60.55  1598.00
+           paper    False            2008        0.51              0.80   hs4      16  247.09  2517.57
+       chemicals    False            2004       37.28             24.61    s3       4   81.18  3448.22
+       computers    False            2003       52.36             26.54    s3       1  132.98 15657.55
+  glass_ceramics    False            1992         NaN              6.60    s3       3  119.62  1419.46
+       batteries    False            2004        1.30              6.60    s3       1  199.13  4099.03
+   y ~ l_vol: l_vol +0.035 (HC1 p=0.795; Permutation einseitig p=0.387)
+   y ~ l_emp: l_emp -0.190 (HC1 p=0.082; Permutation einseitig p=0.866)
+   y ~ l_m_us: l_m_us -0.213 (HC1 p=0.008; Permutation einseitig p=0.945)
+   y ~ l_vol + l_emp + l_m_us: l_vol +0.132 (HC1 p=0.363; Permutation einseitig p=0.163); l_emp -0.065 (HC1 p=0.626; Permutation einseitig p=0.621); l_m_us -0.243 (HC1 p=0.025; Permutation einseitig p=0.924)
+   Spearman: l_vol/l_emp +0.25; l_vol/l_m_us +0.48; l_emp/l_m_us +0.66
+(2) Gruppenebene: 330 Gruppen in 17 Sektoren; Sektor mit Massnahme in 61 Gruppen
+   y ~ l_vol + C(src): l_vol +0.05 (p=0.955)
+   y ~ l_emp + l_m_us + C(src): l_emp +0.52 (p=0.101); l_m_us -0.17 (p=0.076)
+   y ~ l_vol + l_emp + l_m_us + C(src): l_vol +0.25 (p=0.796); l_emp +0.61 (p=0.010); l_m_us -0.17 (p=0.095)
