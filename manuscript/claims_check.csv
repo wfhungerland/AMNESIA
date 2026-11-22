@@ -6,8 +6,8 @@ nr,section,claim,source,checked
 5,4.1,China GDP per head 33% of US in 2022,Maddison 2023; data/ds2_gdppc.csv,ja (0.329)
 6,4.5/E,Hansard: 281577 debates; 15126 economic,data/ds1_hansard_salience.csv,ja
 7,5,Chemical exports 43% above British in 1899,Tyszynski (1951) Table I,ja
-8,5,Brussels Sugar Convention 1902 lag 22 years; IR 4,ds1_events.csv; Foreign Affairs (1926),Inhalt ja; Tagesdatum 5.3.1902 ungeprueft
-9,5,Patents and Designs Act 1907 compulsory working,research/faelle (Incumbent Rhetoric 2026),ungeprueft
+8,5,Brussels Sugar Convention 1902 lag 22 years; IR 4,ds1_events.csv; Foreign Affairs (1926),ja; Tagesdatum 5.3.1902 an der Quelle (HL Deb 10.3.1902) 23.11.2026
+9,5,Patents and Designs Act 1907 compulsory working,research/faelle (Incumbent Rhetoric 2026),ja (Hansard 9.8.1907 Wortlaut; 1.3.1909 Section 27); Gesetzestext nicht geoeffnet
 10,5,Iron/steel 35->91%; equipment 50->133%; electrical 58->211% of British exports,Tyszynski (1951) Tables I-II,ja
 11,5,Tariff Reform launched 1903,Policy Amnesia Index v2.5 (15.5.1903 Birmingham),im Material geprueft
 12,5,Import Duties Act 1932,Policy Amnesia Index v2.5,im Material geprueft
@@ -18,9 +18,9 @@ nr,section,claim,source,checked
 17,5,Car VER May 1981 1.68m,Toyota history; Berry et al. (1999),im Material geprueft
 18,5,64K DRAM 1981; SIA petition 1985; agreement 1986; tariffs 1987 300m USD,Germany Shock note; Reagan Library,im Material geprueft
 19,5/12,Binding lags Japan 0 to 9 years,ds1_events.csv,ja
-20,5,Section 301 Korea 1985; IP agreement 1986; AD 1993; CVD 2003; WTO 2018/2020,Reagan Library; 58 FR 27520; USITC 3616; WTO,teils im Material geprueft
+20,5,Section 301 Korea 1985; IP agreement 1986; AD 1993; CVD 2003; WTO 2018/2020,Reagan Library; 58 FR 27520; USITC 3616; WTO,"ja an der Quelle 23.11.2026 (51 FR 29445; 58 FR 15467, 27520; 68 FR 47546; USITC Pub. 3616); AD-Saetze im Datensatz korrigiert (0.82-11.16 %)"
 21,5,China manufacturing above US 2010,AEI (2011) / IHS,ungeprueft
-22,5/10,BIS controls 7.10.2022; SMIC 7nm 2023,87 FR 62186; TechInsights (2023),ungeprueft
+22,5/10,BIS controls 7.10.2022; SMIC 7nm 2023,87 FR 62186; TechInsights (2023),BIS 87 FR 62186 an der Quelle (wirksam 7.10.2022); SMIC 7nm (TechInsights) ungeprueft
 23,5/C,Export rule: 28 post; 3 undetermined; 9 not measurable; 1 before,ds1_events.csv,ja
 24,5/C,China EV exports 32.0 vs Germany 41.1 bn USD (2024),UN Comtrade HS 870380,ja (Abruf 21.11.2026)
 25,7.1/E,Germany mentions 14/20/44 per 100k words; share 3.3%->8.8%,ds1_hansard_salience.csv,ja
