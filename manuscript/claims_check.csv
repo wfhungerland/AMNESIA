@@ -99,3 +99,4 @@ nr,section,claim,source,checked
 98,5/C,"Five absorption-phase responses: TV complaint 1968 (IR 2), KR 301 1985 (2), KR agreement 1986 (3), Sullivan speech 2022 (1), BIS controls 2022 (5)",data/ds1_events.csv,ja
 99,4.2/Tab.1/B,Milestones redated: JP semiconductors 1987->1986 (Irwin 1996: parity mid-1985); CN solar 2012->2008 (S. Hrg. 112-623: largest cell producer by 2008); KR shipbuilding 2000->1999 (orders; snippet only),data/ds1_milestones.csv,ja (an der Quelle bis auf Schiffbau)
 100,5,"China binding lags 1-8 years (CN-02 4, CN-03 5, CN-05 8, CN-07 7, CN-10/11 1)",data/ds1_events.csv,ja (gerechnet)
+101,6.2/10/D/G,"Register B-01 to B-42 checked at primary sources (FR, proclamations, FRUS, USITC, NBER); corrections: B-12 country quota allocations, not OMAs; B-27 November 1986; B-34 without Mexico; Korea under LTA from 30 Aug 1963, bilateral 26 Jan 1965 (9 and 2 years before crossover 1972/1973)",data/broad_register.csv,ja an der Quelle 24.11.2026
