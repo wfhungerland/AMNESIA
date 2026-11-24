@@ -41,21 +41,21 @@ The core dataset contains 18 sectoral milestones (the electric-vehicle milestone
 
 | Case | Sector | Year | Milestone | Source |
 |---|---|---|---|---|
-| Germany | synthetic dyes | 1870 | Germany holds about half of world dye output | Murmann and Homburg (2001) |
-| Germany | beet sugar | 1880 | Continental, chiefly German, beet sugar overtakes cane in British sugar imports in the 1880s: the continental share is 36 per cent in 1879, beet 58 per cent of imports by 1888 | Hansard, HC Deb 22 April 1879 and 22 February 1889; Hansard HL 26 May 1884 |
+| Germany | synthetic dyes | 1870 | German firms dominate the synthetic dye market by the 1870s | Murmann and Homburg (2001); Arora and Gambardella (2010) |
+| Germany | beet sugar | 1880 | Continental, chiefly German, beet sugar overtakes cane in British sugar imports in the 1880s: the continental share is 36 per cent in 1879, beet 58 per cent of imports by the late 1880s | Hansard, HC Deb 22 April 1879 and 22 February 1889; Hansard HL 26 May 1884 |
 | Germany | steel | 1893 | German (with Luxembourg) steel output exceeds British: 3,163 against about 2,997 thousand metric tons | NBER Macrohistory Database, series 01183B and 01216; Encyclopaedia Britannica (n.d.) |
 | Germany | electrical engineering | 1900 | Siemens and AEG among the world's leading electrical firms; German electrical exports 2.1 times British in 1913 | Kocka (1971); Tyszynski (1951); Hansard, written answers 17 March 1931 |
-| Japan | cotton textiles | 1951 | Japan again the world's largest exporter of cotton textiles | Conlon (2010); Sugihara (1999) |
+| Japan | cotton textiles | 1951 | Japan again the world's largest exporter of cotton textiles (1951 cloth exports: Japan 1,092, UK 864 million square yards) | Conlon (2010); Sugihara (1999) |
 | Japan | steel | 1969 | Japan becomes the world's largest steel exporter (SITC 67: Japan 2,165, West Germany 2,102 million USD; 1968: 1,713 against 1,829) | Ohashi (2005); UN Comtrade |
 | Japan | colour television | 1970 | Japanese share of the US market for medium-sized colour receivers about 30 per cent; Japan the largest colour TV producer from the late 1960s | US Tariff Commission (1971); Gao and Tisdell (2004) |
 | Japan | automobiles | 1980 | Japan overtakes the US as largest car producer (7.04 against 6.40 million cars) | USITC (1983, 1985); Sobel (1984); Toyota Motor Corporation (2012) |
 | Japan | DRAM | 1981 | Japanese 64K generation overtakes US producers | Semiconductor History Museum of Japan (n.d.) |
 | Japan | semiconductors overall | 1986 | Japanese and US shares of the world semiconductor market about equal at 45 per cent in mid-1985, Japan ahead thereafter | Irwin (1996), p. 24; S. Hrg. 112-623 (2012) |
 | Korea | DRAM | 1992 | Samsung achieves the world's top DRAM market share | Samsung Semiconductor (n.d.); Irwin (1996) |
-| Korea | shipbuilding | 1999 | Korea overtakes Japan in shipbuilding; Japan ahead again in 2001 | The Japan Times (2002) |
+| Korea | shipbuilding | 1999 | Korea overtakes Japan in new ship orders; Japan ahead again in 2001 (7.97 against 6.41 million CGT) | The Japan Times (2002) |
 | China | manufacturing overall | 2010 | China overtakes the US in manufacturing value added (1.92 against 1.79 trillion US dollars) | World Bank, World Development Indicators, NV.IND.MANF.CD |
 | China | solar PV | 2008 | China makes more solar cells than any other country; module share 50 per cent in 2010 | US Senate (2012); USITC (2020) |
-| China | telecom equipment | 2012 | Huawei level with Ericsson in total revenue in 2012 (the result turns on exchange rates); ahead in telecom equipment by 2017 | Tan (2018) |
+| China | telecom equipment | 2012 | Huawei level with Ericsson in total revenue in 2012 (the result turns on exchange rates); ahead in mobile-infrastructure market share in 2017 (28 against 27 per cent) | Tan (2018) |
 | China | electric vehicles | 2023 | BYD overtakes Tesla in quarterly BEV sales (Q4 2023: 526,409 against 484,507; Tesla ahead for the year) | Kane (2024) |
 | China | advanced logic chips | 2023 | TechInsights confirms SMIC 7 nm (N+2) in the Huawei Mate 60 Pro (4 September 2023) | TechInsights (2023); USCC (2023) |
 
@@ -561,6 +561,8 @@ Adams, W. (1979) 'Import restraints and industrial performance: the dilemma of p
 Bailey, M. A., Strezhnev, A. and Voeten, E. (2017) 'Estimating dynamic state preferences from United Nations voting data', *Journal of Conflict Resolution*, 61(2), pp. 430--456.
 
 Ballinger, R. A. (1978) *A History of Sugar Marketing Through 1974*. Agricultural Economic Report No. 382. Washington, DC: US Department of Agriculture, Economics, Statistics, and Cooperatives Service, March.
+
+Arora, A. and Gambardella, A. (2010) 'Implications for energy innovation from the chemical industry', NBER Working Paper 15676. Cambridge, MA: National Bureau of Economic Research.
 
 Berry, S., Levinsohn, J. and Pakes, A. (1999) 'Voluntary export restraints on automobiles: evaluating a trade policy', *American Economic Review*, 89(3), pp. 400--431.
 
