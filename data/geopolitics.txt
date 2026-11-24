@@ -1,9 +1,9 @@
 Art der Massnahme nach Buendnis und Epoche (ohne 'mixed')
 
-register: 61 Instrument-Ziel-Paare
+register: 60 Instrument-Ziel-Paare
 mode                                 negotiated  unilateral
 era           defense_pact                                 
-ab 1995 (WTO) Verteidigungsbuendnis           0          10
+ab 1995 (WTO) Verteidigungsbuendnis           0           9
               kein Buendnis                   1          10
 vor 1995      Verteidigungsbuendnis          26           4
               kein Buendnis                   4           1
