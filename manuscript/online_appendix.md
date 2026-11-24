@@ -42,22 +42,22 @@ The core dataset contains 18 sectoral milestones (the electric-vehicle milestone
 | Case | Sector | Year | Milestone | Source |
 |---|---|---|---|---|
 | Germany | synthetic dyes | 1870 | Germany holds about half of world dye output | Murmann and Homburg (2001) |
-| Germany | beet sugar | 1880 | Continental, chiefly German, beet sugar overtakes cane in the British market in the 1880s; Germany about one third of British unrefined sugar imports by 1890 | Oxford Companion to Sugar and Sweets; Estudos Economicos (SciELO) on European sugar policy; Hansard HL 26 May 1884 |
-| Germany | steel | 1893 | German steel output exceeds British | Encyclopaedia Britannica, Germany: the economy 1890--1914 |
-| Germany | electrical engineering | 1900 | AEG and Siemens among world leaders; Germany about half of world electrical exports by 1913 | Kocka (1999); Reindl (1997) |
-| Japan | cotton textiles | 1951 | Japan again the world's largest exporter of cotton textiles | USDA FAS ATO Tokyo (2010); Osaka University Discussion Paper 99-06 |
+| Germany | beet sugar | 1880 | Continental, chiefly German, beet sugar overtakes cane in British sugar imports in the 1880s: the continental share is 36 per cent in 1879, beet 58 per cent of imports by 1888 | Hansard, HC Deb 22 April 1879 and 22 February 1889; Hansard HL 26 May 1884 |
+| Germany | steel | 1893 | German (with Luxembourg) steel output exceeds British: 3,163 against about 2,997 thousand metric tons | NBER Macrohistory Database, series 01183B and 01216; Encyclopaedia Britannica (n.d.) |
+| Germany | electrical engineering | 1900 | Siemens and AEG among the world's leading electrical firms; German electrical exports 2.1 times British in 1913 | Kocka (1971); Tyszynski (1951); Hansard, written answers 17 March 1931 |
+| Japan | cotton textiles | 1951 | Japan again the world's largest exporter of cotton textiles | Conlon (2010); Sugihara (1999) |
 | Japan | steel | 1969 | Japan becomes the world's largest steel exporter (SITC 67: Japan 2,165, West Germany 2,102 million USD; 1968: 1,713 against 1,829) | Ohashi (2005); UN Comtrade |
-| Japan | colour television | 1970 | Japanese share of the US market for medium-sized colour receivers about 30 per cent; Japan led world colour TV production from the late 1960s | US Tariff Commission (1971), TC Publication 367; UQ RSMG Working Paper 26 |
-| Japan | automobiles | 1980 | Japan overtakes the US as largest car producer (about 7.0 against 6.4 million) | Sobel (1984); Toyota 75-year history |
-| Japan | DRAM | 1981 | Japanese 64K generation overtakes US producers | Semiconductor History Museum of Japan |
+| Japan | colour television | 1970 | Japanese share of the US market for medium-sized colour receivers about 30 per cent; Japan the largest colour TV producer from the late 1960s | US Tariff Commission (1971); Gao and Tisdell (2004) |
+| Japan | automobiles | 1980 | Japan overtakes the US as largest car producer (7.04 against 6.40 million cars; USITC Publications 1437 and 1712) | Sobel (1984); Toyota Motor Corporation (2012) |
+| Japan | DRAM | 1981 | Japanese 64K generation overtakes US producers | Semiconductor History Museum of Japan (n.d.) |
 | Japan | semiconductors overall | 1986 | Japanese and US shares of the world semiconductor market about equal at 45 per cent in mid-1985, Japan ahead thereafter | Irwin (1996), p. 24; S. Hrg. 112-623 (2012) |
-| Korea | DRAM | 1992 | Samsung becomes the largest DRAM maker (about 13.5 against 12.8 per cent for Toshiba) | Harvard Business School (2003); Samsung Semiconductor |
-| Korea | shipbuilding | 1999 | Korea overtakes Japan in new shipbuilding orders; Japan ahead again in 2001 | OECD/AWES order statistics via secondary sources (Motorship; Japan Times, 18 Feb 2002) |
-| China | manufacturing overall | 2010 | China overtakes the US in manufacturing value added (19.8 against 19.4 per cent of world) | IHS Global Insight via AEI (2011) |
-| China | solar PV | 2008 | China makes more solar cells than any other country; module share 50 per cent in 2010 | S. Hrg. 112-623 (2012); USITC Pub. 5021 (2020) |
-| China | telecom equipment | 2012 | Huawei overtakes Ericsson in total revenue (equipment-only measure: 2017) | China.org.cn (2012); Caixin (2018) |
-| China | electric vehicles | 2023 | BYD overtakes Tesla in quarterly BEV sales (Q4 2023: 526,409 against 484,507) | InsideEVs (2024) |
-| China | advanced logic chips | 2023 | TechInsights confirms SMIC 7 nm in the Huawei Mate 60 Pro (September 2023) | TechInsights (2023) |
+| Korea | DRAM | 1992 | Samsung achieves the world's top DRAM market share | Samsung Semiconductor (n.d.); Irwin (1996) |
+| Korea | shipbuilding | 1999 | Korea overtakes Japan in shipbuilding; Japan ahead again in 2001 | The Japan Times (2002) |
+| China | manufacturing overall | 2010 | China overtakes the US in manufacturing value added (1.92 against 1.79 trillion US dollars) | World Bank, World Development Indicators, NV.IND.MANF.CD |
+| China | solar PV | 2008 | China makes more solar cells than any other country; module share 50 per cent in 2010 | US Senate (2012); USITC (2020) |
+| China | telecom equipment | 2012 | Huawei level with Ericsson in total revenue in 2012 (the result turns on exchange rates); ahead in telecom equipment by 2017 | Tan (2018) |
+| China | electric vehicles | 2023 | BYD overtakes Tesla in quarterly BEV sales (Q4 2023: 526,409 against 484,507; Tesla ahead for the year) | Kane (2024) |
+| China | advanced logic chips | 2023 | TechInsights confirms SMIC 7 nm (N+2) in the Huawei Mate 60 Pro (4 September 2023) | TechInsights (2023); USCC (2023) |
 
 **Table B.2. Contested market and export-crossover check**
 
@@ -564,17 +564,27 @@ Bown, C. P. (2016) *Temporary Trade Barriers Database*. World Bank Data Catalog,
 
 Bown, C. P. and Crowley, M. A. (2013a) 'Import protection, business cycles, and exchange rates: evidence from the Great Recession', *Journal of International Economics*, 90(1), pp. 50--64.
 
+Conlon, M. (2010) *The History of U.S. Cotton in Japan*. GAIN Report JA0503. Tokyo: USDA Foreign Agricultural Service, Agricultural Trade Office Tokyo, 12 April. Available at: https://www.usdajapan.org/wpusda/wp-content/uploads/2016/04/The-History-of-U.S.-Cotton-in-Japan-_Tokyo-ATO_Japan_4-12-2010.pdf (Accessed: 25 November 2026).
+
 Crafts, N. F. R. (1989) 'Revealed comparative advantage in manufacturing, 1899--1950', *Journal of European Economic History*, 18(1), pp. 127--137.
 
 Dinopoulos, E. and Kreinin, M. E. (1991) 'The U.S. VER on machine tools: causes and effects', in R. E. Baldwin (ed.) *Empirical Studies of Commercial Policy*. Chicago: University of Chicago Press, pp. 113--134.
 
 Eichengreen, B., Park, D. and Shin, K. (2012) 'When fast-growing economies slow down: international evidence and implications for China', *Asian Economic Papers*, 11(1), pp. 42--87.
 
+Encyclopaedia Britannica (n.d.) 'Germany: The economy, 1890--1914'. Available at: https://www.britannica.com/place/Germany/The-economy-1890-1914 (Accessed: 25 November 2026).
+
 Fouquin, M. and Hugot, J. (2016) *Two Centuries of Bilateral Trade and Gravity Data: 1827--2014*. CEPII Working Paper No. 2016-14. Paris: CEPII.
+
+Gao, Z. and Tisdell, C. (2004) 'Television production: its changing global location, the product cycle and China', Working Papers on Economic Theory, Applications and Issues No. 26. Brisbane: The University of Queensland, January.
 
 Irwin, D. A. (1996) 'Trade policies and the semiconductor industry', in A. O. Krueger (ed.) *The Political Economy of American Trade Policy*. Chicago: University of Chicago Press, pp. 11--72.
 
+Kane, M. (2024) 'Top all-electric car OEMs by sales in Q4 and 2023: Tesla vs. BYD', *InsideEVs*, 16 January. Available at: https://insideevs.com/news/704678/top-electric-car-oems-sales-2023q4-tesla-byd/ (Accessed: 25 November 2026).
+
 Kentikelenis, A. E., Stubbs, T. H. and King, L. P. (2016) 'IMF conditionality and development policy space, 1985--2014', *Review of International Political Economy*, 23(4), pp. 543--582.
+
+Kocka, J. (1971) 'Family and bureaucracy in German industrial management, 1850--1914: Siemens in comparative perspective', *Business History Review*, 45(2), pp. 133--156. doi:10.2307/3113099.
 
 Kuziemko, I. and Werker, E. (2006) 'How much is a seat on the Security Council worth? Foreign aid and bribery at the United Nations', *Journal of Political Economy*, 114(5), pp. 905--930.
 
@@ -586,20 +596,48 @@ Moore, M. O. (1996) 'Steel protection in the 1980s: the waning influence of big 
 
 Murmann, J. P. and Homburg, E. (2001) 'Comparing evolutionary dynamics across different national settings: the case of the synthetic dye industry, 1857--1914', *Journal of Evolutionary Economics*, 11(2), pp. 177--205.
 
+NBER (n.d.) *NBER Macrohistory Database*, series 01183B (United Kingdom, steel ingots) and 01216 (Germany and Luxembourg, steel). Cambridge, MA: National Bureau of Economic Research. Available at: https://www.nber.org/research/data/nber-macrohistory-i-production-commodities (Accessed: 25 November 2026).
+
 Ohashi, H. (2005) 'Learning by doing, export subsidies, and industry growth: Japanese steel in the 1950s and 1960s', *Journal of International Economics*, 66(2), pp. 297--323.
 
 Pritchett, L. and Summers, L. H. (2014) *Asiaphoria Meets Regression to the Mean*. NBER Working Paper 20573.
 
 Robson, R. (1957) *The Cotton Industry in Britain*. London: Macmillan.
 
+Samsung Semiconductor (n.d.) 'History'. Available at: https://semiconductor.samsung.com/about-us/history/ (Accessed: 25 November 2026).
+
 Sandberg, L. G. (1974) *Lancashire in Decline: A Study in Entrepreneurship, Technology, and International Trade*. Columbus: Ohio State University Press.
+
+Semiconductor History Museum of Japan (n.d.) '80s trends in the semiconductor industry'. Available at: https://www.shmj.or.jp/english/trends/trd80s.html (Accessed: 25 November 2026).
+
+Sobel, R. (1984) *Car Wars: The Untold Story*. New York: Dutton.
 
 Stubbs, T. H., Kentikelenis, A. E. and King, L. P. (2016) 'Catalyzing aid? The IMF and donor behavior in aid allocation', *World Development*, 78, pp. 511--528.
 
 Stubbs, T., Reinsberg, B., Kentikelenis, A. and King, L. (2020) 'How to evaluate the effects of IMF conditionality', *Review of International Organizations*, 15(1), pp. 29--73.
 
+Sugihara, K. (1999) 'International circumstances surrounding the postwar Japanese cotton textile industry', Discussion Papers in Economics and Business 99-06. Osaka: Graduate School of Economics, Osaka University, March.
+
+Tan, J. (2018) 'Huawei now world's largest telecom equipment-maker', *Caixin Global*, 19 March. Available at: https://www.caixinglobal.com/2018-03-19/huawei-now-worlds-largest-telecom-equipment-maker-101223256.html (Accessed: 25 November 2026).
+
+TechInsights (2023) 'TechInsights finds SMIC 7nm (N+2) in Huawei Mate 60 Pro', 4 September. Available at: https://www.techinsights.com/blog/techinsights-finds-smic-7nm-n2-huawei-mate-60-pro (Accessed: 25 November 2026).
+
+The Japan Times (2002) 'Japan back to No. 1 in shipbuilding', 18 February. Available at: https://www.japantimes.co.jp/news/2002/02/18/business/japan-back-to-no-1-in-shipbuilding/ (Accessed: 25 November 2026).
+
+Toyota Motor Corporation (2012) '75 Years of Toyota. Part 3, Chapter 1, Section 1: Voluntary restraints imposed on exports to U.S.; Item 3: U.S. sales structure strengthened amid voluntary restraints'. Available at: https://www.toyota-global.com/company/history_of_toyota/75years/text/leaping_forward_as_a_global_corporation/chapter1/section1/item3.html (Accessed: 25 November 2026).
+
 Tyszynski, H. (1951) 'World trade in manufactured commodities, 1899--1950', *The Manchester School*, 19(3), pp. 272--304.
 
+US Senate, Committee on Energy and Natural Resources (2012) *Clean Energy Race: The United States and China*. Hearing, 112th Congress, 2nd session, 14 June 2012, S. Hrg. 112-623. Washington, DC: U.S. Government Printing Office.
+
+US Tariff Commission (1971) *Television Receiving Sets from Japan: Determination of Injury in Investigation No. AA1921-66 under the Antidumping Act, 1921, as Amended*. TC Publication 367. Washington, DC, March.
+
+USCC (2023) *2023 Report to Congress of the U.S.-China Economic and Security Review Commission*. Washington, DC: U.S.-China Economic and Security Review Commission, 30 November.
+
+USITC (2020) *Crystalline Silicon Photovoltaic Cells, Whether or Not Partially or Fully Assembled Into Other Products: Monitoring Developments in the Domestic Industry*. Investigation No. TA-201-075 (Monitoring), USITC Publication 5021. Washington, DC: U.S. International Trade Commission, February.
+
 Wade, R. H. (2003) 'What strategies are viable for developing countries today? The World Trade Organization and the shrinking of "development space"', *Review of International Political Economy*, 10(4), pp. 621--644.
+
+World Bank (2026) *World Development Indicators*, series NV.IND.MANF.CD (manufacturing, value added, current US dollars). Available at: https://data.worldbank.org (Accessed: 25 November 2026).
 
 Sources cited by short name in Tables B.1, C.1 and G.5 (industry reports, archives, Federal Register documents, parliamentary papers) are recorded in `data/ds1_milestones.csv` and `data/ds1_responses.csv`; full references are still to be added.
