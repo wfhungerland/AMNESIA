@@ -115,7 +115,7 @@ Five of 41 responses precede the milestone of their sector. Four of the five sco
 
 **Window test and placebo.** Within ten years on either side of the milestone, 5 responses fall in the ten years before and 26 in the ten years from the milestone (binomial test against equal probability, one-sided p = 0.0001); for binding responses the counts are 2 and 18 (p = 0.0002). A placebo exercise shifts every milestone by a random number of years between −10 and +10 (10,000 draws, all responses of a milestone shifted together). The mean share after the milestone is then 0.61 (0.62 for binding responses); a share as high as the observed 0.84 occurs in 3.0 per cent of draws for all responses, and the observed binding share of 0.90 in 1.0 per cent (`data/tests_sequence.py`, `data/tests_sequence.txt`).
 
-**Business cycle.** Temporary trade barriers rise in downturns (Bown and Crowley 2013b). If milestones coincided with recessions, the sequence could reflect the cycle. Measuring the incumbent's output gap as the deviation of log real GDP from a Hodrick--Prescott trend (λ = 100; Maddison Project 2023), 38 per cent of the 39 responses with data fall in years of negative output gap, against 45 per cent of all years in the case windows; for binding responses the shares are 39 and 45 per cent (`data/tests_cycle.py`, `data/tests_cycle.txt`).
+**Business cycle.** Temporary trade barriers rise in downturns (Bown and Crowley 2013a). If milestones coincided with recessions, the sequence could reflect the cycle. Measuring the incumbent's output gap as the deviation of log real GDP from a Hodrick--Prescott trend (λ = 100; Bolt and van Zanden 2024), 38 per cent of the 39 responses with data fall in years of negative output gap, against 45 per cent of all years in the case windows; for binding responses the shares are 39 and 45 per cent (`data/tests_cycle.py`, `data/tests_cycle.txt`).
 
 **Export crossover instead of milestone.** Under the export crossover, 28 of the 41 responses follow the crossover, 3 cannot be placed because only an upper bound exists for the crossover (British responses of 1885--1896 against an export lead in chemicals documented first in 1899), and 9 cannot be classified because the export data do not measure the contested product: DRAM is not separable from logic chips in SITC 776, and China's integrated-circuit exports consist largely of assembled foreign chips. One response precedes the crossover: the EU's countervailing duties on Chinese battery-electric vehicles of October 2024 (IR 4), imposed while Chinese electric-car exports were still below German exports (32.0 against 41.1 billion US dollars in 2024). Against the United States, Chinese exports had passed American ones in 2021, three years before the American tariff increase. The two rules thus produce one exception each, in different sectors: export controls on advanced chips under the milestone, EU duties on electric cars under the crossover.
 
@@ -218,7 +218,7 @@ Source: Tyszynski (1951), Tables I and II, current £000; values transcribed fro
 
 # F. The United States as a placebo before 1914
 
-The United States overtook Britain in GDP per capita around 1900: the lead changed hands several times in the 1890s and stayed with the United States from 1899 (Maddison Project 2023). If growth alone triggered escalation, British attention to the United States should rise as well. It does not. Mentions of the United States per 100,000 words of economic debate stay between 41 and 56 across all four periods of Table E.1 (Germany: 14 rising to 43--45), and the share of debates linking the United States to competition terms stays between 0.7 and 2.1 per cent, highest in 1850--1869 and never above the German share after 1893. A phrase search finds no parliamentary echo of the press theme of an 'American invasion' around 1901: the phrase does not occur once in the 14,383 economic debates of 1850--1914, and 'American competition' occurs in six debates in all, against eleven for 'Made in Germany' (`data/hansard_phrases.py`).
+The United States overtook Britain in GDP per capita around 1900: the lead changed hands several times in the 1890s and stayed with the United States from 1899 (Bolt and van Zanden 2024). If growth alone triggered escalation, British attention to the United States should rise as well. It does not. Mentions of the United States per 100,000 words of economic debate stay between 41 and 56 across all four periods of Table E.1 (Germany: 14 rising to 43--45), and the share of debates linking the United States to competition terms stays between 0.7 and 2.1 per cent, highest in 1850--1869 and never above the German share after 1893. A phrase search finds no parliamentary echo of the press theme of an 'American invasion' around 1901: the phrase does not occur once in the 14,383 economic debates of 1850--1914, and 'American competition' occurs in six debates in all, against eleven for 'Made in Germany' (`data/hansard_phrases.py`).
 
 Bilateral trade data explain why. In a fixed panel of 17 third markets with data for all three suppliers in every benchmark year from 1880 to 1913 (CEPII TRADHIST v4; Fouquin and Hugot 2016), German exports rise from 47 to 85 per cent of British exports and exceed them in seven markets by 1913 (Austria-Hungary, Belgium, Denmark, Finland, Italy, Norway, Sweden). US exports rise from 46 to 75 per cent, but only to 51 per cent once Canada is excluded, and exceed British exports only in Canada and Austria-Hungary (Table F.1).
 
@@ -558,9 +558,11 @@ Acemoglu, D., Aghion, P. and Zilibotti, F. (2006) 'Distance to frontier, selecti
 
 Bailey, M. A., Strezhnev, A. and Voeten, E. (2017) 'Estimating dynamic state preferences from United Nations voting data', *Journal of Conflict Resolution*, 61(2), pp. 430--456.
 
+Bolt, J. and van Zanden, J. L. (2024) 'Maddison-style estimates of the evolution of the world economy: a new 2023 update', *Journal of Economic Surveys*, 39(2), pp. 631--671. Data: Maddison Project Database 2023, DataverseNL, doi:10.34894/INZBF2.
+
 Bown, C. P. (2016) *Temporary Trade Barriers Database*. World Bank Data Catalog, dataset 0039583.
 
-Bown, C. P. and Crowley, M. A. (2013b) 'Import protection, business cycles, and exchange rates: evidence from the Great Recession', *Journal of International Economics*, 90(1), pp. 50--64.
+Bown, C. P. and Crowley, M. A. (2013a) 'Import protection, business cycles, and exchange rates: evidence from the Great Recession', *Journal of International Economics*, 90(1), pp. 50--64.
 
 Crafts, N. F. R. (1989) 'Revealed comparative advantage in manufacturing, 1899--1950', *Journal of European Economic History*, 18(1), pp. 127--137.
 
@@ -570,6 +572,8 @@ Eichengreen, B., Park, D. and Shin, K. (2012) 'When fast-growing economies slow 
 
 Fouquin, M. and Hugot, J. (2016) *Two Centuries of Bilateral Trade and Gravity Data: 1827--2014*. CEPII Working Paper No. 2016-14. Paris: CEPII.
 
+Irwin, D. A. (1996) 'Trade policies and the semiconductor industry', in A. O. Krueger (ed.) *The Political Economy of American Trade Policy*. Chicago: University of Chicago Press, pp. 11--72.
+
 Kentikelenis, A. E., Stubbs, T. H. and King, L. P. (2016) 'IMF conditionality and development policy space, 1985--2014', *Review of International Political Economy*, 23(4), pp. 543--582.
 
 Kuziemko, I. and Werker, E. (2006) 'How much is a seat on the Security Council worth? Foreign aid and bribery at the United Nations', *Journal of Political Economy*, 114(5), pp. 905--930.
@@ -577,8 +581,6 @@ Kuziemko, I. and Werker, E. (2006) 'How much is a seat on the Security Council w
 League of Nations (1945) *Industrialization and Foreign Trade*. Geneva: League of Nations.
 
 Leeds, B. A., Ritter, J. M., Mitchell, S. M. and Long, A. G. (2002) 'Alliance Treaty Obligations and Provisions, 1815--1944', *International Interactions*, 28(3), pp. 237--260.
-
-Maddison Project (2024) *Maddison Project Database 2023*. DataverseNL, doi:10.34894/INZBF2.
 
 Moore, M. O. (1996) 'Steel protection in the 1980s: the waning influence of big steel?', in A. O. Krueger (ed.) *The Political Economy of American Trade Policy*. Chicago: University of Chicago Press, pp. 73--132.
 
