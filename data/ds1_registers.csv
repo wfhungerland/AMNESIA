@@ -361,7 +361,7 @@ AD,US,CN,USA-AD-1183,Galvanized Steel Wire,2011,False,M-CN-MFG,False,2010,1,post
 AD,US,CN,USA-AD-1186,Certain Stilbenic Optical Brightening Agents,2011,True,M-CN-MFG,False,2010,1,post
 AD,US,CN,USA-AD-1188,High Pressure Steel Cylinders,2011,True,M-CN-MFG,False,2010,1,post
 AD,US,KR,USA-AD-1189,Large Power Transformers,2011,True,M-KR-DRAM,False,1992,19,post
-AD,US,CN,USA-AD-1190,Crystalline Silicon Photovoltaic Cells and Modules,2011,True,M-CN-SOLAR,True,2012,-1,absorption
+AD,US,CN,USA-AD-1190,Crystalline Silicon Photovoltaic Cells and Modules,2011,True,M-CN-SOLAR,True,2008,3,post
 AD,US,CN,USA-AD-1195,Utility Scale Wind Towers,2012,True,M-CN-MFG,False,2010,2,post
 AD,US,KR,USA-AD-1199,Large Residential Washers,2012,True,M-KR-DRAM,False,1992,20,post
 AD,US,CN,USA-AD-1201,Drawn Stainless Steel Sinks,2012,True,M-CN-MFG,False,2010,2,post
@@ -381,7 +381,7 @@ AD,US,JP,USA-AD-1240,Non-Oriented Electrical Steel,2013,True,M-JP-STEEL,True,196
 AD,US,KR,USA-AD-1241,Non-Oriented Electrical Steel,2013,True,M-KR-DRAM,False,1992,21,post
 AD,US,CN,USA-AD-1244,"1,1,1,2-Tetrafluoroethane",2013,False,M-CN-MFG,False,2010,3,post
 AD,US,CN,USA-AD-1245,Calcium Hypochlorite,2013,True,M-CN-MFG,False,2010,3,post
-AD,US,CN,USA-AD-1246,Certain Crystalline Silicon Photovoltaic Products,2014,True,M-CN-SOLAR,True,2012,2,post
+AD,US,CN,USA-AD-1246,Certain Crystalline Silicon Photovoltaic Products,2014,True,M-CN-SOLAR,True,2008,6,post
 AD,US,CN,USA-AD-1248,Carbon and Certain Alloy Steel Wire Rod,2014,True,M-CN-MFG,False,2010,4,post
 AD,US,CN,USA-AD-1250,53-Foot Domestic Dry Containers,2014,False,M-CN-MFG,False,2010,4,post
 AD,US,KR,USA-AD-1252,Certain Steel Nails,2014,True,M-KR-DRAM,False,1992,22,post
@@ -634,7 +634,7 @@ AD,EU,CN,EUN-AD-735,Certain Aluminium Foil in Rolls,2011,True,M-CN-MFG,False,201
 AD,EU,CN,EUN-AD-736,Certain Organic Coated Steel Products,2011,True,M-CN-MFG,False,2010,1,post
 AD,EU,CN,EUN-AD-737,Ceramic Tableware and Kitchenware,2012,True,M-CN-MFG,False,2010,2,post
 AD,EU,CN,EUN-AD-738,Threaded Tube or Pipe Cast Fittings (of malleable cast iron),2012,True,M-CN-MFG,False,2010,2,post
-AD,EU,CN,EUN-AD-747,Crystalline Silicon Photovoltaic Modules and Key Components,2012,True,M-CN-SOLAR,True,2012,0,post
+AD,EU,CN,EUN-AD-747,Crystalline Silicon Photovoltaic Modules and Key Components,2012,True,M-CN-SOLAR,True,2008,4,post
 AD,EU,CN,EUN-AD-748,Stainless Steel Tube and Pipe Butt-welding Fittings (whether or not finished),2012,False,M-CN-MFG,False,2010,2,post
 AD,EU,CN,EUN-AD-750,Certain Seamless Pipes and Tubes of Iron or Steel,2013,False,M-CN-MFG,False,2010,3,post
 AD,EU,CN,EUN-AD-751,Solar Glass,2013,True,M-CN-MFG,False,2010,3,post
@@ -714,7 +714,7 @@ CVD,US,KR,USA-CVD-547,Bottom Mount Combination Refrigerator-Freezers,2011,False,
 CVD,US,CN,USA-CVD-548,Certain Steel Wheels,2011,False,M-CN-MFG,False,2010,1,post
 CVD,US,CN,USA-CVD-549,Galvanized Steel Wire,2011,False,M-CN-MFG,False,2010,1,post
 CVD,US,CN,USA-CVD-550,High Pressure Steel Cylinders,2011,True,M-CN-MFG,False,2010,1,post
-CVD,US,CN,USA-CVD-551,Crystalline Silicon Photovoltaic Cells and Modules,2011,True,M-CN-SOLAR,True,2012,-1,absorption
+CVD,US,CN,USA-CVD-551,Crystalline Silicon Photovoltaic Cells and Modules,2011,True,M-CN-SOLAR,True,2008,3,post
 CVD,US,CN,USA-CVD-556,Utility Scale Wind Towers,2012,True,M-CN-MFG,False,2010,2,post
 CVD,US,KR,USA-CVD-558,Large Residential Washers,2012,True,M-KR-DRAM,False,1992,20,post
 CVD,US,CN,USA-CVD-559,Drawn Stainless Steel Sinks,2012,True,M-CN-MFG,False,2010,2,post
@@ -727,7 +727,7 @@ CVD,US,CN,USA-CVD-576,Non-Oriented Electrical Steel,2013,True,M-CN-MFG,False,201
 CVD,US,KR,USA-CVD-577,Non-Oriented Electrical Steel,2013,False,M-KR-DRAM,False,1992,21,post
 CVD,US,CN,USA-CVD-579,"1,1,1,2-Tetrafluoroethane",2013,False,M-CN-MFG,False,2010,3,post
 CVD,US,CN,USA-CVD-580,Calcium Hypochlorite,2013,True,M-CN-MFG,False,2010,3,post
-CVD,US,CN,USA-CVD-581,Certain Crystalline Silicon Photovoltaic Products,2014,True,M-CN-SOLAR,True,2012,2,post
+CVD,US,CN,USA-CVD-581,Certain Crystalline Silicon Photovoltaic Products,2014,True,M-CN-SOLAR,True,2008,6,post
 CVD,US,CN,USA-CVD-582,Carbon and Certain Alloy Steel Wire Rod,2014,True,M-CN-MFG,False,2010,4,post
 CVD,US,CN,USA-CVD-584,53-Foot Domestic Dry Containers,2014,False,M-CN-MFG,False,2010,4,post
 CVD,US,KR,USA-CVD-586,Certain Steel Nails,2014,False,M-KR-DRAM,False,1992,22,post
@@ -753,7 +753,7 @@ CVD,EU,CN,EUN-CVD-70,Coated Fine Paper,2010,True,M-CN-MFG,False,2010,0,post
 CVD,EU,CN,EUN-CVD-71,Wireless Wide Area Networking (WWAN) Modems,2010,False,M-CN-TEL,True,2012,-2,absorption
 CVD,EU,CN,EUN-CVD-76,Certain Organic Coated Steel Products,2012,True,M-CN-MFG,False,2010,2,post
 CVD,EU,CN,EUN-CVD-77,Bicycles,2012,False,M-CN-MFG,False,2010,2,post
-CVD,EU,CN,EUN-CVD-79,Crystalline Silicon Photovoltaic Modules and Key Components,2012,True,M-CN-SOLAR,True,2012,0,post
+CVD,EU,CN,EUN-CVD-79,Crystalline Silicon Photovoltaic Modules and Key Components,2012,True,M-CN-SOLAR,True,2008,4,post
 CVD,EU,CN,EUN-CVD-82,Solar Glass,2013,True,M-CN-MFG,False,2010,3,post
 CVD,EU,CN,EUN-CVD-83,Certain Filament Glass Fibre Products,2013,True,M-CN-MFG,False,2010,3,post
 CVD,EU,CN,EUN-CVD-84,Polyester Staple Fibres,2013,False,M-CN-MFG,False,2010,3,post

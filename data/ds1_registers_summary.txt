@@ -6,6 +6,6 @@ JP: 164 Verfahren; vor Meilenstein 0, danach 164; endgueltige Massnahme vor 0, d
    M-JP-TV (1970): vor 0, danach 3
 KR: 181 Verfahren; vor Meilenstein 67, danach 114; endgueltige Massnahme vor 35, danach 48; sektorgenau zugeordnet 5
    M-KR-DRAM (1992): vor 1, danach 4
-CN: 414 Verfahren; vor Meilenstein 316, danach 98; endgueltige Massnahme vor 231, danach 52; sektorgenau zugeordnet 9
-   M-CN-SOLAR (2012): vor 2, danach 4
+CN: 414 Verfahren; vor Meilenstein 314, danach 100; endgueltige Massnahme vor 229, danach 54; sektorgenau zugeordnet 9
+   M-CN-SOLAR (2008): vor 0, danach 6
    M-CN-TEL (2012): vor 3, danach 0
