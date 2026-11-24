@@ -600,7 +600,7 @@ FRUS (1987) *Foreign Relations of the United States, 1955--1957, Vol. IX: Foreig
 
 Gao, Z. and Tisdell, C. (2004) 'Television production: its changing global location, the product cycle and China', Working Papers on Economic Theory, Applications and Issues No. 26. Brisbane: The University of Queensland, January.
 
-Hufbauer, G. C. and Vieiro, M. (2012) 'US anti-dumping duties on Chinese solar cells: a costly step', *Realtime Economic Issues Watch*, Peterson Institute for International Economics, May.
+Hufbauer, G. C. and Vieiro, M. (2012) 'US anti-dumping duties on Chinese solar cells: a costly step', *Realtime Economic Issues Watch*, Peterson Institute for International Economics, 25 May. Available at: https://www.piie.com/blogs/realtime-economic-issues-watch/us-anti-dumping-duties-chinese-solar-cells-costly-step (Accessed: 25 November 2026).
 
 Irwin, D. A. (1996) 'Trade policies and the semiconductor industry', in A. O. Krueger (ed.) *The Political Economy of American Trade Policy*. Chicago: University of Chicago Press, pp. 11--72.
 
