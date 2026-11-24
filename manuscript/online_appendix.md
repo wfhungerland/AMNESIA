@@ -556,11 +556,11 @@ Japan peaked at 0.80 of the American level in 1991 and fell back to 0.64 by 2023
 
 Acemoglu, D., Aghion, P. and Zilibotti, F. (2006) 'Distance to frontier, selection, and economic growth', *Journal of the European Economic Association*, 4(1), pp. 37--74.
 
-Adams, W. (1979) 'Import restraints and industrial performance: the dilemma of protectionism', *Michigan Yearbook of International Legal Studies* (now *Michigan Journal of International Law*), 1(1), pp. 34ff.
+Adams, W. (1979) 'Import restraints and industrial performance: the dilemma of protectionism', *Michigan Yearbook of International Legal Studies* (now *Michigan Journal of International Law*), 1(1), pp. 34--52.
 
 Bailey, M. A., Strezhnev, A. and Voeten, E. (2017) 'Estimating dynamic state preferences from United Nations voting data', *Journal of Conflict Resolution*, 61(2), pp. 430--456.
 
-Ballinger, R. A. (1978) *A History of Sugar Marketing Through 1974*. Agricultural Economic Report No. 382. Washington, DC: US Department of Agriculture, Economic Research Service.
+Ballinger, R. A. (1978) *A History of Sugar Marketing Through 1974*. Agricultural Economic Report No. 382. Washington, DC: US Department of Agriculture, Economics, Statistics, and Cooperatives Service, March.
 
 Berry, S., Levinsohn, J. and Pakes, A. (1999) 'Voluntary export restraints on automobiles: evaluating a trade policy', *American Economic Review*, 89(3), pp. 400--431.
 
