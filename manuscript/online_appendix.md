@@ -48,7 +48,7 @@ The core dataset contains 18 sectoral milestones (the electric-vehicle milestone
 | Japan | cotton textiles | 1951 | Japan again the world's largest exporter of cotton textiles | Conlon (2010); Sugihara (1999) |
 | Japan | steel | 1969 | Japan becomes the world's largest steel exporter (SITC 67: Japan 2,165, West Germany 2,102 million USD; 1968: 1,713 against 1,829) | Ohashi (2005); UN Comtrade |
 | Japan | colour television | 1970 | Japanese share of the US market for medium-sized colour receivers about 30 per cent; Japan the largest colour TV producer from the late 1960s | US Tariff Commission (1971); Gao and Tisdell (2004) |
-| Japan | automobiles | 1980 | Japan overtakes the US as largest car producer (7.04 against 6.40 million cars; USITC Publications 1437 and 1712) | Sobel (1984); Toyota Motor Corporation (2012) |
+| Japan | automobiles | 1980 | Japan overtakes the US as largest car producer (7.04 against 6.40 million cars) | USITC (1983, 1985); Sobel (1984); Toyota Motor Corporation (2012) |
 | Japan | DRAM | 1981 | Japanese 64K generation overtakes US producers | Semiconductor History Museum of Japan (n.d.) |
 | Japan | semiconductors overall | 1986 | Japanese and US shares of the world semiconductor market about equal at 45 per cent in mid-1985, Japan ahead thereafter | Irwin (1996), p. 24; S. Hrg. 112-623 (2012) |
 | Korea | DRAM | 1992 | Samsung achieves the world's top DRAM market share | Samsung Semiconductor (n.d.); Irwin (1996) |
@@ -556,7 +556,13 @@ Japan peaked at 0.80 of the American level in 1991 and fell back to 0.64 by 2023
 
 Acemoglu, D., Aghion, P. and Zilibotti, F. (2006) 'Distance to frontier, selection, and economic growth', *Journal of the European Economic Association*, 4(1), pp. 37--74.
 
+Adams, W. (1979) 'Import restraints and industrial performance: the dilemma of protectionism', *Michigan Yearbook of International Legal Studies* (now *Michigan Journal of International Law*), 1(1), pp. 34ff.
+
 Bailey, M. A., Strezhnev, A. and Voeten, E. (2017) 'Estimating dynamic state preferences from United Nations voting data', *Journal of Conflict Resolution*, 61(2), pp. 430--456.
+
+Ballinger, R. A. (1978) *A History of Sugar Marketing Through 1974*. Agricultural Economic Report No. 382. Washington, DC: US Department of Agriculture, Economic Research Service.
+
+Berry, S., Levinsohn, J. and Pakes, A. (1999) 'Voluntary export restraints on automobiles: evaluating a trade policy', *American Economic Review*, 89(3), pp. 400--431.
 
 Bolt, J. and van Zanden, J. L. (2024) 'Maddison-style estimates of the evolution of the world economy: a new 2023 update', *Journal of Economic Surveys*, 39(2), pp. 631--671. Data: Maddison Project Database 2023, DataverseNL, doi:10.34894/INZBF2.
 
@@ -564,9 +570,15 @@ Bown, C. P. (2016) *Temporary Trade Barriers Database*. World Bank Data Catalog,
 
 Bown, C. P. and Crowley, M. A. (2013a) 'Import protection, business cycles, and exchange rates: evidence from the Great Recession', *Journal of International Economics*, 90(1), pp. 50--64.
 
+Bush, G. H. W. (1990) 'Statement on United States action against foreign trade barriers', 26 May 1989, in *Public Papers of the Presidents of the United States: George Bush, 1989*, Book I. Washington, DC: Office of the Federal Register, pp. 607--608.
+
+Chamberlain, J. (1903) *Imperial Union and Tariff Reform: Speeches Delivered from May 15 to Nov. 4, 1903*. London: Grant Richards.
+
 Conlon, M. (2010) *The History of U.S. Cotton in Japan*. GAIN Report JA0503. Tokyo: USDA Foreign Agricultural Service, Agricultural Trade Office Tokyo, 12 April. Available at: https://www.usdajapan.org/wpusda/wp-content/uploads/2016/04/The-History-of-U.S.-Cotton-in-Japan-_Tokyo-ATO_Japan_4-12-2010.pdf (Accessed: 25 November 2026).
 
 Crafts, N. F. R. (1989) 'Revealed comparative advantage in manufacturing, 1899--1950', *Journal of European Economic History*, 18(1), pp. 127--137.
+
+Defense Science Board (1987) *Report of the Defense Science Board Task Force on Defense Semiconductor Dependency*. Washington, DC: Office of the Under Secretary of Defense for Acquisition, February. DTIC ADA178284.
 
 Dinopoulos, E. and Kreinin, M. E. (1991) 'The U.S. VER on machine tools: causes and effects', in R. E. Baldwin (ed.) *Empirical Studies of Commercial Policy*. Chicago: University of Chicago Press, pp. 113--134.
 
@@ -574,9 +586,21 @@ Eichengreen, B., Park, D. and Shin, K. (2012) 'When fast-growing economies slow 
 
 Encyclopaedia Britannica (n.d.) 'Germany: The economy, 1890--1914'. Available at: https://www.britannica.com/place/Germany/The-economy-1890-1914 (Accessed: 25 November 2026).
 
+European Commission (2013) 'EU imposes provisional anti-dumping duties on Chinese solar panels', MEMO/13/497, 4 June. Available at: https://ec.europa.eu/commission/presscorner/detail/en/MEMO_13_497 (Accessed: 25 November 2026).
+
+European Commission (2024) 'EU imposes duties on unfairly subsidised electric vehicles from China while discussions on price undertakings continue', IP/24/5589, 29 October. Available at: https://ec.europa.eu/commission/presscorner/detail/en/ip_24_5589 (Accessed: 25 November 2026).
+
+European Commission and High Representative (2019) *EU-China -- A Strategic Outlook*, JOIN(2019) 5 final, Strasbourg, 12 March.
+
+Flamm, K. (1996) *Mismanaged Trade? Strategic Policy and the Semiconductor Industry*. Washington, DC: Brookings Institution Press.
+
 Fouquin, M. and Hugot, J. (2016) *Two Centuries of Bilateral Trade and Gravity Data: 1827--2014*. CEPII Working Paper No. 2016-14. Paris: CEPII.
 
+FRUS (1987) *Foreign Relations of the United States, 1955--1957, Vol. IX: Foreign Economic Policy; Foreign Information Program*. Washington, DC: Government Printing Office. Doc. 99: report by Herbert N. Blackman, Department of Commerce, 12 July 1957. Available at: https://history.state.gov/historicaldocuments/frus1955-57v09/d99 (Accessed: 25 November 2026).
+
 Gao, Z. and Tisdell, C. (2004) 'Television production: its changing global location, the product cycle and China', Working Papers on Economic Theory, Applications and Issues No. 26. Brisbane: The University of Queensland, January.
+
+Hufbauer, G. C. and Vieiro, M. (2012) 'US anti-dumping duties on Chinese solar cells: a costly step', *Realtime Economic Issues Watch*, Peterson Institute for International Economics, May.
 
 Irwin, D. A. (1996) 'Trade policies and the semiconductor industry', in A. O. Krueger (ed.) *The Political Economy of American Trade Policy*. Chicago: University of Chicago Press, pp. 11--72.
 
@@ -602,11 +626,17 @@ Ohashi, H. (2005) 'Learning by doing, export subsidies, and industry growth: Jap
 
 Pritchett, L. and Summers, L. H. (2014) *Asiaphoria Meets Regression to the Mean*. NBER Working Paper 20573.
 
+Reagan, R. (1989) 'Statement on tariff increases on Japanese semiconductor products', 17 April 1987, in *Public Papers of the Presidents of the United States: Ronald Reagan, 1987*, Book I. Washington, DC: Office of the Federal Register, pp. 382--383.
+
 Robson, R. (1957) *The Cotton Industry in Britain*. London: Macmillan.
+
+Rogin, J. (2012) 'NSA chief: cybercrime constitutes the "greatest transfer of wealth in history"', *Foreign Policy* (The Cable), 9 July. Available at: https://foreignpolicy.com/2012/07/09/nsa-chief-cybercrime-constitutes-the-greatest-transfer-of-wealth-in-history/ (Accessed: 25 November 2026).
 
 Samsung Semiconductor (n.d.) 'History'. Available at: https://semiconductor.samsung.com/about-us/history/ (Accessed: 25 November 2026).
 
 Sandberg, L. G. (1974) *Lancashire in Decline: A Study in Entrepreneurship, Technology, and International Trade*. Columbus: Ohio State University Press.
+
+Schneider, F., Jr. (1926) 'Sugar', *Foreign Affairs*, 4(2), pp. 311--320. doi:10.2307/20028448.
 
 Semiconductor History Museum of Japan (n.d.) '80s trends in the semiconductor industry'. Available at: https://www.shmj.or.jp/english/trends/trd80s.html (Accessed: 25 November 2026).
 
@@ -624,9 +654,17 @@ TechInsights (2023) 'TechInsights finds SMIC 7nm (N+2) in Huawei Mate 60 Pro', 4
 
 The Japan Times (2002) 'Japan back to No. 1 in shipbuilding', 18 February. Available at: https://www.japantimes.co.jp/news/2002/02/18/business/japan-back-to-no-1-in-shipbuilding/ (Accessed: 25 November 2026).
 
+Time (1957) 'Foreign trade: textile compromise', *Time*, 28 January.
+
 Toyota Motor Corporation (2012) '75 Years of Toyota. Part 3, Chapter 1, Section 1: Voluntary restraints imposed on exports to U.S.; Item 3: U.S. sales structure strengthened amid voluntary restraints'. Available at: https://www.toyota-global.com/company/history_of_toyota/75years/text/leaping_forward_as_a_global_corporation/chapter1/section1/item3.html (Accessed: 25 November 2026).
 
 Tyszynski, H. (1951) 'World trade in manufactured commodities, 1899--1950', *The Manchester School*, 19(3), pp. 272--304.
+
+Urata, S. (2020) 'US--Japan trade frictions: the past, the present, and implications for the US--China trade war', *Asian Economic Policy Review*, 15(1), pp. 141--159. doi:10.1111/aepr.12279.
+
+US Department of Commerce (2012a) 'Crystalline silicon photovoltaic cells, whether or not assembled into modules, from the People's Republic of China: final affirmative countervailing duty determination and final affirmative critical circumstances determination', *Federal Register*, 77, 17 October, pp. 63788--63791.
+
+US Department of Commerce (2012b) 'Crystalline silicon photovoltaic cells, whether or not assembled into modules, from the People's Republic of China: final determination of sales at less than fair value, and affirmative final determination of critical circumstances, in part', *Federal Register*, 77, 17 October, pp. 63791--63798.
 
 US Senate, Committee on Energy and Natural Resources (2012) *Clean Energy Race: The United States and China*. Hearing, 112th Congress, 2nd session, 14 June 2012, S. Hrg. 112-623. Washington, DC: U.S. Government Printing Office.
 
@@ -634,10 +672,40 @@ US Tariff Commission (1971) *Television Receiving Sets from Japan: Determination
 
 USCC (2023) *2023 Report to Congress of the U.S.-China Economic and Security Review Commission*. Washington, DC: U.S.-China Economic and Security Review Commission, 30 November.
 
+USITC (1978) *The History and Current Status of the Multifiber Arrangement*. USITC Publication 850. Washington, DC: U.S. International Trade Commission, January.
+
+USITC (1983) *Foreign Industrial Targeting and Its Effects on U.S. Industries, Phase I: Japan*. Investigation No. 332-162, USITC Publication 1437. Washington, DC: U.S. International Trade Commission, October.
+
+USITC (1985) *The Internationalization of the Automobile Industry and Its Effects on the U.S. Automobile Industry*. Investigation No. 332-188, USITC Publication 1712. Washington, DC: U.S. International Trade Commission, June.
+
+USITC (2003) *DRAMs and DRAM Modules from Korea*. Investigation No. 701-TA-431 (Final), USITC Publication 3616. Washington, DC: U.S. International Trade Commission, August.
+
 USITC (2020) *Crystalline Silicon Photovoltaic Cells, Whether or Not Partially or Fully Assembled Into Other Products: Monitoring Developments in the Domestic Industry*. Investigation No. TA-201-075 (Monitoring), USITC Publication 5021. Washington, DC: U.S. International Trade Commission, February.
+
+USTR (2018a) 'USTR issues tariffs on Chinese products in response to unfair trade practices', 15 June. Available at: https://ustr.gov/about-us/policy-offices/press-office/press-releases/2018/june/ustr-issues-tariffs-chinese-products (Accessed: 25 November 2026).
+
+USTR (2018b) 'Notice of action and request for public comment concerning proposed determination of action pursuant to Section 301: China's acts, policies, and practices related to technology transfer, intellectual property, and innovation', *Federal Register*, 83, 20 June, pp. 28710--28756.
+
+USTR (2024a) *Four-Year Review of Actions Taken in the Section 301 Investigation: China's Acts, Policies, and Practices Related to Technology Transfer, Intellectual Property, and Innovation*. Washington, DC: Office of the United States Trade Representative, 14 May.
+
+USTR (2024b) 'U.S. Trade Representative Katherine Tai to take further action on China tariffs after releasing statutory four-year review', 14 May. Available at: https://ustr.gov/about-us/policy-offices/press-office/press-releases/2024/may/us-trade-representative-katherine-tai-take-further-action-china-tariffs-after-releasing-statutory (Accessed: 25 November 2026).
+
+USTR (2024c) 'Notice of modification: China's acts, policies and practices related to technology transfer, intellectual property and innovation', *Federal Register*, 89, 18 September, pp. 76581--76614.
 
 Wade, R. H. (2003) 'What strategies are viable for developing countries today? The World Trade Organization and the shrinking of "development space"', *Review of International Political Economy*, 10(4), pp. 621--644.
 
+White House (1987) 'Statement by Deputy Press Secretary for Foreign Affairs Djerejian on the South Korea--United States trade policy', 21 July 1986, in *Public Papers of the Presidents of the United States: Ronald Reagan, 1986*, Book II. Washington, DC: Office of the Federal Register, pp. 978--979.
+
+White House (2022) 'Remarks by National Security Advisor Jake Sullivan at the Special Competitive Studies Project Global Emerging Technologies Summit', 16 September. Available at: https://bidenwhitehouse.archives.gov/briefing-room/speeches-remarks/2022/09/16/remarks-by-national-security-advisor-jake-sullivan-at-the-special-competitive-studies-project-global-emerging-technologies-summit/ (Accessed: 25 November 2026).
+
+Williams, E. E. (1896) *Made in Germany*. London: William Heinemann.
+
 World Bank (2026) *World Development Indicators*, series NV.IND.MANF.CD (manufacturing, value added, current US dollars). Available at: https://data.worldbank.org (Accessed: 25 November 2026).
 
-Sources cited by short name in Tables B.1, C.1 and G.5 (industry reports, archives, Federal Register documents, parliamentary papers) are recorded in `data/ds1_milestones.csv` and `data/ds1_responses.csv`; full references are still to be added.
+WTO (1995) 'Article XXXV: non-application of the Agreement', in *Analytical Index of the GATT*. Geneva: World Trade Organization, pp. 1031--1038 (citing GATT document L/405, September 1955).
+
+WTO (2018) *Korea -- Measures Affecting Trade in Commercial Vessels*, DS571, request for consultations by Japan, 6 November.
+
+WTO (2020) *Korea -- Measures Affecting Trade in Commercial Vessels (Second Complaint)*, DS594, request for consultations by Japan, 31 January.
+
+Primary legal and parliamentary sources are cited in the tables by their official reference and are not repeated here: the Federal Register by volume and page (FR), Presidential proclamations by number, US public laws by number and Statutes at Large page, British statutes by regnal year and chapter, the Official Journal of the European Union by series, number and date, Hansard by house and date (Historic Hansard), the London Gazette by issue and page, and GATT documents by symbol.
