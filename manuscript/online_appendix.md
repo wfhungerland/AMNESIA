@@ -686,6 +686,8 @@ USTR (2018a) 'USTR issues tariffs on Chinese products in response to unfair trad
 
 USTR (2018b) 'Notice of action and request for public comment concerning proposed determination of action pursuant to Section 301: China's acts, policies, and practices related to technology transfer, intellectual property, and innovation', *Federal Register*, 83, 20 June, pp. 28710--28756.
 
+USTR (2019) 'United States and China reach Phase One trade agreement', 13 December. Available at: https://ustr.gov/about-us/policy-offices/press-office/press-releases/2019/december/united-states-and-china-reach (Accessed: 25 November 2026).
+
 USTR (2024a) *Four-Year Review of Actions Taken in the Section 301 Investigation: China's Acts, Policies, and Practices Related to Technology Transfer, Intellectual Property, and Innovation*. Washington, DC: Office of the United States Trade Representative, 14 May.
 
 USTR (2024b) 'U.S. Trade Representative Katherine Tai to take further action on China tariffs after releasing statutory four-year review', 14 May. Available at: https://ustr.gov/about-us/policy-offices/press-office/press-releases/2024/may/us-trade-representative-katherine-tai-take-further-action-china-tariffs-after-releasing-statutory (Accessed: 25 November 2026).
