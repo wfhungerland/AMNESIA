@@ -167,7 +167,7 @@ Among displaced groups, the share with an AD or CVD case within five years of th
 
 ## E.1 Aggregate attention
 
-We count mentions of Germany (including Prussia and the Zollverein) in all economic debates of the House of Commons and the House of Lords recorded in Historic Hansard, 1850--1914. Economic debates are selected by a fixed title filter (version `econ_v2`; 15,126 of 281,577 debates). A second indicator flags debates in which Germany appears within 30 words of a competition term (competition, dumping, unfair, bounty, subsidy, undersell, cheap, imitation, rival).
+We count mentions of Germany (including Prussia and the Zollverein) in all economic debates of the House of Commons and the House of Lords recorded in Historic Hansard, 1850--1914. Economic debates are selected by a fixed title filter (version `econ_v2`; 14,383 of 281,577 debates). A second indicator flags debates in which Germany appears within 30 words of a competition term (competition, dumping, unfair, bounty, subsidy, undersell, cheap, imitation, rival).
 
 **Table E1. Germany in British economic debates, pooled by period**
 
@@ -218,7 +218,7 @@ Source: Tyszynski (1951), Tables I and II, current £000; values transcribed fro
 
 # F. The United States as a placebo before 1914
 
-The United States overtook Britain in GDP per capita around 1900 (Maddison Project 2023). If growth alone triggered escalation, British attention to the United States should rise as well. It does not. Mentions of the United States per 100,000 words of economic debate stay between 41 and 56 across all four periods of Table E1 (Germany: 14 rising to 43--45), and the share of debates linking the United States to competition terms stays near one per cent. A phrase search finds no parliamentary echo of the press theme of an 'American invasion' around 1901: the phrase does not occur once in the 15,126 economic debates of 1850--1914, and 'American competition' occurs in six debates in all, against eleven for 'Made in Germany' (`data/hansard_phrases.py`).
+The United States overtook Britain in GDP per capita around 1900 (Maddison Project 2023). If growth alone triggered escalation, British attention to the United States should rise as well. It does not. Mentions of the United States per 100,000 words of economic debate stay between 41 and 56 across all four periods of Table E1 (Germany: 14 rising to 43--45), and the share of debates linking the United States to competition terms stays between 0.7 and 2.1 per cent, highest in 1850--1869 and never above the German share after 1893. A phrase search finds no parliamentary echo of the press theme of an 'American invasion' around 1901: the phrase does not occur once in the 14,383 economic debates of 1850--1914, and 'American competition' occurs in six debates in all, against eleven for 'Made in Germany' (`data/hansard_phrases.py`).
 
 Bilateral trade data explain why. In a fixed panel of 17 third markets with data for all three suppliers in every benchmark year from 1880 to 1913 (CEPII TRADHIST v4; Fouquin and Hugot 2016), German exports rise from 47 to 85 per cent of British exports and exceed them in seven markets by 1913 (Austria-Hungary, Belgium, Denmark, Finland, Italy, Norway, Sweden). US exports rise from 46 to 75 per cent, but only to 51 per cent once Canada is excluded, and exceed British exports only in Canada and Austria-Hungary (Table F1).
 
@@ -233,7 +233,7 @@ Bilateral trade data explain why. In a fixed panel of 17 third markets with data
 
 Markets: Argentina, Austria-Hungary, Belgium, Canada, Chile, Denmark, Finland, France, British India, Italy, Japan, Norway, Ottoman Empire, Portugal, Spain, Sweden, Uruguay. Flows are total goods in current pounds and do not separate manufactures from primary goods.
 
-For manufactures alone, Tyszynski's (1951, Table VIII) shares of world manufactured exports point the same way. Between 1899 and 1913 the British share fell from 32.5 to 29.9 per cent, the German share rose from 22.2 to 26.4 per cent, and the American share rose only from 11.2 to 12.6 per cent. Relative to Britain, Germany moved from 0.68 to 0.88, the United States from 0.34 to 0.42. The United States outgrew Britain at home; Germany displaced Britain in its export markets.
+For manufactures alone, Tyszynski's (1951, Table VIII) shares of world manufactured exports point the same way. Between 1899 and 1913 the British share fell from 32.5 to 29.9 per cent, the German share rose from 22.2 to 26.4 per cent, and the American share rose only from 11.2 to 12.6 per cent. Relative to Britain, Germany moved from 0.68 to 0.88 (0.89 in Tables I and II, Table E3), the United States from 0.34 to 0.42. The United States outgrew Britain at home; Germany displaced Britain in its export markets.
 
 # G. Further cases
 
