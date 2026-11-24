@@ -275,7 +275,7 @@ Nineteen entries (B-24 to B-42 in `data/broad_register.csv`), each with its prim
 | GSP graduation 1989 | Hong Kong, Taiwan | 4 (doubtful) | none (economy-wide) | rule-based |
 | Cotton textile agreements 1963 | Hong Kong; Taiwan | 4 | 1965; 1971 | absorption (2 and 8 years) |
 | Cotton textile agreements 1967--1972 | Mexico; Brazil; Malaysia; Thailand | 4 | none | restraint without displacement |
-| Textile agreement 2003 | Vietnam | 4 | 2006 (apparel, SITC 84) | absorption (3 years) |
+| Textile agreement 2003 | Vietnam | 4 | 2006 (apparel, SITC 84, all covered groups summed; groups 841 and 842 alone in 2002) | absorption (3 years) |
 | End of differential treatment 2020 | Hong Kong | 5 | none | political |
 | IEEPA tariffs 2025 | Mexico; Brazil; Hong Kong | 5 | none (economy-wide) | political |
 | Reciprocal tariffs 2025 | all partners | 5 | none (economy-wide) | global, deficit-based |
