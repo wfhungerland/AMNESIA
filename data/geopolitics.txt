@@ -38,12 +38,12 @@ register    B-38         TW        US  1963      4 negotiated absorption        
 UNGA-Abstand und CINC-Verhaeltnis im Meilensteinjahr (Median je Fall)
                       cinc_ratio  unga_distance  defense_pact
 challenger incumbent                                         
-CN         EU            15.5760          2.388           0.0
-           US             1.5830          3.489           0.0
-DE         GB             0.6120            NaN           0.0
-JP         GB             0.5910            NaN           0.0
-           US             0.3670          1.149           1.0
-KR         US             0.1555          2.209           1.0
+CN         EU             15.576         2.3880           0.0
+           US              1.583         3.2670           0.0
+DE         GB              0.612            NaN           0.0
+JP         GB              0.591            NaN           0.0
+           US              0.368         1.1490           1.0
+KR         US              0.156         2.1685           1.0
 
 UNGA-Abstand der neuen Faelle zu den USA, Mittel 2009-2023 (Taiwan nicht UN-Mitglied ab 1971)
 JP: UNGA-Abstand 1.73; Verteidigungsbuendnis 2009-2018 1

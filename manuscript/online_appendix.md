@@ -46,15 +46,15 @@ The core dataset contains 18 sectoral milestones (the electric-vehicle milestone
 | Germany | steel | 1893 | German steel output exceeds British | Encyclopaedia Britannica, Germany: the economy 1890--1914 |
 | Germany | electrical engineering | 1900 | AEG and Siemens among world leaders; Germany about half of world electrical exports by 1913 | Kocka (1999); Reindl (1997) |
 | Japan | cotton textiles | 1951 | Japan again the world's largest exporter of cotton textiles | USDA FAS ATO Tokyo (2010); Osaka University Discussion Paper 99-06 |
-| Japan | steel | 1969 | Japan becomes the world's largest steel exporter | Ohashi (2005) |
+| Japan | steel | 1969 | Japan becomes the world's largest steel exporter (SITC 67: Japan 2,165, West Germany 2,102 million USD; 1968: 1,713 against 1,829) | Ohashi (2005); UN Comtrade |
 | Japan | colour television | 1970 | Japanese share of the US market for medium-sized colour receivers about 30 per cent; Japan led world colour TV production from the late 1960s | US Tariff Commission (1971), TC Publication 367; UQ RSMG Working Paper 26 |
 | Japan | automobiles | 1980 | Japan overtakes the US as largest car producer (about 7.0 against 6.4 million) | Sobel (1984); Toyota 75-year history |
 | Japan | DRAM | 1981 | Japanese 64K generation overtakes US producers | Semiconductor History Museum of Japan |
-| Japan | semiconductors overall | 1987 | Japan overtakes the US in overall semiconductor share (48 against 39 per cent) | Okada (2005); AMRO (2025) |
+| Japan | semiconductors overall | 1986 | Japanese and US shares of the world semiconductor market about equal at 45 per cent in mid-1985, Japan ahead thereafter | Irwin (1996), p. 24; S. Hrg. 112-623 (2012) |
 | Korea | DRAM | 1992 | Samsung becomes the largest DRAM maker (about 13.5 against 12.8 per cent for Toshiba) | Harvard Business School (2003); Samsung Semiconductor |
-| Korea | shipbuilding | 2000 | Korea overtakes Japan in shipbuilding market share | ORF (2025); GlobalSecurity.org |
+| Korea | shipbuilding | 1999 | Korea overtakes Japan in new shipbuilding orders; Japan ahead again in 2001 | OECD/AWES order statistics via secondary sources (Motorship; Japan Times, 18 Feb 2002) |
 | China | manufacturing overall | 2010 | China overtakes the US in manufacturing value added (19.8 against 19.4 per cent of world) | IHS Global Insight via AEI (2011) |
-| China | solar PV | 2012 | China dominant in solar manufacturing (dating in the literature ranges from 2008 to 2012) | IEA (2022) |
+| China | solar PV | 2008 | China makes more solar cells than any other country; module share 50 per cent in 2010 | S. Hrg. 112-623 (2012); USITC Pub. 5021 (2020) |
 | China | telecom equipment | 2012 | Huawei overtakes Ericsson in total revenue (equipment-only measure: 2017) | China.org.cn (2012); Caixin (2018) |
 | China | electric vehicles | 2023 | BYD overtakes Tesla in quarterly BEV sales (Q4 2023: 526,409 against 484,507) | InsideEVs (2024) |
 | China | advanced logic chips | 2023 | TechInsights confirms SMIC 7 nm in the Huawei Mate 60 Pro (September 2023) | TechInsights (2023) |
@@ -72,11 +72,11 @@ The core dataset contains 18 sectoral milestones (the electric-vehicle milestone
 | Japan | colour television | 1970 | US home market | 1963 | Comtrade SITC 7241 |
 | Japan | automobiles | 1980 | world output and US home market | 1970 | Comtrade SITC 7321 |
 | Japan | DRAM | 1981 | world market | 1984 | Comtrade SITC 776 (all semiconductors) |
-| Japan | semiconductors overall | 1987 | world market | 1984 | Comtrade SITC 776 |
+| Japan | semiconductors overall | 1986 | world market | 1984 | Comtrade SITC 776 |
 | Korea | DRAM | 1992 | world market | not measurable | SITC 776 does not separate DRAM from logic chips; Korea/US 0.39 in 2004 |
-| Korea | shipbuilding | 2000 | world market | 2001 | Comtrade HS 89 (SITC 793 series ends in 2000 at 0.80); Korea/Japan 1.15 in 2001 |
+| Korea | shipbuilding | 1999 | world market | 2001 | Comtrade HS 89 (SITC 793 series ends in 2000 at 0.80); Korea/Japan 1.15 in 2001 |
 | China | manufacturing overall | 2010 | world output | 2005 | Comtrade SITC 5--8 |
-| China | solar PV | 2012 | world market | 2006 | Comtrade HS 854140, against Germany |
+| China | solar PV | 2008 | world market | 2006 | Comtrade HS 854140, against Germany |
 | China | telecom equipment | 2012 | world market | 2006 | Comtrade HS 8517 |
 | China | electric vehicles (US) | 2023 | world market (BEV sales) | 2021 | Comtrade HS 870380: China 8.6, US 4.6 billion USD (2021) |
 | China | electric vehicles (EU) | 2023 | world market (BEV sales) | not reached by 2024 | Comtrade HS 870380 against Germany: 32.0 against 41.1 billion USD (2024) |
@@ -113,7 +113,7 @@ Five of 41 responses precede the milestone of their sector. Four of the five sco
 
 ## C.2 Tests
 
-**Window test and placebo.** Within ten years on either side of the milestone, 5 responses fall in the ten years before and 26 in the ten years from the milestone (binomial test against equal probability, one-sided p = 0.0001); for binding responses the counts are 2 and 18 (p = 0.0002). A placebo exercise shifts every milestone by a random number of years between −10 and +10 (10,000 draws, all responses of a milestone shifted together). The mean share after the milestone is then 0.60; a share as high as the observed 0.84 occurs in 2.2 per cent of draws for all responses, and the observed binding share of 0.90 in 0.7 per cent (`data/tests_sequence.py`, `data/tests_sequence.txt`).
+**Window test and placebo.** Within ten years on either side of the milestone, 5 responses fall in the ten years before and 26 in the ten years from the milestone (binomial test against equal probability, one-sided p = 0.0001); for binding responses the counts are 2 and 18 (p = 0.0002). A placebo exercise shifts every milestone by a random number of years between −10 and +10 (10,000 draws, all responses of a milestone shifted together). The mean share after the milestone is then 0.61 (0.62 for binding responses); a share as high as the observed 0.84 occurs in 3.0 per cent of draws for all responses, and the observed binding share of 0.90 in 1.0 per cent (`data/tests_sequence.py`, `data/tests_sequence.txt`).
 
 **Business cycle.** Temporary trade barriers rise in downturns (Bown and Crowley 2013b). If milestones coincided with recessions, the sequence could reflect the cycle. Measuring the incumbent's output gap as the deviation of log real GDP from a Hodrick--Prescott trend (λ = 100; Maddison Project 2023), 38 per cent of the 39 responses with data fall in years of negative output gap, against 45 per cent of all years in the case windows; for binding responses the shares are 39 and 45 per cent (`data/tests_cycle.py`, `data/tests_cycle.txt`).
 
@@ -340,9 +340,9 @@ Code: `data/geopolitics.py` (output `data/geopolitics.txt`, `data/geopolitics_in
 |---|---|---|---|
 | Germany--Britain (1870--1900) | 0.44--0.79 | -- | no |
 | Japan--Britain (1932) | 0.59 | -- | no |
-| Japan--United States (1969--1987) | 0.26--0.40 | 1.1--1.6 | yes |
-| Korea--United States (1992, 2000) | 0.15--0.16 | 2.0--2.4 | yes |
-| China--United States (2010--2023) | 1.4--1.9 | 3.2--3.5 | no |
+| Japan--United States (1969--1986) | 0.26--0.40 | 1.1--1.5 | yes |
+| Korea--United States (1992, 1999) | 0.15--0.16 | 2.0--2.4 | yes |
+| China--United States (2008--2023) | 1.3--1.9 | 3.2--3.5 | no |
 
 The only broad instrument before displacement among the core responses, the export controls of October 2022 (IR 5), falls in the one dyad in which the challenger's composite capabilities exceeded the incumbent's (1.9) and the UN distance was largest (3.5). CINC weights population, energy and steel and thus overstates China's military weight relative to spending-based measures.
 
@@ -544,7 +544,7 @@ Japan peaked at 0.80 of the American level in 1991 and fell back to 0.64 by 2023
 # L. Limits and open items
 
 1. **Second coder.** All IR scores currently come from one coder. Inter-coder agreement (Krippendorff's alpha, ordinal) will be reported in Section A.3.
-2. **Milestone sources.** The Japanese steel milestone (1969, largest exporter) rests on a single secondary source; the voluntary restraint arrangement took effect in the same year (lag 0). Several Chinese milestones depend on the chosen measure (telecom equipment: revenue 2012 or equipment sales 2017). The exact year in which beet sugar overtook cane in British imports and the Japanese steel milestone await library sources (Board of Trade, Annual Statement of Trade; International Iron and Steel Institute).
+2. **Milestone sources.** Three milestones were redated after checking: Japanese semiconductors from 1987 to 1986, Chinese solar PV from 2012 to 2008 and Korean shipbuilding from 2000 to 1999; no response changes phase. The Korean shipbuilding date rests on order statistics reported in secondary sources, and Japan regained the lead in 2001. Chinese telecom equipment (2012) is a near tie on total revenue that turns on exchange rates. The German dye share around 1870 rests on Murmann and Homburg (2001) and was not checked against their tables; beet overtook cane in British sugar imports between 1879 and about 1888 (Hansard, 22 April 1879 and 22 February 1889), but the exact year awaits the Board of Trade's Annual Statement of Trade. The Japanese colour-television milestone (1970) is a market share of about 30 per cent, not a lead (TC Publication 367).
 3. **Register rule.** The register includes Section 201 safeguards only if they ended in quantity limits or orderly marketing agreements. The China-specific Section 421 tyre safeguard of 2009 and the textile safeguards of 2005 are therefore not in it; counting them changes the congressional sector test little (I.1). Target countries for several Section 201 actions come from secondary literature.
 4. **Crossover rule.** World exports understate displacement in the American home market, and SITC groups do not always measure the contested product (DRAM, integrated circuits). AD and CVD cases are matched to SITC through HS 1988/92 concordances; employment is allocated by tariff lines, not values.
 5. **Title filter.** Economic debates are identified by title. Debates on economic matters under other titles, for example within question time, are missed. In the daily Congressional Record the filter captures only 19 per cent of granules in which China appears near a competition term (I.1).

@@ -1,5 +1,5 @@
-alle Reaktionen: 10 Jahre davor 5, 10 Jahre ab Meilenstein 26; Anteil danach 0.84; Binomial p = 0.0001; Placebo: mittlerer Anteil 0.60, p = 0.0224
-bindende Reaktionen: 10 Jahre davor 2, 10 Jahre ab Meilenstein 18; Anteil danach 0.90; Binomial p = 0.0002; Placebo: mittlerer Anteil 0.60, p = 0.0065
+alle Reaktionen: 10 Jahre davor 5, 10 Jahre ab Meilenstein 26; Anteil danach 0.84; Binomial p = 0.0001; Placebo: mittlerer Anteil 0.61, p = 0.0298
+bindende Reaktionen: 10 Jahre davor 2, 10 Jahre ab Meilenstein 18; Anteil danach 0.90; Binomial p = 0.0002; Placebo: mittlerer Anteil 0.62, p = 0.0102
 Hansard, 1 Bruch/Brueche: Bruchjahre [1871], BIC 13.3
 Hansard, 2 Bruch/Brueche: Bruchjahre [1871, 1894], BIC 15.2
 Hansard, 3 Bruch/Brueche: Bruchjahre [1871, 1878, 1883], BIC 17.8

@@ -13,7 +13,7 @@ nr,section,claim,source,checked
 12,5,Import Duties Act 1932,Policy Amnesia Index v2.5,im Material geprueft
 13,5,Japan largest cotton textile exporter by 1951,USDA FAS ATO (2010); Osaka DP 99-06,Sekundaerquellen
 14,5,Cotton ceilings Dec 1955; five-year restraint 16.1.1957,Time (1957); FRUS 1955-57 IX,Sekundaerquellen
-15,5/11,Japan largest steel exporter 1969; VRA 1.1.1969; TPM 1978,Ohashi (2005); Michigan JIL; Urata (2020),eine Quelle fuer 1969
+15,5/11,Japan largest steel exporter 1969; VRA 1.1.1969; TPM 1978,Ohashi (2005); Michigan JIL; Urata (2020),ja an der Quelle 24.11.2026: Comtrade SITC 67 1969 JP 2165 vs DE 2102 Mio. USD (1968 dahinter)
 16,5,TV: ~30% of US mid-size colour market 1970; AD 1971; OMA 1977 1.75m,TC Pub. 367 (1971); Proclamation 4511,ja (Sekundaer/Primaer)
 17,5,Car VER May 1981 1.68m,Toyota history; Berry et al. (1999),im Material geprueft
 18,5,64K DRAM 1981; SIA petition 1985; agreement 1986; tariffs 1987 300m USD,Germany Shock note; Reagan Library,im Material geprueft
@@ -34,7 +34,7 @@ nr,section,claim,source,checked
 33,1/4.4/6.1/D,Registers: 759 AD/CVD cases 1979-2015; KR 67 of 181 before 1992 (35 final); CN 316 of 414 before 2010 (231 final),data/ds1_registers.csv (TTBD),ja (gerechnet); korrigiert 22.11.2026
 34,6.1/D,Product displacement: 127 cases; share 15 -> 23%; rising in 82%,data/ds1_product_displacement.csv (Comtrade),ja (gerechnet)
 35,5/C,Cycle: 38% of responses in negative output gap years vs 45% base,data/tests_cycle.txt,ja (gerechnet)
-36,5/C,Window and placebo tests,data/tests_sequence.txt,ja (gerechnet)
+36,5/C,"Window and placebo tests: 5 vs 26 (p=0.0001); binding 2 vs 18 (p=0.0002); placebo mean 0.61/0.62, p=0.030 and 0.010",data/tests_sequence.txt,ja (gerechnet 24.11.2026 nach Umdatierung von drei Meilensteinen)
 37,6.2/D,Broad register: 23 instruments; 31 pairs; 22 post; 4 pre; 5 not datable,data/broad_register_tested.csv,ja (gerechnet; Zielländer teils Sekundär)
 38,Abstract/1/6.2/D,"Population hazard: JP 22% (9 of 41 groups, SITC 1); KR 20% of 25 groups (SITC 1), 0 of 13 (SITC 3); CN 1% without 301 tariffs (312 groups); 74% of 242 HS groups with them",data/population_hazard.csv,ja (gerechnet); korrigiert 22.11.2026
 39,Abstract/1/6.3/D,Control group: broad start IRR 5.7 (2.3-14.0) JP+KR; CN 301 covered 813/813 groups,data/population_panel.txt,ja (gerechnet)
@@ -56,7 +56,7 @@ nr,section,claim,source,checked
 55,8/G,Annual world crossover Japanese vs British cotton piece goods 1933,Hansard 29 Nov 1933 (MPs); Statistik fehlt,nein (zu pruefen: Robson 1957; League of Nations)
 56,9/H,Before 1995: 17 of 21 [ersetzt durch Nr. 71] targeted broad US instruments against treaty allies negotiated; 4 unilateral (B-09 B-11 B-16 B-28),data/geopolitics.txt (ATOP 5.1; geo_instrument_mode.csv),ja (gerechnet; Codierung der Art eigene)
 57,1/9/H,From 1995: all 5 targeted trade-motivated broad instruments hit non-allies (CN 4; VN 1),data/geopolitics.txt,ja (gerechnet)
-58,10/H,2022 controls: UNGA distance CN-US 3.5; CINC ratio 1.9; Japan 1.1-1.6 and 0.26-0.40; Germany/GB 0.44-0.79; Korea 0.15-0.16,data/geopolitics_dyads.csv; geopolitics_instruments.csv,ja (gerechnet)
+58,10/H,2022 controls: UNGA distance CN-US 3.5; CINC ratio 1.9; Japan 1.1-1.5 and 0.26-0.40; Germany/GB 0.44-0.79; Korea 0.15-0.16,data/geopolitics_dyads.csv; geopolitics_instruments.csv,ja (gerechnet); Japan-Spanne nach Umdatierung 1.1-1.5
 59,9/H,UNGA distance 2009-2023: MX 2.53; VN 3.40,data/geopolitics.txt,ja (gerechnet)
 60,2,Gowa & Mansfield 1993 APSR 87(2); Krasner 1976 WP 28(3); Wade 2003 RIPE 10(4); Rodrik 2006 JEL 44(4),Crossref,ja (bibliographische Angaben)
 61,H,ATC end 1 Jan 2005; WTO 1 Jan 1995; China 11 Dec 2001; Taipei 1 Jan 2002; Viet Nam 11 Jan 2007,wto.org,ja (an der Quelle); MFA-Beginn 1974 nein (zu pruefen)
@@ -97,3 +97,5 @@ nr,section,claim,source,checked
 96,7.3/I,"China: instrument sectors had lower US imports from China at crossover (l_m_us -0.24, HC1 p=0.025); lists 1-2 concentrated on machinery, electronics, vehicles",data/ds1_crec_controls.txt; data/fr301_lists.py,ja (gerechnet)
 97,5,Lags of binding measures: GB before 1914 17-37 years; JP 0-9; CN 0-8,data/ds1_events.csv,ja (gerechnet)
 98,5/C,"Five absorption-phase responses: TV complaint 1968 (IR 2), KR 301 1985 (2), KR agreement 1986 (3), Sullivan speech 2022 (1), BIS controls 2022 (5)",data/ds1_events.csv,ja
+99,4.2/Tab.1/B,Milestones redated: JP semiconductors 1987->1986 (Irwin 1996: parity mid-1985); CN solar 2012->2008 (S. Hrg. 112-623: largest cell producer by 2008); KR shipbuilding 2000->1999 (orders; snippet only),data/ds1_milestones.csv,ja (an der Quelle bis auf Schiffbau)
+100,5,"China binding lags 1-8 years (CN-02 4, CN-03 5, CN-05 8, CN-07 7, CN-10/11 1)",data/ds1_events.csv,ja (gerechnet)
