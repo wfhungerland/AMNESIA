@@ -1,6 +1,6 @@
 # manuscript
 
-Manuskript „Policy Amnesia: When Leading Economies Turn Against Late Industrialisers, 1850-2024“ (World Development; früher „Displacement Before Escalation“), Fassung vom 25.11.2026. Nicht einreichen.
+Manuskript „Trade Policy Amnesia: When Leading Economies Turn Against Late Industrialisers, 1850-2024“ (World Development; früher „Displacement Before Escalation“), Fassung vom 25.11.2026. Nicht einreichen.
 
 | Datei | Inhalt |
 |---|---|

@@ -1,5 +1,5 @@
 ---
-title: "Policy Amnesia: Online Appendix"
+title: "Trade Policy Amnesia: Online Appendix"
 subtitle: "Draft of 22 November 2026. Not for submission. Inter-coder reliability pending."
 ---
 
@@ -89,7 +89,7 @@ The core dataset contains 18 sectoral milestones and 41 incumbent responses acro
 
 ## C.1 The 41 responses
 
-Table C.1 lists every response in the core dataset. For each response it gives the sector, the sector's milestone, the lag, the IR score, the phase (before or after the milestone) and the source. Table C.2 summarises the responses by case and phase (Table 2 in the manuscript).
+Table C.1 lists every response in the core dataset. For each response it gives the sector, the sector's milestone, the lag, the IR score, the phase (before or after the milestone) and the source. Table C.2 summarises the responses by case and phase (Table 3 in the manuscript).
 
 **Table C.1. Incumbent responses in the core dataset** (`data/ds1_events.csv`)
 

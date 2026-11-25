@@ -1,6 +1,6 @@
-# Replication package: Policy Amnesia
+# Replication package: Trade Policy Amnesia
 
-This package reproduces the datasets, tests, tables and figures of the manuscript "Policy Amnesia: When Leading Economies Turn Against Late Industrialisers, 1850-2024" and its online appendix.
+This package reproduces the datasets, tests, tables and figures of the manuscript "Trade Policy Amnesia: When Leading Economies Turn Against Late Industrialisers, 1850-2024" and its online appendix.
 
 ## Contents
 
@@ -69,11 +69,11 @@ The hand-coded data (milestones, responses, registers) and all derived files are
 
 | Paper | Files | Script |
 |---|---|---|
-| Table 1, Fig. 1, Appendix B | `ds1_milestones.csv`, `ds1_export_milestones.csv`, `ds1_export_series.csv` | `build.py`, `comtrade_milestones.py`, `fig_story.py` |
-| Table 2, Fig. 2, Appendix C | `ds1_events.csv`, `tests_sequence.txt`, `tests_cycle.txt` | `build.py`, `tests_sequence.py`, `tests_cycle.py`, `fig_main.py` |
-| Table 3, Figs. 3 and 4, Appendix D | `ds1_registers.csv`, `population_*.csv`, `population_*.txt`, `broad_register_tested.csv` | `registers_ttbd.py`, `population_test.py`, `population_panel.py`, `population_employment.py` |
-| Table 4 panel A, Fig. 5, Appendices E and F | `ds1_hansard_*.csv` | `hansard_*.py` |
-| Table 4 panel B, Appendix I | `ds1_crec_*`, `ds1_crecb_*`, `ds1_kr_*`, `ds1_share_*` | `crec_*.py`, `crecb_*.py` |
+| Tables 1 and 2, Fig. 1, Appendix B | `ds1_milestones.csv`, `ds1_export_milestones.csv`, `ds1_export_series.csv` | `build.py`, `comtrade_milestones.py`, `fig_story.py` |
+| Table 3, Fig. 2, Appendix C | `ds1_events.csv`, `tests_sequence.txt`, `tests_cycle.txt` | `build.py`, `tests_sequence.py`, `tests_cycle.py`, `fig_main.py` |
+| Table 4, Figs. 3 and 4, Appendix D | `ds1_registers.csv`, `population_*.csv`, `population_*.txt`, `broad_register_tested.csv` | `registers_ttbd.py`, `population_test.py`, `population_panel.py`, `population_employment.py` |
+| Table 5 panel A, Fig. 5, Appendices E and F | `ds1_hansard_*.csv` | `hansard_*.py` |
+| Table 5 panel B, Appendix I | `ds1_crec_*`, `ds1_crecb_*`, `ds1_kr_*`, `ds1_share_*` | `crec_*.py`, `crecb_*.py` |
 | Appendix G | `cases_*.csv`, `cases_panel.txt`, `third_markets_1930s*.csv`, `cotton_piece_goods_1913_1938.csv` | `cases_test.py`, `third_markets_1930s.py`, `hansard_japan.py` |
 | Appendix H | `geopolitics*.csv`, `geopolitics.txt`, `conditionality*.csv`, `conditionality.txt` | `geopolitics.py`, `conditionality.py` |
 | Fig. 6, Appendix K | `ds2_gdppc.csv`, `ds3_tfp.csv`, `ds4_basic_research.csv`, `ds5_tbp.csv` | `build.py` |
