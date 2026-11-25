@@ -5,6 +5,7 @@ Je Sektor: Klassifikation, Warencode, Aufsteiger, Etablierter. Werte: Ausfuhren 
 laufende US-Dollar, wie vom Ausfuhrland gemeldet. Ergebnis: data/ds1_export_series.csv und
 data/ds1_export_milestones.csv. Der API-Schluessel wird vom Sitzungs-Proxy eingesetzt.
 """
+import os
 import json
 import time
 import urllib.request
@@ -41,7 +42,7 @@ def get(cl, rep, years, cmd):
         url = API.format(cl=cl, rep=rep, per=",".join(map(str, ys[i:i + 10])), cmd=cmd)
         for t in range(4):
             try:
-                req = urllib.request.Request(url, headers={"Ocp-Apim-Subscription-Key": "dummy"})
+                req = urllib.request.Request(url, headers={"Ocp-Apim-Subscription-Key": os.environ.get("COMTRADE_KEY", "dummy")})
                 with urllib.request.urlopen(req, timeout=120) as r:
                     rows += json.load(r).get("data", [])
                 break

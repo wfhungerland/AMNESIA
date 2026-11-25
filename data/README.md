@@ -12,7 +12,7 @@ bash data/fetch.sh
 python3 data/build.py
 ```
 
-Danach die Auswertungen, in dieser Reihenfolge (Hansard-Skripte laufen lange):
+Danach alle Auswertungen mit `bash data/run_all.sh` oder einzeln in dieser Reihenfolge (Hansard-Skripte laufen lange). API-Schlüssel als Umgebungsvariablen `COMTRADE_KEY` und `GOVINFO_KEY`.
 
 ```bash
 python3 data/hansard_salience.py && python3 data/hansard_competition.py && python3 data/hansard_sectors.py && python3 data/hansard_usa.py && python3 data/hansard_phrases.py

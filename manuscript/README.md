@@ -20,6 +20,6 @@ Die alte Fassung vom 26.08.2026 ist verloren; Neubau nach den Daten.
 
 - Titelseite: ausgefüllt am 25.11.2026; Art der Hilfe in der Danksagung bei Bedarf präzisieren.
 - KI-Erklärung: Entwurf im Manuskript; vor der Einreichung auf Vollständigkeit prüfen.
-- Daten: Option C verlangt Ablage in einem Repositorium und einen Link bei der Einreichung; für die Begutachtung einen anonymen Link verwenden.
+- Daten: Paket mit `python3 replication/build_package.py` bauen (`dist/replication_package.zip`, anonymisiert), hochladen, anonymen Link in „Data availability“ eintragen.
 - Zweitcodierung (Krippendorffs Alpha) nachtragen.
 - Hochladen: `main.tex`, `refs.bib`, `main.bbl`, `Figure_1.pdf`, `titlepage` getrennt, `online_appendix.pdf` als Supplementary Material.

@@ -1,3 +1,4 @@
 data/raw/*
 !data/raw/SHA256SUMS.abruf
 __pycache__/
+dist/

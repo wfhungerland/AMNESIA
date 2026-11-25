@@ -2,6 +2,7 @@
 fuer Japan, Korea, China und die USA, 1962-2023, aus UN Comtrade (Aggregatebene AG3).
 Ergebnis: data/raw/comtrade_s3_ag3.csv
 """
+import os
 import json, time, urllib.request
 from pathlib import Path
 import pandas as pd
@@ -16,7 +17,7 @@ for rep in ["156", "842", "410"]:
         url = API.format(rep=rep, per=",".join(map(str, years[i:i + 6])))
         for t in range(5):
             try:
-                req = urllib.request.Request(url, headers={"Ocp-Apim-Subscription-Key": "dummy"})
+                req = urllib.request.Request(url, headers={"Ocp-Apim-Subscription-Key": os.environ.get("COMTRADE_KEY", "dummy")})
                 with urllib.request.urlopen(req, timeout=180) as r:
                     data = json.load(r).get("data", [])
                 rows += [{"reporter": v["reporterCode"], "year": v["period"], "sitc3": v["cmdCode"], "value": v["primaryValue"]} for v in data]

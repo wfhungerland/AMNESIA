@@ -13,6 +13,7 @@ Ergebnis: data/raw/cases_exports.csv, data/raw/cases_mirror_tw.csv, data/raw/cas
 data/raw/cases_hk_reexports.csv
 Aufruf: python3 data/cases_fetch.py [exports|mirror|usimports|hkrx]
 """
+import os
 import json, sys, time, urllib.request
 from pathlib import Path
 import pandas as pd
@@ -27,7 +28,7 @@ def get(cl, q):
     url = BASE.format(cl=cl, q=q)
     for t in range(6):
         try:
-            req = urllib.request.Request(url, headers={"Ocp-Apim-Subscription-Key": "dummy"})
+            req = urllib.request.Request(url, headers={"Ocp-Apim-Subscription-Key": os.environ.get("COMTRADE_KEY", "dummy")})
             with urllib.request.urlopen(req, timeout=240) as r:
                 d = json.load(r)
             time.sleep(1.2)

@@ -2,6 +2,7 @@
 aus UN Comtrade. SITC Rev. 1 AG3 (1962-1999), SITC Rev. 3 AG3 (1992-2009), HS AG4 (2008-2023, nur China).
 Meldeland USA (841 bis 1980, danach 842). Ergebnis: data/raw/comtrade_us_imports_groups.csv
 """
+import os
 import json, time, urllib.request
 from pathlib import Path
 import pandas as pd
@@ -19,7 +20,7 @@ for cl, ag, par, yrs in JOBS:
             url = API.format(cl=cl, rep=rep, per=",".join(map(str, yrs[i:i + 6])), par=par, ag=ag)
             for t in range(5):
                 try:
-                    req = urllib.request.Request(url, headers={"Ocp-Apim-Subscription-Key": "dummy"})
+                    req = urllib.request.Request(url, headers={"Ocp-Apim-Subscription-Key": os.environ.get("COMTRADE_KEY", "dummy")})
                     with urllib.request.urlopen(req, timeout=180) as r:
                         data = json.load(r).get("data", [])
                     rows += [{"cl": cl, "partner": int(par), "year": v["period"], "code": v["cmdCode"], "value": v["primaryValue"]} for v in data]

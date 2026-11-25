@@ -15,6 +15,7 @@ Die Anhaenge der Listen 1 bis 4 stehen nur in der PDF-Fassung (Textschicht, pdft
 Ergebnis: data/ds1_301_hts8.csv (Position x Liste), data/ds1_301_hs4.csv (HS4: Anteil der Positionen je Liste,
 Erhoehung 2024). Aufruf aus dem Repo-Wurzelordner: python3 data/fr301_lists.py
 """
+import os
 import re
 import subprocess
 import urllib.request
@@ -35,7 +36,7 @@ def fetch(doc, kind):
     f = C / f"{doc}.{ 'pdf' if kind == 'pdf' else 'htm'}"
     if not f.exists():
         url = f"{API}/FR-{DOCS[doc]}/granules/{doc}/{kind}"
-        req = urllib.request.Request(url, headers={"X-Api-Key": "DUMMY", "User-Agent": "research-client/1.0"})
+        req = urllib.request.Request(url, headers={"X-Api-Key": os.environ.get("GOVINFO_KEY", "DUMMY"), "User-Agent": "research-client/1.0"})
         f.write_bytes(urllib.request.urlopen(req, timeout=120).read())
     return f
 

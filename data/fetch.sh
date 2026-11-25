@@ -1,5 +1,6 @@
 #!/usr/bin/env bash
-# Laedt die Rohdaten fuer DS2 bis DS5 nach data/raw/. Aufruf aus dem Repo-Wurzelordner: bash data/fetch.sh
+# Laedt die Rohdaten nach data/raw/. Aufruf aus dem Repo-Wurzelordner: bash data/fetch.sh
+# API-Schluessel als Umgebungsvariablen: COMTRADE_KEY (UN Comtrade), GOVINFO_KEY (api.data.gov fuer govinfo)
 set -euo pipefail
 cd "$(dirname "$0")"
 mkdir -p raw
@@ -26,6 +27,7 @@ done
 curl -sSL -o TRADHIST_v4.dta "https://www.cepii.fr/DATA_DOWNLOAD/TRADHIST/TRADHIST_v4.dta"
 
 sha256sum TRADHIST_v4.dta pwt110.dta maddison2023_web.dta oecd_*.csv wb_*.json > SHA256SUMS.abruf
+cd ../..  # zurueck in den Repo-Wurzelordner; die folgenden Aufrufe nutzen Pfade ab dort
 
 # Gutachten: US-Einfuhren je Warengruppe (Comtrade) und Konkordanzen HS -> SITC (WITS)
 python3 data/population_fetch.py
