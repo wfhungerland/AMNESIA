@@ -28,7 +28,6 @@ def table(sub):
 
 c1 = "\n\n".join(f"*{NAMES[c]}*\n\n{table(e[e.case == c])}" for c in ["DE", "JP", "KR", "CN"])
 g5 = table(e[e.case == "JPGB"])
-md = (M / "online_appendix.md").read_text().replace("{{C1}}", c1).replace("{{G5}}", g5)
 
 
 def widths(text):
@@ -48,11 +47,14 @@ def widths(text):
     return "\n".join(lines)
 
 
-md = widths(md)
-tmp = M / "online_appendix_build.md"
-tmp.write_text(md)
-header = M / "online_appendix_header.tex"
-header.write_text(r"""\usepackage{etoolbox}
+def prepare():
+    """Text des Anhangs mit eingefuegten Tabellen und Spaltenbreiten (auch fuer build_combined.py)."""
+    md = (M / "online_appendix.md").read_text().replace("{{C1}}", c1).replace("{{G5}}", g5)
+    return widths(md)
+
+
+HEADER = r"""
+\usepackage{etoolbox}
 \AtBeginEnvironment{longtable}{\footnotesize}
 \usepackage{caption}
 \captionsetup{font=small}
@@ -67,9 +69,17 @@ header.write_text(r"""\usepackage{etoolbox}
 \newunicodechar{α}{\ensuremath{\alpha}}
 \newunicodechar{‑}{\mbox{-}}
 \setlength{\emergencystretch}{3em}
-""")
-subprocess.run(["pandoc", str(tmp), "-o", str(M / "online_appendix.pdf"), "--pdf-engine=pdflatex",
+"""
+
+
+if __name__ == "__main__":
+    md = prepare()
+    tmp = M / "online_appendix_build.md"
+    tmp.write_text(md)
+    header = M / "online_appendix_header.tex"
+    header.write_text(HEADER)
+    subprocess.run(["pandoc", str(tmp), "-o", str(M / "online_appendix.pdf"), "--pdf-engine=pdflatex",
                 "-V", "geometry:margin=2.2cm", "-V", "fontsize=11pt", "-V", "documentclass=article",
                 "-V", "colorlinks=false", "-V", "lang=en-GB", "--toc", "-H", str(header),
                 "--resource-path", str(M)], check=True, cwd=M)
-tmp.unlink(); header.unlink()
+    tmp.unlink(); header.unlink()

@@ -15,6 +15,20 @@
 \journal{World Development}
 \newcolumntype{L}[1]{>{\raggedright\arraybackslash}p{#1}}
 \usepackage{etoolbox}
+\usepackage{longtable}
+\usepackage{calc}
+\usepackage{caption}
+\providecommand{\tightlist}{\setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+\usepackage{newunicodechar}
+\newunicodechar{≥}{\ensuremath{\geq}}
+\newunicodechar{≤}{\ensuremath{\leq}}
+\newunicodechar{−}{\ensuremath{-}}
+\newunicodechar{λ}{\ensuremath{\lambda}}
+\newunicodechar{ρ}{\ensuremath{\rho}}
+\newunicodechar{×}{\ensuremath{\times}}
+\newunicodechar{α}{\ensuremath{\alpha}}
+\newunicodechar{‑}{\mbox{-}}
+\AtBeginEnvironment{longtable}{\renewcommand{\baselinestretch}{1}\footnotesize}
 \AtBeginEnvironment{table}{\renewcommand{\baselinestretch}{1}\selectfont}
 \newcommand{\tabnote}[1]{\par\smallskip\begin{minipage}{\linewidth}\footnotesize #1\end{minipage}}
 
@@ -91,7 +105,7 @@ The four core episodes are among the largest cases of catch-up against a leading
 
 \subsection{Two measures of displacement}
 
-The \emph{displacement milestone} is the first year in which the challenger leads in the market where the incumbent sells. For Britain this is the export market; for the United States the world market or its home market; for Japan and the European Union the world market. Table~\ref{tab:milestones} lists the 18 milestones, dated from the historical and industry literature (Online Appendix~B). A response aimed at a sector is dated against that sector's milestone. A response aimed at the whole economy is dated against the case's first milestone.
+The \emph{displacement milestone} is the first year in which the challenger leads in the market where the incumbent sells. For Britain this is the export market; for the United States the world market or its home market; for Japan and the European Union the world market. Table~\ref{tab:milestones} lists the 18 milestones, dated from the historical and industry literature (Appendix~B). A response aimed at a sector is dated against that sector's milestone. A response aimed at the whole economy is dated against the case's first milestone.
 
 The \emph{export crossover} is a mechanical second measure. It is the first year in which the challenger's world exports in a manufacturing group reach those of the incumbent, with a floor of 50 million US dollars and a lead held in three of the next four years. It uses UN Comtrade \citep{comtrade} at the level of three-digit groups of the Standard International Trade Classification (SITC; Revision 1 for 1962-1999, Revision 3 for 1992-2009) and four-digit headings of the Harmonized System (HS; 2008-2023). For Germany before 1914, benchmark years of world trade in manufactures take its place \citep{tyszynski1951}. The milestone serves the case histories; the crossover serves the registers and the panel. Fig.~\ref{fig:exports} shows both measures for four sectors.
 
@@ -122,26 +136,26 @@ China & solar PV & 2008 & largest producer of solar cells \\
 \bottomrule
 \end{tabular}
 
-\tabnote{Sources and the export-crossover check for each milestone: Online Appendix, Tables B.1 and B.2.}
+\tabnote{Sources and the export-crossover check for each milestone: Appendix, Tables B.1 and B.2.}
 \end{table}
 
 \begin{figure}[t]
 \centering
 \includegraphics[width=\textwidth]{fig2_exports.pdf}
-\caption{Exports of the challenger relative to the incumbent in four sectors. Lines: ratio of the challenger's world exports to the incumbent's (log scale; 1 = parity). Dashed vertical line: displacement milestone from the literature (Table~\ref{tab:milestones}). Triangles: binding responses in the sector. Steel, television sets and cars: Japan against the United States, SITC Revision 1 groups 67, 7241 and 7321; solar cells: China against Germany. Source: UN Comtrade; Online Appendix~B.}\label{fig:exports}
+\caption{Exports of the challenger relative to the incumbent in four sectors. Lines: ratio of the challenger's world exports to the incumbent's (log scale; 1 = parity). Dashed vertical line: displacement milestone from the literature (Table~\ref{tab:milestones}). Triangles: binding responses in the sector. Steel, television sets and cars: Japan against the United States, SITC Revision 1 groups 67, 7241 and 7321; solar cells: China against Germany. Source: UN Comtrade; Appendix~B.}\label{fig:exports}
 \end{figure}
 
 \subsection{Responses and their reach}
 
-The core dataset lists 41 responses of the incumbents documented in the literature on the four episodes: speeches and publications, official investigations, binding measures and bans on technology sales (Online Appendix, Table C.1). Each response gets a reach score (IR) from 1 to 5. A speech without an official procedure scores 1, an investigation or complaint 2, and a narrow binding measure 3, such as origin marking or a duty on one product. A binding limit on a whole sector, or a trade law that creates new sanction powers, scores 4. A tariff on a large share of imports, or a ban on technology sales to a sector or a leading firm, scores 5. In doubtful cases the lower score applies. Measures that only strengthen the incumbent's own economy, such as subsidies under the CHIPS and Science Act, are excluded. We call measures that score 4 or 5 \emph{broad}. A second coder is scoring all responses independently; agreement will be reported as the ordinal $\alpha$ of \emph{Content Analysis} \citep{krippendorff2013}. A response falls in the \emph{absorption phase} if it comes before the milestone of its sector. Its \emph{lag} is the response year minus the milestone year.
+The core dataset lists 41 responses of the incumbents documented in the literature on the four episodes: speeches and publications, official investigations, binding measures and bans on technology sales (Appendix, Table C.1). Each response gets a reach score (IR) from 1 to 5. A speech without an official procedure scores 1, an investigation or complaint 2, and a narrow binding measure 3, such as origin marking or a duty on one product. A binding limit on a whole sector, or a trade law that creates new sanction powers, scores 4. A tariff on a large share of imports, or a ban on technology sales to a sector or a leading firm, scores 5. In doubtful cases the lower score applies. Measures that only strengthen the incumbent's own economy, such as subsidies under the CHIPS and Science Act, are excluded. We call measures that score 4 or 5 \emph{broad}. A second coder is scoring all responses independently; agreement will be reported as the ordinal $\alpha$ of \emph{Content Analysis} \citep{krippendorff2013}. A response falls in the \emph{absorption phase} if it comes before the milestone of its sector. Its \emph{lag} is the response year minus the milestone year.
 
 \subsection{Registers and panel}
 
-The 41 responses come from the literature on major disputes. Three checks therefore use complete sources. The Temporary Trade Barriers Database \citep{ttbd} records all 759 antidumping and countervailing duty cases of the United States and the European Union against Japan, Korea and China from 1979 to 2015. A register of broad measures lists all 23 American measures scoring 4 or 5 against these three challengers from 1957 to 2024, or 31 pairs of measure and target. It includes every safeguard under Section 201 of the Trade Act of 1974, which grants temporary relief to an injured industry, that ended in quantity limits or orderly marketing agreements. It also includes the restraint agreements in textiles, steel, cars, machine tools and semiconductors. Further entries are the tariffs of 2018 under Section 232 (national security) and Section 301 (retaliation against unfair foreign practices) and the addition of Huawei to the Entity List, which requires a licence for exports to listed firms. The export controls of 2022 and the tariff on Chinese electric vehicles of 2024 complete the list. Finally, a panel follows every manufacturing group in which a challenger exported at least 50 million dollars in some year. It holds 1,316 group series for Japan, Korea and China, and marks each group as displaced from its export crossover onwards. Poisson models with year effects compare how often measures start before and after the crossover, with standard errors clustered by group (Online Appendix~D).
+The 41 responses come from the literature on major disputes. Three checks therefore use complete sources. The Temporary Trade Barriers Database \citep{ttbd} records all 759 antidumping and countervailing duty cases of the United States and the European Union against Japan, Korea and China from 1979 to 2015. A register of broad measures lists all 23 American measures scoring 4 or 5 against these three challengers from 1957 to 2024, or 31 pairs of measure and target. It includes every safeguard under Section 201 of the Trade Act of 1974, which grants temporary relief to an injured industry, that ended in quantity limits or orderly marketing agreements. It also includes the restraint agreements in textiles, steel, cars, machine tools and semiconductors. Further entries are the tariffs of 2018 under Section 232 (national security) and Section 301 (retaliation against unfair foreign practices) and the addition of Huawei to the Entity List, which requires a licence for exports to listed firms. The export controls of 2022 and the tariff on Chinese electric vehicles of 2024 complete the list. Finally, a panel follows every manufacturing group in which a challenger exported at least 50 million dollars in some year. It holds 1,316 group series for Japan, Korea and China, and marks each group as displaced from its export crossover onwards. Poisson models with year effects compare how often measures start before and after the crossover, with standard errors clustered by group (Appendix~D).
 
 \subsection{Political attention}
 
-Two text sources measure attention independently of the coding. For Britain we use all 281,577 debates of the House of Commons and the House of Lords from 1850 to 1914 recorded in Historic Hansard \citep{hansard}; a fixed filter on their titles selects 14,383 economic debates. For the United States we use the Congressional Record \citep{crec}: the daily edition from 1995 to 2025 in full, and for 1955-1994, when only scanned volumes exist, 20 randomly drawn sitting days per year (800 days). We count mentions of the challenger, and passages in which it appears within 30 words of a word for competition or for a sector. How much a legislature talks about a sector measures that sector's political voice. The share of that talk that names the challenger measures attention to the challenger (Online Appendices E and I).
+Two text sources measure attention independently of the coding. For Britain we use all 281,577 debates of the House of Commons and the House of Lords from 1850 to 1914 recorded in Historic Hansard \citep{hansard}; a fixed filter on their titles selects 14,383 economic debates. For the United States we use the Congressional Record \citep{crec}: the daily edition from 1995 to 2025 in full, and for 1955-1994, when only scanned volumes exist, 20 randomly drawn sitting days per year (800 days). We count mentions of the challenger, and passages in which it appears within 30 words of a word for competition or for a sector. How much a legislature talks about a sector measures that sector's political voice. The share of that talk that names the challenger measures attention to the challenger (Appendices E and I).
 
 % ---------------------------------------------------------------
 \section{The timing in four cases}\label{sec:sequence}
@@ -169,7 +183,7 @@ All & absorption & 5 & 2 & 1 & 5 \\
 \bottomrule
 \end{tabular}
 
-\tabnote{Absorption: before the milestone of the response's sector. Binding: IR 3 or higher. Full list: Online Appendix, Table C.1.}
+\tabnote{Absorption: before the milestone of the response's sector. Binding: IR 3 or higher. Full list: Appendix, Table C.1.}
 \end{table}
 
 \begin{figure}[t]
@@ -188,7 +202,7 @@ All & absorption & 5 & 2 & 1 & 5 \\
 
 \emph{Tests.} Chance does not produce this timing. Within ten years on either side of the milestone, 5 responses fall before and 26 after (one-sided binomial test, $p=0.0001$). For binding responses the counts are 2 and 18 ($p=0.0002$). We also shifted every milestone by a random number of years between $-10$ and $+10$, 10,000 times. On average 60 per cent of responses then fall after the shifted milestone. The observed share of 84 per cent occurs in 2.5 per cent of the draws, and the binding share of 90 per cent in 1.1 per cent. The business cycle does not explain the timing either, although downturns raise temporary trade barriers \citep{bown2013jie}. Only 38 per cent of the responses fall in years in which the incumbent's output was below its trend, against 45 per cent of all years in the case windows.
 
-\emph{Robustness.} The result holds with the export crossover instead of the milestone. Then 28 responses follow the crossover. Three cannot be placed because only an upper bound for the crossover exists. Nine cannot be classified because trade statistics do not measure the contested product: DRAM chips are not separable from logic chips, and China's exports of integrated circuits are largely assembled foreign chips. One response comes before the crossover: the European Union's countervailing duties on Chinese electric cars of October 2024 (IR 4), imposed while Chinese exports of electric cars were still below German ones (32.0 against 41.1 billion dollars). Each rule thus produces one exception, in different sectors, and neither shows broad measures before displacement (Online Appendix~C).
+\emph{Robustness.} The result holds with the export crossover instead of the milestone. Then 28 responses follow the crossover. Three cannot be placed because only an upper bound for the crossover exists. Nine cannot be classified because trade statistics do not measure the contested product: DRAM chips are not separable from logic chips, and China's exports of integrated circuits are largely assembled foreign chips. One response comes before the crossover: the European Union's countervailing duties on Chinese electric cars of October 2024 (IR 4), imposed while Chinese exports of electric cars were still below German ones (32.0 against 41.1 billion dollars). Each rule thus produces one exception, in different sectors, and neither shows broad measures before displacement (Appendix~C).
 
 % ---------------------------------------------------------------
 \section{The reach of the response matches the reach of the loss}\label{sec:reach}
@@ -210,7 +224,7 @@ Economy & tariffs on most imports, denial of technology (5) & share of the incum
 \bottomrule
 \end{tabular}
 
-\tabnote{Rate ratios from Poisson models with year effects, 95\% intervals in brackets, standard errors clustered by group. Sources: Online Appendices D and G.}
+\tabnote{Rate ratios from Poisson models with year effects, 95\% intervals in brackets, standard errors clustered by group. Sources: Appendices D and G.}
 \end{table}
 
 \subsection{Product duties follow imports}
@@ -228,7 +242,7 @@ The panel shows the same order against a control group (Fig.~\ref{fig:rates}). B
 \begin{figure}[t]
 \centering
 \includegraphics[width=\textwidth]{fig4_rates.pdf}
-\caption{How often measures start, by years from a group's export crossover. Left: broad measures (IR 4 or 5) against Japan and Korea per 100 group-years at risk. Right: American antidumping cases against Japan, Korea and China per 100 group-years, 1988-2015. Two-year bins; 0 marks the crossover year. Source: panel of manufacturing groups (Online Appendix~D).}\label{fig:rates}
+\caption{How often measures start, by years from a group's export crossover. Left: broad measures (IR 4 or 5) against Japan and Korea per 100 group-years at risk. Right: American antidumping cases against Japan, Korea and China per 100 group-years, 1988-2015. Two-year bins; 0 marks the crossover year. Source: panel of manufacturing groups (Appendix~D).}\label{fig:rates}
 \end{figure}
 
 \subsection{Tariffs on everything follow the loss of the economy}
@@ -238,7 +252,7 @@ How much of the economy a challenger displaced differs by an order of magnitude 
 \begin{figure}[t]
 \centering
 \includegraphics[width=\textwidth]{fig3_breadth.pdf}
-\caption{Breadth of displacement. Share of American manufactured exports in the groups in which the challenger's world exports exceed American exports. SITC Revision 1 to 1991, Revision 3 for 1992-2007, HS from 2008. Dotted line: Section 301 tariffs of 2018. Source: UN Comtrade; Online Appendix~G.}\label{fig:breadth}
+\caption{Breadth of displacement. Share of American manufactured exports in the groups in which the challenger's world exports exceed American exports. SITC Revision 1 to 1991, Revision 3 for 1992-2007, HS from 2008. Dotted line: Section 301 tariffs of 2018. Source: UN Comtrade; Appendix~G.}\label{fig:breadth}
 \end{figure}
 
 % ---------------------------------------------------------------
@@ -270,7 +284,7 @@ China & 7 / 10 & economic debates on the sector, 1995-2025 & 237 / 148 & 0.15 \\
 \bottomrule
 \end{tabular}
 
-\tabnote{Panel A: debates on a sector are economic debates with at least three sector terms; Germany linked: within 30 words of a sector term. Panel B: sector volume in mentions of sector terms per million words of the sampled sitting days (1955-1994); $p$ from exact one-sided permutation tests. China: sector-specific instruments, without the economy-wide Section 301 tariffs. Online Appendices E and I.}
+\tabnote{Panel A: debates on a sector are economic debates with at least three sector terms; Germany linked: within 30 words of a sector term. Panel B: sector volume in mentions of sector terms per million words of the sampled sitting days (1955-1994); $p$ from exact one-sided permutation tests. China: sector-specific instruments, without the economy-wide Section 301 tariffs. Appendices E and I.}
 \end{table}
 
 \subsection{Britain and Germany}
@@ -282,7 +296,7 @@ Growth alone did not draw attention. American income per head overtook British i
 \begin{figure}[t]
 \centering
 \includegraphics[width=\textwidth]{fig5_attention.pdf}
-\caption{Attention to the challenger in the incumbent's legislature. Left: mentions of Germany per 100,000 words of British economic debates, 1850-1914. Right: mentions of Japan within 30 words of a competition term per million words, sampled sitting days of the Congressional Record, 1955-1994. Dashed lines: displacement milestones of the case. Sources: Historic Hansard; Congressional Record (Online Appendices E and I).}\label{fig:attention}
+\caption{Attention to the challenger in the incumbent's legislature. Left: mentions of Germany per 100,000 words of British economic debates, 1850-1914. Right: mentions of Japan within 30 words of a competition term per million words, sampled sitting days of the Congressional Record, 1955-1994. Dashed lines: displacement milestones of the case. Sources: Historic Hansard; Congressional Record (Appendices E and I).}\label{fig:attention}
 \end{figure}
 
 \subsection{Congress, Japan and Korea}
@@ -298,7 +312,7 @@ China does not fit this pattern. Its trade status was itself the subject of legi
 % ---------------------------------------------------------------
 \section{Further cases}\label{sec:further}
 
-The core episodes all ended in broad resistance. We therefore test the argument on eight further pairs, chosen before looking at the responses. They are Japan against Britain in the 1930s; four economies that displaced American exports in a few sectors (Taiwan, Hong Kong, Brazil and Mexico); and three usually described as having absorbed technology without displacing anyone (Thailand, Malaysia and Vietnam). For the American pairs we add 19 entries to the register from the Statutes at Large and the Federal Register \citep{statutes,moore1996,dinopoulos1991}, and re-run the crossover rule and the panel. Taiwan's exports are measured by the imports of all reporters from ``Other Asia, not elsewhere specified''. Hong Kong's exclude re-exports (Online Appendix~G).
+The core episodes all ended in broad resistance. We therefore test the argument on eight further pairs, chosen before looking at the responses. They are Japan against Britain in the 1930s; four economies that displaced American exports in a few sectors (Taiwan, Hong Kong, Brazil and Mexico); and three usually described as having absorbed technology without displacing anyone (Thailand, Malaysia and Vietnam). For the American pairs we add 19 entries to the register from the Statutes at Large and the Federal Register \citep{statutes,moore1996,dinopoulos1991}, and re-run the crossover rule and the panel. Taiwan's exports are measured by the imports of all reporters from ``Other Asia, not elsewhere specified''. Hong Kong's exclude re-exports (Appendix~G).
 
 \emph{Japan against Britain.} Britain defended the markets it lost, not the one it kept. Japanese cotton piece goods overtook British goods in the import market of British India in 1932 (552 against 542 million yards; \citealp{hansard}, 4 July 1934). In 1933 Japan's world exports of piece goods passed Britain's, with 2,090 against 2,031 million square yards \citep{robson1957,sandberg1974}. By value, Japanese exports were still 73 per cent of British ones in 1935, because Japanese cloth was cheaper \citep{lon1945}. Displacement was regional. Across 35 third markets, Japan's total exports rose only from 23 to 33 per cent of Britain's between 1924 and 1936. In seven Asian markets they rose from 42 to 86 per cent over the same years, and in the Netherlands Indies Japan led from 1930 \citep{fouquin2016}. The response was regional too. All four binding measures (IR 4) came from the milestone onwards. In August 1932 India raised its duty on non-British piece goods to 50 per cent, ``in consequence of the abnormal imports from Japan''. A 75 per cent duty followed in June 1933, an Indo-Japanese quota in January 1934 and colonial quotas on foreign cotton and rayon goods in May 1934. Before the milestone there were only an economic mission to the Far East and India's small preference of 1930, which also protected Indian mills against Lancashire. Mentions of Japan in British economic debates stayed between 1 and 10 per 100,000 words in 1920-1931. They reached 12 in 1932 and 102 in 1933, with a single break in 1932. The British home market, where Japan had not overtaken Britain, received no measure aimed at Japan.
 
@@ -317,7 +331,7 @@ Before 1995 the United States negotiated with its allies. It aimed 25 broad, tra
 
 Alignment does not predict whether a displacing economy meets resistance. Mexico, an ally, and Vietnam, without an alliance, both displaced the United States in many groups after 2008. Neither drew a broad measure aimed at it before 2025. Their distance from American positions in the General Assembly was 2.5 and 3.4 points.
 
-Loans from the IMF offer a third channel of constraint, but they do not follow displacement. We use the coded conditions of 1,173 programme years in 116 countries between 1989 and 2014 \citep{stubbs2020}. Closer voting with the United States goes with a higher chance of a programme, as earlier studies found \citep{thacker1999,barro2005}, and with more binding conditions; neither link survives country fixed effects. The challengers in our data entered programmes after debt or financial crises: Mexico in 1989-1992, 1995-1996 and 1999-2000, Korea in 1998-2000, Brazil in 1999 and 2001-2004 and Vietnam in 1994-1996 and 2001-2002. At those times, the groups they had overtaken accounted for at most 2.3 per cent of American manufactured exports. Their programmes carried twice as many conditions on trade and the external sector as other programmes with the same alignment, income, growth and openness (rate ratio 2.16), but no more conditions overall. Conditions narrowed the policy space of borrowers \citep{kentikelenis2016}; they were not aimed at the sectors in which the borrowers displaced the incumbent (Online Appendix~J).
+Loans from the IMF offer a third channel of constraint, but they do not follow displacement. We use the coded conditions of 1,173 programme years in 116 countries between 1989 and 2014 \citep{stubbs2020}. Closer voting with the United States goes with a higher chance of a programme, as earlier studies found \citep{thacker1999,barro2005}, and with more binding conditions; neither link survives country fixed effects. The challengers in our data entered programmes after debt or financial crises: Mexico in 1989-1992, 1995-1996 and 1999-2000, Korea in 1998-2000, Brazil in 1999 and 2001-2004 and Vietnam in 1994-1996 and 2001-2002. At those times, the groups they had overtaken accounted for at most 2.3 per cent of American manufactured exports. Their programmes carried twice as many conditions on trade and the external sector as other programmes with the same alignment, income, growth and openness (rate ratio 2.16), but no more conditions overall. Conditions narrowed the policy space of borrowers \citep{kentikelenis2016}; they were not aimed at the sectors in which the borrowers displaced the incumbent (Appendix~J).
 
 % ---------------------------------------------------------------
 \section{Two exceptions}\label{sec:exceptions}
@@ -339,7 +353,7 @@ Two sets of broad measures came before displacement. Each is confined to one sec
 
 \emph{Attention.} Economic debates are selected by title, which misses economic talk under other headings. In the daily Congressional Record the filter captures only one in five passages that link China to competition. Before 1995 the American measure rests on 800 sampled sitting days with errors from the text recognition of the scans, too few for sector counts in single years. Debate measures attention, not lobbying or votes.
 
-\emph{Identification.} After 1995, the lack of an alliance and displacement across the economy coincide in one case, China. The data cannot separate rivalry from the reach of displacement or from the WTO's ban on negotiated restraints. Above all, the evidence orders events; it does not identify the effect of displacement on policy. The amnesia itself is not measured: the paper shows when resistance comes, not what incumbents remember. Online Appendix~L documents each limit.
+\emph{Identification.} After 1995, the lack of an alliance and displacement across the economy coincide in one case, China. The data cannot separate rivalry from the reach of displacement or from the WTO's ban on negotiated restraints. Above all, the evidence orders events; it does not identify the effect of displacement on policy. The amnesia itself is not measured: the paper shows when resistance comes, not what incumbents remember. Appendix~L documents each limit.
 
 % ---------------------------------------------------------------
 \section{Conclusion}\label{sec:conclusion}
@@ -348,12 +362,12 @@ Over four incumbents and 175 years, leading economies resisted latecomers in a p
 
 The policy amnesia of the introduction fits this order. Leaders appear to have tolerated imitation and protection while the latecomer was absorbing technology, and to have turned against both once the latecomer took their markets. The United States, which once denied copyright to foreign authors, opened its case on Korean intellectual property in 1985, seven years before Korea led in memory chips. Japan, once itself restrained, complained about Korean shipyard subsidies almost two decades after Korea overtook it in orders. The memory of one's own catch-up seems to fade when one's markets are at stake.
 
-The order also bears on the slowdown of convergence. Total factor productivity relative to the United States peaked at 0.80 in Japan in 1991 and at 0.71 in Korea in 2002, after the escalation documented here (Fig.~\ref{fig:tfp}). Japan fell back to 0.64 by 2023, and Korea has stayed between 0.62 and 0.70 since 2010 \citep[Online Appendix~K]{feenstra2015,pwt110}. Germany has been at or above the American level in most years since 2000. We do not claim that resistance caused the stall. Domestic explanations remain strong \citep{acemoglu2006,eichengreen2012}, and in a sample of this size the pattern cannot be told apart from regression to the mean \citep{pritchett2014}.
+The order also bears on the slowdown of convergence. Total factor productivity relative to the United States peaked at 0.80 in Japan in 1991 and at 0.71 in Korea in 2002, after the escalation documented here (Fig.~\ref{fig:tfp}). Japan fell back to 0.64 by 2023, and Korea has stayed between 0.62 and 0.70 since 2010 \citep[Appendix~K]{feenstra2015,pwt110}. Germany has been at or above the American level in most years since 2000. We do not claim that resistance caused the stall. Domestic explanations remain strong \citep{acemoglu2006,eichengreen2012}, and in a sample of this size the pattern cannot be told apart from regression to the mean \citep{pritchett2014}.
 
 \begin{figure}[t]
 \centering
 \includegraphics[width=\textwidth]{fig6_tfp.pdf}
-\caption{Total factor productivity relative to the United States, 1954-2023. Source: Penn World Table 11.0, variable ctfp (Online Appendix~K).}\label{fig:tfp}
+\caption{Total factor productivity relative to the United States, 1954-2023. Source: Penn World Table 11.0, variable ctfp (Appendix~K).}\label{fig:tfp}
 \end{figure}
 
 For latecomers the lesson is practical. The phase in which foreign technology can be absorbed without systematic resistance appears to end with success, when the latecomer begins to take the leader's markets in sectors that matter politically to the leader. How far the response will reach can be read from how far that success reaches, and its form from the latecomer's place in the leader's alliances. Planning for that moment would therefore belong to development strategy.
@@ -366,5 +380,11 @@ During the preparation of this work the author used Claude (Anthropic) to search
 
 \bibliographystyle{elsarticle-harv}
 \bibliography{refs}
+
+\clearpage
+\appendix
+\begingroup\renewcommand{\baselinestretch}{1}\selectfont
+\input{appendix_body}
+\endgroup
 
 \end{document}
