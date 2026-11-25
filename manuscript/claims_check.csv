@@ -9,14 +9,14 @@ nr,section,claim,source,checked
 8,5,Brussels Sugar Convention 1902 lag 22 years; IR 4,ds1_events.csv; Foreign Affairs (1926),ja; Tagesdatum 5.3.1902 an der Quelle (HL Deb 10.3.1902) 23.11.2026
 9,5,Patents and Designs Act 1907 compulsory working,research/faelle (Incumbent Rhetoric 2026),ja (Hansard 9.8.1907 Wortlaut; 1.3.1909 Section 27); Gesetzestext nicht geoeffnet
 10,5,Iron/steel 35->91%; equipment 50->133%; electrical 58->211% of British exports,Tyszynski (1951) Tables I-II,ja
-11,5,Tariff Reform launched 1903,Policy Amnesia Index v2.5 (15.5.1903 Birmingham),im Material geprueft
-12,5,Import Duties Act 1932,Policy Amnesia Index v2.5,im Material geprueft
-13,5,Japan largest cotton textile exporter by 1951,USDA FAS ATO (2010); Osaka DP 99-06,Sekundaerquellen
-14,5,Cotton ceilings Dec 1955; five-year restraint 16.1.1957,Time (1957); FRUS 1955-57 IX,Sekundaerquellen
+11,5,Tariff Reform launched 1903,Policy Amnesia Index v2.5 (15.5.1903 Birmingham),"ja (25.11.2026): Chamberlain (1903), Reden ab 15 May 1903 (archive.org)"
+12,5,Import Duties Act 1932,Policy Amnesia Index v2.5,ja (24.11.2026): legislation.gov.uk 22 & 23 Geo. 5 c. 8
+13,5,Japan largest cotton textile exporter by 1951,USDA FAS ATO (2010); Osaka DP 99-06,"ja (24.11.2026): Sugihara (1999), S. 1 und Tab. 1"
+14,5,Cotton ceilings Dec 1955; five-year restraint 16.1.1957,Time (1957); FRUS 1955-57 IX,"korrigiert (25.11.2026): ""late in 1955"" (USITC Pub. 850, S. 2) statt Dezember 1955; 16.1.1957 (FRUS doc. 99; USITC 850)"
 15,5/11,Japan largest steel exporter 1969; VRA 1.1.1969; TPM 1978,Ohashi (2005); Michigan JIL; Urata (2020),ja an der Quelle 24.11.2026: Comtrade SITC 67 1969 JP 2165 vs DE 2102 Mio. USD (1968 dahinter)
 16,5,TV: ~30% of US mid-size colour market 1970; AD 1971; OMA 1977 1.75m,TC Pub. 367 (1971); Proclamation 4511,ja (Sekundaer/Primaer)
-17,5,Car VER May 1981 1.68m,Toyota history; Berry et al. (1999),im Material geprueft
-18,5,64K DRAM 1981; SIA petition 1985; agreement 1986; tariffs 1987 300m USD,Germany Shock note; Reagan Library,im Material geprueft
+17,5,Car VER May 1981 1.68m,Toyota history; Berry et al. (1999),ja (25.11.2026): NBER w5235 S. 9; Urata (2020) S. 148
+18,5,64K DRAM 1981; SIA petition 1985; agreement 1986; tariffs 1987 300m USD,Germany Shock note; Reagan Library,ja (24.11.2026): SHMJ (64K 1981); Irwin (1996) Petition 14 Jun 1985; Proclamation 5631 (52 FR 13412)
 19,5/12,Binding lags Japan 0 to 9 years,ds1_events.csv,ja
 20,5,Section 301 Korea 1985; IP agreement 1986; AD 1993; CVD 2003; WTO 2018/2020,Reagan Library; 58 FR 27520; USITC 3616; WTO,"ja an der Quelle 23.11.2026 (51 FR 29445; 58 FR 15467, 27520; 68 FR 47546; USITC Pub. 3616); AD-Saetze im Datensatz korrigiert (0.82-11.16 %)"
 21,5,China manufacturing above US 2010,AEI (2011) / IHS; World Bank WDI NV.IND.MANF.CD,"ja an der Quelle 23.11.2026 (WDI: 2010 China 1.92 Bio. USD, USA 1.79 Bio. USD; 2009 China darunter)"
@@ -53,7 +53,7 @@ nr,section,claim,source,checked
 52,10/G,VN textile agreement May 2003; VN apparel (SITC 84) crossover 2006,FR Doc. 03-12314; data/cases_register_tested.csv,ja
 53,8/9/H,WTO Safeguards Art. 11.1(b) bans VERs and OMAs,WTO legal text 25-safeg.pdf,ja (an der Quelle)
 54,8/G,2025 IEEPA: Mexico (migration/drugs) EO 14194; Brazil 40% (Bolsonaro) EO 14323; reciprocal EO 14257 (deficits),Federal Register 2025-02407; 2025-14896; 2025-06063,ja (an der Quelle)
-55,8/G,Annual world crossover Japanese vs British cotton piece goods 1933,Hansard 29 Nov 1933 (MPs); Statistik fehlt,nein (zu pruefen: Robson 1957; League of Nations)
+55,8/G,Annual world crossover Japanese vs British cotton piece goods 1933,Hansard 29 Nov 1933 (MPs); Statistik fehlt,"gegen Daten geprueft (25.11.2026): cotton_piece_goods_1913_1938.csv 1933 Japan 2090, UK 2031 Mio. sq yd; Robson (1957) und Sandberg (1974) nur zur Ausleihe, nicht am Original"
 56,9/H,Before 1995: 17 of 21 [ersetzt durch Nr. 71] targeted broad US instruments against treaty allies negotiated; 4 unilateral (B-09 B-11 B-16 B-28),data/geopolitics.txt (ATOP 5.1; geo_instrument_mode.csv),ja (gerechnet; Codierung der Art eigene)
 57,1/9/H,From 1995: all 5 targeted trade-motivated broad instruments hit non-allies (CN 4; VN 1),data/geopolitics.txt,ja (gerechnet)
 58,10/H,2022 controls: UNGA distance CN-US 3.5; CINC ratio 1.9; Japan 1.1-1.5 and 0.26-0.40; Germany/GB 0.44-0.79; Korea 0.15-0.16,data/geopolitics_dyads.csv; geopolitics_instruments.csv,ja (gerechnet); Japan-Spanne nach Umdatierung 1.1-1.5
@@ -118,3 +118,4 @@ nr,section,claim,source,checked
 117,B.1/C.1,"User uploads checked: Murmann and Homburg (2001) p. 183 'Around 1870, German firms were responsible for 50% of world production' (row restored); Kocka (1971) Siemens Germany's leading electrical firm, AEG larger by 1890 (row reworded, world rank not claimed); Tesla release 2 Jan 2024: Q4 484,507, year 1,808,581; Ericsson AR 2012 net sales SEK 227,779m; Urata (2020): steel VRA Jan 1969 for 3 years, TPM Jan 1978-Jan 1982, car VER announced May 1981, 1.68m from 1 Apr 1981 (p. 148). Britannica upload is the general Germany article without the 1893 claim; Britannica dropped from steel row (NBER data carry it)",user uploads 25.11.2026,ja (25.11.2026)
 118,C/Limitations,"Sugar milestone sensitivity: 1884 -> 5 vs 26, placebo 0.026; 1888 -> 6 vs 25, binomial p 0.0004, placebo 0.051; binding 2 vs 18 unchanged. Annual beet/cane series in HC paper 1888 (353) not accessible; Statistical Abstract and pamphlets give no annual split",data/tests_sequence.txt; Hansard HC Deb 22 Feb 1889,ja (gerechnet 25.11.2026)
 119,4.2/Tab.1/Tab.voice/C/E,"Sugar milestone redated 1880 -> 1886 from HC 1888 (353) Table III (imports from beet-growing countries 52 % of raw and refined imports in 1886, 45 % in 1885). Recomputed: window counts unchanged (5 vs 26; 2 vs 18); placebo mean 0.60, p 0.0248 (all) and 0.0105 (binding); Brussels Convention lag 16 years; Hansard sugar before/after 7.1 % of 98 vs 17.0 % of 476 (Wilson CIs 3.5-14.0, 13.9-20.7); 1880-85: 5 of 23. Replaces nos. 8 (lag 22) and 118 (sensitivity)",data/tests_sequence.txt; data/ds1_hansard_sectors.csv; HC 1888 (353),ja (gerechnet 25.11.2026)
+120,Literatur Haupttext,"Bibliographic data of books and three articles checked: archive.org catalogue records (Amsden, Evans, Gerschenkron, Irwin 2017, Johnson, Khan, Mastanduno, Wade, Williams); Chang 2002 (JID review: London, Anthem); Krippendorff 3rd ed. 2013 (SAGE, Los Angeles; address corrected); Crossref: Acemoglu et al. 2006, Eichengreen et al. 2012; IDEAS: Grossman and Helpman 1994 AER 84(4) 833-850",archive.org; Crossref; IDEAS,ja (25.11.2026)
