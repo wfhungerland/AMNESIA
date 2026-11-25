@@ -33,7 +33,7 @@ The sequencing claim would be circular if responses before displacement were sim
 
 ## A.3 The core dataset
 
-The core dataset contains 18 sectoral milestones (the electric-vehicle milestone is split by incumbent) and 41 incumbent responses across the four cases (`data/ds1_milestones.csv`, `data/ds1_responses.csv`, `data/ds1_events.csv`). Each row cites its source. For Japan, three sectors with disputes before 1980 were added to avoid an artificially empty absorption phase: cotton textiles (milestone 1951), colour television (1970) and steel (1969). For Germany, beet sugar (milestone 1880) was added after the parliamentary record showed it to be the first sector in which Germany became a political issue (Section E.2). All IR scores currently come from one coder; a second coder is scoring all responses independently, and agreement will be reported here as Krippendorff's ordinal alpha.
+The core dataset contains 18 sectoral milestones (the electric-vehicle milestone is split by incumbent) and 41 incumbent responses across the four cases (`data/ds1_milestones.csv`, `data/ds1_responses.csv`, `data/ds1_events.csv`). Each row cites its source. For Japan, three sectors with disputes before 1980 were added to avoid an artificially empty absorption phase: cotton textiles (milestone 1951), colour television (1970) and steel (1969). For Germany, beet sugar (milestone 1886) was added after the parliamentary record showed it to be the first sector in which Germany became a political issue (Section E.2). All IR scores currently come from one coder; a second coder is scoring all responses independently, and agreement will be reported here as Krippendorff's ordinal alpha.
 
 # B. Displacement milestones
 
@@ -42,7 +42,7 @@ The core dataset contains 18 sectoral milestones (the electric-vehicle milestone
 | Case | Sector | Year | Milestone | Source |
 |---|---|---|---|---|
 | Germany | synthetic dyes | 1870 | German firms account for about 50 per cent of world dye production around 1870 (75 per cent by 1900) | Murmann and Homburg (2001), p. 183 |
-| Germany | beet sugar | 1880 | Continental, chiefly German, beet sugar overtakes cane in British sugar imports in the 1880s: the continental share is 36 per cent in 1879, beet 58 per cent of imports by the late 1880s | Hansard, HC Deb 22 April 1879 and 22 February 1889; Hansard HL 26 May 1884 |
+| Germany | beet sugar | 1886 | Imports from beet-growing countries overtake those from cane-growing countries in British sugar imports (raw and refined): 40 per cent in 1880, 45 per cent in 1885, 52 per cent in 1886, 62 per cent in 1887 | House of Commons (1888), Table III; Hansard, HC Deb 22 April 1879 and 22 February 1889 |
 | Germany | steel | 1893 | German (with Luxembourg) steel output exceeds British: 3,163 against about 2,997 thousand metric tons | NBER Macrohistory Database, series 01183B and 01216 |
 | Germany | electrical engineering | 1900 | Siemens & Halske and AEG Germany's leading electrical firms (AEG the larger by 1890; capital 35 million marks each in 1897); German electrical exports 2.1 times British in 1913 | Kocka (1971); Tyszynski (1951); Hansard, written answers 17 March 1931 |
 | Japan | cotton textiles | 1951 | Japan again the world's largest exporter of cotton textiles (1951 cloth exports: Japan 1,092, UK 864 million square yards) | Conlon (2010); Sugihara (1999) |
@@ -64,7 +64,7 @@ The core dataset contains 18 sectoral milestones (the electric-vehicle milestone
 | Case | Sector | Milestone | Contested market | Export crossover | Basis |
 |---|---|---|---|---|---|
 | Germany | synthetic dyes | 1870 | world market (output share) | by 1899 | Tyszynski (1951): chemicals, Germany/Britain 1.43 in the first benchmark year |
-| Germany | beet sugar | 1880 | British home market | no series | |
+| Germany | beet sugar | 1886 | British home market | no series | |
 | Germany | steel | 1893 | world output; export markets near parity only by 1913 | not reached by 1913 | Tyszynski (1951): 0.35 (1899), 0.91 (1913) |
 | Germany | electrical engineering | 1900 | world market | by 1913 | Tyszynski (1951): 0.58 (1899), 2.11 (1913) |
 | Japan | cotton textiles | 1951 | world export market | 1951 | milestone itself export-based |
@@ -113,7 +113,7 @@ Five of 41 responses precede the milestone of their sector. Four of the five sco
 
 ## C.2 Tests
 
-**Window test and placebo.** Within ten years on either side of the milestone, 5 responses fall in the ten years before and 26 in the ten years from the milestone (binomial test against equal probability, one-sided p = 0.0001); for binding responses the counts are 2 and 18 (p = 0.0002). A placebo exercise shifts every milestone by a random number of years between −10 and +10 (10,000 draws, all responses of a milestone shifted together). The mean share after the milestone is then 0.61 (0.62 for binding responses); a share as high as the observed 0.84 occurs in 3.0 per cent of draws for all responses, and the observed binding share of 0.90 in 1.0 per cent (`data/tests_sequence.py`, `data/tests_sequence.txt`). The beet sugar milestone is dated only to the 1880s: Hansard brackets the crossover between 1879 and about 1888, and the annual series in the return on the sugar trade of 1888 (House of Commons paper No. 353, continuing No. 312 of 1887) could not be consulted. Dating it 1884 instead of 1880 leaves the counts unchanged (placebo 2.6 per cent). Dating it 1888 moves the London sugar conference of 1887 before the milestone: 6 responses before and 25 after (binomial p = 0.0004), with a placebo share of 5.1 per cent; the binding counts (2 and 18) do not change.
+**Window test and placebo.** Within ten years on either side of the milestone, 5 responses fall in the ten years before and 26 in the ten years from the milestone (binomial test against equal probability, one-sided p = 0.0001); for binding responses the counts are 2 and 18 (p = 0.0002). A placebo exercise shifts every milestone by a random number of years between −10 and +10 (10,000 draws, all responses of a milestone shifted together). The mean share after the milestone is then 0.60 (0.62 for binding responses); a share as high as the observed 0.84 occurs in 2.5 per cent of draws for all responses, and the observed binding share of 0.90 in 1.1 per cent (`data/tests_sequence.py`, `data/tests_sequence.txt`).
 
 **Business cycle.** Temporary trade barriers rise in downturns (Bown and Crowley 2013a). If milestones coincided with recessions, the sequence could reflect the cycle. Measuring the incumbent's output gap as the deviation of log real GDP from a Hodrick--Prescott trend (λ = 100; Bolt and van Zanden 2024), 38 per cent of the 39 responses with data fall in years of negative output gap, against 45 per cent of all years in the case windows; for binding responses the shares are 39 and 45 per cent (`data/tests_cycle.py`, `data/tests_cycle.txt`).
 
@@ -192,13 +192,13 @@ Aggregate attention mixes sectors with very different political weight. A debate
 
 | Sector | Milestone | Debates on the sector, 1850--1914 | Germany linked, before | Germany linked, after |
 |---|---|---|---|---|
-| Beet sugar | 1880 | 574 | 2.7 % of 75 [0.7--9.2] | 17.2 % of 499 [14.2--20.8] |
+| Beet sugar | 1886 | 574 | 7.1 % of 98 [3.5--14.0] | 17.0 % of 476 [13.9--20.7] |
 | Iron and steel | 1893 | 172 | 14.6 % of 48 [7.2--27.2] | 24.2 % of 124 [17.5--32.4] |
 | Dyes and chemicals | 1870 | 18 | 0 of 1 | 29.4 % of 17 [13.3--53.1] |
 
 Brackets: 95 % Wilson intervals.
 
-The clearest break occurs in sugar, the sector with the most political voice: Germany is almost absent from British sugar debates before the rise of bounty-fed beet sugar and appears in about one sugar debate in six afterwards, ending in the Brussels Sugar Convention of 1902. Steel shows the same direction with overlapping intervals. Dyes, where German displacement came first, were almost never debated. The long lag between the dye milestone and the Patents and Designs Act of 1907 is consistent with this reading.
+The clearest break occurs in sugar, the sector with the most political voice: Germany is almost absent from British sugar debates before 1880 (2 of 75), appears in 5 of 23 in 1880--1885, before beet imports overtook cane, and in about one sugar debate in six from 1886, ending in the Brussels Sugar Convention of 1902. Steel shows the same direction with overlapping intervals. Dyes, where German displacement came first, were almost never debated. The long lag between the dye milestone and the Patents and Designs Act of 1907 is consistent with this reading.
 
 ## E.3 Export data by sector
 
@@ -544,7 +544,7 @@ Japan peaked at 0.80 of the American level in 1991 and fell back to 0.64 by 2023
 # L. Limits and open items
 
 1. **Second coder.** All IR scores currently come from one coder. Inter-coder agreement (Krippendorff's alpha, ordinal) will be reported in Section A.3.
-2. **Milestone sources.** Three milestones were redated after checking: Japanese semiconductors from 1987 to 1986, Chinese solar PV from 2012 to 2008 and Korean shipbuilding from 2000 to 1999; no response changes phase. The Korean shipbuilding date rests on order statistics reported in secondary sources, and Japan regained the lead in 2001. Chinese telecom equipment (2012) is a near tie on total revenue that turns on exchange rates. The German dye share around 1870 rests on Murmann and Homburg (2001) and was not checked against their tables; beet overtook cane in British sugar imports between 1879 and about 1888 (Hansard, 22 April 1879 and 22 February 1889), but the exact year awaits the Board of Trade's Annual Statement of Trade. The Japanese colour-television milestone (1970) is a market share of about 30 per cent, not a lead (TC Publication 367).
+2. **Milestone sources.** Four milestones were redated after checking: German beet sugar from 1880 to 1886 (House of Commons 1888, Table III), Japanese semiconductors from 1987 to 1986, Chinese solar PV from 2012 to 2008 and Korean shipbuilding from 2000 to 1999; no response changes phase. The Korean shipbuilding date rests on order statistics reported in secondary sources, and Japan regained the lead in 2001. Chinese telecom equipment (2012) is a near tie on total revenue that turns on exchange rates. The sugar milestone measures imports by country of origin, not by kind of sugar; the German dye share around 1870 is from Murmann and Homburg (2001, p. 183). The Japanese colour-television milestone (1970) is a market share of about 30 per cent, not a lead (TC Publication 367).
 3. **Register rule.** The register includes Section 201 safeguards only if they ended in quantity limits or orderly marketing agreements. The China-specific Section 421 tyre safeguard of 2009 and the textile safeguards of 2005 are therefore not in it; counting them changes the congressional sector test little (I.1). Target countries for several Section 201 actions come from secondary literature.
 4. **Crossover rule.** World exports understate displacement in the American home market, and SITC groups do not always measure the contested product (DRAM, integrated circuits). AD and CVD cases are matched to SITC through HS 1988/92 concordances; employment is allocated by tariff lines, not values.
 5. **Title filter.** Economic debates are identified by title. Debates on economic matters under other titles, for example within question time, are missed. In the daily Congressional Record the filter captures only 19 per cent of granules in which China appears near a competition term (I.1).
@@ -599,6 +599,8 @@ Fouquin, M. and Hugot, J. (2016) *Two Centuries of Bilateral Trade and Gravity D
 FRUS (1987) *Foreign Relations of the United States, 1955--1957, Vol. IX: Foreign Economic Policy; Foreign Information Program*. Washington, DC: Government Printing Office. Doc. 99: report by Herbert N. Blackman, Department of Commerce, 12 July 1957. Available at: https://history.state.gov/historicaldocuments/frus1955-57v09/d99 (Accessed: 25 November 2026).
 
 Gao, Z. and Tisdell, C. (2004) 'Television production: its changing global location, the product cycle and China', Working Papers on Economic Theory, Applications and Issues No. 26. Brisbane: The University of Queensland, January.
+
+House of Commons (1888) *Return (in continuation of Parliamentary Paper, No. 312, of Session 1887), bringing the Tables therein up to Date, together with such later Information as can be given on the Employment of Labour in the various Sugar Industries of the United Kingdom*. House of Commons Papers 1888, No. 353. London: Henry Hansard and Son.
 
 Huawei (2013) 'Huawei announces 2012 financial results', 21 January. Available at: https://www.huawei.com/au/news/au/2013/hw-201987 (Accessed: 25 November 2026).
 

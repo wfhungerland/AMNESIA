@@ -1,5 +1,5 @@
-alle Reaktionen: 10 Jahre davor 5, 10 Jahre ab Meilenstein 26; Anteil danach 0.84; Binomial p = 0.0001; Placebo: mittlerer Anteil 0.61, p = 0.0298
-bindende Reaktionen: 10 Jahre davor 2, 10 Jahre ab Meilenstein 18; Anteil danach 0.90; Binomial p = 0.0002; Placebo: mittlerer Anteil 0.62, p = 0.0102
+alle Reaktionen: 10 Jahre davor 5, 10 Jahre ab Meilenstein 26; Anteil danach 0.84; Binomial p = 0.0001; Placebo: mittlerer Anteil 0.60, p = 0.0248
+bindende Reaktionen: 10 Jahre davor 2, 10 Jahre ab Meilenstein 18; Anteil danach 0.90; Binomial p = 0.0002; Placebo: mittlerer Anteil 0.62, p = 0.0105
 Hansard, 1 Bruch/Brueche: Bruchjahre [1871], BIC 13.3
 Hansard, 2 Bruch/Brueche: Bruchjahre [1871, 1894], BIC 15.2
 Hansard, 3 Bruch/Brueche: Bruchjahre [1871, 1878, 1883], BIC 17.8
@@ -31,7 +31,3 @@ Kongress-Stichprobe, Korea nahe Wettbewerb 1955-2025, 1 Bruch/Brueche: Bruchjahr
 Kongress-Stichprobe, Korea nahe Wettbewerb 1955-2025, 2 Bruch/Brueche: Bruchjahre [1974, 2019], BIC -46.2
 Kongress-Stichprobe, Korea nahe Wettbewerb 1955-2025, 3 Bruch/Brueche: Bruchjahre [1985, 1990, 2019], BIC -42.5
 Kongress-Stichprobe, Korea nahe Wettbewerb 1955-2025, BIC ohne Bruch -55.6; beste Zahl der Brueche: 0
-Zuckermeilenstein 1884, alle Reaktionen: davor 5, ab Meilenstein 26; Binomial p = 0.0001; Placebo p = 0.0261
-Zuckermeilenstein 1884, bindende Reaktionen: davor 2, ab Meilenstein 18; Binomial p = 0.0002; Placebo p = 0.0117
-Zuckermeilenstein 1888, alle Reaktionen: davor 6, ab Meilenstein 25; Binomial p = 0.0004; Placebo p = 0.0509
-Zuckermeilenstein 1888, bindende Reaktionen: davor 2, ab Meilenstein 18; Binomial p = 0.0002; Placebo p = 0.0117

@@ -40,7 +40,7 @@ UNGA-Abstand und CINC-Verhaeltnis im Meilensteinjahr (Median je Fall)
 challenger incumbent                                         
 CN         EU             15.576         2.3880           0.0
            US              1.583         3.2670           0.0
-DE         GB              0.612            NaN           0.0
+DE         GB              0.654            NaN           0.0
 JP         GB              0.591            NaN           0.0
            US              0.368         1.1490           1.0
 KR         US              0.156         2.1685           1.0
