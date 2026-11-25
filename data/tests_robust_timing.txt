@@ -1,0 +1,22 @@
+(3a) Without the advanced-chips milestone (M-CN-CHIP):
+  measure dates, all responses: N=39, before 3, from 36; window 3/26, binomial p=0.0000; placebo mean 0.61, p=0.0087
+  initiation dates, all responses: N=39, before 6, from 33; window 6/23, binomial p=0.0012; placebo mean 0.60, p=0.0597
+  measure dates, binding: N=24, before 1, from 23; window 1/18, binomial p=0.0000; placebo mean 0.63, p=0.0025
+  initiation dates, binding: N=24, before 4, from 20; window 4/15, binomial p=0.0096; placebo mean 0.61, p=0.0864
+  measure dates, broad (IR >= 4): N=14, before 0, from 14; window 0/12, binomial p=0.0002; placebo mean 0.65, p=0.0239
+  initiation dates, broad (IR >= 4): N=14, before 2, from 12; window 2/10, binomial p=0.0193; placebo mean 0.62, p=0.0902
+
+(3b) Export crossover instead of the milestone (responses with an exact crossover year):
+  classification of all 41: {'post': 28, 'not measurable': 9, 'undetermined': 3, 'absorption': 1}
+  measure dates, all responses: N=23, before 0, from 23; window 0/15, binomial p=0.0000; placebo mean 0.71, p=0.0953
+  initiation dates, all responses: N=23, before 0, from 23; window 0/15, binomial p=0.0000; placebo mean 0.68, p=0.0762
+  measure dates, binding: N=14, before 0, from 14; window 0/10, binomial p=0.0010; placebo mean 0.71, p=0.1504
+  initiation dates, binding: N=14, before 0, from 14; window 0/10, binomial p=0.0010; placebo mean 0.67, p=0.0880
+  measure dates, broad (IR >= 4): N=9, before 0, from 9; window 0/5, binomial p=0.0312; placebo mean 0.71, p=0.2348
+  initiation dates, broad (IR >= 4): N=9, before 0, from 9; window 0/5, binomial p=0.0312; placebo mean 0.68, p=0.1697
+
+(4) One observation per milestone: first binding response relative to the milestone (sign test, p = 0.5):
+  measure dates: 13 of 15 milestones have their first binding response from the milestone onwards; one-sided p=0.0037; lags of the first response: [-6, -1, 0, 1, 1, 1, 1, 2, 4, 4, 5, 7, 8, 16, 17]
+  measure dates (without chips): 13 of 14 milestones have their first binding response from the milestone onwards; one-sided p=0.0009; lags of the first response: [-6, 0, 1, 1, 1, 1, 2, 4, 4, 5, 7, 8, 16, 17]
+  initiation dates: 10 of 15 milestones have their first binding response from the milestone onwards; one-sided p=0.1509; lags of the first response: [-7, -2, -1, -1, -1, 0, 0, 1, 3, 4, 4, 7, 7, 15, 17]
+  initiation dates (without chips): 10 of 14 milestones have their first binding response from the milestone onwards; one-sided p=0.0898; lags of the first response: [-7, -2, -1, -1, 0, 0, 1, 3, 4, 4, 7, 7, 15, 17]

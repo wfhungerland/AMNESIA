@@ -16,12 +16,12 @@ run registers_ttbd.py; run registers_product_displacement.py
 run population_test.py; run population_panel.py; run population_employment.py
 # Congressional Record (Table 4 panel B, Appendix I)
 run crec_salience.py; run crec_sectors.py; run crec_controls.py
-run crecb_salience.py; run crecb_korea.py; run crecb_share.py; run crecb_controls.py
+run crecb_salience.py; run crecb_korea.py; run crecb_share.py; run crecb_controls.py; run sector_prior.py
 # Further cases, alignment, conditionality (Appendices G, H)
 run cases_test.py; run geopolitics.py; run conditionality.py
 run robust_broad.py
 # Sequence and business-cycle tests (Section 4, Appendix C)
 run tests_sequence.py; run tests_cycle.py
-run tests_initiation.py
+run tests_initiation.py; run tests_robust_timing.py
 # Figures
 python3 manuscript/figures/fig_story.py; python3 manuscript/figures/fig_e1.py; python3 manuscript/figures/fig_e2_crec.py

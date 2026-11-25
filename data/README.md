@@ -92,6 +92,8 @@ Weitere Auffälligkeit: Die Weltbank-Reihe für Korea zeigt 1976–1979 winzige 
 | `ds1_product_displacement.csv` | 127 US-AD-Fälle gegen China, Importanteil vor dem Fall | `registers_product_displacement.py` |
 | `tests_sequence.txt`, `tests_cycle.txt`, `tests_cycle_events.csv` | Binomial- und Placebotest, Bruchtest; Konjunktur (HP-Filter) | `tests_sequence.py`, `tests_cycle.py` |
 | `ds1_initiation.csv`, `tests_initiation.txt`, `tests_initiation.csv` | Eröffnungsdaten der 25 bindenden Reaktionen mit Quellen; Timing-Tests damit (Gutachten Befund 2) | `tests_initiation.py` |
+| `tests_robust_timing.txt` | Timing ohne Chip-Meilenstein, nach Exportkreuzung, je Meilenstein (Gutachten Befunde 3 und 4; `tests_robust_timing.py`) |
+| `sector_prior.txt` | Sektorauswahl: Stimme gegen früheren Schutz, ohne Textil und Stahl (Gutachten Befund 6; `sector_prior.py`) |
 
 ## Gutachten: Register, Population, Kontrollgruppe, Gewicht
 
