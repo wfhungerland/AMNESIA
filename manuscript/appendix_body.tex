@@ -713,6 +713,24 @@ R-CN-11 & 2024-10-30 & 2023 & 2023-10-04 & investigation & Notice of
 initiation C/2023/160, OJ C, 4.10.2023 \\
 \end{longtable}}
 
+\textbf{Milestone definition and dependence between responses.} The
+milestones mix several measures of leadership, and one of them, advanced
+chips (2023), marks a capability rather than a market lead. Three checks
+address this (\texttt{data/\allowbreak{}tests\_\allowbreak{}robust\_\allowbreak{}timing.py},
+\texttt{data/\allowbreak{}tests\_\allowbreak{}robust\_\allowbreak{}timing.txt}). First, without the
+advanced-chips milestone, 36 of 39 responses and 23 of 24 binding
+responses come from the milestone (window 1 before and 18 after, placebo
+p = 0.003). With initiation dates the counts are 4 and 15 (binomial p =
+0.010, placebo p = 0.086). Second, of the 23 responses with an exactly
+dated export crossover, none comes before it, with measure dates or with
+initiation dates. The placebo has little power here, because most of
+these responses come many years after the crossover (p between 0.08 and
+0.23). Third, responses to the same milestone are not independent.
+Counting each milestone once, the first binding response comes from the
+milestone in 13 of 15 cases (one-sided sign test, p = 0.004), and in 13
+of 14 without advanced chips (p = 0.001). With initiation dates the
+counts fall to 10 of 15 (p = 0.15) and 10 of 14 (p = 0.090).
+
 \textbf{Business cycle.} The business cycle does not appear to explain
 the sequence. Temporary trade barriers rise in downturns (Bown and
 Crowley 2013a). If milestones coincided with recessions, the sequence
@@ -1766,7 +1784,16 @@ the 63 displaced groups, with the sector's measure as outcome and
 standard errors clustered by sector. The result is the same (volume p =
 0.021, employment p = 0.75, imports p = 0.40). Congressional volume thus
 appears to carry information that the size of the industry and its
-exposure to imports do not.
+exposure to imports do not. Volume may also reflect earlier protection
+of the sector (\texttt{data/\allowbreak{}sector\_\allowbreak{}prior.py},
+\texttt{data/\allowbreak{}sector\_\allowbreak{}prior.txt}). Three Korean sectors had already drawn
+a broad measure against Japan before Korea's crossover: textiles,
+television sets and steel. With an indicator for them, the volume
+coefficient falls from 0.18 to 0.14 (permutation p = 0.059). Without
+textiles it is 0.17 (p = 0.019), without textiles and steel 0.14 (p =
+0.054), and without the three previously protected sectors 0.13 (p =
+0.066). For Japan the register holds no earlier challenger, so earlier
+protection against other suppliers is not captured.
 
 \textbf{Limits of the congressional measures.} The congressional
 measures have four limits. First, the sample of days is small for sector

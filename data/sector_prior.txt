@@ -1,0 +1,6 @@
+28 sectors, 11 with a broad measure; prior protection (Korean sectors already protected against Japan before Korea's crossover): textiles, televisions, steel
+(1) baseline, as in crecb_controls.py: N=28, with measure 11; l_vol +0.177 (permutation p=0.012)
+(2) + prior protection: N=28, with measure 11; l_vol +0.139 (permutation p=0.059); prior +0.386 (HC1 p=0.138)
+(3) without textiles: N=26, with measure 9; l_vol +0.174 (permutation p=0.019)
+(4) without textiles and steel: N=24, with measure 7; l_vol +0.143 (permutation p=0.054)
+(5) without sectors with prior protection: N=25, with measure 8; l_vol +0.133 (permutation p=0.066)
