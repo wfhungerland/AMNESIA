@@ -10,7 +10,7 @@ This package reproduces the datasets, tests, tables and figures of the manuscrip
 | `data/ds1_milestones.csv`, `data/ds1_responses.csv` | Hand-coded core data: 18 sectoral displacement milestones and 41 incumbent responses, each with its source and a check note |
 | `data/broad_register.csv` | Register of 42 broad US instruments with legal basis and source |
 | `data/ds1_reach_rubric.md` | Coding rule for the instrument-reach score (IR 1–5) |
-| `data/ds1_coder2_blank.csv` | Blank sheet for the independent second coding |
+| `data/coder2/` | Blind sheet and rules for the independent second coding; `data/coder2_alpha.py` computes ordinal Krippendorff's alpha |
 | `data/*.py` | Retrieval and analysis scripts |
 | `data/fetch.sh` | Downloads all third-party raw data into `data/raw/` |
 | `data/run_all.sh` | Runs all analyses and figures in order |

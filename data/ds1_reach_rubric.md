@@ -19,4 +19,4 @@ Zweifelsfälle: Bei zwei möglichen Stufen gilt die niedrigere, mit kurzem Verme
 
 ## Zweitcodierung
 
-`ds1_coder2_blank.csv` enthält alle Reaktionen ohne meine Punkte. Trage in `reach_coder2` je eine Zahl von 1 bis 5 ein, ohne in `ds1_events.csv` nachzusehen. Danach rechne ich die Übereinstimmung (Krippendorffs Alpha, ordinal).
+Blind: `data/coder2/coding_sheet.xlsx` enthält 90 Posten (48 Reaktionen, 42 Registereinträge) in Zufallsreihenfolge, ohne Meilenstein, Lag, Phase, Typ und ohne meine Punkte. Regeln für die Zweitcodiererin oder den Zweitcodierer auf Englisch: `data/coder2/CODING_RULES.md` (auch im Blatt „rules“). Die Zuordnung zu den Original-IDs steht in `data/coder2/key.csv` und wird nicht weitergegeben. Auswertung: `python3 data/coder2_alpha.py <zurückgegebene Datei>` (Krippendorffs Alpha, ordinal; Übereinstimmung bei breit; Zählungen mit den Punkten der zweiten Person).
