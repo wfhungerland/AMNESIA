@@ -23,7 +23,7 @@ top = a.get_ylim()[1]
 for x, lab in [(2001, "WTO\naccession"), (2010, "manufacturing\nmilestone"), (2018, "Section 301\ntariffs")]:
     a.axvline(x, color=MUTED, lw=0.8, ls=":")
     a.text(x + 0.3, top * 0.97, lab, va="top", color=MUTED, fontsize=7.5)
-a.set_title("(a) Mentions per 100,000 words of economic debate, 1995–2025", loc="left", fontsize=9, color=INK)
+a.set_title("(a) Mentions per 100,000 words of economic debate, 1995-2025", loc="left", fontsize=9, color=INK)
 a.set_xlim(1995, 2025)
 a.legend(frameon=False, loc="upper left", bbox_to_anchor=(0.0, 0.8), fontsize=8)
 
@@ -37,7 +37,7 @@ for x, lab in [(1969, "steel"), (1970, ""), (1980, "cars"), (1986, "semi-\ncondu
     if lab:
         c.axvline(x, color=MUTED, lw=0.8, ls=":")
         c.text(x + 0.3, top * 0.97, lab, va="top", color=MUTED, fontsize=7.5)
-c.set_title("(b) Sampled sitting days: mentions near a competition term per million words, 1955–2025", loc="left", fontsize=9, color=INK)
+c.set_title("(b) Sampled sitting days: mentions near a competition term per million words, 1955-2025", loc="left", fontsize=9, color=INK)
 c.set_xlim(1955, 2025)
 c.set_xlabel("Year")
 c.legend(frameon=False, loc="upper left", bbox_to_anchor=(0.0, 0.75), fontsize=8)
@@ -46,7 +46,7 @@ for ax in (a, c):
     ax.spines[["top", "right"]].set_visible(False)
 n = int(y.econ_granules.sum())
 fig.text(0.01, -0.03, f"Source: Congressional Record (govinfo, CREC and CRECB). (a) {n:,} economic granules, title filter crec_econ_v1. "
-         "(b) 20 random sitting days per year\n(bound Record, 1955–1994) and 10 (daily Record, 1995–2025), full text of all chambers; "
+         "(b) 20 random sitting days per year\n(bound Record, 1955-1994) and 10 (daily Record, 1995-2025), full text of all chambers; "
          "dashed line: Japan after 1994.", fontsize=7, color=MUTED)
 fig.tight_layout()
 for ext in ("pdf", "png"):
