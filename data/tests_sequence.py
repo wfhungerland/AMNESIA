@@ -112,5 +112,24 @@ if (D / "ds1_kr_years.csv").exists():
     k = pd.read_csv(D / "ds1_kr_years.csv").sort_values("year")
     breaks(np.log1p(k.korea_comp_per_1m.values), k.year.values, "Kongress-Stichprobe, Korea nahe Wettbewerb 1955-2025")
 
+# Sensitivitaet: Jahr des Zuckermeilensteins (Kreuzung nur zwischen 1879 und etwa 1888 belegt)
+for my in (1884, 1888):
+    x = e.copy()
+    m = x.sector_milestone == "M-DE-SUGAR"
+    x.loc[m, "lag_years"] = x.loc[m, "year"] - my
+    for label, sub in [("alle Reaktionen", x), ("bindende Reaktionen", x[x.binding])]:
+        r2 = np.random.default_rng(20261121)
+        pre, post = window(sub, sub.lag_years)
+        ms = sub.sector_milestone.unique()
+        st = []
+        for _ in range(10000):
+            sh = dict(zip(ms, r2.integers(-10, 11, len(ms))))
+            a, b = window(sub, sub.lag_years - sub.sector_milestone.map(sh))
+            st.append(b / (a + b) if a + b else np.nan)
+        st = np.array(st)
+        obs = post / (pre + post)
+        out.append(f"Zuckermeilenstein {my}, {label}: davor {pre}, ab Meilenstein {post}; "
+                   f"Binomial p = {binom_p(pre, pre + post):.4f}; Placebo p = {float(np.nanmean(st >= obs)):.4f}")
+
 (D / "tests_sequence.txt").write_text("\n".join(out) + "\n", encoding="utf-8")
 print("\n".join(out))
