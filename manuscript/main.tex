@@ -16,8 +16,11 @@
 \newcolumntype{L}[1]{>{\raggedright\arraybackslash}p{#1}}
 \usepackage{etoolbox}
 \usepackage{longtable}
+\usepackage{ragged2e}
+\usepackage{needspace}
 \usepackage{calc}
 \usepackage{caption}
+\captionsetup[longtable]{font=normalsize,justification=raggedright,singlelinecheck=false,skip=4pt}
 \providecommand{\tightlist}{\setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
 \usepackage{newunicodechar}
 \newunicodechar{≥}{\ensuremath{\geq}}

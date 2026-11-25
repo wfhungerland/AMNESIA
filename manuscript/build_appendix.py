@@ -30,6 +30,10 @@ c1 = "\n\n".join(f"*{NAMES[c]}*\n\n{table(e[e.case == c])}" for c in ["DE", "JP"
 g5 = table(e[e.case == "JPGB"])
 
 
+PAD = 3  # extra width for the longest word of a column
+CAP = 60  # longest column, in characters
+
+
 def widths(text):
     """Setzt die Strichzahl der Trennzeile jeder Pipe-Tabelle proportional zur Textlaenge der Spalten (pandoc liest daraus die Spaltenbreiten)."""
     lines = text.split("\n")
@@ -42,7 +46,7 @@ def widths(text):
             cells = [[c.strip() for c in b.strip().strip("|").split("|")] for b in block]
             n = len(cells[0])
             col = [[r[k] if k < len(r) else "" for r in cells] for k in range(n)]
-            w = [max(min(max(len(c) for c in cs), 60), max(len(t) for c in cs for t in (c.split() or [""])) + 3, 4) for cs in col]
+            w = [max(min(max(len(c) for c in cs), CAP), max(len(t) for c in cs for t in (c.split() or [""])) + PAD, 4) for cs in col]
             lines[i] = "|" + "|".join("-" * x for x in w) + "|"
     return "\n".join(lines)
 
