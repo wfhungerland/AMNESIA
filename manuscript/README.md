@@ -18,8 +18,8 @@ Die alte Fassung vom 26.08.2026 ist verloren; Neubau nach den Daten.
 
 ## Vor der Einreichung offen (Stand 25.11.2026, gegen Guide for Authors geprüft)
 
-- Titelseite: Platzhalter in `titlepage.tex` ausfüllen (Autor, Adresse, E-Mail, Danksagung, Interessenkonflikte, Finanzierung, CRediT).
-- KI-Erklärung im Manuskript ausfüllen (Abschnitt vor den Literaturangaben).
+- Titelseite: ausgefüllt am 25.11.2026; Art der Hilfe in der Danksagung bei Bedarf präzisieren.
+- KI-Erklärung: Entwurf im Manuskript; vor der Einreichung auf Vollständigkeit prüfen.
 - Daten: Option C verlangt Ablage in einem Repositorium und einen Link bei der Einreichung; für die Begutachtung einen anonymen Link verwenden.
 - Zweitcodierung (Krippendorffs Alpha) nachtragen.
 - Hochladen: `main.tex`, `refs.bib`, `main.bbl`, `Figure_1.pdf`, `titlepage` getrennt, `online_appendix.pdf` als Supplementary Material.
