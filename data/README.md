@@ -91,6 +91,7 @@ Weitere Auffälligkeit: Die Weltbank-Reihe für Korea zeigt 1976–1979 winzige 
 | `ds1_registers.csv`, `ds1_registers_summary.txt` | 759 AD/CVD-Verfahren von USA und EU gegen JP, KR, CN (TTBD, Bown) | `registers_ttbd.py` |
 | `ds1_product_displacement.csv` | 127 US-AD-Fälle gegen China, Importanteil vor dem Fall | `registers_product_displacement.py` |
 | `tests_sequence.txt`, `tests_cycle.txt`, `tests_cycle_events.csv` | Binomial- und Placebotest, Bruchtest; Konjunktur (HP-Filter) | `tests_sequence.py`, `tests_cycle.py` |
+| `ds1_initiation.csv`, `tests_initiation.txt`, `tests_initiation.csv` | Eröffnungsdaten der 25 bindenden Reaktionen mit Quellen; Timing-Tests damit (Gutachten Befund 2) | `tests_initiation.py` |
 
 ## Gutachten: Register, Population, Kontrollgruppe, Gewicht
 
@@ -101,4 +102,5 @@ Rohdaten dazu: Comtrade AG3/AG4 (`population_fetch*.py`), WITS-Konkordanzen HS�
 | `broad_register.csv` → `broad_register_tested.csv` | 23 breite US-Maßnahmen gegen JP, KR, CN (1957–2024), Phase gegen die Exportkreuzung |
 | `population_crossovers.csv`, `population_hazard.csv` | verdrängte Warengruppen und Anteil mit breiter Maßnahme binnen 10 Jahren (`population_test.py`) |
 | `population_panel.csv`, `population_panel.txt` | Panel Gruppe × Jahr, Kontrollgruppe, AD/CVD-Fälle (`population_panel.py`) |
+| `robust_broad.txt`, `robust_broad_es.csv` | Breite Maßnahmen: Größenkontrollen, Exportverhältnis, Ereignisstudie (Gutachten Befund 1; `robust_broad.py`) |
 | `population_weight.csv`, `population_employment.txt` | Gewicht: US-Einfuhren und US-Beschäftigung (NBER-CES) im Kreuzungsjahr (`population_employment.py`) |

@@ -116,6 +116,38 @@ Five of 41 responses come before the milestone of their sector. Four of the five
 
 **Window test and placebo.** Responses cluster after the milestone. Within ten years on either side of the milestone, 5 responses fall in the ten years before and 26 in the ten years from the milestone. A binomial test against equal probability gives a one-sided p = 0.0001. For binding responses the counts are 2 and 18 (p = 0.0002). A placebo exercise shifts every milestone by a random number of years between −10 and +10, in 10,000 draws. All responses of a milestone shift together. The mean share of responses after the milestone is then 0.60 (0.62 for binding responses). A share as high as the observed 0.84 occurs in 2.5 per cent of draws for all responses. The observed binding share of 0.90 occurs in 1.1 per cent (`data/tests_sequence.py`, `data/tests_sequence.txt`).
 
+**Initiation dates.** A measure can follow the milestone while the decision behind it came earlier. We therefore date each of the 25 binding responses by the start of the formal process that produced it: the petition filed, the investigation opened, the bill introduced or the negotiations opened (Table C.3; `data/tests_initiation.py`, `data/tests_initiation.txt`). Nineteen dates are confirmed at the source. Two rest on secondary sources (R-DE-08, R-JP-14), one is confirmed only to the year (R-JP-10), and for two no start could be verified, so the measure date is kept (R-JP-09, R-JP-13). Their measures came four and six years after the milestone; a start up to three years earlier, the longest delay observed, would not move either before it. The median delay from initiation to measure is one year, and the longest is three. Three binding processes began before the milestone, although the measure came after it. They are the steel talks of June 1968 (milestone 1969), the antidumping complaint on television receivers of March 1968 (milestone 1970) and the four-year review of the Section 301 tariffs opened in May 2022, which raised the tariff on Chinese electric vehicles (milestone 2023). With initiation dates, 20 of 25 binding responses begin from the milestone. In the ten-year window the counts are 5 before and 15 after (binomial p = 0.021); for broad responses, 3 and 10 (p = 0.046). The placebo no longer separates these shares from chance (p = 0.14 and 0.16). Formal processes thus often begin as the challenger approaches the lead, in line with the gradient in the panel (Table D.3).
+
+**Table C.3. Initiation dates of the 25 binding responses** (`data/ds1_initiation.csv`)
+
+| Response | Measure | Milestone | Initiation | Type | Source |
+|---|---|---|---|---|---|
+| R-DE-02 | 1887-08-23 | 1870 | 1887-01-31 | bill | HC Deb 31 Jan 1887 vol 310 c383 |
+| R-DE-05 | 1907 | 1870 | 1907-03-19 | bill | HC Deb 19 Mar 1907 vol 171 cc683-7 |
+| R-DE-06 | 1932-02-29 | 1870 | 1932-02-04 | announcement | HC Deb 4 Feb 1932 vol 261 cc279-96 |
+| R-DE-08 | 1902-03-05 | 1886 | 1901-12-16 | negotiation | Encyclopaedia Britannica 1911, 'Sugar' (vol. 26 p. 61, Wikisource copy), seen only as a search excerpt |
+| R-JP-01 | 1955-09-10 | 1951 | 1955-02-21 | negotiation | FRUS 1955-57, accession negotiations opened 21 Feb 1955 (see note) |
+| R-JP-09 | 1955 | 1951 | not verified (measure date used) | negotiation | FRUS 1955-57 vol IX doc 60 (Dulles to Gov. Timmerman, 17 Apr 1956) |
+| R-JP-10 | 1957-01-16 | 1951 | 1956 | negotiation | FRUS 1955-57 vol IX doc 99 (Blackman, Commerce, 12 Jul 1957) |
+| R-JP-12 | 1971-03 | 1970 | 1968-03-22 | petition | Treasury LTFV determination, 35 FR 18549 (5 Dec 1970) |
+| R-JP-13 | 1977-07-01 | 1970 | not verified (measure date used) | petition | USITC Pub. 808 (1977) |
+| R-JP-14 | 1969-01-14 | 1969 | 1968-06 | negotiation | Consumers Union v. Kissinger, 506 F.2d 136 (D.C. Cir. 1974) |
+| R-JP-15 | 1978-01 | 1969 | 1977-09-29 | investigation | FRUS 1977-80 vol III doc 63 (Blumenthal to Carter, 29 Sep 1977) |
+| R-JP-02 | 1981-05 | 1980 | 1980-06-12 | petition | USITC, Report to the President TA-201-44, 45 FR 85194 (24 Dec 1980) |
+| R-JP-04 | 1986-09-02 | 1981 | 1985-06-14 | petition | GATT Panel Report L/6309, Japan - Trade in Semi-conductors (24 Mar 1988), para. 11 |
+| R-JP-06 | 1987-04-17 | 1981 | 1987-03-27 | announcement | Irwin 1996, 'Trade Politics and the Semiconductor Industry', in Krueger (ed.), The Political Economy of American Trade Policy (NBER), p. 11 |
+| R-JP-07 | 1988-08-23 | 1986 | 1987-01-06 | bill | Congressional Record Index 1987, entry 'Rostenkowski, Dan': 'Industry: enhance competitiveness (see H.R. 3), 105 [6JA]' |
+| R-KR-02 | 1986-07-21 | 1992 | 1985-11-04 | investigation | USTR notice, 50 FR 45883 (4 Nov 1985) |
+| R-KR-04 | 1993-05-10 | 1992 | 1992-04-22 | petition | USITC Pub. 2629 (May 1993), inv. 731-TA-556 (Final), Background |
+| R-KR-05 | 2003-08 | 1992 | 2002-11-01 | petition | Commerce notice of initiation, C-580-851, 67 FR 70927 (27 Nov 2002) |
+| R-CN-02 | 2012-10 | 2008 | 2011-10-19 | petition | Commerce notice of initiation of antidumping investigation, 76 FR 70960 (16 Nov 2011) |
+| R-CN-03 | 2013-06 | 2008 | 2012-07-25 | petition | Notice of initiation 2012/C 269/04, OJ C 269, 6.9.2012, p. 5 |
+| R-CN-05 | 2018-07-06 | 2010 | 2017-08-18 | investigation | USTR notice, 82 FR 40213 (24 Aug 2017) |
+| R-CN-07 | 2019-05-16 | 2012 | 2019-05-16 | same as measure | BIS final rule, 84 FR 22961 (21 May 2019) |
+| R-CN-09 | 2022-10-07 | 2023 | 2022-08-26 | announcement | NVIDIA Form 8-K (filed 31 Aug 2022, event 26 Aug 2022) |
+| R-CN-10 | 2024-05 | 2023 | 2022-05-05 | investigation | USTR notice, 87 FR 26797 (5 May 2022) |
+| R-CN-11 | 2024-10-30 | 2023 | 2023-10-04 | investigation | Notice of initiation C/2023/160, OJ C, 4.10.2023 |
+
 **Business cycle.** The business cycle does not appear to explain the sequence. Temporary trade barriers rise in downturns (Bown and Crowley 2013a). If milestones coincided with recessions, the sequence could reflect the cycle. We measure the incumbent's output gap as the deviation of log real GDP from its long-run trend. The trend comes from a Hodrick-Prescott filter, a standard smoothing method (λ = 100; Bolt and van Zanden 2024). Of the 39 responses with data, 38 per cent fall in years with a negative output gap. Of all years in the case windows, 45 per cent do. For binding responses the shares are 39 and 45 per cent (`data/tests_cycle.py`, `data/tests_cycle.txt`).
 
 **Export crossover instead of milestone.** Under the export crossover, 28 of the 41 responses follow the crossover. Another 3 cannot be placed, because only an upper bound exists for the crossover. These are British responses of 1885-1896; the export lead in chemicals is first documented in 1899. A further 9 cannot be classified, because the export data do not measure the contested product. DRAM chips cannot be separated from logic chips in SITC 776, the group for all semiconductors in the Standard International Trade Classification, and China's exports of integrated circuits consist largely of assembled foreign chips. One response comes before the crossover. It is the EU's countervailing duties on Chinese battery-electric vehicles of October 2024 (IR 4). The EU imposed them while Chinese electric-car exports were still below German exports (32.0 against 41.1 billion US dollars in 2024). Chinese exports had passed American ones in 2021, three years before the American tariff increase. Each rule thus produces one exception, in a different sector. Under the milestone it is the export controls on advanced chips; under the crossover it is the EU duties on electric cars.
