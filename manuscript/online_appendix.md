@@ -41,10 +41,10 @@ The core dataset contains 18 sectoral milestones (the electric-vehicle milestone
 
 | Case | Sector | Year | Milestone | Source |
 |---|---|---|---|---|
-| Germany | synthetic dyes | 1870 | German firms dominate the synthetic dye market by the 1870s | Murmann and Homburg (2001); Arora and Gambardella (2010) |
+| Germany | synthetic dyes | 1870 | German firms account for about 50 per cent of world dye production around 1870 (75 per cent by 1900) | Murmann and Homburg (2001), p. 183 |
 | Germany | beet sugar | 1880 | Continental, chiefly German, beet sugar overtakes cane in British sugar imports in the 1880s: the continental share is 36 per cent in 1879, beet 58 per cent of imports by the late 1880s | Hansard, HC Deb 22 April 1879 and 22 February 1889; Hansard HL 26 May 1884 |
-| Germany | steel | 1893 | German (with Luxembourg) steel output exceeds British: 3,163 against about 2,997 thousand metric tons | NBER Macrohistory Database, series 01183B and 01216; Encyclopaedia Britannica (n.d.) |
-| Germany | electrical engineering | 1900 | Siemens and AEG among the world's leading electrical firms; German electrical exports 2.1 times British in 1913 | Kocka (1971); Tyszynski (1951); Hansard, written answers 17 March 1931 |
+| Germany | steel | 1893 | German (with Luxembourg) steel output exceeds British: 3,163 against about 2,997 thousand metric tons | NBER Macrohistory Database, series 01183B and 01216 |
+| Germany | electrical engineering | 1900 | Siemens & Halske and AEG Germany's leading electrical firms (AEG the larger by 1890; capital 35 million marks each in 1897); German electrical exports 2.1 times British in 1913 | Kocka (1971); Tyszynski (1951); Hansard, written answers 17 March 1931 |
 | Japan | cotton textiles | 1951 | Japan again the world's largest exporter of cotton textiles (1951 cloth exports: Japan 1,092, UK 864 million square yards) | Conlon (2010); Sugihara (1999) |
 | Japan | steel | 1969 | Japan becomes the world's largest steel exporter (SITC 67: Japan 2,165, West Germany 2,102 million USD; 1968: 1,713 against 1,829) | Ohashi (2005); UN Comtrade |
 | Japan | colour television | 1970 | Japanese share of the US market for medium-sized colour receivers about 30 per cent; Japan the largest colour TV producer from the late 1960s | US Tariff Commission (1971); Gao and Tisdell (2004) |
@@ -55,8 +55,8 @@ The core dataset contains 18 sectoral milestones (the electric-vehicle milestone
 | Korea | shipbuilding | 1999 | Korea overtakes Japan in new ship orders; Japan ahead again in 2001 (7.97 against 6.41 million CGT) | The Japan Times (2002) |
 | China | manufacturing overall | 2010 | China overtakes the US in manufacturing value added (1.92 against 1.79 trillion US dollars) | World Bank, World Development Indicators, NV.IND.MANF.CD |
 | China | solar PV | 2008 | China makes more solar cells than any other country; module share 50 per cent in 2010 | US Senate (2012); USITC (2020) |
-| China | telecom equipment | 2012 | Huawei level with Ericsson in total revenue in 2012 (the result turns on exchange rates); ahead in mobile-infrastructure market share in 2017 (28 against 27 per cent) | Tan (2018) |
-| China | electric vehicles | 2023 | BYD overtakes Tesla in quarterly BEV sales (Q4 2023: 526,409 against 484,507; Tesla ahead for the year) | Kane (2024) |
+| China | telecom equipment | 2012 | Huawei level with Ericsson in total revenue in 2012 (the result turns on exchange rates); ahead in mobile-infrastructure market share in 2017 (28 against 27 per cent) | Huawei (2013); Ericsson (2013); Tan (2018) |
+| China | electric vehicles | 2023 | BYD overtakes Tesla in quarterly BEV sales (Q4 2023: 526,409 against 484,507; Tesla ahead for the year with 1,808,581) | Kane (2024); Tesla (2024) |
 | China | advanced logic chips | 2023 | TechInsights confirms SMIC 7 nm (N+2) in the Huawei Mate 60 Pro (4 September 2023) | TechInsights (2023); USCC (2023) |
 
 **Table B.2. Contested market and export-crossover check**
@@ -562,8 +562,6 @@ Bailey, M. A., Strezhnev, A. and Voeten, E. (2017) 'Estimating dynamic state pre
 
 Ballinger, R. A. (1978) *A History of Sugar Marketing Through 1974*. Agricultural Economic Report No. 382. Washington, DC: US Department of Agriculture, Economics, Statistics, and Cooperatives Service, March.
 
-Arora, A. and Gambardella, A. (2010) 'Implications for energy innovation from the chemical industry', NBER Working Paper 15676. Cambridge, MA: National Bureau of Economic Research.
-
 Berry, S., Levinsohn, J. and Pakes, A. (1999) 'Voluntary export restraints on automobiles: evaluating a trade policy', *American Economic Review*, 89(3), pp. 400--431.
 
 Bolt, J. and van Zanden, J. L. (2024) 'Maddison-style estimates of the evolution of the world economy: a new 2023 update', *Journal of Economic Surveys*, 39(2), pp. 631--671. Data: Maddison Project Database 2023, DataverseNL, doi:10.34894/INZBF2.
@@ -586,7 +584,7 @@ Dinopoulos, E. and Kreinin, M. E. (1991) 'The U.S. VER on machine tools: causes 
 
 Eichengreen, B., Park, D. and Shin, K. (2012) 'When fast-growing economies slow down: international evidence and implications for China', *Asian Economic Papers*, 11(1), pp. 42--87.
 
-Encyclopaedia Britannica (n.d.) 'Germany: The economy, 1890--1914'. Available at: https://www.britannica.com/place/Germany/The-economy-1890-1914 (Accessed: 25 November 2026).
+Ericsson (2013) *Annual Report 2012*. Stockholm: Telefonaktiebolaget LM Ericsson.
 
 European Commission (2013) 'EU imposes provisional anti-dumping duties on Chinese solar panels', MEMO/13/497, 4 June. Available at: https://ec.europa.eu/commission/presscorner/detail/en/MEMO_13_497 (Accessed: 25 November 2026).
 
@@ -601,6 +599,8 @@ Fouquin, M. and Hugot, J. (2016) *Two Centuries of Bilateral Trade and Gravity D
 FRUS (1987) *Foreign Relations of the United States, 1955--1957, Vol. IX: Foreign Economic Policy; Foreign Information Program*. Washington, DC: Government Printing Office. Doc. 99: report by Herbert N. Blackman, Department of Commerce, 12 July 1957. Available at: https://history.state.gov/historicaldocuments/frus1955-57v09/d99 (Accessed: 25 November 2026).
 
 Gao, Z. and Tisdell, C. (2004) 'Television production: its changing global location, the product cycle and China', Working Papers on Economic Theory, Applications and Issues No. 26. Brisbane: The University of Queensland, January.
+
+Huawei (2013) 'Huawei announces 2012 financial results', 21 January. Available at: https://www.huawei.com/au/news/au/2013/hw-201987 (Accessed: 25 November 2026).
 
 Hufbauer, G. C. and Vieiro, M. (2012) 'US anti-dumping duties on Chinese solar cells: a costly step', *Realtime Economic Issues Watch*, Peterson Institute for International Economics, 25 May. Available at: https://www.piie.com/blogs/realtime-economic-issues-watch/us-anti-dumping-duties-chinese-solar-cells-costly-step (Accessed: 25 November 2026).
 
@@ -653,6 +653,8 @@ Sugihara, K. (1999) 'International circumstances surrounding the postwar Japanes
 Tan, J. (2018) 'Huawei now world's largest telecom equipment-maker', *Caixin Global*, 19 March. Available at: https://www.caixinglobal.com/2018-03-19/huawei-now-worlds-largest-telecom-equipment-maker-101223256.html (Accessed: 25 November 2026).
 
 TechInsights (2023) 'TechInsights finds SMIC 7nm (N+2) in Huawei Mate 60 Pro', 4 September. Available at: https://www.techinsights.com/blog/techinsights-finds-smic-7nm-n2-huawei-mate-60-pro (Accessed: 25 November 2026).
+
+Tesla (2024) 'Tesla vehicle production & deliveries and date for financial results & webcast for fourth quarter 2023', 2 January. Austin, TX: Tesla, Inc.
 
 The Japan Times (2002) 'Japan back to No. 1 in shipbuilding', 18 February. Available at: https://www.japantimes.co.jp/news/2002/02/18/business/japan-back-to-no-1-in-shipbuilding/ (Accessed: 25 November 2026).
 
