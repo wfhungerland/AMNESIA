@@ -11,6 +11,15 @@ Manuskript „Displacement Before Escalation“ (World Development), Fassung vom
 | `highlights.txt` | Highlights (5 Zeilen, je höchstens 85 Zeichen mit Leerzeichen; Elsevier-Standard, laut Guide for Authors für Regular Papers nicht verlangt) |
 | `claims_check.csv` | jede Zahl des Textes mit Quelle und Prüfstand; Spalte `section` nennt Abschnitte des Haupttexts (Ziffern) und des Anhangs (Buchstaben) |
 | `outline.md` | Gliederung mit Kernaussage je Abschnitt |
+| `Figure_1.pdf` | Abbildung 1 als eigene Datei für die Einreichung (Kopie von `figures/fig1_lags.pdf`) |
 | `figures/` | Abbildungen und ihre Skripte (`fig_main.py`: Abbildung 1 und K1; `fig_e1.py`: E1; `fig_e2_crec.py`: I1) |
 
 Die alte Fassung vom 26.08.2026 ist verloren; Neubau nach den Daten.
+
+## Vor der Einreichung offen (Stand 25.11.2026, gegen Guide for Authors geprüft)
+
+- Titelseite: Platzhalter in `titlepage.tex` ausfüllen (Autor, Adresse, E-Mail, Danksagung, Interessenkonflikte, Finanzierung, CRediT).
+- KI-Erklärung im Manuskript ausfüllen (Abschnitt vor den Literaturangaben).
+- Daten: Option C verlangt Ablage in einem Repositorium und einen Link bei der Einreichung; für die Begutachtung einen anonymen Link verwenden.
+- Zweitcodierung (Krippendorffs Alpha) nachtragen.
+- Hochladen: `main.tex`, `refs.bib`, `main.bbl`, `Figure_1.pdf`, `titlepage` getrennt, `online_appendix.pdf` als Supplementary Material.
