@@ -1,6 +1,6 @@
 # manuscript
 
-Manuskript „Displacement Before Escalation“ (World Development), Fassung vom 22.11.2026. Nicht einreichen.
+Manuskript „Policy Amnesia: When Leading Economies Turn Against Late Industrialisers, 1850-2024“ (World Development; früher „Displacement Before Escalation“), Fassung vom 25.11.2026. Nicht einreichen.
 
 | Datei | Inhalt |
 |---|---|
@@ -11,8 +11,8 @@ Manuskript „Displacement Before Escalation“ (World Development), Fassung vom
 | `highlights.txt` | Highlights (5 Zeilen, je höchstens 85 Zeichen mit Leerzeichen; Elsevier-Standard, laut Guide for Authors für Regular Papers nicht verlangt) |
 | `claims_check.csv` | jede Zahl des Textes mit Quelle und Prüfstand; Spalte `section` nennt Abschnitte des Haupttexts (Ziffern) und des Anhangs (Buchstaben) |
 | `outline.md` | Gliederung mit Kernaussage je Abschnitt |
-| `Figure_1.pdf` | Abbildung 1 als eigene Datei für die Einreichung (Kopie von `figures/fig1_lags.pdf`) |
-| `figures/` | Abbildungen und ihre Skripte (`fig_main.py`: Abbildung 1 und K1; `fig_e1.py`: E1; `fig_e2_crec.py`: I1) |
+| `Figure_1.pdf` bis `Figure_6.pdf` | Abbildungen als eigene Dateien für die Einreichung, in der Reihenfolge des Texts |
+| `figures/` | Abbildungen und ihre Skripte (`fig_story.py`: Abbildungen 1 und 3 bis 6; `fig_main.py`: Abbildung 2 und K1; `fig_e1.py`: E1; `fig_e2_crec.py`: I1) |
 
 Die alte Fassung vom 26.08.2026 ist verloren; Neubau nach den Daten.
 

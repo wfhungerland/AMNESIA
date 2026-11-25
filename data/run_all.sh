@@ -22,4 +22,4 @@ run cases_test.py; run geopolitics.py; run conditionality.py
 # Sequence and business-cycle tests (Section 4, Appendix C)
 run tests_sequence.py; run tests_cycle.py
 # Figures
-python3 manuscript/figures/fig_main.py; python3 manuscript/figures/fig_e1.py; python3 manuscript/figures/fig_e2_crec.py
+python3 manuscript/figures/fig_main.py; python3 manuscript/figures/fig_story.py; python3 manuscript/figures/fig_e1.py; python3 manuscript/figures/fig_e2_crec.py
