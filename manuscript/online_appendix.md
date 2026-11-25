@@ -1,9 +1,9 @@
 ---
 title: "Trade Policy Amnesia: Online Appendix"
-subtitle: "Draft of 22 November 2026. Not for submission. Inter-coder reliability pending."
+subtitle: "Draft of 25 November 2026. Not for submission. Inter-coder reliability pending."
 ---
 
-This appendix documents the data, coding rules and checks behind the manuscript. Sections follow the order of the argument: coding (A), milestones (B), the core responses and tests (C), registers and population (D), British parliamentary attention (E), the American placebo before 1914 (F), the further cases (G), alignment (H), congressional attention (I), multilateral finance (J), convergence (K) and limits (L). File names refer to the replication package (`data/`).
+This appendix documents the data, coding rules and checks behind the manuscript. Its sections follow the order of the manuscript. The data (Section 4) rest on the coding rules (A), the milestones (B), the core responses (C) and the registers and the panel of manufacturing groups (D). The results (Section 6) draw on C and D for timing and reach, and on British parliamentary attention (E), the American placebo before 1914 (F) and congressional attention (G) for the choice of sectors. The extensions (Section 7) draw on the further cases (H), alignment and the form of the response (I) and multilateral finance (J). Threats to validity (Section 8) are documented in K, and convergence after displacement (Section 9) in L. File names refer to the replication package (`data/`).
 
 # A. Coding rules
 
@@ -190,7 +190,7 @@ Two qualifications apply. First, the rise after 1871 is modest in level, and the
 
 ## E.2 Sector debates
 
-Aggregate attention mixes sectors with very different political weight. A debate belongs to a sector if it uses at least three sector terms. It links Germany to that sector if Germany appears within 30 words of a sector term. We use the number of debates on a sector over the whole period as a measure of its political voice. Census employment by sector is not yet available as a check (Section L).
+Aggregate attention mixes sectors with very different political weight. A debate belongs to a sector if it uses at least three sector terms. It links Germany to that sector if Germany appears within 30 words of a sector term. We use the number of debates on a sector over the whole period as a measure of its political voice. Census employment by sector is not yet available as a check (Section K).
 
 **Table E.2. Germany in British sector debates before and after the sector milestone**
 
@@ -206,7 +206,7 @@ The sharpest break occurs in sugar, the sector with the most political voice. Ge
 
 ## E.3 Export data by sector
 
-Tyszynski (1951, Tables I and II) reports manufactured exports of eleven countries in sixteen groups for 1899 and 1913 (Table E.3). In chemicals, German exports already exceeded British exports by 43 per cent in 1899. This would be consistent with an early dye milestone. In iron and steel, German exports were only 35 per cent of British exports in 1899 and reached 91 per cent by 1913. In industrial equipment and electrical goods, Germany overtook Britain between the two benchmark years.
+Tyszynski (1951, Tables G and II) reports manufactured exports of eleven countries in sixteen groups for 1899 and 1913 (Table E.3). In chemicals, German exports already exceeded British exports by 43 per cent in 1899. This would be consistent with an early dye milestone. In iron and steel, German exports were only 35 per cent of British exports in 1899 and reached 91 per cent by 1913. In industrial equipment and electrical goods, Germany overtook Britain between the two benchmark years.
 
 The production crossover in steel (1893) thus preceded displacement in export markets. That displacement came in the 1900s, when German competition became a parliamentary theme and Tariff Reform was launched (1903). Crafts (1989, Table 1) confirms the pattern from the side of specialisation, using ranks of revealed comparative advantage. Chemicals ranked among Germany's top five sectors in both 1899 and 1913. Iron and steel did not (ranks 11 and 8). Electrical goods rose from rank 10 to rank 1.
 
@@ -220,7 +220,7 @@ The production crossover in steel (1893) thus preceded displacement in export ma
 | Electrical goods | 0.58 | 2.11 | 0.94 | 0.69 |
 | All manufactures | 0.68 | 0.89 | 0.34 | 0.42 |
 
-Source: Tyszynski (1951), Tables I and II, current £000. We transcribed the values from the scanned tables and checked them against the text layer and the country totals in Table VIII.
+Source: Tyszynski (1951), Tables G and II, current £000. We transcribed the values from the scanned tables and checked them against the text layer and the country totals in Table VIII.
 # F. The United States as a placebo before 1914
 
 British attention to the United States did not rise when the United States overtook Britain in income, which makes it a placebo case. The United States overtook Britain in GDP per capita around 1900. The lead changed hands several times in the 1890s and stayed with the United States from 1899 (Bolt and van Zanden 2024). If growth alone triggered escalation, British attention to the United States should have risen as well. The debates show no such rise. Mentions of the United States per 100,000 words of economic debate stay between 41 and 56 across all four periods of Table E.1. Mentions of Germany rise from 14 to 43-45. The share of debates linking the United States to competition terms stays between 0.7 and 2.1 per cent. It is highest in 1850-1869 and never above the German share after 1893.
@@ -240,167 +240,16 @@ Bilateral trade data suggest why. We use a fixed panel of 17 third markets, that
 
 Markets: Argentina, Austria-Hungary, Belgium, Canada, Chile, Denmark, Finland, France, British India, Italy, Japan, Norway, Ottoman Empire, Portugal, Spain, Sweden, Uruguay. Flows are total goods in current pounds and do not separate manufactures from primary goods.
 
-Shares of world manufactured exports point the same way for manufactures alone, in Tyszynski's (1951, Table VIII) figures. Between 1899 and 1913 the British share fell from 32.5 to 29.9 per cent. The German share rose from 22.2 to 26.4 per cent. The American share rose only from 11.2 to 12.6 per cent. Relative to Britain, Germany moved from 0.68 to 0.88 (0.89 in Tables I and II, Table E.3), and the United States from 0.34 to 0.42. These figures suggest that the United States outgrew Britain at home, while Germany displaced Britain in its export markets.
-# G. Further cases
-
-We apply the rules of Sections B to D to eight further dyads, that is, pairs of challenger and incumbent. Code: `data/cases_fetch.py`, `data/cases_test.py` (output `data/cases_panel.txt`, `data/cases_breadth.csv`, `data/cases_crossovers.csv`, `data/cases_hazard.csv`, `data/cases_register_tested.csv`), `data/third_markets_1930s.py`, `data/hansard_japan.py`, `data/tests_sequence.py`.
-
-## G.1 Data
-
-We use world exports by reporter from UN Comtrade in three classifications. These are the Standard International Trade Classification (SITC) Rev. 1 (1962-1999), SITC Rev. 3 (1992-2009) and the Harmonized System (HS) at four digits (2008-2023). Taiwan reports only in HS. For SITC, we take its exports as the imports of all reporters from partner 490 ("Other Asia, nes"). We compare these with the same reporters' imports from the United States, and both are valued c.i.f., that is, including cost, insurance and freight. For Hong Kong we use exports minus re-exports, and re-exports by product are available only to 2016. For Japan against Britain we use CEPII TRADHIST v4. It gives total bilateral exports to 35 markets with values for both suppliers in every year 1924-1938, without Japan's colonies.
-
-**Table G.1. Reach of displacement: share of American manufactured exports in groups the challenger had overtaken (challenger exports ≥ US exports and ≥ USD 50 million)**
-
-| Challenger | Data | Selected years | Peak |
-|---|---|---|---|
-| Japan | SITC 1 | 0.31 (1977), 0.27 (1981), 0.35 (1987) | 0.48 (1995) |
-| China | HS | 0.45 (2018) | 0.55 (2023) |
-| Korea | SITC 1 / 3 | 0.024 (1977), 0.027 (1984), 0.024 (2002) | 0.054 (1988, SITC 1); 0.074 (2009, SITC 3) |
-| Taiwan | SITC 1 / 3 / HS | 0.011 (1977), 0.031 (1986), 0.087 (2023) | 0.045 (1987, SITC 1); 0.095 (2005, SITC 3) |
-| Vietnam | HS | 0.048 (2018), 0.064 (2023) | 0.064 (2023) |
-| Mexico | HS | 0.066 (2023) | 0.083 (2022) |
-| Malaysia | HS | 0.045 (2023) | 0.060 (2021) |
-| Hong Kong | SITC 1 | 0.020 (1988) | 0.022 (1987) |
-| Thailand | HS | 0.014 (2023) | 0.016 (2022) |
-| Brazil | SITC 1 / HS | 0.007 (1984), 0.008 (2023) | 0.011 (2013) |
-
-## G.2 Register extension
-
-The extension adds nineteen entries to the register (B-24 to B-42 in `data/broad_register.csv`). Each entry has its primary source:
-
-- footwear orderly marketing agreement (OMA) with Taiwan, June 1977 (Proclamation 4510);
-- colour-television OMA with Taiwan, 1979 (Proclamation 4634);
-- steel voluntary restraint agreements (VRAs) with Brazil and Mexico, 1984 (Moore 1996, Table 2.8);
-- machine-tool VRA with Taiwan, 1986 (Dinopoulos and Kreinin 1991);
-- 100 per cent tariffs on Brazilian goods, October 1988 (Proclamation 5885);
-- graduation of Hong Kong and Taiwan from the US Generalised System of Preferences (GSP), effective 1989 (Proclamation 5805);
-- US-Vietnam textile agreement, May 2003 (FR Doc. 03-12314);
-- quotas under the Multifibre Arrangement (MFA) and the Agreement on Textiles and Clothing (ATC) on Taiwan, Hong Kong, Thailand, Malaysia, Brazil and Mexico, in force 1994-2004 by Federal Register notices;
-- end of Hong Kong's differential treatment, 2020 (executive order, EO 13936);
-- tariffs under the International Emergency Economic Powers Act (IEEPA), 2025, on Mexico (EO 14194), all partners (EO 14257, 14326), Brazil (EO 14323) and Hong Kong (EO 14257).
-
-The MFA and ATC quotas are excluded from the hazard analysis below. The first agreements with these partners are already entered as B-37 to B-42.
-
-Six of the entries (B-37 to B-42) date the first comprehensive US cotton textile agreement with each economy from Federal Register notices. The dates are Hong Kong (35 categories, from 1 October 1963), Taiwan (19 October 1963), Mexico (2 June 1967), Brazil (23 October 1970), Malaysia (1 September 1970; USITC Pub. 850, p. 50) and Thailand (16 March 1972). Earlier restraints on single categories are recorded in the notes and scored 3 on the reach score (IR). They cover Hong Kong from 3 March 1962, Taiwan from 23 June 1962, Mexico from 10 August 1962, Brazil from October 1963 and Malaysia from August 1966. A restraint on Thailand was requested in April 1971. The Multifibre Arrangement was concluded at Geneva on 20 December 1973 and entered into force on 1 January 1974 (Article 14(1); text reproduced in USITC Pub. 850, Appendix A).
-
-In the next table, the phase column compares each instrument with the export crossover of the groups it covered. "Post" marks an instrument after the crossover, and "absorption" one before it.
-
-**Table G.2. Broad instruments against the further cases and the crossover of the groups they covered**
-
-| Instrument | Target | IR | Crossover of covered groups | Phase |
-|---|---|---|---|---|
-| Footwear OMA 1977 | Taiwan | 4 | 1970 | post |
-| Colour-TV OMA 1979 | Taiwan | 4 | none | extension of instrument against Japan |
-| Steel VRAs 1984 | Brazil | 4 | 1983 | post |
-| Steel VRAs 1984 | Mexico | 4 | none | extension |
-| Machine-tool VRA 1986 | Taiwan | 4 | none | extension of instrument against Japan |
-| Section 301 tariffs 1988 | Brazil | 4 | none | retaliation over patents |
-| GSP graduation 1989 | Hong Kong, Taiwan | 4 (doubtful) | none (economy-wide) | rule-based |
-| Cotton textile agreements 1963 | Hong Kong; Taiwan | 4 | 1965; 1971 | absorption (2 and 8 years) |
-| Cotton textile agreements 1967-1972 | Mexico; Brazil; Malaysia; Thailand | 4 | none | restraint without displacement |
-| Textile agreement 2003 | Vietnam | 4 | 2006 (apparel, SITC 84, all covered groups summed; groups 841 and 842 alone in 2002) | absorption (3 years) |
-| End of differential treatment 2020 | Hong Kong | 5 | none | political |
-| IEEPA tariffs 2025 | Mexico; Brazil; Hong Kong | 5 | none (economy-wide) | political |
-| Reciprocal tariffs 2025 | all partners | 5 | none (economy-wide) | global, deficit-based |
-
-## G.3 Hazard and control group
-
-Most displaced groups in the further cases drew no targeted sectoral broad measure within ten years. We count the groups whose crossover does not fall in the first data year. For each set we report the share followed within ten years by such a measure, leaving out GSP graduation and politically motivated measures. The shares are: Taiwan SITC 1, 1 of 24; Brazil SITC 1, 4 of 9 (steel); Hong Kong SITC 1, 0 of 9; Vietnam SITC 3, 2 of 5 (apparel, with the quota of 2003 one year after the two groups crossed); and Thailand, Malaysia, Mexico, Vietnam, Taiwan and Brazil in HS (2009-2023), 0 of 283.
-
-A panel of 3,702 group series gives the start rates of these measures. Targeted sectoral broad measures begin at 0.07 per 100 group-years before the crossover and at 0.12 after it. The rate ratio is 5.83 (95 % interval 2.84-11.95), with year × source effects and clustering by group. Including GSP graduation lowers the ratio to 1.33 (1.07-1.65), because graduation covered all groups at once. Antidumping and countervailing duty (AD/CVD) cases (1988-2015) rise from 0.97 to 1.98 per 100 group-years after the crossover. They do not rise once export size is held constant (rate ratio 1.29, 0.70-2.40). This matches the result for Japan, Korea and China (Table D.2).
-
-## G.4 Japan against Britain
-
-The displacement milestone is 1932, in the import market of British India (HC Deb 4 July 1934: Japan 551.9, UK 541.9 million yards). We record seven responses (Table G.5) and checked all of them at Historic Hansard. Two came before the milestone: the economic mission of 1930 (IR 2) and the Indian differential duty of 1930 (IR 3). Five came from the milestone onwards, including all four with IR 4. We report them separately, and they do not enter the core count of 41 responses.
-
-**Table G.3. Japan against Britain: exports to third markets relative to Britain (TRADHIST) and parliamentary attention (Hansard)**
-
-| Year | All 35 markets | Seven Asian markets | Netherlands Indies | British India | Mentions of Japan per 100,000 words |
-|---|---|---|---|---|---|
-| 1924 | 0.23 | 0.42 | 0.68 | 0.13 | 2.9 |
-| 1929 | 0.30 | 0.58 | 0.99 | 0.23 | 1.7 |
-| 1930 | 0.29 | 0.67 | 1.14 | 0.24 | 8.5 |
-| 1932 | 0.32 | 0.67 | 2.12 | 0.42 | 12.4 |
-| 1933 | 0.30 | 0.67 | 3.17 | 0.34 | 102.1 |
-| 1934 | 0.31 | 0.75 | 3.88 | 0.39 | 44.0 |
-| 1936 | 0.33 | 0.86 | 3.39 | 0.44 | 29.4 |
-| 1938 | 0.27 | 0.71 | 1.88 | 0.33 | 16.5 |
-
-The best single break in log(1 + mentions) falls in 1932. Its Bayesian information criterion (BIC) is −11.2, against −0.1 without a break. Ceylon, a colony, adopted quotas in 1934. There the ratio of Japanese to British exports fell from 0.50 in 1934 to 0.28 in 1935.
-
-**Table G.4. Cotton piece goods, Japan relative to Britain**
-
-| Year | UK exports, million sq. yd (Robson 1957, p. 11) | UK exports, million linear yd (Robson, p. 333) | Japanese exports, million sq. yd (Sandberg 1974, Table 25, after Seki) | Japan / UK (square yards) |
-|---|---|---|---|---|
-| 1929 | 3,672 | 3,764.9 | 1,791 | 0.49 |
-| 1931 | 1,716 | 1,790.2 | 1,414 | 0.82 |
-| 1932 | n.a. | 2,302.7 | 2,032 | (0.88 against linear yards) |
-| 1933 | 2,031 | 2,116.7 | 2,090 | 1.03 |
-| 1935 | 1,949 | 2,013.4 | 2,725 | 1.40 |
-| 1937 | 1,922 | 2,023.1 | 2,644 | 1.38 |
-| 1938 | 1,387 | 1,448.0 | 2,181 | 1.57 |
-
-Other sources confirm the rise of Japanese piece goods. Imports into British India, in million linear yards, were as follows (Robson, p. 10): 1929 UK 1,276 / Japan 521; 1931 356 / 336; 1935 489 / 526; 1937 323 / 337; 1938 258 / 441. By value, Japanese exports of piece goods were 3 per cent of British exports in 1913, 31 per cent in 1928 and 73 per cent in 1935 (League of Nations 1945, p. 111).
-
-Tyszynski (1951), Tables III and IV (pp. 279-280), give values in £000. In textiles (group 12), British exports were 213,152 and Japanese exports 60,446 in 1929, and 121,782 and 65,888 in 1937 (ratio 0.28 and 0.54). In apparel (group 13), they were 27,053 and 9,379 in 1929, and 12,889 and 12,921 in 1937 (0.35 and 1.00). Japan's shares of the eleven-country totals (3.9 and 7.2 per cent) match Table VIII.
-
-Under the export rule, the world crossover falls in 1933. India's 50 per cent duty of August 1932 therefore precedes the world crossover. It follows, however, the crossover in the Indian market (1932), the market it regulated. Data: `data/cotton_piece_goods_1913_1938.csv`, `data/tyszynski_1951_japan.csv`.
-
-**Table G.5. Responses, Japan against Britain**
-
-{{G5}}
-# H. Alignment, rivalry and the instruments available
-
-Code: `data/geopolitics.py` (output `data/geopolitics.txt`, `data/geopolitics_instruments.csv`, `data/geopolitics_dyads.csv`). The mode of each instrument is in `data/geo_instrument_mode.csv`. We use three sources. The first is the Alliance Treaty Obligations and Provisions data (ATOP 5.1), dyad-years 1815-2018 (Leeds et al. 2002). The second is UN General Assembly ideal points 1946-2025, which place each state on a scale from all its votes (Bailey, Strezhnev and Voeten 2017; file of July 2025). The third is the Correlates of War National Material Capabilities v7, with the Composite Index of National Capability (CINC) for 1816-2022. We carry ATOP values forward after 2018 and CINC values after 2022. Taiwan has no UN votes after 1971, and Hong Kong is not a state in these data. Germany stands in for the European Union.
-
-The first table below classes each broad measure as negotiated or unilateral. Negotiated measures are voluntary restraints, orderly marketing agreements and bilateral or multilateral arrangements. Unilateral measures are tariffs, statutes, listings and export controls.
-
-**Table H.1. Form of targeted, trade-motivated broad US instruments by alliance and period** (register, instrument-target pairs; global, politically motivated and undated instruments excluded; B-12 mixed and excluded)
-
-| Period | Defence pact with the US | Negotiated | Unilateral |
-|---|---|---|---|
-| before 1995 | yes (Japan, Korea, Taiwan to 1980, Brazil, Mexico, Thailand) | 21 | 4 (B-09, B-11, B-16, B-28) |
-| before 1995 | no (Taiwan after 1980, Malaysia) | 2 | 1 |
-| from 1995 | yes | 0 | 0 |
-| from 1995 | no (China, Vietnam) | 1 (B-30) | 4 (B-20 to B-23) |
-
-**Table H.2. State of the dyad in the milestone years**
-
-| Dyad | Capability ratio (CINC, challenger/incumbent) | UN ideal-point distance | Defence pact |
-|---|---|---|---|
-| Germany-Britain (1870-1900) | 0.44-0.79 | n.a. | no |
-| Japan-Britain (1932) | 0.59 | n.a. | no |
-| Japan-United States (1969-1986) | 0.26-0.40 | 1.1-1.5 | yes |
-| Korea-United States (1992, 1999) | 0.15-0.16 | 2.0-2.4 | yes |
-| China-United States (2008-2023) | 1.3-1.9 | 3.2-3.5 | no |
-
-Among the core responses, only one broad measure comes before displacement: the export controls of October 2022 (IR 5). They fall in the one dyad in which the challenger's composite capabilities exceeded the incumbent's (1.9). In that dyad the UN distance was also the largest (3.5). CINC weights population, energy and steel. It therefore appears to overstate China's military weight relative to spending-based measures.
-
-Distance in UN votes varies widely among the further cases. Mean UN distance to the United States, 2009-2023, was: Japan 1.73, Korea 1.64, Mexico 2.53, Brazil 2.74, Thailand 2.90, Malaysia 3.12, China 3.30, Vietnam 3.40. Mexico, an ally, and Vietnam, not an ally, both displaced the United States in many HS groups. Neither drew a targeted broad measure before 2025.
-
-**Table H.3. Rules on the instruments available to the incumbent (WTO legal texts and accession records)**
-
-| Date | Rule | Effect on the instruments |
-|---|---|---|
-| 1947 | GATT: Article VI (antidumping, countervailing duties), Article XIX (safeguards) | product remedies and safeguards legal; quantity limits only as exceptions |
-| 1961-1962 | Short-Term and Long-Term Arrangements on cotton textiles | negotiated quotas on low-wage suppliers before displacement |
-| 1 Jan 1974-1994 | Multifibre Arrangement (bilateral quotas, outside non-discrimination) | same, for all fibres |
-| 1 Jan 1995 | WTO; Agreement on Safeguards, Article 11.1(b): no voluntary export restraints or orderly marketing arrangements | negotiated sectoral restraints outlawed; sectoral responses become AD/CVD and global safeguards |
-| 1 Jan 1995 | TRIPS, TRIMs, Agreement on Subsidies | rules constrain the challenger's industrial policy (Wade 2003) |
-| 1995-1 Jan 2005 | Agreement on Textiles and Clothing | MFA quotas phased out; ended 1 Jan 2005 |
-| 11 Dec 2001 | China joins WTO (Chinese Taipei 1 Jan 2002) | China and Taiwan under WTO rules on safeguards |
-| 11 Jan 2007 | Viet Nam joins WTO | US quotas on Vietnamese textiles and apparel eliminated with effect from 11 Jan 2007 (FR Doc. 07-65) |
-
-Sources: WTO, Agreement on Safeguards (legal text 25-safeg.pdf); WTO, "Textiles: back in the mainstream" (texintro_e.htm); WTO, completed accessions (completeacc_e.htm); WTO, Viet Nam accession page. The Multifibre Arrangement (MFA) was concluded at Geneva on 20 December 1973 and entered into force on 1 January 1974 (Article 14(1)). Its Article 2(2)-(4) applied from 1 April 1974 (Article 14(2)). The text is as reproduced in USITC Pub. 850, Appendix A.
-# I. Congressional attention, 1955-2025
+Shares of world manufactured exports point the same way for manufactures alone, in Tyszynski's (1951, Table VIII) figures. Between 1899 and 1913 the British share fell from 32.5 to 29.9 per cent. The German share rose from 22.2 to 26.4 per cent. The American share rose only from 11.2 to 12.6 per cent. Relative to Britain, Germany moved from 0.68 to 0.88 (0.89 in Tables G and II, Table E.3), and the United States from 0.34 to 0.42. These figures suggest that the United States outgrew Britain at home, while Germany displaced Britain in its export markets.
+# G. Congressional attention, 1955-2025
 
 This section repeats the Hansard measure of Section E for the American incumbent. The source is the Congressional Record, retrieved from the govinfo API of the US Government Publishing Office. Code: `data/crec_fetch.py`, `data/crec_filter.py`, `data/crec_salience.py`, `data/crec_sectors.py` (China); `data/crecb_fetch.py`, `data/crecb_salience.py`, `data/crecb_korea.py`, `data/crecb_share.py`, `data/crecb_controls.py` (Japan and Korea); `data/crec_controls.py` (China, controls); `data/fr301_lists.py` (Section 301 lists); break tests in `data/tests_sequence.py`.
 
-## I.1 China: the daily Record, 1995-2025
+## G.1 China: the daily Record, 1995-2025
 
-**Data and filter.** The daily Congressional Record (collection CREC) is divided into granules. A granule is one speech, debate or insertion, and each has its own title. We exclude the Daily Digest and front matter, which leaves 829,186 granules from 1995 to 2025. Of these, 10,901 carry an economic title under a fixed filter (version `crec_econ_v1`). The filter terms are trade, tariff, import, export, duties, customs, manufacturing, industry, dumping, subsidy, competitiveness, currency, outsourcing, WTO, NAFTA, normal trade relations, supply chain, intellectual property and the sector terms of Table I.2. China counts when *China*, *Chinese*, *PRC* or *Beijing* occurs. We first remove *Republic of China* (Taiwan). The competition indicator uses the Hansard list plus *manipulation*, *overcapacity*, *outsourcing*, *offshoring* and *counterfeit*.
+**Data and filter.** The daily Congressional Record (collection CREC) is divided into granules. A granule is one speech, debate or insertion, and each has its own title. We exclude the Daily Digest and front matter, which leaves 829,186 granules from 1995 to 2025. Of these, 10,901 carry an economic title under a fixed filter (version `crec_econ_v1`). The filter terms are trade, tariff, import, export, duties, customs, manufacturing, industry, dumping, subsidy, competitiveness, currency, outsourcing, WTO, NAFTA, normal trade relations, supply chain, intellectual property and the sector terms of Table G.2. China counts when *China*, *Chinese*, *PRC* or *Beijing* occurs. We first remove *Republic of China* (Taiwan). The competition indicator uses the Hansard list plus *manipulation*, *overcapacity*, *outsourcing*, *offshoring* and *counterfeit*.
 
-**Table I.1. China in economic debates of the US Congress, pooled by period**
+**Table G.1. China in economic debates of the US Congress, pooled by period**
 
 | Period | Economic granules | Mentioning China | China near a competition term | Mentions per 100,000 words: China / Japan / Mexico |
 |---|---|---|---|---|
@@ -411,13 +260,13 @@ This section repeats the Hansard measure of Section E for the American incumbent
 
 Brackets: 95 % Wilson intervals (confidence intervals for a proportion).
 
-![Figure I.1. (a) China, Japan and Mexico in economic debates of the US Congress, 1995-2025; (b) Japan and China near a competition term on sampled sitting days, 1955-2025.](figures/fig_e2_crec.pdf){width=90%}
+![Figure G.1. (a) China, Japan and Mexico in economic debates of the US Congress, 1995-2025; (b) Japan and China near a competition term on sampled sitting days, 1955-2025.](figures/fig_e2_crec.pdf){width=90%}
 
 China was a subject in Congress before it displaced any American sector, unlike Germany in the British record. Its trade status was itself the subject of legislation. Congress renewed most-favoured-nation treatment each year in the 1990s and granted permanent normal trade relations in 2000. That year marks the peak of the series, at 399 mentions per 100,000 words. Attention then falls back, with peaks in the currency debates of 2005 and 2011, and rises again after 2018. The competition indicator rises only slowly, from 5.2 to 7.5 per cent of economic granules. We search for structural breaks and choose their number by the Bayesian information criterion (BIC). On log(1 + mentions per 100,000 words) the BIC prefers no break. On the share of economic granules that mention China, it places two breaks, in 2013 and 2018. These breaks mark a trough before the tariffs of 2018. They do not mark a rise after the export crossovers. The median crossover falls in 2004 under SITC Revision 3 (70 groups) and in 2015 under the HS (242 groups).
 
-**Coverage of the title filter.** A check sample measures what the filter misses. It holds ten random sitting days per year (310 days, 46,357 granules), all retrieved in full. In 259 granules China appears within 30 words of a competition term. Only 48 of these (19 per cent) carry an economic title. The others are bill introductions, appropriations and defence authorisations, nominations and amendment texts. The sample-day measure in I.2 therefore uses the full text of the sampled days.
+**Coverage of the title filter.** A check sample measures what the filter misses. It holds ten random sitting days per year (310 days, 46,357 granules), all retrieved in full. In 259 granules China appears within 30 words of a competition term. Only 48 of these (19 per cent) carry an economic title. The others are bill introductions, appropriations and defence authorisations, nominations and amendment texts. The sample-day measure in G.2 therefore uses the full text of the sampled days.
 
-**Table I.2. China in congressional sector debates and broad American instruments, by sector**
+**Table G.2. China in congressional sector debates and broad American instruments, by sector**
 
 | Sector | Crossover | Broad instrument (register) | China linked, before crossover | China linked, from crossover | Voice 2001-2017 | Share on 301 lists 1-2 | 301 increase 2024 |
 |---|---|---|---|---|---|---|---|
@@ -451,11 +300,11 @@ Sector debate: economic granule with at least three sector terms. China linked: 
 
 **Section 301 lists.** The lists come from the Federal Register: list 1, 83 FR 28710 (Annex A, 817 lines read); list 2, 83 FR 40823 (283); list 3, 83 FR 47974 (5,748); lists 4A and 4B, 84 FR 43304 (3,233 and 550); four-year review, 89 FR 76581 (Annex A, 387 of 389 lines). In the review we identify 11 of 14 product groups, because three share lines with others. Our counts differ by a few lines from USTR's totals, because some codes also occur in the notes.
 
-## I.2 Japan and Korea: the bound Record, 1955-1994
+## G.2 Japan and Korea: the bound Record, 1955-1994
 
 **Data.** Before 1995 the Record exists in machine-readable form only as the bound edition (collection CRECB). It holds one PDF with a text layer per sitting day and chamber, and it has no debate titles. We draw 20 random sitting days per year from 1955 to 1994, with the seed fixed in the code. This gives 800 days, covering the House, the Senate and the Extensions of Remarks. We read the full text with pdftotext. Without titles no economic filter is possible. The measure therefore counts the places where the challenger stands within 30 words of a competition term or a sector term, per million words of the whole day. For comparison over time, we compute the same measure on the 310 check days of the daily Record (1995-2025). In all, this gives 1,110 days and 279 million words. For Korea, we first remove mentions that do not refer to the South Korean economy (*North Korea(n)*, *Democratic People's Republic of Korea*, *Korean War*, *Korean conflict*, *Korean peninsula*). Korea counts at *Korea*, *Korean(s)*, *Korea's* and *Seoul*.
 
-**Table I.3. Japan and China near a competition term on sampled sitting days of Congress**
+**Table G.3. Japan and China near a competition term on sampled sitting days of Congress**
 
 | Period | Japan, mentions per 100,000 words | Japan near a competition term, per million words | China near a competition term, per million words |
 |---|---|---|---|
@@ -469,9 +318,9 @@ Sector debate: economic granule with at least three sector terms. China linked: 
 
 Attention to Japan as a competitor stays low and steady through the 1960s and 1970s and rises in the 1980s. In the earlier decades Japanese textiles, steel and television sets overtook American exports. A break search on log(1 + Japan near a competition term) places the best single break in 1980, the year of the car milestone (BIC −33.8 against −23.3 without a break). With two breaks, it places them in 1964 and 1980. The sample-day series for China prefers no break. On this common measure, congressional attention to China as a competitor after 1995 was of the same order as attention to Japan in the late 1980s. It was already high in the first years of the series, before most Chinese crossovers. Korea near a competition term rises from 0.7 per million words in 1955-1964 to 1.2 in 1975-1984 and 2.6 in 1985-1994. This is about a tenth of the level for Japan. It peaks at 6.8 in 2005-2014, the years of the bilateral free trade agreement. A break search prefers no break.
 
-**Raw sector counts.** Tables I.4 and I.5 report, by sector, how often Congress mentioned the challenger near a sector term. These counts mix two things: how much Congress talks about a sector, and how much of that talk names the challenger. We therefore report tests only on the size-adjusted measures of Table I.6.
+**Raw sector counts.** Tables G.4 and G.5 report, by sector, how often Congress mentioned the challenger near a sector term. These counts mix two things: how much Congress talks about a sector, and how much of that talk names the challenger. We therefore report tests only on the size-adjusted measures of Table G.6.
 
-**Table I.4. Japan near sector terms on sampled days, per million words**
+**Table G.4. Japan near sector terms on sampled days, per million words**
 
 | Sector | Crossover (SITC Rev. 1) | Broad instrument (register) | Five years before crossover | Five years from crossover | 1960-1975 |
 |---|---|---|---|---|---|
@@ -492,7 +341,7 @@ Attention to Japan as a competitor stays low and steady through the 1960s and 19
 
 Crossover: earliest year in which Japanese world exports in a group of the sector reached American exports (≤: in the first data year, 1962). Instruments from `data/broad_register.csv`.
 
-**Table I.5. Korea near sector terms on sampled days, per million words**
+**Table G.5. Korea near sector terms on sampled days, per million words**
 
 | Sector | Crossover (SITC Rev. 1 or 3) | Broad instrument (register) | Five years before crossover | Five years from crossover | 1965-1990 |
 |---|---|---|---|---|---|
@@ -511,7 +360,7 @@ Crossover: earliest year in which Japanese world exports in a group of the secto
 | Copper, zinc, nickel | 1988 | n.a. | 0.00 | 0.00 | 0.03 |
 | Optical goods | 1991 | n.a. | 0.07 | 0.04 | 0.04 |
 
-**Table I.6. Size-adjusted measures: sector volume and the challenger's share of it (sampled days)**
+**Table G.6. Size-adjusted measures: sector volume and the challenger's share of it (sampled days)**
 
 | Challenger | Sector | Broad instrument | Sector volume, five years before crossover | Sector volume, five years from crossover | Challenger share, before (%) | Challenger share, from (%) |
 |---|---|---|---|---|---|---|
@@ -550,7 +399,158 @@ Sector volume: mentions of the sector terms per million words of all sampled day
 
 **Controls, Japan and Korea.** Sector volume keeps its effect once the size of the American industry is held constant. Volume is correlated with that size (Spearman 0.38 with employment, 0.24 with imports from the challenger). We therefore regress the indicator for a broad measure on three variables: log sector volume before the crossover, log American employment and log American imports from the challenger in the crossover year. The model includes a country indicator (`data/crecb_controls.py`, `data/ds1_share_controls.txt`). We compute employment and imports for every displaced group by the rules of Section D, including groups that crossed in the first data year. Employment comes from the NBER-CES manufacturing database, distributed to groups through the Census concordance of 2002 and held at its 1958 level before 1958. Imports come from UN Comtrade. For the 79 groups already in `data/population_weight.csv`, the values match exactly. All 28 sectors enter (Japan 14, Korea 14; 11 with a broad measure). Taken alone, each variable predicts a broad measure: volume (coefficient 0.22 per log point, permutation p = 0.002), employment (0.18, p = 0.009) and imports (0.11, p = 0.007). Taken together, volume keeps most of its coefficient (0.18, permutation p = 0.011, 10,000 draws within country). Employment loses its effect (p = 0.33). Imports keep a smaller, borderline effect (0.08, p = 0.084). We repeat the test at the level of the 63 displaced groups, with the sector's measure as outcome and standard errors clustered by sector. The result is the same (volume p = 0.021, employment p = 0.75, imports p = 0.40). Congressional volume thus appears to carry information that the size of the industry and its exposure to imports do not.
 
-**Limits of the congressional measures.** The congressional measures have four limits. First, the sample of days is small for sector counts in single years. Second, the text layer of the bound Record contains OCR errors and runs adjacent columns together, which blurs the 30-word window. The noise does not appear to rise over time, however. The share of 20 common English function words in all word tokens is similar in 1958, 1970 and 1985 (0.32, 0.30 and 0.30). Each year uses five sampled days, with 0.9 to 1.6 million words per year (`data/crecb_ocr_check.py`). Third, the title filter of the daily Record misses most economic discussion of China (I.1). Fourth, the measures count attention, not lobbying or votes.
+**Limits of the congressional measures.** The congressional measures have four limits. First, the sample of days is small for sector counts in single years. Second, the text layer of the bound Record contains OCR errors and runs adjacent columns together, which blurs the 30-word window. The noise does not appear to rise over time, however. The share of 20 common English function words in all word tokens is similar in 1958, 1970 and 1985 (0.32, 0.30 and 0.30). Each year uses five sampled days, with 0.9 to 1.6 million words per year (`data/crecb_ocr_check.py`). Third, the title filter of the daily Record misses most economic discussion of China (G.1). Fourth, the measures count attention, not lobbying or votes.
+# H. Further cases
+
+We apply the rules of Sections B to D to eight further dyads, that is, pairs of challenger and incumbent. Code: `data/cases_fetch.py`, `data/cases_test.py` (output `data/cases_panel.txt`, `data/cases_breadth.csv`, `data/cases_crossovers.csv`, `data/cases_hazard.csv`, `data/cases_register_tested.csv`), `data/third_markets_1930s.py`, `data/hansard_japan.py`, `data/tests_sequence.py`.
+
+## H.1 Data
+
+We use world exports by reporter from UN Comtrade in three classifications. These are the Standard International Trade Classification (SITC) Rev. 1 (1962-1999), SITC Rev. 3 (1992-2009) and the Harmonized System (HS) at four digits (2008-2023). Taiwan reports only in HS. For SITC, we take its exports as the imports of all reporters from partner 490 ("Other Asia, nes"). We compare these with the same reporters' imports from the United States, and both are valued c.i.f., that is, including cost, insurance and freight. For Hong Kong we use exports minus re-exports, and re-exports by product are available only to 2016. For Japan against Britain we use CEPII TRADHIST v4. It gives total bilateral exports to 35 markets with values for both suppliers in every year 1924-1938, without Japan's colonies.
+
+**Table H.1. Reach of displacement: share of American manufactured exports in groups the challenger had overtaken (challenger exports ≥ US exports and ≥ USD 50 million)**
+
+| Challenger | Data | Selected years | Peak |
+|---|---|---|---|
+| Japan | SITC 1 | 0.31 (1977), 0.27 (1981), 0.35 (1987) | 0.48 (1995) |
+| China | HS | 0.45 (2018) | 0.55 (2023) |
+| Korea | SITC 1 / 3 | 0.024 (1977), 0.027 (1984), 0.024 (2002) | 0.054 (1988, SITC 1); 0.074 (2009, SITC 3) |
+| Taiwan | SITC 1 / 3 / HS | 0.011 (1977), 0.031 (1986), 0.087 (2023) | 0.045 (1987, SITC 1); 0.095 (2005, SITC 3) |
+| Vietnam | HS | 0.048 (2018), 0.064 (2023) | 0.064 (2023) |
+| Mexico | HS | 0.066 (2023) | 0.083 (2022) |
+| Malaysia | HS | 0.045 (2023) | 0.060 (2021) |
+| Hong Kong | SITC 1 | 0.020 (1988) | 0.022 (1987) |
+| Thailand | HS | 0.014 (2023) | 0.016 (2022) |
+| Brazil | SITC 1 / HS | 0.007 (1984), 0.008 (2023) | 0.011 (2013) |
+
+## H.2 Register extension
+
+The extension adds nineteen entries to the register (B-24 to B-42 in `data/broad_register.csv`). Each entry has its primary source:
+
+- footwear orderly marketing agreement (OMA) with Taiwan, June 1977 (Proclamation 4510);
+- colour-television OMA with Taiwan, 1979 (Proclamation 4634);
+- steel voluntary restraint agreements (VRAs) with Brazil and Mexico, 1984 (Moore 1996, Table 2.8);
+- machine-tool VRA with Taiwan, 1986 (Dinopoulos and Kreinin 1991);
+- 100 per cent tariffs on Brazilian goods, October 1988 (Proclamation 5885);
+- graduation of Hong Kong and Taiwan from the US Generalised System of Preferences (GSP), effective 1989 (Proclamation 5805);
+- US-Vietnam textile agreement, May 2003 (FR Doc. 03-12314);
+- quotas under the Multifibre Arrangement (MFA) and the Agreement on Textiles and Clothing (ATC) on Taiwan, Hong Kong, Thailand, Malaysia, Brazil and Mexico, in force 1994-2004 by Federal Register notices;
+- end of Hong Kong's differential treatment, 2020 (executive order, EO 13936);
+- tariffs under the International Emergency Economic Powers Act (IEEPA), 2025, on Mexico (EO 14194), all partners (EO 14257, 14326), Brazil (EO 14323) and Hong Kong (EO 14257).
+
+The MFA and ATC quotas are excluded from the hazard analysis below. The first agreements with these partners are already entered as B-37 to B-42.
+
+Six of the entries (B-37 to B-42) date the first comprehensive US cotton textile agreement with each economy from Federal Register notices. The dates are Hong Kong (35 categories, from 1 October 1963), Taiwan (19 October 1963), Mexico (2 June 1967), Brazil (23 October 1970), Malaysia (1 September 1970; USITC Pub. 850, p. 50) and Thailand (16 March 1972). Earlier restraints on single categories are recorded in the notes and scored 3 on the reach score (IR). They cover Hong Kong from 3 March 1962, Taiwan from 23 June 1962, Mexico from 10 August 1962, Brazil from October 1963 and Malaysia from August 1966. A restraint on Thailand was requested in April 1971. The Multifibre Arrangement was concluded at Geneva on 20 December 1973 and entered into force on 1 January 1974 (Article 14(1); text reproduced in USITC Pub. 850, Appendix A).
+
+In the next table, the phase column compares each instrument with the export crossover of the groups it covered. "Post" marks an instrument after the crossover, and "absorption" one before it.
+
+**Table H.2. Broad instruments against the further cases and the crossover of the groups they covered**
+
+| Instrument | Target | IR | Crossover of covered groups | Phase |
+|---|---|---|---|---|
+| Footwear OMA 1977 | Taiwan | 4 | 1970 | post |
+| Colour-TV OMA 1979 | Taiwan | 4 | none | extension of instrument against Japan |
+| Steel VRAs 1984 | Brazil | 4 | 1983 | post |
+| Steel VRAs 1984 | Mexico | 4 | none | extension |
+| Machine-tool VRA 1986 | Taiwan | 4 | none | extension of instrument against Japan |
+| Section 301 tariffs 1988 | Brazil | 4 | none | retaliation over patents |
+| GSP graduation 1989 | Hong Kong, Taiwan | 4 (doubtful) | none (economy-wide) | rule-based |
+| Cotton textile agreements 1963 | Hong Kong; Taiwan | 4 | 1965; 1971 | absorption (2 and 8 years) |
+| Cotton textile agreements 1967-1972 | Mexico; Brazil; Malaysia; Thailand | 4 | none | restraint without displacement |
+| Textile agreement 2003 | Vietnam | 4 | 2006 (apparel, SITC 84, all covered groups summed; groups 841 and 842 alone in 2002) | absorption (3 years) |
+| End of differential treatment 2020 | Hong Kong | 5 | none | political |
+| IEEPA tariffs 2025 | Mexico; Brazil; Hong Kong | 5 | none (economy-wide) | political |
+| Reciprocal tariffs 2025 | all partners | 5 | none (economy-wide) | global, deficit-based |
+
+## H.3 Hazard and control group
+
+Most displaced groups in the further cases drew no targeted sectoral broad measure within ten years. We count the groups whose crossover does not fall in the first data year. For each set we report the share followed within ten years by such a measure, leaving out GSP graduation and politically motivated measures. The shares are: Taiwan SITC 1, 1 of 24; Brazil SITC 1, 4 of 9 (steel); Hong Kong SITC 1, 0 of 9; Vietnam SITC 3, 2 of 5 (apparel, with the quota of 2003 one year after the two groups crossed); and Thailand, Malaysia, Mexico, Vietnam, Taiwan and Brazil in HS (2009-2023), 0 of 283.
+
+A panel of 3,702 group series gives the start rates of these measures. Targeted sectoral broad measures begin at 0.07 per 100 group-years before the crossover and at 0.12 after it. The rate ratio is 5.83 (95 % interval 2.84-11.95), with year × source effects and clustering by group. Including GSP graduation lowers the ratio to 1.33 (1.07-1.65), because graduation covered all groups at once. Antidumping and countervailing duty (AD/CVD) cases (1988-2015) rise from 0.97 to 1.98 per 100 group-years after the crossover. They do not rise once export size is held constant (rate ratio 1.29, 0.70-2.40). This matches the result for Japan, Korea and China (Table D.2).
+
+## H.4 Japan against Britain
+
+The displacement milestone is 1932, in the import market of British India (HC Deb 4 July 1934: Japan 551.9, UK 541.9 million yards). We record seven responses (Table H.5) and checked all of them at Historic Hansard. Two came before the milestone: the economic mission of 1930 (IR 2) and the Indian differential duty of 1930 (IR 3). Five came from the milestone onwards, including all four with IR 4. We report them separately, and they do not enter the core count of 41 responses.
+
+**Table H.3. Japan against Britain: exports to third markets relative to Britain (TRADHIST) and parliamentary attention (Hansard)**
+
+| Year | All 35 markets | Seven Asian markets | Netherlands Indies | British India | Mentions of Japan per 100,000 words |
+|---|---|---|---|---|---|
+| 1924 | 0.23 | 0.42 | 0.68 | 0.13 | 2.9 |
+| 1929 | 0.30 | 0.58 | 0.99 | 0.23 | 1.7 |
+| 1930 | 0.29 | 0.67 | 1.14 | 0.24 | 8.5 |
+| 1932 | 0.32 | 0.67 | 2.12 | 0.42 | 12.4 |
+| 1933 | 0.30 | 0.67 | 3.17 | 0.34 | 102.1 |
+| 1934 | 0.31 | 0.75 | 3.88 | 0.39 | 44.0 |
+| 1936 | 0.33 | 0.86 | 3.39 | 0.44 | 29.4 |
+| 1938 | 0.27 | 0.71 | 1.88 | 0.33 | 16.5 |
+
+The best single break in log(1 + mentions) falls in 1932. Its Bayesian information criterion (BIC) is −11.2, against −0.1 without a break. Ceylon, a colony, adopted quotas in 1934. There the ratio of Japanese to British exports fell from 0.50 in 1934 to 0.28 in 1935.
+
+**Table H.4. Cotton piece goods, Japan relative to Britain**
+
+| Year | UK exports, million sq. yd (Robson 1957, p. 11) | UK exports, million linear yd (Robson, p. 333) | Japanese exports, million sq. yd (Sandberg 1974, Table 25, after Seki) | Japan / UK (square yards) |
+|---|---|---|---|---|
+| 1929 | 3,672 | 3,764.9 | 1,791 | 0.49 |
+| 1931 | 1,716 | 1,790.2 | 1,414 | 0.82 |
+| 1932 | n.a. | 2,302.7 | 2,032 | (0.88 against linear yards) |
+| 1933 | 2,031 | 2,116.7 | 2,090 | 1.03 |
+| 1935 | 1,949 | 2,013.4 | 2,725 | 1.40 |
+| 1937 | 1,922 | 2,023.1 | 2,644 | 1.38 |
+| 1938 | 1,387 | 1,448.0 | 2,181 | 1.57 |
+
+Other sources confirm the rise of Japanese piece goods. Imports into British India, in million linear yards, were as follows (Robson, p. 10): 1929 UK 1,276 / Japan 521; 1931 356 / 336; 1935 489 / 526; 1937 323 / 337; 1938 258 / 441. By value, Japanese exports of piece goods were 3 per cent of British exports in 1913, 31 per cent in 1928 and 73 per cent in 1935 (League of Nations 1945, p. 111).
+
+Tyszynski (1951), Tables III and IV (pp. 279-280), give values in £000. In textiles (group 12), British exports were 213,152 and Japanese exports 60,446 in 1929, and 121,782 and 65,888 in 1937 (ratio 0.28 and 0.54). In apparel (group 13), they were 27,053 and 9,379 in 1929, and 12,889 and 12,921 in 1937 (0.35 and 1.00). Japan's shares of the eleven-country totals (3.9 and 7.2 per cent) match Table VIII.
+
+Under the export rule, the world crossover falls in 1933. India's 50 per cent duty of August 1932 therefore precedes the world crossover. It follows, however, the crossover in the Indian market (1932), the market it regulated. Data: `data/cotton_piece_goods_1913_1938.csv`, `data/tyszynski_1951_japan.csv`.
+
+**Table H.5. Responses, Japan against Britain**
+
+{{H5}}
+# I. Alignment, rivalry and the instruments available
+
+Code: `data/geopolitics.py` (output `data/geopolitics.txt`, `data/geopolitics_instruments.csv`, `data/geopolitics_dyads.csv`). The mode of each instrument is in `data/geo_instrument_mode.csv`. We use three sources. The first is the Alliance Treaty Obligations and Provisions data (ATOP 5.1), dyad-years 1815-2018 (Leeds et al. 2002). The second is UN General Assembly ideal points 1946-2025, which place each state on a scale from all its votes (Bailey, Strezhnev and Voeten 2017; file of July 2025). The third is the Correlates of War National Material Capabilities v7, with the Composite Index of National Capability (CINC) for 1816-2022. We carry ATOP values forward after 2018 and CINC values after 2022. Taiwan has no UN votes after 1971, and Hong Kong is not a state in these data. Germany stands in for the European Union.
+
+The first table below classes each broad measure as negotiated or unilateral. Negotiated measures are voluntary restraints, orderly marketing agreements and bilateral or multilateral arrangements. Unilateral measures are tariffs, statutes, listings and export controls.
+
+**Table I.1. Form of targeted, trade-motivated broad US instruments by alliance and period** (register, instrument-target pairs; global, politically motivated and undated instruments excluded; B-12 mixed and excluded)
+
+| Period | Defence pact with the US | Negotiated | Unilateral |
+|---|---|---|---|
+| before 1995 | yes (Japan, Korea, Taiwan to 1980, Brazil, Mexico, Thailand) | 21 | 4 (B-09, B-11, B-16, B-28) |
+| before 1995 | no (Taiwan after 1980, Malaysia) | 2 | 1 |
+| from 1995 | yes | 0 | 0 |
+| from 1995 | no (China, Vietnam) | 1 (B-30) | 4 (B-20 to B-23) |
+
+**Table I.2. State of the dyad in the milestone years**
+
+| Dyad | Capability ratio (CINC, challenger/incumbent) | UN ideal-point distance | Defence pact |
+|---|---|---|---|
+| Germany-Britain (1870-1900) | 0.44-0.79 | n.a. | no |
+| Japan-Britain (1932) | 0.59 | n.a. | no |
+| Japan-United States (1969-1986) | 0.26-0.40 | 1.1-1.5 | yes |
+| Korea-United States (1992, 1999) | 0.15-0.16 | 2.0-2.4 | yes |
+| China-United States (2008-2023) | 1.3-1.9 | 3.2-3.5 | no |
+
+Among the core responses, only one broad measure comes before displacement: the export controls of October 2022 (IR 5). They fall in the one dyad in which the challenger's composite capabilities exceeded the incumbent's (1.9). In that dyad the UN distance was also the largest (3.5). CINC weights population, energy and steel. It therefore appears to overstate China's military weight relative to spending-based measures.
+
+Distance in UN votes varies widely among the further cases. Mean UN distance to the United States, 2009-2023, was: Japan 1.73, Korea 1.64, Mexico 2.53, Brazil 2.74, Thailand 2.90, Malaysia 3.12, China 3.30, Vietnam 3.40. Mexico, an ally, and Vietnam, not an ally, both displaced the United States in many HS groups. Neither drew a targeted broad measure before 2025.
+
+**Table I.3. Rules on the instruments available to the incumbent (WTO legal texts and accession records)**
+
+| Date | Rule | Effect on the instruments |
+|---|---|---|
+| 1947 | GATT: Article VI (antidumping, countervailing duties), Article XIX (safeguards) | product remedies and safeguards legal; quantity limits only as exceptions |
+| 1961-1962 | Short-Term and Long-Term Arrangements on cotton textiles | negotiated quotas on low-wage suppliers before displacement |
+| 1 Jan 1974-1994 | Multifibre Arrangement (bilateral quotas, outside non-discrimination) | same, for all fibres |
+| 1 Jan 1995 | WTO; Agreement on Safeguards, Article 11.1(b): no voluntary export restraints or orderly marketing arrangements | negotiated sectoral restraints outlawed; sectoral responses become AD/CVD and global safeguards |
+| 1 Jan 1995 | TRIPS, TRIMs, Agreement on Subsidies | rules constrain the challenger's industrial policy (Wade 2003) |
+| 1995-1 Jan 2005 | Agreement on Textiles and Clothing | MFA quotas phased out; ended 1 Jan 2005 |
+| 11 Dec 2001 | China joins WTO (Chinese Taipei 1 Jan 2002) | China and Taiwan under WTO rules on safeguards |
+| 11 Jan 2007 | Viet Nam joins WTO | US quotas on Vietnamese textiles and apparel eliminated with effect from 11 Jan 2007 (FR Doc. 07-65) |
+
+Sources: WTO, Agreement on Safeguards (legal text 25-safeg.pdf); WTO, "Textiles: back in the mainstream" (texintro_e.htm); WTO, completed accessions (completeacc_e.htm); WTO, Viet Nam accession page. The Multifibre Arrangement (MFA) was concluded at Geneva on 20 December 1973 and entered into force on 1 January 1974 (Article 14(1)). Its Article 2(2)-(4) applied from 1 April 1974 (Article 14(2)). The text is as reproduced in USITC Pub. 850, Appendix A.
 # J. Multilateral finance: IMF conditions, aid and the Security Council
 
 This section tests whether alignment with the United States shaped IMF conditions and American aid. Code: `data/conditionality.py` (output `data/conditionality.txt`, `data/conditionality_challengers.csv`). The data come from two sets of replication files. The first are those of Stubbs, Reinsberg, Kentikelenis and King (2020; Harvard Dataverse doi:10.7910/DVN/YSZ79K), with country-years 1989-2014. It records binding IMF conditions, temporary Security Council membership and voting similarity with the United States. Binding conditions are quantitative and structural performance criteria plus prior actions, which a country must take before the IMF approves a programme. They are coded by policy area as in Kentikelenis, Stubbs and King (2016). The second are those of Stubbs, Kentikelenis and King (2016; doi:10.7910/DVN/TE8TXZ). They cover US commitments of official development assistance (ODA) in 1980-2011, as reported to the OECD Development Assistance Committee (DAC). It includes the Security Council data of Dreher, Sturm and Vreeland. We treat programme years without coded conditions as missing (for example Thailand 1997-2000).
@@ -567,24 +567,24 @@ Rate ratios. Controls: log GDP per head, growth, trade openness. Programme parti
 
 The challengers of this paper faced more binding conditions on the external sector than other programme countries, though not more conditions overall. The challengers with coded conditions are Mexico, Korea, Brazil and Vietnam. Thailand has no coded conditions, and Malaysia and China had no programmes. These challengers had 0.99 times as many binding conditions as other programme countries, but 2.16 times as many on the external sector (p = 0.009). Their programmes followed debt or financial crises. The programme years with coded conditions are Mexico 1989-1992, 1995-1996 and 1999-2000, Korea 1998-2000, Brazil 1999 and 2001-2004, and Vietnam 1994-1996 and 2001-2002. In those years the groups they had overtaken held at most 2.3 per cent of American manufactured exports (Korea, 1999). Only Mexico's flexible credit lines of 2009-2014 coincided with a higher share, of 1.3 to 4.9 per cent. These credit lines carried no coded conditions.
 
-# K. Convergence after displacement
+# K. Threats to validity and open items
 
-![Figure K.1. Total factor productivity relative to the United States (PWT 11.0, ctfp), 1954-2023.](figures/fig2_tfp.pdf){width=90%}
+1. **Second coder.** One coder has assigned every reach score (IR) so far. Section A.3 will report agreement between coders as Krippendorff's alpha (ordinal).
+2. **Milestone sources.** Some displacement milestones were redated, and some rest on indirect evidence. After checking, we redated four: German beet sugar from 1880 to 1886 (House of Commons 1888, Table III), Japanese semiconductors from 1987 to 1986, Chinese solar PV from 2012 to 2008 and Korean shipbuilding from 2000 to 1999. No response changes phase. The Korean shipbuilding date rests on order statistics reported in the press (The Japan Times 2002), and Japan regained the lead in 2001. For Chinese telecom equipment (2012), total revenue is a near tie that turns on exchange rates. The sugar milestone measures imports by country of origin; it does not distinguish beet from cane sugar. The German dye share around 1870 is taken from Murmann and Homburg (2001, p. 183). The Japanese colour-television milestone (1970) is a market share of about 30 per cent, which falls short of a lead (TC Publication 367).
+3. **Register rule.** The register of broad measures includes Section 201 safeguards only if they ended in quantity limits or orderly marketing agreements. It therefore leaves out the China-specific Section 421 tyre safeguard of 2009 and the textile safeguards of 2005. Counting them changes the congressional sector test little (G.1). For several Section 201 actions, the target countries come from secondary literature.
+4. **Crossover rule.** The export crossover uses world exports, which understate displacement in the American home market. Groups of the Standard International Trade Classification (SITC) do not always measure the contested product (DRAM, integrated circuits). We match antidumping (AD) and countervailing duty (CVD) cases to SITC groups through HS 1988/92 concordances. Employment is allocated by tariff lines, not by values.
+5. **Title filter.** We identify economic debates by their title. The filter therefore misses debates on economic matters under other titles, for example within question time. In the daily Congressional Record it captures only 19 per cent of the granules (single speeches, debates or insertions) in which China appears near a competition term (G.1).
+6. **Congressional sample.** Before 1995 we use only a sample of 20 sitting days per year of the bound Record (1955-1994). Its text contains OCR errors (G.2).
+7. **Political weight in Britain.** The Hansard measure of voice has no independent check yet. Census employment by sector (1881-1911) would provide one, but it is not yet available. The number of debates on a sector stands in for political weight.
+8. **Further cases.** Two further cases rest on imperfect trade data. We measure Taiwan's exports from partner imports, which include small amounts from other territories under the same Comtrade code. For Japan against Britain, the bilateral trade data measure total exports and do not isolate cotton goods. The British and Japanese series for piece goods are also not fully comparable, because in some years one series uses square yards and the other linear yards.
+# L. Convergence after displacement
+
+![Figure L.1. Total factor productivity relative to the United States (PWT 11.0, ctfp), 1954-2023.](figures/fig2_tfp.pdf){width=90%}
 
 The two completed East Asian cases stalled between 0.70 and 0.80 of the American level of total factor productivity (TFP) after the escalation phase. TFP is output per unit of combined inputs; the figure uses the Penn World Table (PWT) measure at current purchasing power parities (ctfp). Japan peaked at 0.80 of the American level in 1991 and fell back to 0.64 by 2023. Korea peaked at 0.71 in 2002 and has stayed between 0.62 and 0.70 since 2010. Germany has been at or above the American level for most years since 2000. Part of its rise in the early 1990s reflects unification. China reached 0.47 in 2023, after a pause at about 0.40 to 0.42 between 2007 and 2015 (`data/ds3_tfp.csv`).
 
 This pattern is descriptive. Domestic explanations remain strong (Acemoglu, Aghion and Zilibotti 2006; Eichengreen, Park and Shin 2012). In a sample of this size, regression to the mean would produce the same observations (Pritchett and Summers 2014). China's pause began at a much lower level. It therefore appears to reflect domestic misallocation, and an approach to the frontier seems an unlikely cause.
 
-# L. Limits and open items
-
-1. **Second coder.** One coder has assigned every reach score (IR) so far. Section A.3 will report agreement between coders as Krippendorff's alpha (ordinal).
-2. **Milestone sources.** Some displacement milestones were redated, and some rest on indirect evidence. After checking, we redated four: German beet sugar from 1880 to 1886 (House of Commons 1888, Table III), Japanese semiconductors from 1987 to 1986, Chinese solar PV from 2012 to 2008 and Korean shipbuilding from 2000 to 1999. No response changes phase. The Korean shipbuilding date rests on order statistics reported in the press (The Japan Times 2002), and Japan regained the lead in 2001. For Chinese telecom equipment (2012), total revenue is a near tie that turns on exchange rates. The sugar milestone measures imports by country of origin; it does not distinguish beet from cane sugar. The German dye share around 1870 is taken from Murmann and Homburg (2001, p. 183). The Japanese colour-television milestone (1970) is a market share of about 30 per cent, which falls short of a lead (TC Publication 367).
-3. **Register rule.** The register of broad measures includes Section 201 safeguards only if they ended in quantity limits or orderly marketing agreements. It therefore leaves out the China-specific Section 421 tyre safeguard of 2009 and the textile safeguards of 2005. Counting them changes the congressional sector test little (I.1). For several Section 201 actions, the target countries come from secondary literature.
-4. **Crossover rule.** The export crossover uses world exports, which understate displacement in the American home market. Groups of the Standard International Trade Classification (SITC) do not always measure the contested product (DRAM, integrated circuits). We match antidumping (AD) and countervailing duty (CVD) cases to SITC groups through HS 1988/92 concordances. Employment is allocated by tariff lines, not by values.
-5. **Title filter.** We identify economic debates by their title. The filter therefore misses debates on economic matters under other titles, for example within question time. In the daily Congressional Record it captures only 19 per cent of the granules (single speeches, debates or insertions) in which China appears near a competition term (I.1).
-6. **Congressional sample.** Before 1995 we use only a sample of 20 sitting days per year of the bound Record (1955-1994). Its text contains OCR errors (I.2).
-7. **Political weight in Britain.** The Hansard measure of voice has no independent check yet. Census employment by sector (1881-1911) would provide one, but it is not yet available. The number of debates on a sector stands in for political weight.
-8. **Further cases.** Two further cases rest on imperfect trade data. We measure Taiwan's exports from partner imports, which include small amounts from other territories under the same Comtrade code. For Japan against Britain, the bilateral trade data measure total exports and do not isolate cotton goods. The British and Japanese series for piece goods are also not fully comparable, because in some years one series uses square yards and the other linear yards.
 
 # References
 

@@ -27,7 +27,7 @@ def table(sub):
 
 
 c1 = "\n\n".join(f"*{NAMES[c]}*\n\n{table(e[e.case == c])}" for c in ["DE", "JP", "KR", "CN"])
-g5 = table(e[e.case == "JPGB"])
+h5 = table(e[e.case == "JPGB"])
 
 
 PAD = 3  # extra width for the longest word of a column
@@ -53,7 +53,7 @@ def widths(text):
 
 def prepare():
     """Text des Anhangs mit eingefuegten Tabellen und Spaltenbreiten (auch fuer build_combined.py)."""
-    md = (M / "online_appendix.md").read_text().replace("{{C1}}", c1).replace("{{G5}}", g5)
+    md = (M / "online_appendix.md").read_text().replace("{{C1}}", c1).replace("{{H5}}", h5)
     return widths(md)
 
 
