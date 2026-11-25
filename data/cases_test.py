@@ -26,7 +26,7 @@ TTBD = {"THA": "TH", "VNM": "VN", "MYS": "MY", "MEX": "MX", "BRA": "BR", "HKG": 
         "JPN": "JP", "KOR": "KR", "CHN": "CN"}
 DATA = {"S1": "s1", "S3": "s3", "HS": "hs4"}
 GLOBAL = {"B-02", "B-17", "B-19", "B-34"}  # multilateral oder gegen alle Lieferlaender (siehe population_test.py); B-34 Zoelle gegen alle Partner
-GLOBAL |= {"B-31"}  # Beginn ungeprueft, nicht in der Gefahrenrate
+GLOBAL |= {"B-31"}  # Fortsetzung 1994-2004; Erstabkommen als B-37 bis B-42 erfasst, nicht doppelt in der Gefahrenrate
 POLITICAL = {"B-32", "B-33", "B-35", "B-36"}  # nicht handelspolitisch begruendet (Autonomie HK, Migration/Fentanyl, Bolsonaro)
 
 
