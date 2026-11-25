@@ -783,6 +783,75 @@ concordances HS 1988/92 to SITC Rev.~1 and Rev.~3. WITS is the World
 Bank's World Integrated Trade Solution, which publishes tables linking
 the classifications.
 
+\textbf{Scale and relative position.} The rate ratio for broad measures
+mixes displacement with scale, because a measure is unlikely to target a
+product the challenger barely sells. The same control that removes the
+effect for AD/CVD cases also shrinks it for broad measures. Table D.3
+reports the variants (\texttt{data/\allowbreak{}robust\_\allowbreak{}broad.py},
+\texttt{data/\allowbreak{}robust\_\allowbreak{}broad.txt}). With the log of the challenger's
+exports, the ratio for Japan and Korea falls from 5.69 to 2.30. With the
+incumbent's exports of the group added, it vanishes. The log ratio of
+the challenger's to the incumbent's exports keeps its effect in every
+specification. At given export size and imports, a doubling of relative
+exports raises the start rate by 30 per cent; for the seven further
+economies of Section H, by 17 per cent. The event study, against groups
+never displaced, shows the rise beginning in the five years before the
+crossover. Resistance thus builds as the challenger approaches parity in
+a group. Parity itself is not a sharp threshold. All estimates rest on
+27 starts for Japan and Korea and 50 for the further cases.
+
+{\footnotesize\begin{longtable}[]{@{}
+  >{\RaggedRight\arraybackslash}p{(\columnwidth - 4\tabcolsep) * \real{0.3556}}
+  >{\RaggedRight\arraybackslash}p{(\columnwidth - 4\tabcolsep) * \real{0.3556}}
+  >{\RaggedRight\arraybackslash}p{(\columnwidth - 4\tabcolsep) * \real{0.2889}}@{}}
+\caption*{\textbf{Table D.3. Broad measures: scale, relative position and timing}}\\
+\toprule\noalign{}
+\begin{minipage}[b]{\linewidth}\raggedright
+Specification
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Sample
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Rate ratio (95 \% interval)
+\end{minipage} \\
+\midrule\noalign{}
+\endhead
+\bottomrule\noalign{}
+\endlastfoot
+post, year × challenger effects & Japan and Korea, SITC Rev.~1, 6,068
+group-years, 27 starts & 5.69 (2.31-14.02) \\
++ log challenger exports & same & 2.30 (1.01-5.21) \\
++ log US imports from the challenger & same & 2.35 (1.08-5.15) \\
++ log US exports of the group & same & 1.07 (0.38-3.01) \\
++ SITC one-digit sector effects & same & 0.85 (0.30-2.43) \\
+post, year effects & displaced groups, ±10 years around the crossover &
+2.36 (0.83-6.73) \\
++ log challenger exports and US imports & same & 1.63 (0.63-4.27) \\
+post, group fixed effects, log challenger exports, linear trend & groups
+with a start & 1.85 (0.21-16.05) \\
+log export ratio, per doubling, at given exports and imports & Japan and
+Korea & 1.30 (1.10-1.52) \\
+post, year × source effects & seven further economies, 50 starts & 5.83
+(2.83-11.99) \\
++ log challenger exports & same & 0.93 (0.36-2.41) \\
+log export ratio, per doubling, at given exports & same & 1.17
+(1.05-1.30) \\
+\emph{Event study, against groups never displaced (Japan and Korea, with
+controls):} & & \\
+6-10 years before the crossover & 242 group-years, 1 start & 1.46
+(0.13-16.11) \\
+1-5 years before & 286 group-years, 4 starts & 5.61 (1.51-20.82) \\
+0-4 years after & 329 group-years, 6 starts & 3.69 (1.08-12.54) \\
+5-9 years after & 288 group-years, 9 starts & 6.00 (2.03-17.77) \\
+10 or more years after & 778 group-years, 1 start & 1.12 (0.11-11.06) \\
+\end{longtable}}
+
+Log export ratio: log of (challenger exports + 0.1 million US dollars)
+over (US exports + 0.1 million), capped at ±5. In the further-cases
+sample, year × source cells without any start are dropped; they do not
+affect a Poisson fixed-effects estimate. Groups leave the panel after
+their first start, so the last bin holds mainly groups that were never
+hit.
+
 \hypertarget{d.5-imports-and-employment}{%
 \subsection*{D.5 Imports and
 employment}\label{d.5-imports-and-employment}}
@@ -1795,7 +1864,9 @@ because graduation covered all groups at once. Antidumping and
 countervailing duty (AD/CVD) cases (1988-2015) rise from 0.97 to 1.98
 per 100 group-years after the crossover. They do not rise once export
 size is held constant (rate ratio 1.29, 0.70-2.40). This matches the
-result for Japan, Korea and China (Table D.2).
+result for Japan, Korea and China (Table D.2). For broad measures, the
+ratio of 5.83 also falls once export size is held constant (0.93), while
+relative exports keep their effect (Table D.3).
 
 \hypertarget{h.4-japan-against-britain}{%
 \subsection*{H.4 Japan against Britain}\label{h.4-japan-against-britain}}

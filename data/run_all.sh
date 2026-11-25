@@ -19,6 +19,7 @@ run crec_salience.py; run crec_sectors.py; run crec_controls.py
 run crecb_salience.py; run crecb_korea.py; run crecb_share.py; run crecb_controls.py
 # Further cases, alignment, conditionality (Appendices G, H)
 run cases_test.py; run geopolitics.py; run conditionality.py
+run robust_broad.py
 # Sequence and business-cycle tests (Section 4, Appendix C)
 run tests_sequence.py; run tests_cycle.py
 # Figures

@@ -159,6 +159,33 @@ A panel of groups compares how often measures start before and after the crossov
 
 The Section 301 tariffs of 2018 covered all 813 Chinese HS groups at risk: the 609 displaced and the 204 not displaced. AD and CVD cases carry HS codes from 1988. We match them to SITC groups through the WITS concordances HS 1988/92 to SITC Rev. 1 and Rev. 3. WITS is the World Bank's World Integrated Trade Solution, which publishes tables linking the classifications.
 
+**Scale and relative position.** The rate ratio for broad measures mixes displacement with scale, because a measure is unlikely to target a product the challenger barely sells. The same control that removes the effect for AD/CVD cases also shrinks it for broad measures. Table D.3 reports the variants (`data/robust_broad.py`, `data/robust_broad.txt`). With the log of the challenger's exports, the ratio for Japan and Korea falls from 5.69 to 2.30. With the incumbent's exports of the group added, it vanishes. The log ratio of the challenger's to the incumbent's exports keeps its effect in every specification. At given export size and imports, a doubling of relative exports raises the start rate by 30 per cent; for the seven further economies of Section H, by 17 per cent. The event study, against groups never displaced, shows the rise beginning in the five years before the crossover. Resistance thus builds as the challenger approaches parity in a group. Parity itself is not a sharp threshold. All estimates rest on 27 starts for Japan and Korea and 50 for the further cases.
+
+**Table D.3. Broad measures: scale, relative position and timing**
+
+| Specification | Sample | Rate ratio (95 % interval) |
+|---|---|---|
+| post, year × challenger effects | Japan and Korea, SITC Rev. 1, 6,068 group-years, 27 starts | 5.69 (2.31-14.02) |
+| + log challenger exports | same | 2.30 (1.01-5.21) |
+| + log US imports from the challenger | same | 2.35 (1.08-5.15) |
+| + log US exports of the group | same | 1.07 (0.38-3.01) |
+| + SITC one-digit sector effects | same | 0.85 (0.30-2.43) |
+| post, year effects | displaced groups, ±10 years around the crossover | 2.36 (0.83-6.73) |
+| + log challenger exports and US imports | same | 1.63 (0.63-4.27) |
+| post, group fixed effects, log challenger exports, linear trend | groups with a start | 1.85 (0.21-16.05) |
+| log export ratio, per doubling, at given exports and imports | Japan and Korea | 1.30 (1.10-1.52) |
+| post, year × source effects | seven further economies, 50 starts | 5.83 (2.83-11.99) |
+| + log challenger exports | same | 0.93 (0.36-2.41) |
+| log export ratio, per doubling, at given exports | same | 1.17 (1.05-1.30) |
+| *Event study, against groups never displaced (Japan and Korea, with controls):* | | |
+| 6-10 years before the crossover | 242 group-years, 1 start | 1.46 (0.13-16.11) |
+| 1-5 years before | 286 group-years, 4 starts | 5.61 (1.51-20.82) |
+| 0-4 years after | 329 group-years, 6 starts | 3.69 (1.08-12.54) |
+| 5-9 years after | 288 group-years, 9 starts | 6.00 (2.03-17.77) |
+| 10 or more years after | 778 group-years, 1 start | 1.12 (0.11-11.06) |
+
+Log export ratio: log of (challenger exports + 0.1 million US dollars) over (US exports + 0.1 million), capped at ±5. In the further-cases sample, year × source cells without any start are dropped; they do not affect a Poisson fixed-effects estimate. Groups leave the panel after their first start, so the last bin holds mainly groups that were never hit.
+
 ## D.5 Imports and employment
 
 Product duties rise with imports from the challenger; broad measures show no clear pattern. We split displaced groups into thirds by US imports from the challenger in the crossover year. Across these thirds, the share with an AD or CVD case within five years of the crossover is 0.01, 0.11 and 0.30 (N = 228). The share with a broad measure within ten years (Japan and Korea, N = 66) is 0.27, 0.14 and 0.23 (`data/population_weight.csv`).
@@ -466,7 +493,7 @@ In the next table, the phase column compares each instrument with the export cro
 
 Most displaced groups in the further cases drew no targeted sectoral broad measure within ten years. We count the groups whose crossover does not fall in the first data year. For each set we report the share followed within ten years by such a measure, leaving out GSP graduation and politically motivated measures. The shares are: Taiwan SITC 1, 1 of 24; Brazil SITC 1, 4 of 9 (steel); Hong Kong SITC 1, 0 of 9; Vietnam SITC 3, 2 of 5 (apparel, with the quota of 2003 one year after the two groups crossed); and Thailand, Malaysia, Mexico, Vietnam, Taiwan and Brazil in HS (2009-2023), 0 of 283.
 
-A panel of 3,702 group series gives the start rates of these measures. Targeted sectoral broad measures begin at 0.07 per 100 group-years before the crossover and at 0.12 after it. The rate ratio is 5.83 (95 % interval 2.84-11.95), with year × source effects and clustering by group. Including GSP graduation lowers the ratio to 1.33 (1.07-1.65), because graduation covered all groups at once. Antidumping and countervailing duty (AD/CVD) cases (1988-2015) rise from 0.97 to 1.98 per 100 group-years after the crossover. They do not rise once export size is held constant (rate ratio 1.29, 0.70-2.40). This matches the result for Japan, Korea and China (Table D.2).
+A panel of 3,702 group series gives the start rates of these measures. Targeted sectoral broad measures begin at 0.07 per 100 group-years before the crossover and at 0.12 after it. The rate ratio is 5.83 (95 % interval 2.84-11.95), with year × source effects and clustering by group. Including GSP graduation lowers the ratio to 1.33 (1.07-1.65), because graduation covered all groups at once. Antidumping and countervailing duty (AD/CVD) cases (1988-2015) rise from 0.97 to 1.98 per 100 group-years after the crossover. They do not rise once export size is held constant (rate ratio 1.29, 0.70-2.40). This matches the result for Japan, Korea and China (Table D.2). For broad measures, the ratio of 5.83 also falls once export size is held constant (0.93), while relative exports keep their effect (Table D.3).
 
 ## H.4 Japan against Britain
 
