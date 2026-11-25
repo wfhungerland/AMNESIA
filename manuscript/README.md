@@ -12,7 +12,7 @@ Manuskript „Trade Policy Amnesia: When Leading Economies Turn Against Late Ind
 | `claims_check.csv` | jede Zahl des Textes mit Quelle und Prüfstand; Spalte `section` nennt Abschnitte des Haupttexts (Ziffern) und des Anhangs (Buchstaben) |
 | `outline.md` | Gliederung mit Kernaussage je Abschnitt |
 | `Figure_1.pdf` bis `Figure_6.pdf` | Abbildungen als eigene Dateien für die Einreichung, in der Reihenfolge des Texts |
-| `figures/` | Abbildungen und ihre Skripte (`fig_story.py`: Abbildungen 1 und 3 bis 6; `fig_main.py`: Abbildung 2 und K1; `fig_e1.py`: E1; `fig_e2_crec.py`: I1) |
+| `figures/` | Abbildungen und ihre Skripte (`style.py`: gemeinsamer Stil; `fig_story.py`: Abbildungen 1 bis 6 und L.1; `fig_e1.py`: E.1; `fig_e2_crec.py`: G.1) |
 
 Die alte Fassung vom 26.08.2026 ist verloren; Neubau nach den Daten.
 

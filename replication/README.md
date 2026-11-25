@@ -15,7 +15,7 @@ This package reproduces the datasets, tests, tables and figures of the manuscrip
 | `data/fetch.sh` | Downloads all third-party raw data into `data/raw/` |
 | `data/run_all.sh` | Runs all analyses and figures in order |
 | `data/raw/SHA256SUMS.abruf` | Checksums of the raw files as retrieved for the paper |
-| `manuscript/figures/*.py` | Figure scripts (`fig_main.py`: Fig. 2; `fig_story.py`: Figs. 1 and 3-6; appendix figures) |
+| `manuscript/figures/*.py` | Figure scripts (`style.py`: shared look; `fig_story.py`: Figs. 1-6 and L.1; `fig_e1.py`, `fig_e2_crec.py`: Figs. E.1 and G.1) |
 | `manuscript/online_appendix.md`, `manuscript/build_appendix.py` | Source of the online appendix and its build script |
 | `requirements.txt` | Python packages |
 
@@ -70,7 +70,7 @@ The hand-coded data (milestones, responses, registers) and all derived files are
 | Paper | Files | Script |
 |---|---|---|
 | Tables 1 and 2, Fig. 1, Appendix B | `ds1_milestones.csv`, `ds1_export_milestones.csv`, `ds1_export_series.csv` | `build.py`, `comtrade_milestones.py`, `fig_story.py` |
-| Table 3, Fig. 2, Appendix C | `ds1_events.csv`, `tests_sequence.txt`, `tests_cycle.txt` | `build.py`, `tests_sequence.py`, `tests_cycle.py`, `fig_main.py` |
+| Table 3, Fig. 2, Appendix C | `ds1_events.csv`, `tests_sequence.txt`, `tests_cycle.txt` | `build.py`, `tests_sequence.py`, `tests_cycle.py`, `fig_story.py` |
 | Table 4, Figs. 3 and 4, Appendix D | `ds1_registers.csv`, `population_*.csv`, `population_*.txt`, `broad_register_tested.csv` | `registers_ttbd.py`, `population_test.py`, `population_panel.py`, `population_employment.py` |
 | Table 5 panel A, Fig. 5, Appendices E and F | `ds1_hansard_*.csv` | `hansard_*.py` |
 | Table 5 panel B, Appendix G | `ds1_crec_*`, `ds1_crecb_*`, `ds1_kr_*`, `ds1_share_*` | `crec_*.py`, `crecb_*.py` |
