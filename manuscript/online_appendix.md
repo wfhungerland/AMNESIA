@@ -1,6 +1,6 @@
 ---
 title: "Trade Policy Amnesia: Online Appendix"
-subtitle: "Draft of 25 November 2026. Not for submission. Inter-coder reliability pending."
+subtitle: "Draft of 26 November 2026. Not for submission."
 ---
 
 This appendix documents the data, coding rules and checks behind the manuscript. Its sections follow the order of the manuscript. The data (Section 4) rest on the coding rules (A), the milestones (B), the core responses (C) and the registers and the panel of manufacturing groups (D). The results (Section 6) draw on C and D for timing and reach, and on British parliamentary attention (E), the American placebo before 1914 (F) and congressional attention (G) for the choice of sectors. The extensions (Section 7) draw on the further cases (H), alignment and the form of the response (I) and multilateral finance (J). Threats to validity (Section 8) are documented in K, and convergence after displacement (Section 9) in L. File names refer to the replication package (`data/`).
@@ -33,7 +33,26 @@ The coding has to record responses before displacement as carefully as responses
 
 ## A.3 The core dataset
 
-The core dataset contains 18 sectoral milestones and 41 incumbent responses across the four cases (`data/ds1_milestones.csv`, `data/ds1_responses.csv`, `data/ds1_events.csv`). The electric-vehicle milestone is split by incumbent. Each row cites its source. For Japan, three sectors with disputes before 1980 were added so that the absorption phase would not be empty by construction. These are cotton textiles (milestone 1951), colour television (1970) and steel (1969). For Germany, beet sugar (milestone 1886) was added because the parliamentary record shows it to be the first sector in which Germany became a political issue (Section E.2). One coder has assigned all IR scores so far. A second coder is scoring all responses independently. Agreement will be reported here as Krippendorff's ordinal alpha, a standard measure of agreement between coders.
+The core dataset contains 18 sectoral milestones and 41 incumbent responses across the four cases (`data/ds1_milestones.csv`, `data/ds1_responses.csv`, `data/ds1_events.csv`). The electric-vehicle milestone is split by incumbent. Each row cites its source. For Japan, three sectors with disputes before 1980 were added so that the absorption phase would not be empty by construction. These are cotton textiles (milestone 1951), colour television (1970) and steel (1969). For Germany, beet sugar (milestone 1886) was added because the parliamentary record shows it to be the first sector in which Germany became a political issue (Section E.2). One coder has assigned all IR scores. Section A.4 reports a blind second coding.
+## A.4 Second coding
+
+Four large language models scored all 90 items blind: the 48 responses of the core dataset (with Japan against Britain) and the 42 entries of the register of broad measures (`data/coder2/`). Each model received the same prompt (`data/coder2/PROMPT.md`) with the coding rules of Table A.1, translated into English, and a description of each measure: incumbent, target, measure and legal basis or source. Items were shuffled. Milestones, lags, phases, response types and the first coder's scores were withheld. The models were ChatGPT (OpenAI), Gemini (Google), Grok (xAI) and DeepSeek, in the versions available to the author on 26 November 2026. A fifth answer, from Claude (Anthropic), is reported separately, because Claude helped to prepare the first coding. The consensus score is the median of the four models, rounded down when two values tie, following the rule for doubtful cases (`data/coder2_models.py`, `data/coder2/models_alpha.txt`).
+
+**Table A.2. Agreement with the first coder (Krippendorff's alpha, ordinal)**
+
+| Second coder | All 90 items | 48 responses | 42 register entries | Same score | Same side of IR 4 |
+|---|---|---|---|---|---|
+| ChatGPT | 0.83 | 0.91 | 0.63 | 0.80 | 0.82 |
+| Gemini | 0.82 | 0.87 | 0.65 | 0.79 | 0.81 |
+| Grok | 0.85 | 0.88 | 0.76 | 0.84 | 0.86 |
+| DeepSeek | 0.90 | 0.92 | 0.85 | 0.89 | 0.92 |
+| Median of the four | 0.87 | 0.91 | 0.76 | 0.84 | 0.87 |
+| Claude (separate) | 0.88 | 0.93 | 0.66 | 0.82 | 0.88 |
+
+Among the four models, alpha is 0.89. The consensus differs from the first coder on 14 of 90 items (`data/coder2/models_disagreements.csv`). Ten of these are scored one level lower by the models. Most concern tariffs on single products or short product lists that the first coder scored as sectoral (4): the American tariff on Chinese electric vehicles and the European countervailing duties on Chinese battery-electric cars of 2024, the American tariffs on 300 million dollars of Japanese electronics of 1987, the motorcycle tariff-rate quota of 1983 and the retaliation against Brazil of 1988. The models also scored the Section 232 tariffs on steel and aluminium as 4, not 5. Four items are scored higher: the Japanese cotton export controls of 1955 and the Indian duty of 1930 (4, not 3), the invocation of GATT Article XXXV against Japan in 1955 (5, not 3), and the British notice ending the Anglo-Japanese treaty for West Africa (3, not 2).
+
+The main counts change little. With the consensus scores, 25 of the 41 core responses are binding (IR 3 or more), 2 of them before the milestone, as with the first coder. Broad responses (IR 4 or 5) fall from 15 to 13, and one of them still comes before its milestone (the export controls of October 2022). Eleven responses are broad for both. Of the 42 register entries, the consensus scores 37 as broad and 5 as narrow binding; none falls below IR 3. A model coding checks whether the rules can be applied as written. It does not replace an independent human coder.
+
 # B. Displacement milestones
 
 **Table B.1. Sectoral displacement milestones and sources**
@@ -630,7 +649,7 @@ The challengers of this paper faced more binding conditions on the external sect
 
 # K. Threats to validity and open items
 
-1. **Second coder.** One coder has assigned every reach score (IR) so far. Section A.3 will report agreement between coders as Krippendorff's alpha (ordinal).
+1. **Second coder.** One human coder has assigned every reach score (IR). The blind second coding of Section A.4 uses four language models, not an independent human coder, and agreement for the register of broad measures (alpha 0.76) is below the conventional threshold of 0.80.
 2. **Milestone sources.** Some displacement milestones were redated, and some rest on indirect evidence. After checking, we redated four: German beet sugar from 1880 to 1886 (House of Commons 1888, Table III), Japanese semiconductors from 1987 to 1986, Chinese solar PV from 2012 to 2008 and Korean shipbuilding from 2000 to 1999. No response changes phase. The Korean shipbuilding date rests on order statistics reported in the press (The Japan Times 2002), and Japan regained the lead in 2001. For Chinese telecom equipment (2012), total revenue is a near tie that turns on exchange rates. The sugar milestone measures imports by country of origin; it does not distinguish beet from cane sugar. The German dye share around 1870 is taken from Murmann and Homburg (2001, p. 183). The Japanese colour-television milestone (1970) is a market share of about 30 per cent, which falls short of a lead (TC Publication 367).
 3. **Register rule.** The register of broad measures includes Section 201 safeguards only if they ended in quantity limits or orderly marketing agreements. It therefore leaves out the China-specific Section 421 tyre safeguard of 2009 and the textile safeguards of 2005. Counting them changes the congressional sector test little (G.1). For several Section 201 actions, the target countries come from secondary literature.
 4. **Crossover rule.** The export crossover uses world exports, which understate displacement in the American home market. Groups of the Standard International Trade Classification (SITC) do not always measure the contested product (DRAM, integrated circuits). We match antidumping (AD) and countervailing duty (CVD) cases to SITC groups through HS 1988/92 concordances. Employment is allocated by tariff lines, not by values.

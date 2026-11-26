@@ -104,10 +104,88 @@ cotton textiles (milestone 1951), colour television (1970) and steel
 (1969). For Germany, beet sugar (milestone 1886) was added because the
 parliamentary record shows it to be the first sector in which Germany
 became a political issue (Section E.2). One coder has assigned all IR
-scores so far. A second coder is scoring all responses independently.
-Agreement will be reported here as Krippendorff's ordinal alpha, a
-standard measure of agreement between coders. \# B. Displacement
-milestones
+scores. Section A.4 reports a blind second coding. \#\# A.4 Second
+coding
+
+Four large language models scored all 90 items blind: the 48 responses
+of the core dataset (with Japan against Britain) and the 42 entries of
+the register of broad measures (\texttt{data/\allowbreak{}coder2/\allowbreak{}}). Each model
+received the same prompt (\texttt{data/\allowbreak{}coder2/\allowbreak{}PROMPT.md}) with the
+coding rules of Table A.1, translated into English, and a description of
+each measure: incumbent, target, measure and legal basis or source.
+Items were shuffled. Milestones, lags, phases, response types and the
+first coder's scores were withheld. The models were ChatGPT (OpenAI),
+Gemini (Google), Grok (xAI) and DeepSeek, in the versions available to
+the author on 26 November 2026. A fifth answer, from Claude (Anthropic),
+is reported separately, because Claude helped to prepare the first
+coding. The consensus score is the median of the four models, rounded
+down when two values tie, following the rule for doubtful cases
+(\texttt{data/\allowbreak{}coder2\_\allowbreak{}models.py},
+\texttt{data/\allowbreak{}coder2/\allowbreak{}models\_\allowbreak{}alpha.txt}).
+
+{\footnotesize\begin{longtable}[]{@{}
+  >{\RaggedRight\arraybackslash}p{(\columnwidth - 10\tabcolsep) * \real{0.1957}}
+  >{\RaggedRight\arraybackslash}p{(\columnwidth - 10\tabcolsep) * \real{0.1304}}
+  >{\RaggedRight\arraybackslash}p{(\columnwidth - 10\tabcolsep) * \real{0.1630}}
+  >{\RaggedRight\arraybackslash}p{(\columnwidth - 10\tabcolsep) * \real{0.2065}}
+  >{\RaggedRight\arraybackslash}p{(\columnwidth - 10\tabcolsep) * \real{0.1196}}
+  >{\RaggedRight\arraybackslash}p{(\columnwidth - 10\tabcolsep) * \real{0.1848}}@{}}
+\caption*{\textbf{Table A.2. Agreement with the first coder (Krippendorff's alpha,
+ordinal)}}\\
+\toprule\noalign{}
+\begin{minipage}[b]{\linewidth}\raggedright
+Second coder
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+All 90 items
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+48 responses
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+42 register entries
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Same score
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Same side of IR 4
+\end{minipage} \\
+\midrule\noalign{}
+\endhead
+\bottomrule\noalign{}
+\endlastfoot
+ChatGPT & 0.83 & 0.91 & 0.63 & 0.80 & 0.82 \\
+Gemini & 0.82 & 0.87 & 0.65 & 0.79 & 0.81 \\
+Grok & 0.85 & 0.88 & 0.76 & 0.84 & 0.86 \\
+DeepSeek & 0.90 & 0.92 & 0.85 & 0.89 & 0.92 \\
+Median of the four & 0.87 & 0.91 & 0.76 & 0.84 & 0.87 \\
+Claude (separate) & 0.88 & 0.93 & 0.66 & 0.82 & 0.88 \\
+\end{longtable}}
+
+Among the four models, alpha is 0.89. The consensus differs from the
+first coder on 14 of 90 items
+(\texttt{data/\allowbreak{}coder2/\allowbreak{}models\_\allowbreak{}disagreements.csv}). Ten of these are
+scored one level lower by the models. Most concern tariffs on single
+products or short product lists that the first coder scored as sectoral
+(4): the American tariff on Chinese electric vehicles and the European
+countervailing duties on Chinese battery-electric cars of 2024, the
+American tariffs on 300 million dollars of Japanese electronics of 1987,
+the motorcycle tariff-rate quota of 1983 and the retaliation against
+Brazil of 1988. The models also scored the Section 232 tariffs on steel
+and aluminium as 4, not 5. Four items are scored higher: the Japanese
+cotton export controls of 1955 and the Indian duty of 1930 (4, not 3),
+the invocation of GATT Article XXXV against Japan in 1955 (5, not 3),
+and the British notice ending the Anglo-Japanese treaty for West Africa
+(3, not 2).
+
+The main counts change little. With the consensus scores, 25 of the 41
+core responses are binding (IR 3 or more), 2 of them before the
+milestone, as with the first coder. Broad responses (IR 4 or 5) fall
+from 15 to 13, and one of them still comes before its milestone (the
+export controls of October 2022). Eleven responses are broad for both.
+Of the 42 register entries, the consensus scores 37 as broad and 5 as
+narrow binding; none falls below IR 3. A model coding checks whether the
+rules can be applied as written. It does not replace an independent
+human coder.
+
+\hypertarget{b.-displacement-milestones}{%
+\section*{Appendix B. Displacement milestones}\label{b.-displacement-milestones}}
 
 {\footnotesize\begin{longtable}[]{@{}
   >{\RaggedRight\arraybackslash}p{(\columnwidth - 8\tabcolsep) * \real{0.1193}}
@@ -2404,9 +2482,11 @@ items}\label{k.-threats-to-validity-and-open-items}}
 \def\labelenumi{\arabic{enumi}.}
 \tightlist
 \item
-  \textbf{Second coder.} One coder has assigned every reach score (IR)
-  so far. Section A.3 will report agreement between coders as
-  Krippendorff's alpha (ordinal).
+  \textbf{Second coder.} One human coder has assigned every reach score
+  (IR). The blind second coding of Section A.4 uses four language
+  models, not an independent human coder, and agreement for the register
+  of broad measures (alpha 0.76) is below the conventional threshold of
+  0.80.
 \item
   \textbf{Milestone sources.} Some displacement milestones were redated,
   and some rest on indirect evidence. After checking, we redated four:

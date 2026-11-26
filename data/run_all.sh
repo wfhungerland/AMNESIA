@@ -16,7 +16,7 @@ run registers_ttbd.py; run registers_product_displacement.py
 run population_test.py; run population_panel.py; run population_employment.py
 # Congressional Record (Table 4 panel B, Appendix I)
 run crec_salience.py; run crec_sectors.py; run crec_controls.py
-run crecb_salience.py; run crecb_korea.py; run crecb_share.py; run crecb_controls.py; run sector_prior.py
+run crecb_salience.py; run crecb_korea.py; run crecb_share.py; run crecb_controls.py; run sector_prior.py; run coder2_models.py
 # Further cases, alignment, conditionality (Appendices G, H)
 run cases_test.py; run geopolitics.py; run conditionality.py
 run robust_broad.py

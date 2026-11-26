@@ -1,0 +1,48 @@
+Items: 90 (responses 48, register 42)
+
+Ordinal alpha and agreement with the first coder:
+  chatgpt   all      : alpha 0.828, exact 0.80, broad (IR>=4) 0.82
+  chatgpt   responses: alpha 0.909, exact 0.85, broad (IR>=4) 0.88
+  chatgpt   register : alpha 0.628, exact 0.74, broad (IR>=4) 0.76
+  gemini    all      : alpha 0.815, exact 0.79, broad (IR>=4) 0.81
+  gemini    responses: alpha 0.868, exact 0.81, broad (IR>=4) 0.81
+  gemini    register : alpha 0.648, exact 0.76, broad (IR>=4) 0.81
+  grok      all      : alpha 0.849, exact 0.84, broad (IR>=4) 0.86
+  grok      responses: alpha 0.877, exact 0.83, broad (IR>=4) 0.83
+  grok      register : alpha 0.757, exact 0.86, broad (IR>=4) 0.88
+  deepseek  all      : alpha 0.903, exact 0.89, broad (IR>=4) 0.92
+  deepseek  responses: alpha 0.920, exact 0.85, broad (IR>=4) 0.90
+  deepseek  register : alpha 0.851, exact 0.93, broad (IR>=4) 0.95
+  claude    all      : alpha 0.876, exact 0.82, broad (IR>=4) 0.88
+  claude    responses: alpha 0.930, exact 0.83, broad (IR>=4) 0.90
+  claude    register : alpha 0.662, exact 0.81, broad (IR>=4) 0.86
+  consensus all      : alpha 0.866, exact 0.84, broad (IR>=4) 0.87
+  consensus responses: alpha 0.905, exact 0.83, broad (IR>=4) 0.85
+  consensus register : alpha 0.757, exact 0.86, broad (IR>=4) 0.88
+
+Alpha among the four other models: 0.888
+Alpha among the four other models and the first coder: 0.873
+
+Main counts (41 core responses), first coder against model consensus:
+  reach_coder1, binding (IR >= 3): 25 responses, 2 before the milestone, 23 from it
+  reach_coder1, broad (IR >= 4): 15 responses, 1 before the milestone, 14 from it
+  consensus, binding (IR >= 3): 25 responses, 2 before the milestone, 23 from it
+  consensus, broad (IR >= 4): 13 responses, 1 before the milestone, 12 from it
+  broad for both: 11, before the milestone 1
+Register of broad measures (42 entries): consensus scores IR >= 4 for 37, IR 3 for 5, IR <= 2 for 0
+
+Items where the consensus differs from the first coder: 14
+  B-11: coder1 4, consensus 3 (chatgpt 3, gemini 3, grok 3, deepseek 3): Heavyweight motorcycles tariff-rate quota
+  R-JP-09: coder1 3, consensus 4 (chatgpt 4, gemini 4, grok 4, deepseek 4): Japan introduces controls on cotton exports to the US late in 1955, in force dur
+  R-JP-06: coder1 4, consensus 3 (chatgpt 3, gemini 3, grok 3, deepseek 4): 100 percent tariffs on 300m USD of Japanese electronics
+  B-23: coder1 4, consensus 3 (chatgpt 3, gemini 3, grok 3, deepseek 3): Tariff on Chinese EVs raised to 100 per cent
+  R-JP-01: coder1 3, consensus 5 (chatgpt 3, gemini 5, grok 5, deepseek 5): Japan joins GATT; UK and France invoke Article XXXV (no GATT treatment)
+  B-16: coder1 4, consensus 3 (chatgpt 3, gemini 3, grok 3, deepseek 4): 100 per cent tariffs on Japanese electronics
+  R-DE-08: coder1 4, consensus 3 (chatgpt 4, gemini 3, grok 3, deepseek 4): Brussels Sugar Convention: bounties abolished; penal clause for countervailing d
+  B-28: coder1 4, consensus 3 (chatgpt 3, gemini 3, grok 3, deepseek 4): 100 per cent tariffs on Brazilian goods over pharmaceutical patents (paper; drug
+  B-18: coder1 4, consensus 3 (chatgpt 3, gemini 3, grok 3, deepseek 4): Safeguards on solar cells and large washing machines
+  R-CN-10: coder1 4, consensus 3 (chatgpt 3, gemini 3, grok 3, deepseek 3): US tariff on Chinese EVs raised to 100 percent
+  R-CN-11: coder1 4, consensus 3 (chatgpt 3, gemini 3, grok 3, deepseek 3): EU definitive countervailing duties on Chinese BEVs
+  R-JPGB-02: coder1 3, consensus 4 (chatgpt 4, gemini 4, grok 4, deepseek 4): Government of India: duty on cotton piece goods 15 per cent British and 20 per c
+  B-19: coder1 5, consensus 4 (chatgpt 4, gemini 4, grok 4, deepseek 4): Steel and aluminium tariffs
+  R-JPGB-04: coder1 2, consensus 3 (chatgpt 2, gemini 4, grok 4, deepseek 3): UK gives 12 months notice terminating the Anglo-Japanese Treaty of 1911 for Brit
