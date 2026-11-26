@@ -1,6 +1,6 @@
 # manuscript
 
-Manuskript „Trade Policy Amnesia: The Ladder of Resistance Against Late Industrialisers, 1850-2024“ (World Development; früher „Displacement Before Escalation“), Fassung vom 25.11.2026. Nicht einreichen.
+Manuskript „Trade Policy Amnesia: How Far Leading Economies Go Against Late Industrialisers, 1850-2024“ (World Development; früher „Displacement Before Escalation“), Fassung vom 25.11.2026. Nicht einreichen.
 
 | Datei | Inhalt |
 |---|---|

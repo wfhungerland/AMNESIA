@@ -124,7 +124,7 @@ We kept six disagreements. The Section 201 safeguards on motorcycles (1983) and 
 
 ## C.1 The 41 responses
 
-Table C.1 lists every response in the core dataset. For each response it gives the sector, the sector's milestone, the lag, the IR score, the phase (before or after the milestone) and the source. Table C.2 summarises the responses by case and phase (Table 4 in the manuscript).
+Table C.1 lists every response in the core dataset. For each response it gives the sector, the sector's milestone, the lag, the IR score, the phase (before or after the milestone) and the source. Table C.2 summarises the responses by case and phase (Table 5 in the manuscript).
 
 **Table C.1. Incumbent responses in the core dataset** (`data/ds1_events.csv`)
 
