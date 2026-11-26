@@ -88,32 +88,44 @@ ax.legend(title="Instrument reach (IR)", title_fontsize=7.5, ncol=5, loc="lower 
           handletextpad=0.1, columnspacing=0.8, alignment="left")
 save(fig, "fig1_lags")
 
-# ---- Fig. 3: start rates by years from the crossover
-p = pd.read_csv(D / "population_panel.csv")
-p = p[p.rel.notna()]
-p["bin"] = (np.floor(p.rel / 2) * 2).astype(int)
-p = p[p.bin.between(-10, 10)]
-jk = p[p.challenger.isin(["JP", "KR"])]
-r1 = jk.groupby("bin").apply(lambda g: 100 * g.broad.sum() / g.at_risk.sum(), include_groups=False)
-ad = p[(p.year >= 1988) & (p.year <= 2015)]
+# ---- Fig. 3: start rates by relative position (broad measures) and by years from the crossover (antidumping)
+p = pd.read_csv(D / "population_panel.csv", dtype={"code": str})
+jk = p[p.challenger.isin(["JP", "KR"]) & (p.data == "s1") & (p.at_risk == 1) & (p.x_us > 0)].copy()
+labels = ["<0.25", "0.25-0.5", "0.5-1", "1-2", "\u22652"]
+jk["rb"] = pd.cut(jk.x_ch / jk.x_us, [-np.inf, 0.25, 0.5, 1, 2, np.inf], labels=labels)
+r1 = jk.groupby("rb", observed=False).broad.agg(["mean", "sum", "size"])
+q = p[p.rel.notna()].copy()
+q["bin"] = (np.floor(q.rel / 2) * 2).astype(int)
+q = q[q.bin.between(-10, 10)]
+ad = q[(q.year >= 1988) & (q.year <= 2015)]
 r2 = ad.groupby("bin").apply(lambda g: 100 * g.ad_cases.sum() / len(g), include_groups=False)
-fig, axs = plt.subplots(1, 2, figsize=(6.6, 2.9), sharex=True)
-for ax, r, col, ttl in [(axs[0], r1, BLUE, "Broad measures, Japan and Korea"),
-                        (axs[1], r2, ORANGE, "US antidumping cases, Japan, Korea, China, 1988-2015")]:
-    colors = [GRAY if b < 0 else col for b in r.index]
-    ax.bar(r.index + 1, r.values, width=1.75, color=colors, edgecolor="white", linewidth=1.2, zorder=2)
-    ax.axvline(0, color=INK, lw=0.8, zorder=3)
-    top = ax.get_ylim()[1] * 1.15
-    ax.set_ylim(0, top)
-    note(ax, -0.4, top * 0.98, "before", ha="right", va="top")
-    note(ax, 0.4, top * 0.98, "after the crossover", ha="left", va="top")
-    title(ax, ttl)
-    tidy(ax)
-    ax.set_xticks(range(-10, 11, 2))
-axs[0].set_ylabel("Starts per 100 group-years")
-fig.supxlabel("Years from the group's export crossover (two-year bins)", fontsize=8.5, y=0.02)
+fig, axs = plt.subplots(1, 2, figsize=(6.6, 2.9))
+ax = axs[0]
+x = np.arange(len(labels))
+ax.bar(x, 100 * r1["mean"].values, width=0.72, color=BLUE, edgecolor="white", linewidth=1.2, zorder=2)
+for k, (m, n) in enumerate(zip(r1["mean"].values, r1["sum"].values)):
+    note(ax, k, 100 * m + 0.05, f"{int(n)}", ha="center", va="bottom")
+ax.set_xticks(x, labels)
+ax.set_xlabel("Challenger's exports relative to US exports")
+ax.set_ylabel("Starts per 100 group-years")
+ax.set_ylim(0, 100 * r1["mean"].max() * 1.2)
+title(ax, "Broad measures, Japan and Korea")
+tidy(ax)
+ax = axs[1]
+colors = [GRAY if b < 0 else ORANGE for b in r2.index]
+ax.bar(r2.index + 1, r2.values, width=1.75, color=colors, edgecolor="white", linewidth=1.2, zorder=2)
+ax.axvline(0, color=INK, lw=0.8, zorder=3)
+top = ax.get_ylim()[1] * 1.15
+ax.set_ylim(0, top)
+note(ax, -0.4, top * 0.98, "before", ha="right", va="top")
+note(ax, 0.4, top * 0.98, "after the crossover", ha="left", va="top")
+ax.set_xticks(range(-10, 11, 4))
+ax.set_xlabel("Years from the export crossover")
+title(ax, "US antidumping cases, 1988-2015")
+tidy(ax)
 fig.tight_layout(w_pad=2.5)
 save(fig, "fig4_rates")
+print("Fig. 3 left:", r1.assign(rate=lambda z: (100 * z["mean"]).round(2)).to_dict("index"))
 
 # ---- Fig. 4: breadth of displacement
 b = pd.read_csv(D / "cases_breadth.csv")
