@@ -1,12 +1,12 @@
 Art der Massnahme nach Buendnis und Epoche (ohne 'mixed')
 
-register: 58 Instrument-Ziel-Paare
+register: 66 Instrument-Ziel-Paare
 mode                                 negotiated  unilateral
 era           defense_pact                                 
 ab 1995 (WTO) Verteidigungsbuendnis           0           9
-              kein Buendnis                   1          10
+              kein Buendnis                   2          10
 vor 1995      Verteidigungsbuendnis          26           2
-              kein Buendnis                   4           1
+              kein Buendnis                   9           3
 
 response: 17 Instrument-Ziel-Paare
 mode                                 negotiated  unilateral
@@ -18,10 +18,10 @@ vor 1995      Verteidigungsbuendnis           5           3
 register, nur gezielte und handelspolitisch begruendete Instrumente (ohne global, politisch, undatiert)
 mode                                 negotiated  unilateral
 era           defense_pact                                 
-ab 1995 (WTO) kein Buendnis                   1           4
+ab 1995 (WTO) kein Buendnis                   2           4
 vor 1995      Verteidigungsbuendnis          21           2
-              kein Buendnis                   2           1
-Ziele ab 1995: B-20 CN, B-21 CN, B-22 CN, B-23 CN, B-30 VN
+              kein Buendnis                   7           3
+Ziele ab 1995: B-20 CN, B-21 CN, B-22 CN, B-23 CN, B-30 VN, B-50 CN
 
 Technologieverweigerung (denial) und Massnahmen vor der Verdraengung, mit Lage der Dyade
     unit      id challenger incumbent  year  reach       mode      phase  defense_pact  unga_distance  cinc_ratio

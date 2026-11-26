@@ -185,6 +185,17 @@ Five of 41 responses come before the milestone of their sector. Four of the five
 
 **Milestone definition and dependence between responses.** The milestones mix several measures of leadership. One of them, advanced chips (2023), marks a capability rather than a market lead. Three checks address this (`data/tests_robust_timing.py`, `data/tests_robust_timing.txt`). First, we drop the advanced-chips milestone. Then 36 of 39 responses come from the milestone, and so do 23 of 24 binding responses. In the window the counts are 1 before and 18 after (placebo p = 0.003). With initiation dates the counts are 4 and 15 (binomial p = 0.010). The placebo then gives p = 0.086. Second, 23 responses have an exactly dated export crossover. None of them comes before it, with either measure dates or initiation dates. The placebo has little power here, because most of these responses come many years after the crossover (p between 0.08 and 0.21). Third, responses to the same milestone are not independent, so we count each milestone once. The first binding response then comes from the milestone in 13 of 15 cases (one-sided sign test, p = 0.004). Without advanced chips it does so in 13 of 14 (p = 0.001). With initiation dates the counts fall to 10 of 15 (p = 0.15) and 10 of 14 (p = 0.090).
 
+**First rung by episode.** Table C.4 combines the coded responses with the complete registers (`data/us_ad_japan_1955_1979.csv`, `data/broad_register.csv`, Temporary Trade Barriers Database). American antidumping data before 1979 come from the Federal Register and the reports of the US Tariff Commission. From 1955 to 1979 we find 123 cases against Japan and 26 affirmative dumping findings. The first was on azobisformamide (Treasury Decision 56414, 20 May 1965, 30 FR 7187). Before it, every Japanese case before the Tariff Commission was negative. Findings then followed in 1970 (1), 1971 (5), 1972 (5), 1973 (4), 1974 (2), 1976 (3), 1977 (2) and 1978 (3). The count of cases is a lower bound, because Treasury's negative determinations were not published before 1958. The 26 findings and their dates are checked against the official lists of findings in effect (33 FR, 1 June 1968; 45 FR 8207, 6 February 1980).
+
+**Table C.4. First year of each rung, coded responses and registers**
+
+| Episode | Product (IR 3) | Sector outside textiles (IR 4) | Economy (IR 5) | Textiles (IR 4) |
+|---|---|---|---|---|
+| Germany | 1887 (Merchandise Marks Act) | 1902 (Brussels Sugar Convention) | 1932 (general tariff, not aimed at Germany) | n.a. |
+| Japan | 1965 (dumping finding, azobisformamide) | 1969 (steel restraint) | none | 1955 (export controls) |
+| Korea | 1982 (antidumping order, steel wire nails; data from 1979) | 1977 (footwear agreement) | none | 1963 (Long-Term Arrangement) |
+| China | 1983 (antidumping order, cotton shop towels; first outside textiles 1984) | 1987 (tungsten agreement) | 2018 (Section 301 tariffs) | 1979 (unilateral quotas) |
+
 **Business cycle.** The business cycle does not appear to explain the sequence. Temporary trade barriers rise in downturns (Bown and Crowley 2013a). If milestones coincided with recessions, the sequence could reflect the cycle. We measure the incumbent's output gap as the deviation of log real GDP from its long-run trend. The trend comes from a Hodrick-Prescott filter, a standard smoothing method (λ = 100; Bolt and van Zanden 2024). Of the 39 responses with data, 38 per cent fall in years with a negative output gap. Of all years in the case windows, 45 per cent do. For binding responses the shares are 39 and 45 per cent (`data/tests_cycle.py`, `data/tests_cycle.txt`).
 
 **Export crossover instead of milestone.** Under the export crossover, 28 of the 41 responses follow the crossover. Another 3 cannot be placed, because only an upper bound exists for the crossover. These are British responses of 1885-1896; the export lead in chemicals is first documented in 1899. A further 9 cannot be classified, because the export data do not measure the contested product. DRAM chips cannot be separated from logic chips in SITC 776, the group for all semiconductors in the Standard International Trade Classification, and China's exports of integrated circuits consist largely of assembled foreign chips. One response comes before the crossover. It is the EU's countervailing duties on Chinese battery-electric vehicles of October 2024. They score IR 3 after the second coding of Section A.4 and IR 4 in the first coding. The EU imposed them while Chinese electric-car exports were still below German exports (32.0 against 41.1 billion US dollars in 2024). Chinese exports had passed American ones in 2021, three years before the American tariff increase. Each rule thus produces one exception, in a different sector. Under the milestone it is the export controls on advanced chips. Under the crossover it is the EU duties on electric cars.
@@ -196,7 +207,7 @@ Narrow product duties against Korea and China mostly come before the milestone o
 
 ## D.2 Register of broad instruments
 
-Most broad American measures follow the export crossover of the products they target. `data/broad_register.csv` lists 23 American measures against Japan, Korea and China from 1957 to 2024 (entries B-01 to B-23). After the second coding (Section A.4), 22 of them score 4 or 5. The tariffs on Japanese electronics of 1987 (B-16) score 3 and leave the analysis. The sources are the USITC's list of Section 201 safeguard protection 1975-2016 (USITC Centennial History, Table 10.1), bilateral restraint agreements, Sections 232 and 301, and the Export Administration Regulations. Section 201 grants temporary relief to an injured industry. Section 232 allows measures on grounds of national security. The Export Administration Regulations govern US export controls. The 22 broad measures form 30 pairs of measure and target. For each pair, `data/population_test.py` dates the export crossover of the products concerned (`data/population_test.txt`). Of the 30 pairs, 21 come after the crossover. For 10 of these the crossover falls in the first data year. Another 4 pairs come before the crossover, and 5 cannot be dated. Of the undated pairs, 3 come before the data begin, 1 has data that begin after the measure, and 1 has no crossover in the data. Of the four that come before, two are genuine exceptions. They are Korea under the cotton-textile Long-Term Arrangement of 1962 and under the textile agreements of 1971. Japan under the 1986 semiconductor agreement appears to be an artefact of the broad SITC group, since DRAM crossed in 1981. China under the global steel safeguard of 2002 was not a target of the measure. For several Section 201 actions, the target countries come from secondary literature and are marked in the register.
+Most broad American measures follow the export crossover of the products they target. `data/broad_register.csv` lists 23 American measures against Japan, Korea and China from 1957 to 2024 (entries B-01 to B-23). After the second coding (Section A.4), 22 of them score 4 or 5. The tariffs on Japanese electronics of 1987 (B-16) score 3 and leave the analysis. On 26 November 2026 we added eight measures against China that the register had missed (B-43 to B-50): the unilateral textile quotas of 1979 and 1983, the textile agreements of 1980, 1983, 1988 and 1994, the Section 406 agreement on tungsten of 1987, and the textile memorandum of understanding of November 2005 (quotas 2006-2008). Each is dated from the Federal Register (`data/nonallied_measures_pre1995.csv`, `data/new_china_safeguards.csv`). The register now lists 30 broad measures against the three challengers. China's paragraph-242 textile safeguards of 2003-2005 and the Section 421 tariff on tyres of 2009 are binding but narrow (IR 3) and stay outside it. The other six Section 421 cases ended without relief. The sources are the USITC's list of Section 201 safeguard protection 1975-2016 (USITC Centennial History, Table 10.1), bilateral restraint agreements, Sections 232 and 301, and the Export Administration Regulations. Section 201 grants temporary relief to an injured industry. Section 232 allows measures on grounds of national security. The Export Administration Regulations govern US export controls. The 30 broad measures form 38 pairs of measure and target. For each pair, `data/population_test.py` dates the export crossover of the products concerned (`data/population_test.txt`). Of the 38 pairs, 23 come after the crossover. For 10 of these the crossover falls in the first data year. Another 4 pairs come before the crossover, and 5 cannot be dated. Of the undated pairs, 3 come before the data begin, 1 has data that begin after the measure, and 1 has no crossover in the data. Of the four that come before, two are genuine exceptions. They are Korea under the cotton-textile Long-Term Arrangement of 1962 and under the textile agreements of 1971. Japan under the 1986 semiconductor agreement appears to be an artefact of the broad SITC group, since DRAM crossed in 1981. China under the global steel safeguard of 2002 was not a target of the measure. For several Section 201 actions, the target countries come from secondary literature and are marked in the register.
 
 ## D.3 Population of displaced groups
 
@@ -221,7 +232,7 @@ A panel of groups compares how often measures start before and after the crossov
 | Outcome | Sample | Rate per 100 group-years, before / after | Rate ratio (95 % interval) |
 |---|---|---|---|
 | Start of targeted broad instrument (to first hit) | Japan and Korea, SITC Rev. 1, 1962-1999 | 0.21 / 1.15 | 6.71 (2.71-16.61) |
-| same, without Section 301 tariffs | China, 1992-2023 | 0.02 / 0.04 | 1.13 (0.11-11.24) |
+| same, without Section 301 tariffs | China, 1992-2023 | 0.02 / 0.04 | 1.20 (0.12-11.89) |
 | New US AD/CVD case | all, 1988-2015, controlling for export size | 3.38 / 6.48 | 1.10 (0.75-1.60) |
 | same | all, without size control | 3.38 / 6.48 | 1.97 (1.37-2.82) |
 | same | Japan, SITC Rev. 1, with size control | 3.62 / 12.00 | 2.01 (1.10-3.68) |
@@ -697,9 +708,31 @@ The first table below classes each broad measure as negotiated or unilateral. Ne
 | Period | Defence pact with the US | Negotiated | Unilateral |
 |---|---|---|---|
 | before 1995 | yes (Japan, Korea, Taiwan to 1980, Brazil, Mexico, Thailand) | 21 | 2 (B-09, B-11) |
-| before 1995 | no (Taiwan after 1980, Malaysia) | 2 | 1 |
+| before 1995 | no (China, Taiwan after 1980, Malaysia) | 7 | 3 |
 | from 1995 | yes | 0 | 0 |
-| from 1995 | no (China, Vietnam) | 1 (B-30) | 4 (B-20 to B-23) |
+| from 1995 | no (China, Vietnam) | 2 (B-30, B-50) | 4 (B-20 to B-23) |
+
+**Table I.4. Trade-motivated US measures against economies without a defence pact, before 1995** (`data/nonallied_measures_pre1995.csv`)
+
+| Target | Start | Instrument | Form | Source |
+|---|---|---|---|---|
+| China | 1979 | global import quota (3 years, 2 million gross) | unilateral | Presidential memorandum of 8 Feb 1979, 44 FR 8861 (12 Feb 1979); Proclamation 4640 of 23 F |
+| China | 1987 | orderly marketing agreement (quantitative limits, export certificates) | negotiated | USITC TA-406-11 affirmative (5 Jun 1987); presidential decision 5 Aug 1987; OMA signed 28  |
+| China | 1979 | unilateral import quotas | unilateral | CITA directive of 5 Jun 1979, 44 FR 32433 (6 Jun 1979) |
+| China | 1980 | bilateral textile agreement (specific limits plus consultation mechanism) | negotiated | CITA notice of 17 Sep 1980, 45 FR 62175 (18 Sep 1980) |
+| China | 1983 | unilateral import restraints | unilateral | CITA notice of 14 Jan 1983, 48 FR 2164 (18 Jan 1983); prior warning notice 47 FR 57748 (28 |
+| China | 1983 | bilateral textile agreement | negotiated | CITA notice, 48 FR 37684-37685 (19 Aug 1983) |
+| China | 1988 | bilateral textile agreement | negotiated | CITA notices 53 FR 55 (4 Jan 1988; 1988 limits), 53 FR 6684 (2 Mar 1988; exchange of notes |
+| China | 1994 | unilateral import limits with permanent denial of overshipments | unilateral | CITA directive of 5 Jan 1994, 59 FR 1385-1387 (10 Jan 1994), FR Doc 94-571 |
+| China | 1994 | bilateral textile agreement (MOU) | negotiated | CITA notice of 24 Jan 1994, 59 FR (27 Jan 1994), FR Doc 94-1861 |
+| USSR | 1988 | bilateral textile agreement | negotiated | CITA notice of 29 Dec 1987, 53 FR 61-62 (4 Jan 1988) |
+| East Germany | 1985 | voluntary restraint arrangement (export ceilings) | negotiated | Commerce termination notice, 50 FR 31213-31214 (1 Aug 1985); S. Rept. 101-206 (1989) for p |
+| Poland | 1985 | voluntary restraint arrangement (export ceilings) | negotiated | Commerce notices, 50 FR 35283-35284 (30 Aug 1985, wire nails) and 50 FR 36908-36909 (10 Se |
+| Yugoslavia | 1986 | voluntary restraint arrangement (export ceilings) | negotiated | Commerce termination notice, 51 FR 4204-4205 (3 Feb 1986); S. Rept. 101-206 |
+| South Africa | 1985 | voluntary restraint arrangement (export ceilings) | negotiated | Commerce notice, 50 FR 25615 (20 Jun 1985) (Arrangement Concerning Trade in Certain Steel  |
+| Finland; Austria; Hungary; Czechoslovakia; Romania; China | 1985 | voluntary restraint arrangements (export ceilings) | negotiated | S. Rept. 101-206 (1989): VRAs with the EC and 19 countries, no list given |
+
+Of the 15 rows, 11 are negotiated and 4 unilateral. The clothespin quota of 1979 was global, and the grouped row of steel agreements (1985) is not verified item by item. Without these two, 10 of 13 measures aimed at non-allies were negotiated. The political measures (Jackson-Vanik, COCOM, the South African steel ban of 1986) were all unilateral and are left out.
 
 **Table I.2. State of the dyad in the milestone years**
 

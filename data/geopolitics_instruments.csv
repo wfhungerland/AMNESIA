@@ -77,3 +77,11 @@ register,B-39,MX,US,1967,4,bilateral agreement under the LTA,keine Kreuzung in d
 register,B-40,BR,US,1970,4,bilateral agreement under the LTA,keine Kreuzung in den Daten,negotiated,0.107,False,1.0,1.0,False,1.092,gezielt,vor 1995
 register,B-41,MY,US,1970,4,bilateral agreements under the LTA,keine Kreuzung in den Daten,negotiated,0.008,False,0.0,0.0,False,2.271,gezielt,vor 1995
 register,B-42,TH,US,1972,4,bilateral agreement under the LTA,keine Kreuzung in den Daten,negotiated,0.026,False,1.0,1.0,False,1.776,gezielt,vor 1995
+register,B-43,CN,US,1979,4,CITA unilateral quotas,vor Datenbeginn,unilateral,0.873,False,0.0,0.0,False,2.365,gezielt,vor 1995
+register,B-44,CN,US,1980,4,bilateral textile agreement,vor Datenbeginn,negotiated,0.898,False,0.0,0.0,False,2.409,gezielt,vor 1995
+register,B-45,CN,US,1983,4,CITA unilateral restraints,vor Datenbeginn,unilateral,0.895,False,0.0,0.0,False,2.593,gezielt,vor 1995
+register,B-46,CN,US,1983,4,bilateral textile agreement,vor Datenbeginn,negotiated,0.895,False,0.0,0.0,False,2.593,gezielt,vor 1995
+register,B-47,CN,US,1987,4,Section 406 (TA-406-11),vor Datenbeginn,negotiated,0.833,False,0.0,0.0,False,2.997,gezielt,vor 1995
+register,B-48,CN,US,1988,4,bilateral textile agreement,vor Datenbeginn,negotiated,0.84,False,0.0,0.0,False,3.177,gezielt,vor 1995
+register,B-49,CN,US,1994,4,bilateral textile agreement,post (Kreuzung spaetestens im ersten Datenjahr),negotiated,0.939,False,0.0,0.0,False,4.823,gezielt,vor 1995
+register,B-50,CN,US,2006,4,bilateral MOU; para. 242 of China's WTO Working Party Report,post (Kreuzung spaetestens im ersten Datenjahr),negotiated,1.161,False,0.0,0.0,False,3.397,gezielt,ab 1995 (WTO)
