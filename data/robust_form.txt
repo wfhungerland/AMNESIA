@@ -1,0 +1,20 @@
+Japan and Korea: 735 group-years at risk, 26 starts
+(a) Export ratio in bins (reference below 0.25), at given exports and imports:
+    0.25-0.5 : 113 group-years, 4 starts; rate ratio 5.90 (2.17-16.04)
+    0.5-1    : 106 group-years, 5 starts; rate ratio 5.73 (1.00-32.70)
+    1-2      : 100 group-years, 4 starts; rate ratio 4.64 (0.62-34.71)
+    >=2      : 84 group-years, 11 starts; rate ratio 11.42 (3.20-40.85)
+    <0.25    : 332 group-years, 2 starts (reference)
+(b) Log export ratio per doubling, other offsets and caps:
+    offset 0.01m, cap 5: x1.32 (1.16-1.50), p=0.000
+    offset 0.01m, cap none: x1.32 (1.16-1.50), p=0.000
+    offset 0.1m, cap 5: x1.33 (1.17-1.51), p=0.000
+    offset 0.1m, cap none: x1.33 (1.17-1.50), p=0.000
+    offset 1m, cap 5: x1.35 (1.19-1.54), p=0.000
+    offset 1m, cap none: x1.35 (1.19-1.54), p=0.000
+    offset 10m, cap 5: x1.47 (1.26-1.72), p=0.000
+    offset 10m, cap none: x1.47 (1.26-1.72), p=0.000
+(c) Import pressure against relative position:
+    lm_us + lx_ch: lm_us +0.18 (p=0.264); lx_ch +0.55 (p=0.054)
+    lr + lx_ch: lr +0.39 (p=0.000); lx_ch +0.47 (p=0.179)
+    lr + lm_us + lx_ch: lr +0.41 (p=0.000); lm_us +0.21 (p=0.256); lx_ch +0.32 (p=0.296)

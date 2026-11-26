@@ -20,7 +20,7 @@ run crecb_salience.py; run crecb_korea.py; run crecb_share.py; run crecb_control
 # Further cases, alignment, conditionality (Appendices G, H)
 run cases_test.py; run geopolitics.py; run conditionality.py
 run register_recode.py
-run robust_broad.py
+run robust_broad.py; run robust_measure.py; run robust_form.py
 # Sequence and business-cycle tests (Section 4, Appendix C)
 run tests_sequence.py; run tests_cycle.py
 run tests_initiation.py; run tests_robust_timing.py

@@ -255,6 +255,33 @@ The Section 301 tariffs of 2018 covered all 813 Chinese HS groups at risk: the 6
 
 Log export ratio: log of (challenger exports + 0.1 million US dollars) over (US exports + 0.1 million), capped at ±5. In the further-cases sample, year × source cells without any start are dropped; they do not affect a Poisson fixed-effects estimate. Groups leave the panel after their first start, so the last bin holds mainly groups that were never hit.
 
+**Few decisions behind the starts.** The 26 starts for Japan and Korea come from nine measures; the steel restraints of 1969 (B-03, 9 groups) and 1984 (B-13, 6) and the textile agreements of 1971 (B-04, 5) supply 20. Clustering by group treats them as independent. Table D.4 therefore clusters by SITC two-digit division, adds a cluster bootstrap over divisions, leaves out the scope of each large measure and tests at the level of measures (`data/robust_measure.py`, `data/robust_measure.txt`). It also reports bins of the export ratio, other offsets and caps, and a test of import pressure against relative position (`data/robust_form.py`, `data/robust_form.txt`). The gradient for Japan and Korea survives every check. The jump at the crossover does not, and the gradient for the further cases rests on the steel restraints of 1984 with Brazil and Mexico (B-26).
+
+**Table D.4. Broad measures: inference at the level of measures, and the form of the gradient**
+
+| Check | Japan and Korea | Further cases |
+|---|---|---|
+| Log export ratio per doubling, clustered by group | 1.33 (1.13-1.55) | 1.20 (1.08-1.34) |
+| same, clustered by SITC/HS division | 1.33 (1.17-1.51) | 1.20 (0.95-1.52) |
+| same, cluster bootstrap over divisions (95 %) | 1.05-2.30 | 0.81-1.74 |
+| without B-03 (steel 1969) | 1.40 (1.21-1.63) | |
+| without B-13 (steel 1984) | 1.30 (1.02-1.64) | |
+| without B-04 (textiles 1971) | 1.32 (1.14-1.53) | |
+| without B-03, B-13 and B-04 (6 starts left) | 1.38 (1.03-1.85) | |
+| without B-26 (steel 1984, Brazil and Mexico) | | 1.00 (0.80-1.25) |
+| Crossover indicator at given exports and imports, clustered by division | 2.88 (1.36-6.12) | |
+| same, without B-13 | 1.38 (0.44-4.37) | |
+| Measure level: covered groups' mean log ratio in the start year, observed / shifted years | 0.79 / 0.36 (p = 0.005; 15 pairs) | −1.34 / −1.47 (p = 0.31; 12 pairs) |
+| Export ratio 0.25-0.5 against below 0.25 (bins) | 5.90 (2.17-16.04) | |
+| Export ratio 0.5-1 | 5.73 (1.00-32.70) | |
+| Export ratio 1-2 | 4.64 (0.62-34.71) | |
+| Export ratio 2 or more | 11.42 (3.20-40.85) | |
+| Log ratio per doubling, offsets 0.01 to 10 million USD, with and without cap | 1.32 to 1.47 | |
+| Log US imports from the challenger, at given ratio and exports | +0.21 (p = 0.26) | |
+| Log export ratio, at given imports and exports | +0.41 (p < 0.001) | |
+
+Rate ratios with 95 % intervals. Shifted years: the start year moved by −10 to +10 years (0 excluded), 10,000 draws. The further-case measures are mostly textile agreements that came before displacement (Section H), which explains their low ratios. The panel is a discrete-time hazard: groups leave after their first start.
+
 ## D.5 Imports and employment
 
 Product duties rise with imports from the challenger; broad measures show no clear pattern. We split displaced groups into thirds by US imports from the challenger in the crossover year. Across these thirds, the share with an AD or CVD case within five years of the crossover is 0.01, 0.11 and 0.30 (N = 228). The share with a broad measure within ten years (Japan and Korea, N = 66) is 0.27, 0.14 and 0.23 (`data/population_weight.csv`).
