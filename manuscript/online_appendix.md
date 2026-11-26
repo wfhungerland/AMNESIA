@@ -53,6 +53,22 @@ Among the four models, alpha is 0.89. The consensus differs from the first coder
 
 The main counts change little. With the consensus scores, 25 of the 41 core responses are binding (IR 3 or more), 2 of them before the milestone, as with the first coder. Broad responses (IR 4 or 5) fall from 15 to 13, and one of them still comes before its milestone (the export controls of October 2022). Eleven responses are broad for both. Of the 42 register entries, the consensus scores 37 as broad and 5 as narrow binding; none falls below IR 3. A model coding checks whether the rules can be applied as written. It does not replace an independent human coder.
 
+**Reconciliation.** We then reviewed the 14 disagreements against the rules of Table A.1 and revised eight scores where the models' reading followed the rules more closely (Table A.3). The original scores are kept in the data (`reach_coder1_original`, `reach_original`), and all agreement figures above refer to them. All other results in the manuscript and this appendix use the revised scores. The revision lowers the number of broad American measures in the register from 23 to 22 and changes no conclusion; the rate ratios of Table D.3 move slightly (`data/register_recode.py` recomputes the outcome columns of both panels).
+
+**Table A.3. Scores revised after the second coding**
+
+| Item | Measure | First coding | Models (median) | Revised | Reason |
+|---|---|---|---|---|---|
+| R-CN-11 | EU countervailing duties on Chinese battery-electric cars, 2024 | 4 | 3 | 3 | a countervailing duty on one product is IR 3 by rule |
+| R-JP-06, B-16 | US 100 per cent tariffs on 300 million dollars of Japanese electronics, 1987 | 4 | 3 | 3 | retaliation on a short product list, no sectoral limit |
+| B-28 | US 100 per cent tariffs on Brazilian goods, 1988 | 4 | 3 | 3 | retaliation on a short product list |
+| B-19 | Section 232 tariffs on steel and aluminium, 2018 | 5 | 4 | 4 | two sectors, not a large share of imports from the targets |
+| R-JP-09 | Japanese controls on cotton exports to the US, 1955 | 3 | 4 | 4 | binding quantity limit for a whole sector |
+| R-JP-01 | UK and France invoke GATT Article XXXV against Japan, 1955 | 3 | 5 | 4 | binding and economy-wide, but imposes no tariff itself; lower of two levels |
+| R-JPGB-04 | UK notice ending the Anglo-Japanese treaty for British West Africa, 1933 | 2 | 3 | 3 | binding act of narrow, regional reach |
+
+Six disagreements were kept. The Section 201 safeguards on motorcycles (1983) and on solar cells and washing machines (2018) stay at IR 4, because a Section 201 measure covers the whole domestic industry of the product, as the colour-television agreement does, which the models also score 4. The American tariff of 100 per cent on Chinese electric vehicles (2024) stays at IR 4 as a prohibitive limit on a whole sector. The Brussels Sugar Convention (1902) stays at IR 4 as a binding regime for the whole sugar sector; two of the four models agree. India's duty of 1930 stays at IR 3 and is marked as doubtful: it applied to British goods too, and only a margin of five points was aimed at foreign goods.
+
 # B. Displacement milestones
 
 **Table B.1. Sectoral displacement milestones and sources**
@@ -121,11 +137,11 @@ Table C.1 lists every response in the core dataset. For each response it gives t
 | Germany | absorption | 0 | 0 | 0 | n.a. |
 | Germany | post | 8 | 4 | 2 | 5 |
 | Japan | absorption | 1 | 0 | 0 | 2 |
-| Japan | post | 14 | 11 | 8 | 4 |
+| Japan | post | 14 | 11 | 9 | 4 |
 | Korea | absorption | 2 | 1 | 0 | 3 |
 | Korea | post | 5 | 2 | 0 | 3 |
 | China | absorption | 2 | 1 | 1 | 5 |
-| China | post | 9 | 6 | 4 | 5 |
+| China | post | 9 | 6 | 3 | 5 |
 | **All** | **absorption** | **5** | **2** | **1** | **5** |
 | **All** | **post** | **36** | **23** | **14** | **5** |
 
@@ -135,7 +151,7 @@ Five of 41 responses come before the milestone of their sector. Four of the five
 
 **Window test and placebo.** Responses cluster after the milestone. Within ten years on either side of the milestone, 5 responses fall in the ten years before and 26 in the ten years from the milestone. A binomial test against equal probability gives a one-sided p = 0.0001. For binding responses the counts are 2 and 18 (p = 0.0002). A placebo exercise shifts every milestone by a random number of years between −10 and +10, in 10,000 draws. All responses of a milestone shift together. The mean share of responses after the milestone is then 0.60 (0.62 for binding responses). A share as high as the observed 0.84 occurs in 2.5 per cent of draws for all responses. The observed binding share of 0.90 occurs in 1.1 per cent (`data/tests_sequence.py`, `data/tests_sequence.txt`).
 
-**Initiation dates.** A measure can follow the milestone while the decision behind it came earlier. We therefore date each of the 25 binding responses by the start of the formal process that produced it: the petition filed, the investigation opened, the bill introduced or the negotiations opened (Table C.3; `data/tests_initiation.py`, `data/tests_initiation.txt`). Nineteen dates are confirmed at the source. Two rest on secondary sources (R-DE-08, R-JP-14), one is confirmed only to the year (R-JP-10), and for two no start could be verified, so the measure date is kept (R-JP-09, R-JP-13). Their measures came four and six years after the milestone; a start up to three years earlier, the longest delay observed, would not move either before it. The median delay from initiation to measure is one year, and the longest is three. Three binding processes began before the milestone, although the measure came after it. They are the steel talks of June 1968 (milestone 1969), the antidumping complaint on television receivers of March 1968 (milestone 1970) and the four-year review of the Section 301 tariffs opened in May 2022, which raised the tariff on Chinese electric vehicles (milestone 2023). With initiation dates, 20 of 25 binding responses begin from the milestone. In the ten-year window the counts are 5 before and 15 after (binomial p = 0.021); for broad responses, 3 and 10 (p = 0.046). The placebo no longer separates these shares from chance (p = 0.14 and 0.16). Formal processes thus often begin as the challenger approaches the lead, in line with the gradient in the panel (Table D.3).
+**Initiation dates.** A measure can follow the milestone while the decision behind it came earlier. We therefore date each of the 25 binding responses by the start of the formal process that produced it: the petition filed, the investigation opened, the bill introduced or the negotiations opened (Table C.3; `data/tests_initiation.py`, `data/tests_initiation.txt`). Nineteen dates are confirmed at the source. Two rest on secondary sources (R-DE-08, R-JP-14), one is confirmed only to the year (R-JP-10), and for two no start could be verified, so the measure date is kept (R-JP-09, R-JP-13). Their measures came four and six years after the milestone; a start up to three years earlier, the longest delay observed, would not move either before it. The median delay from initiation to measure is one year, and the longest is three. Three binding processes began before the milestone, although the measure came after it. They are the steel talks of June 1968 (milestone 1969), the antidumping complaint on television receivers of March 1968 (milestone 1970) and the four-year review of the Section 301 tariffs opened in May 2022, which raised the tariff on Chinese electric vehicles (milestone 2023). With initiation dates, 20 of 25 binding responses begin from the milestone. In the ten-year window the counts are 5 before and 15 after (binomial p = 0.021); for broad responses, 3 and 10 (p = 0.046). The placebo no longer separates these shares from chance (p = 0.15 and 0.21). Formal processes thus often begin as the challenger approaches the lead, in line with the gradient in the panel (Table D.3).
 
 **Table C.3. Initiation dates of the 25 binding responses** (`data/ds1_initiation.csv`)
 
@@ -167,11 +183,11 @@ Five of 41 responses come before the milestone of their sector. Four of the five
 | R-CN-10 | 2024-05 | 2023 | 2022-05-05 | investigation | USTR notice, 87 FR 26797 (5 May 2022) |
 | R-CN-11 | 2024-10-30 | 2023 | 2023-10-04 | investigation | Notice of initiation C/2023/160, OJ C, 4.10.2023 |
 
-**Milestone definition and dependence between responses.** The milestones mix several measures of leadership, and one of them, advanced chips (2023), marks a capability rather than a market lead. Three checks address this (`data/tests_robust_timing.py`, `data/tests_robust_timing.txt`). First, without the advanced-chips milestone, 36 of 39 responses and 23 of 24 binding responses come from the milestone (window 1 before and 18 after, placebo p = 0.003). With initiation dates the counts are 4 and 15 (binomial p = 0.010, placebo p = 0.086). Second, of the 23 responses with an exactly dated export crossover, none comes before it, with measure dates or with initiation dates. The placebo has little power here, because most of these responses come many years after the crossover (p between 0.08 and 0.23). Third, responses to the same milestone are not independent. Counting each milestone once, the first binding response comes from the milestone in 13 of 15 cases (one-sided sign test, p = 0.004), and in 13 of 14 without advanced chips (p = 0.001). With initiation dates the counts fall to 10 of 15 (p = 0.15) and 10 of 14 (p = 0.090).
+**Milestone definition and dependence between responses.** The milestones mix several measures of leadership, and one of them, advanced chips (2023), marks a capability rather than a market lead. Three checks address this (`data/tests_robust_timing.py`, `data/tests_robust_timing.txt`). First, without the advanced-chips milestone, 36 of 39 responses and 23 of 24 binding responses come from the milestone (window 1 before and 18 after, placebo p = 0.003). With initiation dates the counts are 4 and 15 (binomial p = 0.010, placebo p = 0.086). Second, of the 23 responses with an exactly dated export crossover, none comes before it, with measure dates or with initiation dates. The placebo has little power here, because most of these responses come many years after the crossover (p between 0.08 and 0.21). Third, responses to the same milestone are not independent. Counting each milestone once, the first binding response comes from the milestone in 13 of 15 cases (one-sided sign test, p = 0.004), and in 13 of 14 without advanced chips (p = 0.001). With initiation dates the counts fall to 10 of 15 (p = 0.15) and 10 of 14 (p = 0.090).
 
 **Business cycle.** The business cycle does not appear to explain the sequence. Temporary trade barriers rise in downturns (Bown and Crowley 2013a). If milestones coincided with recessions, the sequence could reflect the cycle. We measure the incumbent's output gap as the deviation of log real GDP from its long-run trend. The trend comes from a Hodrick-Prescott filter, a standard smoothing method (λ = 100; Bolt and van Zanden 2024). Of the 39 responses with data, 38 per cent fall in years with a negative output gap. Of all years in the case windows, 45 per cent do. For binding responses the shares are 39 and 45 per cent (`data/tests_cycle.py`, `data/tests_cycle.txt`).
 
-**Export crossover instead of milestone.** Under the export crossover, 28 of the 41 responses follow the crossover. Another 3 cannot be placed, because only an upper bound exists for the crossover. These are British responses of 1885-1896; the export lead in chemicals is first documented in 1899. A further 9 cannot be classified, because the export data do not measure the contested product. DRAM chips cannot be separated from logic chips in SITC 776, the group for all semiconductors in the Standard International Trade Classification, and China's exports of integrated circuits consist largely of assembled foreign chips. One response comes before the crossover. It is the EU's countervailing duties on Chinese battery-electric vehicles of October 2024 (IR 4). The EU imposed them while Chinese electric-car exports were still below German exports (32.0 against 41.1 billion US dollars in 2024). Chinese exports had passed American ones in 2021, three years before the American tariff increase. Each rule thus produces one exception, in a different sector. Under the milestone it is the export controls on advanced chips; under the crossover it is the EU duties on electric cars.
+**Export crossover instead of milestone.** Under the export crossover, 28 of the 41 responses follow the crossover. Another 3 cannot be placed, because only an upper bound exists for the crossover. These are British responses of 1885-1896; the export lead in chemicals is first documented in 1899. A further 9 cannot be classified, because the export data do not measure the contested product. DRAM chips cannot be separated from logic chips in SITC 776, the group for all semiconductors in the Standard International Trade Classification, and China's exports of integrated circuits consist largely of assembled foreign chips. One response comes before the crossover. It is the EU's countervailing duties on Chinese battery-electric vehicles of October 2024 (IR 3 after the second coding of Section A.4; IR 4 in the first coding). The EU imposed them while Chinese electric-car exports were still below German exports (32.0 against 41.1 billion US dollars in 2024). Chinese exports had passed American ones in 2021, three years before the American tariff increase. Each rule thus produces one exception, in a different sector. Under the milestone it is the export controls on advanced chips; under the crossover it is the EU duties on electric cars.
 # D. Registers, population and control group
 
 ## D.1 Trade remedies
@@ -180,7 +196,7 @@ Narrow product duties against Korea and China mostly come before the milestone o
 
 ## D.2 Register of broad instruments
 
-Most broad American measures follow the export crossover of the products they target. `data/broad_register.csv` lists 23 broad American measures (IR 4-5) against Japan, Korea and China from 1957 to 2024 (entries B-01 to B-23). The sources are the USITC's list of Section 201 safeguard protection 1975-2016 (USITC Centennial History, Table 10.1), bilateral restraint agreements, Sections 232 and 301, and the Export Administration Regulations. Section 201 grants temporary relief to an injured industry, Section 232 allows measures on grounds of national security, and the Export Administration Regulations govern US export controls. The 23 measures form 31 pairs of measure and target. For each pair, `data/population_test.py` dates the export crossover of the products concerned (`data/population_test.txt`). Of the 31 pairs, 22 come after the crossover, 10 of them with the crossover in the first data year. Another 4 come before it, and 5 cannot be dated: 3 come before the data begin, 1 has data that begin after the measure, and 1 has no crossover in the data. Of the four that come before, two are genuine exceptions. They are Korea under the cotton-textile Long-Term Arrangement of 1962 and under the textile agreements of 1971. Japan under the 1986 semiconductor agreement appears to be an artefact of the broad SITC group, since DRAM crossed in 1981. China under the global steel safeguard of 2002 was not a target of the measure. For several Section 201 actions, the target countries come from secondary literature and are marked in the register.
+Most broad American measures follow the export crossover of the products they target. `data/broad_register.csv` lists 23 American measures against Japan, Korea and China from 1957 to 2024 (entries B-01 to B-23). After the second coding (Section A.4), 22 of them score 4 or 5; the tariffs on Japanese electronics of 1987 (B-16) score 3 and leave the analysis. The sources are the USITC's list of Section 201 safeguard protection 1975-2016 (USITC Centennial History, Table 10.1), bilateral restraint agreements, Sections 232 and 301, and the Export Administration Regulations. Section 201 grants temporary relief to an injured industry, Section 232 allows measures on grounds of national security, and the Export Administration Regulations govern US export controls. The 22 broad measures form 30 pairs of measure and target. For each pair, `data/population_test.py` dates the export crossover of the products concerned (`data/population_test.txt`). Of the 30 pairs, 21 come after the crossover, 10 of them with the crossover in the first data year. Another 4 come before it, and 5 cannot be dated: 3 come before the data begin, 1 has data that begin after the measure, and 1 has no crossover in the data. Of the four that come before, two are genuine exceptions. They are Korea under the cotton-textile Long-Term Arrangement of 1962 and under the textile agreements of 1971. Japan under the 1986 semiconductor agreement appears to be an artefact of the broad SITC group, since DRAM crossed in 1981. China under the global steel safeguard of 2002 was not a target of the measure. For several Section 201 actions, the target countries come from secondary literature and are marked in the register.
 
 ## D.3 Population of displaced groups
 
@@ -204,7 +220,7 @@ A panel of groups compares how often measures start before and after the crossov
 
 | Outcome | Sample | Rate per 100 group-years, before / after | Rate ratio (95 % interval) |
 |---|---|---|---|
-| Start of targeted broad instrument (to first hit) | Japan and Korea, SITC Rev. 1, 1962-1999 | 0.24 / 1.15 | 5.69 (2.31-14.02) |
+| Start of targeted broad instrument (to first hit) | Japan and Korea, SITC Rev. 1, 1962-1999 | 0.21 / 1.15 | 6.71 (2.71-16.61) |
 | same, without Section 301 tariffs | China, 1992-2023 | 0.02 / 0.04 | 1.13 (0.11-11.24) |
 | New US AD/CVD case | all, 1988-2015, controlling for export size | 3.38 / 6.48 | 1.10 (0.75-1.60) |
 | same | all, without size control | 3.38 / 6.48 | 1.97 (1.37-2.82) |
@@ -212,30 +228,30 @@ A panel of groups compares how often measures start before and after the crossov
 
 The Section 301 tariffs of 2018 covered all 813 Chinese HS groups at risk: the 609 displaced and the 204 not displaced. AD and CVD cases carry HS codes from 1988. We match them to SITC groups through the WITS concordances HS 1988/92 to SITC Rev. 1 and Rev. 3. WITS is the World Bank's World Integrated Trade Solution, which publishes tables linking the classifications.
 
-**Scale and relative position.** The rate ratio for broad measures mixes displacement with scale, because a measure is unlikely to target a product the challenger barely sells. The same control that removes the effect for AD/CVD cases also shrinks it for broad measures. Table D.3 reports the variants (`data/robust_broad.py`, `data/robust_broad.txt`). With the log of the challenger's exports, the ratio for Japan and Korea falls from 5.69 to 2.30. With the incumbent's exports of the group added, it vanishes. The log ratio of the challenger's to the incumbent's exports keeps its effect in every specification. At given export size and imports, a doubling of relative exports raises the start rate by 30 per cent; for the seven further economies of Section H, by 17 per cent. The event study, against groups never displaced, shows the rise beginning in the five years before the crossover. Resistance thus builds as the challenger approaches parity in a group. Parity itself is not a sharp threshold. All estimates rest on 27 starts for Japan and Korea and 50 for the further cases.
+**Scale and relative position.** The rate ratio for broad measures mixes displacement with scale, because a measure is unlikely to target a product the challenger barely sells. The same control that removes the effect for AD/CVD cases also shrinks it for broad measures. Table D.3 reports the variants (`data/robust_broad.py`, `data/robust_broad.txt`). With the log of the challenger's exports, the ratio for Japan and Korea falls from 6.71 to 2.86. With the incumbent's exports of the group added, it falls to 1.33 and loses significance. The log ratio of the challenger's to the incumbent's exports keeps its effect in every specification. At given export size and imports, a doubling of relative exports raises the start rate by 33 per cent; for the seven further economies of Section H, by 20 per cent. The event study, against groups never displaced, shows the rise beginning in the five years before the crossover. Resistance thus builds as the challenger approaches parity in a group. Parity itself is not a sharp threshold. All estimates rest on 26 starts for Japan and Korea and 45 for the further cases.
 
 **Table D.3. Broad measures: scale, relative position and timing**
 
 | Specification | Sample | Rate ratio (95 % interval) |
 |---|---|---|
-| post, year × challenger effects | Japan and Korea, SITC Rev. 1, 6,068 group-years, 27 starts | 5.69 (2.31-14.02) |
-| + log challenger exports | same | 2.30 (1.01-5.21) |
-| + log US imports from the challenger | same | 2.35 (1.08-5.15) |
-| + log US exports of the group | same | 1.07 (0.38-3.01) |
-| + SITC one-digit sector effects | same | 0.85 (0.30-2.43) |
+| post, year × challenger effects | Japan and Korea, SITC Rev. 1, 6,080 group-years, 26 starts | 6.71 (2.71-16.61) |
+| + log challenger exports | same | 2.86 (1.27-6.44) |
+| + log US imports from the challenger | same | 2.88 (1.32-6.30) |
+| + log US exports of the group | same | 1.33 (0.47-3.76) |
+| + SITC one-digit sector effects | same | 1.06 (0.37-3.02) |
 | post, year effects | displaced groups, ±10 years around the crossover | 2.36 (0.83-6.73) |
 | + log challenger exports and US imports | same | 1.63 (0.63-4.27) |
-| post, group fixed effects, log challenger exports, linear trend | groups with a start | 1.85 (0.21-16.05) |
-| log export ratio, per doubling, at given exports and imports | Japan and Korea | 1.30 (1.10-1.52) |
-| post, year × source effects | seven further economies, 50 starts | 5.83 (2.83-11.99) |
-| + log challenger exports | same | 0.93 (0.36-2.41) |
-| log export ratio, per doubling, at given exports | same | 1.17 (1.05-1.30) |
+| post, group fixed effects, log challenger exports, linear trend | groups with a start | 1.50 (0.17-13.11) |
+| log export ratio, per doubling, at given exports and imports | Japan and Korea | 1.33 (1.13-1.55) |
+| post, year × source effects | seven further economies, 45 starts | 7.03 (3.45-14.33) |
+| + log challenger exports | same | 0.99 (0.36-2.68) |
+| log export ratio, per doubling, at given exports | same | 1.20 (1.08-1.34) |
 | *Event study, against groups never displaced (Japan and Korea, with controls):* | | |
-| 6-10 years before the crossover | 242 group-years, 1 start | 1.46 (0.13-16.11) |
-| 1-5 years before | 286 group-years, 4 starts | 5.61 (1.51-20.82) |
-| 0-4 years after | 329 group-years, 6 starts | 3.69 (1.08-12.54) |
-| 5-9 years after | 288 group-years, 9 starts | 6.00 (2.03-17.77) |
-| 10 or more years after | 778 group-years, 1 start | 1.12 (0.11-11.06) |
+| 6-10 years before the crossover | 242 group-years, 1 start | 1.88 (0.17-20.73) |
+| 1-5 years before | 286 group-years, 4 starts | 6.94 (1.72-28.03) |
+| 0-4 years after | 329 group-years, 6 starts | 5.12 (1.44-18.22) |
+| 5-9 years after | 288 group-years, 9 starts | 8.11 (2.54-25.88) |
+| 10 or more years after | 778 group-years, 1 start | 1.97 (0.22-17.54) |
 
 Log export ratio: log of (challenger exports + 0.1 million US dollars) over (US exports + 0.1 million), capped at ±5. In the further-cases sample, year × source cells without any start are dropped; they do not affect a Poisson fixed-effects estimate. Groups leave the panel after their first start, so the last bin holds mainly groups that were never hit.
 
@@ -406,9 +422,9 @@ Attention to Japan as a competitor stays low and steady through the 1960s and 19
 |---|---|---|---|---|---|
 | Textiles and apparel | ≤1962 | B-01, B-02, B-04 (from 1957) | 13.65 | 1.95 | 4.39 |
 | Steel | ≤1962 | B-03, B-05, B-09, B-12, B-13, B-17 (from 1969) | 2.20 | 3.66 | 2.80 |
-| Television sets | 1965 | B-07, B-16 (from 1977) | 0.63 | 0.41 | 0.88 |
+| Television sets | 1965 | B-07 (from 1977) | 0.63 | 0.41 | 0.88 |
 | Cars and motorcycles | 1977 | B-10, B-11 (from 1981) | 1.16 | 5.69 | 1.26 |
-| Semiconductors | 1989 | B-14, B-16 (from 1986) | 5.55 | 3.85 | 0.06 |
+| Semiconductors | 1989 | B-14 (from 1986) | 5.55 | 3.85 | 0.06 |
 | Machine tools | 1977 | B-15 (from 1986) | 0.17 | 0.32 | 0.11 |
 | Ships | ≤1962 | n.a. | 0.47 | 0.24 | 0.48 |
 | Footwear | ≤1962 | n.a. | 0.21 | 0.62 | 0.71 |
@@ -533,7 +549,7 @@ In the next table, the phase column compares each instrument with the export cro
 | Steel VRAs 1984 | Brazil | 4 | 1983 | post |
 | Steel VRAs 1984 | Mexico | 4 | none | extension |
 | Machine-tool VRA 1986 | Taiwan | 4 | none | extension of instrument against Japan |
-| Section 301 tariffs 1988 | Brazil | 4 | none | retaliation over patents |
+| Section 301 tariffs 1988 | Brazil | 3 (narrow after second coding) | none | retaliation over patents |
 | GSP graduation 1989 | Hong Kong, Taiwan | 4 (doubtful) | none (economy-wide) | rule-based |
 | Cotton textile agreements 1963 | Hong Kong; Taiwan | 4 | 1965; 1971 | absorption (2 and 8 years) |
 | Cotton textile agreements 1967-1972 | Mexico; Brazil; Malaysia; Thailand | 4 | none | restraint without displacement |
@@ -546,7 +562,7 @@ In the next table, the phase column compares each instrument with the export cro
 
 Most displaced groups in the further cases drew no targeted sectoral broad measure within ten years. We count the groups whose crossover does not fall in the first data year. For each set we report the share followed within ten years by such a measure, leaving out GSP graduation and politically motivated measures. The shares are: Taiwan SITC 1, 1 of 24; Brazil SITC 1, 4 of 9 (steel); Hong Kong SITC 1, 0 of 9; Vietnam SITC 3, 2 of 5 (apparel, with the quota of 2003 one year after the two groups crossed); and Thailand, Malaysia, Mexico, Vietnam, Taiwan and Brazil in HS (2009-2023), 0 of 283.
 
-A panel of 3,702 group series gives the start rates of these measures. Targeted sectoral broad measures begin at 0.07 per 100 group-years before the crossover and at 0.12 after it. The rate ratio is 5.83 (95 % interval 2.84-11.95), with year × source effects and clustering by group. Including GSP graduation lowers the ratio to 1.33 (1.07-1.65), because graduation covered all groups at once. Antidumping and countervailing duty (AD/CVD) cases (1988-2015) rise from 0.97 to 1.98 per 100 group-years after the crossover. They do not rise once export size is held constant (rate ratio 1.29, 0.70-2.40). This matches the result for Japan, Korea and China (Table D.2). For broad measures, the ratio of 5.83 also falls once export size is held constant (0.93), while relative exports keep their effect (Table D.3).
+A panel of 3,702 group series gives the start rates of these measures. Targeted sectoral broad measures begin at 0.06 per 100 group-years before the crossover and at 0.12 after it. The rate ratio is 7.03 (95 % interval 3.45-14.33), with year × source effects and clustering by group. Including GSP graduation lowers the ratio to 1.34 (1.08-1.67), because graduation covered all groups at once. Antidumping and countervailing duty (AD/CVD) cases (1988-2015) rise from 0.97 to 1.98 per 100 group-years after the crossover. They do not rise once export size is held constant (rate ratio 1.29, 0.70-2.40). This matches the result for Japan, Korea and China (Table D.2). For broad measures, the ratio of 7.03 also falls once export size is held constant (0.99), while relative exports keep their effect (Table D.3).
 
 ## H.4 Japan against Britain
 
@@ -598,7 +614,7 @@ The first table below classes each broad measure as negotiated or unilateral. Ne
 
 | Period | Defence pact with the US | Negotiated | Unilateral |
 |---|---|---|---|
-| before 1995 | yes (Japan, Korea, Taiwan to 1980, Brazil, Mexico, Thailand) | 21 | 4 (B-09, B-11, B-16, B-28) |
+| before 1995 | yes (Japan, Korea, Taiwan to 1980, Brazil, Mexico, Thailand) | 21 | 2 (B-09, B-11) |
 | before 1995 | no (Taiwan after 1980, Malaysia) | 2 | 1 |
 | from 1995 | yes | 0 | 0 |
 | from 1995 | no (China, Vietnam) | 1 (B-30) | 4 (B-20 to B-23) |

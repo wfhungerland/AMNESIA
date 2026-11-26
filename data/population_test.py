@@ -41,6 +41,7 @@ def crossover(ch, us, min_val=5e7):
 
 # Befund 2: breite Massnahmen
 reg = pd.read_csv(D / "broad_register.csv", dtype=str)
+reg = reg[reg.reach.astype(int) >= 4]  # only broad entries (IR 4-5) count; see register_recode.py
 rows = []
 for _, r in reg.iterrows():
     for tgt in r.target.split(";"):

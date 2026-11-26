@@ -95,6 +95,7 @@ Weitere Auffälligkeit: Die Weltbank-Reihe für Korea zeigt 1976–1979 winzige 
 | `tests_robust_timing.txt` | Timing ohne Chip-Meilenstein, nach Exportkreuzung, je Meilenstein (Gutachten Befunde 3 und 4; `tests_robust_timing.py`) |
 | `sector_prior.txt` | Sektorauswahl: Stimme gegen früheren Schutz, ohne Textil und Stahl (Gutachten Befund 6; `sector_prior.py`) |
 | `coder2/` | Blinde Zweitcodierung: Blatt, Regeln, Prompt, Antworten der Modelle (`coder2/models/`), Auswertung (`coder2_models.py`, `coder2_alpha.py` für eine menschliche Codierung) |
+| `ds1_events.csv`, `broad_register.csv` | Spalten `reach_coder1_original` und `reach_original`: Punkte vor dem Abgleich mit der Zweitcodierung; `reach_coder1` und `reach` sind die abgeglichenen Punkte (Anhang, Tabelle A.3). `register_recode.py` rechnet die Ergebnisspalten der Panels neu. |
 
 ## Gutachten: Register, Population, Kontrollgruppe, Gewicht
 

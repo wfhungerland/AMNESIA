@@ -17,15 +17,14 @@ B-13,1984,JP,Steel voluntary restraint agreements,4,s1,1962.0,True,1962.0,post (
 B-13,1984,KR,Steel voluntary restraint agreements,4,s1,1983.0,False,1962.0,post
 B-14,1986,JP,US-Japan Semiconductor Trade Agreement,4,s1,1989.0,False,1962.0,absorption
 B-15,1986,JP,Machine tool voluntary restraint agreement,4,s1,1977.0,False,1962.0,post
-B-16,1987,JP,100 per cent tariffs on Japanese electronics,4,s1,1986.0,False,1962.0,post
 B-17,2002,JP,Steel safeguard,4,s1,1962.0,True,1962.0,post (Kreuzung spaetestens im ersten Datenjahr)
 B-17,2002,KR,Steel safeguard,4,s1,1983.0,False,1962.0,post
 B-17,2002,CN,Steel safeguard,4,s3,2004.0,False,1992.0,absorption
 B-18,2018,CN,Safeguards on solar cells and large washing machines,4,hs4,2008.0,True,2008.0,post (Kreuzung spaetestens im ersten Datenjahr)
 B-18,2018,KR,Safeguards on solar cells and large washing machines,4,,,False,,vor Datenbeginn
-B-19,2018,CN,Steel and aluminium tariffs,5,hs4,2008.0,True,2008.0,post (Kreuzung spaetestens im ersten Datenjahr)
-B-19,2018,KR,Steel and aluminium tariffs,5,,,False,,vor Datenbeginn
-B-19,2018,JP,Steel and aluminium tariffs,5,,,False,,vor Datenbeginn
+B-19,2018,CN,Steel and aluminium tariffs,4,hs4,2008.0,True,2008.0,post (Kreuzung spaetestens im ersten Datenjahr)
+B-19,2018,KR,Steel and aluminium tariffs,4,,,False,,vor Datenbeginn
+B-19,2018,JP,Steel and aluminium tariffs,4,,,False,,vor Datenbeginn
 B-20,2018,CN,Section 301 tariffs (about 370bn USD of imports),5,s3,2005.0,False,1992.0,post
 B-21,2019,CN,Huawei added to Entity List,5,s3,2003.0,False,1992.0,post
 B-22,2022,CN,Advanced computing and semiconductor export controls,5,s3,2009.0,False,1992.0,post

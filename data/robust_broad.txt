@@ -1,34 +1,35 @@
-Japan and Korea, SITC Rev. 1: 176 groups, 6068 group-years at risk, 27 starts (11 before, 16 after the crossover)
+Japan and Korea, SITC Rev. 1: 176 groups, 6080 group-years at risk, 26 starts (10 before, 16 after the crossover)
 
-(1) baseline, year x challenger effects: IRR 5.69 (95% CI 2.31-14.02), p=0.000; N=6068, events=27
-(2) + log challenger exports: IRR 2.30 (95% CI 1.01-5.21), p=0.047; N=6068, events=27
-    coefficient on log challenger exports: 0.61 (p=0.001)
-(3) + log US imports from the challenger: IRR 2.35 (95% CI 1.08-5.15), p=0.032; N=6068, events=27
-(4) + log US exports of the group: IRR 1.07 (95% CI 0.38-3.01), p=0.891; N=6068, events=27
-(5) as (4) + SITC one-digit sector effects: IRR 0.85 (95% CI 0.30-2.43), p=0.768; N=6068, events=27
+(1) baseline, year x challenger effects: IRR 6.71 (95% CI 2.71-16.61), p=0.000; N=6080, events=26
+(2) + log challenger exports: IRR 2.86 (95% CI 1.27-6.44), p=0.011; N=6080, events=26
+    coefficient on log challenger exports: 0.55 (p=0.002)
+(3) + log US imports from the challenger: IRR 2.88 (95% CI 1.32-6.30), p=0.008; N=6080, events=26
+(4) + log US exports of the group: IRR 1.33 (95% CI 0.47-3.76), p=0.592; N=6080, events=26
+(5) as (4) + SITC one-digit sector effects: IRR 1.06 (95% CI 0.37-3.02), p=0.920; N=6080, events=26
 (6) displaced groups, +-10 years around the crossover, year effects: IRR 2.36 (95% CI 0.83-6.73), p=0.108; N=1196, events=20
 (7) as (6) + log challenger exports and US imports: IRR 1.63 (95% CI 0.63-4.27), p=0.316; N=1196, events=20
-(8) group fixed effects (groups with a start only), year effects: IRR 66.07 (95% CI 13.47-323.94), p=0.000; N=406, events=27
-(9) group fixed effects + log challenger exports + linear time trend: IRR 1.85 (95% CI 0.21-16.05), p=0.575; N=406, events=27
-(10) as (3) + log export ratio: IRR 1.16 (95% CI 0.40-3.39), p=0.782; N=6068, events=27
-    log export ratio: coefficient 0.34 (p=0.044)
-(11) log export ratio instead of the crossover indicator (IRR per log point): IRR 1.45 (95% CI 1.15-1.83), p=0.002; N=6068, events=27
-    per doubling of the export ratio: x1.30 (95% CI 1.10-1.52)
+(8) group fixed effects (groups with a start only), year effects: IRR 2.26 (95% CI 0.57-9.00), p=0.247; N=380, events=26
+(9) group fixed effects + log challenger exports + linear time trend: IRR 1.50 (95% CI 0.17-13.11), p=0.714; N=380, events=26
+(10) as (3) + log export ratio: IRR 1.44 (95% CI 0.49-4.24), p=0.511; N=6080, events=26
+    log export ratio: coefficient 0.33 (p=0.049)
+(11) log export ratio instead of the crossover indicator (IRR per log point): IRR 1.50 (95% CI 1.20-1.89), p=0.000; N=6080, events=26
+    per doubling of the export ratio: x1.33 (95% CI 1.13-1.55)
 
-Further cases, sectoral broad measures (year x source cells with a start): 519 group series, 50 starts (42 before, 8 after the crossover)
-(12) further cases, baseline, year x source effects: IRR 5.83 (95% CI 2.83-11.99), p=0.000; N=967, events=50
-(13) further cases + log challenger exports: IRR 0.93 (95% CI 0.36-2.41), p=0.879; N=967, events=50
-(14) further cases + log export ratio: IRR 0.39 (95% CI 0.15-1.06), p=0.066; N=967, events=50
-    log export ratio: coefficient 0.31 (p=0.000)
-(15) further cases, log export ratio instead of the crossover indicator (IRR per log point): IRR 1.25 (95% CI 1.07-1.45), p=0.005; N=967, events=50
-    per doubling of the export ratio: x1.17 (95% CI 1.05-1.30)
+Further cases, sectoral broad measures (year x source cells with a start): 519 group series, 45 starts (37 before, 8 after the crossover)
+    raw start rates per 100 group-years: before 0.06 (37), after 0.12 (8), all group-years at risk
+(12) further cases, baseline, year x source effects: IRR 7.03 (95% CI 3.45-14.33), p=0.000; N=895, events=45
+(13) further cases + log challenger exports: IRR 0.99 (95% CI 0.36-2.68), p=0.979; N=895, events=45
+(14) further cases + log export ratio: IRR 0.41 (95% CI 0.15-1.14), p=0.088; N=895, events=45
+    log export ratio: coefficient 0.34 (p=0.000)
+(15) further cases, log export ratio instead of the crossover indicator (IRR per log point): IRR 1.31 (95% CI 1.12-1.53), p=0.001; N=895, events=45
+    per doubling of the export ratio: x1.20 (95% CI 1.08-1.34)
 
 Event study (reference: groups never displaced; controls: log challenger exports, log US imports, year x challenger):
     bin  group_years  starts  rate_per_100  irr   lo    hi
-  never         3784       5          0.13 1.00  NaN   NaN
-  <=-11          361       1          0.28 2.22 0.28 17.44
--10..-6          242       1          0.41 1.46 0.13 16.11
- -5..-1          286       4          1.40 5.61 1.51 20.82
-   0..4          329       6          1.82 3.69 1.08 12.54
-   5..9          288       9          3.12 6.00 2.03 17.77
-   >=10          778       1          0.13 1.12 0.11 11.06
+  never         3796       4          0.11 1.00  NaN   NaN
+  <=-11          361       1          0.28 2.70 0.34 21.55
+-10..-6          242       1          0.41 1.88 0.17 20.73
+ -5..-1          286       4          1.40 6.94 1.72 28.03
+   0..4          329       6          1.82 5.12 1.44 18.22
+   5..9          288       9          3.12 8.11 2.54 25.88
+   >=10          778       1          0.13 1.97 0.22 17.54

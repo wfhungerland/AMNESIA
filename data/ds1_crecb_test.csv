@@ -1,9 +1,9 @@
 sector,crossover_year,crossover_censored,measure,measure_first_year,measure_ids,voice_pre,voice_post,voice_1960_1975,voice_5y_before_measure
 textiles,1962,True,True,1957.0,B-01;B-02;B-04,13.65,1.95,4.39,24.13
 steel,1962,True,True,1969.0,B-03;B-05;B-09;B-12;B-13;B-17,2.2,3.66,2.8,2.04
-televisions,1965,False,True,1977.0,B-07;B-16,0.63,0.41,0.88,0.96
+televisions,1965,False,True,1977.0,B-07,0.63,0.41,0.88,0.96
 cars,1977,False,True,1981.0,B-10;B-11,1.16,5.69,1.26,2.72
-semiconductors,1989,False,True,1986.0,B-14;B-16,5.55,3.85,0.06,2.82
+semiconductors,1989,False,True,1986.0,B-14,5.55,3.85,0.06,2.82
 machine_tools,1977,False,True,1986.0,B-15,0.17,0.32,0.11,0.52
 ships,1962,True,False,,,0.47,0.24,0.48,
 footwear,1962,True,False,,,0.21,0.62,0.71,

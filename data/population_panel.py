@@ -31,6 +31,7 @@ SOURCES = [("JP", "s1"), ("KR", "s1"), ("KR", "s3"), ("CN", "s3"), ("CN", "hs4")
 GLOBAL = {"B-02", "B-17", "B-19"}
 cross = pd.read_csv(D / "population_crossovers.csv", dtype={"code": str})
 reg = pd.read_csv(D / "broad_register.csv", dtype=str)
+reg = reg[reg.reach.astype(int) >= 4]  # only broad entries (IR 4-5) count; see register_recode.py
 
 
 def manuf(data, c):

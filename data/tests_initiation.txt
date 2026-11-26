@@ -1,10 +1,10 @@
 Binding responses with an initiation date: 25; not verified, measure date kept: R-JP-09, R-JP-13
 measure dates, all responses: before 5, from the milestone 36; window -10..-1 / 0..9: 5 / 26, share after 0.84, binomial p = 0.0001; placebo mean 0.60, p = 0.0248
 measure dates, binding responses: before 2, from the milestone 23; window -10..-1 / 0..9: 2 / 18, share after 0.90, binomial p = 0.0002; placebo mean 0.62, p = 0.0105
-measure dates, broad responses (IR >= 4): before 1, from the milestone 14; window -10..-1 / 0..9: 1 / 12, share after 0.92, binomial p = 0.0017; placebo mean 0.64, p = 0.0150
-initiation dates, all responses: before 8, from the milestone 33; window -10..-1 / 0..9: 8 / 23, share after 0.74, binomial p = 0.0053; placebo mean 0.59, p = 0.1015
-initiation dates, binding responses: before 5, from the milestone 20; window -10..-1 / 0..9: 5 / 15, share after 0.75, binomial p = 0.0207; placebo mean 0.60, p = 0.1397
-initiation dates, broad responses (IR >= 4): before 3, from the milestone 12; window -10..-1 / 0..9: 3 / 10, share after 0.77, binomial p = 0.0461; placebo mean 0.61, p = 0.1601
+measure dates, broad responses (IR >= 4): before 1, from the milestone 14; window -10..-1 / 0..9: 1 / 12, share after 0.92, binomial p = 0.0017; placebo mean 0.64, p = 0.0203
+initiation dates, all responses: before 8, from the milestone 33; window -10..-1 / 0..9: 8 / 23, share after 0.74, binomial p = 0.0053; placebo mean 0.59, p = 0.1026
+initiation dates, binding responses: before 5, from the milestone 20; window -10..-1 / 0..9: 5 / 15, share after 0.75, binomial p = 0.0207; placebo mean 0.60, p = 0.1459
+initiation dates, broad responses (IR >= 4): before 3, from the milestone 12; window -10..-1 / 0..9: 3 / 10, share after 0.77, binomial p = 0.0461; placebo mean 0.62, p = 0.2122
 
 Binding responses whose process began before the milestone although the measure came after it:
   R-CN-10 (IR 4): initiation 2022-05-05, measure 2024-05, milestone 2023; US tariff on Chinese EVs raised to 100 percent

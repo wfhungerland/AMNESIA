@@ -48,6 +48,7 @@ for _, r in e[(e.reach_coder1 >= 4)].iterrows():
                  "reach": r.reach_coder1, "type": r.type, "phase": r.phase, "mode": mode["mode"].get(r.response_id, "uncoded"),
                  **geo(ch, r.incumbent, r.year)})
 reg = pd.read_csv(D / "broad_register.csv", dtype=str)
+reg = reg[reg.reach.astype(int) >= 4]  # only broad entries (IR 4-5)
 ph = pd.concat([pd.read_csv(D / "broad_register_tested.csv")[["instrument_id", "target", "phase"]],
                 pd.read_csv(D / "cases_register_tested.csv")[["instrument_id", "target", "phase"]]])
 ph = ph.drop_duplicates(["instrument_id", "target"]).set_index(["instrument_id", "target"]).phase

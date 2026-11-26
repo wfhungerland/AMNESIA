@@ -1,9 +1,9 @@
 challenger,sector,crossover_year,crossover_censored,measure,measure_ids,sector_words_1955_1994,share_pre,share_post,share_window,volume_pre,volume_post,volume_window
 JP,textiles,1962,True,True,B-01;B-02;B-04,29791,5.45,1.19,3.28,309.9,203.9,153.1
 JP,steel,1962,True,True,B-03;B-05;B-09;B-12;B-13;B-17,14685,2.4,5.18,4.35,91.9,66.2,64.6
-JP,televisions,1965,False,True,B-07;B-16,20841,0.37,0.53,0.66,92.3,104.9,101.5
+JP,televisions,1965,False,True,B-07,20841,0.37,0.53,0.66,92.3,104.9,101.5
 JP,cars,1977,False,True,B-10;B-11,20163,0.88,5.56,1.01,131.0,88.8,113.3
-JP,semiconductors,1989,False,True,B-14;B-16,2684,17.24,18.89,0.77,34.1,18.0,5.8
+JP,semiconductors,1989,False,True,B-14,2684,17.24,18.89,0.77,34.1,18.0,5.8
 JP,machine_tools,1977,False,True,B-15,811,3.9,6.35,2.79,4.2,2.3,4.0
 JP,ships,1962,True,False,,4264,2.38,0.69,3.05,22.0,20.8,15.0
 JP,footwear,1962,True,False,,3673,2.05,3.12,3.41,10.2,18.3,19.3

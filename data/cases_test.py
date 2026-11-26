@@ -125,6 +125,7 @@ for (tgt, data), b in B.groupby(["challenger", "data"]):
 
 # ---- Register und Gefahrenrate
 reg = pd.read_csv(D / "broad_register.csv", dtype=str)
+reg = reg[reg.reach.astype(int) >= 4]  # only broad entries (IR 4-5) count; see register_recode.py
 
 
 def covers(r, data, code):

@@ -1,14 +1,14 @@
 unit,id,challenger,incumbent,year,reach,type,phase,mode,cinc_ratio,cinc_carried,defense_pact,any_alliance,atop_carried,unga_distance,scope,era
 response,R-DE-06,DE,GB,1932,5,binding_broad,post,unilateral,0.847,False,1.0,1.0,False,,gezielt,vor 1995
+response,R-JP-01,JP,GB+FR,1955,4,binding_narrow,post,uncoded,0.593,False,0.0,0.0,False,,gezielt,vor 1995
 response,R-JP-02,JP,US,1981,4,binding_sector,post,negotiated,0.373,False,1.0,1.0,False,1.334,gezielt,vor 1995
 response,R-JP-04,JP,US,1986,4,binding_sector,post,negotiated,0.368,False,1.0,1.0,False,1.492,gezielt,vor 1995
-response,R-JP-06,JP,US,1987,4,binding_sector,post,unilateral,0.367,False,1.0,1.0,False,1.556,gezielt,vor 1995
 response,R-JP-07,JP,US,1988,4,binding_broad,post,unilateral,0.37,False,1.0,1.0,False,1.53,gezielt,vor 1995
 response,R-CN-05,CN,US,2018,5,binding_broad,post,unilateral,1.885,False,0.0,1.0,False,3.379,gezielt,ab 1995 (WTO)
 response,R-CN-07,CN,US,2019,5,denial,post,unilateral,1.817,False,0.0,1.0,True,3.206,gezielt,ab 1995 (WTO)
 response,R-CN-09,CN,US,2022,5,denial,absorption,unilateral,1.895,False,0.0,1.0,True,3.523,gezielt,ab 1995 (WTO)
 response,R-CN-10,CN,US,2024,4,binding_sector,post,unilateral,1.895,True,0.0,1.0,True,,gezielt,ab 1995 (WTO)
-response,R-CN-11,CN,EU,2024,4,binding_sector,post,unilateral,15.576,True,0.0,0.0,True,,gezielt,ab 1995 (WTO)
+response,R-JP-09,JP,US,1955,4,binding_narrow,post,uncoded,0.113,False,1.0,1.0,False,,gezielt,vor 1995
 response,R-JP-10,JP,US,1957,4,binding_sector,post,negotiated,0.129,False,1.0,1.0,False,0.659,gezielt,vor 1995
 response,R-JP-13,JP,US,1977,4,binding_sector,post,negotiated,0.381,False,1.0,1.0,False,1.134,gezielt,vor 1995
 response,R-JP-14,JP,US,1969,4,binding_sector,post,negotiated,0.262,False,1.0,1.0,False,1.085,gezielt,vor 1995
@@ -36,15 +36,14 @@ register,B-13,JP,US,1984,4,Section 201 (201-051) and VRAs,post (Kreuzung spaetes
 register,B-13,KR,US,1984,4,Section 201 (201-051) and VRAs,post,negotiated,0.113,False,1.0,1.0,False,,gezielt,vor 1995
 register,B-14,JP,US,1986,4,bilateral,absorption,negotiated,0.368,False,1.0,1.0,False,1.492,gezielt,vor 1995
 register,B-15,JP,US,1986,4,bilateral VRA (Section 232 case),post,negotiated,0.368,False,1.0,1.0,False,1.492,gezielt,vor 1995
-register,B-16,JP,US,1987,4,Section 301,post,unilateral,0.367,False,1.0,1.0,False,1.556,gezielt,vor 1995
 register,B-17,JP,US,2002,4,Section 201 (201-073),post (Kreuzung spaetestens im ersten Datenjahr),unilateral,0.316,False,1.0,1.0,False,1.411,global,ab 1995 (WTO)
 register,B-17,KR,US,2002,4,Section 201 (201-073),post,unilateral,0.157,False,1.0,1.0,False,1.767,global,ab 1995 (WTO)
 register,B-17,CN,US,2002,4,Section 201 (201-073),absorption,unilateral,0.999,False,0.0,0.0,False,3.601,global,ab 1995 (WTO)
 register,B-18,CN,US,2018,4,Section 201,post (Kreuzung spaetestens im ersten Datenjahr),unilateral,1.885,False,0.0,1.0,False,3.379,global,ab 1995 (WTO)
 register,B-18,KR,US,2018,4,Section 201,vor Datenbeginn,unilateral,0.189,False,1.0,1.0,False,1.66,global,ab 1995 (WTO)
-register,B-19,CN,US,2018,5,Section 232,post (Kreuzung spaetestens im ersten Datenjahr),unilateral,1.885,False,0.0,1.0,False,3.379,global,ab 1995 (WTO)
-register,B-19,KR,US,2018,5,Section 232,vor Datenbeginn,unilateral,0.189,False,1.0,1.0,False,1.66,global,ab 1995 (WTO)
-register,B-19,JP,US,2018,5,Section 232,vor Datenbeginn,unilateral,0.236,False,1.0,1.0,False,1.738,global,ab 1995 (WTO)
+register,B-19,CN,US,2018,4,Section 232,post (Kreuzung spaetestens im ersten Datenjahr),unilateral,1.885,False,0.0,1.0,False,3.379,global,ab 1995 (WTO)
+register,B-19,KR,US,2018,4,Section 232,vor Datenbeginn,unilateral,0.189,False,1.0,1.0,False,1.66,global,ab 1995 (WTO)
+register,B-19,JP,US,2018,4,Section 232,vor Datenbeginn,unilateral,0.236,False,1.0,1.0,False,1.738,global,ab 1995 (WTO)
 register,B-20,CN,US,2018,5,Section 301,post,unilateral,1.885,False,0.0,1.0,False,3.379,gezielt,ab 1995 (WTO)
 register,B-21,CN,US,2019,5,Export Administration Regulations,post,unilateral,1.817,False,0.0,1.0,True,3.206,gezielt,ab 1995 (WTO)
 register,B-22,CN,US,2022,5,Export Administration Regulations,post,unilateral,1.895,False,0.0,1.0,True,3.523,gezielt,ab 1995 (WTO)
@@ -54,7 +53,6 @@ register,B-25,TW,US,1979,4,Section 201 (201-019); Proclamations 4634 and 4769,ke
 register,B-26,BR,US,1984,4,Section 201 (201-051) and VRAs,post,negotiated,0.177,False,1.0,1.0,False,2.575,gezielt,vor 1995
 register,B-26,MX,US,1984,4,Section 201 (201-051) and VRAs,keine Kreuzung in den Daten,negotiated,0.089,False,1.0,1.0,False,3.259,gezielt,vor 1995
 register,B-27,TW,US,1986,4,bilateral VRA (Section 232 case),keine Kreuzung in den Daten,negotiated,0.052,False,0.0,0.0,False,,gezielt,vor 1995
-register,B-28,BR,US,1988,4,Section 301; Proclamation 5885,keine Kreuzung in den Daten,unilateral,0.182,False,1.0,1.0,False,2.767,gezielt,vor 1995
 register,B-29,HK,US,1988,4,Trade Act 1974 s.504; Proclamation 5805,keine Kreuzung in den Daten,unilateral,,,,,,,gezielt,vor 1995
 register,B-29,TW,US,1988,4,Trade Act 1974 s.504; Proclamation 5805,keine Kreuzung in den Daten,unilateral,0.058,False,0.0,0.0,False,,gezielt,vor 1995
 register,B-30,VN,US,2003,4,bilateral textile agreement,absorption,negotiated,0.053,False,0.0,0.0,False,4.341,gezielt,ab 1995 (WTO)

@@ -60,6 +60,7 @@ out.append(f"    per doubling of the export ratio: x{2 ** b:.2f} (95% CI {2 ** (
 
 # further cases (TH, VN, MY, MX, BR, HK, TW): sectoral broad measures without GSP graduation (B-29), as in cases_test.py
 reg = pd.read_csv(D / "broad_register.csv", dtype=str)
+reg = reg[reg.reach.astype(int) >= 4]
 GLOBAL = {"B-02", "B-17", "B-19", "B-34", "B-31", "B-29"}
 COL = {"s1": "codes_s1", "s3": "codes_s3", "hs4": "codes_hs4"}
 
@@ -78,12 +79,16 @@ Q["broad"] = [int(y in H[(t, d, c)]) for t, d, c, y in zip(Q.challenger, Q.data,
 Q = Q[[not any(h < y for h in H[(t, d, c)]) for t, d, c, y in zip(Q.challenger, Q.data, Q.code, Q.year)]].copy()
 Q["yc"] = Q.year.astype(str) + Q.src
 Q["grp"] = Q.src + "_" + Q.code
+Qall = Q.copy()
 # cells of year x source without any start are perfectly predicted by their fixed effect and drop out of a
 # Poisson fixed-effects likelihood; removing them leaves the estimates unchanged and saves memory
 Q = Q[Q.groupby("yc").broad.transform("sum") > 0].copy()
 Q["lr"] = np.clip(np.log((Q.x_ch + 1e5) / (Q.x_us + 1e5)), -5, 5)
 out += ["", f"Further cases, sectoral broad measures (year x source cells with a start): {Q.grp.nunique()} group series, {int(Q.broad.sum())} starts "
         f"({int(Q[Q.post == 0].broad.sum())} before, {int(Q[Q.post == 1].broad.sum())} after the crossover)"]
+pre, post = Qall[Qall.post == 0], Qall[Qall.post == 1]
+out.append(f"    raw start rates per 100 group-years: before {100 * pre.broad.mean():.2f} ({int(pre.broad.sum())}), "
+           f"after {100 * post.broad.mean():.2f} ({int(post.broad.sum())}), all group-years at risk")
 fit(Q, "post + C(yc)", "(12) further cases, baseline, year x source effects")
 fit(Q, "post + lx_ch + C(yc)", "(13) further cases + log challenger exports")
 m = fit(Q, "post + lr + lx_ch + C(yc)", "(14) further cases + log export ratio")

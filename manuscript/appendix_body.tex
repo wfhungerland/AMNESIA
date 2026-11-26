@@ -184,6 +184,74 @@ narrow binding; none falls below IR 3. A model coding checks whether the
 rules can be applied as written. It does not replace an independent
 human coder.
 
+\textbf{Reconciliation.} We then reviewed the 14 disagreements against
+the rules of Table A.1 and revised eight scores where the models'
+reading followed the rules more closely (Table A.3). The original scores
+are kept in the data (\texttt{reach\_\allowbreak{}coder1\_\allowbreak{}original},
+\texttt{reach\_\allowbreak{}original}), and all agreement figures above refer to
+them. All other results in the manuscript and this appendix use the
+revised scores. The revision lowers the number of broad American
+measures in the register from 23 to 22 and changes no conclusion; the
+rate ratios of Table D.3 move slightly
+(\texttt{data/\allowbreak{}register\_\allowbreak{}recode.py} recomputes the outcome columns of
+both panels).
+
+{\footnotesize\begin{longtable}[]{@{}
+  >{\RaggedRight\arraybackslash}p{(\columnwidth - 10\tabcolsep) * \real{0.1261}}
+  >{\RaggedRight\arraybackslash}p{(\columnwidth - 10\tabcolsep) * \real{0.2689}}
+  >{\RaggedRight\arraybackslash}p{(\columnwidth - 10\tabcolsep) * \real{0.1008}}
+  >{\RaggedRight\arraybackslash}p{(\columnwidth - 10\tabcolsep) * \real{0.1261}}
+  >{\RaggedRight\arraybackslash}p{(\columnwidth - 10\tabcolsep) * \real{0.1092}}
+  >{\RaggedRight\arraybackslash}p{(\columnwidth - 10\tabcolsep) * \real{0.2689}}@{}}
+\caption*{\textbf{Table A.3. Scores revised after the second coding}}\\
+\toprule\noalign{}
+\begin{minipage}[b]{\linewidth}\raggedright
+Item
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Measure
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+First coding
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Models (median)
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Revised
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Reason
+\end{minipage} \\
+\midrule\noalign{}
+\endhead
+\bottomrule\noalign{}
+\endlastfoot
+R-CN-11 & EU countervailing duties on Chinese battery-electric cars,
+2024 & 4 & 3 & 3 & a countervailing duty on one product is IR 3 by
+rule \\
+R-JP-06, B-16 & US 100 per cent tariffs on 300 million dollars of
+Japanese electronics, 1987 & 4 & 3 & 3 & retaliation on a short product
+list, no sectoral limit \\
+B-28 & US 100 per cent tariffs on Brazilian goods, 1988 & 4 & 3 & 3 &
+retaliation on a short product list \\
+B-19 & Section 232 tariffs on steel and aluminium, 2018 & 5 & 4 & 4 &
+two sectors, not a large share of imports from the targets \\
+R-JP-09 & Japanese controls on cotton exports to the US, 1955 & 3 & 4 &
+4 & binding quantity limit for a whole sector \\
+R-JP-01 & UK and France invoke GATT Article XXXV against Japan, 1955 & 3
+& 5 & 4 & binding and economy-wide, but imposes no tariff itself; lower
+of two levels \\
+R-JPGB-04 & UK notice ending the Anglo-Japanese treaty for British West
+Africa, 1933 & 2 & 3 & 3 & binding act of narrow, regional reach \\
+\end{longtable}}
+
+Six disagreements were kept. The Section 201 safeguards on motorcycles
+(1983) and on solar cells and washing machines (2018) stay at IR 4,
+because a Section 201 measure covers the whole domestic industry of the
+product, as the colour-television agreement does, which the models also
+score 4. The American tariff of 100 per cent on Chinese electric
+vehicles (2024) stays at IR 4 as a prohibitive limit on a whole sector.
+The Brussels Sugar Convention (1902) stays at IR 4 as a binding regime
+for the whole sugar sector; two of the four models agree. India's duty
+of 1930 stays at IR 3 and is marked as doubtful: it applied to British
+goods too, and only a margin of five points was aimed at foreign goods.
+
 \hypertarget{b.-displacement-milestones}{%
 \section*{Appendix B. Displacement milestones}\label{b.-displacement-milestones}}
 
@@ -454,11 +522,11 @@ Source
 \bottomrule\noalign{}
 \endlastfoot
 R‑JP‑01 & 1955 & Japan joins GATT; UK and France invoke Article XXXV (no
-GATT treatment) & cotton textiles (1951) & 4 & 3 & after & WTO (1995),
+GATT treatment) & cotton textiles (1951) & 4 & 4 & after & WTO (1995),
 GATT L/405 \\
 R‑JP‑09 & 1955 & Japan introduces controls on cotton exports to the US
 late in 1955, in force during 1956, under US pressure & cotton textiles
-(1951) & 4 & 3 & after & USITC (1978), p.~2; Time (1957); FRUS (1987),
+(1951) & 4 & 4 & after & USITC (1978), p.~2; Time (1957); FRUS (1987),
 doc. 99 \\
 R‑JP‑10 & 1957 & Five-year Japanese restraint on all cotton textile
 exports to the US (235m square yards a year) & cotton textiles (1951) &
@@ -491,7 +559,7 @@ R‑JP‑05 & 1987 & Defense Science Board report on semiconductor
 dependency & semiconductors overall (1986) & 1 & 2 & after & Defense
 Science Board (1987) \\
 R‑JP‑06 & 1987 & 100 percent tariffs on 300m USD of Japanese electronics
-& DRAM (1981) & 6 & 4 & after & Proclamation 5631 (52 FR 13412); Reagan
+& DRAM (1981) & 6 & 3 & after & Proclamation 5631 (52 FR 13412); Reagan
 (1989) \\
 R‑JP‑07 & 1988 & Omnibus Trade and Competitiveness Act (Super 301) &
 semiconductors overall (1986) & 2 & 4 & after & P.L. 100-418, 102 Stat.
@@ -610,7 +678,7 @@ controls & advanced logic chips (2023) & -1 & 5 & before & 87 FR
 R‑CN‑10 & 2024 & US tariff on Chinese EVs raised to 100 percent &
 electric vehicles (2023) & 1 & 4 & after & USTR (2024a, 2024b, 2024c) \\
 R‑CN‑11 & 2024 & EU definitive countervailing duties on Chinese BEVs &
-electric vehicles (2023) & 1 & 4 & after & European Commission (2024);
+electric vehicles (2023) & 1 & 3 & after & European Commission (2024);
 Implementing Regulation (EU) 2024/2754 \\
 \end{longtable}}
 
@@ -643,11 +711,11 @@ Max IR
 Germany & absorption & 0 & 0 & 0 & n.a. \\
 Germany & post & 8 & 4 & 2 & 5 \\
 Japan & absorption & 1 & 0 & 0 & 2 \\
-Japan & post & 14 & 11 & 8 & 4 \\
+Japan & post & 14 & 11 & 9 & 4 \\
 Korea & absorption & 2 & 1 & 0 & 3 \\
 Korea & post & 5 & 2 & 0 & 3 \\
 China & absorption & 2 & 1 & 1 & 5 \\
-China & post & 9 & 6 & 4 & 5 \\
+China & post & 9 & 6 & 3 & 5 \\
 \textbf{All} & \textbf{absorption} & \textbf{5} & \textbf{2} &
 \textbf{1} & \textbf{5} \\
 \textbf{All} & \textbf{post} & \textbf{36} & \textbf{23} & \textbf{14} &
@@ -703,7 +771,7 @@ vehicles (milestone 2023). With initiation dates, 20 of 25 binding
 responses begin from the milestone. In the ten-year window the counts
 are 5 before and 15 after (binomial p = 0.021); for broad responses, 3
 and 10 (p = 0.046). The placebo no longer separates these shares from
-chance (p = 0.14 and 0.16). Formal processes thus often begin as the
+chance (p = 0.15 and 0.21). Formal processes thus often begin as the
 challenger approaches the lead, in line with the gradient in the panel
 (Table D.3).
 
@@ -803,7 +871,7 @@ p = 0.003). With initiation dates the counts are 4 and 15 (binomial p =
 dated export crossover, none comes before it, with measure dates or with
 initiation dates. The placebo has little power here, because most of
 these responses come many years after the crossover (p between 0.08 and
-0.23). Third, responses to the same milestone are not independent.
+0.21). Third, responses to the same milestone are not independent.
 Counting each milestone once, the first binding response comes from the
 milestone in 13 of 15 cases (one-sided sign test, p = 0.004), and in 13
 of 14 without advanced chips (p = 0.001). With initiation dates the
@@ -830,14 +898,15 @@ separated from logic chips in SITC 776, the group for all semiconductors
 in the Standard International Trade Classification, and China's exports
 of integrated circuits consist largely of assembled foreign chips. One
 response comes before the crossover. It is the EU's countervailing
-duties on Chinese battery-electric vehicles of October 2024 (IR 4). The
-EU imposed them while Chinese electric-car exports were still below
-German exports (32.0 against 41.1 billion US dollars in 2024). Chinese
-exports had passed American ones in 2021, three years before the
-American tariff increase. Each rule thus produces one exception, in a
-different sector. Under the milestone it is the export controls on
-advanced chips; under the crossover it is the EU duties on electric
-cars. \# D. Registers, population and control group
+duties on Chinese battery-electric vehicles of October 2024 (IR 3 after
+the second coding of Section A.4; IR 4 in the first coding). The EU
+imposed them while Chinese electric-car exports were still below German
+exports (32.0 against 41.1 billion US dollars in 2024). Chinese exports
+had passed American ones in 2021, three years before the American tariff
+increase. Each rule thus produces one exception, in a different sector.
+Under the milestone it is the export controls on advanced chips; under
+the crossover it is the EU duties on electric cars. \# D. Registers,
+population and control group
 
 \hypertarget{d.1-trade-remedies}{%
 \subsection*{D.1 Trade remedies}\label{d.1-trade-remedies}}
@@ -866,21 +935,23 @@ to 23 per cent, and the share rose in 82 per cent of cases (UN Comtrade;
 instruments}\label{d.2-register-of-broad-instruments}}
 
 Most broad American measures follow the export crossover of the products
-they target. \texttt{data/\allowbreak{}broad\_\allowbreak{}register.csv} lists 23 broad American
-measures (IR 4-5) against Japan, Korea and China from 1957 to 2024
-(entries B-01 to B-23). The sources are the USITC's list of Section 201
-safeguard protection 1975-2016 (USITC Centennial History, Table 10.1),
-bilateral restraint agreements, Sections 232 and 301, and the Export
+they target. \texttt{data/\allowbreak{}broad\_\allowbreak{}register.csv} lists 23 American
+measures against Japan, Korea and China from 1957 to 2024 (entries B-01
+to B-23). After the second coding (Section A.4), 22 of them score 4 or
+5; the tariffs on Japanese electronics of 1987 (B-16) score 3 and leave
+the analysis. The sources are the USITC's list of Section 201 safeguard
+protection 1975-2016 (USITC Centennial History, Table 10.1), bilateral
+restraint agreements, Sections 232 and 301, and the Export
 Administration Regulations. Section 201 grants temporary relief to an
 injured industry, Section 232 allows measures on grounds of national
 security, and the Export Administration Regulations govern US export
-controls. The 23 measures form 31 pairs of measure and target. For each
-pair, \texttt{data/\allowbreak{}population\_\allowbreak{}test.py} dates the export crossover of
-the products concerned (\texttt{data/\allowbreak{}population\_\allowbreak{}test.txt}). Of the 31
-pairs, 22 come after the crossover, 10 of them with the crossover in the
-first data year. Another 4 come before it, and 5 cannot be dated: 3 come
-before the data begin, 1 has data that begin after the measure, and 1
-has no crossover in the data. Of the four that come before, two are
+controls. The 22 broad measures form 30 pairs of measure and target. For
+each pair, \texttt{data/\allowbreak{}population\_\allowbreak{}test.py} dates the export crossover
+of the products concerned (\texttt{data/\allowbreak{}population\_\allowbreak{}test.txt}). Of the
+30 pairs, 21 come after the crossover, 10 of them with the crossover in
+the first data year. Another 4 come before it, and 5 cannot be dated: 3
+come before the data begin, 1 has data that begin after the measure, and
+1 has no crossover in the data. Of the four that come before, two are
 genuine exceptions. They are Korea under the cotton-textile Long-Term
 Arrangement of 1962 and under the textile agreements of 1971. Japan
 under the 1986 semiconductor agreement appears to be an artefact of the
@@ -971,7 +1042,7 @@ Rate ratio (95 \% interval)
 \bottomrule\noalign{}
 \endlastfoot
 Start of targeted broad instrument (to first hit) & Japan and Korea,
-SITC Rev.~1, 1962-1999 & 0.24 / 1.15 & 5.69 (2.31-14.02) \\
+SITC Rev.~1, 1962-1999 & 0.21 / 1.15 & 6.71 (2.71-16.61) \\
 same, without Section 301 tariffs & China, 1992-2023 & 0.02 / 0.04 &
 1.13 (0.11-11.24) \\
 New US AD/CVD case & all, 1988-2015, controlling for export size & 3.38
@@ -994,16 +1065,17 @@ product the challenger barely sells. The same control that removes the
 effect for AD/CVD cases also shrinks it for broad measures. Table D.3
 reports the variants (\texttt{data/\allowbreak{}robust\_\allowbreak{}broad.py},
 \texttt{data/\allowbreak{}robust\_\allowbreak{}broad.txt}). With the log of the challenger's
-exports, the ratio for Japan and Korea falls from 5.69 to 2.30. With the
-incumbent's exports of the group added, it vanishes. The log ratio of
-the challenger's to the incumbent's exports keeps its effect in every
-specification. At given export size and imports, a doubling of relative
-exports raises the start rate by 30 per cent; for the seven further
-economies of Section H, by 17 per cent. The event study, against groups
-never displaced, shows the rise beginning in the five years before the
-crossover. Resistance thus builds as the challenger approaches parity in
-a group. Parity itself is not a sharp threshold. All estimates rest on
-27 starts for Japan and Korea and 50 for the further cases.
+exports, the ratio for Japan and Korea falls from 6.71 to 2.86. With the
+incumbent's exports of the group added, it falls to 1.33 and loses
+significance. The log ratio of the challenger's to the incumbent's
+exports keeps its effect in every specification. At given export size
+and imports, a doubling of relative exports raises the start rate by 33
+per cent; for the seven further economies of Section H, by 20 per cent.
+The event study, against groups never displaced, shows the rise
+beginning in the five years before the crossover. Resistance thus builds
+as the challenger approaches parity in a group. Parity itself is not a
+sharp threshold. All estimates rest on 26 starts for Japan and Korea and
+45 for the further cases.
 
 {\footnotesize\begin{longtable}[]{@{}
   >{\RaggedRight\arraybackslash}p{(\columnwidth - 4\tabcolsep) * \real{0.3556}}
@@ -1022,32 +1094,32 @@ Rate ratio (95 \% interval)
 \endhead
 \bottomrule\noalign{}
 \endlastfoot
-post, year × challenger effects & Japan and Korea, SITC Rev.~1, 6,068
-group-years, 27 starts & 5.69 (2.31-14.02) \\
-+ log challenger exports & same & 2.30 (1.01-5.21) \\
-+ log US imports from the challenger & same & 2.35 (1.08-5.15) \\
-+ log US exports of the group & same & 1.07 (0.38-3.01) \\
-+ SITC one-digit sector effects & same & 0.85 (0.30-2.43) \\
+post, year × challenger effects & Japan and Korea, SITC Rev.~1, 6,080
+group-years, 26 starts & 6.71 (2.71-16.61) \\
++ log challenger exports & same & 2.86 (1.27-6.44) \\
++ log US imports from the challenger & same & 2.88 (1.32-6.30) \\
++ log US exports of the group & same & 1.33 (0.47-3.76) \\
++ SITC one-digit sector effects & same & 1.06 (0.37-3.02) \\
 post, year effects & displaced groups, ±10 years around the crossover &
 2.36 (0.83-6.73) \\
 + log challenger exports and US imports & same & 1.63 (0.63-4.27) \\
 post, group fixed effects, log challenger exports, linear trend & groups
-with a start & 1.85 (0.21-16.05) \\
+with a start & 1.50 (0.17-13.11) \\
 log export ratio, per doubling, at given exports and imports & Japan and
-Korea & 1.30 (1.10-1.52) \\
-post, year × source effects & seven further economies, 50 starts & 5.83
-(2.83-11.99) \\
-+ log challenger exports & same & 0.93 (0.36-2.41) \\
-log export ratio, per doubling, at given exports & same & 1.17
-(1.05-1.30) \\
+Korea & 1.33 (1.13-1.55) \\
+post, year × source effects & seven further economies, 45 starts & 7.03
+(3.45-14.33) \\
++ log challenger exports & same & 0.99 (0.36-2.68) \\
+log export ratio, per doubling, at given exports & same & 1.20
+(1.08-1.34) \\
 \emph{Event study, against groups never displaced (Japan and Korea, with
 controls):} & & \\
-6-10 years before the crossover & 242 group-years, 1 start & 1.46
-(0.13-16.11) \\
-1-5 years before & 286 group-years, 4 starts & 5.61 (1.51-20.82) \\
-0-4 years after & 329 group-years, 6 starts & 3.69 (1.08-12.54) \\
-5-9 years after & 288 group-years, 9 starts & 6.00 (2.03-17.77) \\
-10 or more years after & 778 group-years, 1 start & 1.12 (0.11-11.06) \\
+6-10 years before the crossover & 242 group-years, 1 start & 1.88
+(0.17-20.73) \\
+1-5 years before & 286 group-years, 4 starts & 6.94 (1.72-28.03) \\
+0-4 years after & 329 group-years, 6 starts & 5.12 (1.44-18.22) \\
+5-9 years after & 288 group-years, 9 starts & 8.11 (2.54-25.88) \\
+10 or more years after & 778 group-years, 1 start & 1.97 (0.22-17.54) \\
 \end{longtable}}
 
 Log export ratio: log of (challenger exports + 0.1 million US dollars)
@@ -1688,10 +1760,10 @@ Textiles and apparel & ≤1962 & B-01, B-02, B-04 (from 1957) & 13.65 &
 1.95 & 4.39 \\
 Steel & ≤1962 & B-03, B-05, B-09, B-12, B-13, B-17 (from 1969) & 2.20 &
 3.66 & 2.80 \\
-Television sets & 1965 & B-07, B-16 (from 1977) & 0.63 & 0.41 & 0.88 \\
+Television sets & 1965 & B-07 (from 1977) & 0.63 & 0.41 & 0.88 \\
 Cars and motorcycles & 1977 & B-10, B-11 (from 1981) & 1.16 & 5.69 &
 1.26 \\
-Semiconductors & 1989 & B-14, B-16 (from 1986) & 5.55 & 3.85 & 0.06 \\
+Semiconductors & 1989 & B-14 (from 1986) & 5.55 & 3.85 & 0.06 \\
 Machine tools & 1977 & B-15 (from 1986) & 0.17 & 0.32 & 0.11 \\
 Ships & ≤1962 & n.a. & 0.47 & 0.24 & 0.48 \\
 Footwear & ≤1962 & n.a. & 0.21 & 0.62 & 0.71 \\
@@ -2007,11 +2079,11 @@ export crossover of the groups it covered. ``Post'' marks an instrument
 after the crossover, and ``absorption'' one before it.
 
 {\footnotesize\begin{longtable}[]{@{}
-  >{\RaggedRight\arraybackslash}p{(\columnwidth - 8\tabcolsep) * \real{0.2222}}
-  >{\RaggedRight\arraybackslash}p{(\columnwidth - 8\tabcolsep) * \real{0.2222}}
-  >{\RaggedRight\arraybackslash}p{(\columnwidth - 8\tabcolsep) * \real{0.1111}}
-  >{\RaggedRight\arraybackslash}p{(\columnwidth - 8\tabcolsep) * \real{0.2222}}
-  >{\RaggedRight\arraybackslash}p{(\columnwidth - 8\tabcolsep) * \real{0.2222}}@{}}
+  >{\RaggedRight\arraybackslash}p{(\columnwidth - 8\tabcolsep) * \real{0.2025}}
+  >{\RaggedRight\arraybackslash}p{(\columnwidth - 8\tabcolsep) * \real{0.2025}}
+  >{\RaggedRight\arraybackslash}p{(\columnwidth - 8\tabcolsep) * \real{0.1899}}
+  >{\RaggedRight\arraybackslash}p{(\columnwidth - 8\tabcolsep) * \real{0.2025}}
+  >{\RaggedRight\arraybackslash}p{(\columnwidth - 8\tabcolsep) * \real{0.2025}}@{}}
 \caption*{\textbf{Table H.2. Broad instruments against the further cases and the
 crossover of the groups they covered}}\\
 \toprule\noalign{}
@@ -2037,8 +2109,8 @@ Steel VRAs 1984 & Brazil & 4 & 1983 & post \\
 Steel VRAs 1984 & Mexico & 4 & none & extension \\
 Machine-tool VRA 1986 & Taiwan & 4 & none & extension of instrument
 against Japan \\
-Section 301 tariffs 1988 & Brazil & 4 & none & retaliation over
-patents \\
+Section 301 tariffs 1988 & Brazil & 3 (narrow after second coding) &
+none & retaliation over patents \\
 GSP graduation 1989 & Hong Kong, Taiwan & 4 (doubtful) & none
 (economy-wide) & rule-based \\
 Cotton textile agreements 1963 & Hong Kong; Taiwan & 4 & 1965; 1971 &
@@ -2070,16 +2142,16 @@ groups crossed); and Thailand, Malaysia, Mexico, Vietnam, Taiwan and
 Brazil in HS (2009-2023), 0 of 283.
 
 A panel of 3,702 group series gives the start rates of these measures.
-Targeted sectoral broad measures begin at 0.07 per 100 group-years
-before the crossover and at 0.12 after it. The rate ratio is 5.83 (95 \%
-interval 2.84-11.95), with year × source effects and clustering by
-group. Including GSP graduation lowers the ratio to 1.33 (1.07-1.65),
+Targeted sectoral broad measures begin at 0.06 per 100 group-years
+before the crossover and at 0.12 after it. The rate ratio is 7.03 (95 \%
+interval 3.45-14.33), with year × source effects and clustering by
+group. Including GSP graduation lowers the ratio to 1.34 (1.08-1.67),
 because graduation covered all groups at once. Antidumping and
 countervailing duty (AD/CVD) cases (1988-2015) rise from 0.97 to 1.98
 per 100 group-years after the crossover. They do not rise once export
 size is held constant (rate ratio 1.29, 0.70-2.40). This matches the
 result for Japan, Korea and China (Table D.2). For broad measures, the
-ratio of 5.83 also falls once export size is held constant (0.93), while
+ratio of 7.03 also falls once export size is held constant (0.99), while
 relative exports keep their effect (Table D.3).
 
 \hypertarget{h.4-japan-against-britain}{%
@@ -2234,7 +2306,7 @@ Japan' & cotton piece goods (1932) & 0 & 4 & after & HC Deb 20 Feb 1933
 (Hoare); HC Deb 19 Dec 1934 written answers (table) \\
 R‑JPGB‑04 & 1933 & UK gives 12 months notice terminating the
 Anglo-Japanese Treaty of 1911 for British West Africa & cotton piece
-goods (1932) & 1 & 2 & after & HC Deb 16 May 1933 (Runciman) \\
+goods (1932) & 1 & 3 & after & HC Deb 16 May 1933 (Runciman) \\
 R‑JPGB‑05 & 1933 & Government of India raises duty on non-British cotton
 piece goods to 75 per cent (or 6 3/4 annas per lb) & cotton piece goods
 (1932) & 1 & 4 & after & HC Deb 19 Dec 1934 written answers cc1162-4W
@@ -2284,10 +2356,10 @@ global, politically motivated and undated instruments excluded; B-12
 mixed and excluded)
 
 {\footnotesize\begin{longtable}[]{@{}
-  >{\RaggedRight\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.1395}}
-  >{\RaggedRight\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.3721}}
-  >{\RaggedRight\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.1860}}
-  >{\RaggedRight\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.3023}}@{}}
+  >{\RaggedRight\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.1579}}
+  >{\RaggedRight\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.4211}}
+  >{\RaggedRight\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.2105}}
+  >{\RaggedRight\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.2105}}@{}}
 \toprule\noalign{}
 \begin{minipage}[b]{\linewidth}\raggedright
 Period
@@ -2303,7 +2375,7 @@ Unilateral
 \bottomrule\noalign{}
 \endlastfoot
 before 1995 & yes (Japan, Korea, Taiwan to 1980, Brazil, Mexico,
-Thailand) & 21 & 4 (B-09, B-11, B-16, B-28) \\
+Thailand) & 21 & 2 (B-09, B-11) \\
 before 1995 & no (Taiwan after 1980, Malaysia) & 2 & 1 \\
 from 1995 & yes & 0 & 0 \\
 from 1995 & no (China, Vietnam) & 1 (B-30) & 4 (B-20 to B-23) \\
