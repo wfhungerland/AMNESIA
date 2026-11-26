@@ -25,13 +25,17 @@ r = pd.read_csv(D / "broad_register.csv", dtype=str)
 
 
 def names(s):
-    return "; ".join(NAME.get(x, x) for x in str(s).replace(",", ";").split(";") if x and x != "nan")
+    return "; ".join(NAME.get(x, x) for x in str(s).replace(",", ";").replace("+", ";").split(";") if x and x != "nan")
 
 
 items = [{"orig_id": x.response_id, "set": "responses", "incumbent": names(x.incumbent), "target": CH[x.case],
           "measure": x.description, "legal_basis_or_source": x.source_original, "coder1": int(x.reach_coder1)} for x in e.itertuples()]
 items += [{"orig_id": x.instrument_id, "set": "register", "incumbent": "United States", "target": names(x.target),
            "measure": x.instrument, "legal_basis_or_source": x.legal_basis, "coder1": int(x.reach)} for x in r.itertuples()]
+import re
+for it in items:  # no hint of the first coder's scores, English only
+    for k in ("measure", "legal_basis_or_source"):
+        it[k] = re.sub(r"\s*=\s*IR\s*\d", "", str(it[k])).replace("Originalfassung", "original version")
 K = pd.DataFrame(items).sample(frac=1, random_state=20261125).reset_index(drop=True)
 K.insert(0, "item", [f"C{i + 1:02d}" for i in range(len(K))])
 K.to_csv(O / "key.csv", index=False)

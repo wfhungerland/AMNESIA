@@ -26,7 +26,7 @@ C02 | United States | Thailand | Comprehensive bilateral cotton textile agreemen
 C03 | United States | China | BIS advanced computing and semiconductor export controls | 87 FR 62186
 C04 | United States | Japan | US-Japan Semiconductor Trade Agreement | Proclamation 5631 (52 FR 13412)
 C05 | United States | Korea | Micron antidumping petition on Korean DRAMs | 57 FR 21231 (19 May 1992); 58 FR 15467
-C06 | United States | Malaysia | Bilateral cotton and wool/man-made fibre agreements with Malaysia (effective 1 Sep 1970; first restraint requests of 30 Aug and 28 Dec 1966 = IR 3) | bilateral agreements under the LTA
+C06 | United States | Malaysia | Bilateral cotton and wool/man-made fibre agreements with Malaysia (effective 1 Sep 1970; first restraint requests of 30 Aug and 28 Dec 1966) | bilateral agreements under the LTA
 C07 | European Union | China | EU provisional antidumping duties on Chinese solar panels | European Commission (2013); Regulation (EU) No 513/2013
 C08 | United States | China | Advanced computing and semiconductor export controls | Export Administration Regulations
 C09 | United States | Japan | Japan introduces controls on cotton exports to the US late in 1955, in force during 1956, under US pressure | USITC (1978), p. 2; Time (1957); FRUS (1987), doc. 99
@@ -41,18 +41,18 @@ C17 | United Kingdom | Japan | Economic Mission to the Far East with Cotton Sub-
 C18 | United States | Taiwan; Hong Kong; Thailand; Malaysia; Brazil; Mexico | Bilateral MFA/ATC textile and apparel quotas (in force in 1994-2004; first agreements entered as B-37 to B-42) | MFA and ATC bilateral agreements
 C19 | United States | Taiwan | Machine tool voluntary restraint agreement with Taiwan (five years from 1 Jan 1987) | bilateral VRA (Section 232 case)
 C20 | United States | China | Tariff on Chinese EVs raised to 100 per cent | Section 301 review
-C21 | GB+FR | Japan | Japan joins GATT; UK and France invoke Article XXXV (no GATT treatment) | WTO (1995), GATT L/405
+C21 | United Kingdom; France | Japan | Japan joins GATT; UK and France invoke Article XXXV (no GATT treatment) | WTO (1995), GATT L/405
 C22 | United States | Taiwan | Colour television OMA with Taiwan (concluded 14 and 29 Dec 1978; in force 1 Feb 1979; extended to June 1982) | Section 201 (201-019); Proclamations 4634 and 4769
 C23 | United States | China | NSA director Alexander: greatest transfer of wealth in history | Rogin (2012)
 C24 | United States | Japan | Specialty steel tariffs and quotas with country quota allocations (no formal OMAs) | Section 201 (201-048)
 C25 | United States | Japan | Orderly Marketing Agreement: Japanese exports of colour TV receivers and certain subassemblies capped at 1.75m units a year for three years | Proclamation 4511 (24 June 1977)
-C26 | United States | Brazil | Comprehensive bilateral cotton textile agreement with Brazil of 23 Oct 1970 (five years from 1 Oct 1970; first restraint request Category 9 of 25 Oct 1963 = IR 3) | bilateral agreement under the LTA
+C26 | United States | Brazil | Comprehensive bilateral cotton textile agreement with Brazil of 23 Oct 1970 (five years from 1 Oct 1970; first restraint request Category 9 of 25 Oct 1963) | bilateral agreement under the LTA
 C27 | United States | Japan | Voluntary export restraint on cars (1.68m units) | Berry et al. (1999); Toyota Motor Corporation (2012)
 C28 | United States | Hong Kong | End of differential treatment of Hong Kong (export controls and other preferences) | Hong Kong Autonomy Act; Executive Order 13936
 C29 | United States | Hong Kong; Taiwan | Graduation of Hong Kong and Taiwan (with Korea and Singapore) from GSP from 1 Jan 1989 | Trade Act 1974 s.504; Proclamation 5805
 C30 | United States | Japan | 100 per cent tariffs on Japanese electronics | Section 301
 C31 | United States | Korea | Section 301 investigation of Korean IP regime | 50 FR 45882; 51 FR 29445
-C32 | United States | Hong Kong | Comprehensive US-Hong Kong cotton textile restraint agreement (35 categories; 1 Oct 1963-30 Sep 1964; first category embargo from 3 Mar 1962 under the STA = IR 3) | bilateral agreement under the LTA
+C32 | United States | Hong Kong | Comprehensive US-Hong Kong cotton textile restraint agreement (35 categories; 1 Oct 1963-30 Sep 1964; first category embargo from 3 Mar 1962 under the STA) | bilateral agreement under the LTA
 C33 | United States | Korea | US-Korea IP agreement (patent and copyright reform) | White House (1987); 51 FR 29445
 C34 | United Kingdom | Germany | E. E. Williams: Made in Germany | Williams (1896)
 C35 | United Kingdom | Germany | Brussels Sugar Convention: bounties abolished; penal clause for countervailing duties or import bans on bountied sugar | Schneider (1926); HL Deb 10 Mar 1902
@@ -71,7 +71,7 @@ C47 | United States | China | USTR initiates Section 301 investigation | 82 FR 4
 C48 | United Kingdom | Japan | Government of India raises duty on non-British cotton piece goods to 75 per cent (or 6 3/4 annas per lb) | HC Deb 19 Dec 1934 written answers cc1162-4W (table)
 C49 | United States | China; Korea | Safeguards on solar cells and large washing machines | Section 201
 C50 | United States | China | US tariff on Chinese EVs raised to 100 percent | USTR (2024a, 2024b, 2024c)
-C51 | United Kingdom | Germany | Patents and Designs Act 1907: compulsory working in Britain | Patents and Designs Act 1907 (7 Edw. 7 c. 29), s. 27 (Originalfassung, legislation.gov.uk)
+C51 | United Kingdom | Germany | Patents and Designs Act 1907: compulsory working in Britain | Patents and Designs Act 1907 (7 Edw. 7 c. 29), s. 27 (original version, legislation.gov.uk)
 C52 | European Union | China | EU definitive countervailing duties on Chinese BEVs | European Commission (2024); Implementing Regulation (EU) 2024/2754
 C53 | United States | Japan | Defense Science Board report on semiconductor dependency | Defense Science Board (1987)
 C54 | United States | Japan | Machine tool voluntary restraint agreement | bilateral VRA (Section 232 case)
@@ -86,11 +86,11 @@ C62 | United States | Japan | SIA Section 301 petition on semiconductors | Flamm
 C63 | United Kingdom | Germany | Merchandise Marks Act 1887: foreign goods bearing a UK name or trade mark must state their country of origin | 50 & 51 Vict. c. 28
 C64 | United States | Japan | EIA complaint alleging dumping of Japanese television receivers | US Tariff Commission (1971); 36 FR 4576
 C65 | United States | China | Huawei added to Entity List | Export Administration Regulations
-C66 | United States | Mexico | Comprehensive bilateral cotton textile agreement with Mexico of 2 June 1967 (four years from 1 May 1967; first embargo of carded yarn from 10 Aug 1962 = IR 3) | bilateral agreement under the LTA
+C66 | United States | Mexico | Comprehensive bilateral cotton textile agreement with Mexico of 2 June 1967 (four years from 1 May 1967; first embargo of carded yarn from 10 Aug 1962) | bilateral agreement under the LTA
 C67 | United States | China; Korea; Japan | Steel and aluminium tariffs | Section 232
 C68 | United States | Japan | Trigger price mechanism: minimum import price based on Japanese costs | 42 FR 65214; 43 FR 1464; Urata (2020)
 C69 | Japan | Korea | Japan WTO complaint DS594 | WTO (2020)
-C70 | United States | Taiwan | Bilateral cotton textile agreement with the Republic of China of 19 Oct 1963 (31 categories; four years from 1 Oct 1963; first embargo from 23 Jun 1962 under the STA = IR 3) | bilateral agreement under LTA Art. 4
+C70 | United States | Taiwan | Bilateral cotton textile agreement with the Republic of China of 19 Oct 1963 (31 categories; four years from 1 Oct 1963; first embargo from 23 Jun 1962 under the STA) | bilateral agreement under LTA Art. 4
 C71 | United States | Japan | Five-year Japanese restraint on all cotton textile exports to the US (235m square yards a year) | FRUS (1987), doc. 99; USITC (1978)
 C72 | United Kingdom | Japan | Indo-Japanese agreement: quota on Japanese cotton piece goods linked to Japanese purchases of Indian raw cotton (125m yards without obligation; 325m yards against 1m bales; maximum 400m yards against 1.5m bales); effective 8 Jan 1934, convention signed 12 Jul 1934 | HC Deb 16 Jul 1934 and 2 Feb 1937 written answers; Written Answers 26 Jul 1939; Reuter, Pinang Gazette 4 Jan 1934
 C73 | United States | Korea | Antidumping duty order on Korean DRAMs (0.82 to 11.16 percent; all others 3.85) | 58 Fed. Reg. 27520
