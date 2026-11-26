@@ -38,7 +38,7 @@ C14 | United States | Japan | Voluntary restraint arrangement on steel | bilater
 C15 | United States | Korea | Colour television OMA extended to Korea and Taiwan | Section 201 (201-019)
 C16 | United States | China | Section 301 tariffs List 1 (later about 370bn USD of imports) | USTR (2018a, 2018b, 2019)
 C17 | United Kingdom | Japan | Economic Mission to the Far East with Cotton Sub-Mission (Sir Ernest Thompson) to inquire into British trade with China and Japan | HC Deb 30 Jul 1930 written answers
-C18 | United States | Taiwan; Hong Kong; Thailand; Malaysia; Brazil; Mexico | Bilateral MFA/ATC textile and apparel quotas (in force in 1994-2004; first agreements entered as B-37 to B-42) | MFA and ATC bilateral agreements
+C18 | United States | Taiwan; Hong Kong; Thailand; Malaysia; Brazil; Mexico | Bilateral MFA/ATC textile and apparel quotas (in force in 1994-2004) | MFA and ATC bilateral agreements
 C19 | United States | Taiwan | Machine tool voluntary restraint agreement with Taiwan (five years from 1 Jan 1987) | bilateral VRA (Section 232 case)
 C20 | United States | China | Tariff on Chinese EVs raised to 100 per cent | Section 301 review
 C21 | United Kingdom; France | Japan | Japan joins GATT; UK and France invoke Article XXXV (no GATT treatment) | WTO (1995), GATT L/405

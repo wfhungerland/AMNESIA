@@ -35,7 +35,7 @@ items += [{"orig_id": x.instrument_id, "set": "register", "incumbent": "United S
 import re
 for it in items:  # no hint of the first coder's scores, English only
     for k in ("measure", "legal_basis_or_source"):
-        it[k] = re.sub(r"\s*=\s*IR\s*\d", "", str(it[k])).replace("Originalfassung", "original version")
+        it[k] = re.sub(r"\s*=\s*IR\s*\d", "", str(it[k])).replace("Originalfassung", "original version").replace("; first agreements entered as B-37 to B-42", "")
 K = pd.DataFrame(items).sample(frac=1, random_state=20261125).reset_index(drop=True)
 K.insert(0, "item", [f"C{i + 1:02d}" for i in range(len(K))])
 K.to_csv(O / "key.csv", index=False)
