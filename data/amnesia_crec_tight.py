@@ -32,7 +32,10 @@ Passage extraction (for manual coding):
     plus the speaker of the turn, and flags whether the turn names the challenger and
     whether trade/protection words occur within +-700 characters of the anchor.
   Output: amnesia_crec_tight_passages.json (scratch, for coding). The hand-coded results
-  are in amnesia_crec_coded.csv (see the coding notes in the report).
+  are in amnesia_crec_coded.csv, produced by amnesia_crec_code.py. Sampling: 748 hits > 150, so all
+  275 granules with a challenger in the same speaker turn as an anchor were coded, plus a random 50
+  (random.seed(2026)) of the other 472 (sample ids in amnesia_crec_tight_sample.json). One hit granule
+  has no anchor match in its text (747 with passages).
 """
 import html, json, os, re, sys, time
 import requests
@@ -49,7 +52,7 @@ DATE = "publishdate:range(1994-01-01,2025-12-31)"
 QUERY = f"collection:CREC AND {DATE} AND {CH} AND {CO} AND {MEM}"
 DENOM = f"collection:CREC AND {DATE} AND {CH} AND {CO}"
 
-ANCHORS = re.compile(r"infant industr\w*|Alexander Hamilton|Henry Clay|our own history|when we were", re.I)
+ANCHORS = re.compile(r"infant\s+industr\w*|Alexander\s+Hamilton|Henry\s+Clay|our\s+own\s+history|when\s+we\s+were", re.I)
 CHALL = re.compile(r"\b(Japan|Japanese|Korea|Koreans?|China|Chinese)\b")
 TRADE = re.compile(r"tariff|protection|protectionis|manufactur|infant industr|import|export|trade|duties|"
                    r"American System|developing country|industr", re.I)
@@ -118,7 +121,7 @@ def main(cache):
             win = t[max(0, i - 700): i + 700]
             passages.append({
                 "granuleId": g, "packageId": r["packageId"], "title": r["title"],
-                "date": r["dateIssued"], "anchor": m.group(0), "speaker": speaker,
+                "date": r["dateIssued"], "anchor": re.sub(r"\s+", " ", m.group(0)), "speaker": speaker,
                 "chamber": {"S": "Senate", "H": "House", "E": "Extensions of Remarks", "D": "Daily Digest"}
                 .get((re.search(r"-Pg([SHED])", g) or [None, "?"])[1], "?"),
                 "challenger_in_turn": bool(CHALL.search(t[s0:s1])),
