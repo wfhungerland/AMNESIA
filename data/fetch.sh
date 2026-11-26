@@ -34,6 +34,7 @@ python3 data/population_fetch.py
 python3 data/population_fetch_s3.py
 python3 data/population_fetch_hs.py
 python3 data/population_fetch_usimports.py
+python3 data/population_fetch_usworld.py
 mkdir -p data/raw/wits && for c in S1 S3; do
   curl -s -o data/raw/wits/H0_$c.zip https://wits.worldbank.org/data/public/concordance/Concordance_H0_to_$c.zip
   (mkdir -p data/raw/wits/H0_$c && cd data/raw/wits/H0_$c && unzip -oq ../H0_$c.zip)

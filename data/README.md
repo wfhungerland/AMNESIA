@@ -108,4 +108,5 @@ Rohdaten dazu: Comtrade AG3/AG4 (`population_fetch*.py`), WITS-Konkordanzen HS�
 | `population_panel.csv`, `population_panel.txt` | Panel Gruppe × Jahr, Kontrollgruppe, AD/CVD-Fälle (`population_panel.py`) |
 | `robust_broad.txt`, `robust_broad_es.csv` | Breite Maßnahmen: Größenkontrollen, Exportverhältnis, Ereignisstudie (Gutachten Befund 1; `robust_broad.py`) |
 | `robust_measure.txt`, `robust_form.txt` | Inferenz auf Ebene der Maßnahmen (Cluster nach Abteilung, Bootstrap, Weglassen einzelner Maßnahmen, Placebo je Maßnahme); Form des Gradienten und Importdruck (Gutachten Runde 2; `robust_measure.py`, `robust_form.py`) |
+| `robust_disadvantage.txt` | Verdrängung oder US-Schwäche: Zerlegung des Exportverhältnisses, US-Handelsbilanz gegenüber dem Rest der Welt, Schätzung innerhalb der Gruppen (Gutachten Runde 3; `robust_disadvantage.py`; Rohdaten `population_fetch_usworld.py`) |
 | `population_weight.csv`, `population_employment.txt` | Gewicht: US-Einfuhren und US-Beschäftigung (NBER-CES) im Kreuzungsjahr (`population_employment.py`) |

@@ -282,6 +282,22 @@ Log export ratio: log of (challenger exports + 0.1 million US dollars) over (US 
 
 Rate ratios with 95 per cent intervals. Shifted years: the start year moved by −10 to +10 years (0 excluded), 10,000 draws. The further-case measures are mostly textile agreements that came before displacement (Section H). This explains their low ratios. The panel is a discrete-time hazard: groups leave after their first start.
 
+**Displacement or American weakness?** At given challenger exports, the log export ratio varies only through US exports. Table D.5 separates the two sides (`data/robust_disadvantage.py`, `data/robust_disadvantage.txt`). It uses a measure of US comparative disadvantage that does not depend on the challenger: the US trade balance of the group against the rest of the world, (X − M) / (X + M), with US imports from the world net of imports from the challenger (UN Comtrade, `data/population_fetch_usworld.py`). The challenger's export level predicts measures throughout. Its growth over five years does not. US weakness predicts them too, whether measured by US exports or by the US balance. The export ratio and the US balance are too closely related to separate: entered together, neither is significant. Within groups, with group effects and challenger trends, no variable is significant. The panel thus identifies where broad measures went, not when within a group.
+
+**Table D.5. Challenger size, American weakness and timing within groups** (Japan and Korea, coefficients of a Poisson model, errors clustered by SITC division)
+
+| Specification | Log challenger exports | Log US exports | US balance vs rest of world | Log export ratio | Other |
+|---|---|---|---|---|---|
+| (1) levels | +0.74 (0.009) | −0.44 (<0.001) | | | log US imports from the challenger +0.21 (0.26) |
+| (2) levels and five-year changes | +0.71 (0.026) | −0.35 (0.001) | | | change in challenger exports +0.02 (0.90); change in US exports −0.69 (0.12) |
+| (3) US balance | +0.70 (0.029) | | −1.28 (0.011) | | |
+| (4) export ratio and US balance | +0.44 (0.39) | | −0.49 (0.62) | +0.30 (0.20) | |
+| (5) levels and US balance | +0.75 (0.014) | −0.35 (0.17) | −0.37 (0.71) | | |
+| (7) within groups, challenger trends | +0.35 (0.46) | | | −0.62 (0.48) | 250 group-years of the groups with a start |
+| (9) within groups, with US balance | +0.26 (0.80) | | +0.48 (0.75) | −0.45 (0.16) | |
+
+p-values in brackets. Models (1) to (5) include year × challenger effects and use the 734 group-years in year cells with a start; all models have 26 starts.
+
 ## D.5 Imports and employment
 
 Product duties rise with imports from the challenger. Broad measures show no clear pattern. We split displaced groups into thirds by US imports from the challenger in the crossover year. Across these thirds, the share with an AD or CVD case within five years of the crossover is 0.01, 0.11 and 0.30 (N = 228). The share with a broad measure within ten years is 0.27, 0.14 and 0.23 (Japan and Korea, N = 66; `data/population_weight.csv`).
