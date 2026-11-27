@@ -1,0 +1,47 @@
+Items: 108
+  A      all            : N=108 alpha 0.881, exact 0.91, broad (IR>=4) 0.94
+  A      responses      : N= 48 alpha 0.902, exact 0.88, broad (IR>=4) 0.90
+  A      register       : N= 60 alpha 0.800, exact 0.93, broad (IR>=4) 0.97
+  A      sweep C91-C108 : N= 18 alpha -0.029, exact 0.89, broad (IR>=4) 0.89
+  B      all            : N=108 alpha 0.775, exact 0.78, broad (IR>=4) 0.81
+  B      responses      : N= 48 alpha 0.874, exact 0.81, broad (IR>=4) 0.83
+  B      register       : N= 60 alpha 0.536, exact 0.75, broad (IR>=4) 0.78
+  B      sweep C91-C108 : N= 18 alpha -0.061, exact 0.83, broad (IR>=4) 0.83
+  C      all            : N=108 alpha 0.850, exact 0.83, broad (IR>=4) 0.86
+  C      responses      : N= 48 alpha 0.928, exact 0.83, broad (IR>=4) 0.85
+  C      register       : N= 60 alpha 0.631, exact 0.83, broad (IR>=4) 0.87
+  C      sweep C91-C108 : N= 18 alpha 0.453, exact 0.89, broad (IR>=4) 0.89
+  D      all            : N=108 alpha 0.817, exact 0.79, broad (IR>=4) 0.82
+  D      responses      : N= 48 alpha 0.917, exact 0.81, broad (IR>=4) 0.85
+  D      register       : N= 60 alpha 0.543, exact 0.77, broad (IR>=4) 0.80
+  D      sweep C91-C108 : N= 18 alpha 0.453, exact 0.89, broad (IR>=4) 0.89
+  median all            : N=108 alpha 0.807, exact 0.78, broad (IR>=4) 0.81
+  median responses      : N= 48 alpha 0.907, exact 0.79, broad (IR>=4) 0.83
+  median register       : N= 60 alpha 0.543, exact 0.77, broad (IR>=4) 0.80
+  median sweep C91-C108 : N= 18 alpha 0.453, exact 0.89, broad (IR>=4) 0.89
+
+Alpha among A-D: 0.883; A-D and first coder: 0.862
+Broad (IR>=4), responses: first coder 19, median of A-D 17, A 22, B 19, C 18, D 16
+Broad (IR>=4), register: first coder 59, median of A-D 47, A 59, B 48, C 51, D 47
+
+Items where first coder and median of A-D differ on broad (IR>=4):
+  C01 B-11 coder1 4 median 3 (4,3,3,3): Heavyweight motorcycles tariff-rate quota
+  C09 R-JP-09 coder1 3 median 4 (4,4,4,4): Japan introduces controls on cotton exports to the US late in 1955, in force during 1956, 
+  C13 R-JP-06 coder1 4 median 3 (4,3,3,3): 100 percent tariffs on 300m USD of Japanese electronics
+  C15 B-08 coder1 4 median 3 (4,3,4,3): Colour television OMA extended to Korea and Taiwan
+  C20 B-23 coder1 4 median 3 (4,3,3,3): Tariff on Chinese EVs raised to 100 per cent
+  C21 R-JP-01 coder1 3 median 4 (5,5,4,4): Japan joins GATT; UK and France invoke Article XXXV (no GATT treatment)
+  C22 B-25 coder1 4 median 3 (4,3,4,3): Colour television OMA with Taiwan (concluded 14 and 29 Dec 1978; in force 1 Feb 1979; exte
+  C24 B-12 coder1 4 median 3 (4,3,4,3): Specialty steel tariffs and quotas with country quota allocations (no formal OMAs)
+  C25 R-JP-13 coder1 4 median 3 (4,3,4,3): Orderly Marketing Agreement: Japanese exports of colour TV receivers and certain subassemb
+  C30 B-16 coder1 4 median 3 (4,3,3,3): 100 per cent tariffs on Japanese electronics
+  C35 R-DE-08 coder1 4 median 3 (4,4,3,3): Brussels Sugar Convention: bounties abolished; penal clause for countervailing duties or i
+  C37 B-05 coder1 4 median 3 (4,3,4,3): Specialty steel import relief (quota; OMA with Japan)
+  C40 B-07 coder1 4 median 3 (4,3,4,3): Colour television OMA with Japan
+  C44 B-28 coder1 4 median 3 (4,3,3,3): 100 per cent tariffs on Brazilian goods over pharmaceutical patents (paper; drugs; menthol
+  C49 B-18 coder1 4 median 3 (4,3,3,3): Safeguards on solar cells and large washing machines
+  C50 R-CN-10 coder1 4 median 3 (4,3,3,3): US tariff on Chinese EVs raised to 100 percent
+  C52 R-CN-11 coder1 4 median 3 (3,3,3,3): EU definitive countervailing duties on Chinese BEVs
+  C55 R-JPGB-02 coder1 3 median 4 (4,4,4,3): Government of India: duty on cotton piece goods 15 per cent British and 20 per cent non-Br
+  C96 B-55 coder1 4 median 3 (4,3,3,3): Unilateral US import limits on Japanese textiles after failed consultations (Cats 314, 341
+  C105 B-65 coder1 4 median 3 (3,3,3,3): Korea-specific line pipe tariff-rate quota under an agreement signed 29 Jul 2002 (replaces

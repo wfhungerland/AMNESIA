@@ -1,6 +1,6 @@
 Befund 2: breite Massnahmen gegen den verdraengenden Aufsteiger
 phase
-post (Kreuzung spaetestens im ersten Datenjahr)    21
+post (Kreuzung spaetestens im ersten Datenjahr)    19
 post                                               15
 absorption                                          8
 unbestimmt (Daten beginnen nach Massnahme)          6
@@ -48,7 +48,6 @@ instrument_id  year target  crossover_year                                      
          B-51  1968     JP          1962.0 post (Kreuzung spaetestens im ersten Datenjahr)
          B-52  1972     JP          1962.0 post (Kreuzung spaetestens im ersten Datenjahr)
          B-53  1974     JP          1962.0 post (Kreuzung spaetestens im ersten Datenjahr)
-         B-55  1986     JP          1962.0 post (Kreuzung spaetestens im ersten Datenjahr)
          B-56  1987     JP          1962.0 post (Kreuzung spaetestens im ersten Datenjahr)
          B-57  1991     JP          1962.0 post (Kreuzung spaetestens im ersten Datenjahr)
          B-58  1967     KR          1975.0                                      absorption
@@ -58,7 +57,6 @@ instrument_id  year target  crossover_year                                      
          B-62  1982     KR          1976.0                                            post
          B-63  1986     KR          1976.0                                            post
          B-64  1995     KR          1976.0                                            post
-         B-65  2002     KR          1992.0 post (Kreuzung spaetestens im ersten Datenjahr)
          B-66  1987     CN          2004.0                                      absorption
          B-67  1997     CN          1992.0 post (Kreuzung spaetestens im ersten Datenjahr)
          B-68  2002     CN          1992.0 post (Kreuzung spaetestens im ersten Datenjahr)

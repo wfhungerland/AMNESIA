@@ -1,0 +1,25 @@
+item,orig_id,set,incumbent,target,measure,legal_basis_or_source,coder1,A,B,C,D,median,sweep
+C01,B-11,register,United States,Japan,Heavyweight motorcycles tariff-rate quota,Section 201 (201-047),4,4,3,3,3,3,False
+C09,R-JP-09,responses,United States,Japan,"Japan introduces controls on cotton exports to the US late in 1955, in force during 1956, under US pressure","USITC (1978), p. 2; Time (1957); FRUS (1987), doc. 99",3,4,4,4,4,4,False
+C13,R-JP-06,responses,United States,Japan,100 percent tariffs on 300m USD of Japanese electronics,Proclamation 5631 (52 FR 13412); Reagan (1989),4,4,3,3,3,3,False
+C15,B-08,register,United States,Korea,Colour television OMA extended to Korea and Taiwan,Section 201 (201-019),4,4,3,4,3,3,False
+C20,B-23,register,United States,China,Tariff on Chinese EVs raised to 100 per cent,Section 301 review,4,4,3,3,3,3,False
+C21,R-JP-01,responses,United Kingdom; France,Japan,Japan joins GATT; UK and France invoke Article XXXV (no GATT treatment),"WTO (1995), GATT L/405",3,5,5,4,4,4,False
+C22,B-25,register,United States,Taiwan,Colour television OMA with Taiwan (concluded 14 and 29 Dec 1978; in force 1 Feb 1979; extended to June 1982),Section 201 (201-019); Proclamations 4634 and 4769,4,4,3,4,3,3,False
+C24,B-12,register,United States,Japan,Specialty steel tariffs and quotas with country quota allocations (no formal OMAs),Section 201 (201-048),4,4,3,4,3,3,False
+C25,R-JP-13,responses,United States,Japan,Orderly Marketing Agreement: Japanese exports of colour TV receivers and certain subassemblies capped at 1.75m units a year for three years,Proclamation 4511 (24 June 1977),4,4,3,4,3,3,False
+C28,B-32,register,United States,Hong Kong,End of differential treatment of Hong Kong (export controls and other preferences),Hong Kong Autonomy Act; Executive Order 13936,5,5,5,4,4,4,False
+C30,B-16,register,United States,Japan,100 per cent tariffs on Japanese electronics,Section 301,4,4,3,3,3,3,False
+C35,R-DE-08,responses,United Kingdom,Germany,Brussels Sugar Convention: bounties abolished; penal clause for countervailing duties or import bans on bountied sugar,Schneider (1926); HL Deb 10 Mar 1902,4,4,4,3,3,3,False
+C37,B-05,register,United States,Japan,Specialty steel import relief (quota; OMA with Japan),Section 201 (201-005),4,4,3,4,3,3,False
+C40,B-07,register,United States,Japan,Colour television OMA with Japan,Section 201 (201-019),4,4,3,4,3,3,False
+C44,B-28,register,United States,Brazil,100 per cent tariffs on Brazilian goods over pharmaceutical patents (paper; drugs; menthol; consumer electronics),Section 301; Proclamation 5885,4,4,3,3,3,3,False
+C49,B-18,register,United States,China; Korea,Safeguards on solar cells and large washing machines,Section 201,4,4,3,3,3,3,False
+C50,R-CN-10,responses,United States,China,US tariff on Chinese EVs raised to 100 percent,"USTR (2024a, 2024b, 2024c)",4,4,3,3,3,3,False
+C52,R-CN-11,responses,European Union,China,EU definitive countervailing duties on Chinese BEVs,European Commission (2024); Implementing Regulation (EU) 2024/2754,4,3,3,3,3,3,False
+C53,R-JP-05,responses,United States,Japan,Defense Science Board report on semiconductor dependency,Defense Science Board (1987),2,1,1,1,1,1,False
+C55,R-JPGB-02,responses,United Kingdom,Japan,Government of India: duty on cotton piece goods 15 per cent British and 20 per cent non-British (imperial preference of 5 points; dual purpose: protection of Indian mills),HC Deb 19 Dec 1934 written answers cc1162-4W (table),3,4,4,4,3,4,False
+C67,B-19,register,United States,China; Korea; Japan,Steel and aluminium tariffs,Section 232,5,4,4,4,4,4,False
+C88,R-JPGB-04,responses,United Kingdom,Japan,UK gives 12 months notice terminating the Anglo-Japanese Treaty of 1911 for British West Africa,HC Deb 16 May 1933 (Runciman),2,4,4,2,3,3,False
+C96,B-55,register,United States,Japan,"Unilateral US import limits on Japanese textiles after failed consultations (Cats 314, 341/641, 613 from 30 Apr 1986; Cats 310/318, 315/320pt, 317pt, 347/348 from 30 Jun 1986)",MFA Art. 3; Agricultural Act 1956 s.204; EO 11651 (CITA),4,4,3,3,3,3,True
+C105,B-65,register,United States,Korea,"Korea-specific line pipe tariff-rate quota under an agreement signed 29 Jul 2002 (replaces the 9,000-ton exclusion for Korea from 1 Sep 2002)",Section 201 / 203(a)(3)(E) and 203(f); Proclamation 7585,4,3,3,3,3,3,True

@@ -1,11 +1,11 @@
 Art der Massnahme nach Buendnis und Epoche (ohne 'mixed')
 
-register: 83 Instrument-Ziel-Paare
+register: 81 Instrument-Ziel-Paare
 mode                                 negotiated  unilateral
 era           defense_pact                                 
-ab 1995 (WTO) Verteidigungsbuendnis           2           9
+ab 1995 (WTO) Verteidigungsbuendnis           1           9
               kein Buendnis                   4          10
-vor 1995      Verteidigungsbuendnis          37           3
+vor 1995      Verteidigungsbuendnis          37           2
               kein Buendnis                  10           3
 
 response: 17 Instrument-Ziel-Paare
@@ -18,11 +18,11 @@ vor 1995      Verteidigungsbuendnis           5           3
 register, nur gezielte und handelspolitisch begruendete Instrumente (ohne global, politisch, undatiert)
 mode                                 negotiated  unilateral
 era           defense_pact                                 
-ab 1995 (WTO) Verteidigungsbuendnis           2           0
+ab 1995 (WTO) Verteidigungsbuendnis           1           0
               kein Buendnis                   4           4
-vor 1995      Verteidigungsbuendnis          32           3
+vor 1995      Verteidigungsbuendnis          32           2
               kein Buendnis                   8           3
-Ziele ab 1995: B-20 CN, B-21 CN, B-22 CN, B-23 CN, B-30 VN, B-50 CN, B-64 KR, B-65 KR, B-67 CN, B-68 CN
+Ziele ab 1995: B-20 CN, B-21 CN, B-22 CN, B-23 CN, B-30 VN, B-50 CN, B-64 KR, B-67 CN, B-68 CN
 
 Technologieverweigerung (denial) und Massnahmen vor der Verdraengung, mit Lage der Dyade
     unit      id challenger incumbent  year  reach       mode      phase  defense_pact  unga_distance  cinc_ratio
@@ -35,6 +35,10 @@ register    B-17         CN        US  2002      4 unilateral absorption        
 register    B-30         VN        US  2003      4 negotiated absorption           0.0          4.341       0.053
 register    B-37         HK        US  1963      4 negotiated absorption           NaN            NaN         NaN
 register    B-38         TW        US  1963      4 negotiated absorption           1.0          0.987       0.032
+register    B-58         KR        US  1967      4 negotiated absorption           1.0            NaN       0.041
+register    B-59         KR        US  1971      4 negotiated absorption           1.0            NaN       0.055
+register    B-60         KR        US  1975      4 negotiated absorption           1.0            NaN       0.071
+register    B-66         CN        US  1987      4 negotiated absorption           0.0          2.997       0.833
 
 UNGA-Abstand und CINC-Verhaeltnis im Meilensteinjahr (Median je Fall)
                       cinc_ratio  unga_distance  defense_pact
