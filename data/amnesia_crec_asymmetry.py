@@ -228,4 +228,4 @@ if __name__ == "__main__":
     if len(sys.argv) > 1 and sys.argv[1] == "code":
         code()
     else:
-        fetch(sys.argv[2] if len(sys.argv) > 2 else "/tmp/claude-0/-home-user-AMNESIA/2bb7de6a-c74a-57fd-8aa6-0c8db0d72147/scratchpad/asym_cache")
+        fetch(sys.argv[2] if len(sys.argv) > 2 else "crec_asym_cache")
