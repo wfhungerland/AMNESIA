@@ -15,6 +15,6 @@ Doubtful cases: if two levels seem possible, take the lower one and tick the "do
 Procedure:
 1. Read all items once before scoring.
 2. Score every item with a whole number from 1 to 5.
-3. Return the file under a new name, for example coding_sheet_coder2.xlsx.
+3. Return the file under a new name, for example coding_sheet_coder2.xlsx, or the CSV version coding_sheet.csv filled in the columns IR, doubt (x if ticked) and note.
 
-Expected time: about three hours for 90 items.
+Expected time: about three and a half hours for 108 items.

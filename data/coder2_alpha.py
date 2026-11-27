@@ -1,6 +1,6 @@
 """Agreement between the two coders of the reach score, and the main counts with the second coder's scores.
 
-Call: python3 data/coder2_alpha.py path/to/coding_sheet_coder2.xlsx
+Call: python3 data/coder2_alpha.py path/to/coding_sheet_coder2.xlsx (or .csv)
 Output: data/coder2/alpha.txt, data/coder2/disagreements.csv
 Krippendorff's alpha, ordinal metric (Krippendorff 2013, ch. 12), two coders, no missing values in paired items.
 """
@@ -34,7 +34,7 @@ def alpha_ordinal(a, b, levels=(1, 2, 3, 4, 5)):
 
 def main(path):
     K = pd.read_csv(O / "key.csv")
-    s = pd.read_excel(path, sheet_name="coding")
+    s = pd.read_csv(path) if str(path).endswith(".csv") else pd.read_excel(path, sheet_name="coding")
     s = s.rename(columns={c: "coder2" for c in s.columns if str(c).startswith("IR")})[["item", "coder2"]]
     X = K.merge(s, on="item")
     miss = X.coder2.isna().sum()
