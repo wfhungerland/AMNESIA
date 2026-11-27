@@ -25,7 +25,7 @@ Alpha among the four other models and the first coder: 0.873
 
 Main counts (41 core responses), first coder against model consensus:
   reach_coder1, binding (IR >= 3): 25 responses, 2 before the milestone, 23 from it
-  reach_coder1, broad (IR >= 4): 15 responses, 1 before the milestone, 14 from it
+  reach_coder1, broad (IR >= 4): 14 responses, 1 before the milestone, 13 from it
   consensus, binding (IR >= 3): 25 responses, 2 before the milestone, 23 from it
   consensus, broad (IR >= 4): 13 responses, 1 before the milestone, 12 from it
   broad for both: 13, before the milestone 1

@@ -29,7 +29,7 @@ Further cases: starts by measure: B-26 11, B-30 7, B-42 4, B-41 4, B-39 4, B-40 
   without B-26+B-30 (426 groups, 27 starts): log export ratio, at given exports (per doubling): 0.90 (0.72-1.14), p=0.389
 
 Measure-level placebo: mean log export ratio of the covered groups in the start year against shifted years
-  Japan and Korea: 13 measure-target pairs; observed mean log ratio 0.86, placebo mean 0.46; one-sided p=0.0082
-    B-03 JP -0.15; B-05 JP 1.11; B-06 KR 2.36; B-07 JP 0.99; B-08 KR -1.19; B-09 JP 1.39; B-10 JP 0.69; B-11 JP 0.78; B-12 JP 1.60; B-13 JP 1.75; B-13 KR 0.50; B-14 JP -0.07; B-15 JP 1.36
-  further cases: 12 measure-target pairs; observed mean log ratio -1.34, placebo mean -1.48; one-sided p=0.3142
+  Japan and Korea: 12 measure-target pairs; observed mean log ratio 0.86, placebo mean 0.45; one-sided p=0.0098
+    B-03 JP -0.15; B-05 JP 1.11; B-06 KR 2.36; B-07 JP 0.99; B-08 KR -1.19; B-09 JP 1.39; B-10 JP 0.69; B-12 JP 1.60; B-13 JP 1.75; B-13 KR 0.50; B-14 JP -0.07; B-15 JP 1.36
+  further cases: 12 measure-target pairs; observed mean log ratio -1.34, placebo mean -1.47; one-sided p=0.3163
     B-24 TW 2.52; B-25 TW -0.41; B-26 BR 1.03; B-26 MX -1.12; B-27 TW -1.20; B-30 VN -0.62; B-37 HK -0.80; B-38 TW -2.08; B-39 MX -3.27; B-40 BR -3.05; B-41 MY -4.28; B-42 TH -2.81

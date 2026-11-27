@@ -1,10 +1,10 @@
 Befund 2: breite Massnahmen gegen den verdraengenden Aufsteiger
 phase
-post (Kreuzung spaetestens im ersten Datenjahr)    19
-post                                               15
+post (Kreuzung spaetestens im ersten Datenjahr)    18
+post                                               13
 absorption                                          8
 unbestimmt (Daten beginnen nach Massnahme)          6
-vor Datenbeginn                                     4
+vor Datenbeginn                                     3
 keine Kreuzung in den Daten                         1
 instrument_id  year target  crossover_year                                           phase
          B-01  1957     JP          1962.0      unbestimmt (Daten beginnen nach Massnahme)
@@ -19,7 +19,6 @@ instrument_id  year target  crossover_year                                      
          B-08  1979     KR             NaN                     keine Kreuzung in den Daten
          B-09  1978     JP          1962.0 post (Kreuzung spaetestens im ersten Datenjahr)
          B-10  1981     JP          1977.0                                            post
-         B-11  1983     JP          1977.0                                            post
          B-12  1983     JP          1962.0 post (Kreuzung spaetestens im ersten Datenjahr)
          B-13  1984     JP          1962.0 post (Kreuzung spaetestens im ersten Datenjahr)
          B-13  1984     KR          1983.0                                            post
@@ -28,15 +27,12 @@ instrument_id  year target  crossover_year                                      
          B-17  2002     JP          1962.0 post (Kreuzung spaetestens im ersten Datenjahr)
          B-17  2002     KR          1983.0                                            post
          B-17  2002     CN          2004.0                                      absorption
-         B-18  2018     CN          2008.0 post (Kreuzung spaetestens im ersten Datenjahr)
-         B-18  2018     KR             NaN                                 vor Datenbeginn
          B-19  2018     CN          2008.0 post (Kreuzung spaetestens im ersten Datenjahr)
          B-19  2018     KR             NaN                                 vor Datenbeginn
          B-19  2018     JP             NaN                                 vor Datenbeginn
          B-20  2018     CN          2005.0                                            post
          B-21  2019     CN          2003.0                                            post
          B-22  2022     CN          2009.0                                            post
-         B-23  2024     CN          2023.0                                            post
          B-43  1979     CN          1992.0      unbestimmt (Daten beginnen nach Massnahme)
          B-44  1980     CN          1992.0      unbestimmt (Daten beginnen nach Massnahme)
          B-45  1983     CN          1992.0      unbestimmt (Daten beginnen nach Massnahme)
@@ -69,7 +65,7 @@ KR s1: 25 Gruppen mit Kreuzung, Jahre 1968-1992
 KR s3: 13 Gruppen mit Kreuzung, Jahre 1997-2009
 
 Gefahrenrate gezielter breiter Massnahmen nach Verdraengung (10 Jahre)
-CN hs4: 242 Gruppen; breit binnen 10 J. 0.74; ohne 301-Zoelle 0.01; breit schon vorher 66
+CN hs4: 242 Gruppen; breit binnen 10 J. 0.74; ohne 301-Zoelle 0.00; breit schon vorher 66
 CN s3: 70 Gruppen; breit binnen 10 J. 0.16; ohne 301-Zoelle 0.03; breit schon vorher 11
 JP s1: 41 Gruppen; breit binnen 10 J. 0.22; ohne 301-Zoelle 0.22; breit schon vorher 4
 KR s1: 25 Gruppen; breit binnen 10 J. 0.36; ohne 301-Zoelle 0.36; breit schon vorher 6
