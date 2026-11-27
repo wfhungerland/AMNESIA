@@ -1,20 +1,20 @@
-Japan and Korea: 1032 group-years at risk, 36 starts
+Japan and Korea: 532 group-years at risk, 21 starts
 (a) Export ratio in bins (reference below 0.25), at given exports and imports:
-    0.25-0.5 : 149 group-years, 4 starts; rate ratio 2.17 (0.24-19.26)
-    0.5-1    : 137 group-years, 7 starts; rate ratio 3.37 (0.59-19.08)
-    1-2      : 122 group-years, 6 starts; rate ratio 3.99 (0.78-20.41)
-    >=2      : 105 group-years, 11 starts; rate ratio 5.68 (0.84-38.22)
-    <0.25    : 519 group-years, 8 starts (reference)
+    0.25-0.5 : 83 group-years, 3 starts; rate ratio 7.23 (3.71-14.08)
+    0.5-1    : 81 group-years, 5 starts; rate ratio 10.47 (5.10-21.46)
+    1-2      : 76 group-years, 3 starts; rate ratio 7.66 (2.39-24.55)
+    >=2      : 65 group-years, 9 starts; rate ratio 17.82 (6.80-46.75)
+    <0.25    : 227 group-years, 1 starts (reference)
 (b) Log export ratio per doubling, other offsets and caps:
-    offset 0.01m, cap 5: x1.36 (1.18-1.56), p=0.000
-    offset 0.01m, cap none: x1.36 (1.19-1.55), p=0.000
-    offset 0.1m, cap 5: x1.36 (1.18-1.56), p=0.000
-    offset 0.1m, cap none: x1.36 (1.19-1.55), p=0.000
-    offset 1m, cap 5: x1.36 (1.18-1.57), p=0.000
-    offset 1m, cap none: x1.36 (1.18-1.57), p=0.000
-    offset 10m, cap 5: x1.41 (1.17-1.70), p=0.000
-    offset 10m, cap none: x1.41 (1.17-1.70), p=0.000
+    offset 0.01m, cap 5: x1.32 (1.14-1.53), p=0.000
+    offset 0.01m, cap none: x1.32 (1.14-1.53), p=0.000
+    offset 0.1m, cap 5: x1.33 (1.15-1.54), p=0.000
+    offset 0.1m, cap none: x1.33 (1.15-1.53), p=0.000
+    offset 1m, cap 5: x1.36 (1.17-1.58), p=0.000
+    offset 1m, cap none: x1.36 (1.17-1.58), p=0.000
+    offset 10m, cap 5: x1.50 (1.25-1.80), p=0.000
+    offset 10m, cap none: x1.50 (1.25-1.80), p=0.000
 (c) Import pressure against relative position:
-    lm_us + lx_ch: lm_us -0.00 (p=0.981); lx_ch +0.56 (p=0.019)
-    lr + lx_ch: lr +0.44 (p=0.000); lx_ch +0.27 (p=0.247)
-    lr + lm_us + lx_ch: lr +0.44 (p=0.000); lm_us +0.02 (p=0.904); lx_ch +0.25 (p=0.303)
+    lm_us + lx_ch: lm_us +0.22 (p=0.281); lx_ch +0.37 (p=0.098)
+    lr + lx_ch: lr +0.39 (p=0.001); lx_ch +0.35 (p=0.347)
+    lr + lm_us + lx_ch: lr +0.41 (p=0.000); lm_us +0.24 (p=0.301); lx_ch +0.18 (p=0.532)

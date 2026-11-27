@@ -85,20 +85,20 @@ register,B-47,CN,US,1987,4,Section 406 (TA-406-11),vor Datenbeginn,negotiated,0.
 register,B-48,CN,US,1988,4,bilateral textile agreement,vor Datenbeginn,negotiated,0.84,False,0.0,0.0,False,3.177,gezielt,vor 1995
 register,B-49,CN,US,1994,4,bilateral textile agreement,post (Kreuzung spaetestens im ersten Datenjahr),negotiated,0.939,False,0.0,0.0,False,4.823,gezielt,vor 1995
 register,B-50,CN,US,2006,4,bilateral MOU; para. 242 of China's WTO Working Party Report,post (Kreuzung spaetestens im ersten Datenjahr),negotiated,1.161,False,0.0,0.0,False,3.397,gezielt,ab 1995 (WTO)
-register,B-51,JP,US,1968,4,bilateral agreement under the LTA,n.a.,uncoded,0.24,False,1.0,1.0,False,1.087,gezielt,vor 1995
-register,B-52,JP,US,1972,4,bilateral agreement under the LTA,n.a.,uncoded,0.329,False,1.0,1.0,False,0.857,gezielt,vor 1995
-register,B-53,JP,US,1974,4,bilateral agreement under the MFA (1974),n.a.,uncoded,0.377,False,1.0,1.0,False,1.03,gezielt,vor 1995
-register,B-55,JP,US,1986,4,MFA Art. 3; Agricultural Act 1956 s.204; EO 11651 (CITA),n.a.,uncoded,0.368,False,1.0,1.0,False,1.492,gezielt,vor 1995
-register,B-56,JP,US,1987,4,bilateral agreement under the MFA (1986 protocol),n.a.,uncoded,0.367,False,1.0,1.0,False,1.556,gezielt,vor 1995
-register,B-57,JP,US,1991,4,bilateral agreement under the MFA,n.a.,uncoded,0.396,False,1.0,1.0,False,1.58,gezielt,vor 1995
-register,B-58,KR,US,1967,4,bilateral agreement under the LTA,n.a.,uncoded,0.041,False,1.0,1.0,False,,gezielt,vor 1995
-register,B-59,KR,US,1971,4,bilateral agreement under the LTA,n.a.,uncoded,0.055,False,1.0,1.0,False,,gezielt,vor 1995
-register,B-60,KR,US,1975,4,bilateral agreement under the MFA (1974),n.a.,uncoded,0.071,False,1.0,1.0,False,,gezielt,vor 1995
-register,B-61,KR,US,1977,4,bilateral agreement under the MFA (1977 protocol),n.a.,uncoded,0.077,False,1.0,1.0,False,,gezielt,vor 1995
-register,B-62,KR,US,1982,4,bilateral agreement under the MFA (1981 protocol),n.a.,uncoded,0.118,False,1.0,1.0,False,,gezielt,vor 1995
-register,B-63,KR,US,1986,4,bilateral agreement under the MFA (1986 protocol),n.a.,uncoded,0.115,False,1.0,1.0,False,,gezielt,vor 1995
-register,B-64,KR,US,1995,4,WTO Agreement on Textiles and Clothing; Uruguay Round Agreements Act; Agricultural Act 1956 s.204,n.a.,uncoded,0.171,False,1.0,1.0,False,2.478,gezielt,ab 1995 (WTO)
-register,B-65,KR,US,2002,4,Section 201 / 203(a)(3)(E) and 203(f); Proclamation 7585,n.a.,uncoded,0.157,False,1.0,1.0,False,1.767,gezielt,ab 1995 (WTO)
-register,B-66,CN,US,1987,4,President's Steel Program; Steel Import Stabilization Act 1984 (Title VIII),n.a.,uncoded,0.833,False,0.0,0.0,False,2.997,gezielt,vor 1995
-register,B-67,CN,US,1997,4,bilateral MOU; Agricultural Act 1956 s.204; EO 11651 (CITA),n.a.,uncoded,1.067,False,0.0,0.0,False,4.288,gezielt,ab 1995 (WTO)
-register,B-68,CN,US,2002,4,WTO Agreement on Textiles and Clothing (China's accession); Agricultural Act 1956 s.204,n.a.,uncoded,0.999,False,0.0,0.0,False,3.601,gezielt,ab 1995 (WTO)
+register,B-51,JP,US,1968,4,bilateral agreement under the LTA,n.a.,negotiated,0.24,False,1.0,1.0,False,1.087,gezielt,vor 1995
+register,B-52,JP,US,1972,4,bilateral agreement under the LTA,n.a.,negotiated,0.329,False,1.0,1.0,False,0.857,gezielt,vor 1995
+register,B-53,JP,US,1974,4,bilateral agreement under the MFA (1974),n.a.,negotiated,0.377,False,1.0,1.0,False,1.03,gezielt,vor 1995
+register,B-55,JP,US,1986,4,MFA Art. 3; Agricultural Act 1956 s.204; EO 11651 (CITA),n.a.,unilateral,0.368,False,1.0,1.0,False,1.492,gezielt,vor 1995
+register,B-56,JP,US,1987,4,bilateral agreement under the MFA (1986 protocol),n.a.,negotiated,0.367,False,1.0,1.0,False,1.556,gezielt,vor 1995
+register,B-57,JP,US,1991,4,bilateral agreement under the MFA,n.a.,negotiated,0.396,False,1.0,1.0,False,1.58,gezielt,vor 1995
+register,B-58,KR,US,1967,4,bilateral agreement under the LTA,n.a.,negotiated,0.041,False,1.0,1.0,False,,gezielt,vor 1995
+register,B-59,KR,US,1971,4,bilateral agreement under the LTA,n.a.,negotiated,0.055,False,1.0,1.0,False,,gezielt,vor 1995
+register,B-60,KR,US,1975,4,bilateral agreement under the MFA (1974),n.a.,negotiated,0.071,False,1.0,1.0,False,,gezielt,vor 1995
+register,B-61,KR,US,1977,4,bilateral agreement under the MFA (1977 protocol),n.a.,negotiated,0.077,False,1.0,1.0,False,,gezielt,vor 1995
+register,B-62,KR,US,1982,4,bilateral agreement under the MFA (1981 protocol),n.a.,negotiated,0.118,False,1.0,1.0,False,,gezielt,vor 1995
+register,B-63,KR,US,1986,4,bilateral agreement under the MFA (1986 protocol),n.a.,negotiated,0.115,False,1.0,1.0,False,,gezielt,vor 1995
+register,B-64,KR,US,1995,4,WTO Agreement on Textiles and Clothing; Uruguay Round Agreements Act; Agricultural Act 1956 s.204,n.a.,negotiated,0.171,False,1.0,1.0,False,2.478,gezielt,ab 1995 (WTO)
+register,B-65,KR,US,2002,4,Section 201 / 203(a)(3)(E) and 203(f); Proclamation 7585,n.a.,negotiated,0.157,False,1.0,1.0,False,1.767,gezielt,ab 1995 (WTO)
+register,B-66,CN,US,1987,4,President's Steel Program; Steel Import Stabilization Act 1984 (Title VIII),n.a.,negotiated,0.833,False,0.0,0.0,False,2.997,gezielt,vor 1995
+register,B-67,CN,US,1997,4,bilateral MOU; Agricultural Act 1956 s.204; EO 11651 (CITA),n.a.,negotiated,1.067,False,0.0,0.0,False,4.288,gezielt,ab 1995 (WTO)
+register,B-68,CN,US,2002,4,WTO Agreement on Textiles and Clothing (China's accession); Agricultural Act 1956 s.204,n.a.,negotiated,0.999,False,0.0,0.0,False,3.601,gezielt,ab 1995 (WTO)

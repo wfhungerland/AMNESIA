@@ -14,6 +14,10 @@ import warnings
 
 import numpy as np
 import pandas as pd
+
+# Main panel without textile groups (SITC 65, 84): textiles were restrained before displacement under a standing
+# regime (Section 7.2). The full register is reported in data/register_sweep_textiles_check.py and Appendix C.
+TEXTILE = ["65", "84"]
 import statsmodels.api as sm
 import statsmodels.formula.api as smf
 
@@ -100,7 +104,7 @@ def block(P, label, specs, drop_ids):
 
 
 JK = pd.read_csv(D / "population_panel.csv", dtype={"code": str})
-JK = prep(JK[JK.challenger.isin(["JP", "KR"]) & (JK.data == "s1") & (JK.at_risk == 1)], "challenger")
+JK = prep(JK[JK.challenger.isin(["JP", "KR"]) & (JK.data == "s1") & (JK.at_risk == 1) & ~JK.code.str[:2].isin(TEXTILE)], "challenger")
 spec_jk = [("post + lx_ch + lm_us + C(fe)", "post", False, "crossover indicator, at given exports and imports (rate ratio)"),
            ("lr + lx_ch + lm_us + C(fe)", "lr", True, "log export ratio, at given exports and imports (per doubling)")]
 block(JK, "Japan and Korea, SITC Rev. 1", spec_jk, [["B-03"], ["B-13"], ["B-04"], ["B-03", "B-13"], ["B-03", "B-13", "B-04"]])
@@ -132,7 +136,7 @@ block(Q, "Further cases (seven economies)", [("lr + lx_ch + C(fe)", "lr", True, 
 out += ["", "Measure-level placebo: mean log export ratio of the covered groups in the start year against shifted years"]
 for lab, P0, G in [("Japan and Korea", pd.read_csv(D / "population_panel.csv", dtype={"code": str}), {"B-02", "B-17", "B-19"}),
                    ("further cases", pd.read_csv(D / "cases_panel.csv", dtype={"code": str}), GL)]:
-    P0 = P0 if lab != "Japan and Korea" else P0[P0.challenger.isin(["JP", "KR"]) & (P0.data == "s1")]
+    P0 = P0 if lab != "Japan and Korea" else P0[P0.challenger.isin(["JP", "KR"]) & (P0.data == "s1") & ~P0.code.str[:2].isin(TEXTILE)]
     P0 = P0.assign(lr=np.clip(np.log((P0.x_ch + 1e5) / (P0.x_us + 1e5)), -5, 5))
     LR = P0.set_index(["challenger", "data", "code", "year"]).lr
     rows = []

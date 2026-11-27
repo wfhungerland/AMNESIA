@@ -1026,6 +1026,35 @@ China under the global steel safeguard of 2002 was not a target of the
 measure. For several Section 201 actions, the target countries come from
 secondary literature and are marked in the register.
 
+\textbf{Systematic sweep.} Because the register had missed Chinese
+measures, we swept the record for all three challengers on 27 November
+2026: a sample of the Federal Register 1956-1993 (about 1,400 issues, up
+to 25 a year, plus phrase searches), govinfo from 1994, and USITC
+Publications 850 and 2182 and the Section 201 tables
+(\texttt{data/\allowbreak{}register\_\allowbreak{}sweep.csv},
+\texttt{data/\allowbreak{}register\_\allowbreak{}sweep\_\allowbreak{}coverage.md}). The sweep adds 18 entries
+(B-51 to B-68). Sixteen are textile agreements and quotas: with Japan in
+1968, 1972, 1974, 1979, 1986, 1987 and 1991, with Korea in 1967, 1971,
+1975, 1977, 1982, 1986 and 1995-2004, and with China in 1997 and
+2002-2004. Two concern other sectors: a steel restraint with China
+(1987, month not verified) and a Korean quota within the line-pipe
+safeguard (2002). The Japanese agreement of 1979 set only a consultation
+mechanism and scores IR 3. Two global measures that name none of the
+three, the flatware quota of 1959 and the line-pipe safeguard of 2000,
+stay outside. With the sweep the register holds 47 broad measures
+against the three challengers, or 55 pairs. The sweep confirms the
+existing entries it could check and changes no first year of a rung
+outside textiles (Table C.4). Its Korean textile agreements came while
+Korea's covered groups were below parity with American exports, or at it
+in 1986; Japan's came near parity on average. In the Japan-Korea panel,
+the textile agreements add 15 starts in textile groups, most before the
+crossover, and halve the jump at the crossover (1.81, 0.93-3.54, at
+given exports and imports), while the gradient holds (1.36 per doubling,
+1.19-1.55). The main panel therefore leaves out the textile groups
+(\texttt{data/\allowbreak{}register\_\allowbreak{}sweep\_\allowbreak{}textiles\_\allowbreak{}check.py}). The sample of the
+Federal Register is not a full read, and OTEXA, the treaty series and
+the National Archives catalogue could not be searched.
+
 \hypertarget{d.3-population-of-displaced-groups}{%
 \subsection*{D.3 Population of displaced
 groups}\label{d.3-population-of-displaced-groups}}
@@ -1040,12 +1069,12 @@ the Standard International Trade Classification; HS is the Harmonized
 System.
 
 {\footnotesize\begin{longtable}[]{@{}
-  >{\RaggedRight\arraybackslash}p{(\columnwidth - 10\tabcolsep) * \real{0.1416}}
-  >{\RaggedRight\arraybackslash}p{(\columnwidth - 10\tabcolsep) * \real{0.1416}}
-  >{\RaggedRight\arraybackslash}p{(\columnwidth - 10\tabcolsep) * \real{0.1062}}
-  >{\RaggedRight\arraybackslash}p{(\columnwidth - 10\tabcolsep) * \real{0.1327}}
-  >{\RaggedRight\arraybackslash}p{(\columnwidth - 10\tabcolsep) * \real{0.2389}}
-  >{\RaggedRight\arraybackslash}p{(\columnwidth - 10\tabcolsep) * \real{0.2389}}@{}}
+  >{\RaggedRight\arraybackslash}p{(\columnwidth - 10\tabcolsep) * \real{0.1356}}
+  >{\RaggedRight\arraybackslash}p{(\columnwidth - 10\tabcolsep) * \real{0.1356}}
+  >{\RaggedRight\arraybackslash}p{(\columnwidth - 10\tabcolsep) * \real{0.1017}}
+  >{\RaggedRight\arraybackslash}p{(\columnwidth - 10\tabcolsep) * \real{0.1271}}
+  >{\RaggedRight\arraybackslash}p{(\columnwidth - 10\tabcolsep) * \real{0.2712}}
+  >{\RaggedRight\arraybackslash}p{(\columnwidth - 10\tabcolsep) * \real{0.2288}}@{}}
 \caption*{\textbf{Table D.1. Displaced groups and targeted broad instruments
 within ten years}}\\
 \toprule\noalign{}
@@ -1066,8 +1095,10 @@ Without Section 301 tariffs
 \endhead
 \bottomrule\noalign{}
 \endlastfoot
-Japan & SITC Rev.~1 & 41 & 1963-1989 & 0.22 & 0.22 \\
-Korea & SITC Rev.~1 & 25 & 1968-1992 & 0.20 & 0.20 \\
+Japan & SITC Rev.~1 & 41 & 1963-1989 & 0.22 (0.21 of 39 outside
+textiles) & 0.22 \\
+Korea & SITC Rev.~1 & 25 & 1968-1992 & 0.36 (0.20 of 20 outside
+textiles) & 0.36 \\
 Korea & SITC Rev.~3 & 13 & 1997-2009 & 0.00 & 0.00 \\
 China & SITC Rev.~3 & 70 & 1993-2009 & 0.13 & 0.00 \\
 China & HS four-digit & 242 & 2009-2023 & 0.74 & 0.01 \\
@@ -1131,19 +1162,20 @@ mixes displacement with scale. A measure is unlikely to target a product
 the challenger barely sells. The control that removes the effect for
 AD/CVD cases also shrinks it for broad measures. Table D.3 reports the
 variants (\texttt{data/\allowbreak{}robust\_\allowbreak{}broad.py},
-\texttt{data/\allowbreak{}robust\_\allowbreak{}broad.txt}). With the log of the challenger's
-exports, the ratio for Japan and Korea falls from 6.71 to 2.86. When we
-add the incumbent's exports of the group, it falls to 1.33 and loses
-significance. The log ratio of the challenger's to the incumbent's
-exports keeps its effect in every specification. At given export size
-and imports, a doubling of relative exports raises the start rate by 33
-per cent. For the seven further economies of Section H, it raises the
-rate by 20 per cent. The event study compares displaced groups with
-groups never displaced. It shows the rise beginning in the five years
-before the crossover. Resistance thus appears to build as the challenger
-approaches parity in a group. Parity itself is not a sharp threshold.
-All estimates rest on 26 starts for Japan and Korea and 45 for the
-further cases.
+\texttt{data/\allowbreak{}robust\_\allowbreak{}broad.txt}). The panel for Japan and Korea leaves
+out the textile groups (SITC 65 and 84); Table D.3 also reports the full
+panel (Section D.2). With the log of the challenger's exports, the ratio
+for Japan and Korea falls from 5.35 to 3.05. When we add the incumbent's
+exports of the group, it falls to 1.35 and loses significance. The log
+ratio of the challenger's to the incumbent's exports keeps its effect in
+every specification. At given export size and imports, a doubling of
+relative exports raises the start rate by 33 per cent. For the seven
+further economies of Section H, it raises the rate by 20 per cent. The
+event study compares displaced groups with groups never displaced. It
+shows the rise beginning in the five years before the crossover.
+Resistance thus appears to build as the challenger approaches parity in
+a group. Parity itself is not a sharp threshold. All estimates rest on
+21 starts for Japan and Korea and 45 for the further cases.
 
 {\footnotesize\begin{longtable}[]{@{}
   >{\RaggedRight\arraybackslash}p{(\columnwidth - 4\tabcolsep) * \real{0.3556}}
@@ -1162,19 +1194,24 @@ Rate ratio (95 \% interval)
 \endhead
 \bottomrule\noalign{}
 \endlastfoot
-post, year × challenger effects & Japan and Korea, SITC Rev.~1, 6,080
-group-years, 26 starts & 6.71 (2.71-16.61) \\
-+ log challenger exports & same & 2.86 (1.27-6.44) \\
-+ log US imports from the challenger & same & 2.88 (1.32-6.30) \\
-+ log US exports of the group & same & 1.33 (0.47-3.76) \\
-+ SITC one-digit sector effects & same & 1.06 (0.37-3.02) \\
+post, year × challenger effects & Japan and Korea, SITC Rev.~1 without
+textiles, 5,650 group-years, 21 starts & 5.35 (2.13-13.41) \\
++ log challenger exports & same & 3.05 (1.27-7.29) \\
++ log US imports from the challenger & same & 3.07 (1.32-7.13) \\
++ log US exports of the group & same & 1.35 (0.39-4.73) \\
++ SITC one-digit sector effects & same & 1.05 (0.33-3.30) \\
 post, year effects & displaced groups, ±10 years around the crossover &
-2.36 (0.83-6.73) \\
-+ log challenger exports and US imports & same & 1.63 (0.63-4.27) \\
+2.17 (0.69-6.85) \\
++ log challenger exports and US imports & same & 1.62 (0.56-4.66) \\
 post, group fixed effects, log challenger exports, linear trend & groups
-with a start & 1.50 (0.17-13.11) \\
+with a start & 3.92 (0.34-45.93) \\
 log export ratio, per doubling, at given exports and imports & Japan and
-Korea & 1.33 (1.13-1.55) \\
+Korea & 1.33 (1.10-1.60) \\
+\emph{Full panel with textile groups (5,803 group-years, 36 starts):} &
+& \\
+post, at given exports and imports & same & 1.81 (0.93-3.54) \\
+log export ratio, per doubling, at given exports and imports & same &
+1.36 (1.19-1.55) \\
 post, year × source effects & seven further economies, 45 starts & 7.03
 (3.45-14.33) \\
 + log challenger exports & same & 0.99 (0.36-2.68) \\
@@ -1182,12 +1219,12 @@ log export ratio, per doubling, at given exports & same & 1.20
 (1.08-1.34) \\
 \emph{Event study, against groups never displaced (Japan and Korea, with
 controls):} & & \\
-6-10 years before the crossover & 242 group-years, 1 start & 1.88
-(0.17-20.73) \\
-1-5 years before & 286 group-years, 4 starts & 6.94 (1.72-28.03) \\
-0-4 years after & 329 group-years, 6 starts & 5.12 (1.44-18.22) \\
-5-9 years after & 288 group-years, 9 starts & 8.11 (2.54-25.88) \\
-10 or more years after & 778 group-years, 1 start & 1.97 (0.22-17.54) \\
+6-10 years before the crossover & 219 group-years, 1 start & 1.95
+(0.18-21.36) \\
+1-5 years before & 263 group-years, 3 starts & 5.83 (1.25-27.08) \\
+0-4 years after & 302 group-years, 5 starts & 4.89 (1.34-17.90) \\
+5-9 years after & 265 group-years, 7 starts & 6.94 (2.05-23.46) \\
+10 or more years after & 740 group-years, 1 start & 1.64 (0.18-14.64) \\
 \end{longtable}}
 
 Log export ratio: log of (challenger exports + 0.1 million US dollars)
@@ -1197,13 +1234,13 @@ affect a Poisson fixed-effects estimate. Groups leave the panel after
 their first start, so the last bin holds mainly groups that were never
 hit.
 
-\textbf{Few decisions behind the starts.} The 26 starts for Japan and
-Korea come from nine measures. Three of them supply 20 starts. These are
-the steel restraints of 1969 (B-03, 9 groups) and 1984 (B-13, 6) and the
-textile agreements of 1971 (B-04, 5). Clustering by group treats these
-starts as independent. Table D.4 therefore clusters by SITC two-digit
-division and adds a cluster bootstrap over divisions. It also leaves out
-the scope of each large measure and tests at the level of measures
+\textbf{Few decisions behind the starts.} The 21 starts for Japan and
+Korea come from eight measures. Two of them supply 15 starts. These are
+the steel restraints of 1969 (B-03, 9 groups) and 1984 (B-13, 6).
+Clustering by group treats these starts as independent. Table D.4
+therefore clusters by SITC two-digit division and adds a cluster
+bootstrap over divisions. It also leaves out the scope of each large
+measure and tests at the level of measures
 (\texttt{data/\allowbreak{}robust\_\allowbreak{}measure.py}, \texttt{data/\allowbreak{}robust\_\allowbreak{}measure.txt}).
 Further rows report bins of the export ratio, other offsets and caps,
 and a test of import pressure against relative position
@@ -1230,31 +1267,31 @@ Further cases
 \endhead
 \bottomrule\noalign{}
 \endlastfoot
-Log export ratio per doubling, clustered by group & 1.33 (1.13-1.55) &
+Log export ratio per doubling, clustered by group & 1.33 (1.10-1.60) &
 1.20 (1.08-1.34) \\
-same, clustered by SITC/HS division & 1.33 (1.17-1.51) & 1.20
+same, clustered by SITC/HS division & 1.33 (1.15-1.54) & 1.20
 (0.95-1.52) \\
-same, cluster bootstrap over divisions (95 \%) & 1.05-2.30 &
-0.81-1.74 \\
-without B-03 (steel 1969) & 1.40 (1.21-1.63) & \\
-without B-13 (steel 1984) & 1.30 (1.02-1.64) & \\
-without B-04 (textiles 1971) & 1.32 (1.14-1.53) & \\
-without B-03, B-13 and B-04 (6 starts left) & 1.38 (1.03-1.85) & \\
+same, cluster bootstrap over divisions (95 \%) & 1.01-7.48 &
+0.80-1.74 \\
+without B-03 (steel 1969) & 1.45 (1.21-1.75) & \\
+without B-13 (steel 1984) & 1.38 (1.03-1.85) & \\
+without B-03 and B-13 (6 starts left) & 1.38 (1.03-1.85) & \\
 without B-26 (steel 1984, Brazil and Mexico) & & 1.00 (0.80-1.25) \\
 Crossover indicator at given exports and imports, clustered by division
-& 2.88 (1.36-6.12) & \\
-same, without B-13 & 1.38 (0.44-4.37) & \\
+& 3.07 (1.37-6.89) & \\
+same, without B-13 & 1.40 (0.24-8.22) & \\
 Measure level: covered groups' mean log ratio in the start year,
-observed / shifted years & 0.79 / 0.36 (p = 0.005; 15 pairs) & −1.34 /
-−1.47 (p = 0.31; 12 pairs) \\
-Export ratio 0.25-0.5 against below 0.25 (bins) & 5.90 (2.17-16.04) & \\
-Export ratio 0.5-1 & 5.73 (1.00-32.70) & \\
-Export ratio 1-2 & 4.64 (0.62-34.71) & \\
-Export ratio 2 or more & 11.42 (3.20-40.85) & \\
+observed / shifted years & 0.86 / 0.46 (p = 0.008; 13 pairs) & −1.34 /
+−1.48 (p = 0.31; 12 pairs) \\
+Export ratio 0.25-0.5 against below 0.25 (bins; reference bin 1 start) &
+7.23 (3.71-14.08) & \\
+Export ratio 0.5-1 & 10.47 (5.10-21.46) & \\
+Export ratio 1-2 & 7.66 (2.39-24.55) & \\
+Export ratio 2 or more & 17.82 (6.80-46.75) & \\
 Log ratio per doubling, offsets 0.01 to 10 million USD, with and without
-cap & 1.32 to 1.47 & \\
-Log US imports from the challenger, at given ratio and exports & +0.21
-(p = 0.26) & \\
+cap & 1.32 to 1.50 & \\
+Log US imports from the challenger, at given ratio and exports & +0.24
+(p = 0.30) & \\
 Log export ratio, at given imports and exports & +0.41 (p \textless{}
 0.001) & \\
 \end{longtable}}
@@ -1275,11 +1312,12 @@ M), with US imports from the world net of imports from the challenger
 (UN Comtrade, \texttt{data/\allowbreak{}population\_\allowbreak{}fetch\_\allowbreak{}usworld.py}). The
 challenger's export level predicts measures throughout. Its growth over
 five years does not. US weakness predicts them too, whether measured by
-US exports or by the US balance. The export ratio and the US balance are
-too closely related to separate: entered together, neither is
-significant. Within groups, with group effects and challenger trends, no
-variable is significant. The panel thus identifies where broad measures
-went, not when within a group.
+US exports or by the US balance. Entered together with the US balance,
+the export ratio stays significant (p = 0.02) and the balance does not.
+Within groups, with group effects and challenger trends, the export
+ratio takes a negative sign, and with the US balance added the estimates
+are unstable. The panel thus identifies where broad measures went, not
+when within a group.
 
 \needspace{16\baselineskip}
 \textbf{Table D.5. Challenger size, American weakness and timing within
@@ -1311,25 +1349,25 @@ Other
 \endhead
 \bottomrule\noalign{}
 \endlastfoot
-(1) levels & +0.74 (0.009) & −0.44 (\textless0.001) & & & log US imports
-from the challenger +0.21 (0.26) \\
-(2) levels and five-year changes & +0.71 (0.026) & −0.35 (0.001) & & &
-change in challenger exports +0.02 (0.90); change in US exports −0.69
-(0.12) \\
-(3) US balance & +0.70 (0.029) & & −1.28 (0.011) & & \\
-(4) export ratio and US balance & +0.44 (0.39) & & −0.49 (0.62) & +0.30
-(0.20) & \\
-(5) levels and US balance & +0.75 (0.014) & −0.35 (0.17) & −0.37 (0.71)
+(1) levels & +0.61 (0.031) & −0.44 (\textless0.001) & & & log US imports
+from the challenger +0.24 (0.31) \\
+(2) levels and five-year changes & +0.59 (0.046) & −0.37 (0.004) & & &
+change in challenger exports −0.11 (0.47); change in US exports −0.52
+(0.11) \\
+(3) US balance & +0.52 (0.073) & & −0.95 (0.017) & & \\
+(4) export ratio and US balance & +0.09 (0.84) & & +0.35 (0.59) & +0.49
+(0.020) & \\
+(5) levels and US balance & +0.59 (0.043) & −0.56 (0.013) & +0.52 (0.44)
 & & \\
-(7) within groups, challenger trends & +0.35 (0.46) & & & −0.62 (0.48) &
-250 group-years of the groups with a start \\
-(9) within groups, with US balance & +0.26 (0.80) & & +0.48 (0.75) &
-−0.45 (0.16) & \\
+(7) within groups, challenger trends & −0.85 (0.14) & & & −1.54
+(\textless0.001) & 225 group-years of the groups with a start \\
+(9) within groups, with US balance & −1.96 (0.008) & & +2.33 (0.003) &
+−0.67 (0.082) & \\
 \end{longtable}}
 
 p-values in brackets. Models (1) to (5) include year × challenger
-effects and use the 734 group-years in year cells with a start; all
-models have 26 starts.
+effects and use the 531 group-years in year cells with a start; all
+models have 21 starts. Textile groups (SITC 65, 84) are left out.
 
 \hypertarget{d.5-imports-and-employment}{%
 \subsection*{D.5 Imports and
@@ -3097,8 +3135,17 @@ items}\label{k.-threats-to-validity-and-open-items}}
   Japan against Britain, the bilateral trade data measure total exports
   and do not isolate cotton goods. The British and Japanese series for
   piece goods are also not fully comparable, because in some years one
-  series uses square yards and the other linear yards. \# L. Convergence
-  after displacement
+  series uses square yards and the other linear yards.
+\item
+  \textbf{Register sweep and textile exclusion.} The sweep of D.2 read a
+  sample of the Federal Register before 1994, not every issue. The panel
+  for Japan and Korea leaves out textile groups; this choice was made
+  after the sweep had added the textile agreements. With them, the
+  crossover indicator is no longer significant and the gradient is
+  unchanged. Selection results that need the raw trade data (Section
+  D.5, \texttt{data/\allowbreak{}population\_\allowbreak{}weight.csv}) were not rerun after the
+  sweep and still include textile groups. \# L. Convergence after
+  displacement
 \end{enumerate}
 
 \begin{figure}[htbp]

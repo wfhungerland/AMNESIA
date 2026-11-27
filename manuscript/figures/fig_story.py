@@ -14,6 +14,10 @@ import matplotlib.pyplot as plt
 import numpy as np
 import pandas as pd
 
+# Main panel without textile groups (SITC 65, 84): textiles were restrained before displacement under a standing
+# regime (Section 7.2). The full register is reported in data/register_sweep_textiles_check.py and Appendix C.
+TEXTILE = ["65", "84"]
+
 from style import AQUA, BLUE, D, GRAY, GRID, INK, MUTED, ORANGE, RAMP, SOFT, YELLOW, note, save, tidy, title
 
 ev = pd.read_csv(D / "ds1_events.csv")
@@ -90,7 +94,7 @@ save(fig, "fig1_lags")
 
 # ---- Fig. 3: start rates by relative position (broad measures) and by years from the crossover (antidumping)
 p = pd.read_csv(D / "population_panel.csv", dtype={"code": str})
-jk = p[p.challenger.isin(["JP", "KR"]) & (p.data == "s1") & (p.at_risk == 1) & (p.x_us > 0)].copy()
+jk = p[p.challenger.isin(["JP", "KR"]) & (p.data == "s1") & (p.at_risk == 1) & (p.x_us > 0) & ~p.code.str[:2].isin(TEXTILE)].copy()
 labels = ["<0.25", "0.25-0.5", "0.5-1", "1-2", "\u22652"]
 jk["rb"] = pd.cut(jk.x_ch / jk.x_us, [-np.inf, 0.25, 0.5, 1, 2, np.inf], labels=labels)
 r1 = jk.groupby("rb", observed=False).broad.agg(["mean", "sum", "size"])

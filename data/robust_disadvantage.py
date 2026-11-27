@@ -14,13 +14,17 @@ import warnings
 
 import numpy as np
 import pandas as pd
+
+# Main panel without textile groups (SITC 65, 84): textiles were restrained before displacement under a standing
+# regime (Section 7.2). The full register is reported in data/register_sweep_textiles_check.py and Appendix C.
+TEXTILE = ["65", "84"]
 import statsmodels.api as sm
 import statsmodels.formula.api as smf
 
 warnings.filterwarnings("ignore")
 D = Path(__file__).resolve().parent
 P = pd.read_csv(D / "population_panel.csv", dtype={"code": str})
-P = P[P.challenger.isin(["JP", "KR"]) & (P.data == "s1")].sort_values(["challenger", "code", "year"]).copy()
+P = P[P.challenger.isin(["JP", "KR"]) & (P.data == "s1") & ~P.code.str[:2].isin(TEXTILE)].sort_values(["challenger", "code", "year"]).copy()
 W = pd.read_csv(D / "raw" / "comtrade_us_imports_world_s1.csv", dtype={"code": str}).rename(columns={"value": "m_world"})
 P = P.merge(W[["code", "year", "m_world"]], on=["code", "year"], how="left")
 P["m_row"] = (P.m_world - P.m_us).clip(lower=0)

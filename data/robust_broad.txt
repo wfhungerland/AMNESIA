@@ -1,19 +1,19 @@
-Japan and Korea, SITC Rev. 1: 176 groups, 5803 group-years at risk, 36 starts (21 before, 15 after the crossover)
+Japan and Korea, SITC Rev. 1: 161 groups, 5650 group-years at risk, 21 starts (8 before, 13 after the crossover)
 
-(1) baseline, year x challenger effects: IRR 3.50 (95% CI 1.68-7.28), p=0.001; N=5803, events=36
-(2) + log challenger exports: IRR 1.81 (95% CI 0.92-3.54), p=0.083; N=5803, events=36
-    coefficient on log challenger exports: 0.49 (p=0.001)
-(3) + log US imports from the challenger: IRR 1.81 (95% CI 0.93-3.54), p=0.083; N=5803, events=36
-(4) + log US exports of the group: IRR 0.65 (95% CI 0.27-1.56), p=0.333; N=5803, events=36
-(5) as (4) + SITC one-digit sector effects: IRR 0.53 (95% CI 0.24-1.19), p=0.123; N=5803, events=36
-(6) displaced groups, +-10 years around the crossover, year effects: IRR 1.36 (95% CI 0.59-3.10), p=0.470; N=1151, events=23
-(7) as (6) + log challenger exports and US imports: IRR 1.07 (95% CI 0.49-2.32), p=0.870; N=1151, events=23
-(8) group fixed effects (groups with a start only), year effects: IRR 0.73 (95% CI 0.17-3.08), p=0.673; N=483, events=36
-(9) group fixed effects + log challenger exports + linear time trend: IRR 1.20 (95% CI 0.13-11.41), p=0.871; N=483, events=36
-(10) as (3) + log export ratio: IRR 0.67 (95% CI 0.28-1.61), p=0.371; N=5803, events=36
-    log export ratio: coefficient 0.51 (p=0.000)
-(11) log export ratio instead of the crossover indicator (IRR per log point): IRR 1.56 (95% CI 1.29-1.89), p=0.000; N=5803, events=36
-    per doubling of the export ratio: x1.36 (95% CI 1.19-1.55)
+(1) baseline, year x challenger effects: IRR 5.35 (95% CI 2.13-13.41), p=0.000; N=5650, events=21
+(2) + log challenger exports: IRR 3.05 (95% CI 1.27-7.29), p=0.012; N=5650, events=21
+    coefficient on log challenger exports: 0.41 (p=0.056)
+(3) + log US imports from the challenger: IRR 3.07 (95% CI 1.32-7.13), p=0.009; N=5650, events=21
+(4) + log US exports of the group: IRR 1.35 (95% CI 0.39-4.73), p=0.639; N=5650, events=21
+(5) as (4) + SITC one-digit sector effects: IRR 1.05 (95% CI 0.33-3.30), p=0.933; N=5650, events=21
+(6) displaced groups, +-10 years around the crossover, year effects: IRR 2.17 (95% CI 0.69-6.85), p=0.187; N=1097, events=16
+(7) as (6) + log challenger exports and US imports: IRR 1.62 (95% CI 0.56-4.66), p=0.375; N=1097, events=16
+(8) group fixed effects (groups with a start only), year effects: IRR 1.95 (95% CI 0.41-9.42), p=0.404; N=330, events=21
+(9) group fixed effects + log challenger exports + linear time trend: IRR 3.92 (95% CI 0.34-45.93), p=0.276; N=330, events=21
+(10) as (3) + log export ratio: IRR 1.52 (95% CI 0.41-5.65), p=0.530; N=5650, events=21
+    log export ratio: coefficient 0.32 (p=0.149)
+(11) log export ratio instead of the crossover indicator (IRR per log point): IRR 1.50 (95% CI 1.15-1.96), p=0.003; N=5650, events=21
+    per doubling of the export ratio: x1.33 (95% CI 1.10-1.60)
 
 Further cases, sectoral broad measures (year x source cells with a start): 519 group series, 45 starts (37 before, 8 after the crossover)
     raw start rates per 100 group-years: before 0.06 (37), after 0.12 (8), all group-years at risk
@@ -26,10 +26,10 @@ Further cases, sectoral broad measures (year x source cells with a start): 519 g
 
 Event study (reference: groups never displaced; controls: log challenger exports, log US imports, year x challenger):
     bin  group_years  starts  rate_per_100  irr   lo    hi
-  never         3603      11          0.31 1.00  NaN   NaN
-  <=-11          357       1          0.28 0.79 0.10  6.11
--10..-6          242       2          0.83 1.19 0.24  5.98
- -5..-1          279       7          2.51 4.05 1.43 11.44
-   0..4          312       6          1.92 2.90 1.03  8.16
-   5..9          270       8          2.96 3.44 1.29  9.15
-   >=10          740       1          0.14 0.89 0.11  7.56
+  never         3530       4          0.11 1.00  NaN   NaN
+  <=-11          331       0          0.00 0.00 0.00  0.00
+-10..-6          219       1          0.46 1.95 0.18 21.36
+ -5..-1          263       3          1.14 5.83 1.25 27.08
+   0..4          302       5          1.66 4.89 1.34 17.90
+   5..9          265       7          2.64 6.94 2.05 23.46
+   >=10          740       1          0.14 1.64 0.18 14.64
