@@ -18,7 +18,7 @@ body {"query": Q, "pageSize": 1000, "offsetMark": "*"}, paged with offsetMark):
   Without the publishdate restriction the query returns 767 granules (19 are dated 2026);
   with it, 748. Denominator (challenger AND complaint, no memory terms), same date range:
     original five complaint terms                      -> 3,802 distinct granules
-    five complaint terms + tariff OR tariffs (as in Q) -> 6,013 distinct granules
+    five complaint terms + tariff OR tariffs (as in Q) -> 6,011 distinct granules (the API reports 6,013; two 2025 granules are listed twice)
 
 Note: all conditions are evaluated by the search engine at GRANULE level (a granule is one
 CREC article; some are very long, e.g. omnibus statements or impeachment records).

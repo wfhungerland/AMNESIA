@@ -2181,8 +2181,9 @@ challengers
 \textbf{Search.} The govinfo full-text search of the daily Congressional
 Record (collection CREC), 1994-2025, selects granules that name Japan,
 Korea or China and a trade complaint (dumping, unfair trade, trade
-deficit, unfair competition, trade barriers, tariff or tariffs): 6,013
-distinct granules. Of these, 748 also contain a term that could recall
+deficit, unfair competition, trade barriers, tariff or tariffs): 6,011
+distinct granules. The API reports 6,013 because two 2025 granules are
+listed twice. Of these, 748 also contain a term that could recall
 America's own past protection: infant industry or industries; Alexander
 Hamilton with tariff, protection or manufactures; Henry Clay with tariff
 or the American System; ``our own history'' or ``when we were'' with
@@ -2212,6 +2213,27 @@ Hollings supplies 25 of the 36 passages. A typical passage reads:
 ``Alexander Hamilton enunciated the competitive trade policy of the
 People's Republic of China in 1789'' (Hollings, 19 September 2000,
 CREC-2000-09-19-pt1-PgS8667-7).
+
+\textbf{Asymmetry and benchmark.} The same set A was searched for
+attacks on the challenger's practices in four groups of terms:
+subsidies; market protection; intellectual property and imitation (theft
+only near intellectual, technology or trade secret); industrial policy.
+3,705 of the 6,011 granules (61.6 per cent) contain at least one, 3,127
+after removing the memory hits, against 33 granules that recall
+America's own past: about 112 to 1, or 95 to 1 without the overlap. By
+group the ratio is about 77 to 1 for subsidies, 58 to 1 for imitation,
+34 to 1 for market protection and 16 to 1 for industrial policy. As a
+benchmark, set B takes granules that name Canada, the European Union,
+Germany or France with the same trade complaints and name no challenger:
+1,446 granules, of which 87 (6.0 per cent) carry a memory term and 677
+(46.8 per cent) an attack term. In a random 30 of the 87 memory hits
+(seed 2026), none recalls America's own past (upper 95 per cent bound
+about 10 per cent). Recall is thus rare in both sets. The challengers
+stand out mainly by a higher share of attack terms (61.6 against 46.8
+per cent), not by a different use of memory. Counts by year, queries and
+the coded benchmark: \texttt{data/\allowbreak{}amnesia\_\allowbreak{}crec\_\allowbreak{}asymmetry.py},
+\texttt{data/\allowbreak{}amnesia\_\allowbreak{}crec\_\allowbreak{}asymmetry.csv},
+\texttt{data/\allowbreak{}amnesia\_\allowbreak{}crec\_\allowbreak{}benchmark\_\allowbreak{}coded.csv}.
 
 \textbf{Limits.} The search covers only the daily Record since 1994. The
 bound Record before 1995 is searchable only by chamber-day, which makes
