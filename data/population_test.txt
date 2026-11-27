@@ -1,10 +1,10 @@
 Befund 2: breite Massnahmen gegen den verdraengenden Aufsteiger
 phase
-post                                               12
-post (Kreuzung spaetestens im ersten Datenjahr)    10
-absorption                                          4
-vor Datenbeginn                                     3
-unbestimmt (Daten beginnen nach Massnahme)          1
+post (Kreuzung spaetestens im ersten Datenjahr)    21
+post                                               15
+absorption                                          8
+unbestimmt (Daten beginnen nach Massnahme)          6
+vor Datenbeginn                                     4
 keine Kreuzung in den Daten                         1
 instrument_id  year target  crossover_year                                           phase
          B-01  1957     JP          1962.0      unbestimmt (Daten beginnen nach Massnahme)
@@ -25,7 +25,6 @@ instrument_id  year target  crossover_year                                      
          B-13  1984     KR          1983.0                                            post
          B-14  1986     JP          1989.0                                      absorption
          B-15  1986     JP          1977.0                                            post
-         B-16  1987     JP          1986.0                                            post
          B-17  2002     JP          1962.0 post (Kreuzung spaetestens im ersten Datenjahr)
          B-17  2002     KR          1983.0                                            post
          B-17  2002     CN          2004.0                                      absorption
@@ -38,6 +37,31 @@ instrument_id  year target  crossover_year                                      
          B-21  2019     CN          2003.0                                            post
          B-22  2022     CN          2009.0                                            post
          B-23  2024     CN          2023.0                                            post
+         B-43  1979     CN          1992.0      unbestimmt (Daten beginnen nach Massnahme)
+         B-44  1980     CN          1992.0      unbestimmt (Daten beginnen nach Massnahme)
+         B-45  1983     CN          1992.0      unbestimmt (Daten beginnen nach Massnahme)
+         B-46  1983     CN          1992.0      unbestimmt (Daten beginnen nach Massnahme)
+         B-47  1987     CN             NaN                                 vor Datenbeginn
+         B-48  1988     CN          1992.0      unbestimmt (Daten beginnen nach Massnahme)
+         B-49  1994     CN          1992.0 post (Kreuzung spaetestens im ersten Datenjahr)
+         B-50  2006     CN          1992.0 post (Kreuzung spaetestens im ersten Datenjahr)
+         B-51  1968     JP          1962.0 post (Kreuzung spaetestens im ersten Datenjahr)
+         B-52  1972     JP          1962.0 post (Kreuzung spaetestens im ersten Datenjahr)
+         B-53  1974     JP          1962.0 post (Kreuzung spaetestens im ersten Datenjahr)
+         B-55  1986     JP          1962.0 post (Kreuzung spaetestens im ersten Datenjahr)
+         B-56  1987     JP          1962.0 post (Kreuzung spaetestens im ersten Datenjahr)
+         B-57  1991     JP          1962.0 post (Kreuzung spaetestens im ersten Datenjahr)
+         B-58  1967     KR          1975.0                                      absorption
+         B-59  1971     KR          1975.0                                      absorption
+         B-60  1975     KR          1976.0                                      absorption
+         B-61  1977     KR          1976.0                                            post
+         B-62  1982     KR          1976.0                                            post
+         B-63  1986     KR          1976.0                                            post
+         B-64  1995     KR          1976.0                                            post
+         B-65  2002     KR          1992.0 post (Kreuzung spaetestens im ersten Datenjahr)
+         B-66  1987     CN          2004.0                                      absorption
+         B-67  1997     CN          1992.0 post (Kreuzung spaetestens im ersten Datenjahr)
+         B-68  2002     CN          1992.0 post (Kreuzung spaetestens im ersten Datenjahr)
 
 Befund 1: verdraengte Warengruppen (Kreuzung nicht im ersten Datenjahr)
 CN hs4: 242 Gruppen mit Kreuzung, Jahre 2009-2023
@@ -47,8 +71,8 @@ KR s1: 25 Gruppen mit Kreuzung, Jahre 1968-1992
 KR s3: 13 Gruppen mit Kreuzung, Jahre 1997-2009
 
 Gefahrenrate gezielter breiter Massnahmen nach Verdraengung (10 Jahre)
-CN hs4: 242 Gruppen; breit binnen 10 J. 0.74; ohne 301-Zoelle 0.01; breit schon vorher 64
-CN s3: 70 Gruppen; breit binnen 10 J. 0.13; ohne 301-Zoelle 0.00; breit schon vorher 0
-JP s1: 41 Gruppen; breit binnen 10 J. 0.22; ohne 301-Zoelle 0.22; breit schon vorher 3
-KR s1: 25 Gruppen; breit binnen 10 J. 0.20; ohne 301-Zoelle 0.20; breit schon vorher 3
+CN hs4: 242 Gruppen; breit binnen 10 J. 0.74; ohne 301-Zoelle 0.01; breit schon vorher 66
+CN s3: 70 Gruppen; breit binnen 10 J. 0.16; ohne 301-Zoelle 0.03; breit schon vorher 11
+JP s1: 41 Gruppen; breit binnen 10 J. 0.22; ohne 301-Zoelle 0.22; breit schon vorher 4
+KR s1: 25 Gruppen; breit binnen 10 J. 0.36; ohne 301-Zoelle 0.36; breit schon vorher 6
 KR s3: 13 Gruppen; breit binnen 10 J. 0.00; ohne 301-Zoelle 0.00; breit schon vorher 0

@@ -1051,9 +1051,16 @@ the textile agreements add 15 starts in textile groups, most before the
 crossover, and halve the jump at the crossover (1.81, 0.93-3.54, at
 given exports and imports), while the gradient holds (1.36 per doubling,
 1.19-1.55). The main panel therefore leaves out the textile groups
-(\texttt{data/\allowbreak{}register\_\allowbreak{}sweep\_\allowbreak{}textiles\_\allowbreak{}check.py}). The sample of the
-Federal Register is not a full read, and OTEXA, the treaty series and
-the National Archives catalogue could not be searched.
+(\texttt{data/\allowbreak{}register\_\allowbreak{}sweep\_\allowbreak{}textiles\_\allowbreak{}check.py}). With the sweep, 36
+of the 55 pairs come after the crossover, 8 before it and 11 cannot be
+dated (\texttt{data/\allowbreak{}population\_\allowbreak{}test.txt}). Of the four new pairs before
+the crossover, three are Korean textile agreements of 1967-1975. The
+fourth is the steel restraint with China of 1987, part of a programme of
+restraints with most suppliers, at a time when China was a minor one,
+like China under the steel safeguard of 2002. Table D.1 is recomputed
+with the extended register. The sample of the Federal Register is not a
+full read, and OTEXA, the treaty series and the National Archives
+catalogue could not be searched.
 
 \hypertarget{d.3-population-of-displaced-groups}{%
 \subsection*{D.3 Population of displaced
@@ -1100,7 +1107,7 @@ textiles) & 0.22 \\
 Korea & SITC Rev.~1 & 25 & 1968-1992 & 0.36 (0.20 of 20 outside
 textiles) & 0.36 \\
 Korea & SITC Rev.~3 & 13 & 1997-2009 & 0.00 & 0.00 \\
-China & SITC Rev.~3 & 70 & 1993-2009 & 0.13 & 0.00 \\
+China & SITC Rev.~3 & 70 & 1993-2009 & 0.16 & 0.03 \\
 China & HS four-digit & 242 & 2009-2023 & 0.74 & 0.01 \\
 \end{longtable}}
 
@@ -1378,7 +1385,7 @@ show no clear pattern. We split displaced groups into thirds by US
 imports from the challenger in the crossover year. Across these thirds,
 the share with an AD or CVD case within five years of the crossover is
 0.01, 0.11 and 0.30 (N = 228). The share with a broad measure within ten
-years is 0.27, 0.14 and 0.23 (Japan and Korea, N = 66;
+years is 0.30, 0.16 and 0.15 (Japan and Korea outside textiles, N = 59;
 \texttt{data/\allowbreak{}population\_\allowbreak{}weight.csv}).
 
 Employment, unlike imports, does not appear to predict product duties.
@@ -1396,10 +1403,10 @@ the share with an AD or CVD case within five years rises (0.01, 0.16,
 the coefficient on employment is 0.43 (p = 0.017). The effect disappears
 once US imports from the challenger enter the model (0.11, p = 0.64).
 The coefficient on imports is then 0.33 (p = 0.024). For broad measures
-within ten years (Japan and Korea, N = 63), the shares by third are
-0.19, 0.14 and 0.29. The logit coefficient is 0.24 (p = 0.43). The
-allocation by number of tariff lines rather than by value is an
-approximation.
+within ten years (Japan and Korea outside textiles, N = 56), the shares
+by third are 0.21, 0.11 and 0.26. The logit coefficient is 0.03 (p =
+0.92). The allocation by number of tariff lines rather than by value is
+an approximation.
 
 \hypertarget{e.-parliamentary-attention-in-britain-1850-1914}{%
 \section*{Appendix E. Parliamentary attention in Britain,
@@ -3142,9 +3149,9 @@ items}\label{k.-threats-to-validity-and-open-items}}
   for Japan and Korea leaves out textile groups; this choice was made
   after the sweep had added the textile agreements. With them, the
   crossover indicator is no longer significant and the gradient is
-  unchanged. Selection results that need the raw trade data (Section
-  D.5, \texttt{data/\allowbreak{}population\_\allowbreak{}weight.csv}) were not rerun after the
-  sweep and still include textile groups. \# L. Convergence after
+  unchanged. All results were rerun after the sweep from freshly
+  downloaded Comtrade data (27 November 2026); the rebuilt panel
+  reproduces the stored one exactly. \# L. Convergence after
   displacement
 \end{enumerate}
 

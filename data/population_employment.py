@@ -41,7 +41,7 @@ W["emp_k"] = [emp(d, cd, y) for d, cd, y in zip(W.data, W.code, W.crossover_year
 W["l_emp"] = np.log1p(W.emp_k)
 W.to_csv(D / "population_weight.csv", index=False)
 out = [f"Gruppen mit Beschaeftigung: {W.emp_k.notna().sum()} von {len(W)}; Median {W.emp_k.median():.1f} Tsd."]
-for y, sub, lab in (("broad10", W[W.data == "s1"], "breite Massnahme binnen 10 J., JP und KR (s1)"),
+for y, sub, lab in (("broad10", W[(W.data == "s1") & ~W.code.astype(str).str[:2].isin(["65", "84"])], "breite Massnahme binnen 10 J., JP und KR (s1), ohne Textil (SITC 65, 84)"),
                     ("ad5", W.dropna(subset=["ad5"]), "AD/CVD binnen 5 J., alle Quellen")):
     sub = sub.dropna(subset=["l_emp"])
     fe = " + C(src)" if sub.src.nunique() > 1 else ""

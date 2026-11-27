@@ -1,7 +1,7 @@
 Gruppen mit Beschaeftigung: 386 von 391; Median 7.8 Tsd.
-breite Massnahme binnen 10 J., JP und KR (s1) | broad10 ~ l_emp + C(src): N=63; l_emp +0.24 (p=0.428)
-breite Massnahme binnen 10 J., JP und KR (s1) | broad10 ~ l_emp + l_m_us + C(src): N=63; l_emp +0.34 (p=0.324); l_m_us -0.12 (p=0.507)
-   nach Terzil der Beschaeftigung: niedrig 0.19 (Median 19 Tsd.), mittel 0.14 (Median 64 Tsd.), hoch 0.29 (Median 212 Tsd.)
+breite Massnahme binnen 10 J., JP und KR (s1), ohne Textil (SITC 65, 84) | broad10 ~ l_emp + C(src): N=56; l_emp +0.03 (p=0.922)
+breite Massnahme binnen 10 J., JP und KR (s1), ohne Textil (SITC 65, 84) | broad10 ~ l_emp + l_m_us + C(src): N=56; l_emp +0.11 (p=0.761); l_m_us -0.10 (p=0.626)
+   nach Terzil der Beschaeftigung: niedrig 0.21 (Median 19 Tsd.), mittel 0.11 (Median 64 Tsd.), hoch 0.26 (Median 212 Tsd.)
 AD/CVD binnen 5 J., alle Quellen | ad5 ~ l_emp + C(src): N=226; l_emp +0.43 (p=0.017)
 AD/CVD binnen 5 J., alle Quellen | ad5 ~ l_emp + l_m_us + C(src): N=226; l_emp +0.11 (p=0.643); l_m_us +0.33 (p=0.024)
    nach Terzil der Beschaeftigung: niedrig 0.01 (Median 1 Tsd.), mittel 0.16 (Median 8 Tsd.), hoch 0.25 (Median 60 Tsd.)

@@ -166,7 +166,7 @@ for (tgt, data, code), g in P[P.crossover_year.notna()].groupby(["challenger", "
 W = pd.DataFrame(W)
 W.to_csv(D / "population_weight.csv", index=False)
 out += ["", "Gewicht: Logit unter verdraengten Gruppen; Regressoren in log Mio. USD im Kreuzungsjahr"]
-for y, sub, lab in (("broad10", W[W.data == "s1"], "breite Massnahme binnen 10 J., JP und KR (s1)"),
+for y, sub, lab in (("broad10", W[(W.data == "s1") & ~W.code.astype(str).str[:2].isin(["65", "84"])], "breite Massnahme binnen 10 J., JP und KR (s1), ohne Textil (SITC 65, 84)"),
                     ("ad5", W.dropna(subset=["ad5"]), "AD/CVD-Verfahren binnen 5 J., alle Quellen")):
     try:
         fe = " + C(src)" if sub.src.nunique() > 1 else ""

@@ -6,8 +6,8 @@ KR_s1: 88 Gruppen, davon verdraengt 25; Jahre 1962-1999
 KR_s3: 156 Gruppen, davon verdraengt 32; Jahre 1992-2009
 
 (a) Beginn gezielter breiter Massnahmen, Gruppen bis zum ersten Treffer
-JP und KR, SITC Rev. 1, 1962-1999: je 100 Gruppenjahre vor 0.24 (11 Ereignisse, 4673 Gj.), nach 1.15 (16, 1395); IRR 5.69 (95 % KI 2.31-14.02), p=0.000
-CN ohne 301-Zoelle (s3 und hs4): je 100 Gruppenjahre vor 0.02 (1 Ereignisse, 5985 Gj.), nach 0.04 (4, 9941); IRR 1.13 (95 % KI 0.11-11.24), p=0.916
+JP und KR, SITC Rev. 1, 1962-1999: je 100 Gruppenjahre vor 0.47 (21 Ereignisse, 4481 Gj.), nach 1.13 (15, 1322); IRR 3.50 (95 % KI 1.68-7.28), p=0.001
+CN ohne 301-Zoelle (s3 und hs4): je 100 Gruppenjahre vor 0.02 (1 Ereignisse, 5834 Gj.), nach 0.04 (4, 9098); IRR 1.20 (95 % KI 0.12-11.90), p=0.878
 CN hs4, 301-Zoelle 2018: erfasst 813 von 813 Gruppen; davon verdraengt 609 von 609, nicht verdraengt 204 von 204
 
 (b) Neue US-AD/CVD-Verfahren gegen den Aufsteiger, 1988-2015
@@ -29,7 +29,7 @@ nie     5782   150.0   2.59
 >=10    1171   104.0   8.88
 
 Gewicht: Logit unter verdraengten Gruppen; Regressoren in log Mio. USD im Kreuzungsjahr
-breite Massnahme binnen 10 J., JP und KR (s1): N=66, Anteil 0.21; l_m_us -0.06 (p=0.775); l_x_us -0.59 (p=0.466); l_x_ch +0.67 (p=0.480)
-   nach Terzil der US-Einfuhren aus dem Aufsteiger: niedrig 0.27, mittel 0.14, hoch 0.23
+breite Massnahme binnen 10 J., JP und KR (s1), ohne Textil (SITC 65, 84): N=59, Anteil 0.20; l_m_us -0.17 (p=0.438); l_x_us -1.06 (p=0.183); l_x_ch +1.28 (p=0.168)
+   nach Terzil der US-Einfuhren aus dem Aufsteiger: niedrig 0.30, mittel 0.16, hoch 0.15
 AD/CVD-Verfahren binnen 5 J., alle Quellen: N=228, Anteil 0.14; l_m_us +0.20 (p=0.247); l_x_us +2.61 (p=0.027); l_x_ch -2.41 (p=0.038)
    nach Terzil der US-Einfuhren aus dem Aufsteiger: niedrig 0.01, mittel 0.11, hoch 0.30
